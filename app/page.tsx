@@ -1,13 +1,10 @@
 'use client';
 
-import { useChat, experimental_useAssistant as useAssistant } from 'ai/react';
+import { experimental_useAssistant as useAssistant } from 'ai/react';
 
-console.log('@@@@@@@@ useChat');
-console.log(useChat)
-
-import Inputer from "./inputer";
-import Messages from "./messages";
-import Themer from "./themer";
+import Inputer from "../components/inputer";
+import Chat from "../components/chat";
+import Themer from "../components/themer";
 
 export default function Home() {
   const { status, messages, input, submitMessage, handleInputChange, error } =
@@ -19,7 +16,7 @@ export default function Home() {
       <Themer />
       <h1 className="text-5xl">Dune Imperium</h1>
       <h2>Ask any rules question. Get answers directly from the rule book.</h2>
-      <Messages messages={messages} status={status} />
+      <Chat messages={messages} status={status} />
       <Inputer submitMessage={submitMessage} onChange={handleInputChange} />
     </main>
   );
