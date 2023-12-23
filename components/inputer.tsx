@@ -1,5 +1,5 @@
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
-import { ChangeEvent, FormEvent, KeyboardEvent, useRef, useState } from "react";
+import { ChangeEvent, FormEvent, KeyboardEvent, useEffect, useRef, useState } from "react";
 
 type Props = {
   submitMessage: (
@@ -12,13 +12,19 @@ type Props = {
 };
 
 export default function Inputer({ submitMessage, onChange }: Props) {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState('');
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
+  useEffect(() => {
+    if (textAreaRef.current) {
+      textAreaRef.current.focus();
+    }
+  }, []);
   const handleFormSubmit = async (event: FormEvent<Element>) => {
     event.preventDefault();
     if (textAreaRef.current) {
-      textAreaRef.current.value = "";
+      textAreaRef.current.value = '';
       textAreaRef.current.focus();
+      setValue('');
     }
     submitMessage();
   };

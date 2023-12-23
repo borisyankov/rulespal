@@ -9,40 +9,36 @@ async function getGameInfo(gameId: number) {
     );
     const data = await response.text();
     const parser = new xml2js.Parser();
-
-    parser
-      .parseStringPromise(data)
-      .then(function (result) {
-        console.log(JSON.stringify(result, null, 2));
-        // Process the result here
-      })
-      .catch(function (err) {
-        console.error("Error parsing XML:", err);
-      });
+    try {
+      const result = await parser.parseStringPromise(data);
+      console.log(JSON.stringify(result, null, 2));
+    } catch (err) {
+      console.error("Error parsing XML:", err);
+    }
   } catch (error) {
     console.error("Error fetching game data:", error);
   }
 }
 
 export default function Assistant() {
-    async function onSubmit(event: FormEvent<HTMLFormElement>) {
-        'use server'
-        // event.preventDefault()
-     
-        const formData = new FormData(event.currentTarget)
-        // const response = await fetch('/api/submit', {
-        //   method: 'POST',
-        //   body: formData,
-        // })
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    "use server";
+    // event.preventDefault()
 
-        console.log(formData);
+    const formData = new FormData(event.currentTarget);
+    // const response = await fetch('/api/submit', {
+    //   method: 'POST',
+    //   body: formData,
+    // })
 
-        // getGameInfo(123456);
-     
-        // Handle response if necessary
-        // const data = await response.json()
-        // ...
-      }
+    console.log(formData);
+
+    // getGameInfo(123456);
+
+    // Handle response if necessary
+    // const data = await response.json()
+    // ...
+  }
 
   return (
     <main className="flex min-h-screen flex-col p-24">

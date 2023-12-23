@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "add": "^2.0.6",
     "ai": "^2.2.29",
     "daisyui": "^4.4.23",
     "next": "14.0.4",
@@ -20,6 +21,7 @@
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.4.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

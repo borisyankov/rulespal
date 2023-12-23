@@ -64,12 +64,9 @@ export default async function ListAssistants() {
                       {assistant.file_ids}
                     </td>
                     <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
-                      <a
-                        href="#"
-                        className="text-indigo-400 hover:text-indigo-300"
-                      >
+                      <Link href="/" className="text-indigo-400 hover:text-indigo-300">
                         Edit<span className="sr-only">, {assistant.id}</span>
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                 ))}
