@@ -64,6 +64,8 @@ export async function POST(req: Request) {
         })
       ).data;
 
+      console.log('@@@ MESSAGES', responseMessages);
+
       // Send the messages
       for (const message of responseMessages) {
         sendMessage({
