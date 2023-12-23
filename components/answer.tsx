@@ -1,15 +1,5 @@
 import { Message } from "ai/react";
-
-// const roleToIconMap: Record<
-//   Message["role"],
-//   React.ForwardRefExoticComponent<Omit<React.SVGProps<SVGSVGElement>, "ref">>
-// > = {
-//   system: QuestionMarkCircleIcon,
-//   user: UserCircleIcon,
-//   function: QuestionMarkCircleIcon,
-//   assistant: BookOpenIcon,
-//   data: QuestionMarkCircleIcon, // special handling needed
-// };
+import Markdown from "react-markdown";
 
 type Props = {
   m: Message;
@@ -17,10 +7,8 @@ type Props = {
 
 export default function Answer({ m }: Props) {
   return (
-    <div
-      className="mb-10 text-base"
-    >
+    <Markdown className="answer mb-10">
       {m.content}
-    </div>
+    </Markdown>
   );
 }

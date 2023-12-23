@@ -18,7 +18,7 @@ export default function Chat({ messages, status }: Props) {
         )
       )}
       {status === "in_progress" && (
-        <div className="h-8 w-full max-w-md p-2 mb-8 bg-gray-300 dark:bg-gray-600 rounded-lg animate-pulse" />
+        <span className="loading loading-dots loading-lg"></span>
       )}
     </div>
   );

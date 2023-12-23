@@ -16,9 +16,9 @@ type Props = {
 
 export default function Inputer({ submitMessage, onChange }: Props) {
   return (
-    <div className="rounded-full md:p-sm bg-offset dark:bg-offsetDark">
+    <div className="">
       <form
-        className="stretch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
+        className="stretch mx-2 flex flex-row gap-3 my-4 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
         onSubmit={submitMessage}
       >
         <textarea

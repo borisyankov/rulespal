@@ -19,3 +19,15 @@
 body {
   color: rgb(var(--foreground-rgb));
 } */
+
+.answer ul
+{
+    list-style: initial;
+    margin: initial;
+    padding: 0 0 0 2rem;
+}
+
+.answer li
+{
+    display: list-item;
+}
