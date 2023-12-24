@@ -13,7 +13,7 @@ export default function Home() {
       api: '/api/chat',
     });
   return (
-    <main className="flex min-h-screen flex-col items-stretch p-8">
+    <main className="flex min-h-screen flex-col items-stretch">
       <Navbar />
       {messages.length ?
       <Chat messages={messages} status={status} /> : <EmptySlate />}
