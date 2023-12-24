@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import './globals.css'
 
 const montserratt = Montserrat({ subsets: ['latin'], weight: '400' })
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserratt.className}>{children}</body>
+      <SpeedInsights />
     </html>
   )
 }
