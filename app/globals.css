@@ -20,6 +20,10 @@ body {
   color: rgb(var(--foreground-rgb));
 } */
 
+.answer p {
+  margin: 0.75rem 0;
+}
+
 .answer ul, .answer ol
 {
     list-style: initial;

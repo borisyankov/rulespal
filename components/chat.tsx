@@ -18,7 +18,7 @@ export default function Chat({ messages, status }: Props) {
         )
       )}
       {status === "in_progress" && (
-        <span className="loading loading-dots loading-lg"></span>
+        <span className="loading loading-dots loading-lg" />
       )}
     </div>
   );

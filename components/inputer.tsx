@@ -41,12 +41,12 @@ export default function Inputer({ submitMessage, onChange }: Props) {
   return (
     <div className="">
       <form
-        className="stretch mx-2 flex flex-row gap-3 my-4 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
+        className="stretch mx-4 flex flex-row gap-3 my-4 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
         onSubmit={handleFormSubmit}
       >
         <textarea
           id="prompt-textarea"
-          className="resize-none w-full rounded-3xl border-0 px-4 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          className="resize-none w-full rounded-3xl border-0 px-4 py-1.5 shadow-sm ring-1 ring-inset ring-amber-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-amber-300 sm:text-sm sm:leading-6 outline-amber-300"
           ref={textAreaRef}
           style={{ height }}
           placeholder="Ask a rules question..."
@@ -56,7 +56,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
         />
         <button
           type="submit"
-          className="rounded-full p-1.5 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:opacity-50"
+          className="-ml-12 rounded-full p-2 text-white hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 disabled:opacity-25 disabled:bg-opacity-0"
           disabled={value.length === 0}
         >
           <PaperAirplaneIcon className="h-5 w-5" aria-hidden="true" />

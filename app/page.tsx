@@ -1,23 +1,28 @@
-'use client';
+"use client";
 
-import { experimental_useAssistant as useAssistant } from 'ai/react';
-
-import Inputer from "../components/inputer";
+import { experimental_useAssistant as useAssistant } from "ai/react";
+import EmptySlate from "@/components/empty-slate";
 import Chat from "../components/chat";
 import Navbar from "../components/navbar";
-import EmptySlate from '@/components/empty-slate';
+import Inputer from "../components/inputer";
 
 export default function Home() {
+  
   const { status, messages, input, submitMessage, handleInputChange, error } =
-  useAssistant({
-      api: '/api/chat',
+    useAssistant({
+      api: "/api/chat",
     });
   return (
-    <main className="flex min-h-screen flex-col items-stretch">
+    <div>
       <Navbar />
-      {messages.length ?
-      <Chat messages={messages} status={status} /> : <EmptySlate />}
-      <Inputer submitMessage={submitMessage} onChange={handleInputChange} />
-    </main>
+      <main className="lg:pl-72 flex min-h-screen flex-col">
+        {messages.length ? (
+          <Chat messages={messages} status={status} />
+        ) : (
+          <EmptySlate />
+        )}
+        <Inputer submitMessage={submitMessage} onChange={handleInputChange} />
+      </main>
+    </div>
   );
 }
