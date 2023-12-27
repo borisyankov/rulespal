@@ -13,6 +13,7 @@ type Props = {
 
 export default function Inputer({ submitMessage, onChange }: Props) {
   const [value, setValue] = useState('');
+  const [isComposing, setIsComposing] = useState(false);
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
   useEffect(() => {
     if (textAreaRef.current) {
@@ -33,7 +34,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
     onChange(event);
   };
   const handleKeyDown = (event: KeyboardEvent<HTMLTextAreaElement>) => {
-    if (event.key === "Enter" && !event.shiftKey) {
+    if (event.key === "Enter" && !event.shiftKey && !isComposing) {
       handleFormSubmit(event);
     }
   };
@@ -41,7 +42,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
   return (
     <div className="">
       <form
-        className="stretch mx-4 flex flex-row gap-3 my-4 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
+        className="stretch flex flex-row gap-3 mt-4 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
         onSubmit={handleFormSubmit}
       >
         <textarea
@@ -51,6 +52,8 @@ export default function Inputer({ submitMessage, onChange }: Props) {
           style={{ height }}
           placeholder="Ask a rules question..."
           spellCheck="false"
+          onCompositionStart={() => setIsComposing(true)}
+          onCompositionEnd={() => setIsComposing(false)}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />

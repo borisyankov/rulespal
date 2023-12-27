@@ -13,9 +13,9 @@ export default function Home() {
       api: "/api/chat",
     });
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="lg:pl-72 flex min-h-screen flex-col">
+      <main className="lg:pl-72 flex flex-1 flex-col p-4">
         {messages.length ? (
           <Chat messages={messages} status={status} />
         ) : (
