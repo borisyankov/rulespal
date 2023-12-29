@@ -1,13 +1,16 @@
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
+import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, KeyboardEvent, useEffect, useRef, useState } from "react";
 
 type Props = {
-  submitMessage: (
-    event?: FormEvent<HTMLFormElement>,
-    requestOptions?: {
-      data?: Record<string, string>;
-    }
-  ) => Promise<void>;
+  submitMessage: (e: FormEvent<HTMLFormElement>, chatRequestOptions?: ChatRequestOptions | undefined) => void
+  
+  // (
+  //   event?: FormEvent<HTMLFormElement>,
+  //   requestOptions?: {
+  //     data?: Record<string, string>;
+  //   }
+  // ) => Promise<void>;
   onChange: (event: React.ChangeEvent<HTMLTextAreaElement> | React.ChangeEvent<HTMLInputElement>) => void;
 };
 
@@ -27,7 +30,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
       textAreaRef.current.focus();
       setValue('');
     }
-    submitMessage();
+    submitMessage(event);
   };
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setValue(event.target.value);

@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 // IMPORTANT! Set the runtime to edge
-export const runtime = 'edge';6
+export const runtime = 'edge';
 
 export async function POST(req: Request) {
   // Parse the request body

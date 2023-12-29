@@ -1,6 +1,6 @@
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 import { FormEvent } from "react";
-import xml2js from "xml2js";
+import {XMLParser, XMLBuilder, XMLValidator}  from "fast-xml-parser";
 
 async function getGameInfo(gameId: number) {
   try {
@@ -8,10 +8,10 @@ async function getGameInfo(gameId: number) {
       `https://boardgamegeek.com/xmlapi2/thing?id=${gameId}`
     );
     const data = await response.text();
-    const parser = new xml2js.Parser();
     try {
-      const result = await parser.parseStringPromise(data);
-      console.log(JSON.stringify(result, null, 2));
+      const parser = new XMLParser();
+      const result = parser.parse(data);
+      console.log(JSON.stringify(result.items.item, null, 2));
     } catch (err) {
       console.error("Error parsing XML:", err);
     }
@@ -20,10 +20,12 @@ async function getGameInfo(gameId: number) {
   }
 }
 
+getGameInfo(262712);
+
 export default function Assistant() {
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     "use server";
-    // event.preventDefault()
+    event.preventDefault()
 
     const formData = new FormData(event.currentTarget);
     // const response = await fetch('/api/submit', {
@@ -33,7 +35,7 @@ export default function Assistant() {
 
     console.log(formData);
 
-    // getGameInfo(123456);
+    await getGameInfo(262712);
 
     // Handle response if necessary
     // const data = await response.json()

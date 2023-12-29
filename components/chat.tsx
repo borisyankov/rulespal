@@ -17,9 +17,9 @@ export default function Chat({ messages, status }: Props) {
           <Answer key={m.id} m={m} />
         )
       )}
-      {status === "in_progress" && (
+      {/* {status === "in_progress" && (
         <span className="loading loading-dots loading-lg" />
-      )}
+      )} */}
     </div>
   );
 }
