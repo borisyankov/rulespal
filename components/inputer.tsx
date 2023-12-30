@@ -50,7 +50,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
       >
         <textarea
           id="prompt-textarea"
-          className="resize-none w-full rounded-3xl border-0 px-4 py-1.5 shadow-sm ring-1 ring-inset ring-amber-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-amber-300 sm:text-sm sm:leading-6 outline-amber-300"
+          className="resize-none w-full rounded-3xl border-0 px-4 py-1.5 shadow-sm ring-1 ring-inset bg-gray-700 ring-amber-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-amber-300 sm:text-sm sm:leading-6 outline-amber-300"
           ref={textAreaRef}
           style={{ height }}
           placeholder="Ask a rules question..."
