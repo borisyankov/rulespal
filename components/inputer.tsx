@@ -23,7 +23,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
       textAreaRef.current.focus();
     }
   }, []);
-  const handleFormSubmit = async (event: FormEvent<Element>) => {
+  const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (textAreaRef.current) {
       textAreaRef.current.value = '';
@@ -38,7 +38,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
   };
   const handleKeyDown = (event: KeyboardEvent<HTMLTextAreaElement>) => {
     if (event.key === "Enter" && !event.shiftKey && !isComposing) {
-      handleFormSubmit(event);
+      textAreaRef.current?.form?.submit();
     }
   };
   const height = value.split("\n").length * 24 + 12;
