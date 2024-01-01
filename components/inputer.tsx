@@ -4,19 +4,13 @@ import { ChangeEvent, FormEvent, KeyboardEvent, useEffect, useRef, useState } fr
 
 type Props = {
   submitMessage: (e: FormEvent<HTMLFormElement>, chatRequestOptions?: ChatRequestOptions | undefined) => void
-  
-  // (
-  //   event?: FormEvent<HTMLFormElement>,
-  //   requestOptions?: {
-  //     data?: Record<string, string>;
-  //   }
-  // ) => Promise<void>;
   onChange: (event: React.ChangeEvent<HTMLTextAreaElement> | React.ChangeEvent<HTMLInputElement>) => void;
 };
 
 export default function Inputer({ submitMessage, onChange }: Props) {
   const [value, setValue] = useState('');
   const [isComposing, setIsComposing] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
   useEffect(() => {
     if (textAreaRef.current) {
@@ -37,14 +31,15 @@ export default function Inputer({ submitMessage, onChange }: Props) {
     onChange(event);
   };
   const handleKeyDown = (event: KeyboardEvent<HTMLTextAreaElement>) => {
-    if (event.key === "Enter" && !event.shiftKey && !isComposing) {
-      textAreaRef.current?.form?.submit();
+    if (event.key === "Enter" && event.shiftKey || isComposing) {
+      // event.preventDefault();
     }
   };
   const height = value.split("\n").length * 24 + 12;
   return (
     <div className="">
       <form
+        ref={formRef}
         className="stretch flex flex-row gap-3 mt-4 lg:mx-auto lg:max-w-2xl xl:max-w-3xl"
         onSubmit={handleFormSubmit}
       >

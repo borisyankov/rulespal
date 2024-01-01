@@ -11,7 +11,7 @@ export default function Home() {
   //   useChat({
   //       api: "/api/chat",
   //     });
-  const { messages, input, handleInputChange, handleSubmit } = useChat({ api: "/api/chat2" });
+  const { messages, input, handleInputChange, handleSubmit } = useChat({ api: "/api/chat" });
   const status = "in_progress";
   return (
     <div className="min-h-screen flex flex-col">

@@ -1,81 +1,42 @@
-import { experimental_AssistantResponse } from 'ai';
-import OpenAI from 'openai';
-import { MessageContentText } from 'openai/resources/beta/threads/messages/messages';
+import { searchFor } from "@/app/lib/data";
+import { StreamingTextResponse, LangChainStream, Message } from "ai";
+import { ChatOpenAI } from "langchain/chat_models/openai";
+// from langchain.prompts.chat import (
+//   ChatPromptTemplate,
+//   HumanMessagePromptTemplate,
+//   SystemMessagePromptTemplate,
+// )
 
-// Create an OpenAI API client (that's edge friendly!)
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || '',
-});
+import { AIMessage, HumanMessage, SystemMessage } from "langchain/schema";
 
-// IMPORTANT! Set the runtime to edge
-export const runtime = 'edge';
+export const runtime = "edge";
 
 export async function POST(req: Request) {
-  // Parse the request body
-  const input: {
-    threadId: string | null;
-    message: string;
-  } = await req.json();
+  const { messages } = await req.json();
 
-  // Create a thread if needed
-  const threadId = input.threadId ?? (await openai.beta.threads.create({})).id;
+  const lastMessage = messages[messages.length - 1];
+  console.time("searchFor");
+  const foundRules = await searchFor(lastMessage.content);
+  console.timeEnd("searchFor");
 
-  // Add a message to the thread
-  const createdMessage = await openai.beta.threads.messages.create(threadId, {
-    role: 'user',
-    content: input.message,
+  const { stream, handlers } = LangChainStream();
+
+  const llm = new ChatOpenAI({
+    temperature: 0,
+    streaming: true,
   });
 
-  return experimental_AssistantResponse(
-    { threadId, messageId: createdMessage.id },
-    async ({ threadId, sendMessage, sendDataMessage }) => {
-      // Run the assistant on the thread
-      const run = await openai.beta.threads.runs.create(threadId, {
-        assistant_id: 'asst_it8KxxVXPF9HuXykG1UwyaTp',
-      });
+  const promptMessage = new SystemMessage({
+    content: `You are a helpful assistant that knows every rule in Dune Imperium. To answer use this context: ${foundRules.content}`,
+  });
 
-      async function waitForRun(run: OpenAI.Beta.Threads.Runs.Run) {
-        // Poll for status change
-        while (run.status === 'queued' || run.status === 'in_progress') {
-          // delay for 500ms:
-          await new Promise(resolve => setTimeout(resolve, 500));
-
-          run = await openai.beta.threads.runs.retrieve(threadId!, run.id);
-        }
-
-        // Check the run status
-        if (
-          run.status === 'cancelled' ||
-          run.status === 'cancelling' ||
-          run.status === 'failed' ||
-          run.status === 'expired'
-        ) {
-          throw new Error(run.status);
-        }
-      }
-
-      await waitForRun(run);
-
-      // Get new thread messages (after our message)
-      const responseMessages = (
-        await openai.beta.threads.messages.list(threadId, {
-          after: createdMessage.id,
-          order: 'asc',
-        })
-      ).data;
-
-      console.log('MESSAGES', responseMessages);
-
-      // Send the messages
-      for (const message of responseMessages) {
-        sendMessage({
-          id: message.id,
-          role: 'assistant',
-          content: message.content.filter(
-            content => content.type === 'text',
-          ) as Array<MessageContentText>,
-        });
-      }
-    },
+  const llmMessagees = (messages as Message[]).map((m) =>
+    m.role === "user" ? new HumanMessage(m.content) : new AIMessage(m.content)
   );
+
+  llm
+    .call([promptMessage, ...llmMessagees], {}, [handlers])
+    .catch(console.error);
+
+  return new StreamingTextResponse(stream);
 }
