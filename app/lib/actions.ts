@@ -5,6 +5,7 @@ import pgvector from "pgvector/pg";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
+import { Document } from "@langchain/core/documents";
 
 export async function pdfToEmbeddings(filename: string) {
   const loader = new PDFLoader(filename);
@@ -26,7 +27,7 @@ export async function pdfToEmbeddings(filename: string) {
 export async function createEmbeddings(
   bggId: number,
   source: string,
-  chunks: Document<Record<string, any>>[],
+  chunks: Document[],
   embeddings: number[][]
 ) {
   try {

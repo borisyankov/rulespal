@@ -1,7 +1,7 @@
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 import { FormEvent } from "react";
 import {XMLParser, XMLBuilder, XMLValidator}  from "fast-xml-parser";
-import { pdfToEmbeddings, createEmbeddings, dododo, searchFor } from '@/app/lib/actions';
+import { pdfToEmbeddings, createEmbeddings, dododo } from '@/app/lib/actions';
 
 async function getGameInfo(gameId: number) {
   try {
@@ -22,7 +22,6 @@ async function getGameInfo(gameId: number) {
 }
 
 // dododo();
-searchFor("What is the hand-size limit?");
 
 export default function CreateGame() {
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
@@ -37,8 +36,8 @@ export default function CreateGame() {
 
     console.log(formData);
 
-    const vectors = await pdfToEmbeddings('..\\..\\DUNE_IMPERIUM_UPRISING_RULEBOOK.pdf');
-    createEmbeddings(397598, 'Rulebook', vectors);
+    // const vectors = await pdfToEmbeddings('..\\..\\DUNE_IMPERIUM_UPRISING_RULEBOOK.pdf');
+    // createEmbeddings(397598, 'Rulebook', vectors);
 
     // await getGameInfo(397598);
 
