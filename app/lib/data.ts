@@ -12,6 +12,5 @@ export async function searchFor(query: string) {
     [pgvector.toSql(vector)],
   );
   // where bggId = bggId
-  console.log(results);
-  return results.rows[0];
+  return results.rows;
 }
