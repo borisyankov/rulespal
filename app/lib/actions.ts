@@ -2,10 +2,12 @@
 
 import { sql } from "@vercel/postgres";
 import pgvector from "pgvector/pg";
+import OpenAI from "openai";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { Document } from "@langchain/core/documents";
+
+const openai = new OpenAI();
 
 export async function pdfToEmbeddings(filename: string) {
   const loader = new PDFLoader(filename);
@@ -16,10 +18,11 @@ export async function pdfToEmbeddings(filename: string) {
   });
   const chunks = await textSplitter.splitDocuments(docs);
   console.log(JSON.stringify(chunks, null, 2));
-  const embeddings = new OpenAIEmbeddings();
-  const vectors = await embeddings.embedDocuments(
-    chunks.map((x) => x.pageContent)
-  );
+  const embeddingResponse = await openai.embeddings.create({
+    input: chunks.map((x) => x.pageContent),
+    model: 'text-embedding-ada-002',
+  })
+  const vectors = embeddingResponse.data[0].embedding;
   console.log(vectors);
   return { chunks, vectors };
 }
@@ -46,13 +49,6 @@ export async function createEmbeddings(
 }
 
 export async function dododo() {
-  const { chunks, vectors } = await pdfToEmbeddings(
-    "..\\..\\DUNE_IMPERIUM_UPRISING_RULEBOOK.pdf"
-  );
-  createEmbeddings(397598, "Rulebook", chunks, vectors);
-}
-
-export async function qqqqq() {
   const { chunks, vectors } = await pdfToEmbeddings(
     "..\\..\\DUNE_IMPERIUM_UPRISING_RULEBOOK.pdf"
   );

@@ -2,15 +2,21 @@
 
 import { sql } from "@vercel/postgres";
 import pgvector from "pgvector/pg";
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
+import OpenAI from "openai";
+
+// Create an OpenAI API client (that's edge friendly!)
+const openai = new OpenAI();
 
 export async function searchFor(query: string) {
-  const embeddings = new OpenAIEmbeddings();
-  const vector = await embeddings.embedQuery(query);
-  const results = await sql.query(
+  const embeddingResponse = await openai.embeddings.create({
+    input: query,
+    model: 'text-embedding-ada-002',
+  })
+  const embedding = embeddingResponse.data[0].embedding;
+  const qslResults = await sql.query(
     "SELECT * FROM embeddings ORDER BY embedding <-> $1 LIMIT 5",
-    [pgvector.toSql(vector)],
+    [pgvector.toSql(embedding)],
   );
   // where bggId = bggId
-  return results.rows;
+  return qslResults.rows;
 }
