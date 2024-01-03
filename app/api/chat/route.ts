@@ -1,43 +1,39 @@
+import OpenAI from 'openai';
+import { Message, OpenAIStream, StreamingTextResponse } from "ai";
 import { searchFor } from "@/app/lib/data";
-import { StreamingTextResponse, LangChainStream, Message } from "ai";
-import { ChatOpenAI } from "langchain/chat_models/openai";
+import { getPrompt } from './prompt';
 
-import { AIMessage, HumanMessage, SystemMessage } from "langchain/schema";
+const openai = new OpenAI();
 
 export const runtime = "edge";
 
 export async function POST(req: Request) {
-  const { messages } = await req.json();
+  let { messages } = await req.json();
 
   const lastMessage = messages[messages.length - 1];
   const foundRules = await searchFor(lastMessage.content);
+  const rulesExcerpt = foundRules.map((x) => x.content).join("\n");
+  console.log('rules word count: ', rulesExcerpt.split(' ').length);
 
-  const { stream, handlers } = LangChainStream();
+  if (messages[0].role !== 'system') {
+    messages = [{
+      role: 'system',
+      content: getPrompt(rulesExcerpt),
+    },
+    ...messages];
+  }
 
-  const llm = new ChatOpenAI({
+  const response = await openai.chat.completions.create({
+    model: "gpt-3.5-turbo", // instruct?
+    stream: true,
     temperature: 0,
-    streaming: true,
+    messages,
+    // frequency_penalty: 1,
+    // presence_penalty: 1,
   });
 
-  const rulesExcerpt = foundRules.map(x => x.content).join("\n");
-  console.log(rulesExcerpt);
-  const promptMessage = new SystemMessage({
-    content: `You are a helpful assistant that knows every rule in Dune Imperium: Uprising.
-To answer questions about game rules use this:
-== START OF RULEBOOK EXCERPT ==
-${rulesExcerpt}
-== END OF RULEBOOK EXCERPT ==
-If you are not sure about the answer, say "I don't know" or "I'm not sure".
-`,
-  });
-
-  const llmMessagees = (messages as Message[]).map((m) =>
-    m.role === "user" ? new HumanMessage(m.content) : new AIMessage(m.content)
-  );
-
-  llm
-    .call([promptMessage, ...llmMessagees], {}, [handlers])
-    .catch(console.error);
-
+  // Convert the response into a friendly text-stream
+  const stream = OpenAIStream(response);
+  // Respond with the stream
   return new StreamingTextResponse(stream);
 }
