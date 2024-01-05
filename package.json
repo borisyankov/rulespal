@@ -16,6 +16,7 @@
     "@vercel/postgres": "^0.5.1",
     "add": "^2.0.6",
     "ai": "^2.2.29",
+    "eslint-plugin-tailwindcss": "^3.13.1",
     "fast-xml-parser": "^4.3.2",
     "langchain": "^0.0.213",
     "next": "14.0.4",

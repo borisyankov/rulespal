@@ -53,7 +53,7 @@ export default function Inputer({ submitMessage, onChange }: Props) {
         />
         <button
           type="submit"
-          className="-ml-12 rounded-full p-2 text-white hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 disabled:opacity-25 disabled:bg-opacity-0"
+          className="-ml-12 rounded-full p-2 text-white hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 disabled:opacity-25 disabled:bg-transparent"
           disabled={value.length === 0}
         >
           <PaperAirplaneIcon className="h-5 w-5" aria-hidden="true" />
