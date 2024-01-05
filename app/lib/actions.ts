@@ -7,7 +7,7 @@ import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Document } from "@langchain/core/documents";
 
-function recursiveTextSplitter(text: string, chunkSize: number, chunkOverlap: number) {
+export function recursiveTextSplitter(text: string, chunkSize: number, chunkOverlap: number): string[] {
   const delimiter = '.';
   // Base case: if the text is already within the maximum length, return it as is
   if (text.length <= chunkSize) {

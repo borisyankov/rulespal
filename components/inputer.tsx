@@ -1,6 +1,7 @@
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { ChatRequestOptions } from "ai";
-import { ChangeEvent, FormEvent, KeyboardEvent, useEffect, useRef, useState } from "react";
+import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
+import { useEnterSubmit } from "./use-enter-submit";
 
 type Props = {
   submitMessage: (e: FormEvent<HTMLFormElement>, chatRequestOptions?: ChatRequestOptions | undefined) => void
@@ -8,9 +9,8 @@ type Props = {
 };
 
 export default function Inputer({ submitMessage, onChange }: Props) {
+  const { formRef, onKeyDown } = useEnterSubmit()
   const [value, setValue] = useState('');
-  const [isComposing, setIsComposing] = useState(false);
-  const formRef = useRef<HTMLFormElement>(null);
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
   useEffect(() => {
     if (textAreaRef.current) {
@@ -19,8 +19,10 @@ export default function Inputer({ submitMessage, onChange }: Props) {
   }, []);
   const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (!value.trim()) {
+      return;
+    }
     if (textAreaRef.current) {
-      textAreaRef.current.value = '';
       textAreaRef.current.focus();
       setValue('');
     }
@@ -29,11 +31,6 @@ export default function Inputer({ submitMessage, onChange }: Props) {
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setValue(event.target.value);
     onChange(event);
-  };
-  const handleKeyDown = (event: KeyboardEvent<HTMLTextAreaElement>) => {
-    if (event.key === "Enter" && event.shiftKey || isComposing) {
-      // event.preventDefault();
-    }
   };
   const height = value.split("\n").length * 24 + 12;
   return (
@@ -48,12 +45,11 @@ export default function Inputer({ submitMessage, onChange }: Props) {
           className="resize-none w-full rounded-3xl border-0 px-4 py-1.5 shadow-sm ring-1 ring-inset bg-gray-700 ring-amber-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-amber-300 sm:text-sm sm:leading-6 outline-amber-300"
           ref={textAreaRef}
           style={{ height }}
-          placeholder="Ask a rules question..."
+          value={value}
+          placeholder="Ask about rules..."
           spellCheck="false"
-          onCompositionStart={() => setIsComposing(true)}
-          onCompositionEnd={() => setIsComposing(false)}
           onChange={handleChange}
-          onKeyDown={handleKeyDown}
+          onKeyDown={onKeyDown}
         />
         <button
           type="submit"
