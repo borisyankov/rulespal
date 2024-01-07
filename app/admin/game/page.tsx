@@ -1,102 +1,77 @@
-import { XMLParser }  from "fast-xml-parser";
+import Link from "next/link";
+import OpenAI from "openai";
 
-type PollResults = unknown[];
-
-type GameInfoXML = {
-  thumbnail: string;
-  image: string;
-  name: Array<{ type: 'primary' | 'alternate', sortindex: string, value: string }>;
-  description: string;
-  yearpublished: { value: string };
-  minplayers: { value: string };
-  maxplayers: { value: string };
-  poll: PollResults[];
-  playingtime: { value: string };
-  minplaytime: { value: string };
-  maxplaytime: { value: string };
-  minage: { value: string };
-  link: Array<{ type: 'boardgamecategory' | 'boardgamemechanic' | 'boardgamefamily', id: string, value: string }>;
-}
-
-type GameInfo = {
-  thumbnail: string;
-  image: string;
-  name: string;
-  description: string;
-  yearpublished: number;
-  minPlayers: number;
-  maxPlayers: number;
-  poll: { best: number[], recommended: number[], notrecommended: number[] };
-  playingTime: number;
-  minPlayTime: number;
-  maxPlayTime: number;
-  minAge: number;
-  category: string[];
-  mechanics: string[];
-  family: string[];
-}
-
-function objectToProcessedGameInfo(xml: GameInfoXML) {
-  return {
-    thumbnail: xml.thumbnail,
-    image: xml.image,
-    name: xml.name.find(x => x.type === 'primary')?.value,
-    description: xml.description,
-    yearPublished: +xml.yearpublished.value,
-    minPlayers: +xml.minplayers.value,
-    maxPlayers: +xml.maxplayers.value,
-    // poll: xml.poll.reduce((prev, poll) => { if (poll["Best"] >)}), // do some awesome parsing here
-    playingTime: +xml.playingtime.value,
-    minPlayTime: +xml.minplaytime.value,
-    maxPlayTime: +xml.maxplaytime.value,
-    minAge: +xml.minage.value,
-    communityMinAge: 0,
-    category: xml.link.filter(x => x.type === 'boardgamecategory').map(x => x.value),
-    mechanism: xml.link.filter(x => x.type === 'boardgamemechanic').map(x => x.value),
-    family: xml.link.filter(x => x.type === 'boardgamefamily').map(x => x.value),
-    // boardgameaccessory, boardgamedesigner, boardgameartist, boardgamepublisher
-  }
-}
-
-function gameInfoToHuman(gg: GameInfo): string {
-  return `Name: ${gg.name}
-Description: ${gg.description}
-Thumbnail: ${gg.thumbnail}
-Image: ${gg.image}
-Year Published: ${gg.yearpublished}
-Players: ${gg.minPlayers}-${gg.maxPlayers}
-Playing Time: ${gg.minPlayTime}-${gg.maxPlayTime} Min
-Age: ${gg.minAge}+
-`;
-}
-
-async function getGameInfo(gameId: number): Promise<unknown> {
-  try {
-    const response = await fetch(
-      `https://boardgamegeek.com/xmlapi2/thing?id=${gameId}&stats=1`
-    );
-    const data = await response.text();
-    try {
-      const parser = new XMLParser({ ignoreAttributes : false, attributeNamePrefix : "" });
-      const result = parser.parse(data);
-      // return result.items.item;
-      return objectToProcessedGameInfo(result.items.item);
-    } catch (err) {
-      console.error("Error parsing XML:", err);
-    }
-  } catch (error) {
-    console.error("Error fetching game data:", error);
-  }
-}
-
-export default async function ShowGameInfo() {
-  const gameInfo = await getGameInfo(262712);
+export default async function ListGames() {
+  const assistants = await openai.beta.assistants.list();
 
   return (
     <main className="flex min-h-screen flex-col p-24">
-      <h1 className="text-5xl">Game Info</h1>
-      {/* <pre>{gameInfo}</pre> */}
-      <pre>{JSON.stringify(gameInfo, null, 2)}</pre>
+      <h1 className="text-5xl">Assistants</h1>
+
+      <div className="mt-8 flow-root">
+        <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+          <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+            <table className="min-w-full divide-y divide-gray-700">
+              <thead>
+                <tr>
+                  <th
+                    scope="col"
+                    className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-white sm:pl-0"
+                  >
+                    Id
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-3 py-3.5 text-left text-sm font-semibold text-white"
+                  >
+                    Name
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-3 py-3.5 text-left text-sm font-semibold text-white"
+                  >
+                    Description
+                  </th>
+                  <th
+                    scope="col"
+                    className="px-3 py-3.5 text-left text-sm font-semibold text-white"
+                  >
+                    File Ids
+                  </th>
+                  <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-0">
+                    <span className="sr-only">Edit</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-800">
+                {assistants.data.map((assistant) => (
+                  <tr key={assistant.id}>
+                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-white sm:pl-0">
+                      {assistant.id}
+                    </td>
+                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
+                      {assistant.name}
+                    </td>
+                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
+                      {assistant.description}
+                    </td>
+                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
+                      {assistant.file_ids}
+                    </td>
+                    <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
+                      <Link href="/" className="text-indigo-400 hover:text-indigo-300">
+                        Edit<span className="sr-only">, {assistant.id}</span>
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <Link href="/admin/create">Create Assistant</Link>
     </main>
   );
 }
