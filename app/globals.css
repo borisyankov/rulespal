@@ -21,19 +21,3 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-start-rgb));
 } 
-
-.answer p {
-  margin: 0.75rem 0;
-}
-
-.answer ul, .answer ol
-{
-    list-style: initial;
-    margin: initial;
-    padding: 0 0 0 2rem;
-}
-
-.answer li
-{
-    display: list-item;
-}
