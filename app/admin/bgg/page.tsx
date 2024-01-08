@@ -94,10 +94,10 @@ export default async function ShowGameInfo() {
   const gameInfo = await getGameInfo(262712);
 
   return (
-    <main className="flex min-h-screen flex-col p-24">
+    <>
       <Title>Game Info</Title>
       {/* <pre>{gameInfo}</pre> */}
       <pre>{JSON.stringify(gameInfo, null, 2)}</pre>
-    </main>
+    </>
   );
 }

@@ -24,11 +24,11 @@ async function seedEmbeddings() {
   await sql`CREATE EXTENSION IF NOT EXISTS "vector"`;
   const createTable = await sql`
   CREATE TABLE IF NOT EXISTS embeddings (
-      id SERIAL PRIMARY KEY,
-      bggId NUMERIC NOT NULL,
-      source VARCHAR(255) NOT NULL,
-      content TEXT NOT NULL,
-      embedding vector(1536)
+    id SERIAL PRIMARY KEY,
+    bggId NUMERIC NOT NULL,
+    source VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    embedding vector(1536)
   );
 `;
 }

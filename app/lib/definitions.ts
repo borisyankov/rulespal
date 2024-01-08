@@ -7,5 +7,19 @@ export type LogEntry = {
 export type Game = {
   id: string;
   name: string;
-  bggId: string;
+  bggid: string;
+};
+
+export type Embedding = {
+  id: number;
+  bggid: number;
+  source: string;
+  content: string;
+  embedding: number[];
+};
+
+export type EmbeddingBrief = {
+  bggid: number;
+  gamename: string;
+  source: string;
 };

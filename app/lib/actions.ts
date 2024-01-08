@@ -6,41 +6,7 @@ import OpenAI from "openai";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Document } from "@langchain/core/documents";
-
-export function recursiveTextSplitter(text: string, chunkSize: number, chunkOverlap: number): string[] {
-  const delimiter = '.';
-  // Base case: if the text is already within the maximum length, return it as is
-  if (text.length <= chunkSize) {
-      return [text];
-  }
-
-  // Find the last occurrence of the delimiter before the chunkSize
-  let delimiterIndex = text.lastIndexOf(delimiter, chunkSize);
-
-  // If no delimiter is found within the chunkSize, use the chunkSize as the split index
-  if (delimiterIndex === -1) {
-      delimiterIndex = chunkSize;
-  } else {
-      // Include the delimiter in the left part
-      delimiterIndex += delimiter.length;
-  }
-
-  // Adjust the split index based on the chunkOverlap
-  delimiterIndex = Math.min(delimiterIndex + chunkOverlap, text.length);
-
-  // Split the text into two parts
-  const leftPart = text.substring(0, delimiterIndex);
-  const rightPart = text.substring(delimiterIndex - chunkOverlap);
-
-  // Recursively split each part
-  return [
-      ...recursiveTextSplitter(leftPart, chunkSize, chunkOverlap),
-      ...recursiveTextSplitter(rightPart, chunkSize, chunkOverlap)
-  ].filter((part, index, arr) => {
-      // Remove duplicated overlapping parts
-      return index === 0 || part !== arr[index - 1].substring(arr[index - 1].length - chunkOverlap);
-  });
-}
+import { EmbeddingBrief, Game } from "./definitions";
 
 const openai = new OpenAI();
 
@@ -56,7 +22,7 @@ export async function pdfToEmbeddings(filename: string) {
   const embeddingResponse = await openai.embeddings.create({
     input: chunks.map((x) => x.pageContent),
     model: 'text-embedding-ada-002',
-  })
+  });
   const vectors = embeddingResponse.data[0].embedding;
   console.log(vectors);
   return { chunks, vectors };
@@ -88,4 +54,53 @@ export async function dododo() {
     "..\\..\\DUNE_IMPERIUM_UPRISING_RULEBOOK.pdf"
   );
   createEmbeddings(397598, "Rulebook", chunks, [vectors]);
+}
+
+export async function createGame(formData: FormData) {
+  const { name, bggid } = { // UpdateInvoice.parse({
+    name: formData.get("game_name") as string,
+    bggid: formData.get("bgg_id") as string,
+  };
+
+  try {
+    await sql`
+      INSERT INTO games (name, bggId)
+      VALUES (${name}, ${bggid})`;
+  } catch (error) {
+    console.log(error);
+    return {
+      message: "Database Error: Failed to create game.",
+    };
+  }
+}
+
+export async function fetchGameById(id: string) {
+  try {
+    const data = await sql<Game>`
+      SELECT *
+      FROM games
+      WHERE id = ${id};
+    `;
+
+    return data.rows[0];
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch game.');
+  }
+}
+
+export async function fetchEmbeddingsById(bggid: string) {
+  try {
+    const data = await sql<EmbeddingBrief>`
+      SELECT g.name as gamename, g.bggId, MIN(e.source) AS source
+      FROM games g
+      INNER JOIN embeddings e ON g.bggId = e.bggId
+      WHERE g.bggId = ${bggid}
+      GROUP BY g.name, g.bggId;
+    `;
+    return data.rows;
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch game.');
+  }
 }

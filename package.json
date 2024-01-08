@@ -43,6 +43,8 @@
     "eslint-plugin-tailwindcss": "^3.13.1",
     "lint": "^0.8.19",
     "postcss": "^8",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
