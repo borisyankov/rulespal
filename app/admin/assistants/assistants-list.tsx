@@ -7,8 +7,9 @@ import {
   TableRow,
 } from "@/app/ui/catalyst/table";
 import Link from "next/link";
+import { Assistant } from "openai/resources/beta/assistants/assistants.mjs";
 
-export default async function ListAssistants({ assistants }) {
+export default async function ListAssistants({ assistants }: { assistants: Assistant[] }) {
   return (
       <Table>
         <TableHead>
