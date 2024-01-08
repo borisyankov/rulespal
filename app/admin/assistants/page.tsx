@@ -1,4 +1,4 @@
-import { Button } from "@/catalyst/button";
+import { Button } from "@/app/ui/catalyst/button";
 import {
   Table,
   TableBody,
@@ -6,7 +6,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/catalyst/table";
+} from "@/app/ui/catalyst/table";
+import Title from "@/app/ui/title";
 import Link from "next/link";
 import OpenAI from "openai";
 
@@ -18,7 +19,7 @@ export default async function ListAssistants() {
 
   return (
     <main className="flex min-h-screen flex-col p-24">
-      <h1 className="text-5xl">Assistants</h1>
+      <Title>Assistants</Title>
       <Table>
         <TableHead>
           <TableRow>

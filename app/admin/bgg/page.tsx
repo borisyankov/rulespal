@@ -1,3 +1,4 @@
+import Title from "@/app/ui/title";
 import { XMLParser }  from "fast-xml-parser";
 
 type PollResults = unknown[];
@@ -94,7 +95,7 @@ export default async function ShowGameInfo() {
 
   return (
     <main className="flex min-h-screen flex-col p-24">
-      <h1 className="text-5xl">Game Info</h1>
+      <Title>Game Info</Title>
       {/* <pre>{gameInfo}</pre> */}
       <pre>{JSON.stringify(gameInfo, null, 2)}</pre>
     </main>

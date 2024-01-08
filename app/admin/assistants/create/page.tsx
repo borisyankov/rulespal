@@ -2,6 +2,7 @@ import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 import { FormEvent } from "react";
 import {XMLParser, XMLBuilder, XMLValidator}  from "fast-xml-parser";
 import { pdfToEmbeddings, createEmbeddings, dododo } from '@/app/lib/actions';
+import Title from "@/app/ui/title";
 
 async function getGameInfo(gameId: number) {
   try {
@@ -48,7 +49,7 @@ export default function CreateGame() {
 
   return (
     <main className="flex min-h-screen flex-col p-24">
-      <h1 className="text-5xl">Create assistant</h1>
+      <Title>Create assistant</Title>
       <form onSubmit={onSubmit}>
         <div className="pb-5">
           <label

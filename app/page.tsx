@@ -1,10 +1,10 @@
 "use client";
 
 import { experimental_useAssistant as useAssistant, useChat } from "ai/react";
-import EmptySlate from "@/components/empty-slate";
-import Chat from "../components/chat";
-import Navbar from "../components/navbar";
-import Inputer from "../components/inputer";
+import EmptySlate from "@/app/ui/empty-slate";
+import Chat from "./ui/chat";
+import Navbar from "./ui/navbar";
+import Inputer from "./ui/inputer";
 
 export default function Home() {
   // const { status, messages, input, handleSubmit, handleInputChange, error } =
