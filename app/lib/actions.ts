@@ -6,7 +6,7 @@ import OpenAI from "openai";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Document } from "@langchain/core/documents";
-import { EmbeddingBrief, Game } from "./definitions";
+import { EmbeddingBrief, EmbeddingDetails, Game } from "./definitions";
 
 const openai = new OpenAI();
 
@@ -101,6 +101,34 @@ export async function fetchEmbeddingsById(bggid: string) {
     return data.rows;
   } catch (error) {
     console.error('Database Error:', error);
-    throw new Error('Failed to fetch game.');
+    throw new Error('Failed to fetch embeddings.');
+  }
+}
+
+export async function fetchEmbeddingsDetailsById(bggid: string): Promise<Record<string, EmbeddingDetails[]>> {
+  try {
+    const data = await sql<EmbeddingDetails>`
+      SELECT 
+        g.name as gamename, 
+        g.bggId, 
+        e.source AS source, 
+        e.content AS content, 
+        e.embedding AS embedding
+      FROM games g
+      INNER JOIN embeddings e ON g.bggId = e.bggId
+      WHERE g.bggId = ${bggid};
+    `;
+    const groupedData = data.rows.reduce((acc, row) => {
+      const { source, ...rest } = row;
+      if (!acc[source]) {
+        acc[source] = [];
+      }
+      acc[source].push(rest);
+      return acc;
+    }, {});
+    return groupedData;
+  } catch (error) {
+    console.error('Database Error:', error);
+    throw new Error('Failed to fetch embeddings details.');
   }
 }

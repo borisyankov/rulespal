@@ -25,7 +25,7 @@ export default async function EditGame({ params }: { params: { id: string } }) {
           <Input name="bgg_id" type="number" value={game.bggid}  />
         </Field>
       </form>
-      <h3 className="mt-10">Embeddings</h3>
+      <h2 className="mt-10">Embeddings</h2>
       <EmbeddingsList bggid={game.bggid} />
       <FileUpload />
     </>

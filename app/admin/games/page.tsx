@@ -1,6 +1,5 @@
 import { Game } from "@/app/lib/definitions";
-import { Link } from "@/app/ui/catalyst/link";
-// import { Button } from "@/catalyst/button";
+import { Button } from "@/app/ui/catalyst/button";
 import Title from "@/app/ui/title";
 import { sql } from "@vercel/postgres";
 import GamesList from "./games-list";
@@ -11,7 +10,7 @@ export default async function ListGames() {
     <>
       <Title>Games</Title>
       <GamesList games={games.rows} />
-      <Link href="/admin/games/create">Create</Link>
+      <Button href="/admin/games/create">Create</Button> 
     </>
   );
 }

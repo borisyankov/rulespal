@@ -1,7 +1,9 @@
+import { Button } from "@/app/ui/catalyst/button";
+
 export default async function FileUpload() {
   return (
     <form>
-      <button type="submit">UPLOAD FILE</button>
+      <Button type="submit">UPLOAD FILE</Button>
     </form>
   );
 }

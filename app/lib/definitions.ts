@@ -23,3 +23,11 @@ export type EmbeddingBrief = {
   gamename: string;
   source: string;
 };
+
+export type EmbeddingDetails = {
+  bggid: number;
+  gamename: string;
+  source: string;
+  content: string;
+  embedding: number[];
+};

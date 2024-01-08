@@ -3,6 +3,7 @@ import { FormEvent } from "react";
 import {XMLParser, XMLBuilder, XMLValidator}  from "fast-xml-parser";
 import { pdfToEmbeddings, createEmbeddings, dododo } from '@/app/lib/actions';
 import Title from "@/app/ui/title";
+import { Button } from "@/app/ui/catalyst/button";
 
 async function getGameInfo(gameId: number) {
   try {
@@ -69,12 +70,10 @@ export default function CreateGame() {
             />
           </div>
         </div>
-        <button
-          type="submit"
-          className="rounded-full bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        >
+        <Button
+          type="submit">
           Create
-        </button>
+        </Button>
       </form>
     </main>
   );

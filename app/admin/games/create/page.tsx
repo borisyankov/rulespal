@@ -1,4 +1,5 @@
 import { createGame } from "@/app/lib/actions";
+import { Button } from "@/app/ui/catalyst/button";
 import { Field, Label } from "@/app/ui/catalyst/fieldset";
 import { Input } from "@/app/ui/catalyst/input";
 import Title from "@/app/ui/title";
@@ -16,12 +17,7 @@ export default async function CreateGame() {
           <Label>BGG Id</Label>
           <Input name="bgg_id" type="number" value="266192" />
         </Field>
-        <button
-          type="submit"
-          className="rounded-full px-5 py-2 mt-5 text-white bg-amber-800 "
-        >
-          Create
-        </button>
+        <Button type="submit" href="/admin/games/create">Create</Button> 
       </form>
     </>
   );

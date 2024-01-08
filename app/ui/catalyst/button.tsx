@@ -1,11 +1,11 @@
-'use client'
+// 'use client'
 
 import { Button as HeadlessButton, type ButtonProps as HeadlessButtonProps } from '@headlessui/react'
 import { clsx } from 'clsx'
 import React from 'react'
 import { Link } from './link'
 
-let styles = {
+const styles = {
   base: [
     // Base
     'relative isolate inline-flex items-center justify-center gap-x-2 rounded-lg border text-base/6 font-semibold',
@@ -188,7 +188,7 @@ export const Button = React.forwardRef(function Button(
   { color, outline, plain, className, children, ...props }: ButtonProps,
   ref: React.ForwardedRef<HTMLElement>
 ) {
-  let classes = clsx(
+  const classes = clsx(
     className,
     styles.base,
     outline ? styles.outline : plain ? styles.plain : clsx(styles.solid, styles.colors[color ?? 'dark/zinc'])
@@ -199,7 +199,7 @@ export const Button = React.forwardRef(function Button(
       <TouchTarget>{children}</TouchTarget>
     </Link>
   ) : (
-    <HeadlessButton {...props} className={clsx(classes, 'cursor-default')} ref={ref}>
+    <HeadlessButton {...props} className={clsx(classes, 'cursor-pointer')} ref={ref}>
       <TouchTarget>{children}</TouchTarget>
     </HeadlessButton>
   )
