@@ -1,5 +1,4 @@
 import { fetchGameById } from "@/app/lib/actions";
-import { Field } from "@/app/ui/catalyst/fieldset";
 import Title from "@/app/ui/title";
 import { notFound } from 'next/navigation';
 import EmbeddingsList from "./embeddings-list";
@@ -17,14 +16,14 @@ export default async function EditGame({ params }: { params: { id: string } }) {
     <>
       <Title>Edit Game</Title>
       <form>
-        <Field>
+        <div>
           <Label>Name</Label>
           <Input name="game_name" value={game.name} />
-        </Field>
-        <Field>
+        </div>
+        <div>
           <Label>BGG Id</Label>
           <Input name="bgg_id" type="number" value={game.bggid}  />
-        </Field>
+        </div>
       </form>
       <h2 className="mt-8">Embeddings</h2>
       <EmbeddingsList bggid={game.bggid} />
