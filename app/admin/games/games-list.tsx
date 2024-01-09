@@ -1,5 +1,4 @@
 import { Game } from "@/app/lib/definitions";
-import { Link } from "@/app/ui/catalyst/link";
 import {
   Table,
   TableBody,
@@ -7,30 +6,32 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/app/ui/catalyst/table";
+} from "@/app/ui/table";
 
 export default async function ListGames({ games }: {games: Game[] })  {
   return (
     <Table>
-      <TableHead>
+      <TableHeader>
         <TableRow>
-          <TableHeader>Name</TableHeader>
-          <TableHeader>BGG Id</TableHeader>
-          <TableHeader />
+          <TableHead>Name</TableHead>
+          <TableHead>BGG Id</TableHead>
+          <TableHead />
         </TableRow>
-      </TableHead>
+      </TableHeader>
       <TableBody>
         {games.map((game) => (
           <TableRow key={game.id}>
             <TableCell>{game.name}</TableCell>
-            <TableCell className="text-zinc-500">{game.bggid}</TableCell>
+            <TableCell className="text-zinc-500">
+              <a className="underline" target="_blank" rel="noreferrer" href={`https://boardgamegeek.com/boardgame/${game.bggid}`}>{game.bggid}</a>
+            </TableCell>
             <TableCell>
-              <Link
+              <a
                 href={`/admin/games/${game.id}/edit`}
                 className="text-indigo-400 hover:text-indigo-300"
               >
                 Edit<span className="sr-only">, {game.id}</span>
-              </Link>
+              </a>
             </TableCell>
           </TableRow>
         ))}

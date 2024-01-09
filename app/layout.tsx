@@ -1,8 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Montserrat } from "next/font/google";
+import { M_PLUS_Rounded_1c } from "next/font/google";
 import "./globals.css";
 
-const montserratt = Montserrat({ subsets: ["latin"], weight: "400" });
+const mplus = M_PLUS_Rounded_1c({ 
+  subsets: ["latin"], 
+  weight: ['400', '500'],
+ });
 
 export const metadata: Metadata = {
   title: "RulesPal",
@@ -22,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`h-full ${montserratt.className}`}>{children}</body>
+      <body className={`h-full ${mplus.className}`}>{children}</body>
     </html>
   );
 }

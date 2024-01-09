@@ -1,9 +1,10 @@
-import { Button } from "@/app/ui/catalyst/button";
+import { Button } from "@/app/ui/button";
+import { ArrowUpTrayIcon } from "@heroicons/react/24/outline";
 
 export default async function FileUpload() {
   return (
     <form>
-      <Button type="submit">UPLOAD FILE</Button>
+      <Button color="amber" type="submit"><ArrowUpTrayIcon /> Upload File</Button>
     </form>
   );
 }

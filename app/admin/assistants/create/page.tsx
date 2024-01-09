@@ -1,9 +1,8 @@
-import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 import { FormEvent } from "react";
 import {XMLParser, XMLBuilder, XMLValidator}  from "fast-xml-parser";
 import { pdfToEmbeddings, createEmbeddings, dododo } from '@/app/lib/actions';
 import Title from "@/app/ui/title";
-import { Button } from "@/app/ui/catalyst/button";
+import { Button } from "@/app/ui/button";
 
 async function getGameInfo(gameId: number) {
   try {

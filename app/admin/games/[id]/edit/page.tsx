@@ -1,10 +1,11 @@
 import { fetchGameById } from "@/app/lib/actions";
-import { Field, Label } from "@/app/ui/catalyst/fieldset";
-import { Input } from "@/app/ui/catalyst/input";
+import { Field } from "@/app/ui/catalyst/fieldset";
 import Title from "@/app/ui/title";
 import { notFound } from 'next/navigation';
 import EmbeddingsList from "./embeddings-list";
 import FileUpload from "./file-upload";
+import { Input } from "@/app/ui/input";
+import { Label } from "@/app/ui/label";
 
 export default async function EditGame({ params }: { params: { id: string } }) {
   const id = params.id;
@@ -25,7 +26,7 @@ export default async function EditGame({ params }: { params: { id: string } }) {
           <Input name="bgg_id" type="number" value={game.bggid}  />
         </Field>
       </form>
-      <h2 className="mt-10">Embeddings</h2>
+      <h2 className="mt-8">Embeddings</h2>
       <EmbeddingsList bggid={game.bggid} />
       <FileUpload />
     </>

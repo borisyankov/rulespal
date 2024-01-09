@@ -6,21 +6,21 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/app/ui/catalyst/table";
+} from "@/app/ui/table";
 import Link from "next/link";
 
 export default async function EmbeddingsList({ bggid }: { bggid: string }) {
   const embeddings = await fetchEmbeddingsById(bggid);
   return (
     <Table>
-      <TableHead>
+      <TableHeader>
         <TableRow>
-          <TableHeader>Name</TableHeader>
-          <TableHeader>BGG Id</TableHeader>
-          <TableHeader>Source</TableHeader>
-          <TableHeader />
+          <TableHead>Name</TableHead>
+          <TableHead>BGG Id</TableHead>
+          <TableHead>Source</TableHead>
+          <TableHead />
         </TableRow>
-      </TableHead>
+      </TableHeader>
       <TableBody>
         {embeddings.map((embedding) => (
           <TableRow key={embedding.bggid}>

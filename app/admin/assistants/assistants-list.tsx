@@ -5,21 +5,21 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/app/ui/catalyst/table";
+} from "@/app/ui/table";
 import Link from "next/link";
 import { Assistant } from "openai/resources/beta/assistants/assistants.mjs";
 
 export default async function ListAssistants({ assistants }: { assistants: Assistant[] }) {
   return (
       <Table>
-        <TableHead>
+        <TableHeader>
           <TableRow>
-            <TableHeader>Name</TableHeader>
-            <TableHeader>Id</TableHeader>
-            <TableHeader>Description</TableHeader>
-            <TableHeader>File Ids</TableHeader>
+            <TableHead>Name</TableHead>
+            <TableHead>Id</TableHead>
+            <TableHead>Description</TableHead>
+            <TableHead>File Ids</TableHead>
           </TableRow>
-        </TableHead>
+        </TableHeader>
         <TableBody>
           {assistants.map((assistant) => (
             <TableRow key={assistant.id}>
