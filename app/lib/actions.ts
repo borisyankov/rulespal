@@ -119,13 +119,12 @@ export async function fetchEmbeddingsDetailsById(bggid: string): Promise<Record<
       WHERE g.bggId = ${bggid};
     `;
     const groupedData = data.rows.reduce((acc, row) => {
-      const { source, ...rest } = row;
-      if (!acc[source]) {
-        acc[source] = [];
+      if (!acc[row.source]) {
+        acc[row.source] = [];
       }
-      acc[source].push(rest);
+      acc[row.source].push(row);
       return acc;
-    }, {});
+    }, {} as Record<string, EmbeddingDetails[]>);
     return groupedData;
   } catch (error) {
     console.error('Database Error:', error);
