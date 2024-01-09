@@ -10,10 +10,10 @@ export default async function ViewEmbeddings({ params }: { params: { id: string 
     <>
       <Title>Embeddings</Title>
       {Object.keys(embeddingsDetails).map((key) => (
-        <p key={key}>
+        <ul key={key}>
           <h2>{embeddingsDetails[key][0].source}</h2>
           <EmbeddingsDetailsList embeddingsDetails={embeddingsDetails[key]} showEmbeddings={false} />
-        </p>
+        </ul>
       ))}
     </>
   );

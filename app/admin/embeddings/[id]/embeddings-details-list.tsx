@@ -4,10 +4,10 @@ export default async function EmbeddingsDetailsList({ embeddingsDetails, showEmb
   return (
     <>
       {embeddingsDetails.map((embedding, idx) => (
-        <div key={idx.toString()} className="py-4">
-          <p>{embedding.content}</p>
-          {showEmbeddings && <p className="text-zinc-500 break-words">{embedding.embedding}</p>}
-        </div>
+        <li key={idx.toString()} className="py-4">
+          <div>{embedding.content}</div>
+          {showEmbeddings && <div className="text-zinc-500 break-words">{embedding.embedding}</div>}
+        </li>
       ))}
     </>
   );
