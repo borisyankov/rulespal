@@ -32,7 +32,7 @@ export default function CreateGame() { // async
     <>
       <Title>Create Game</Title>
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+        <form onSubmit={form.handleSubmit(onSubmit)} className="max-w-full min-w-96 mx-auto space-y-8">
           <FormField
             control={form.control}
             name="gamename"

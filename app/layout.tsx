@@ -1,11 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { M_PLUS_Rounded_1c } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/app/ui/theme-provider";
 
-const mplus = M_PLUS_Rounded_1c({ 
-  subsets: ["latin"], 
-  weight: ['400', '500'],
- });
+const mplus = M_PLUS_Rounded_1c({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+});
 
 export const metadata: Metadata = {
   title: "RulesPal",
@@ -25,7 +26,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`h-full ${mplus.className}`}>{children}</body>
+      <body className={`h-full ${mplus.className}`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

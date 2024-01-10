@@ -12,8 +12,6 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
-// import Themer from "../components/themer";
-
 const navigation = [
   { name: "Anachrony", href: "#", icon: HomeIcon, current: true },
   { name: "Obsession", href: "#", icon: UsersIcon, current: false },
