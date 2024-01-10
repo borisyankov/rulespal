@@ -3,7 +3,7 @@
 import { experimental_useAssistant as useAssistant, useChat } from "ai/react";
 import EmptySlate from "@/app/ui/empty-slate";
 import Chat from "./ui/chat";
-import Navbar from "./ui/navbar";
+import Navbar from "./ui/gamebar";
 import Inputer from "./ui/inputer";
 
 export default function Home() {
