@@ -5,6 +5,7 @@ import EmbeddingsList from "./embeddings-list";
 import FileUpload from "./file-upload";
 import { Input } from "@/app/ui/input";
 import { Label } from "@/app/ui/label";
+import { Suspense } from "react";
 
 export default async function EditGame({ params }: { params: { id: string } }) {
   const id = params.id;
@@ -26,7 +27,9 @@ export default async function EditGame({ params }: { params: { id: string } }) {
         </div>
       </form>
       <h2 className="mt-8">Embeddings</h2>
-      <EmbeddingsList bggid={game.bggid} />
+      <Suspense fallback={<div>Loading...</div>}>
+        <EmbeddingsList bggid={game.bggid} />
+      </Suspense>
       <FileUpload />
     </>
   );

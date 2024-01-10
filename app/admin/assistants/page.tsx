@@ -1,16 +1,15 @@
 import Title from "@/app/ui/title";
-import OpenAI from "openai";
 import AssistantsList from "./assistants-list";
-
-const openai = new OpenAI();
+import { Suspense } from "react";
 
 export default async function ListAssistants() {
-  const assistantsResponse = await openai.beta.assistants.list();
 
   return (
     <>
       <Title>Assistants</Title>
-      <AssistantsList assistants={assistantsResponse.data} />
+      <Suspense fallback={<div>Loading...</div>}>
+        <AssistantsList />
+      </Suspense>
       {/* <Button href="/admin/create">Create Assistant</Button> */}
     </>
   );

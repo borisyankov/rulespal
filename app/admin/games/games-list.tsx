@@ -7,8 +7,10 @@ import {
   TableHeader,
   TableRow,
 } from "@/app/ui/table";
+import { sql } from "@vercel/postgres";
 
-export default async function ListGames({ games }: {games: Game[] })  {
+export default async function ListGames()  {
+  const games = await sql<Game>`SELECT * from games`;
   return (
     <Table>
       <TableHeader>
@@ -19,7 +21,7 @@ export default async function ListGames({ games }: {games: Game[] })  {
         </TableRow>
       </TableHeader>
       <TableBody>
-        {games.map((game) => (
+        {games.rows.map((game) => (
           <TableRow key={game.id}>
             <TableCell>{game.name}</TableCell>
             <TableCell className="text-zinc-500">

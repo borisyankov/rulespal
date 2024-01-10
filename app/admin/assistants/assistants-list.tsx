@@ -7,9 +7,13 @@ import {
   TableRow,
 } from "@/app/ui/table";
 import Link from "next/link";
-import { Assistant } from "openai/resources/beta/assistants/assistants.mjs";
+import OpenAI from "openai";
 
-export default async function ListAssistants({ assistants }: { assistants: Assistant[] }) {
+const openai = new OpenAI();
+
+export default async function ListAssistants() {
+  const assistantsResponse = await openai.beta.assistants.list();
+
   return (
       <Table>
         <TableHeader>
@@ -21,7 +25,7 @@ export default async function ListAssistants({ assistants }: { assistants: Assis
           </TableRow>
         </TableHeader>
         <TableBody>
-          {assistants.map((assistant) => (
+          {assistantsResponse.data.map((assistant) => (
             <TableRow key={assistant.id}>
               <TableCell>{assistant.name}</TableCell>
               <TableCell className="text-zinc-500">{assistant.id}</TableCell>
