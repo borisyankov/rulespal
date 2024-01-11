@@ -1,6 +1,6 @@
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 
-export default function EmptySlate() {
+export default function EmptyState() {
   return (
     <div className="flex flex-1 justify-center items-center">
       <div className="text-center">

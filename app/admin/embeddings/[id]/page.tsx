@@ -16,7 +16,7 @@ export default async function ViewEmbeddings({ params }: { params: { id: string 
   // const [showEmbeddings, setShowEmbeddings] = useState(false);
   return (
     <>
-      <Title>Embeddings</Title>
+      <Title text="Embeddings" />
       <Suspense fallback={renderSkeletons(20)}>
         <EmbeddingsDetailsGroups id={id} />
       </Suspense>

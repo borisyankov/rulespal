@@ -56,22 +56,9 @@ export async function dododo() {
   createEmbeddings(397598, "Rulebook", chunks, [vectors]);
 }
 
-export async function createGame(formData: FormData) {
-  const { name, bggid } = { // UpdateInvoice.parse({
-    name: formData.get("game_name") as string,
-    bggid: formData.get("bgg_id") as string,
-  };
-
-  try {
-    await sql`
-      INSERT INTO games (name, bggId)
-      VALUES (${name}, ${bggid})`;
-  } catch (error) {
-    console.log(error);
-    return {
-      message: "Database Error: Failed to create game.",
-    };
-  }
+export async function fetchGames(): Promise<Game[]> {
+  const games = await sql<Game>`SELECT * from games`;
+  return games.rows;
 }
 
 export async function fetchGameById(id: string) {

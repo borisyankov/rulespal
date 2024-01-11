@@ -6,7 +6,7 @@ export default async function ListAssistants() {
 
   return (
     <>
-      <Title>Assistants</Title>
+      <Title text="Assistants" />
       <Suspense fallback={<div>Loading...</div>}>
         <AssistantsList />
       </Suspense>

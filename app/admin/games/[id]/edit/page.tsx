@@ -15,7 +15,7 @@ export default async function EditGame({ params }: { params: { id: string } }) {
   }
   return (
     <>
-      <Title>Edit Game</Title>
+      <Title text="Edit Game" />
       <form>
         <div>
           <Label>Name</Label>

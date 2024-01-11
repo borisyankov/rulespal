@@ -1,4 +1,4 @@
-import { Game } from "@/app/lib/definitions";
+import { fetchGames } from "@/app/lib/actions";
 import {
   Table,
   TableBody,
@@ -7,10 +7,9 @@ import {
   TableHeader,
   TableRow,
 } from "@/app/ui/table";
-import { sql } from "@vercel/postgres";
 
-export default async function ListGames()  {
-  const games = await sql<Game>`SELECT * from games`;
+export default async function ListGames() {
+  const games = await fetchGames();
   return (
     <Table>
       <TableHeader>
@@ -21,11 +20,25 @@ export default async function ListGames()  {
         </TableRow>
       </TableHeader>
       <TableBody>
-        {games.rows.map((game) => (
+        {games.map((game) => (
           <TableRow key={game.id}>
-            <TableCell>{game.name}</TableCell>
+            <TableCell>
+              <a
+                href={`/admin/games/${game.id}/edit`}
+                className="text-indigo-400 hover:text-indigo-300"
+              >
+                {game.name}
+              </a>
+            </TableCell>
             <TableCell className="text-zinc-500">
-              <a className="underline" target="_blank" rel="noreferrer" href={`https://boardgamegeek.com/boardgame/${game.bggid}`}>{game.bggid}</a>
+              <a
+                className="underline"
+                target="_blank"
+                rel="noreferrer"
+                href={`https://boardgamegeek.com/boardgame/${game.bggid}`}
+              >
+                {game.bggid}
+              </a>
             </TableCell>
             <TableCell>
               <a

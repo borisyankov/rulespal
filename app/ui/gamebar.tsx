@@ -11,8 +11,9 @@ import {
   UsersIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import { fetchGames } from "../lib/actions";
 
-const navigation = [
+const games = [
   { name: "Anachrony", href: "#", icon: HomeIcon, current: true },
   { name: "Obsession", href: "#", icon: UsersIcon, current: false },
   {
@@ -35,20 +36,16 @@ const navigation = [
     current: false,
   },
 ];
-const teams = [
-  { id: 1, name: "Heroicons", href: "#", initial: "H", current: false },
-  { id: 2, name: "Tailwind Labs", href: "#", initial: "T", current: false },
-  { id: 3, name: "Workcation", href: "#", initial: "W", current: false },
-];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-function GameList() {
+async function GameList() {
+  // const games = await fetchGames();
   return (
     <ul className="-mx-2 space-y-1">
-      {navigation.map((item) => (
+      {games.map((item) => (
         <li key={item.name}>
           <a
             href={item.href}
@@ -59,16 +56,7 @@ function GameList() {
               "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
             )}
           >
-            <item.icon
-              className={classNames(
-                item.current
-                  ? "text-indigo-600"
-                  : "text-gray-400 group-hover:text-indigo-600",
-                "h-6 w-6 shrink-0"
-              )}
-              aria-hidden="true"
-            />
-            {item.name}
+          {item.name}
           </a>
         </li>
       ))}
@@ -76,7 +64,7 @@ function GameList() {
   );
 }
 
-export default function Navbar() {
+export default function Gamebar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <>

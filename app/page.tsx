@@ -1,26 +1,22 @@
 "use client";
 
-import { experimental_useAssistant as useAssistant, useChat } from "ai/react";
-import EmptySlate from "@/app/ui/empty-slate";
+import { useChat } from "ai/react";
+import EmptyState from "@/app/ui/empty-state";
 import Chat from "./ui/chat";
-import Navbar from "./ui/gamebar";
+import Gamebar from "./ui/gamebar";
 import Inputer from "./ui/inputer";
 
 export default function Home() {
-  // const { status, messages, input, handleSubmit, handleInputChange, error } =
-  //   useChat({
-  //       api: "/api/chat",
-  //     });
   const { messages, input, handleInputChange, handleSubmit } = useChat({ api: "/api/chat" });
   const status = "in_progress";
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+      <Gamebar />
       <main className="lg:pl-72 flex flex-1 flex-col p-4">
         {messages.length ? (
           <Chat messages={messages} status={status} />
         ) : (
-          <EmptySlate />
+          <EmptyState />
         )}
         <Inputer submitMessage={handleSubmit} onChange={handleInputChange} />
       </main>

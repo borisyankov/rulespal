@@ -49,7 +49,7 @@ export default function CreateGame() {
 
   return (
     <main className="flex min-h-screen flex-col p-24">
-      <Title>Create assistant</Title>
+      <Title text="Create assistant" />
       <form onSubmit={onSubmit}>
         <div className="pb-5">
           <label

@@ -95,7 +95,7 @@ export default async function ShowGameInfo() {
 
   return (
     <>
-      <Title>Game Info</Title>
+      <Title text="Game Info" />
       {/* <pre>{gameInfo}</pre> */}
       <pre>{JSON.stringify(gameInfo, null, 2)}</pre>
     </>
