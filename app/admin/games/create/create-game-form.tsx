@@ -2,7 +2,7 @@
 
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
+import { UseFormReturn, useForm } from "react-hook-form";
 import { Button } from "@/app/ui/button";
 import { PlusCircleIcon } from "@heroicons/react/24/outline";
 import { Form } from "@/app/ui/form";
@@ -38,13 +38,13 @@ export default function CreateGameForm() {
           label="Game name"
           name="gamename"
           description="Full display name of the game."
-          form={form}
+          form={form as unknown as UseFormReturn}
         />
         <MyFormField
           label="BGG Id"
           name="bggid"
           description="The game ID used in BoardGameGeek."
-          form={form}
+          form={form as unknown as UseFormReturn}
         />
         <Button type="submit">
           <PlusCircleIcon className="mr-2 h-4 w-4" />
