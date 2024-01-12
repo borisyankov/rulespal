@@ -11,7 +11,7 @@ type Props = {
 export default function Answer({ m }: Props) {
   return (
     <Markdown
-      className="prose prose-zinc mb-10"
+      className="prose prose-zinc dark:prose-invert mb-10"
       remarkPlugins={[remarkGfm]}
       components={{
         code(props) {

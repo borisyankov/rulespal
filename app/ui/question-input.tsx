@@ -1,3 +1,5 @@
+"use client"
+
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
@@ -8,7 +10,7 @@ type Props = {
   onChange: (event: React.ChangeEvent<HTMLTextAreaElement> | React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-export default function Inputer({ submitMessage, onChange }: Props) {
+export default function QuestionInput({ submitMessage, onChange }: Props) {
   const { formRef, onKeyDown } = useEnterSubmit()
   const [value, setValue] = useState('');
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
