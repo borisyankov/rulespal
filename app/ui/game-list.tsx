@@ -1,4 +1,5 @@
-import { useState } from "react";
+'use server'
+
 import { fetchGames } from "@/app/lib/actions";
 import {
   Command,
