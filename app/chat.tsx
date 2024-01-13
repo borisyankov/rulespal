@@ -6,18 +6,22 @@ import MessageList from "@/app/ui/message-list";
 import QuestionInput from "@/app/ui/question-input";
 
 export default function Chat() {
-  const { messages, input, handleInputChange, handleSubmit } = useChat({
+  const options = useChat({
     api: "/api/chat",
   });
+  console.log(options);
+  const { messages, isLoading, stop, handleInputChange, handleSubmit } = options;
   const status = "in_progress";
   return (
     <>
       {messages.length ? (
-        <MessageList messages={messages} status={status} />
+        <MessageList messages={messages} isLoading={isLoading} />
       ) : (
         <EmptyState />
       )}
       <QuestionInput
+        isLoading={isLoading}
+        stop={stop}
         submitMessage={handleSubmit}
         onChange={handleInputChange}
       />

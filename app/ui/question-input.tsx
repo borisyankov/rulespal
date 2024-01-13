@@ -1,16 +1,19 @@
 "use client"
 
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
+import { StopIcon } from "@heroicons/react/24/solid";
 import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
 import { useEnterSubmit } from "./use-enter-submit";
 
 type Props = {
+  isLoading: boolean;
+  stop: () => void;
   submitMessage: (e: FormEvent<HTMLFormElement>, chatRequestOptions?: ChatRequestOptions | undefined) => void
   onChange: (event: React.ChangeEvent<HTMLTextAreaElement> | React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-export default function QuestionInput({ submitMessage, onChange }: Props) {
+export default function QuestionInput({ isLoading, stop, submitMessage, onChange }: Props) {
   const { formRef, onKeyDown } = useEnterSubmit()
   const [value, setValue] = useState('');
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
@@ -21,6 +24,12 @@ export default function QuestionInput({ submitMessage, onChange }: Props) {
   }, []);
   const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
+    if (isLoading) {
+      stop();
+      return;
+    }
+
     if (!value.trim()) {
       return;
     }
@@ -34,6 +43,7 @@ export default function QuestionInput({ submitMessage, onChange }: Props) {
     setValue(event.target.value);
     onChange(event);
   };
+  const ButtonIcon = isLoading ? StopIcon : PaperAirplaneIcon;
   const height = value.split("\n").length * 24 + 12;
   return (
     <div className="">
@@ -56,9 +66,9 @@ export default function QuestionInput({ submitMessage, onChange }: Props) {
         <button
           type="submit"
           className="-ml-12 resize-none rounded-full p-2 text-white hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 disabled:opacity-25 disabled:bg-transparent"
-          disabled={value.length === 0}
-        >
-          <PaperAirplaneIcon className="h-5 w-5" aria-hidden="true" />
+          disabled={!isLoading && value.length === 0}
+        > 
+          <ButtonIcon className="h-5 w-5" aria-hidden="true" />
         </button>
       </form>
     </div>
