@@ -1,30 +1,36 @@
-'use server'
+import { useState } from "react";
+import { fetchGames } from "@/app/lib/actions";
+import {
+  Command,
+  CommandDialog,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandSeparator,
+  CommandShortcut,
+} from "@/app/ui/command";
 
-import { fetchGames } from "../lib/actions";
-
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
-
-export default async function GameList() {
+export default async function GameBar() {
   const games = await fetchGames();
   return (
-    <ul className="-mx-2 space-y-1">
-      {games.map((game, index) => (
-        <li key={game.name}>
-          <a
-            href={`#${game.bggid}`}
-            className={classNames(
-              index === 0
-                ? "bg-gray-50 text-indigo-600"
-                : "text-gray-300 hover:text-indigo-600 hover:bg-gray-50",
-              "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
-            )}
-          >
-          {game.name}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <Command>
+      <CommandInput placeholder="Search for a game..." />
+      <CommandList>
+        <CommandEmpty>No results found.</CommandEmpty>
+        <CommandGroup heading="Previously">
+          <CommandItem>Anachrony</CommandItem>
+          <CommandItem>Underwater Cities</CommandItem>
+          <CommandItem>Dune Imperium</CommandItem>
+        </CommandGroup>
+        <CommandSeparator />
+        <CommandGroup heading="All">
+          {games.map((game, index) => (
+            <CommandItem key={game.name}>{game.name}</CommandItem>
+          ))}
+        </CommandGroup>
+      </CommandList>
+    </Command>
   );
 }

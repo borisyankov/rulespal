@@ -11,7 +11,6 @@ export default function Chat() {
   });
   console.log(options);
   const { messages, isLoading, stop, handleInputChange, handleSubmit } = options;
-  const status = "in_progress";
   return (
     <>
       {messages.length ? (

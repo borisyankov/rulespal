@@ -13,7 +13,6 @@ export async function POST(req: Request) {
   const lastMessage = messages[messages.length - 1];
   const foundRules = await searchFor(lastMessage.content);
   const rulesExcerpt = foundRules.map((x) => x.content).join('\n');
-  console.log('rules word count: ', rulesExcerpt.split(' ').length);
 
   if (messages[0].role !== 'system') {
     messages = [
@@ -26,7 +25,7 @@ export async function POST(req: Request) {
   }
 
   const response = await openai.chat.completions.create({
-    model: 'gpt-3.5-turbo', // instruct?
+    model: 'gpt-3.5-turbo',
     stream: true,
     temperature: 0,
     messages,
