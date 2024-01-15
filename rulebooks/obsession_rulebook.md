@@ -1,17 +1,7 @@
-AKayenta Games publication
-by Dan Hallagan
-Key Playtesters
-Tim Hallagan
-Matt Hallagan
-
-Graphic Design & Theme Consultants
-Guy Allen
-David Buckland
-Maricel Edwards
-Martin Joynes
-Mariya Meshcheryakova
+# Obsession Rulebook
 
 ## Our Story
+
 Changes are afoot in Derbyshire, England, where four families all possessed of eligible
 young gentlemen and ladies find themselves embroiled in romance and intrigue during
 a time of optimism. Fortune has recently smiled on these somewhat neglected estates,
@@ -35,7 +25,6 @@ precisely what is the best medicine for a sad heart: romance! And the surroundin
 matchmaking material. The nearby Derbyshire families all have marriageable children, and the Fairchild
 ladies have designs!
 
-
 Glossary Info
 This Obsession Rulebook enables rapid set up and
 gameplay. The game also comes with a separate
@@ -54,8 +43,6 @@ seeking to get the most out of the game of Obsession!
 
 Skip the reading,
 watch the tutorials!
-
-
 
 Game Components
 
@@ -132,36 +119,19 @@ season, the 1st player pawn is
 passed counterclockwise (to the
 player's right).
 
-1. Decide who will be
-the starting player and
-give him or her the
-purple 1st player pawn.
+1. Decide who will be the starting player and give him or her the purple 1st player pawn.
 
 IMPORTANT: Player Area
 setup must take place before
 Central Play Area setup
 (detailed on pages 4 and S).
 
-Family Bonus: Family
-Ponsonhy begins the
-game with £300. Place
-coins totaling 300 on
-or near the player board.
+Family Bonus: Family Ponsonhy begins the game with £300. Place coins totaling 300 on or near the player board.
 
-2. Beginning with the player to the left of
-the 1st player and moving clockwise,
-choose a family *Player Board*.
-Note: The only gameplay difference
-between player boards is the starting
-*Family Bonus* (which is described
-in the lower right-hand corner
-of each board).
+2. Beginning with the player to the left of the 1st player and moving clockwise, choose a family *Player Board*.
+Note: The only gameplay difference between player boards is the starting *Family Bonus* (which is described in the lower right-hand corner of each board).
 
-3. Each family gets four reputation wheel counters
-(two-sided circular chits). Players place the chit
-with the number 1 face up on the board as
-shown and set the rest nearby the player board for
-later use.
+3. Each family gets four reputation wheel counters (two-sided circular chits). Players place the chit with the number 1 face up on the board as shown and set the rest nearby the player board for later use.
 
 EXTENDED PLAY:  If playing an
 *Extended Play* game, an additional
@@ -768,8 +738,8 @@ return invitation to hunt when the weather turned, promising to
 bring along two close friends from London, and the neighbouring
 estates took notice of the fine carriages that visited.
 
-The benefits resulting from an aftrnoon receiving distinguished visitors at the
-Ponsonby estaie are called favours; most Improvement Tiles and all Gentry Cards
+The benefits resulting from an afternoon receiving distinguished visitors at the
+Ponsonby estate are called favours; most Improvement Tiles and all Gentry Cards
 yield them. These favours are of three types: money in pounds (£), reputation.
 and invitations to new guests.
 
@@ -1505,9 +1475,6 @@ TIEBREAKERS. If there is a tie, the player with the Fairchild card in his gentry
 deck is the winner. If tied players do not have the Fairchild card, the highest Player
 Board reputation wins. If it is still a tie, players share the victory. Critical Note: Total
 VP wins; a player does not need the Fairchild card in hand to win the game.
-
-
-
 
 What Is an Activity?
 

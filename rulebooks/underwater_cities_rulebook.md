@@ -1,203 +1,84 @@
-THE NEXT FRONTIER
+## THE NEXT FRONTIER
 The earth is overpopulated. The colonization of Mars is always four decades away. Only one avenue is open for human expansion: the world under the sea.
+
 Players compete to build the best underwater nation – an archipelago of undersea cities connected by a network of transportation tunnels. Kelp farms and desalination plants will provide your people with food and water. Laboratories will give you the knowledge you need to run everything more efficiently. Perhaps you will even be able to build symbiotic cities, fully integrated with the underwater ecosystem.
-Beginning as a single city, you will expand your network, connecting it with the coastal metropolises. At a time when hunger has exceeded agricultural output and water shortages strain the bonds of the Federation of Nations, you will build a nation that is self-sustaining, perhaps even someday exporting your products to those who have been left ashore. 
-This is your task. 
+
+Beginning as a single city, you will expand your network, connecting it with the coastal metropolises. At a time when hunger has exceeded agricultural output and water shortages strain the bonds of the Federation of Nations, you will build a nation that is self-sustaining, perhaps even someday exporting your products to those who have been left ashore.
+
+This is your task.
 This is your destiny.
 The world’s hopes lie in your underwater cities.
 
-3 MARKERS IN EACH OF 4 PLAYER COLORS
-
-GAME OVERVIEW
+## GAME OVERVIEW
 
 Players work to build underwater cities, a transportation network that connects them, and various facilities that support them. In each round, players take turns choosing an action while simultaneously playing a card. If the card matches the color of the chosen action slot, the player also gains a benefit from the card.
+
 At three times during the game, players will deal with Production, a special phase in which their underwater network produces  points and resources while their people consume food. At the end of the game, additional points are awarded for various accomplishments and the player with the most points wins.
 
-COMPONENTS
+## COMPONENTS
 
 DOUBLE-SIDED MAIN GAME BOARD
-10 THREE-CREDIT SPECIAL CARDS
-15 ONE- AND TWO-CREDIT SPECIAL CARDS
-8 GOVERNMENT CONTRACT CARDS
-16 METROPOLIS TILES (11 BLUE, 5 BROWN)
-
-CREDIT TOKENS 
-IN VARIOUS DENOMINATIONS 
-1 CREDIT – 20X 
-5 CREDITS – 10X 
-10 CREDITS – 5X
-
-BIOMATTER TOKENS 
-IN VARIOUS DENOMINATIONS 
-1 BIOMATTER – 10X, 3 BIOMATTER – 7X
-
-
-1 ERA MARKER
 
 4 PLAYER INFO CARDS
 
 4 DOUBLE-SIDED PLAYER BOARDS
-FEDERAL PRIORITY 
-
-FEDERAL PRIORITY 
-
-TRADE SURPLUS
-
-Whenever you connect your network 
-to a new metropolis, gain 2 credits 
-and 2 points.
-CORPORATE EXPANSION
-
-Build any building on an expansion site. 
-Pay the usual cost.
-BUILD EXPANSION
-
-Pay 1 credit to perform the action in any slot. 
-It might be available or not occupied by you.
-SECRET MISSION
 
 4 FINAL SCORING CARDS
-“Let‘s talk about your small brain, human.”
-PERSONAL
-ASSISTANT
-
-
-PERSONAL
-ASSISTANT
-
-PERSONAL
-ASSISTANT
-
-PERSONAL
-ASSISTANT
 
 4 PERSONAL ASSISTANT CARDS
-SMUGGLING
 
-You may pay 1 science or 1 steelplast to 
-upgrade one of your desalination plants.
-TECHNOLOGY NEGOTIATION
-
-You may pay 1 credit to immediately 
-perform the action in any available slot.
-EXTRAORDINARY  MISSION
+3 ACTION TILES IN 4 COLORS
 
 ERA I DECK: 66 CARDS
 
-
-INDUSTRIAL ESPIONAGE
-
-Gain 1 steelplast for every 2 connected 
-desalination plants you have. 
-FILTRATION RECYCLING
-86
-23.08.2018   21:56:20
-If you have at least 2 connected upgraded 
-laboratories, gain 1 science, 1 steelplast, 
-and 1 card.
-TRIAL RUN
-70
 ERA II DECK: 57 CARDS
-REPLICATION SYSTEMS TEST
-23.08.2018   21:57:23
-If you have at least 5 connected cities, 
-you may build a desalination plant for free.
-CONSTRUCTION WINDFALL
-146
-You may pay 1 credit to use 
-one or two of your action cards.
-DEMONSTRATION
-124
+
 ERA III DECK: 57 CARDS
- 3 ACTION TILES 
-IN 4 COLORS
-
-8x
-9x
-10x
 
-1010
-5
-1
+10 THREE-CREDIT SPECIAL CARDS
 
-KELP TOKENS 
-IN VARIOUS DENOMINATIONS 
+15 ONE- AND TWO-CREDIT SPECIAL CARDS
+
+8 GOVERNMENT CONTRACT CARDS
+
+16 METROPOLIS TILES (11 BLUE, 5 BROWN)
+
+CREDIT TOKENS IN VARIOUS DENOMINATIONS 
+1 CREDIT – 20X 
+5 CREDITS – 10X 
+10 CREDITS – 5X
+
+BIOMATTER TOKENS IN VARIOUS DENOMINATIONS 
+1 BIOMATTER – 10X, 3 BIOMATTER – 7X
+
+KELP TOKENS  IN VARIOUS DENOMINATIONS 
 1 KELP – 15X, 3 KELP – 9X
+
+STEELPLAST TOKENS IN VARIOUS DENOMINATIONS
+1 STEELPLAST – 15X, 3 STEELPLAST – 9X
+
+SCIENCE TOKENS IN VARIOUS DENOMINATIONS 
+1 SCIENCE – 10X, 3 SCIENCE – 8X
+
 47 DOUBLE-SIDED TUNNEL TILES
-4
+
 1 ACTION-CLONING TILE
-37 FARM TOKENS
+
+4 MULTIPLIER TILES
+
 17 NONSYMBIOTIC CITY DOMES (WHITE) 
 13 SYMBIOTIC CITY DOMES (PURPLE)
+
+3 MARKERS IN EACH OF 4 PLAYER COLORS
+
+1 ERA MARKER
+
+37 FARM TOKENS
 37 DESALINATION PLANT TOKENS
 37 LABORATORY TOKENS
-5x
-10x
-SCIENCE TOKENS 
-IN VARIOUS DENOMINATIONS 
-1 SCIENCE – 10X, 3 SCIENCE – 8X
-STEELPLAST TOKENS 
-IN VARIOUS DENOMINATIONS 
-1 STEELPLAST – 15X, 3 STEELPLAST – 9X
-4 MULTIPLIER TILES
-GAME OVERVIEW
-COMPONENTS
-2
-3
 
-MAIN GAME BOARD
-ERA I, II AND III CARD DECKS
-VARIOUS COMPONENTS
-CITIES (DOMES)
-(USE 13 SYMBIOTIC CITIES
-IN A FOUR-PLAYER GAME)
-BUILDINGS
-GREEN ACTION SLOTS
-GOVERNMENT CONTRACTS
-(USE THESE SPACES ONLY DURING
-ADVANCED GAME WITH GOVERNMENT
-CONTRACTS.)
-THREE-CREDIT SPECIAL CARDS
-ALWAYS-AVAILABLE ACTION SLOT
-SCORING TRACK
-YELLOW ACTION SLOTS
-RESOURCES
-(CREDITS)
-TUNNELS
-RESOURCES
-(KELP)
-RESOURCES
-(STEELPLAST)
-RESOURCES
-(SCIENCE)
-RESOURCES
-(BIOMATTER)
-q PLACE THE 
-ERA MARKER ON 
-THE FIRST SPACE 
-OF THE ERA 
-TRACK.
-ERA TRACK
-RED ACTION SLOTS
-PLACE ONE 
-SCORE MARKER 
-FOR EACH PLAYER 
-ON THE STARTING
-SPACE OF THE 
-SCORING TRACK.
-ACTION-CLONING TILE
-(ONLY USED IN 4-PLAYER GAME)
-ONE- OR TWO-CREDIT 
-SPECIAL CARDS DECK
-WITH TOP CARD FACE UP
-FEDERATION 
-TRACK
-PLAYER-ORDER 
-TRACK
-s SPECIAL CARDS
- 
 
-GAME SETUP
+## GAME SETUP
 
 1. Place the main game board in the center 
 of the table. The board is two-sided. The side 
@@ -214,21 +95,21 @@ into 3 decks, one for each era of the
 game. The Era II and Era III decks can be set 
 aside right now. Shuffle the Era I cards face 
 down and place the deck on the main game 
-board, as shown. Note: Thorough shuffling 
+board, as shown. **Note: Thorough shuffling 
 is very important for this game. You don’t 
 want same-colored cards to be clumped 
-together.
+together.**
 4. Place the era marker on the starting 
 space of the era track.
 5. Place one score marker for each player 
 on the zero space of the scoring track.
 
 6. SPECIAL CARDS 
-Special cards represent specialists you can hire for 
+**Special cards** represent specialists you can hire for 
 your underwater endeavors. Each has a cost near 
 the upper left corner.  
  
-Separate the Special cards into two groups:  
+Separate the **Special cards** into two groups:  
  * A group that costs one or two credits.
  * A group that costs three credits.
  
@@ -244,14 +125,19 @@ to the box. These 6 are the only
 three-credit Special cards that will be 
 available during this game.
 
-SETUP FOR 2 OR 3 PLAYERS
+## SETUP FOR 2 OR 3 PLAYERS
 
 When setting up the game for fewer than four players, make two changes:
- 1. Leave the action-cloning tile in the box.
- 2. Use fewer symbiotic cities (purple domes):
-  a. With two players, use 7 symbiotic cities. 
-  b. With three players, use 10.
+1. Leave the action-cloning tile in the box.
+2. Use fewer symbiotic cities (purple domes):
+  * With two players, use 7 symbiotic cities. 
+  * With three players, use 10.
+  
 A four-player game uses the action-cloning tile and all 13 symbiotic city domes.
+
+
+
+
 
 
 PLAY ORDER
@@ -275,7 +161,7 @@ additional cards as part of an action or card effect. If you end up with more
 than 3 cards, you will have to discard down to 3. You may discard any time 
 before you take your next turn.
  
-A ROUND
+* A ROUND
 Players continue until each has taken 3 turns. As cards are played, slots 
 will be occupied, making them unavailable for those who play later in the 
 round. The number of available slots will diminish. When everyone has taken 
@@ -301,15 +187,19 @@ FINAL SCORING
 At the end of the game, players score various aspects of their underwater 
 network, and the player with the most points wins.
 
+## PLAYER SETUP
+
 Each player chooses a color and takes the 3 action tiles, the Personal 
 Assistant card and final scoring card in that color. Although the Personal 
 Assistants have different illustrations, they all have the same effect.
 Each player should also take a player info card.
+
 Each player starts with 1 kelp, 1 steelplast, 1 science, and 2 credits. 
 (Some players may get additional resources once order of play has been 
 determined.)
    
-PLAYER BOARD SETUP
+### PLAYER BOARD SETUP
+
 Each player takes a different player board, chosen at random.
 Your nation’s infrastructure begins with a city in the lower right corner 
 of your board. There are two types of cities – symbiotic and nonsymbiotic.
@@ -324,13 +214,13 @@ spaces.
 The player boards are two sided. For your first game, use the side 
 depicted above (# 1-4, ). Later, for more variety, you can try the other 
 side, which has more asymmetry (# 5-8,   ).
+
+
+## ORDER OF PLAY
+
 Two tracks determine the order of play. The play-order track shows the 
-order of play for the current round. The Federation track is where players 
-jockey for position for the next round.
-For the first round, place the play-order markers on the play-order track 
-randomly. Then, on the Federation track, the markers should be placed 
-in the opposite order, as shown, and those who play third and fourth get 
-additional resources. Specifically:
+order of play for the current round. The Federation track is where players jockey for position for the next round.
+For the first round, place the play-order markers on the play-order track randomly. Then, on the Federation track, the markers should be placed in the opposite order, as shown, and those who play third and fourth get additional resources. Specifically:
 1. The player on space 1 of the play-order track will play first in the first 
 round. On the Federation track, his or her marker will start below the 
 track, on the space with the matching color.
@@ -374,16 +264,16 @@ strongest.
 
 Some cards have an instant effect. All others can be claimed for later use, 
 as explained below. All five types of cards are described in this section. 
-PLAYER SETUP
-ORDER OF PLAY
 
-GAMEPLAY
+## GAMEPLAY
 At the start of the game, you draw 6 cards from the Era I deck. Choose  
 3 to keep, and discard the other 3.
 If you are new to the game, try to keep one card of each color. And don’t 
 worry about this decision too much – every card offers interesting choices, 
 and you will be getting more cards very soon.
-PLAYER CARDS (CARDS FOR THE FIRST ROUND)
+
+## PLAYER CARDS (CARDS FOR THE FIRST ROUND)
+
 CARDS
 Purple plays first. Purple‘s 
 marker starts on the purple 
@@ -606,51 +496,41 @@ laboratories may produce 1 steelplast and
 still produces 1 additional steelplast.)
 AUTONOMOUS SYSTEMS
 
-Whenever you build a connected city‘s 
-second desalination plant, gain 1 credit.
+### LIMITED AND UNLIMITED COMPONENTS
 
-BIOMECH CONSTRUCTION CREW
-
-LIMITED AND UNLIMITED COMPONENTS
-
- Credits, kelp, steelplast, science, and biomatter tokens are 
+* Credits, kelp, steelplast, science, and biomatter tokens are 
 not intended to be limited. If the supply runs low, you can use higher 
 denominations and the multiplier tiles to represent the amount of 
 resources you have. You can make change freely at any time.
- Building tokens are not intended to be limited. If you run out of 
+* Building tokens are not intended to be limited. If you run out of 
 a particular type, you can usually substitute a different colored token. 
 For example, if players have lots of upgraded farms, the supply might 
 run out of green tokens. You can get more in the supply by replacing 
 the bottom tokens of some upgraded farms with a color you have 
 lots of. The green token on top is sufficient to remind you that it is an 
 upgraded farm.
- Tunnels and nonsymbiotic cities are limited. The supply 
+* Tunnels and nonsymbiotic cities are limited. The supply 
 starts with 47 tunnels. When they are gone, no one can build tunnels 
 anymore. Similarly the game has only 17 nonsymbiotic city domes, and 
 no more than this may be built.
- Symbiotic cities are limited. The limit depends on the number 
+* Symbiotic cities are limited. The limit depends on the number 
 of players:
- 
-z In a two-player game, use 7 symbiotic city domes.
- 
-z In a three-player game, use 10.
- 
-z In a four-player game, use all 13.
- The era deck is not limited. If it runs out of cards, shuffle 
+  * In a two-player game, use 7 symbiotic city domes.
+  * In a three-player game, use 10.
+  * In a four-player game, use all 13.
+* The era deck is not limited. If it runs out of cards, shuffle 
 its discard pile to make a new deck.
- You should not run out of one- or two-credit Special 
+* You should not run out of one- or two-credit Special 
 cards. Whenever these are “discarded” they return immediately
  to the bottom of the deck.
- Three-credit Special cards are limited. Only six are 
-available in the game.
+* Three-credit Special cards are limited. Only six are available in the game.
+* 
 You can organize your claimed cards by type. The icons on top allow 
 you to lay them out compactly, as shown.
 CARDS
-ACTION SLOTS AND CARD EFFECTS
-“Yes. Brilliant analysis. Except that one plus 
-one does not, in fact, equal three.”
-PERSONAL
-ASSISTANT
+
+## ACTION SLOTS AND CARD EFFECTS
+
 During setup, each player received 
 a Personal Assistant. This is an action card 
 that is already claimed and in play at the 
@@ -849,6 +729,7 @@ action-cloning tile (which is
 available only in a four-player 
 game) gives players a second 
 chance at one of these slots.
+
 On your turn, instead of choosing an available action slot, you may do the 
 following:
 1. Pay 1 credit.
@@ -1701,14 +1582,15 @@ Gain 2 cards. Upgrade
 1 structure by paying 
 1 science or gain 1 kelp.
  
-FOR 3 OR 4 PLAYERS
+### FOR 3 OR 4 PLAYERS
  
-FOR 1 OR 2 PLAYERS
+### FOR 1 OR 2 PLAYERS
  
-METROPOLISES SUMMARY
+### METROPOLISES SUMMARY
  
-SPECIAL CARDS SUMMARY
-KEY
+### SPECIAL CARDS SUMMARY
+
+## KEY
 Instant effect. If you connect
 to this metropolis, 
 immediately gain 1 kelp.
