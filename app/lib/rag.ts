@@ -1,41 +1,65 @@
-export function recursiveTextSplitter(
-  text: string,
-  chunkSize: number,
-  chunkOverlap: number
-): string[] {
-  const delimiter = ".";
-  // Base case: if the text is already within the maximum length, return it as is
-  if (text.length <= chunkSize) {
-    return [text];
+"use server";
+
+import fs from "fs";
+
+const delimiters = ["\n\n", "\n", "。", ". ;", " "];
+
+function textSplitter(text: string, chunkSize: number, chunkOverlap: number) {
+  function lastIndexOfMultiple(text: string, delimiters: string[], startIndex: number): number {
+    let lastIndex = -1;
+    for (const delimiter of delimiters) {
+      const index = text.lastIndexOf(delimiter, startIndex);
+      if (index > lastIndex) {
+        lastIndex = index;
+      }
+    }
+    return lastIndex;
   }
 
-  // Find the last occurrence of the delimiter before the chunkSize
-  let delimiterIndex = text.lastIndexOf(delimiter, chunkSize);
+  function recursiveTextSplitter(text: string): string[] {
+    if (text.length <= chunkSize) {
+      return [text];
+    }
 
-  // If no delimiter is found within the chunkSize, use the chunkSize as the split index
-  if (delimiterIndex === -1) {
-    delimiterIndex = chunkSize;
-  } else {
-    // Include the delimiter in the left part
-    delimiterIndex += delimiter.length;
+    let delimiterIndex = lastIndexOfMultiple(text, delimiters, chunkSize - 1);
+    if (delimiterIndex === -1) {
+      delimiterIndex = chunkSize;
+    } else {
+      delimiterIndex += 1;
+    }
+
+    const leftPart = text.substring(0, delimiterIndex);
+    const rightPart = text.substring(delimiterIndex);
+
+    return [
+      leftPart,
+      ...recursiveTextSplitter(rightPart),
+    ];
   }
 
-  // Adjust the split index based on the chunkOverlap
-  delimiterIndex = Math.min(delimiterIndex + chunkOverlap, text.length);
-
-  // Split the text into two parts
-  const leftPart = text.substring(0, delimiterIndex);
-  const rightPart = text.substring(delimiterIndex - chunkOverlap);
-
-  // Recursively split each part
-  return [
-    ...recursiveTextSplitter(leftPart, chunkSize, chunkOverlap),
-    ...recursiveTextSplitter(rightPart, chunkSize, chunkOverlap),
-  ].filter((part, index, arr) => {
-    // Remove duplicated overlapping parts
-    return (
-      index === 0 ||
-      part !== arr[index - 1].substring(arr[index - 1].length - chunkOverlap)
-    );
-  });
+  return recursiveTextSplitter(text);
 }
+
+
+function readTextFromFile(filePath: string): string {
+  try {
+    const text = fs.readFileSync(filePath, "utf-8");
+    return text;
+  } catch (error) {
+    console.error(`Error reading file: ${error}`);
+    return "";
+  }
+}
+
+export async function parseRulebook() {
+  const text = await readTextFromFile(
+    ".//rulebooks//underwater_cities_rulebook.md",
+  );
+  const chunks = textSplitter(text, 1000, 200);
+  console.log(chunks);
+  console.log(chunks.length);
+}
+
+
+
+
