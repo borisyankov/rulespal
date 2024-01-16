@@ -13,24 +13,25 @@ You have suddenly been appointed as the leader of a circus. Using the members of
 
 ## 1. Objective
 
-Try to put together and play a stronger set of cards than the other players in order to earn points. Cards that are lined up consecutively are stronger, but you cannot reorder the cards in your hand. Skillfully "Scout" new cards and put on a "Show" while you create a strong hand to try and earn many points. Play as many rounds as there are players: the player with the most total points at the end is the winner!
+Try to put together and play a stronger set of cards than the other players in order to earn points. Cards that are lined up consecutively are stronger, but you cannot reorder the cards in your hand. Skillfully **"Scout"** new cards and put on a **"Show"** while you create a strong hand to try and earn many points. Play as many rounds as there are players; the player with the most total points at the end is the winner!
 
 ## 2. Setting Up the Game
 
-* Decide on a starting player. This player takes the Starting Player Marker.
-* Depending on the number of players, return the cards shown below back to the box.
+Decide on a starting player. This player takes the Starting Player Marker.
+
+Depending on the number of players, return the cards shown below back to the box.
   
 | 3 players | 2 or 4 players | 5 players |
 |-----------|----------------|-----------|
 | Cards with "10" written on them (9 cards) | Card with both "9" and "10" written on it. (1 card) | When playing with 5 players, all cards will be used. Do not return any cards to the box. |
 
-* Take out Scout & Show chips equal to the amount of players. Return any extra chips to the box.
+Take out Scout & Show chips equal to the amount of players. Return any extra chips to the box.
 
 ## 3. Setting Up the Round
 
 * Place all of the Scout chips in the center of the table.
 * Give all players 1 Scout & Show chip each.
-* Shuffle the cards and deal all of them to the players. For 3 players, each player receives 12 cards, for 4 players, 11 cards, and for 5 players, 9 cards. (When shuffling the cards, make sure to shuffle the position of the cards in the deck as well as the orientation of the top and bottom of the cards.)
+* Shuffle the cards well and deal all of them to the players. For 3 players, each player receives 12 cards, for 4 players, 11 cards, and for 5 players, 9 cards. (When shuffling the cards, make sure to shuffle the position of the cards in the deck as well as the orientation of the top and bottom of the cards.)
 
 !! Do not put the cards in your hand until all the cards have been dealt.
 
@@ -114,9 +115,9 @@ Calculate the score and players take their score chips.
 ## 2-Player Rules
 
 * In step 3. "Setting Up the Round", each player takes 3 Scout chips. The Scout & Show chips will not be used.
-* Deal 11 ards to each player. After dealing the cards for the first round there will be 22 cards remaining. Set these cards aside to be dealt during the second round.
+* Deal 11 cards to each player. After dealing the cards for the first round there will be 22 cards remaining. Set these cards aside to be dealt during the second round.
 * During your turn, you can either **Show** or **Scout**. You will not **Scout & Show**. When you **Scout**, you must place 1 of your Scout chips in *the center of the table*. If you are not able to place a Scout chip, you cannot **Scout**. *If you **Scout**, you will continue to take more turns.*
 * If any player achieves any of the below conditions, the round ends immediately.
    1. Run out of cards after a **Show**.
-   2. *After a **Show**, the other player could not **Show** or **Scout**.
+   2. After a **Show**, the other player could not **Show** or **Scout**.
 * Change the Starting Player and return to Setting Up the Round. (For round 2, each player once again takes 3 Scout chips and then deals the cards that were set aside previously.)

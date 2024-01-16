@@ -40,7 +40,6 @@ function textSplitter(text: string, chunkSize: number, chunkOverlap: number) {
   return recursiveTextSplitter(text);
 }
 
-
 function readTextFromFile(filePath: string): string {
   try {
     const text = fs.readFileSync(filePath, "utf-8");
