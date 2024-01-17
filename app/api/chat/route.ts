@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { Message, OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from 'ai';
 import { searchFor } from '@/app/lib/data';
 import { getPrompt } from './prompt';
 
@@ -12,8 +12,9 @@ export async function POST(req: Request) {
 
   const lastMessage = messages[messages.length - 1];
   const foundRules = await searchFor(lastMessage.content);
-  const rulesExcerpt = foundRules.map((x) => x.content).join('\n');
-
+  const rulesExcerpt = foundRules.map((x, i) => x.content + ` 【${i}†source】`).join('\n');
+  console.log(foundRules.map((x) => x.content).join('\n'));
+  console.log(getPrompt(rulesExcerpt));
   if (messages[0].role !== 'system') {
     messages = [
       {

@@ -1,10 +1,8 @@
-"use server";
-
 import fs from "fs";
 
 const delimiters = ["\n\n", "\n", "。", ". ;", " "];
 
-function textSplitter(text: string, chunkSize: number, chunkOverlap: number) {
+export function splitText(text: string, chunkSize: number, chunkOverlap: number): string[] {
   function lastIndexOfMultiple(text: string, delimiters: string[], startIndex: number): number {
     let lastIndex = -1;
     for (const delimiter of delimiters) {
@@ -54,11 +52,7 @@ export async function parseRulebook() {
   const text = await readTextFromFile(
     ".//rulebooks//underwater_cities_rulebook.md",
   );
-  const chunks = textSplitter(text, 1000, 200);
+  const chunks = splitText(text, 1000, 200);
   console.log(chunks);
   console.log(chunks.length);
 }
-
-
-
-

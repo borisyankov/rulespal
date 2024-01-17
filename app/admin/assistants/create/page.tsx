@@ -22,8 +22,6 @@ async function getGameInfo(gameId: number) {
   }
 }
 
-// dododo();
-
 export default function CreateGame() {
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     "use server";

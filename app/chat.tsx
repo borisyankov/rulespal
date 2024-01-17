@@ -9,7 +9,6 @@ export default function Chat() {
   const options = useChat({
     api: "/api/chat",
   });
-  console.log(options);
   const { messages, isLoading, stop, handleInputChange, handleSubmit } = options;
   return (
     <>
