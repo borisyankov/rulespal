@@ -1,16 +1,12 @@
-import pdfjsLib from "pdfjs-dist";
-
-// Necessary to run pdf.js in Node.js
-// global.window = global;
-// global.navigator = { userAgent: "node" };
-// global.PDFJS = pdfjsLib;
+import * as pdfjs from 'pdfjs-dist/legacy/build/pdf.mjs';
+import { TextItem } from 'pdfjs-dist/types/src/display/api';
 
 const fs = require("fs");
 
 // Function to read a PDF file
 export async function readPDFFile(filePath: string): Promise<string> {
   const data = new Uint8Array(fs.readFileSync(filePath));
-  const pdf = await pdfjsLib.getDocument({ data: data }).promise;
+  const pdf = await pdfjs.getDocument({ data: data }).promise;
   const metadata = await pdf.getMetadata();
   console.log("Metadata: ", metadata);
   // Example: Fetch information of the first page
@@ -18,9 +14,6 @@ export async function readPDFFile(filePath: string): Promise<string> {
   console.log("Page loaded");
   // Get text content from the page
   const textContent = await page.getTextContent();
-  console.log("Text Content: ", textContent);
-  return textContent;
+  console.log("Text Content: ", textContent);  
+  return textContent.items.filter(item => 'str' in item).map((item) => (item as TextItem).str).join(" ");
 }
-
-// Specify the path to your PDF file
-readPDFFile("..\\..\\DUNE_IMPERIUM_UPRISING_RULEBOOK.pdf");

@@ -4,13 +4,12 @@ import { sql } from "@vercel/postgres";
 import pgvector from "pgvector/pg";
 import OpenAI from "openai";
 import { EmbeddingBrief, EmbeddingDetails, Game } from "./definitions";
-import { readPDFFile } from "./pdf";
 import { splitText } from "./rag";
 
 const openai = new OpenAI();
 
-export async function pdfToEmbeddings(filename: string) {
-  const docs = await readPDFFile(filename);
+export async function docToEmbeddings(docs: string) {
+  // const docs = await readPDFFile(filename);
   const chunks = await splitText(docs, 1000, 200);
   console.log(JSON.stringify(chunks, null, 2));
   const embeddingResponse = await openai.embeddings.create({

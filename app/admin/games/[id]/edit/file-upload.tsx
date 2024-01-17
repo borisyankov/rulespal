@@ -3,7 +3,7 @@
 import { Input } from "@/app/ui/input";
 import { Button } from "@/app/ui/button";
 import { ArrowUpTrayIcon } from "@heroicons/react/24/outline";
-import { parseRulebook } from "@/app/lib/rag";
+import { parseRulebook } from "@/app/lib/files";
 
 export default function FileUpload() {
   function handleUpload() {
@@ -25,7 +25,7 @@ export default function FileUpload() {
     <form className="flex w-full max-w-sm gap-2 mt-8">
       <Input id="picture" type="file" />
       <Button onClick={(e) => { handleUpload(); }}>
-        <ArrowUpTrayIcon className="mr-2 h-4 w-4" /> Upload
+        <ArrowUpTrayIcon className="mr-2 size-4" /> Upload
       </Button>
     </form>
   )
