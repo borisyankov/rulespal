@@ -6,6 +6,7 @@ import obsession_rulebook from "./obsession_rulebook.md";
 import scout_rulebook from "./scout_rulebook.md";
 import sea_salt_n_paper from "./sea_salt_n_paper_rulebook.md";
 import splendor from "./splendor_rulebook.md";
+import wingspan from "./wingspan_rulebook.md";
 
 export type RulebookAsset = {
   bggid: number;
@@ -54,6 +55,11 @@ const assets: RulebookAsset[] = [
     bggid: 148228,
     name: "Splendor",
     rulebook: splendor.toString(),
+  },
+  {
+    bggid: 266192,
+    name: "Wingspan",
+    rulebook: wingspan.toString(),
   },
 ];
 
