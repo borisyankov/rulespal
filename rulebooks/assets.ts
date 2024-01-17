@@ -26,6 +26,11 @@ const assets: RulebookAsset[] = [
     rulebook: azul_rulebook.toString(),
   },
   {
+    bggid: 334590,
+    name: "For Northwood!",
+    rulebook: wingspan.toString(),
+  },
+  {
     bggid: 391163,
     name: "Forest Shuffle",
     rulebook: forest_shuffle_rulebook.toString(),
