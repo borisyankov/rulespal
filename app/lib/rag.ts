@@ -1,37 +1,37 @@
-const delimiters = ["\n\n", "\n", "。", ". ;", " "];
+const delimiters = ["\n\n", "\n", " ", ".", " "];
 
-export function splitText(text: string, chunkSize: number, chunkOverlap: number): string[] {
-  function lastIndexOfMultiple(text: string, delimiters: string[], startIndex: number): number {
-    let lastIndex = -1;
-    for (const delimiter of delimiters) {
-      const index = text.lastIndexOf(delimiter, startIndex);
-      if (index > lastIndex) {
-        lastIndex = index;
-      }
+function lastIndexOfMultiple(
+  text: string,
+  startIndex: number,
+  endIndex: number,
+) {
+  console.log('Searching in:', text.substring(startIndex, endIndex));
+  for (const delimiter of delimiters) {
+    const index = text.lastIndexOf(delimiter, endIndex);
+    if (index > startIndex) {
+      return [index, delimiter.length]
     }
-    return lastIndex;
   }
+  return [endIndex, 0];
+}
 
-  function recursiveTextSplitter(text: string): string[] {
-    if (text.length <= chunkSize) {
-      return [text];
-    }
-
-    let delimiterIndex = lastIndexOfMultiple(text, delimiters, chunkSize - 1);
-    if (delimiterIndex === -1) {
-      delimiterIndex = chunkSize;
-    } else {
-      delimiterIndex += 1;
-    }
-
-    const leftPart = text.substring(0, delimiterIndex);
-    const rightPart = text.substring(delimiterIndex);
-
-    return [
-      leftPart,
-      ...recursiveTextSplitter(rightPart),
-    ];
+export function splitText(
+  text: string,
+  chunkSize: number,
+  chunkOverlap = 0,
+): string[] {
+  const chunks = [];
+  let currentIndex = 0;
+  while (currentIndex < text.length) {
+    const [endIndex, delimiterLength] = lastIndexOfMultiple(
+      text,
+      currentIndex,
+      currentIndex + chunkSize,
+    );
+    const chunk = text.substring(currentIndex, endIndex);
+    console.log(chunk, chunk.length, currentIndex, endIndex, delimiterLength);
+    chunks.push(chunk);
+    currentIndex = endIndex + delimiterLength;
   }
-
-  return recursiveTextSplitter(text);
+  return chunks;
 }
