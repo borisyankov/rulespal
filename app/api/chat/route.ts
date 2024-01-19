@@ -3,7 +3,12 @@ import { OpenAIStream, StreamingTextResponse } from 'ai';
 import { searchFor } from '@/app/lib/data';
 import { getPrompt } from './prompt';
 
-const openai = new OpenAI();
+const openai = new OpenAI({
+  baseURL: "https://oai.hconeai.com/v1",
+  defaultHeaders: {
+    "Helicone-Auth": "Bearer sk-6f2u4iq-qqfeziq-ukhmmea-6ra4t5y",
+  },
+});
 
 export const runtime = 'edge';
 
