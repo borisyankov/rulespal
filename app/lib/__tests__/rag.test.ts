@@ -1,16 +1,17 @@
 import { splitText } from "../rag";
-import fs from 'fs';
 
-const filePath = 'c:/code/rulespal/rulebooks/wingspan_short.md';
+const wingspanExcept = `# Wingspan Rulebook
 
-function readFile() {
-  try {
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
-    return fileContent;
-  } catch (error) {
-    console.error(`Error reading file: ${error}`);
-  }
-}
+You are bird enthusiasts — researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats.
+
+Each habitat focuses on a key aspect of the growth of your preserves:
+
+* Gain food tokens via custom dice in a birdfeeder dice tower
+* Lay eggs using marbled egg miniatures in a variety of colors
+* Expand your bird collection, drawing from hundreds of unique bird cards
+  
+The winner is the player with the most points accumulated from birds, bonus cards, end-of-round goals, eggs, cached food,
+and tucked birds.`
 
 describe("splitText", () => {
   test("empty strings results in an empty list", () => {
@@ -33,7 +34,13 @@ describe("splitText", () => {
     expect(chunks).toEqual(["One", "Two", "Three", "Four", "Five"]);
   });
 
-  test("use different delimiters", () => {
+  test("lots of delimiters", () => {
+    const chunks = splitText("One\n\n    Two  \n     Three   .\nFour. . . . . .Five", 5);
+    expect(chunks).toEqual(["One", "Two", "Three", "Four", "Five"]);
+  });
+
+
+  test("include delimiters in result", () => {
     const chunks = splitText("One Two Three Four Five", 10);
     expect(chunks).toEqual(["One Two", "Three Four", "Five"]);
   });
@@ -43,21 +50,28 @@ describe("splitText", () => {
     expect(chunks).toEqual(["Splitatchu", "nksizenode", "limiters"]);
   });
 
-  test("split at chunk size if no delimiters", () => {
-    
-    const chunks = splitText("Splitatchunksizenodelimiters", 10);
-    expect(chunks).toEqual(["Splitatchu", "nksizenode", "limiters"]);
+  test("Wingspan rulebook excerpt", () => {
+    const chunks = splitText(wingspanExcept, 100);
+    expect(chunks.length).toEqual(10);
   });
 
-  test.only("Wingspan", () => {
-    const wingspan = readFile();
-    const chunks = splitText(wingspan, 100);
-    // console.log('Wingspan length: ', wingspan.length);
-    // for (const i in chunks){
-    //   console.log(chunks[i]);
-    //   console.log('--------------');
-    // }
-    expect(chunks.length).toEqual(266);
+  test("simple with overlap", () => {
+    const chunks = splitText("One Two Three", 10, 5);
+    expect(chunks).toEqual(["One Two", "Two Three"]);
   });
 
+  test("simple with overlap", () => {
+    const chunks = splitText("One Two Three", 10, 5);
+    expect(chunks).toEqual(["One Two", "Two Three"]);
+  });
+
+  test("ignore multiple delimiters", () => {
+    const chunks = splitText("One\n\nTwo\n\n  \n\nThree", 10, 5);
+    expect(chunks).toEqual(["One\nTwo", "Two\nThree"]);
+  });
+
+  test("Wingspan rulebook excerpt with overlap", () => {
+    const chunks = splitText(wingspanExcept, 100, 20);
+    expect(chunks.length).toEqual(10);
+  });
 });
