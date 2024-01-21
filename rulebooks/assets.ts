@@ -3,6 +3,7 @@ import ark_nova_rulebook from "./ark_nova_rulebook.md";
 import arkham_horror_card_game_reference from "./arkham_horror_card_game_reference.md";
 import azul_rulebook from "./azul_rulebook.md";
 import cascadia_rulebook from "./cascadia_rulebook.md";
+import dune_imperium_uprising_rulebook from "./dune_imperium_uprising_rulebook.md";
 import for_northwood_rulebook from "./for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./forest_shuffle_appendix.md";
@@ -44,6 +45,11 @@ const assets: RulebookAsset[] = [
     bggid: 295947,
     name: "Cascadia",
     rulebook: cascadia_rulebook.toString(),
+  },
+  {
+    bggid: 397598,
+    name: "Dune: Imperium – Uprising",
+    rulebook: dune_imperium_uprising_rulebook.toString(),
   },
   {
     bggid: 334590,
