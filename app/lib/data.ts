@@ -14,7 +14,7 @@ export async function searchFor(query: string) {
   })
   const embedding = embeddingResponse.data[0].embedding;
   const qslResults = await sql.query(
-    "SELECT * FROM embeddings ORDER BY embedding <-> $1 LIMIT 5",
+    "SELECT * FROM embeddings ORDER BY embedding <=> $1 LIMIT 5",
     [pgvector.toSql(embedding)],
   );
   // where bggId = bggId

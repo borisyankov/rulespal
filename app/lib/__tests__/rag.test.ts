@@ -1,4 +1,4 @@
-import { splitText } from "../rag";
+import { splitText, cosineSimilarity } from "../rag";
 
 const wingspanExcept = `# Wingspan Rulebook
 
@@ -39,7 +39,6 @@ describe("splitText", () => {
     expect(chunks).toEqual(["One", "Two", "Three", "Four", "Five"]);
   });
 
-
   test("include delimiters in result", () => {
     const chunks = splitText("One Two Three Four Five", 10);
     expect(chunks).toEqual(["One Two", "Three Four", "Five"]);
@@ -73,5 +72,18 @@ describe("splitText", () => {
   test("Wingspan rulebook excerpt with overlap", () => {
     const chunks = splitText(wingspanExcept, 100, 20);
     expect(chunks.length).toEqual(10);
+  });
+});
+
+
+describe("cosineSimilarity", () => {
+  test("same vectors have similarity of 1", () => {
+    const chunks = cosineSimilarity([1, 2, 3], [1, 2, 3]);
+    expect(chunks).toEqual(1);
+  });
+
+  test("calculates similarity", () => {
+    const chunks = cosineSimilarity([1, 2, 3], [4, 5, 6]);
+    expect(chunks).toEqual(0.9746318461970762);
   });
 });

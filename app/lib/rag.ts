@@ -71,3 +71,22 @@ export function splitText(
   }
   return chunks;
 }
+
+
+function dotProduct(vecA: number[], vecB: number[]): number {
+  return vecA.reduce((acc, current, index) => acc + current * vecB[index], 0);
+}
+
+function magnitude(vec: number[]): number {
+  return Math.sqrt(vec.reduce((acc, val) => acc + val * val, 0));
+}
+
+export function cosineSimilarity(vecA: number[], vecB: number[]): number {
+  if (vecA.length !== vecB.length) {
+      throw 'Vectors are not of the same dimension';
+  }
+  const dotProd = dotProduct(vecA, vecB);
+  const magnitudeA = magnitude(vecA);
+  const magnitudeB = magnitude(vecB);
+  return dotProd / (magnitudeA * magnitudeB);
+}
