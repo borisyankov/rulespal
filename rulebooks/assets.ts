@@ -10,6 +10,7 @@ import for_northwood_rulebook from "./for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./forest_shuffle_appendix.md";
 import obsession_rulebook from "./obsession_rulebook.md";
+import pandemic_rulebook from "./pandemic_rulebook.md";
 import scout_rulebook from "./scout_rulebook.md";
 import sea_salt_n_paper from "./sea_salt_n_paper_rulebook.md";
 import splendor from "./splendor_rulebook.md";
@@ -83,6 +84,11 @@ const assets: RulebookAsset[] = [
     bggid: 231733,
     name: "Obsession",
     rulebook: obsession_rulebook.toString(),
+  },
+  {
+    bggid: 30549,
+    name: "Pandemic",
+    rulebook: pandemic_rulebook.toString(),
   },
   {
     bggid: 291453,
