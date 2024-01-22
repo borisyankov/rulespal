@@ -1,4 +1,5 @@
 import sechs_nimmt_rulebook from "./6_nimmt_rulebook.md";
+import seven_wonders_rulebook from "./7_wonders_rulebook.md";
 import ark_nova_rulebook from "./ark_nova_rulebook.md";
 import arkham_horror_card_game_reference from "./arkham_horror_card_game_reference.md";
 import azul_rulebook from "./azul_rulebook.md";
@@ -25,6 +26,11 @@ const assets: RulebookAsset[] = [
     bggid: 268586,
     name: "6 Nimmt",
     rulebook: sechs_nimmt_rulebook.toString(),
+  },
+  {
+    bggid: 68448,
+    name: "7 Wonders",
+    rulebook: seven_wonders_rulebook.toString(),
   },
   {
     bggid: 342942,
