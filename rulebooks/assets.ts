@@ -12,6 +12,7 @@ import obsession_rulebook from "./obsession_rulebook.md";
 import scout_rulebook from "./scout_rulebook.md";
 import sea_salt_n_paper from "./sea_salt_n_paper_rulebook.md";
 import splendor from "./splendor_rulebook.md";
+import ticket_to_ride from "./ticket_to_ride_rulebook.md";
 import underwater_cities from "./underwater_cities_rulebook.md";
 import wingspan from "./wingspan_rulebook.md";
 
@@ -91,6 +92,11 @@ const assets: RulebookAsset[] = [
     bggid: 148228,
     name: "Splendor",
     rulebook: splendor.toString(),
+  },
+  {
+    bggid: 9209,
+    name: "Ticket to Ride",
+    rulebook: ticket_to_ride.toString(),
   },
   {
     bggid: 247763,
