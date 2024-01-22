@@ -9,6 +9,7 @@ import dune_imperium_uprising_rulebook from "./dune_imperium_uprising_rulebook.m
 import for_northwood_rulebook from "./for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./forest_shuffle_appendix.md";
+import hanabi_rulebook from "./hanabi_rulebook.md";
 import obsession_rulebook from "./obsession_rulebook.md";
 import pandemic_rulebook from "./pandemic_rulebook.md";
 import scout_rulebook from "./scout_rulebook.md";
@@ -79,6 +80,11 @@ const assets: RulebookAsset[] = [
     bggid: 391163_2,
     name: "Forest Shuffle (Appendix)",
     rulebook: forest_shuffle_appendix.toString(),
+  },
+  {
+    bggid: 98778,
+    name: "Hanabi",
+    rulebook: hanabi_rulebook.toString(),
   },
   {
     bggid: 231733,
