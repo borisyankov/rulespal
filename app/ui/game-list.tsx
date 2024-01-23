@@ -1,20 +1,20 @@
-'use server'
+'use client';
 
-import { fetchGames } from "@/app/lib/actions";
 import {
   Command,
-  CommandDialog,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
   CommandList,
   CommandSeparator,
-  CommandShortcut,
 } from "@/app/ui/command";
+import assets from "@/rulebooks/assets";
+import { useRouter } from "next/navigation";
 
-export default async function GameBar() {
-  const games = await fetchGames();
+export default function GameBar() {
+  const router = useRouter();
+  const games = assets;
   return (
     <Command>
       <CommandInput placeholder="Search for a game..." />
@@ -28,7 +28,13 @@ export default async function GameBar() {
         <CommandSeparator />
         <CommandGroup heading="All">
           {games.map((game, index) => (
-            <CommandItem key={game.name}>{game.name}</CommandItem>
+            <CommandItem
+              className="cursor-pointer"
+              key={game.name}
+              onSelect={() => { router.push(`/${game.bggid}`); }}
+            >
+              {game.name}
+            </CommandItem>
           ))}
         </CommandGroup>
       </CommandList>
