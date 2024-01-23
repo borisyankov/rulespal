@@ -36,7 +36,7 @@
 
 * 15 unique buildings
 * 70 money tokens
-* 20 partner zoos 
+* 20 partner zoos
 * 12 universities
 * 9 Bonus tiles
 * 20 X-tokens
@@ -155,7 +155,7 @@ On the more advanced zoo maps you will find a special ability that distinguishes
 The most important components in Ark Nova are the 3 different types of Zoo cards. The individual card types will be explained in detail later.
 
 Animal cards are used to add animals to your zoo. They require an empty enclosure and provide your zoo with appeal points.
- 
+
 Sponsor cards allow you to hire specialists, build unique buildings, or achieve various other effects, among other things.
 
 With Conservation Project cards you support conservation projects to collect conservation points. Usually, you specialize in specific animal species and the continents from which they originate. In some conservation projects, you are going to reintroduce animals into the wild. In addition to the Zoo cards for conservation projects, there are also Base Conservation Project cards that are available at the start of the game.
