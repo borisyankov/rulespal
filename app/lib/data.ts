@@ -12,7 +12,6 @@ export async function getEmbedding(text: string): Promise<number[]> {
   console.time('REDIS HGET');
   const cachedEmbedding = await kv.hget('embeddings', text);
   console.timeEnd('REDIS HGET');
-  console.log('Array.isArray', Array.isArray(cachedEmbedding));
   if (cachedEmbedding) {
     return cachedEmbedding as number[];
   }

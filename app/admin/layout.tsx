@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="mx-auto min-h-screen max-w-7xl flex-col p-4">
       <div className="flex justify-between mb-8">
         <div className="flex">
-          <AdjustmentsVerticalIcon className="text-primary w-10 h-10 p-2" />
+          <AdjustmentsVerticalIcon className="text-primary size-10 p-2" />
           <NavBar />
         </div>
         <Themer />
