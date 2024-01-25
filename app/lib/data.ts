@@ -1,16 +1,22 @@
-"use server";
-
 import { sql } from "@vercel/postgres";
 import pgvector from "pgvector/pg";
 import { kv } from '@vercel/kv';
+import { Redis } from '@upstash/redis'
 import OpenAI from "openai";
 
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI();
 
+const redis = new Redis({
+  url: 'https://us1-rational-prawn-40635.upstash.io',
+  token: 'AZ67ACQgNjQ0NDQyOTItNGE3Mi00MDMzLTg1YTQtNTIyOWVmZDgzYzhkYTc1YmU4ODQyYzFjNDc0NjgyMGY5MzU2Nzk0ZjM3NGU=',
+});
+
+export const runtime = "edge";
+
 export async function getEmbedding(text: string): Promise<number[]> {
   console.time('REDIS HGET');
-  const cachedEmbedding = await kv.hget('embeddings', text);
+  const cachedEmbedding = await redis.hget('embeddings', text);
   console.timeEnd('REDIS HGET');
   if (cachedEmbedding) {
     return cachedEmbedding as number[];
@@ -22,7 +28,9 @@ export async function getEmbedding(text: string): Promise<number[]> {
   })
   console.timeEnd('openai.embeddings.create');
   const embedding = embeddingResponse.data[0].embedding;
-  kv.hset('embeddings', { [text]: embedding });
+  console.time('REDIS HSET');
+  await redis.hset('embeddings', { [text]: embedding });
+  console.timeEnd('REDIS HSET');
   return embedding;
 }
 
