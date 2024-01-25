@@ -13,9 +13,11 @@ import hanabi_rulebook from "./hanabi_rulebook.md";
 import heat_rulebook from "./heat_rulebook.md";
 import obsession_rulebook from "./obsession_rulebook.md";
 import pandemic_rulebook from "./pandemic_rulebook.md";
+import ra_rulebook from "./ra_rulebook.md";
 import scout_rulebook from "./scout_rulebook.md";
 import sea_salt_n_paper from "./sea_salt_n_paper_rulebook.md";
 import splendor from "./splendor_rulebook.md";
+import the_castles_of_burgundy_rulebook from "./the_castles_of_burgundy_rulebook.md";
 import ticket_to_ride from "./ticket_to_ride_rulebook.md";
 import underwater_cities from "./underwater_cities_rulebook.md";
 import wingspan from "./wingspan_rulebook.md";
@@ -101,6 +103,11 @@ const assets: RulebookAsset[] = [
     bggid: 30549,
     name: "Pandemic",
     rulebook: pandemic_rulebook.toString(),
+  },  
+  {
+    bggid: 12,
+    name: "Ra",
+    rulebook: ra_rulebook.toString(),
   },
   {
     bggid: 291453,
@@ -116,6 +123,11 @@ const assets: RulebookAsset[] = [
     bggid: 148228,
     name: "Splendor",
     rulebook: splendor.toString(),
+  },
+  {
+    bggid: 84876,
+    name: "The Castles of Burgundy",
+    rulebook: the_castles_of_burgundy_rulebook.toString(),
   },
   {
     bggid: 9209,
