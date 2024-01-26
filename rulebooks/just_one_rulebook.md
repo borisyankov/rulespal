@@ -29,7 +29,7 @@ At the end of the game, tally your score based on the number of Mystery words fo
 The game plays out in a succession of turns and ends when the deck of cards is empty.
 Each turn is divided into **4 phases**.
 
-### 1 CHOOSE THE MYSTERY WORD
+### 1. CHOOSE THE MYSTERY WORD
 
 The active player draws the top card of the deck **without looking at it**, and places it on their easel so that all of the **other** players can see the words (one of the sides of the easel has a support to hold the card).
 
@@ -37,7 +37,7 @@ The player then chooses a **number between 1 and 5** to tell the other players w
 
 ***Note:** If players don’t know the chosen word, they can ask the active player to choose a different number.*
 
-### 2 CLUE SELECTION
+### 2. CLUE SELECTION
 
 **Without communicating with each other** and **without showing it to anyone** each player writes **one clue** on their easel. That clue must be composed of **a single word.**
 
@@ -59,7 +59,7 @@ The player then chooses a **number between 1 and 5** to tell the other players w
 **the meaning of which is different.**
 ***Example:** Whether is not allowed to try to get someone to guess Weather.*
 
-### 3 COMPARING CLUES
+### 3. COMPARING CLUES
 
 Once all players have written their clues, **the active player closes their eyes.**
 

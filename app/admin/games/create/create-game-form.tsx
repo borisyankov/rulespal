@@ -47,7 +47,7 @@ export default function CreateGameForm() {
           form={form as unknown as UseFormReturn}
         />
         <Button type="submit">
-          <PlusCircleIcon className="mr-2 h-4 w-4" />
+          <PlusCircleIcon className="mr-2 s-4" />
           Create
         </Button>
       </form>

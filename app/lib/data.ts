@@ -1,6 +1,5 @@
 import { sql } from "@vercel/postgres";
 import pgvector from "pgvector/pg";
-import { kv } from "@vercel/kv";
 import { Redis } from "@upstash/redis";
 import OpenAI from "openai";
 

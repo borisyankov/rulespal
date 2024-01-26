@@ -11,7 +11,7 @@ export default async function ListGames() {
       <Title text="Games">
         <Button asChild>
           <Link href="/admin/games/create">
-            <PlusCircleIcon className="mr-2 h-4 w-4" />
+            <PlusCircleIcon className="mr-2 s-4" />
             Create
           </Link>
         </Button>
