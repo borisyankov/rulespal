@@ -9,6 +9,7 @@ type Props = {
 
 export default function Home({ params: { id } }: Props) {
   const game = assets.find((game) => game.bggid === +id);
+
   if (!game) {
     return redirect('/');
   }

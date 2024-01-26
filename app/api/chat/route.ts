@@ -13,7 +13,7 @@ export async function POST(req: Request) {
   const lastMessage = messages[messages.length - 1];
   const foundRules = await searchFor(lastMessage.content);
   const rulesExcerpt = foundRules
-    .map((x, i) => `${x.content} 【${i}†source】`)
+    .map((x, i) => `${x.chunk} 【${i}†source】`)
     .join("\n");
   if (messages[0].role !== "system") {
     messages = [
