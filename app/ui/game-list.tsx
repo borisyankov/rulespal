@@ -8,7 +8,7 @@ import {
   CommandItem,
   CommandList,
 } from "@/app/ui/command";
-import assets from "@/rulebooks/assets";
+import assets from "@/data/games";
 import { useRouter } from "next/navigation";
 import { BookOpen } from "lucide-react";
 

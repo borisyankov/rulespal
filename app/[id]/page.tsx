@@ -1,4 +1,4 @@
-import assets from "@/rulebooks/assets";
+import assets from "@/data/games";
 import Chat from "../chat";
 import GameBar from "@/app/ui/gamebar";
 import { redirect } from "next/navigation";

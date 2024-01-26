@@ -3,8 +3,8 @@
 import { notFound } from 'next/navigation';
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import assets from "@/rulebooks/assets";
-import { RulebookAsset } from "@/rulebooks/assets";
+import assets from "@/data/games";
+import { RulebookAsset } from "@/data/games";
 
 export default function Rules({ params }: { params: { id: string } }) {
   const id = params.id;

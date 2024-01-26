@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import assets from "@/rulebooks/assets";
-import { RulebookAsset } from "@/rulebooks/assets";
+import assets from "@/data/games";
+import { RulebookAsset } from "@/data/games";
 
 export default function Rules() {
   return (
