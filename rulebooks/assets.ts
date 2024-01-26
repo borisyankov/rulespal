@@ -11,6 +11,7 @@ import forest_shuffle_rulebook from "./forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./forest_shuffle_appendix.md";
 import hanabi_rulebook from "./hanabi_rulebook.md";
 import heat_rulebook from "./heat_rulebook.md";
+import just_one_rulebook from "./just_one_rulebook.md";
 import obsession_rulebook from "./obsession_rulebook.md";
 import pandemic_rulebook from "./pandemic_rulebook.md";
 import ra_rulebook from "./ra_rulebook.md";
@@ -93,6 +94,11 @@ const assets: RulebookAsset[] = [
     bggid: 366013,
     name: "Heat: Pedal to the Metal",
     rulebook: heat_rulebook.toString(),
+  },
+  {
+    bggid: 254640,
+    name: "Just One",
+    rulebook: just_one_rulebook.toString(),
   },
   {
     bggid: 231733,
