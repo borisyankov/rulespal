@@ -14,7 +14,7 @@ export async function docToEmbeddings(docs: string) {
   console.log(JSON.stringify(chunks, null, 2));
   const embeddingResponse = await openai.embeddings.create({
     input: chunks,
-    model: 'text-embedding-ada-002',
+    model: 'text-embedding-3-small',
   });
   const vectors = embeddingResponse.data[0].embedding;
   console.log(vectors);

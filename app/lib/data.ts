@@ -37,7 +37,7 @@ export async function getEmbedding(text: string): Promise<number[]> {
   console.time("openai.embeddings.create");
   const embeddingResponse = await openai.embeddings.create({
     input: text,
-    model: "text-embedding-ada-002",
+    model: "text-embedding-3-small",
   });
   console.timeEnd("openai.embeddings.create");
   const embedding = embeddingResponse.data[0].embedding;
