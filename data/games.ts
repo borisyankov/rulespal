@@ -6,6 +6,7 @@ import azul_rulebook from "./rulebooks/azul_rulebook.md";
 import cascadia_rulebook from "./rulebooks/cascadia_rulebook.md";
 import catan_rulebook from "./rulebooks/catan_rulebook.md";
 import dune_imperium_uprising_rulebook from "./rulebooks/dune_imperium_uprising_rulebook.md";
+import everdell_rulebook from "./rulebooks/everdell_rulebook.md";
 import for_northwood_rulebook from "./rulebooks/for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./rulebooks/forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./rulebooks/forest_shuffle_appendix.md";
@@ -69,6 +70,11 @@ const assets: RulebookAsset[] = [
     bggid: 397598,
     name: "Dune: Imperium – Uprising",
     rulebook: dune_imperium_uprising_rulebook.toString(),
+  },
+  {
+    bggid: 199792,
+    name: "Everdell",
+    rulebook: everdell_rulebook.toString(),
   },
   {
     bggid: 334590,
