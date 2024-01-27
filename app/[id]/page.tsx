@@ -15,8 +15,7 @@ export default function Home({ params: { id } }: Props) {
   }
   return (
     <div className="min-h-screen flex flex-col">
-      {game.name}
-      <GameBar />
+      <GameBar game={game} />
       <main className="flex flex-1 flex-col p-4">
         <Chat />
       </main>

@@ -5,9 +5,10 @@ export type LogEntry = {
 };
 
 export type Game = {
-  id: string;
+  bggid: number;
   name: string;
-  bggid: string;
+  rulebook: string;
+  thumbnail: string;
 };
 
 export type Embedding = {

@@ -12,7 +12,7 @@ import assets from "@/data/games";
 import { useRouter } from "next/navigation";
 import { BookOpen } from "lucide-react";
 
-export default function GameBar() {
+export default function GameList() {
   const router = useRouter();
   const games = assets;
   return (
@@ -22,8 +22,8 @@ export default function GameBar() {
         <CommandEmpty className="flex flex-col items-center p-4">
           <BookOpen className="opacity-50" /> No games found.
         </CommandEmpty>
-        <CommandGroup>
-          {games.map((game, index) => (
+        <CommandGroup className="max-h-50">
+          {games.map((game, _) => (
             <CommandItem
               className="cursor-pointer"
               key={game.name}
@@ -31,6 +31,7 @@ export default function GameBar() {
                 router.push(`/${game.bggid}`);
               }}
             >
+              <img className="object-scale-down size-12 mr-4" src={game.thumbnail} alt={`${game.name} thumbnail`} />
               {game.name}
             </CommandItem>
           ))}
