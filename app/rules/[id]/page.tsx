@@ -4,11 +4,11 @@ import { notFound } from 'next/navigation';
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import assets from "@/data/games";
-import { RulebookAsset } from "@/data/games";
+import { Game } from '@/app/lib/definitions';
 
 export default function Rules({ params }: { params: { id: string } }) {
   const id = params.id;
-  const asset = assets.find((asset: RulebookAsset) => asset.bggid === +id);
+  const asset = assets.find((asset: Game) => asset.bggid === +id);
   if (!asset) {
     return notFound();
   }

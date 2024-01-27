@@ -28,7 +28,7 @@ export default async function EditGame({ params }: { params: { id: string } }) {
       </form>
       <h2 className="mt-8">Embeddings</h2>
       <Suspense fallback={<div>Loading...</div>}>
-        <EmbeddingsList bggid={game.bggid} />
+        {/* <EmbeddingsList bggid={game.bggid} /> */}
       </Suspense>
       <FileUpload />
     </>

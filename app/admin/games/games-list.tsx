@@ -21,10 +21,10 @@ export default async function ListGames() {
       </TableHeader>
       <TableBody>
         {games.map((game) => (
-          <TableRow key={game.id}>
+          <TableRow key={game.bggid}>
             <TableCell>
               <a
-                href={`/admin/games/${game.id}/edit`}
+                href={`/admin/games/${game.bggid}/edit`}
                 className="text-indigo-400 hover:text-indigo-300"
               >
                 {game.name}
@@ -42,10 +42,10 @@ export default async function ListGames() {
             </TableCell>
             <TableCell>
               <a
-                href={`/admin/games/${game.id}/edit`}
+                href={`/admin/games/${game.bggid}/edit`}
                 className="text-indigo-400 hover:text-indigo-300"
               >
-                Edit<span className="sr-only">, {game.id}</span>
+                Edit<span className="sr-only">, {game.bggid}</span>
               </a>
             </TableCell>
           </TableRow>
