@@ -19,6 +19,7 @@ import kingdomino_rulebook from "./rulebooks/kingdomino_rulebook.md";
 import lost_ruins_of_arnak_rulebook from "./rulebooks/lost_ruins_of_arnak_rulebook.md";
 import obsession_rulebook from "./rulebooks/obsession_rulebook.md";
 import pandemic_rulebook from "./rulebooks/pandemic_rulebook.md";
+import patchwork_rulebook from "./rulebooks/patchwork_rulebook.md";
 import planet_unknown_rulebook from "./rulebooks/planet_unknown_rulebook.md";
 import ra_rulebook from "./rulebooks/ra_rulebook.md";
 import scout_rulebook from "./rulebooks/scout_rulebook.md";
@@ -58,7 +59,7 @@ const assets: Game[] = [
   },
   {
     bggid: 205637,
-    name: "Arkham Horror: The Card Game (Reference)",
+    name: "Arkham Horror: The Card Game",
     rulebook: arkham_horror_card_game_reference.toString(),
     thumbnail: 'https://cf.geekdo-images.com/B5F5ulz0UivNgrI9Ky0euA__thumb/img/L8ouPl5jv2Ye9MC4R_Os2zSGigE=/fit-in/200x150/filters:strip_icc()/pic3122349.jpg',
   },
@@ -151,6 +152,12 @@ const assets: Game[] = [
     name: "Pandemic",
     rulebook: pandemic_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__thumb/img/oqViRj6nVxK3m36NluTxU1PZkrk=/fit-in/200x150/filters:strip_icc()/pic1534148.jpg',
+  },
+  {
+    bggid: 163412,
+    name: "Patchwork",
+    rulebook: patchwork_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/wLW7pFn0--20lEizEz5p3A__thumb/img/P49TUiytgjmRAtKsfO7Y3yU_xic=/fit-in/200x150/filters:strip_icc()/pic2270442.jpg',
   },
   {
     bggid: 258779,
