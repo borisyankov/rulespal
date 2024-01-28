@@ -15,6 +15,7 @@ import gizmos_rulebook from "./rulebooks/gizmos_rulebook.md";
 import hanabi_rulebook from "./rulebooks/hanabi_rulebook.md";
 import heat_rulebook from "./rulebooks/heat_rulebook.md";
 import just_one_rulebook from "./rulebooks/just_one_rulebook.md";
+import kingdomino_rulebook from "./rulebooks/kingdomino_rulebook.md";
 import lost_ruins_of_arnak_rulebook from "./rulebooks/lost_ruins_of_arnak_rulebook.md";
 import obsession_rulebook from "./rulebooks/obsession_rulebook.md";
 import pandemic_rulebook from "./rulebooks/pandemic_rulebook.md";
@@ -126,6 +127,12 @@ const assets: Game[] = [
     name: "Just One",
     rulebook: just_one_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/ocAuKT9hp99yBY77e4uuPg__thumb/img/ESTo05e9zuU6VJs3RyusEYGdc3Y=/fit-in/200x150/filters:strip_icc()/pic5137279.jpg',
+  },
+  {
+    bggid: 204583,
+    name: "Kingdomino",
+    rulebook: kingdomino_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/3h9W8BfB_rltQ48EBmHliw__thumb/img/RGpbcY90eBcNLXbHLMBwLrr2uzo=/fit-in/200x150/filters:strip_icc()/pic3132685.png',
   },
   {
     bggid: 312484,
