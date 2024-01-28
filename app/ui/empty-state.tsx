@@ -1,11 +1,16 @@
-import { BookOpenText } from "lucide-react";
+import { Game } from "../lib/definitions";
+import Thumbnail from "./thumbnail";
 
-export default function EmptyState() {
+type Props = {
+  game: Game;
+};
+
+export default function EmptyState({ game }: Props) {
   return (
     <div className="flex flex-1 justify-center items-center">
       <div className="text-center">
-        <BookOpenText className="mx-auto h-8 w-8 stroke-[1px] opacity-75" />
-        <h2>Ask any rules question.<br/>Get answers directly from the rule book.</h2>
+        <Thumbnail game={game} className="mx-auto mb-4 size-24" />
+        <h2>Ask any rules question about {game.name}<br/>Get answers directly from the rule book.</h2>
       </div>
     </div>
   );

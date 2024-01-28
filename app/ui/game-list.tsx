@@ -11,6 +11,7 @@ import {
 import assets from "@/data/games";
 import { useRouter } from "next/navigation";
 import { BookOpen } from "lucide-react";
+import Thumbnail from "./thumbnail";
 
 export default function GameList() {
   const router = useRouter();
@@ -31,7 +32,7 @@ export default function GameList() {
                 router.push(`/${game.bggid}`);
               }}
             >
-              <img className="object-scale-down size-12 mr-4" src={game.thumbnail} alt={`${game.name} thumbnail`} />
+              <Thumbnail className="mr-4" game={game} />
               {game.name}
             </CommandItem>
           ))}

@@ -4,8 +4,13 @@ import { useChat } from "ai/react";
 import EmptyState from "@/app/ui/empty-state";
 import MessageList from "@/app/ui/message-list";
 import QuestionInput from "@/app/ui/question-input";
+import { Game } from "./lib/definitions";
 
-export default function Chat() {
+type Props = {
+  game: Game;
+}
+
+export default function Chat({ game }: Props) {
   const options = useChat({
     api: "/api/chat",
   });
@@ -15,7 +20,7 @@ export default function Chat() {
       {messages.length ? (
         <MessageList messages={messages} isLoading={isLoading} />
       ) : (
-        <EmptyState />
+        <EmptyState game={game} />
       )}
       <QuestionInput
         isLoading={isLoading}
