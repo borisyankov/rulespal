@@ -14,6 +14,7 @@ import forest_shuffle_appendix from "./rulebooks/forest_shuffle_appendix.md";
 import gizmos_rulebook from "./rulebooks/gizmos_rulebook.md";
 import hanabi_rulebook from "./rulebooks/hanabi_rulebook.md";
 import heat_rulebook from "./rulebooks/heat_rulebook.md";
+import jaipur_rulebook from "./rulebooks/jaipur_rulebook.md";
 import just_one_rulebook from "./rulebooks/just_one_rulebook.md";
 import kingdomino_rulebook from "./rulebooks/kingdomino_rulebook.md";
 import lost_ruins_of_arnak_rulebook from "./rulebooks/lost_ruins_of_arnak_rulebook.md";
@@ -122,6 +123,12 @@ const assets: Game[] = [
     name: "Heat: Pedal to the Metal",
     rulebook: heat_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/-vOrd4bOspibyohYExLqWg__thumb/img/2GbaKvYOzWIxfgbYTk2R9puiyzo=/fit-in/200x150/filters:strip_icc()/pic6940449.png',
+  },
+  {
+    bggid: 54043,
+    name: "Jaipur",
+    rulebook: jaipur_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/_LTujSe_o16nvjDC-J0seA__thumb/img/82vhODfpxIT03BzW4NkisJ5Unzs=/fit-in/200x150/filters:strip_icc()/pic5100947.jpg',
   },
   {
     bggid: 254640,
