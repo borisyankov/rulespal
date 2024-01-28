@@ -1,5 +1,6 @@
 import sechs_nimmt_rulebook from "./rulebooks/6_nimmt_rulebook.md";
 import seven_wonders_rulebook from "./rulebooks/7_wonders_rulebook.md";
+import seven_wonders_duel_rulebook from "./rulebooks/7_wonders_duel_rulebook.md";
 import ark_nova_rulebook from "./rulebooks/ark_nova_rulebook.md";
 import arkham_horror_card_game_reference from "./rulebooks/arkham_horror_card_game_reference.md";
 import azul_rulebook from "./rulebooks/azul_rulebook.md";
@@ -10,6 +11,7 @@ import everdell_rulebook from "./rulebooks/everdell_rulebook.md";
 import for_northwood_rulebook from "./rulebooks/for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./rulebooks/forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./rulebooks/forest_shuffle_appendix.md";
+import gizmos_rulebook from "./rulebooks/gizmos_rulebook.md";
 import hanabi_rulebook from "./rulebooks/hanabi_rulebook.md";
 import heat_rulebook from "./rulebooks/heat_rulebook.md";
 import just_one_rulebook from "./rulebooks/just_one_rulebook.md";
@@ -22,6 +24,7 @@ import scout_rulebook from "./rulebooks/scout_rulebook.md";
 import sea_salt_n_paper from "./rulebooks/sea_salt_n_paper_rulebook.md";
 import splendor from "./rulebooks/splendor_rulebook.md";
 import the_castles_of_burgundy_rulebook from "./rulebooks/the_castles_of_burgundy_rulebook.md";
+import the_white_castle_rulebook from "./rulebooks/the_white_castle_rulebook.md";
 import ticket_to_ride from "./rulebooks/ticket_to_ride_rulebook.md";
 import underwater_cities from "./rulebooks/underwater_cities_rulebook.md";
 import wingspan from "./rulebooks/wingspan_rulebook.md";
@@ -39,6 +42,12 @@ const assets: Game[] = [
     name: "7 Wonders",
     rulebook: seven_wonders_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__thumb/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg',
+  },
+  {
+    bggid: 173346,
+    name: "7 Wonders Duel",
+    rulebook: seven_wonders_duel_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__thumb/img/gV1-ckZSIC-dCxxpq1Y7GmPITzQ=/fit-in/200x150/filters:strip_icc()/pic2576399.jpg',
   },
   {
     bggid: 342942,
@@ -93,6 +102,12 @@ const assets: Game[] = [
     name: "Forest Shuffle",
     rulebook: forest_shuffle_rulebook.toString() + forest_shuffle_appendix.toString(),
     thumbnail: 'https://cf.geekdo-images.com/08bC8NviSTNc4Zvur4pueA__thumb/img/Xq8TNBmMl3Z7DoynvbUXchFAztc=/fit-in/200x150/filters:strip_icc()/pic7578350.jpg',
+  },
+  {
+    bggid: 246192,
+    name: "Gizmos",
+    rulebook: gizmos_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__thumb/img/e-UqOrMfsLCh2T_igK3wkoFrOu8=/fit-in/200x150/filters:strip_icc()/pic4169718.png',
   },
   {
     bggid: 98778,
@@ -165,6 +180,12 @@ const assets: Game[] = [
     name: "The Castles of Burgundy",
     rulebook: the_castles_of_burgundy_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/5CFwjd8zTcGYVUnkXh04hw__thumb/img/0AG_6zsfYQjqlUHG0-_8lcjp8rc=/fit-in/200x150/filters:strip_icc()/pic1176894.jpg',
+  },
+  {
+    bggid: 371942,
+    name: "The White Castle",
+    rulebook: the_white_castle_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/qXT1U-nFh9PE8ujfdmI7dA__thumb/img/ru1l95gdKNXSsByDglE9Xxgu0kE=/fit-in/200x150/filters:strip_icc()/pic7754663.jpg',
   },
   {
     bggid: 9209,
