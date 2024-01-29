@@ -57,4 +57,4 @@ export async function docToEmbeddings(filename: string) {
   console.timeEnd('Write complete');
 }
 
-docToEmbeddings('../data/rulebooks/obsession_rulebook.md');
+docToEmbeddings('../data/rulebooks/dune_imperium_uprising_rulebook.md');

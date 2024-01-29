@@ -6,11 +6,13 @@ import arkham_horror_card_game_reference from "./rulebooks/arkham_horror_card_ga
 import azul_rulebook from "./rulebooks/azul_rulebook.md";
 import cascadia_rulebook from "./rulebooks/cascadia_rulebook.md";
 import catan_rulebook from "./rulebooks/catan_rulebook.md";
+import dune_imperium_rulebook from "./rulebooks/dune_imperium_rulebook.md";
 import dune_imperium_uprising_rulebook from "./rulebooks/dune_imperium_uprising_rulebook.md";
 import everdell_rulebook from "./rulebooks/everdell_rulebook.md";
 import for_northwood_rulebook from "./rulebooks/for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./rulebooks/forest_shuffle_rulebook.md";
 import forest_shuffle_appendix from "./rulebooks/forest_shuffle_appendix.md";
+import gloomhaven_jotl_rulebook from "./rulebooks/gloomhaven_jotl_rulebook.md";
 import gizmos_rulebook from "./rulebooks/gizmos_rulebook.md";
 import hanabi_rulebook from "./rulebooks/hanabi_rulebook.md";
 import heat_rulebook from "./rulebooks/heat_rulebook.md";
@@ -26,6 +28,7 @@ import ra_rulebook from "./rulebooks/ra_rulebook.md";
 import scout_rulebook from "./rulebooks/scout_rulebook.md";
 import sea_salt_n_paper from "./rulebooks/sea_salt_n_paper_rulebook.md";
 import splendor from "./rulebooks/splendor_rulebook.md";
+import terraforming_mars_rulebook from "./rulebooks/terraforming_mars_rulebook.md";
 import the_castles_of_burgundy_rulebook from "./rulebooks/the_castles_of_burgundy_rulebook.md";
 import the_white_castle_rulebook from "./rulebooks/the_white_castle_rulebook.md";
 import ticket_to_ride from "./rulebooks/ticket_to_ride_rulebook.md";
@@ -83,6 +86,12 @@ const assets: Game[] = [
     thumbnail: 'https://cf.geekdo-images.com/W3Bsga_uLP9kO91gZ7H8yw__thumb/img/8a9HeqFydO7Uun_le9bXWPnidcA=/fit-in/200x150/filters:strip_icc()/pic2419375.jpg',
   },
   {
+    bggid: 316554,
+    name: "Dune: Imperium",
+    rulebook: dune_imperium_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__thumb/img/JGgY-nBmkyB8WRp8vcoBLlNMQ5U=/fit-in/200x150/filters:strip_icc()/pic5666597.jpg',
+  },
+  {
     bggid: 397598,
     name: "Dune: Imperium – Uprising",
     rulebook: dune_imperium_uprising_rulebook.toString(),
@@ -111,6 +120,12 @@ const assets: Game[] = [
     name: "Gizmos",
     rulebook: gizmos_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__thumb/img/e-UqOrMfsLCh2T_igK3wkoFrOu8=/fit-in/200x150/filters:strip_icc()/pic4169718.png',
+  },
+  {
+    bggid: 291457,
+    name: "Gloomhaven: Jaws of the Lion",
+    rulebook: gloomhaven_jotl_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/_HhIdavYW-hid20Iq3hhmg__thumb/img/OMkN_E5eyWrkID_cHCnQEbIixGM=/fit-in/200x150/filters:strip_icc()/pic5055631.jpg',
   },
   {
     bggid: 98778,
@@ -195,6 +210,12 @@ const assets: Game[] = [
     name: "Splendor",
     rulebook: splendor.toString(),
     thumbnail: 'https://cf.geekdo-images.com/rwOMxx4q5yuElIvo-1-OFw__thumb/img/D4hkkHfOgu22PwgJomjplWAveuo=/fit-in/200x150/filters:strip_icc()/pic1904079.jpg',
+  },
+  {
+    bggid: 167791,
+    name: "Terraforming Mars",
+    rulebook: terraforming_mars_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__thumb/img/BTxqxgYay5tHJfVoJ2NF5g43_gA=/fit-in/200x150/filters:strip_icc()/pic3536616.jpg',
   },
   {
     bggid: 84876,
