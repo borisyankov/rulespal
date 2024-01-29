@@ -1,6 +1,7 @@
 import sechs_nimmt_rulebook from "./rulebooks/6_nimmt_rulebook.md";
 import seven_wonders_rulebook from "./rulebooks/7_wonders_rulebook.md";
 import seven_wonders_duel_rulebook from "./rulebooks/7_wonders_duel_rulebook.md";
+import anachrony_rulebook from "./rulebooks/anachrony_rulebook.md";
 import ark_nova_rulebook from "./rulebooks/ark_nova_rulebook.md";
 import arkham_horror_card_game_reference from "./rulebooks/arkham_horror_card_game_reference.md";
 import azul_rulebook from "./rulebooks/azul_rulebook.md";
@@ -54,6 +55,12 @@ const assets: Game[] = [
     name: "7 Wonders Duel",
     rulebook: seven_wonders_duel_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__thumb/img/gV1-ckZSIC-dCxxpq1Y7GmPITzQ=/fit-in/200x150/filters:strip_icc()/pic2576399.jpg',
+  },
+  {
+    bggid: 185343,
+    name: "Anachrony",
+    rulebook: anachrony_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/31quLNzteInnevVRAABoow__thumb/img/a0G93aMOKp3_mmnCURYWuZd210U=/fit-in/200x150/filters:strip_icc()/pic3499707.jpg',
   },
   {
     bggid: 342942,
