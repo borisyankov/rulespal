@@ -9,6 +9,7 @@ import cascadia_rulebook from "./rulebooks/cascadia_rulebook.md";
 import catan_rulebook from "./rulebooks/catan_rulebook.md";
 import dune_imperium_rulebook from "./rulebooks/dune_imperium_rulebook.md";
 import dune_imperium_uprising_rulebook from "./rulebooks/dune_imperium_uprising_rulebook.md";
+import earth_rulebook from "./rulebooks/earth_rulebook.md";
 import everdell_rulebook from "./rulebooks/everdell_rulebook.md";
 import for_northwood_rulebook from "./rulebooks/for_northwood_rulebook.md";
 import forest_shuffle_rulebook from "./rulebooks/forest_shuffle_rulebook.md";
@@ -103,6 +104,12 @@ const assets: Game[] = [
     name: "Dune: Imperium – Uprising",
     rulebook: dune_imperium_uprising_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/UVUkjMV_Q2paVUIUP30Vvw__thumb/img/H6qmxJrRFjtOAPZOfDoZ480-46I=/fit-in/200x150/filters:strip_icc()/pic7664424.jpg',
+  },
+  {
+    bggid: 350184,
+    name: "Earth",
+    rulebook: earth_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/0xqF_KyOb7V26Lu5YT3fxw__thumb/img/ABTwzzMGekkz2jVl01LC4789TcQ=/fit-in/200x150/filters:strip_icc()/pic6699821.jpg',
   },
   {
     bggid: 199792,
