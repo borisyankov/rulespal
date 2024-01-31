@@ -5,6 +5,7 @@ import anachrony_rulebook from "./rulebooks/anachrony_rulebook.md";
 import ark_nova_rulebook from "./rulebooks/ark_nova_rulebook.md";
 import arkham_horror_card_game_reference from "./rulebooks/arkham_horror_card_game_reference.md";
 import azul_rulebook from "./rulebooks/azul_rulebook.md";
+import carcassonne_rulebook from "./rulebooks/carcassonne_rulebook.md";
 import cascadia_rulebook from "./rulebooks/cascadia_rulebook.md";
 import catan_rulebook from "./rulebooks/catan_rulebook.md";
 import dune_imperium_rulebook from "./rulebooks/dune_imperium_rulebook.md";
@@ -80,6 +81,12 @@ const assets: Game[] = [
     name: "Azul",
     rulebook: azul_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__thumb/img/ccsXKrdGJw-YSClWwzVUwk5Nh9Y=/fit-in/200x150/filters:strip_icc()/pic6973671.png',
+  },
+  {
+    bggid: 822,
+    name: "Carcassonne",
+    rulebook: carcassonne_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__thumb/img/88274KiOg94wziybVHyW8AeOiXg=/fit-in/200x150/filters:strip_icc()/pic6544250.png',
   },
   {
     bggid: 295947,
