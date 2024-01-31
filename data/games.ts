@@ -28,6 +28,7 @@ import pandemic_rulebook from "./rulebooks/pandemic_rulebook.md";
 import patchwork_rulebook from "./rulebooks/patchwork_rulebook.md";
 import planet_unknown_rulebook from "./rulebooks/planet_unknown_rulebook.md";
 import ra_rulebook from "./rulebooks/ra_rulebook.md";
+import sagrada_rulebook from "./rulebooks/sagrada_rulebook.md";
 import scout_rulebook from "./rulebooks/scout_rulebook.md";
 import sea_salt_n_paper from "./rulebooks/sea_salt_n_paper_rulebook.md";
 import splendor from "./rulebooks/splendor_rulebook.md";
@@ -213,6 +214,12 @@ const assets: Game[] = [
     name: "Ra",
     rulebook: ra_rulebook.toString(),
     thumbnail: 'https://cf.geekdo-images.com/k7lG683LBZdvFyS-FH-MpA__thumb/img/6KTtiknxxGwd0ARKrlsdoXFtHfI=/fit-in/200x150/filters:strip_icc()/pic6746812.png',
+  },
+  {
+    bggid: 199561,
+    name: "Sagrada",
+    rulebook: sagrada_rulebook.toString(),
+    thumbnail: 'https://cf.geekdo-images.com/PZt3EAAGV3dFIVuwMR0AEw__thumb/img/1m4aryOW1MOpq-8jGkF6gDTJmCY=/fit-in/200x150/filters:strip_icc()/pic3525224.jpg',
   },
   {
     bggid: 291453,
