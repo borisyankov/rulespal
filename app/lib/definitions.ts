@@ -7,9 +7,14 @@ export type LogEntry = {
 export type Game = {
   bggid: number;
   name: string;
-  rulebook: string;
+  code: string;
   thumbnail: string;
 };
+
+export type EmbeddingsStatic = {
+  chunk: string;
+  embedding: number[];
+}
 
 export type Embedding = {
   id: number;

@@ -1,4 +1,4 @@
-import { fetchEmbeddingsDetailsById } from "@/app/lib/actions";
+import { fetchEmbeddingsDetailsById } from "@/app/lib/old-actions";
 import EmbeddingsDetailsList from "./embeddings-details-list";
 
 export default async function EmbeddingsDetailsGroups({ id }: { id: string }) {

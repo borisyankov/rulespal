@@ -1,4 +1,4 @@
-import { fetchGameById } from "@/app/lib/actions";
+import { fetchGameById } from "@/app/lib/old-actions";
 import Title from "@/app/ui/title";
 import { notFound } from 'next/navigation';
 import EmbeddingsList from "./embeddings-list";

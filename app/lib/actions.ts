@@ -1,107 +1,37 @@
-"use server";
-
-import { sql } from "@vercel/postgres";
-import pgvector from "pgvector/pg";
-import OpenAI from "openai";
-import { EmbeddingBrief, EmbeddingDetails, Game } from "./definitions";
-import { splitText } from "./rag";
+import OpenAI from 'openai';
+import { cosineSimilarity } from './rag';
+import { getPrompt } from '../api/chat/prompt';
+import games from '@/data/games';
+import { EmbeddingsStatic } from './definitions';
 
 const openai = new OpenAI();
 
-export async function docToEmbeddings(docs: string) {
-  // const docs = await readPDFFile(filename);
-  const chunks = await splitText(docs, 1000, 200);
-  console.log(JSON.stringify(chunks, null, 2));
+export const runtime = 'edge';
+
+export async function getEmbedding(text: string): Promise<number[]> {
   const embeddingResponse = await openai.embeddings.create({
-    input: chunks,
+    input: text,
     model: 'text-embedding-3-small',
   });
-  const vectors = embeddingResponse.data[0].embedding;
-  console.log(vectors);
-  return { chunks, vectors };
+  return embeddingResponse.data[0].embedding;
 }
 
-export async function createEmbeddings(
-  bggId: number,
-  source: string,
-  chunks: Document[],
-  embeddings: number[][]
-) {
-  try {
-    for (let i = 0; i < chunks.length; i++) {
-      await sql.query(
-        "INSERT INTO embeddings (bggId, source, content, embedding) VALUES ($1, $2, $3, $4)",
-        [bggId, source, chunks[i], pgvector.toSql(embeddings[i])]
-      );
-    }
-  } catch (error) {
-    console.log(error);
-    return {
-      message: "Database Error: Failed to Create Embeddings.",
-    };
+export async function searchFor(query: string, bggid: number) {
+  const game = games.find((x) => x.bggid === bggid);
+  if (!game) {
+    return "Game not found";
   }
+  const gameEmbeddings = (await import(`../../data/embeddings/${game.code}_embeddings.json`)).default as EmbeddingsStatic[];
+  const queryEmbedding = await getEmbedding(query);
+  console.time('Search all embeddings');
+  const cosine = gameEmbeddings.map((x) => ({
+    ...x,
+    similarity: cosineSimilarity(x.embedding, queryEmbedding),
+  }));
+  cosine.sort((a, b) => b.similarity - a.similarity);
+  console.timeEnd('Search all embeddings');
+  
+  const topFive = cosine.slice(0, 5);
+  const rulesExcerpt = topFive.map((x, i) => `${x.chunk} 【${i}†source】`).join('\n');
+  return getPrompt(rulesExcerpt, game.name);
 }
-
-export async function fetchGames(): Promise<Game[]> {
-  const games = await sql<Game>`SELECT * from games`;
-  return games.rows;
-}
-
-export async function fetchGameById(id: string) {
-  try {
-    const data = await sql<Game>`
-      SELECT *
-      FROM games
-      WHERE id = ${id};
-    `;
-
-    return data.rows[0];
-  } catch (error) {
-    console.error('Database Error:', error);
-    throw new Error('Failed to fetch game.');
-  }
-}
-
-export async function fetchEmbeddingsById(bggid: string) {
-  try {
-    const data = await sql<EmbeddingBrief>`
-      SELECT g.name as gamename, g.bggId, MIN(e.source) AS source
-      FROM games g
-      INNER JOIN embeddings e ON g.bggId = e.bggId
-      WHERE g.bggId = ${bggid}
-      GROUP BY g.name, g.bggId;
-    `;
-    return data.rows;
-  } catch (error) {
-    console.error('Database Error:', error);
-    throw new Error('Failed to fetch embeddings.');
-  }
-}
-
-export async function fetchEmbeddingsDetailsById(bggid: string): Promise<Record<string, EmbeddingDetails[]>> {
-  try {
-    const data = await sql<EmbeddingDetails>`
-      SELECT 
-        g.name as gamename, 
-        g.bggId, 
-        e.source AS source, 
-        e.content AS content, 
-        e.embedding AS embedding
-      FROM games g
-      INNER JOIN embeddings e ON g.bggId = e.bggId
-      WHERE g.bggId = ${bggid};
-    `;
-    const groupedData = data.rows.reduce((acc, row) => {
-      if (!acc[row.source]) {
-        acc[row.source] = [];
-      }
-      acc[row.source].push(row);
-      return acc;
-    }, {} as Record<string, EmbeddingDetails[]>);
-    return groupedData;
-  } catch (error) {
-    console.error('Database Error:', error);
-    throw new Error('Failed to fetch embeddings details.');
-  }
-}
-

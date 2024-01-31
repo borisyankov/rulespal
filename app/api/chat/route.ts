@@ -1,40 +1,33 @@
 import OpenAI from "openai";
 import { OpenAIStream, StreamingTextResponse } from "ai";
-import { searchFor } from "@/app/lib/data";
-import { getPrompt } from "./prompt";
+import { searchFor } from "@/app/lib/actions";
 
 const openai = new OpenAI();
 
 export const runtime = "edge";
 
 export async function POST(req: Request) {
-  let { messages } = await req.json();
+  let { messages, data } = await req.json();
 
-  const lastMessage = messages[messages.length - 1];
-  const foundRules = await searchFor(lastMessage.content);
-  const rulesExcerpt = foundRules
-    .map((x, i) => `${x.chunk} 【${i}†source】`)
-    .join("\n");
   if (messages[0].role !== "system") {
+    const lastMessage = messages[messages.length - 1];
+    const prompt = await searchFor(lastMessage.content, +data.bggid);
     messages = [
       {
         role: "system",
-        content: getPrompt(rulesExcerpt),
+        content: prompt,
       },
       ...messages,
     ];
   }
 
   const response = await openai.chat.completions.create({
-    // model: "pplx-70b-online",
     model: 'gpt-3.5-turbo',
     stream: true,
     temperature: 0,
     messages,
   });
 
-  // Convert the response into a friendly text-stream
   const stream = OpenAIStream(response);
-  // Respond with the stream
   return new StreamingTextResponse(stream);
 }

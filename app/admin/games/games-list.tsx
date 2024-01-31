@@ -1,4 +1,4 @@
-import { fetchGames } from "@/app/lib/actions";
+import { fetchGames } from "@/app/lib/old-actions";
 import {
   Table,
   TableBody,

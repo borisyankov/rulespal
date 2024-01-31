@@ -68,7 +68,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
           className="-ml-12 resize-none rounded-full p-2 text-white hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 disabled:opacity-25 disabled:bg-transparent"
           disabled={!isLoading && value.length === 0}
         > 
-          <ButtonIcon className="h-5 w-5" aria-hidden="true" />
+          <ButtonIcon className="size-5" aria-hidden="true" />
         </button>
       </form>
     </div>

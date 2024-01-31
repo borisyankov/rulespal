@@ -1,4 +1,4 @@
-import { fetchEmbeddingsById } from "@/app/lib/actions";
+import { fetchEmbeddingsById } from "@/app/lib/old-actions";
 import {
   Table,
   TableBody,
