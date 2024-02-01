@@ -4,19 +4,19 @@ const assets: Game[] = [
   {
     bggid: 268586,
     name: '6 Nimmt',
-    code: 'sechs_nimmt',
+    code: '6_nimmt',
     thumbnail: 'https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__thumb/img/TTIPiPwQpowcHjYMxtk920ZwR3c=/fit-in/200x150/filters:strip_icc()/pic4496538.jpg',
   },
   {
     bggid: 68448,
     name: '7 Wonders',
-    code: 'seven_wonders',
+    code: '7_wonders',
     thumbnail: 'https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__thumb/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg',
   },
   {
     bggid: 173346,
     name: '7 Wonders Duel',
-    code: 'seven_wonders_duel',
+    code: '7_wonders_duel',
     thumbnail: 'https://cf.geekdo-images.com/zdagMskTF7wJBPjX74XsRw__thumb/img/gV1-ckZSIC-dCxxpq1Y7GmPITzQ=/fit-in/200x150/filters:strip_icc()/pic2576399.jpg',
   },
   {

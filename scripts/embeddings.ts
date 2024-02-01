@@ -1,6 +1,7 @@
 import fs from 'fs';
 import OpenAI from "openai";
 import { splitText } from '../app/lib/rag';
+import games from '../data/games';
 
 const openai = new OpenAI();
 
@@ -23,10 +24,10 @@ function writeStringToFile(filename: string, content: string): void {
   }
 }
 
-export async function docToEmbeddings(filename: string) {
-  console.log(`Reading rulebook: ${filename}`);
+async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
+  console.log(`Reading rulebook: ${rulebookFile}`);
   console.time('Read complete');
-  const docs = readFileAsText(filename);
+  const docs = fs.readFileSync(rulebookFile, 'utf-8');
   console.timeEnd('Read complete');
 
   console.log('Splitting text...');
@@ -51,10 +52,18 @@ export async function docToEmbeddings(filename: string) {
     };
   });
 
-  console.log('Writing embeddings...');
+  console.log(`Writing embeddings to ${embeddingFile}`);
   console.time('Write complete');
-  writeStringToFile('vectors.json', JSON.stringify(embeddingObject, null, 2));
+  fs.writeFileSync(embeddingFile, JSON.stringify(embeddingObject, null, 2), 'utf-8');
   console.timeEnd('Write complete');
 }
 
-docToEmbeddings('../data/rulebooks/everdell_rulebook.md');
+async function processAllRulebooks() {
+  for (const game of games) {
+    const rulebookFile = `../data/rulebooks/${game.code}_rulebook.md`;
+    const embeddingFile = `../data/embeddings/${game.code}_embeddings.json`;
+    await docToEmbeddings(rulebookFile, embeddingFile);
+  }
+}
+
+processAllRulebooks();
