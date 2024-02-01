@@ -62,6 +62,12 @@ const assets: Game[] = [
     thumbnail: 'https://cf.geekdo-images.com/W3Bsga_uLP9kO91gZ7H8yw__thumb/img/8a9HeqFydO7Uun_le9bXWPnidcA=/fit-in/200x150/filters:strip_icc()/pic2419375.jpg',
   },
   {
+    bggid: 36218,
+    name: 'Dominion',
+    code: 'dominion',
+    thumbnail: 'https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__thumb/img/B2u2ghwlmI_qsUtCwuvcbnBcIqU=/fit-in/200x150/filters:strip_icc()/pic394356.jpg',
+  },
+  {
     bggid: 316554,
     name: 'Dune: Imperium',
     code: 'dune_imperium',
