@@ -62,6 +62,12 @@ const assets: Game[] = [
     thumbnail: 'https://cf.geekdo-images.com/W3Bsga_uLP9kO91gZ7H8yw__thumb/img/8a9HeqFydO7Uun_le9bXWPnidcA=/fit-in/200x150/filters:strip_icc()/pic2419375.jpg',
   },
   {
+    bggid: 178900,
+    name: 'Codenames',
+    code: 'codenames',
+    thumbnail: 'https://cf.geekdo-images.com/F_KDEu0GjdClml8N7c8Imw__thumb/img/yl8iXxSNwguMeg3KkmfFO9SMVVc=/fit-in/200x150/filters:strip_icc()/pic2582929.jpg',
+  },
+  {
     bggid: 36218,
     name: 'Dominion',
     code: 'dominion',
