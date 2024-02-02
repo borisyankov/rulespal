@@ -1,3 +1,4 @@
+import fs from 'fs';
 import { splitText, cosineSimilarity } from "../rag";
 
 const wingspanExcept = `# Wingspan Rulebook
@@ -72,6 +73,12 @@ describe("splitText", () => {
   test("Wingspan rulebook excerpt with overlap", () => {
     const chunks = splitText(wingspanExcept, 100, 20);
     expect(chunks.length).toEqual(10);
+  });
+
+  test("Ark Nova full with overlap", () => {
+    const arkNovaRulebook = fs.readFileSync('app/lib/__tests__/ark_nova_rulebook.txt', "utf8");
+    const chunks = splitText(arkNovaRulebook, 1000, 200);
+    expect(chunks.length).toEqual(72);
   });
 });
 

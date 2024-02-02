@@ -1,10 +1,10 @@
-const delimiters = ["\n", ".", " "];
+const delimiters = ['\n', '.', ' '];
 
 function sanitize(text: string): string {
   return text
-    .replace(/[\n. ]*(\n)+[\n. ]*/g, "\n")
-    .replace(/[. ]*(\.)+[. ]*/g, ".")
-    .replace(/[ ]*(\ )+[ ]*/g, " ");
+    .replace(/[\n. ]*(\n)+[\n. ]*/g, '\n')
+    .replace(/[. ]*(\.)+[. ]*/g, '.')
+    .replace(/[ ]*(\ )+[ ]*/g, ' ');
 }
 
 function firstIndexOfDelimiters(
@@ -30,7 +30,7 @@ function lastIndexOfDelimiters(
   const sub = text.substring(startIndex, endIndex + 1);
   for (const delimiter of delimiters) {
     const index = sub.lastIndexOf(delimiter);
-    if (index !== -1) {
+    if (index > 0) {
       return [startIndex + index, delimiter.length];
     }
   }
@@ -43,27 +43,29 @@ export function splitText(
   chunkOverlap = 0,
 ): string[] {
   if (chunkOverlap > chunkSize) {
-    throw new Error("chunkOverlap must be less than chunkSize");
+    throw new Error('chunkOverlap must be less than chunkSize');
   }
   const text = sanitize(inputText);
   const chunks = [];
   let currentIndex = 0;
   while (currentIndex < text.length) {
-    if (chunkOverlap > 0) {
-      const [startIndex, startDelimiterLength] = firstIndexOfDelimiters(
-        text,
-        Math.max(currentIndex - chunkOverlap, 0),
-        currentIndex,
-      );
-      currentIndex = startIndex + startDelimiterLength;
-    }
-    const [endIndex, delimiterLength] = text.length - currentIndex < chunkSize ?
-       [text.length, 0] : lastIndexOfDelimiters(
-      text,
-      currentIndex,
-      currentIndex + chunkSize,
-    );
-    const chunk = text.substring(currentIndex, endIndex).trim();
+    const [startIndex, startDelimiterLength] =
+      chunkOverlap === 0
+        ? [currentIndex, 0]
+        : firstIndexOfDelimiters(
+            text,
+            Math.max(currentIndex - chunkOverlap, 0),
+            currentIndex,
+          );
+    const [endIndex, delimiterLength] =
+      text.length - currentIndex < chunkSize
+        ? [text.length, 0]
+        : lastIndexOfDelimiters(
+            text,
+            currentIndex,
+            currentIndex + chunkSize,
+          );
+    const chunk = text.substring(startIndex, endIndex).trim();
     if (chunk.length > 0) {
       chunks.push(chunk);
     }
@@ -71,7 +73,6 @@ export function splitText(
   }
   return chunks;
 }
-
 
 function dotProduct(vecA: number[], vecB: number[]): number {
   return vecA.reduce((acc, current, index) => acc + current * vecB[index], 0);
@@ -83,7 +84,7 @@ function magnitude(vec: number[]): number {
 
 export function cosineSimilarity(vecA: number[], vecB: number[]): number {
   if (vecA.length !== vecB.length) {
-      throw 'Vectors are not of the same dimension';
+    throw 'Vectors are not of the same dimension';
   }
   const dotProd = dotProduct(vecA, vecB);
   const magnitudeA = magnitude(vecA);
