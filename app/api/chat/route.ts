@@ -4,8 +4,6 @@ import { searchFor } from "@/app/lib/actions";
 
 const openai = new OpenAI();
 
-export const runtime = "edge";
-
 export async function POST(req: Request) {
   let { messages, data } = await req.json();
 

@@ -10,7 +10,7 @@ type Props = {
 
 export default function MessageList({ messages, isLoading }: Props) {
   return (
-    <div className="flex-1 text-base mx-auto gap-3 md:px-5 lg:px-1 xl:px-5 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group final-completion">
+    <div className="scrollbar flex-1 p-4 overflow-y-auto text-base mx-auto gap-3 w-full max-w-screen-md">
       {messages.map((m: Message, index) =>
         m.role === "user" ? (
           <Question key={m.id} m={m} />
