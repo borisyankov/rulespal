@@ -222,6 +222,12 @@ const assets: Game[] = [
     name: 'The Castles of Burgundy',
     code: 'the_castles_of_burgundy',
     thumbnail: 'https://cf.geekdo-images.com/5CFwjd8zTcGYVUnkXh04hw__thumb/img/0AG_6zsfYQjqlUHG0-_8lcjp8rc=/fit-in/200x150/filters:strip_icc()/pic1176894.jpg',
+  },  
+  {
+    bggid: 284083,
+    name: 'The Crew',
+    code: 'the_crew',
+    thumbnail: 'https://cf.geekdo-images.com/98LnQShydr11OBKS46xY-Q__thumb/img/et-fnuozyOdBOVL-5kSS3_7I8fw=/fit-in/200x150/filters:strip_icc()/pic5687013.jpg',
   },
   {
     bggid: 371942,
