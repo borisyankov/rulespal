@@ -61,7 +61,7 @@ async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
 async function processAllRulebooks() {
   for (const game of games) {
     const rulebookFile = `../data/rulebooks/${game.code}_rulebook.md`;
-    const embeddingFile = `../data/embeddings/${game.code}_embeddings.json`;
+    const embeddingFile = `./${game.code}_embeddings.json`;
     await docToEmbeddings(rulebookFile, embeddingFile);
   }
 }
