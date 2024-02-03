@@ -1,7 +1,6 @@
 "use client"
 
-import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
-import { StopIcon } from "@heroicons/react/24/solid";
+import { SendHorizontalIcon, StopCircleIcon } from "lucide-react"
 import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
 import { useEnterSubmit } from "./use-enter-submit";
@@ -43,7 +42,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     setValue(event.target.value);
     onChange(event);
   };
-  const ButtonIcon = isLoading ? StopIcon : PaperAirplaneIcon;
+  const ButtonIcon = isLoading ? StopCircleIcon : SendHorizontalIcon;
   const height = value.split("\n").length * 24 + 12;
   return (
     <form
@@ -53,7 +52,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     >
       <textarea
         id="prompt-textarea"
-        className="resize-none rounded-3xl focus:ring-2 focus:ring-amber-300 focus:outline-none flex-1 text-sm leading-6 text-slate-900 placeholder:slate-400 px-4 py-1.5 ring-inset dark:bg-gray-700 dark:text-slate-200" 
+        className="resize-none rounded-3xl focus:ring-2 focus:ring-primary focus:outline-none flex-1 text-sm leading-6 text-slate-900 placeholder:slate-400 px-4 py-1.5 ring-inset bg-gray-200 dark:bg-gray-800 dark:text-slate-200" 
         ref={textAreaRef}
         style={{ height }}
         value={value}
@@ -64,7 +63,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
       />
       <button
         type="submit"
-        className="-ml-12 resize-none rounded-full p-2 text-white hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 disabled:opacity-25 disabled:bg-transparent"
+        className="-ml-11 m-1 resize-none rounded-full flex justify-center items-center size-7 text-white hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25 disabled:bg-transparent"
         disabled={!isLoading && value.length === 0}
       > 
         <ButtonIcon className="size-5" aria-hidden="true" />

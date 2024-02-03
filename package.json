@@ -15,7 +15,6 @@
     "@headlessui/react": "^2.0.0-alpha.4",
     "@heroicons/react": "^2.1.1",
     "@hookform/resolvers": "^3.3.4",
-    "@img/sharp-win32-x64": "^0.33.2",
     "@mdx-js/loader": "^3.0.0",
     "@mdx-js/react": "^3.0.0",
     "@next/mdx": "^14.0.4",

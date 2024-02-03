@@ -6,7 +6,7 @@ type Props = {
 
 export default function CitationLink ({ index }: Props) {
   return (
-    <button type="button" className="bg-slate-500 rounded-full size-6 text-xs p-0.5" onClick={() => { alert('yolo'); }}>
+    <button type="button" className="bg-primary rounded-full size-6 text-xs p-0.5 ml-2" onClick={() => { alert('yolo'); }}>
       {index}
     </button>
   );

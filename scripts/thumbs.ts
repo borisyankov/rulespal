@@ -32,10 +32,10 @@ async function downloadAndResizeImage(imageUrl: string, outputFilename: string):
   }
 }
 
-async function processGameIds(games: Game): Promise<void> {
+async function processGameIds(games: Game[]): Promise<void> {
   for (const game of games) {
     console.log(`Processing ${game.code}`);
-    const imageUrl = await getGameImageUrl(game.bggid);
+    const imageUrl = await getGameImageUrl(game.bggid.toString());
 
     if (imageUrl) {
       const outputFilename = `./thumbs/${game.code}.jpg`;

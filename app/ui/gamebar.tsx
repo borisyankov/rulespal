@@ -17,7 +17,7 @@ export default function GameBar({ game }: Props) {
           {game.name}
         </Button>
       </DialogTrigger>
-      <DialogContent className="p-0 sm:max-w-[425px] max-h-[600px]">
+      <DialogContent className="size-full">
         <GameList />
       </DialogContent>
     </Dialog>
