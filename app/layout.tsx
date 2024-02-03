@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { M_PLUS_Rounded_1c } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
+
 import "./globals.css";
 import { ThemeProvider } from "@/app/ui/theme-provider";
 
-const mplus = M_PLUS_Rounded_1c({
+const noto = Noto_Sans({
+  style: ["normal", "italic"],
   subsets: ["latin"],
-  weight: ["400", "500"],
+  weight  : ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`h-full ${mplus.className}`}>
+      <body className={`h-full ${noto.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
