@@ -68,6 +68,12 @@ const assets: Game[] = [
     thumbnail: 'https://cf.geekdo-images.com/F_KDEu0GjdClml8N7c8Imw__thumb/img/yl8iXxSNwguMeg3KkmfFO9SMVVc=/fit-in/200x150/filters:strip_icc()/pic2582929.jpg',
   },
   {
+    bggid: 521,
+    name: 'Crokinole',
+    code: 'crokinole',
+    thumbnail: 'https://cf.geekdo-images.com/7ejbxsn-UtLl3ehamuAEdw__thumb/img/AX0pNTuAzpUfxlvtwirM6zAK4ws=/fit-in/200x150/filters:strip_icc()/pic79413.jpg',
+  },
+  {
     bggid: 36218,
     name: 'Dominion',
     code: 'dominion',
@@ -252,6 +258,12 @@ const assets: Game[] = [
     name: 'Wingspan',
     code: 'wingspan',
     thumbnail: 'https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__thumb/img/VNToqgS2-pOGU6MuvIkMPKn_y-s=/fit-in/200x150/filters:strip_icc()/pic4458123.jpg',
+  },
+  {
+    bggid: 365258,
+    name: 'World Wonders',
+    code: 'world_wonders',
+    thumbnail: 'https://cf.geekdo-images.com/GGi5aUL1dVQIrytxgXow4g__thumb/img/90wLgUROk-IetKyXz2Fa7zNBCVs=/fit-in/200x150/filters:strip_icc()/pic7604558.png',
   },
 ];
 

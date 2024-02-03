@@ -2,9 +2,7 @@
 
 7 Wonders Duel is a game for 2 players in the world of 7 Wonders, the best-selling boardgame.
 
-It uses some of the main mechanics of its older brother,
-
-but offers a new challenge, especially adapted for one-on-one games.
+It uses some of the main mechanics of its older brother, but offers a new challenge, especially adapted for one-on-one games.
 
 ## CONTENTS
 

@@ -2,62 +2,34 @@
 
 ## Components
 
-main board, Bird Temple side
-(Snake Temple on other side)
-
-1 double-sided supply board
-
-4 basic cards in each color
-
-19 Fear cards
-
-40 item cards
-
-35 artifact cards
-
-4 double-sided player boards
-
-15 guardian tiles
-
-10 level I site tiles
-
-6 level II site tiles
-
-12 assistant tiles
-
-1 moon staff
-
-1 starting player marker
-
-1 pad of scoring sheets
-
-27 coin tokens
-
-27 compass tokens
-
-16 idol tiles
-
-24 temple tiles
-
-1 notebook token and
-1 magnifying glass token in each color
-
-16 tablet tokens
-
-12 arrowhead tokens
-
-9 jewel tokens
-
-5 blocking tiles
-
-2 archaeologist
-figures in each color
-
-18 research bonus tiles
-
-10 reserve tiles
-
-15 rival action tiles used in solo variant
+* main board, Bird Temple side (Snake Temple on other side)
+* 1 double-sided supply board
+* 4 basic cards in each color
+* 19 Fear cards
+* 40 item cards
+* 35 artifact cards
+* 4 double-sided player boards
+* 15 guardian tiles
+* 10 level I site tiles
+* 6 level II site tiles
+* 12 assistant tiles
+* 1 moon staff
+* 1 starting player marker
+* 1 pad of scoring sheets
+* 27 coin tokens
+* 27 compass tokens
+* 16 idol tiles
+* 24 temple tiles
+* 1 notebook token and
+* 1 magnifying glass token in each color
+* 16 tablet tokens
+* 12 arrowhead tokens
+* 9 jewel tokens
+* 5 blocking tiles
+* 2 archaeologist figures in each color
+* 18 research bonus tiles
+* 10 reserve tiles
+* 15 rival action tiles used in solo variant
 
 ## Player Setup
 
@@ -196,8 +168,4 @@ As your main action for your turn, you can send one of your archaeologists to di
 
 Note: If both your archaeologists are already on sites, you cannot take this action.
 
-Example: Red spends a  card with a  to send her archaeologist to the site
-illustrated here. She places her figure on the space and takes two tokens.
-The next player to use the site this round will need to cover a cost of . Even
-Red could do this, on a later turn, despite having one archaeologist already there.
-If both spaces are occupied, no one else can be sent to dig there this round.
+*Example: Red spends a card with a **Boot** to send her archaeologist to the site illustrated here. She places her figure on the **Boot** space and takes two tokens. The next player to use the site this round will need to cover a cost of **2 Boots**. Even Red could do this, on a later turn, despite having one archaeologist already there. If both spaces are occupied, no one else can be sent to dig there this round.*

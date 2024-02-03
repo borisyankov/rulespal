@@ -1,6 +1,6 @@
 # Arkham Horror The Card Game Rulebook
 
-## Beyond Time and Space…
+## Beyond Time and Space...
 
 > Assuming that I was sane and awake, my experience on that night was such as has befallen no man before. It was, moreover, a frightful confirmation of all I had sought to dismiss as myth and dream.
 > – H. P. Lovecraft, The Shadow Out of Time
