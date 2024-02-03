@@ -8,7 +8,6 @@ export type Game = {
   bggid: number;
   name: string;
   code: string;
-  thumbnail: string;
 };
 
 export type EmbeddingsStatic = {
