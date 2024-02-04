@@ -187,6 +187,11 @@ const assets: Game[] = [
     code: 'splendor',
   },
   {
+    bggid: 150145,
+    name: 'Skull King',
+    code: 'skull_king',
+  },
+  {
     bggid: 167791,
     name: 'Terraforming Mars',
     code: 'terraforming_mars',

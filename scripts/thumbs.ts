@@ -32,16 +32,21 @@ async function downloadAndResizeImage(imageUrl: string, outputFilename: string):
   }
 }
 
-async function processGameIds(games: Game[]): Promise<void> {
-  for (const game of games) {
-    console.log(`Processing ${game.code}`);
-    const imageUrl = await getGameImageUrl(game.bggid.toString());
+async function processGame(game: Game): Promise<void> {
+  console.log(`Processing ${game.code}`);
+  const imageUrl = await getGameImageUrl(game.bggid.toString());
 
-    if (imageUrl) {
-      const outputFilename = `./thumbs/${game.code}.jpg`;
-      await downloadAndResizeImage(imageUrl, outputFilename);
-    }
+  if (imageUrl) {
+    const outputFilename = `./thumbs/${game.code}.jpg`;
+    await downloadAndResizeImage(imageUrl, outputFilename);
   }
 }
 
-processGameIds(games);
+async function processGames(games: Game[]): Promise<void> {
+  for (const game of games) {
+    await processGame(game);
+  }
+}
+
+// processGames([games.find(x => x.code === 'skull_king')]);
+processGames(games);
