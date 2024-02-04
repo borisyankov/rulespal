@@ -52,6 +52,16 @@ const assets: Game[] = [
     code: 'catan',
   },
   {
+    bggid: 201808,
+    name: 'Clank!: A Deck-Building Adventure',
+    code: 'clank',
+  },
+  {
+    bggid: 365717,
+    name: 'Clank!: Catacombs',
+    code: 'clank_catacombs',
+  },
+  {
     bggid: 178900,
     name: 'Codenames',
     code: 'codenames',
