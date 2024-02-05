@@ -192,6 +192,11 @@ const assets: Game[] = [
     code: 'sea_salt_n_paper',
   },
   {
+    bggid: 329839,
+    name: 'So Clover!',
+    code: 'so_clover',
+  },
+  {
     bggid: 148228,
     name: 'Splendor',
     code: 'splendor',
