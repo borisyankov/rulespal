@@ -217,6 +217,11 @@ const assets: Game[] = [
     code: 'the_crew',
   },
   {
+    bggid: 244521,
+    name: 'The Quacks of Quedlinburg',
+    code: 'quacks_of_quedlinburg',
+  },
+  {
     bggid: 371942,
     name: 'The White Castle',
     code: 'the_white_castle',
