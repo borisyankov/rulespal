@@ -107,6 +107,11 @@ const assets: Game[] = [
     code: 'everdell',
   },
   {
+    bggid: 223040,
+    name: 'Fantasy Realms',
+    code: 'fantasy_realms',
+  },
+  {
     bggid: 334590,
     name: 'For Northwood!',
     code: 'for_northwood',
