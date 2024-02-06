@@ -72,6 +72,16 @@ const assets: Game[] = [
     code: 'crokinole',
   },
   {
+    bggid: 39856,
+    name: 'Dixit',
+    code: 'dixit',
+  },
+  {
+    bggid: 92828,
+    name: 'Dixit: Odyssey',
+    code: 'dixit_odyssey',
+  },
+  {
     bggid: 36218,
     name: 'Dominion',
     code: 'dominion',
@@ -145,6 +155,11 @@ const assets: Game[] = [
     bggid: 312484,
     name: 'Lost Ruins of Arnak',
     code: 'lost_ruins_of_arnak',
+  },
+  {
+    bggid: 129622,
+    name: 'Love Letter',
+    code: 'love_letter',
   },
   {
     bggid: 231733,
