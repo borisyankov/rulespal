@@ -1,7 +1,7 @@
 "use client";
 
+import { MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
-import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
 export default function Themer() {
   const { theme, setTheme } = useTheme();
