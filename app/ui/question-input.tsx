@@ -52,7 +52,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     >
       <textarea
         id="prompt-textarea"
-        className="resize-none rounded-3xl focus:ring-2 focus:ring-primary focus:outline-none flex-1 text-sm leading-6 text-slate-900 placeholder:slate-400 px-4 py-1.5 ring-inset bg-gray-200 dark:bg-gray-800 dark:text-slate-200" 
+        className="resize-none rounded-3xl focus:ring-2 focus:ring-primary focus:outline-none flex-1 text-sm leading-6 text-zinc-900 placeholder:zinc-400 px-4 py-1.5 ring-inset bg-gray-200 dark:bg-gray-800 dark:text-zinc-200" 
         ref={textAreaRef}
         style={{ height }}
         value={value}
