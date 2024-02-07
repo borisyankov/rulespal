@@ -232,6 +232,11 @@ const assets: Game[] = [
     code: 'splendor_duel',
   },
   {
+    bggid: 251658,
+    name: 'Sprawlopolis',
+    code: 'sprawlopolis',
+  },
+  {
     bggid: 150145,
     name: 'Skull King',
     code: 'skull_king',
