@@ -217,6 +217,11 @@ const assets: Game[] = [
     code: 'so_clover',
   },
   {
+    bggid: 162886,
+    name: 'Spirit Island',
+    code: 'spirit_island',
+  },
+  {
     bggid: 148228,
     name: 'Splendor',
     code: 'splendor',
@@ -255,6 +260,11 @@ const assets: Game[] = [
     bggid: 371942,
     name: 'The White Castle',
     code: 'the_white_castle',
+  },
+  {
+    bggid: 342070,
+    name: 'Thunder Road: Vendetta',
+    code: 'thunder_road_vendetta',
   },
   {
     bggid: 9209,
