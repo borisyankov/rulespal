@@ -309,7 +309,7 @@ Clues represent the progress the investigators can make towards solving a myster
 * If there are no “Objective – ” requirements for advancing the current act, during any investigator’s turn the investigators may, as a group, spend the requisite number of clues (usually conveyed as a “per investigator” value) from their investigator cards to advance the act deck. This is normally done as a  player ability. Any or all investigators may contribute any number of clues towards the total number of clues required to advance the act.
 * A card ability that refers to clues “at a location” is referring to the undiscovered clues that are currently on that location.
 
-See also: “Act Deck and Agenda Deck” on page 3, “Tokens, Running out of ” on page 20.
+See also: [Act Deck and Agenda Deck](#act-deck-and-agenda-deck), “Tokens, Running out of ” on page 20.
 
 ### Collection
 
@@ -319,11 +319,11 @@ If an ability refers to a player’s collection *(for example, “search the col
 
 ### Constant Abilities
 
-See “Ability” on page 2.
+See [Ability](#ability).
 
 ### Control
 
-See “Ownership and Control” on page 16.
+See [Ownership and Control](#ownership-and-control).
 
 ### Copy
 
@@ -357,6 +357,297 @@ When an investigator or enemy is dealt damage and/or horror, follow these steps,
    * All damage/horror that cannot be assigned to an asset must be assigned to the investigator.
 2. **Apply Damage/Horror:** Any assigned damage/horror that has not been prevented is now placed on each card to which it has been assigned, simultaneously. If no damage/horror is applied in this step, no damage/horror has been successfully dealt.
    * Abilities that prevent, reduce, or reassign damage and/or horror that is being dealt are resolved between steps 1 and 2.
-   * After applying damage/horror, if an investigator has damage equal to or higher than his or her health or horror equal to or higher than his or her sanity, he or she is defeated. When an investigator is defeated, he or she is eliminated from the scenario (see “Elimination” on page 10).
+   * After applying damage/horror, if an investigator has damage equal to or higher than his or her health or horror equal to or higher than his or her sanity, he or she is defeated. When an investigator is defeated, he or she is eliminated from the scenario (see [Elimination](#elimination)).
    * After applying damage/horror, if an enemy has damage equal to or higher than its health, it is defeated and placed in the encounter discard pile (or in its owner’s discard pile if it is a weakness).
    * After applying damage/horror, if an asset has damage equal to or higher than its health or horror equal to or higher than its sanity, it is defeated and placed in its owner’s discard pile.
+
+### Deck
+
+There are 4 main types of decks that appear in any game: the Investigator Deck, the Encounter Deck, the Act Deck, and the Agenda Deck.
+
+* The order of cards within a deck may not be altered
+unless a player is instructed to do so by a card ability.
+
+See also: [Investigator Deck](#investigator-deck), [Encounter Deck](#encounter-deck), [Act Deck and Agenda Deck](#act-deck-and-agenda-deck).
+
+### Deckbuilding
+
+When building a custom deck, the following
+guidelines must be observed:
+
+* A player must choose exactly 1 investigator card.
+* A player’s investigator deck must include the exact number of player cards indicated on the back of his or her investigator card as the “Deck Size.” Weaknesses, investigator-specific cards, and scenario cards that are added to a player’s deck do not count towards this number.
+* A player’s investigator deck may not include more than 2 copies (by title) of any given player card.
+* Each standard player card in a player’s investigator deck must be chosen from among the “Deckbuilding Options” available on the back of his or her investigator card.
+* Most investigators have 0 experience to spend at the beginning of a campaign, which means that they may only include level 0 cards in their decks. Some investigators, and/or some campaigns, may provide a player with additional experience at the beginning of a campaign, which can be used immediately to purchase higher level cards (see [Campaign Play](#campaign-play)).
+* All other “Deckbuilding Requirements” listed on the back of a player’s investigator card must be observed.
+* Each required random basic weakness is added to a player’s deck at the end of the deckbuilding process.
+* Story Assets may not be included in a player’s deck unless the setup or resolution of a scenario grants that player permission to do so. These assets are indicated by the lack of a card level and the presence of an encounter set symbol (see [Asset Cards](asset-cards])).
+* During a campaign, players build a deck before playing the first scenario. In between scenarios, players can purchase new cards or upgrade cards in their deck following the rules found under [Campaign Play](#campaign-play).
+
+#### Classes
+
+Most player cards, including investigators, belong to one of 5 classes.Each class has its own distinct flavor and identity, as described below.
+
+**Guardians** feel compelled to defend humanity, and thus go out of their way to combat the forces of the Mythos. They have a strong sense of duty and selflessness that drives them to protect others, and to hunt monsters down.
+
+**Mystics** are drawn to and influenced by the arcane forces of the Mythos. Many have spell-casting abilities, able to manipulate the forces of the universe through magical talent.
+
+**Rogues** are self-serving and out for themselves. Wily and opportunistic, they are always eager for a way to exploit their current situation.
+
+**Seekers** are primarily concerned with learning more about the world and about the Mythos. They wish to research forgotten lore, map out uncharted areas, and study strange creatures.
+
+**Survivors** are everyday people in the wrong place
+at the wrong time, simply trying to survive. Ill-prepared
+and ill-equipped, Survivors are the underdogs, who rise
+to the occasion when their lives are threatened.
+
+Some cards are not affiliated with any class; these cards are neutral.
+
+Generally, investigators only have access to cards from their class. Some investigators have access to cards from other classes. Refer to the “Deckbuilding Options” on the back of an investigator card to view which cards an investigator has access to.
+
+### Defeat
+
+Taking damage and/or horror may cause an investigator, enemy, or asset to be defeated.
+
+* If an investigator has as much or more damage on it as it has health (or as much or more horror on it as it has sanity), that investigator is defeated. An investigator might also be defeated by a card ability. When an investigator is defeated, he or she is eliminated from the scenario (see “Elimination” on page 10).
+* In campaign play, an investigator that is defeated by taking damage equal to his or her health suffers 1 physical trauma. An investigator that is defeated by taking horror equal to his or her sanity suffers 1 mental trauma. Taking trauma may cause an investigator to be killed or driven insane (see “Campaign Play” on page 5 for more information).
+* If an enemy has as much or more damage on it as it has health, that enemy is defeated and placed on the encounter discard pile (or on its owner’s discard pile if it is a weakness).
+* If an asset with a health value has as much or more damage than it has health, it is defeated. If an asset with a sanity value has as much or more horror than it has sanity, it is defeated. A defeated asset is placed on its owner’s discard pile.
+
+### Delayed Effects
+
+Some abilities create delayed effects. Such abilities specify a future timing point, or indicate a future condition that may arise, and dictate an effect that will happen at that time.
+
+* Each delayed effect initiates automatically and immediately (as a forced ability) if its future timing point or future condition occurs.
+* A delayed effect affects all specified entities that are in the specified game area and eligible at the time the delayed effect resolves.
+
+### Difficulty (level)
+
+There are four levels of difficulty in *Arkham Horror: The Card Game*: Easy, Standard, Hard, and Expert. At the beginning of a campaign or standalone scenario, the players choose which difficulty level to use. The campaign setup section of that campaign or scenario’s Campaign Guide indicates which chaos tokens should be placed into the chaos bag when playing on each difficulty level.
+
+* When playing in Easy or Standard mode, use the “Easy/ Standard” side of each scenario’s reference card. When playing in Hard or Expert mode, use the “Hard/Expert” side of each scenario’s reference card instead.
+
+### Difficulty (skill tests)
+
+The difficulty of a skill test is the target number an investigator is trying to equal or exceed with his or her modified skill value to pass that test.
+
+* When attacking an enemy, the base difficulty of the skill test is the enemy’s fight value.
+* When investigating a location, the base difficulty of the skill test is the location’s shroud value.
+* When attempting to evade an enemy, the base difficulty for the skill test is the enemy’s evade value.
+* When resolving a skill test created by a card ability, the base difficulty is indicated as a parenthetical value following the indication of which skill is being tested. For example: *Intellect (3)*.
+
+See “Skill Test Timing” on page 26 for the full rules on skill tests.
+
+### Direct Damage, Direct Horror
+
+If an ability causes a card to take direct damage or direct horror, that damage or horror must be assigned directly to the specified card, and cannot be assigned or re-assigned elsewhere.
+
+### Discard Piles
+
+Any time a card is discarded, it is placed faceup on top of its owner’s discard pile. Encounter cards are owned by the encounter deck.
+
+* Each discard pile is an out-of-play area.
+* Each investigator has his or her own discard pile, and the encounter deck has its own discard pile.
+* Each discard pile is open information, and may be looked at by any player at any time.
+* The order of cards in a discard pile may not be altered unless a player is instructed to do so by a card ability.
+* If multiple cards are discarded simultaneously, the owner of the cards may physically place them on top of his or her discard pile one at a time, in any order. If multiple encounter cards are discarded simultaneously, they are placed on top of the encounter discard pile in any order (determined by lead investigator).
+* Any ability that would shuffle a discard pile of zero cards back into a deck does not shuffle the deck.
+
+### Doom
+
+Doom represents the progress the forces of the Mythos make towards completing foul rituals, summoning cosmic entities, and/or advancing a scenario’s agenda.
+
+* During each Mythos phase, 1 doom is placed on the current agenda (see “I. Mythos phase” on page 24).
+* If there are no “**Objective** – ” requirements for advancing the current agenda and the requisite amount of doom is in play (among the agenda and all cards in play), the agenda advances during the “Check doom threshold” step of the Mythos phase. Unless a card otherwise specifies that it can advance the agenda, this is the only time at which the agenda can advance.
+* Doom on cards other than the agenda (such as enemies, allies, locations, etc.) counts towards the amount of doom in play.
+
+See also: “Act Deck and Agenda Deck” on page 3, “Tokens, Running out of ” on page 20.
+
+### Draw Action
+
+“Draw” is an action an investigator may take during his or her turn in the investigation phase.
+
+When an investigator takes this action, that investigator draws one card from his or her deck.
+
+### Drawing Cards
+
+When a player is instructed to draw one or more
+cards, those cards are drawn from the top of his or her
+investigator deck and added to his or her hand.
+
+When a player is instructed to draw one or more encounter cards, those cards are drawn from the top of the encounter deck, and resolved following the rules for drawing encounter cards under framework step “1.4 Each investigator draws 1 encounter card.” on page 24.
+
+* When a player draws two or more cards as the result of a single ability or game step, those cards are drawn simultaneously. If a deck empties mid-draw, reset the deck and complete the draw.
+* There is no limit to the number of cards a player may draw each round.
+* If an investigator with an empty investigator deck needs to draw a card, that investigator shuffles his or her discard pile back into his or her deck, then draws the card, and upon completion of the entire draw takes one horror.
+
+### Effects
+
+A card effect is any effect that arises from the resolution of ability text printed on, or gained by, a card. A framework effect is any effect that arises from the resolution of a framework event (see “Framework Event Details” on page 24).
+
+* Card effects may be preceded by costs, triggering conditions, play restrictions, and/or play permissions; such elements are not considered effects (see [Ability](#ability)).
+* Once initiated, players must resolve as much of each aspect of the effect as they are able, unless the effect uses the word “may.”
+* When a non-targeting effect attempts to interact with a number of entities (such as “draw 3 cards” or “search the top 5 cards of your deck”) that exceeds the number of entities that currently exist in the specified game area, the effect interacts with as many entities as possible.
+* The expiration of a lasting effect (or the cessation of a constant ability) is not considered to be generating a game state change by a card effect.
+* All aspects of an effect have timing priority over all “after...” triggering conditions that might arise as a consequence of that effect. (For example, if an effect reads “Gain 3 resources and draw 3 cards,” resolve both aspects of the effect (gaining resources and drawing cards) before initiating an ability that reads “After drawing a card...”)
+
+See also: [Delayed Effects](#delayed-effects), “Lasting Effects” on page 14, “Priority of Simultaneous Resolution” on page 17.
+
+### Elimination
+
+A player is eliminated from a scenario any time his or her investigator is defeated, or if he or she resigns. The only manner in which eliminated investigators interact with the game when establishing “per investigator” values (see page 16). Any time a player is eliminated:
+
+0. For the purpose of resolving weakness cards, the game has ended for the eliminated investigator. Trigger any “when the game ends” abilities on each weakness the eliminated investigator owns that is in play. Then, remove those weaknesses from the game.
+1. The cards he or she controls in play and all of the cards in his or her out-of-play areas (such as hand, deck, discard pile) are removed from the game.
+   * Any card that player owns but does not control that is in play remains in play, but if that card leaves play it is removed from the game.
+2. All clue tokens that player possesses are placed at the location the investigator was at when he or she was eliminated, and all of that player’s resource tokens are returned to the token pool.
+3. All enemies engaged with that player are placed at the location the investigator was at when he or she was eliminated, unengaged but otherwise maintaining their current game state.
+4. All other cards in the eliminated investigator’s threat area are placed in the appropriate discard pile.
+5. If the lead investigator is eliminated, the remaining players (if any) choose a new lead investigator.
+6. If there are no remaining players, the scenario ends. Refer to “no resolution was reached” entry for that scenario in the campaign guide.
+
+### Empty Location
+
+An empty location is a location with no enemies or investigators at it.
+
+### Encounter Deck
+
+The encounter deck contains the encounter cards (enemy, treachery, and story asset cards) the investigators may encounter during a scenario.
+
+* If the encounter deck is empty, shuffle the encounter discard pile back into the encounter deck.
+
+### Encounter Set
+
+An encounter set is a collection of encounter cards, denoted by a common encounter set symbol near each card’s cardtype.
+
+### Enemy Cards
+
+Enemies represent villains, cultists, ne’er-do-wells, terrible monsters, and unfathomable entities from alternate dimensions or the cosmos beyond.
+
+When an enemy card is drawn by an investigator, that investigator must spawn it following any spawn direction the card bears (see “Spawn” on page 19). If the encountered enemy has no spawn direction, the enemy spawns engaged with the investigator encountering the card and is placed in that investigator’s threat area.
+
+See “1.4 Each investigator draws 1 encounter card.” on page 24.
+
+* A ready, unengaged enemy engages any time it is at the same location as an investigator (see “Enemy Engagement” on page 10).
+* If an investigator is engaged with a ready enemy and takes an action other than to **fight**, to **evade**, or to activate a **parley** or **resign** ability, that enemy makes an attack of opportunity (see [Attack of Opportunity](#attack-of-opportunity)).
+* Enemies with the hunter keyword move during the Enemy Phase (see “III. Enemy phase” on page 25).
+* Engaged enemies attack during the Enemy Phase (see “III. Enemy phase” on page 25).
+
+### Enemy Engagement
+
+While an enemy card is in play, it is either engaged with an investigator (and placed in that investigator’s threat area), or it is unengaged and at a location (and placed at that location). Each enemy in an investigator’s threat area is considered to be at the same location as that investigator, and should the investigator move, the enemy remains engaged and moves to the new location simultaneously with the investigator.
+
+Any time a ready unengaged enemy is at the same location as an investigator, it engages that investigator, and is placed in that investigator’s threat area. If there are multiple investigators at the same location as a ready unengaged enemy, follow the enemy’s prey instructions to determine which investigator is engaged. There is no limit on the number of enemies that can be engaged with a single investigator.
+
+*For example, a ready unengaged enemy immediately engages if:*
+
+* *It spawns at the same location as an investigator,*
+* *It moves into the same location as an investigator,*
+* *An investigator moves into the same location as it.*
+
+An exhausted unengaged enemy does not engage, but if an exhausted enemy at the same location as an investigator becomes ready, it engages as soon as it is readied.
+
+* *Note: An enemy with the Aloof keyword does not
+engage in the manner described above.*
+
+### Enemy Phase
+
+See “III. Enemy phase” on page 25.
+
+Engage Action
+“Engage” is an action an investigator may take during
+his or her turn in the investigation phase.
+To engage an enemy at the same location (for example,
+this could be done to engage an exhausted enemy, an aloof
+enemy, or an enemy engaged with another investigator), an
+investigator places the chosen enemy in his or her threat
+area. The investigator and the enemy are now engaged.
+=An investigator may perform the engage action to engage
+an enemy that is engaged with a different investigator
+at the same location. The enemy simultaneously
+disengages from the previous investigator and
+engages the investigator performing the action.
+=An investigator cannot use the engage action to engage
+an enemy he or she is already engaged with.
+Enters Play
+The phrase “enters play” refers to any time a card makes
+a transition from an out-of-play area into a play area
+(see “In Play and Out of Play” on page 13).
+=If an ability (either on the card itself or from another
+card) causes a card to enter play in a state different
+from that specified by the rules, there is no transition
+to that state. It merely enters play in that state.
+Evade, Evade Action
+“Evade” is an action an investigator may take during
+his or her turn in the investigation phase.
+To evade an enemy engaged with an investigator, that
+investigator makes an agility test against the enemy’s
+evade value (see “Skill Tests” on page 18).
+If the test is successful, the investigator successfully evades
+the enemy (see below). (This occurs during step 7 of the skill
+test, per “ST.7 Apply skill test results.” on page 26.)
+If the test fails, the investigator does not evade the
+enemy, and it remains engaged with him or her.
+=If an ability “automatically” evades 1 or more enemies,
+no skill test is made for the evasion attempt.
+=Any time an enemy is evaded (whether by an evade action,
+or by card ability), the enemy is exhausted (if it was ready)
+and the engagement is broken. Move the enemy from the
+investigator’s threat area to the investigator’s location to
+mark that it is no longer engaged with that investigator.
+=Unlike the fight and engage action, an investigator
+can only perform an evade action against
+an enemy engaged with him or her.
+Event Cards
+Event cards represent tactical actions, maneuvers, spells, tricks,
+and other instantaneous effects at a player’s disposal.
+=If an event card does not have the fast keyword, it may
+only be played from a player’s hand by performing a
+“Play” action during his or her turn. You must follow
+all play permissions/restrictions that card has.
+=A fast event card may be played from a player’s hand any time
+its play instructions specify (see “Fast” on page 11).
+=Any time a player plays an event card, its costs are paid, its
+effects are resolved (or canceled), and the card is placed in its
+owner’s discard pile after those effects resolve (or are canceled).
+=If the effects of an event card are canceled, the card
+is still considered to have been played, and its costs
+remain paid. Only the effects have been canceled.
+=Playing an event card from hand (or not playing
+it) is always optional for a player, unless the event
+uses the word “must” in its play instructions.
+=An event card cannot be played unless the resolution of
+its effect has the potential to change the game state.
+Exceptional
+Exceptional is a deckbuilding keyword ability.
+=A card with the exceptional keyword costs twice
+its printed experience cost to purchase.
+= A player’s investigator deck cannot include more than
+1 copy (by title) of any given exceptional card.
+Exhaust, Exhausted
+Occasionally, a card ability or game step will cause a card to exhaust to
+indicate it has been used to perform a function. When a card exhausts,
+it is rotated 90 degrees. A card in this state is said to be exhausted.
+=An exhausted card cannot exhaust again until it is
+ready (typically by a game step or card ability).
+Experience
+See “Campaign Play” on page 5.
+Fast
+Fast is a keyword ability. A fast card does not cost an action
+to be played and is not played using the “Play” action.
+=A fast event card may be played from a player’s hand any
+time its play instructions specify. If the instructions specify
+when/after a timing point, the card may be played as if
+the described timing point were a triggering condition for
+playing the card. If the instructions specify a duration or
+period of time, the card may be played during any player
+window within that period. If the instructions specify both
+a when/after timing point and a duration or period of time,
+the card may be played in reference to any instance of the
+specified triggering condition within that time period.
+=A fast asset may be played by an investigator
+during any player window on his or her turn.
+=Because fast cards do not cost actions to play,
+they do not provoke attacks of opportunity (see
+“Attack of Opportunity” on page 5).
