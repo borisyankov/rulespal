@@ -17,6 +17,11 @@ const assets: Game[] = [
     code: '7_wonders_duel',
   },
   {
+    bggid: 31260,
+    name: 'Agricola',
+    code: 'agricola',
+  },
+  {
     bggid: 185343,
     name: 'Anachrony',
     code: 'anachrony',
@@ -29,7 +34,7 @@ const assets: Game[] = [
   {
     bggid: 205637,
     name: 'Arkham Horror: The Card Game',
-    code: 'arkham_horror_card_game', // _reference.toString(),
+    code: 'arkham_horror_card_game', // [reference]
   },
   {
     bggid: 230802,
@@ -275,6 +280,11 @@ const assets: Game[] = [
     bggid: 9209,
     name: 'Ticket to Ride',
     code: 'ticket_to_ride',
+  },
+  {
+    bggid: 14996,
+    name: 'Ticket to Ride: Europe',
+    code: 'ticket_to_ride_europe',
   },
   {
     bggid: 247763,
