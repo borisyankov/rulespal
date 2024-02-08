@@ -17,10 +17,10 @@ export default function GameItem({ game } : { game: Game }) {
       hover:border-primary
       "
       key={game.name}
-      href={`/${game.bggid}`}
+      href={`/${game.code}`}
     >
       <Thumbnail game={game} />
-      <span className="mt-2 text-sm opacity-75">{game.name}</span>
+      <span className="mt-2 text-xs opacity-75">{game.name}</span>
     </Link>
   );
 }

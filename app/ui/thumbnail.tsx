@@ -7,6 +7,6 @@ type Props = {
 
 export default function Thumbnail({ game, className }: Props) {
   return (
-    <img className={`object-scale-down size-24 ${className}`} src={`/thumbs/${game.code}.jpg`} alt={`${game.name} thumbnail`} />
+    <img className={`object-scale-down size-30 rounded-lg ${className}`} src={`/thumbs/${game.code}.jpg`} alt={`${game.name} thumbnail`} />
   );
 }

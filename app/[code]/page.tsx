@@ -5,13 +5,14 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/app/ui/tabs';
 import Rulebook from './Rulebook';
 import Themer from '../ui/themer';
 import GameDialog from '../ui/game-dialog';
+import { Suspense } from 'react';
 
 type Props = {
-  params: { id: string };
+  params: { code: string };
 };
 
-export default function Home({ params: { id } }: Props) {
-  const game = games.find((game) => game.bggid === +id);
+export default function Home({ params: { code } }: Props) {
+  const game = games.find((game) => game.code === code);
   if (!game) {
     return redirect('/');
   }
@@ -31,7 +32,9 @@ export default function Home({ params: { id } }: Props) {
             <Chat game={game} />
           </TabsContent>
           <TabsContent value="rulebook" className="flex-1">
-            <Rulebook code={game.code} />
+            <Suspense fallback="Loading...">
+              <Rulebook code={game.code} />
+            </Suspense>
           </TabsContent>
         </div>
       </Tabs>
