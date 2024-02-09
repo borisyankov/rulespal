@@ -52,6 +52,11 @@ const assets: Game[] = [
     code: 'cascadia',
   },
   {
+    bggid: 345972,
+    name: 'Cat in the Box: Deluxe Edition',
+    code: 'cat_in_the_box',
+  },
+  {
     bggid: 13,
     name: 'CATAN',
     code: 'catan',
@@ -75,6 +80,11 @@ const assets: Game[] = [
     bggid: 521,
     name: 'Crokinole',
     code: 'crokinole',
+  },
+  {
+    bggid: 225694,
+    name: 'Decrypto',
+    code: 'decrypto',
   },
   {
     bggid: 39856,
@@ -155,6 +165,11 @@ const assets: Game[] = [
     bggid: 254640,
     name: 'Just One',
     code: 'just_one',
+  },
+  {
+    bggid: 70323,
+    name: 'King of Tokyo',
+    code: 'king_of_tokyo',
   },
   {
     bggid: 204583,
