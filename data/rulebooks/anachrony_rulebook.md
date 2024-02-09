@@ -771,8 +771,8 @@ Collapsing Capital tile bonuses always apply **in addition to** the respective s
 
 Each Path has two different Evacuation conditions, and each condition consists of two parts:
 
-• The **base condition** describes what assets the player needs to have in order to take the EvAcuation Action, and how many VPs it is worth in itself (regardless of the additional reward).
-• The **additional reward** part addresses specific assets and a related Victory Point ratio. The player gets additional VPs based on the amount of that asset held by the player when the Evacuation Action is taken in addition to the base condition’s VP value.
+* The **base condition** describes what assets the player needs to have in order to take the EvAcuation Action, and how many VPs it is worth in itself (regardless of the additional reward).
+* The **additional reward** part addresses specific assets and a related Victory Point ratio. The player gets additional VPs based on the amount of that asset held by the player when the Evacuation Action is taken in addition to the base condition’s VP value.
 
 #### PATH OF HARMONY
 

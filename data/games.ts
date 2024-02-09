@@ -47,6 +47,11 @@ const assets: Game[] = [
     code: 'carcassonne',
   },
   {
+    bggid: 263918,
+    name: 'Cartographers',
+    code: 'cartographers',
+  },
+  {
     bggid: 295947,
     name: 'Cascadia',
     code: 'cascadia',
