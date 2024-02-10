@@ -6,7 +6,7 @@ export default function GameItem({ game } : { game: Game }) {
   return (
     <Link
       className="cursor-pointer p-8
-      size-40
+      size-52
       flex flex-col items-center justify-center overflow-hidden text-balance rounded-xl
       bg-white
       dark:bg-zinc-800

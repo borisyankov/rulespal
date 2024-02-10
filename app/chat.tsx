@@ -15,7 +15,7 @@ export default function Chat({ game }: Props) {
   const options = useChat({
     api: "/api/chat",
   });
-  const { messages, isLoading, stop, handleInputChange, handleSubmit } = options;
+  const { messages, isLoading, stop, data, handleInputChange, handleSubmit } = options;
   function submitWithGame(e: FormEvent<HTMLFormElement>) {
     handleSubmit(e, { data: { bggid: game.bggid.toString() } });
   }

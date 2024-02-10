@@ -17,13 +17,19 @@ export async function getEmbedding(text: string): Promise<number[]> {
   return embeddingResponse.data[0].embedding;
 }
 
-export async function searchFor(query: string, bggid: number) {
+type SearchForResponse = {
+  prompt: string, embeddings: EmbeddingsStatic[]
+}
+
+export async function searchFor(query: string, bggid: number): Promise<SearchForResponse> {
   const game = games.find((x) => x.bggid === bggid);
   if (!game) {
-    return "Game not found";
+    throw "Game not found";
   }
-  const rulebook = (await import(`../../data/rulebooks/${game.code}_rulebook.md`)).default as string;
-  const gameEmbeddings = (await import(`../../data/embeddings/${game.code}_embeddings.json`)).default as EmbeddingsStatic[];
+  const [rulebook, gameEmbeddings] = await Promise.all([
+    import(`../../data/rulebooks/${game.code}_rulebook.md`).then((module) => module.default as string),
+    import(`../../data/embeddings/${game.code}_embeddings.json`).then((module) => module.default as EmbeddingsStatic[])
+  ]);
   const queryEmbedding = await getEmbedding(query);
   console.time('Search all embeddings');
   const cosine = gameEmbeddings.map((x) => ({
@@ -32,8 +38,10 @@ export async function searchFor(query: string, bggid: number) {
   }));
   cosine.sort((a, b) => b.similarity - a.similarity);
   console.timeEnd('Search all embeddings');
-  
   const topFive = cosine.slice(0, 5);
   const rulesExcerpt = topFive.map((x, i) => `${rulebook.substring(x.start, x.start + x.length)} 【${i + 1}†source】`).join('\n');
-  return getPrompt(rulesExcerpt, game.name);
+  return {
+    prompt: getPrompt(rulesExcerpt, game.name),
+    embeddings: topFive,
+  };
 }

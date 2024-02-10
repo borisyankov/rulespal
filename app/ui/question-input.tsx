@@ -43,7 +43,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     onChange(event);
   };
   const ButtonIcon = isLoading ? StopCircleIcon : SendHorizontalIcon;
-  const height = value.split("\n").length * 24 + 12;
+  const height = value.split("\n").length * 24 + 28;
   return (
     <form
       ref={formRef}
@@ -52,7 +52,8 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     >
       <textarea
         id="prompt-textarea"
-        className="resize-none rounded-3xl focus:ring-2 focus:ring-primary focus:outline-none flex-1 text-sm leading-6 text-zinc-900 placeholder:zinc-400 px-4 py-1.5 ring-inset bg-gray-200 dark:bg-gray-800 dark:text-zinc-200" 
+        className="resize-none rounded-3xl focus:ring-2 focus:ring-primary focus:outline-none flex-1
+        leading-6 text-zinc-900 placeholder:zinc-400 px-6 py-3 ring-inset bg-gray-200 dark:bg-gray-800 dark:text-zinc-200" 
         ref={textAreaRef}
         style={{ height }}
         value={value}
@@ -63,10 +64,14 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
       />
       <button
         type="submit"
-        className="-ml-11 m-1 resize-none rounded-full flex justify-center items-center size-7 text-white hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25 disabled:bg-transparent"
+        className="mt-[4px] ml-[-60px] resize-none rounded-full flex justify-center items-center size-11 
+        text-black
+        dark:text-white
+        enabled:hover:text-white
+        enabled:hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25"
         disabled={!isLoading && value.length === 0}
       > 
-        <ButtonIcon className="size-5" aria-hidden="true" />
+        <ButtonIcon className="size-5 dark:text-black" aria-hidden="true" />
       </button>
     </form>
   );

@@ -15,7 +15,7 @@ export default function Themer() {
   return (
     <div className="flex cursor-pointer flex-row">
       <Icon
-        className="h-10 w-10 rounded-full bg-gray-500/10 p-2"
+        className="size-10 rounded-full bg-gray-500/10 p-2"
         onClick={toggleTheme}
       />
     </div>
