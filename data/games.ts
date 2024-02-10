@@ -42,6 +42,11 @@ const assets: Game[] = [
     code: 'azul',
   },
   {
+    bggid: 41,
+    name: 'Can\'t Stop',
+    code: 'cant_stop',
+  },
+  {
     bggid: 822,
     name: 'Carcassonne',
     code: 'carcassonne',
