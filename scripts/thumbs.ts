@@ -3,6 +3,7 @@ import sharp from 'sharp';
 import { parseStringPromise } from 'xml2js';
 import games from '../data/games';
 import { Game } from '@/app/lib/definitions';
+import fs from 'fs';
 
 async function getGameImageUrl(gameId: string): Promise<string | null> {
   try {
@@ -24,7 +25,7 @@ async function downloadAndResizeImage(imageUrl: string, outputFilename: string):
     const buffer = await response.buffer();
     console.log('resizing');
     await sharp(buffer)
-      .resize(500, 500, { fit: 'contain' })
+      .resize(500)
       .toFile(outputFilename);    
     console.log(`Image saved as ${outputFilename}`);
   } catch (error) {
@@ -37,14 +38,16 @@ async function processGame(game: Game): Promise<void> {
   const imageUrl = await getGameImageUrl(game.bggid.toString());
 
   if (imageUrl) {
-    const outputFilename = `./thumbs/${game.code}.jpg`;
-    await downloadAndResizeImage(imageUrl, outputFilename);
+    const outputFilename = `../public/thumbs/${game.code}.jpg`;
+    if (!fs.existsSync(outputFilename)) {
+      await downloadAndResizeImage(imageUrl, outputFilename);
+    }
   }
 }
 
 async function processGames(games: Game[]): Promise<void> {
   for (const game of games) {
-    await processGame(game);
+    processGame(game);
   }
 }
 
