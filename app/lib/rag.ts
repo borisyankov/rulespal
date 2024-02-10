@@ -37,11 +37,16 @@ function lastIndexOfDelimiters(
   return [endIndex, 0];
 }
 
+type Chunk = {
+  text: string;
+  offset: number;
+}
+
 export function splitText(
   inputText: string,
   chunkSize: number,
   chunkOverlap = 0,
-): string[] {
+): Chunk[] {
   if (chunkOverlap > chunkSize) {
     throw new Error('chunkOverlap must be less than chunkSize');
   }
@@ -67,7 +72,10 @@ export function splitText(
           );
     const chunk = text.substring(startIndex, endIndex).trim();
     if (chunk.length > 0) {
-      chunks.push(chunk);
+      chunks.push({
+        offset: startIndex,
+        text: chunk
+      });
     }
     currentIndex = endIndex + delimiterLength;
   }

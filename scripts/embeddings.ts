@@ -5,25 +5,6 @@ import games from '../data/games';
 
 const openai = new OpenAI();
 
-function readFileAsText(filename: string): string {
-  try {
-    const fileContent = fs.readFileSync(filename, 'utf-8');
-    return fileContent;
-  } catch (error) {
-    console.error(`Error reading file: ${error}`);
-    return '';
-  }
-}
-
-function writeStringToFile(filename: string, content: string): void {
-  try {
-    fs.writeFileSync(filename, content, 'utf-8');
-    console.log(`Successfully wrote to file: ${filename}`);
-  } catch (error) {
-    console.error(`Error writing to file: ${error}`);
-  }
-}
-
 async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
   console.log(`Reading rulebook: ${rulebookFile}`);
   console.time('Read complete');
@@ -32,22 +13,23 @@ async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
 
   console.log('Splitting text...');
   console.time('Split complete');
-  const chunks = await splitText(docs, 1000, 200);
+  const chunks = await splitText(docs, 2000, 10);
   console.timeEnd('Split complete');
   console.log('Chunks: ', chunks.length);
-
 
   console.log('Creating embeddings...');
   console.time('Embeddings created');
   const embeddingResponse = await openai.embeddings.create({
-    input: chunks,
+    input: chunks.map(x => x.text),
     model: 'text-embedding-3-small',
+    dimensions: 512,
   });
   console.timeEnd('Embeddings created');
 
   const embeddingObject = chunks.map((chunk, index) => {
     return {
-      chunk,
+      start: chunk.offset,
+      length: chunk.text.length,
       embedding: embeddingResponse.data[index].embedding
     };
   });
@@ -61,8 +43,8 @@ async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
 async function processAllRulebooks() {
   for (const game of games) {
     const rulebookFile = `../data/rulebooks/${game.code}_rulebook.md`;
-    const embeddingFile = `./${game.code}_embeddings.json`;
-    await docToEmbeddings(rulebookFile, embeddingFile);
+    const embeddingFile = `./embeddings/${game.code}_embeddings.json`;
+    docToEmbeddings(rulebookFile, embeddingFile);
   }
 }
 

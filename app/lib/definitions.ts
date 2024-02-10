@@ -11,7 +11,8 @@ export type Game = {
 };
 
 export type EmbeddingsStatic = {
-  chunk: string;
+  start: number,
+  length: number,
   embedding: number[];
 }
 

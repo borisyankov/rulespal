@@ -12,6 +12,7 @@ export async function getEmbedding(text: string): Promise<number[]> {
   const embeddingResponse = await openai.embeddings.create({
     input: text,
     model: 'text-embedding-3-small',
+    dimensions: 512,
   });
   return embeddingResponse.data[0].embedding;
 }
@@ -21,6 +22,7 @@ export async function searchFor(query: string, bggid: number) {
   if (!game) {
     return "Game not found";
   }
+  const rulebook = (await import(`../../data/rulebooks/${game.code}_rulebook.md`)).default as string;
   const gameEmbeddings = (await import(`../../data/embeddings/${game.code}_embeddings.json`)).default as EmbeddingsStatic[];
   const queryEmbedding = await getEmbedding(query);
   console.time('Search all embeddings');
@@ -32,6 +34,6 @@ export async function searchFor(query: string, bggid: number) {
   console.timeEnd('Search all embeddings');
   
   const topFive = cosine.slice(0, 5);
-  const rulesExcerpt = topFive.map((x, i) => `${x.chunk} 【${i}†source】`).join('\n');
+  const rulesExcerpt = topFive.map((x, i) => `${rulebook.substring(x.start, x.start + x.length)} 【${i + 1}†source】`).join('\n');
   return getPrompt(rulesExcerpt, game.name);
 }
