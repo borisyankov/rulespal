@@ -167,6 +167,11 @@ const assets: Game[] = [
     code: 'heat',
   },
   {
+    bggid: 271324,
+    name: 'It\'s a Wonderful World ',
+    code: 'its_wonderful_world',
+  },
+  {
     bggid: 54043,
     name: 'Jaipur',
     code: 'jaipur',
