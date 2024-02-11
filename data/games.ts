@@ -232,6 +232,11 @@ const assets: Game[] = [
     code: 'ready_set_bet',
   },
   {
+    bggid: 262712,
+    name: 'Res Arcana',
+    code: 'res_arcana',
+  },
+  {
     bggid: 199561,
     name: 'Sagrada',
     code: 'sagrada',
