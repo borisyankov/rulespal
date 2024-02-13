@@ -202,6 +202,11 @@ const assets: Game[] = [
     code: 'love_letter',
   },
   {
+    bggid: 156546,
+    name: 'Monikers',
+    code: 'monikers',
+  },
+  {
     bggid: 231733,
     name: 'Obsession',
     code: 'obsession',
