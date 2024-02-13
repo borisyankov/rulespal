@@ -142,6 +142,11 @@ const assets: Game[] = [
     code: 'for_northwood',
   },
   {
+    bggid: 172,
+    name: 'For Sale',
+    code: 'for_sale',
+  },
+  {
     bggid: 391163,
     name: 'Forest Shuffle',
     code: 'forest_shuffle', // _rulebook.toString() + forest_shuffle_appendix.toString(), 'appendix',

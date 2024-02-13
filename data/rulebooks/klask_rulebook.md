@@ -13,7 +13,8 @@
 ## BEFORE YOU START THE FUN:
 
 1. Place the KLASK board on a table between the two players.
-2. Place three white magnets on the white fields in the middle of the board. Note: Be sure to place the magnet pieces with their magnets facing upwards in order to prevent them from moving away from the striker.
+2. Place three white magnets on the white fields in the middle of the board.  
+Note: Be sure to place the magnet pieces with their magnets facing upwards in order to prevent them from moving away from the striker.
 3. Insert both scoring disc in the starting position marked with “0” on the scoring slot.
 4. Both players have a black magnetic striker that has two sections. Place the striker section on top of the board and the thick steering magnet under the board so that the two sections make magnetic contact.
 5. The youngest player starts the game by placing the ball on the starting corner of their choice.
@@ -26,16 +27,10 @@ Game on! Players hit the orange ball around the field by moving their strikers u
 
 ## THERE ARE 4 WAYS TO SCORE POINTS:
 
-1. If the ball ends up in your opponent’s goal
-and stays there.
-2. If two (or all three) white magnetic pieces
-stick to your opponent’s striker.
-3. If your opponent accidentally pulls their
-striker into their own goal (KLASK).
-Note: You will get the point immediately, even
-if your opponent is able to jump out of the goal
-using the steering magnet. Rule of thumb: If you
-hear KLASK it’s a point!
+1. If the ball ends up in your opponent’s goal and stays there.
+2. If two (or all three) white magnetic pieces stick to your opponent’s striker.
+3. If your opponent accidentally pulls their striker into their own goal (KLASK).  
+Note: You will get the point immediately, even if your opponent is able to jump out of the goal using the steering magnet. Rule of thumb: If you hear KLASK it’s a point!
 4. If your opponent loses control of their
 striker and can’t get it back under control
 by using the steering magnet.
