@@ -192,6 +192,11 @@ const assets: Game[] = [
     code: 'kingdomino',
   },
   {
+    bggid: 165722,
+    name: 'KLASK',
+    code: 'klask',
+  },
+  {
     bggid: 312484,
     name: 'Lost Ruins of Arnak',
     code: 'lost_ruins_of_arnak',
