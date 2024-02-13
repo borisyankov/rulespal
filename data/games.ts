@@ -222,6 +222,11 @@ const assets: Game[] = [
     code: 'planet_unknown',
   },
   {
+    bggid: 3076,
+    name: 'Puerto Rico',
+    code: 'puerto_rico',
+  },
+  {
     bggid: 12,
     name: 'Ra',
     code: 'ra',
