@@ -257,6 +257,11 @@ const assets: Game[] = [
     code: 'sea_salt_n_paper',
   },
   {
+    bggid: 40692,
+    name: 'Small World',
+    code: 'small_world',
+  },
+  {
     bggid: 329839,
     name: 'So Clover!',
     code: 'so_clover',
