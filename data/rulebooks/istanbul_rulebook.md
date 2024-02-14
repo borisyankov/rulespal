@@ -132,49 +132,48 @@ You then have the following three options at the Merchant’s Target Place:
 
 **a) Pick up an Assistant**
 
-If one of your Assistants was present at the target place already, put your stack on top of that Assistant (see fig. on the right). He will leave that place as part of the stack during the next Movement phase.
+If one of your Assistants was present at the target place already, put your stack on top of that Assistant. He will leave that place as part of the stack during the next Movement phase.
 
 **b) Leave an Assistant behind**
 
-If none of your Assistants was present at the target place, remove the bottommost Assistant from your stack and place him next to it (see fig. on the right). He will be left behind at that place during the next Movement phase.
+If none of your Assistants was present at the target place, remove the bottommost Assistant from your stack and place him next to it. He will be left behind at that place during the next Movement phase.
 
 c) If you cannot or do not want to pick up an Assistant or leave one behind, **your turn ends immediately**
-(exception: Fountain 7, see p. 6).
+(exception: [Fountain (7)](#7-fountain)).
 
 ***Note:** If you have the yellow Mosque tile, you may pay 2 Lira to take an Assistant back from another Place and add him to your Merchant stack.*
 
 ### 2. Encounters with other Merchants (if any)
-If there are any other Merchants at the Target Place, you have to pay
-each of them 2 Lira. Your turn ends immediately if you cannot or do
-not want to pay.
-Exception: You don’t have to pay other Merchants at the Fountain 7 .
-Special case in a 2-player game:
-If you encounter a neutral Merchant (ie of an unused color), pay the
-2 Lira into the general supply. Then roll both dice to determine a new
-position for this neutral Merchant and place him there.
+
+If there are any other Merchants at the Target Place, you have to pay each of them 2 Lira. Your **turn ends immediately** if you cannot or do not want to pay.
+
+**Exception:** You don’t have to pay other Merchants at the Fountain (7).
+
+**Special case in a 2-player game:**  
+If you encounter a neutral Merchant (ie of an unused color), pay the 2 Lira into the general supply. Then roll both dice to determine a new position for this neutral Merchant and place him there.
 
 ### 3. Action
-You may carry out the action that the target place provides (see p. 6/7). If you cannot or do not want to carry
+
+You may carry out the action that the target place provides. If you cannot or do not want to carry
 it out, you may proceed with phase 4 (Encounters).
 
-### 4. Encounters (if any) in any order with …
-… other Family members
-If there are other players’ Family members at the Target Place, you must catch them and send them
-all to the Police Station 12 (unless they are there already). As a reward for catching them, you may
-take 1 Bonus card or 3 Lira from the general supply for each such Family member. If you catch more
-than 1 Family member, you may take a different or the same reward for each of them (you do not
-get any reward in the Police Station).
-… the Governor
-You may draw 1 Bonus card from the face-down stack and put it into your hand. If you do, either
-pay 2 Lira or discard 1 Bonus card from your hand.
-… the Smuggler
-You may gain 1 good of your choice.
-If you do, either pay 2 Lira or 1 good.
-If you used the ability of the Governor or Smuggler, roll both dice and place the appropriate token on the
-Place indicated by the result of the dice roll (according to the large brown number). Roll separately if you
-used them both.
-Note: You may discard the Bonus card or pay the good you received from the Governor or Smuggler in order to
-move them.
+### 4. Encounters (if any) in any order with...
+
+#### ...other Family members
+
+If there are other players’ Family members at the Target Place, you **must** catch them and send them all to the Police Station (12) (unless they are there already). As a reward for catching them, you may take 1 Bonus card or 3 Lira from the general supply for each such Family member. If you catch more than 1 Family member, you may take a different or the same reward for each of them (you do not get any reward in the Police Station).
+
+#### ...the Governor
+
+You **may** draw 1 Bonus card from the face-down stack and put it into your hand. If you do, either pay 2 Lira or discard 1 Bonus card from your hand.
+
+#### ...the Smuggler
+
+You **may** gain 1 good of your choice.  
+If you do, either pay 2 Lira or 1 good.  
+If you used the ability of the Governor or Smuggler, roll both dice and place the appropriate token on the Place indicated by the result of the dice roll (according to the large brown number). Roll separately if you used them both.
+
+***Note:** You may discard the Bonus card or pay the good you received from the Governor or Smuggler in order to move them.*
 
 ## BONUS CARDS
 
@@ -184,201 +183,196 @@ move them.
 * Shuffle the discard pile to form a new face-down draw pile as soon as the draw pile runs out.
 * You may keep any number of Bonus cards in your hand.
 
+Gain 1 good of
+your choice.
+May only be played before
+or after an action, but not
+while carrying one out.
 
-....
-....
-....
+Take 5 Lira from
+the general supply.
+
+If you carry out
+the action at the Sultan’s
+Palace 13 , after
+completing the action,
+carry it out one more
+time.
+The number of goods to
+deliver to the Sultan
+increases after each action.
+
+If you carry out
+the action at the Post
+Office 5 , after
+completing the action,
+carry it out one more
+time.
+Move a Mail indicator
+after each action as usual.
+
+If you carry out
+the action at the
+Gemstone Dealer 16 ,
+after completing the
+action, carry it out one
+more time.
+The amount of Lira to pay
+for the Ruby increases
+after each action.
+
+Place your Family
+member on the Police
+Station (12) and collect
+the reward.
+Not playable if your Family member is already at
+the Police Station (12).
+
+In the 1st phase of
+your turn, do not move
+your Merchant.
+Your Merchant stays at
+his current Place but you
+have to use an Assistant
+again.
+
+In the 1st phase of
+your turn, move your
+Merchant stack by
+3 or 4 Places (instead
+of 1 or 2).
+
+In the 1st phase of
+your turn, return 1 of
+your assistants to your
+Merchant stack.
+
+If you carry out
+the action at the Small
+Market 11 , you have to
+sell the required number
+of goods but you may use
+other types of goods
+than required.
 
 ## PLACES AND THEIR ACTIONS
 
-### Wainwright
+### (1) Wainwright
 
-Pay 7 Lira into the general supply to take
-a Wheelbarrow extension from the Wainwright and place it in your Wheelbarrow.
-As soon as you complete
-your Wheelbarrow, i.e. once
-you have extended it for the
-3rd time, immediately and
-only once take 1 Ruby off the
-Wainwright and place it on
-your Wheelbarrow.
+Pay 7 Lira into the general supply to take a Wheelbarrow extension from the Wainwright and place it in your Wheelbarrow.
 
-### Fabric/Spice/Fruit Warehouse
+As soon as you complete your Wheelbarrow, i.e. once you have extended it for the 3rd time, immediately and only once take 1 Ruby off the Wainwright and place it on your Wheelbarrow.
 
-Move the Goods indicator of the respective
-good as far to
-the right as possible.
-If you have the green
-Mosque tile, you may
-pay 2 Lira to gain 1
-additional good of
-any type.
-5
-P
+### (2-4) Fabric/Spice/Fruit Warehouse
 
-### Post Office
+Move the Goods indicator of the respective good as far to the right as possible.
 
-You receive the resources that are depicted
-on the 4 uncovered spaces. Then move the
-leftmost Mail indicator of the top row down to the
-bottom row. If all Mail indicators are already in the
-bottom row, move them all back to the top row.
-Example: You receive
-3 Lira, 1 yellow and
-1 red good. Then you
-move the Mail indicator
-off the blue good onto the
-yellow one.
+***If you have the green Mosque tile, you may pay 2 Lira to gain 1 additional good of any type.***
 
-### Caravansary
+### (5) Post Office
+
+You receive the resources that are depicted on the 4 uncovered spaces. Then move the leftmost Mail indicator of the top row down to the bottom row. If all Mail indicators are already in the bottom row, move them all back to the top row.
+
+***Example:** You receive 3 Lira, 1 yellow and 1 red good. Then you move the Mail indicator off the blue good onto the yellow one.*
+
+### (6) Caravansary
 
 Take 2 Bonus cards into your hand and discard 1 Bonus card from your hand.
-Note: When taking Bonus cards with this action
-(and only with this one), you may also take them
-from the top of the face-up discard pile!
 
-### Fountain
+**Note:** When taking Bonus cards with this action **(and only with this one)**, you may **also** take them from the top of the face-up discard pile!
 
-Return any number of your Assistants to
-your Merchant stack.
-The Fountain is the only Place where you do not need
-to have an Assistant there to carry out the action and
-you do not have to pay other Merchants if they are
-present.
-If you send your Family Member to the Fountain,
-your Assistants are still returned to your Merchant
-stack.
+### (7) Fountain
 
-### Black Market
-Gain 1 red or 1 yellow or 1 green good.
-Roll both dice:
-If you rolled 7 or 8: Gain 1 blue good.
-If you rolled 9 or 10: Gain 2 blue goods.
-If you rolled 11 or 12: Gain 3 blue goods.
-You may also roll the dice first and gain the one
-additional good afterwards.
-If you have the red Mosque tile, you may turn one
-die to “4” after the roll or re-roll both dice.
-Example: A player
-has rolled 2 and 5.
-As she has the red
-Mosque tile, she
-may turn the 2 to
-4. Consequently,
-she has rolled 9 in
-total and may gain
-2 blue goods and
-1 other non-blue
-good.
+Return any number of your Assistants to your Merchant stack.
 
-### Tea House
+The Fountain is the only Place where you do not need to have an Assistant there to carry out the action and you do not have to pay other Merchants if they are present.
 
-Announce a number between 3 and 12.
-Then roll both dice.
-If you roll equal to or greater than the announced
-number, take the announced number of Lira from the
-general supply. Otherwise, only take 2 Lira.
-If you have the red Mosque tile, you may turn one
-die to “4” after the roll or re-roll both dice.
+If you send your Family Member to the Fountain, your Assistants are still returned to your Merchant stack.
 
-### Small/Large Market
+### (8) Black Market
 
-Sell 1-5 of the goods that are depicted on
-the Demand tile. Move the Goods indicators on your Wheelbarrow accordingly. Then take the
-revenue from the general supply according to the
-table.
-Finally, move the current Demand tile to the bottom
-of the stack.
-Example: You sell
-1 red, 1 green and
-2 yellow goods and in
-exchange receive 14
-Lira.
+Gain 1 red or 1 yellow or 1 green good. Roll both dice:
 
-### Police Station
-If your Family member is in the Police Station, “free” it and send it to another Place.
-Then carry out the action of that Place. Your Family
-member does not have any encounters (see p. 4-5
-“Your turn”)!
-While at other Places, your Family member may be
-caught by other Merchants and sent back to the Police Station. As a reward, the catching player will get
-1 Bonus card or 3 Lira.
-Example: You send your Family member from the Police
-Station to the Spice Warehouse. You fill your Wheelbarrow with the
-green goods.
-You do not
-have to pay
-2 Lira to
-your opponent and you
-may not use
-the Governor.
+* If you rolled **7 or 8**: Gain **1 blue good**.
+* If you rolled **9 or 10**: Gain **2 blue goods**.
+* If you rolled **11 or 12**: Gain **3 blue goods**.
 
-### Sultan’s Palace
-Deliver all the goods that are not covered by
-a Ruby to the Sultan.
-As a reward, take the next available Ruby from the
-track and place it on your Wheelbarrow. Consequently, the next Ruby will be more expensive.
-Example: You
-have to pay 2 blue,
-2 red, 1 yellow,
-1 green and 1 good
-of any type to get
-the next Ruby from
-the track.
+You may also roll the dice first and gain the one additional good afterwards.
 
-### Small/Great Mosque
-Take 1 Mosque tile. To do so, your Wheelbarrow must carry the goods that are depicted on the Mosque tile in the required quantities.
-Then pay 1 of the depicted goods. Each Mosque tile
-provides a special ability (see below or blue texts)
+If you have the red Mosque tile, you may turn one die to “4” after the roll or re-roll both dice.
+
+***Example:** A player has rolled 2 and 5. As she has the red Mosque tile, she may turn the 2 to 4. Consequently, she has rolled 9 in total and may gain 2 blue goods and 1 other non-blue good.*
+
+### (9) Tea House
+
+Announce a number between 3 and 12. Then roll both dice.
+
+If you roll equal to or greater than the announced number, take the announced number of Lira from the general supply. Otherwise, only take 2 Lira.
+
+***If you have the red Mosque tile, you may turn one
+die to “4” after the roll or re-roll both dice.***
+
+### (10)/(11) Small/Large Market
+
+Sell 1-5 of the goods that are depicted on the Demand tile. Move the Goods indicators on your Wheelbarrow accordingly. Then take the revenue from the general supply according to the table.
+
+Finally, move the current Demand tile to the bottom of the stack.
+
+***Example:** You sell 1 red, 1 green and 2 yellow goods and in exchange receive 14 Lira.*
+
+### (12) Police Station
+
+If your Family member is in the Police Station, “free” it and send it to another Place. Then carry out the action of that Place. Your Family member **does not have any encounters** (see [Your turn](#your-turn))!
+
+While at other Places, your Family member may be **caught by other Merchants** and sent back to the Police Station. As a reward, the catching player will get 1 Bonus card or 3 Lira.
+
+***Example:** You send your Family member from the Police Station to the Spice Warehouse. You fill your Wheelbarrow with the green goods. You do not have to pay 2 Lira to your opponent and you may not use the Governor.*
+
+### (13) Sultan’s Palace
+
+Deliver all the goods that are not covered by a Ruby to the Sultan.
+
+As a reward, take the next available Ruby from the track and place it on your Wheelbarrow. Consequently, the next Ruby will be more expensive.
+
+***Example:** You have to pay 2 blue, 2 red, 1 yellow, 1 green and 1 good of any type to get the next Ruby from the track.*
+
+### (14)/(15) Small/Great Mosque
+
+Take 1 Mosque tile. To do so, your Wheelbarrow must carry the goods that are depicted on the Mosque tile in the required quantities. Then pay 1 of the depicted goods. Each Mosque tile provides a special ability (see below or blue texts).
+
 You may only have one copy of each tile.
-As soon as you acquire both tiles of one Mosque,
-immediately and only once take 1 Ruby from that
-Mosque and place it on your Wheelbarrow.
-Example: In order to
-get this Mosque tile,
-your Wheelbarrow needs
-to carry at least 3 blue
-goods and you have to
-pay 1 of them. After you
-paid the good, you receive
-the tile and then add the
-5th Assistant of your color to the bottom of your
-Merchant stack.
 
-### Gemstone Dealer
-Pay a number of Lira into the general supply
-equal to the biggest number that is not covered by a Ruby.
-Then take the next available Ruby from the track and
-place it on your Wheelbarrow. Consequently, the
-next Ruby will be more expensive.
-Example: The biggest
-number that is not
-covered by a Ruby is
-15. So you have to
-pay 15 Lira to get the
-next Ruby from the
-track.
+As soon as you acquire **both tiles of one Mosque**,
+immediately and only once take **1 Ruby** from that
+Mosque and place it on your Wheelbarrow.
+
+***Example:** In order to get this Mosque tile, your Wheelbarrow needs to carry at least 3 blue goods and you have to pay 1 of them. After you paid the good, you receive the tile and then add the 5th Assistant of your color to the bottom of your Merchant stack.*
+
+### (16) Gemstone Dealer
+
+Pay a number of Lira into the general supply equal to the biggest number that is not covered by a Ruby.
+
+Then take the next available Ruby from the track and place it on your Wheelbarrow. Consequently, the next Ruby will be more expensive.
+
+***Example:** The biggest number that is not covered by a Ruby is 15. So you have to pay 15 Lira to get the next Ruby from the track.*
 
 ## MOSQUE TILES
 
 ### Red tile
-At the Tea House 9 and the Black
-Market 8 , you may turn 1 die to “4”
-after the roll or re-roll both dice (1x).
+
+At the Tea House (9) and the Black Market (8), you may turn 1 die to “4” after the roll **or** re-roll both dice (1x).
 
 ### Green tile
-When using one of the three Warehouses 2 3 4 , you may pay 2 Lira
-to gain 1 additional good of any type.
+
+When using one of the three Warehouses (2) (3) (4), you may pay 2 Lira to gain **1** additional good of any type.
 
 ### Blue tile
-Immediately take the 5th Assistant of
-your color from the general supply and
-place him under your Merchant.
+
+Immediately take the 5th Assistant of your color from the general supply and place him under your Merchant.
 
 ### Yellow tile
-Once on your turn, you may pay 2 Lira
-to return an Assistant to your Merchant
-stack.
+
+Once on your turn, you may pay 2 Lira to return an Assistant to your Merchant stack.
 
 ## END OF THE GAME
 
@@ -396,46 +390,37 @@ If these have not resolved the tie, there are multiple winners.
 
 ### VARIANT (FOR 2-4 PLAYERS)
 
-If you have already played Istanbul a few
-times, we recommend you try out this more
-tactical variant:
+If you have already played Istanbul a few times, we recommend you try out this more tactical variant:
 
-* During setup, replace the bottommost Assistant of your stack with an Assistant of a
-neutral color (we recommend you use white
-as the neutral color, see fig. below).
-* If your Merchant ends his movement at a
-Place with a neutral Assistant, he may pick
-him up as if this were one of your Assistants.
-* If there are both a neutral and one of your
-Assistants at the Target Place, you may
-decide which Assistant to pick up in order
-to carry out the action.
-* You are allowed to have more than one
-neutral Assistant under your Merchant.
-* At the Fountain 7 , you can only get your
-own Assistants back.
+* During setup, replace the bottommost Assistant of your stack with an Assistant of a neutral color (we recommend you use white as the neutral color, see fig. below).
+* If your Merchant ends his movement at a Place with a neutral Assistant, he may pick him up as if this were one of your Assistants.
+* If there are both a neutral and one of your Assistants at the Target Place, you may decide which Assistant to pick up in order to carry out the action.
+* You are allowed to have more than one neutral Assistant under your Merchant.
+* At the Fountain (7), you can only get your own Assistants back.
 
-### VariatIONS fOR PLACE TILE LAYOUTS
+### VARIATIONS FOR PLACE TILE LAYOUTS
 
-* Short paths (sorted by the blue numbers)
-Use this layout when learning the game or when you wish to
-play a shorter game.
-The distances between Places that work well together are
-small, which makes the game easier to play.
-* Long paths (sorted by the green numbers)
-This layout is designed for experienced players: Places that
-work well together are far apart from each other, which forces
-you to plan ahead more carefully when placing your Assistants.
-* In order (sorted by the big numbers)
-This layout is also more challenging: similar Places are
-grouped together.
-* Random layout
-This layout offers a lot of variety: shuffle the Place tiles and
-lay them out in a 4x4 grid. The challenge is to find out which
-paths are the most efficient in the given layout, which is different from play to play.
-Please note: even with a random layout, it is recommended
+#### Short paths *(sorted by the blue numbers)*
+
+Use this layout when learning the game or when you wish to play a shorter game.
+
+The distances between Places that work well together are small, which makes the game easier to play.
+
+#### Long paths *(sorted by the green numbers)*
+
+This layout is designed for experienced players: Places that work well together are far apart from each other, which forces you to plan ahead more carefully when placing your Assistants.
+
+#### In order *(sorted by the big numbers)*
+
+This layout is also more challenging: similar Places are grouped together.
+
+#### Random layout
+
+This layout offers a lot of variety: shuffle the Place tiles and lay them out in a 4x4 grid. The challenge is to find out which paths are the most efficient in the given layout, which is different from play to play.
+
+**Please note:** even with a random layout, it is recommended
 that you use the following restrictions:
-The Fountain 7 has to be on one of the 4 Places in the
-middle of the grid.
-The Black Market 8 and the Tea House 9 should have a
-distance from each other of at least 3 Places.
+
+The Fountain (7) has to be on one of the (4) Places in the middle of the grid.
+
+The Black Market (8) and the Tea House (9) should have a distance from each other of at least 3 Places.

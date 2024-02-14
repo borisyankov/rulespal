@@ -172,7 +172,7 @@ const assets: Game[] = [
     code: 'heat',
   }, 
   {
-    bggid: 99865,
+    bggid: 148949,
     name: 'Istanbul',
     code: 'istanbul',
   },
