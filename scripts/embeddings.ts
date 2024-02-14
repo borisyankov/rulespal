@@ -2,30 +2,18 @@ import fs from 'fs';
 import OpenAI from "openai";
 import { splitText } from '../app/lib/rag';
 import games from '../data/games';
+import { Game } from '@/app/lib/definitions';
 
 const openai = new OpenAI();
 
 async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
-  console.log(`Reading rulebook: ${rulebookFile}`);
-  console.time('Read complete');
   const docs = fs.readFileSync(rulebookFile, 'utf-8');
-  console.timeEnd('Read complete');
-
-  console.log('Splitting text...');
-  console.time('Split complete');
   const chunks = await splitText(docs, 2000, 10);
-  console.timeEnd('Split complete');
-  console.log('Chunks: ', chunks.length);
-
-  console.log('Creating embeddings...');
-  console.time('Embeddings created');
   const embeddingResponse = await openai.embeddings.create({
     input: chunks.map(x => x.text),
     model: 'text-embedding-3-small',
     dimensions: 512,
   });
-  console.timeEnd('Embeddings created');
-
   const embeddingObject = chunks.map((chunk, index) => {
     return {
       start: chunk.offset,
@@ -33,19 +21,25 @@ async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
       embedding: embeddingResponse.data[index].embedding
     };
   });
-
-  console.log(`Writing embeddings to ${embeddingFile}`);
-  console.time('Write complete');
   fs.writeFileSync(embeddingFile, JSON.stringify(embeddingObject, null, 2), 'utf-8');
-  console.timeEnd('Write complete');
 }
 
-async function processAllRulebooks() {
+async function processRulebook(game: Game) {
+  const outputFilename = `../data/embeddings/${game.code}_embeddings.json`;
+  if (fs.existsSync(outputFilename)) {
+    console.log(`Skipping ${game.code}`);
+    return;
+  }
+
+  console.log(`Processing ${game.code}`);
+  const rulebookFilename = `../data/rulebooks/${game.code}_rulebook.md`;
+  docToEmbeddings(rulebookFilename, outputFilename);
+}
+
+async function processAllRulebooks(games: Game[]): Promise<void> {
   for (const game of games) {
-    const rulebookFile = `../data/rulebooks/${game.code}_rulebook.md`;
-    const embeddingFile = `./embeddings/${game.code}_embeddings.json`;
-    docToEmbeddings(rulebookFile, embeddingFile);
+    processRulebook(game);
   }
 }
 
-processAllRulebooks();
+processAllRulebooks(games);

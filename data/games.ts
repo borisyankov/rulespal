@@ -170,6 +170,11 @@ const assets: Game[] = [
     bggid: 366013,
     name: 'Heat: Pedal to the Metal',
     code: 'heat',
+  }, 
+  {
+    bggid: 99865,
+    name: 'Istanbul',
+    code: 'istanbul',
   },
   {
     bggid: 271324,

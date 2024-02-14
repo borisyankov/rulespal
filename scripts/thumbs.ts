@@ -34,14 +34,15 @@ async function downloadAndResizeImage(imageUrl: string, outputFilename: string):
 }
 
 async function processGame(game: Game): Promise<void> {
+  const outputFilename = `../public/thumbs/${game.code}.jpg`;
+  if (fs.existsSync(outputFilename)) {
+    console.log(`Skipping ${game.code}`);
+    return;
+  }
   console.log(`Processing ${game.code}`);
   const imageUrl = await getGameImageUrl(game.bggid.toString());
-
   if (imageUrl) {
-    const outputFilename = `../public/thumbs/${game.code}.jpg`;
-    if (!fs.existsSync(outputFilename)) {
-      await downloadAndResizeImage(imageUrl, outputFilename);
-    }
+    await downloadAndResizeImage(imageUrl, outputFilename);
   }
 }
 
