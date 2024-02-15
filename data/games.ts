@@ -312,6 +312,11 @@ const assets: Game[] = [
     code: 'skull_king',
   },
   {
+    bggid: 192291,
+    name: 'Sushi Go Party!',
+    code: 'sushi_go_party',
+  },
+  {
     bggid: 167791,
     name: 'Terraforming Mars',
     code: 'terraforming_mars',
