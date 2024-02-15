@@ -5,8 +5,6 @@ type Props = {
   code: string;
 };
 
-// line-height: 1.5
-
 export default async function Rulebook({ code }: Props) {
   const gameRulebook = (
     await import(`../../data/rulebooks/${code}_rulebook.md`)
@@ -15,7 +13,8 @@ export default async function Rulebook({ code }: Props) {
     <Markdown
       className="prose lg:prose-lg md:prose prose-zinc mb-10 dark:prose-invert px-4 mx-auto
       prose-hr:my-8 prose-p:leading-relaxed
-      prose-li:my-0 prose-li:p-0 prose-ul:pl-5 
+      prose-li:my-0 prose-li:p-0 marker:primary
+      prose-ul:pl-5 
       prose-p:my-4 prose-ul:my-2 prose-ol:my-4
       prose-h1:mt-8 prose-h2:mt-7 prose-h3:mt-6
       prose-h1:mb-5 prose-h2:mb-4 prose-h3:mb-3

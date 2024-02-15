@@ -22,7 +22,7 @@ export default function Chat({ game }: Props) {
   return (
     <>
       {messages.length ? (
-        <MessageList messages={messages} isLoading={isLoading} />
+        <MessageList messages={messages} isLoading={isLoading} data={data} />
       ) : (
         <EmptyState game={game} />
       )}

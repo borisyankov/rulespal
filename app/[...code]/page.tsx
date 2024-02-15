@@ -1,6 +1,6 @@
 import games from '@/data/games';
 import Chat from '../chat';
-import { redirect } from 'next/navigation';
+import { redirect, useParams } from 'next/navigation';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/app/ui/tabs';
 import Rulebook from './Rulebook';
 import Themer from '../ui/themer';
@@ -12,13 +12,15 @@ type Props = {
 };
 
 export default function Home({ params: { code } }: Props) {
-  const game = games.find((game) => game.code === code);
+  console.log('code iz', code);
+  const game = games.find((game) => game.code === code[0]);
   if (!game) {
     return redirect('/');
   }
+  const tab = code[1] === 'rules' ? 'rulebook' : 'chat';
   return (
     <div className="flex h-screen flex-col">
-      <Tabs defaultValue="chat" className="flex flex-col p-2">
+      <Tabs defaultValue={tab} className="flex flex-col p-2">
         <div className="flex w-full flex-1 gap-2">
           <GameDialog game={game} />
           <TabsList className="grid w-full grid-cols-2">
