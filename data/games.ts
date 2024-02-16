@@ -247,6 +247,11 @@ const assets: Game[] = [
     code: 'planet_unknown',
   },
   {
+    bggid: 2651,
+    name: 'Power Grid',
+    code: 'power_grid',
+  },
+  {
     bggid: 3076,
     name: 'Puerto Rico',
     code: 'puerto_rico',
@@ -345,6 +350,11 @@ const assets: Game[] = [
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks_of_quedlinburg',
+  },
+  {
+    bggid: 128882,
+    name: 'The Resistance: Avalon',
+    code: 'resistance_avalon',
   },
   {
     bggid: 371942,
