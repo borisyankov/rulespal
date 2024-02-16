@@ -162,6 +162,11 @@ const assets: Game[] = [
     code: 'gloomhaven_jotl',
   },
   {
+    bggid: 304783,
+    name: 'Hadrian\'s Wall',
+    code: 'hadrians_wall',
+  },
+  {
     bggid: 98778,
     name: 'Hanabi',
     code: 'hanabi',
