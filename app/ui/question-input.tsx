@@ -43,7 +43,7 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     onChange(event);
   };
   const ButtonIcon = isLoading ? StopCircleIcon : SendHorizontalIcon;
-  const height = value.split("\n").length * 24 + 28;
+  const height = value.split("\n").length * 24 + 24;
   return (
     <form
       ref={formRef}
@@ -64,15 +64,15 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
       />
       <button
         type="submit"
-        className="mt-[4px] ml-[-60px] resize-none rounded-full flex justify-center items-center size-11 
-        text-black
-        dark:text-white
-        enabled:hover:text-white
+        className="mb-[4px] ml-[-56px] resize-none rounded-full flex justify-center items-center size-10 self-end
+        text-zinc-700 dark:text-zinc-300 enabled:hover:text-white
         enabled:hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25"
         disabled={!isLoading && value.length === 0}
       > 
-        <ButtonIcon className="size-5 dark:text-black" aria-hidden="true" />
+        <ButtonIcon className="size-5" aria-hidden="true" />
       </button>
     </form>
   );
 }
+
+// dark:text-zinc-300 text-zinc-700 hover:text-zinc-300

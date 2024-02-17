@@ -9,7 +9,9 @@
     "lint": "next lint",
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "thumbs": "npx tsx scripts/thumbs.ts",
+    "embeddings": "npx tsx scripts/embeddings.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",

@@ -12,7 +12,6 @@ type Props = {
 };
 
 export default function Home({ params: { code } }: Props) {
-  console.log('code iz', code);
   const game = games.find((game) => game.code === code[0]);
   if (!game) {
     return redirect('/');
@@ -20,8 +19,8 @@ export default function Home({ params: { code } }: Props) {
   const tab = code[1] === 'rules' ? 'rulebook' : 'chat';
   return (
     <div className="flex h-screen flex-col">
-      <Tabs defaultValue={tab} className="flex flex-col p-2">
-        <div className="flex w-full flex-1 gap-2">
+      <Tabs defaultValue={tab} className="flex flex-col p-2 h-screen">
+        <div className="flex w-full gap-2">
           <GameDialog game={game} />
           <TabsList className="grid w-full grid-cols-2">
             <TabsTrigger value="chat">Chat</TabsTrigger>
@@ -29,16 +28,16 @@ export default function Home({ params: { code } }: Props) {
           </TabsList>
           <Themer />
         </div>
-        <div>
-          <TabsContent value="chat" className="flex-1">
+        <>
+          <TabsContent value="chat" className="flex-col flex-1 h-screen overflow-auto">
             <Chat game={game} />
           </TabsContent>
-          <TabsContent value="rulebook" className="flex-1">
+          <TabsContent value="rulebook" className="flex-1 h-screen overflow-auto">
             <Suspense fallback="Loading...">
               <Rulebook code={game.code} />
             </Suspense>
           </TabsContent>
-        </div>
+        </>
       </Tabs>
     </div>
   );

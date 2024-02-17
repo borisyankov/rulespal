@@ -14,9 +14,8 @@ export default function GameDialog({ game }: Props) {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">
-          <Thumbnail className="size-8 mr-4" game={game} />
-          {game.name}
+        <Button variant="ghost">
+          <Thumbnail className="size-10" game={game} />
         </Button>
       </DialogTrigger>
       <DialogContent className="size-full">

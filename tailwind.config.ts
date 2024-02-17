@@ -72,7 +72,19 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-    },
+      typography: {
+        DEFAULT: {
+          css: {
+            '--tw-prose-quote-borders': 'purple',
+            '--tw-prose-invert-quote-borders': 'purple',
+            '--tw-prose-bullets': 'purple',
+            '--tw-prose-invert-bullets': 'purple',
+            '--tw-prose-counters': 'purple',
+            '--tw-prose-invert-counters': 'purple',
+          },
+        },
+      },
+    }
   },
   plugins: [animate, typography],
 }
