@@ -262,6 +262,11 @@ const assets: Game[] = [
     code: 'ra',
   },
   {
+    bggid: 28143,
+    name: 'Race for the Galaxy',
+    code: 'race_for_the_galaxy',
+  },
+  {
     bggid: 351040,
     name: 'Ready Set Bet',
     code: 'ready_set_bet',
