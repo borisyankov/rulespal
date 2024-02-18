@@ -10,6 +10,7 @@
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "test": "jest",
     "test:watch": "jest --watch",
+    "geeklist": "npx tsx scripts/geeklist.ts",
     "thumbs": "npx tsx scripts/thumbs.ts",
     "embeddings": "npx tsx scripts/embeddings.ts"
   },
