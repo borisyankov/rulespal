@@ -4,6 +4,7 @@ import { parseStringPromise } from 'xml2js';
 import games from '../data/games';
 import { Game } from '@/app/lib/definitions';
 import fs from 'fs';
+import path from 'path';
 
 async function getGameImageUrl(gameId: string): Promise<string | null> {
   try {
@@ -34,7 +35,8 @@ async function downloadAndResizeImage(imageUrl: string, outputFilename: string):
 }
 
 async function processGame(game: Game): Promise<void> {
-  const outputFilename = `../public/thumbs/${game.code}.jpg`;
+  const projectRoot = path.resolve(__dirname, '..');
+  const outputFilename = `${projectRoot}/public/thumbs/${game.code}.jpg`;
   if (fs.existsSync(outputFilename)) {
     console.log(`Skipping ${game.code}`);
     return;

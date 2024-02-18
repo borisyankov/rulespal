@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import OpenAI from "openai";
 import { splitText } from '../app/lib/rag';
 import games from '../data/games';
@@ -25,14 +26,15 @@ async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
 }
 
 async function processRulebook(game: Game) {
-  const outputFilename = `../data/embeddings/${game.code}_embeddings.json`;
+  const projectRoot = path.resolve(__dirname, '..');
+  const outputFilename = `${projectRoot}/data/embeddings/${game.code}_embeddings.json`;
   if (fs.existsSync(outputFilename)) {
     console.log(`Skipping ${game.code}`);
     return;
   }
 
   console.log(`Processing ${game.code}`);
-  const rulebookFilename = `../data/rulebooks/${game.code}_rulebook.md`;
+  const rulebookFilename = `${projectRoot}/data/rulebooks/${game.code}_rulebook.md`;
   docToEmbeddings(rulebookFilename, outputFilename);
 }
 
