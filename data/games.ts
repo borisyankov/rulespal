@@ -387,6 +387,11 @@ const assets: Game[] = [
     code: 'ticket_to_ride_europe',
   },
   {
+    bggid: 356123,
+    name: 'Turing Machine',
+    code: 'turing_machine',
+  },
+  {
     bggid: 247763,
     name: 'Underwater Cities',
     code: 'underwater_cities',
