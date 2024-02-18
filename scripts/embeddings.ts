@@ -9,10 +9,10 @@ const openai = new OpenAI();
 
 async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
   const docs = fs.readFileSync(rulebookFile, 'utf-8');
-  const chunks = await splitText(docs, 2000, 10);
+  const chunks = await splitText(docs, 1000, 100);
   const embeddingResponse = await openai.embeddings.create({
     input: chunks.map(x => x.text),
-    model: 'text-embedding-3-small',
+    model: 'text-embedding-3-large',
     dimensions: 512,
   });
   const embeddingObject = chunks.map((chunk, index) => {

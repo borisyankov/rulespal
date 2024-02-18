@@ -11,7 +11,7 @@ export const runtime = 'edge';
 export async function getEmbedding(text: string): Promise<number[]> {
   const embeddingResponse = await openai.embeddings.create({
     input: text,
-    model: 'text-embedding-3-small',
+    model: 'text-embedding-3-large',
     dimensions: 512,
   });
   return embeddingResponse.data[0].embedding;
