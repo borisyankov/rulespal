@@ -197,6 +197,11 @@ const assets: Game[] = [
     code: 'just_one',
   },
   {
+    bggid: 122515,
+    name: 'Keyflower',
+    code: 'keyflower',
+  },
+  {
     bggid: 70323,
     name: 'King of Tokyo',
     code: 'king_of_tokyo',
