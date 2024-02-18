@@ -183,7 +183,7 @@ const assets: Game[] = [
   },
   {
     bggid: 271324,
-    name: 'It\'s a Wonderful World ',
+    name: 'It\'s a Wonderful World',
     code: 'its_wonderful_world',
   },
   {
@@ -355,7 +355,12 @@ const assets: Game[] = [
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the_castles_of_burgundy',
-  },  
+  },
+  {
+    bggid: 36553,
+    name: 'Time\'s Up! Title Recall!',
+    code: 'times_up_title_recall',
+  },
   {
     bggid: 284083,
     name: 'The Crew',
