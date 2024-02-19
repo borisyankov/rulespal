@@ -312,6 +312,11 @@ const assets: Game[] = [
     code: 'sea_salt_n_paper',
   },
   {
+    bggid: 373106,
+    name: 'Sky Team',
+    code: 'sky_team',
+  },
+  {
     bggid: 40692,
     name: 'Small World',
     code: 'small_world',
