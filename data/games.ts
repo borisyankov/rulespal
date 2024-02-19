@@ -157,6 +157,11 @@ const assets: Game[] = [
     code: 'for_sale',
   },
   {
+    bggid: 65244,
+    name: 'Forbidden Island',
+    code: 'forbidden_island',
+  },
+  {
     bggid: 391163,
     name: 'Forest Shuffle',
     code: 'forest_shuffle', // _rulebook.toString() + forest_shuffle_appendix.toString(), 'appendix',
