@@ -312,6 +312,11 @@ const assets: Game[] = [
     code: 'sea_salt_n_paper',
   },
   {
+    bggid: 150145,
+    name: 'Skull King',
+    code: 'skull_king',
+  },
+  {
     bggid: 373106,
     name: 'Sky Team',
     code: 'sky_team',
@@ -347,9 +352,9 @@ const assets: Game[] = [
     code: 'sprawlopolis',
   },
   {
-    bggid: 150145,
-    name: 'Skull King',
-    code: 'skull_king',
+    bggid: 34635,
+    name: 'Stone Age',
+    code: 'stone_age',
   },
   {
     bggid: 192291,
