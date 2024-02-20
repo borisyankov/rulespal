@@ -47,6 +47,11 @@ const assets: Game[] = [
     code: 'cant_stop',
   },
   {
+    bggid: 171131,
+    name: 'Captain Sonar',
+    code: 'captain_sonar',
+  },
+  {
     bggid: 822,
     name: 'Carcassonne',
     code: 'carcassonne',
