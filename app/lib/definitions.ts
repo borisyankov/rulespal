@@ -10,30 +10,11 @@ export type Game = {
   code: string;
 };
 
-export type EmbeddingsStatic = {
-  start: number,
-  length: number,
-  embedding: number[];
-}
-
-export type Embedding = {
+export type EmbeddingSet = {
   id: number;
-  bggid: number;
   source: string;
-  content: string;
-  embedding: number[];
-};
-
-export type EmbeddingBrief = {
-  bggid: number;
-  gamename: string;
-  source: string;
-};
-
-export type EmbeddingDetails = {
-  bggid: number;
-  gamename: string;
-  source: string;
+  start: number;
+  length: number;
   content: string;
   embedding: number[];
 };

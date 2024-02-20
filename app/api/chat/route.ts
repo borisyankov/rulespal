@@ -6,7 +6,12 @@ import {
 } from 'ai';
 import { searchFor } from '@/app/lib/actions';
 
-const openai = new OpenAI();
+const openai = new OpenAI({
+  baseURL: "https://oai.hconeai.com/v1",
+  defaultHeaders: {
+    "Helicone-Auth": "Bearer sk-6f2u4iq-qqfeziq-ukhmmea-6ra4t5y",
+  },
+});
 
 export async function POST(req: Request) {
   let { messages, data } = await req.json();
@@ -30,6 +35,7 @@ export async function POST(req: Request) {
       citations: embeddings.map((x) => ({
         start: x.start,
         length: x.length,
+        content: x.content
       })),
     });
   }
