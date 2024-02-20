@@ -442,6 +442,11 @@ const assets: Game[] = [
     code: 'underwater_cities',
   },
   {
+    bggid: 233867,
+    name: 'Welcome To...',
+    code: 'welcome_to',
+  },
+  {
     bggid: 266192,
     name: 'Wingspan',
     code: 'wingspan',
