@@ -42,6 +42,11 @@ const assets: Game[] = [
     code: 'azul',
   },
   {
+    bggid: 224517,
+    name: 'Brass: Birmingham',
+    code: 'brass_birmingham',
+  },
+  {
     bggid: 260605,
     name: 'Camel Up',
     code: 'camel_up',
