@@ -28,56 +28,6 @@ Brass: Birmingham tells the story of competing entrepreneurs in the West Midland
   * 7 Coal Mines
 * **9 × Merchant Tiles**
 
-## INDUSTRIAL REVOLUTION HISTORICAL FIGURES
-
-### Sir Richard Arkwright
-
-**(23 December 1732 – 3 August 1792)**
-
-Taught to read and write by his cousin, Arkwright began as an apprentice barber, but after an early widowing his business ambitions grew, and his second marriage provided the funds to pursue wigmaking. When wigs fell out of fashion, he turned to textiles and made improvements on the spinning jenny with the clockmaker John Kay. Taking his business to the small village of Cromford, Arkwright encouraged weavers with large families to move there and work in his mill, including children as young as seven. Arkwright pioneered the use of the steam engine with textile machinery, a precursor to Edmund Cartwright’s development of the power loom. In his later years, after an extended court battle, Arkwright lost many of his patents and his domination of the textile industry, but shortly after this he was knighted. Ambitious, religiously devout, and at times difficult to work with, Arkwright’s ingenuity and organizational skills would make him known as the “father of the modern industrial factory system.”
-
-### Eliza Tinsley
-
-**(17 January 1813 – 17 January 1882)**
-
-Following the death of her husband Thomas and his father, along with the death of her eldest of six children, Tinsley continued both her late husband and her late father-in-law’s businesses in the Black Country as one under her own name. The Eliza Tinsley company produced nails for horseshoes, and chains and anchors for ships, the latter of which would become the focus as motor vehicles replaced horses. Chainmaking was a particularly male-dominated industry, but Tinsley excelled, employing around 4000 workers, and she established an offshoot company in Australia. Many of Tinsley’s employees were women and young girls, and she fought against government efforts to restrict women, and girls under 14, from working in the nail and chainmaking industries, arguing that “the conditions of both trades are favourable to moral and physical health.” Known as “The Widow,” Tinsley was respected for her industry expertise. She sold the company at 58, but it would continue operating under her name into the 21st century.
-
-### Isambard Kingdom Brunel
-
-**(9 April 1806 – 15 September 1859)**
-
-At the age of 15, Brunel’s father Marc was sent to a debtors’ prison, but his debts were paid by the British government when he made it known that the Tsar had offered him a position as an engineer in Russia. Brunel studied in France under the clockmaker Abraham Louis Breguet. Upon returning to England he became an assistant on Marc’s project to create a tunnel under the Thames, but a nearly-fatal flooding incident put the 22-year-old out of commission for several months. This didn’t stop Brunel from becoming one of the most prolific engineers in history, creating tunnels, bridges, railways, a portable hospital, and a vacuum-powered ‘atmospheric railway’, though unfortunately for the latter the leather flaps sealing the vacuum pipes were eaten by rats. His ‘Great Western’ was the first steamship to conduct transatlantic service, and his ‘Great Eastern’ was the largest ship ever built up to that time, but Brunel died of a stroke at 53 just before her maiden voyage. Brunel is known today as an engineering giant.
-
-### George Stephenson
-
-**(9 June 1781 – 12 August 1848)**
-
-After the death of his wife and daughter, the 25-year-old Stephenson, having no formal education, left for Scotland to find work but returned to West Moor when his father was blinded in a mining accident. When he offered to improve the mine’s deficient pumping engine, Stephenson was made enginewright and became an expert in steam-engine technology. His Northumberland accent made him unpopular with the scientific community, and when he presented his design for a safer mining lamp that would not cause explosions, the Royal Society accused him of stealing the concept from parallel-inventor Humphry Davy. But Stephenson’s big claim to fame was his contribution to rail transport, and the invigoration of the rail industry. At age 40 he began work on the first public railway, and his locomotive known as ‘Stephenson’s Rocket’ won a competition by achieving the record speed of 36 miles per hour, which led some to fear that such speeds would cause women’s uteruses to literally fly out of their bodies. Thankfully this did not occur.
-
-### James Watt
-
-**(30 January 1736 – 25 August 1819)**
-
-Tinkering with models and ship’s instruments at his father’s workbench from an early age, Watt left for Glasgow at 17 to learn to make measuring instruments such as scales and compasses, and befriended the chemist Joseph Black. In his 30s, while repairing a model of the Newcomen steam engine used widely for pumping water out of mines, Watt noticed that the design wasted energy on cooling and reheating the cylinder, and he improved upon it by adding a separate condenser which would revolutionize the steam engine. However he was unable to make progress on this venture for several years as he was busy at his day job surveying Scottish canals. This changed when English manufacturer Matthew Boulton took an interest in his patent, and Watt moved to Birmingham to form a partnership that would last 25 years and spread his improved steam engine across the world of industry. Though a somewhat feeble businessman on his own (Watt once said he “would rather face a loaded cannon than settle an account or make a bargain”), he was greatly respected by his peers, and the basic unit of power, the “watt,” bears his name.
-
-### Robert Owen
-
-**(14 May 1771 – 17 November 1858)**
-
-Falling in love with Caroline Dale, daughter to the owner of the New Lanark mill co-founded by Richard Arkwright, Owen convinced his business partners to purchase the mill. He ran it with great success, but displeased his partners with egalitarian activities such as paying wages to his workers over a four month period in which the mills were closed during the War of 1812. An avid scholar, Owen became critical of prevailing religious thought on human self-determinism, and he developed his own philosophy that one’s circumstances are largely the result of external forces, and that therefore education and philanthropy should be paramount in society. He undertook a variety of social reform projects such as lobbying for workers and children’s rights and for an 8-hour work day, and temporarily left Britain to found a socialist commune in America called New Harmony. The experiment was an economic failure that bankrupted Owen, but it did produce one of the first public libraries and a free school open to both boys and girls, and his philosophies are deeply woven into socialist movements within the United States.
-
-### Sir Henry Bessemer
-
-**(19 January 1813 – 15 March 1898)**
-
-Like Isambard Kingdom Brunel’s father, Bessemer’s father Anthony was forced to flee France during the French Revolution. Anthony had become a member of the Académie des sciences at 26 for his improvements on the optical microscope, and made his fortune in Britain with a process for making gold chains. Bessemer’s first innovation mirrored his father’s affinity for gold. After carefully analyzing bronze powder from Nuremberg, used in the manufacture of gold paint, he reverse engineered the process and created a series of six steam-powered machines that could manufacture the powder. He later developed a cheap system of creating steel by blowing air through molten pig iron to burn off impurities. The goal was initially to reduce the cost of military ordnance, but this technique of affordable steel revolutionized structural engineering and made bridges and railroad tracks, previously reliant on wrought and cast iron, much safer. Bessemer pioneered over 100 inventions in the fields of metalworking and glass, including a steamship cabin on gimbals intended to stay level to prevent seasickness which was sadly lost at sea, and he gained considerable commercial success leveraging his innovations.
-
-### Eleanor Coade
-
-**(3 June 1733 – 16 November 1821)**
-
-Bringing her up a devout Baptist, Coade’s parents were both successful merchants. Her grandmother Sarah Enchmarch had run the family textile business in Tiverton with 200 employees, using spies to acquire new manufacturing techniques, and was known for travelling around town in a sedan chair. After Coade’s family moved to London, she ran her own linen draper business at age 30. Six years later she purchased an artificial stone business from the struggling Daniel Pincot, but fired him within two years for “representing himself as the chief proprietor.” Her ceramic stoneware called “Coade’s Lithodipyra” went on to be used in over 700 sculptures across the globe, many of them overseen by the sculptor John Bacon, though she worked with a number of high-profile designers and architects as it allowed her to produce multiple copies of their designs. The South Bank Lion may be Coade’s most iconic piece, but her product was also used for the Gothic screen of St George’s Chapel, and in the restoration of Buckingham Palace.
-
 ## BOARD SETUP
 
 1. Place the board on either the day or night side.
@@ -302,7 +252,7 @@ To consume iron, an Industry tile **does not** need a connection to a source of 
 Consumed iron cubes are placed back into
 the General Supply.
 
-*Historical Note: These industries generally required iron in low volumes, so it could also be transported via horse and wagon.*
+***Historical Note:** These industries generally required iron in low volumes, so it could also be transported via horse and wagon.*
 
 ### CONSUMING BEER
 
@@ -314,7 +264,7 @@ You may be required to consume beer when selling cotton, manufactured goods, or 
 
 2. An opponent’s unflipped Brewery. These must be connected to the location where the beer is required.
 
-3. The space beside a Merchant tile that you are selling to (see “Action - Sell”).
+3. The space beside a Merchant tile that you are selling to (see “[Action - Sell](#sell-action)”).
 
 When multiple beer barrels are required, each beer may be consumed from a different source.
 
@@ -328,412 +278,181 @@ Consumed beer barrels are placed back into the General Supply.
 
 Performing the Build action allows you to place Industry tiles onto a location on the board.
 
-To perform the Build action:
+#### To perform the Build action:
 
-1. Discard an appropriate card. Unlike
-other actions, which allow you to use
-any card from your Hand, the Build
-action requires an appropriate card
-be discarded face up onto your
-Discard Pile:
+1. Discard an appropriate card. Unlike other actions, which allow you to use any card from your Hand, the Build action requires an appropriate card be discarded face up onto your Discard Pile:  
 ***Exception:** Wild cards are placed back onto their Card Draw Area.*
-* Location card
-May be used to build
-any Industry tile at the
-location named on the
-card, even if the location
-is not a part of your
-network.
-* Wild Location
-card
-May be played as any
-Location card. This does
-not include the 2 Farm
-Breweries (see “Farm
-Breweries”).
-* Industry card
-May be used to build the
-Industry tile matching
-an icon shown in the top
-corner of the card, in a
-location that is a part of
-your network.
-* Wild Industry
-card
-May be played as any
-Industry card.
+   * **Location card**  
+   May be used to build any Industry tile at the location named on the card, even if the location is not a part of your network.
+   * **Wild Location card**  
+   May be played as any Location card. This does not include the 2 Farm Breweries (see “[Farm Breweries](#farm-breweries)”).
+   * **Industry card**  
+   May be used to build the Industry tile matching an icon shown in the top corner of the card, in a location that is a part of your network.
+   * **Wild Industry card**  
+   May be played as any Industry card.  
+***Note:** In 2/3-player games you may still build in any location.*
+2. Take the lowest level tile of the chosen industry from your Player Mat and place it (the side with the black top half face down) on an undeveloped space in your chosen build location, obeying the following rules:
+   * If possible, place it on a space displaying only that industry’s icon.
+   * Otherwise, place it on a space displaying that industry’s icon with another industry’s icon.
+   * If no undeveloped spaces display your industry’s icon, you may not place it in that location.  
+   **Exception:** (see “[Overbuilding](#overbuilding)”)
+3. The cost of the Industry tile you are building is displayed, to the left of its slot, on your Player Mat. Pay money onto your Character tile on the Turn Order Track, and consume any required iron and coal.  
+***Remember:** If coal is required, the location you are building in must be connected to a source of coal (see “[Consuming Coal](#consuming-coal)” and “[Connected Locations](#connected-locations)”).*
+4. **If you built a: Coal Mine or Iron Works**
+Place coal or iron (from the General Supply) onto the Industry tile, equal to the quantity shown in the bottom right corner of the tile.
 
-Note: In 2/3-player games you may still
-build in any location.
-2 Take the lowest level tile L of the
-chosen industry from your Player
-Mat and place it (the side with the
-black top half face down) on an
-undeveloped space in your chosen
-build location,
-obeying the
-following rules:
-* If possible, place it on a
-space displaying only
-that industry’s icon M .
-* Otherwise, place it on a
-space displaying that
-industry’s icon with another industry’s
-icon N .
-* If no undeveloped spaces display your
-industry’s icon, you may not place it in
-that location.
-Exception: (see “Overbuilding”)
-3 The cost of the Industry tile you are
-building is displayed, to the left of its
-slot, on your Player Mat O . Pay
-money onto your Character tile on
-the Turn Order Track, and consume
-any required iron and coal O .
-Remember: If coal is required, the
-location you are building in must be
-connected to a source of coal (see
-“Consuming Coal” and “Connected
-Locations”).
-4 If you built a:
-Coal Mine or
-Iron Works
-Place coal or iron
- (from the General
-Supply) onto the
-Industry tile, equal to
-the quantity shown in
-the bottom right corner
-of the tile.
-Brewery
-Place 1 beer barrel on the Industry
-tile if it is built during
-the Canal Era, or 2
-beer barrels if it is built
-during the Rail Era. 
+#### Brewery
 
-Moving Coal and Iron to the
-Market
+Place 1 beer barrel on the Industry tile if it is built during the Canal Era, or 2 beer barrels if it is built during the Rail Era.
+
+#### Moving Coal and Iron to the Market
+
 If you build either a:
-* Coal Mine that is connected
-to any Merchant space
- (even those without
-Merchant tiles);
-or
-* Iron Works, regardless
-of whether or not it is
-connected to a Merchant
-space:
-1 You must immediately move as
-many cubes as possible from the
-Industry tile to available spaces in
-its associated Market (filling the
-most expensive spaces first).
-2 For each cube moved, collect the
-corresponding amount of money
-displayed on the coin to the left
-side of its Market space P .
-3 If the last cube is moved from
-your Industry tile to its Market, flip
-the Industry tile Q and advance
-your Income Marker along the
-Progress Track by the number of
-spaces shown in the bottom right
-corner of the tile.
+
+* **Coal Mine** that is connected to any Merchant space (even those without Merchant tiles);  
+or  
+* **Iron Works,** regardless of whether or not it is connected to a Merchant space:
+  1. You must immediately move as many cubes as possible from the Industry tile to available spaces in its associated Market (filling the most expensive spaces first).
+  2. For each cube moved, collect the corresponding amount of money displayed on the coin to the left side of its Market space.
+  3. If the last cube is moved from your Industry tile to its Market, flip the Industry tile and advance your Income Marker along the Progress Track by the number of spaces shown in the bottom right corner of the tile.
 
 ***Note:** Coal and iron cubes may only be sold to their Markets during the action when their Industry tile is built. They are never sold to their Markets in later turns.*
 
-Building If You Have No Tiles
-on the Board
-If you have no Industry or
-Link tiles on the board, you
-may also (as an action) discard:
-* An Industry card to build
-the matching Industry
-tile in any location with
-an undeveloped space
-displaying that industry’s icon;
-* Any card to build a Link tile
-on any undeveloped line on
-the board.
-P
-Q
-O
-L
-M
-N
-Farm Breweries
-There are 2 unnamed
-locations, each with 1 space
-displaying a Brewery icon;
-these are Farm Breweries.
-* You may only build in
-these locations using a
-Brewery Industry card or a
-Wild Industry card.
-* A Link tile is required to
-connect Cannock to the Farm Brewery
-to its left.
-* A Link tile placed between
-Kidderminster and Worcester also
-connects both locations to the Farm
-Brewery to their left. A second Link
-tile is not required; nor may it be placed
-there.
+#### Building If You Have No Tiles on the Board
 
-Canal Era Building
-* You may have a maximum of 1 Industry
-tile per location, but may have an
-Industry tile in the same location as
-other players.
-* Industry tiles with a to the left of
-their slot on your Player Mat may not
-be built.
+If you have no Industry or Link tiles on the board, you may **also** (as an action) discard:
 
-Rail Era Building
-* You may build multiple Industry tiles in
-each location.
+* An Industry card to build the matching Industry tile in any location with an undeveloped space displaying that industry’s icon;
+* Any card to build a Link tile on any undeveloped line on the board.
 
-Overbuilding
-Sometimes you are allowed to replace an
-already placed Industry tile with a higherlevel tile of the same industry type (you
-must still pay the necessary build costs).
-This is known as Overbuilding. When
-Overbuilding:
-If the tile you are replacing is your own
-A :
+#### Farm Breweries
+
+There are 2 unnamed locations, each with 1 space displaying a Brewery icon; these are Farm Breweries.
+
+* You may only build in these locations using a Brewery Industry card or a Wild Industry card.
+* A Link tile is required to connect Cannock to the Farm Brewery to its left.
+* A Link tile placed between Kidderminster and Worcester also connects both locations to the Farm Brewery to their left. A second Link tile is not required; nor may it be placed there.
+
+#### Canal Era Building
+
+* You may have a maximum of 1 Industry tile per location, but may have an Industry tile in the same location as other players.
+* Industry tiles with a TODO to the left of their slot on your Player Mat may not be built.
+
+#### Rail Era Building
+
+* You may build multiple Industry tiles in each location.
+* Industry tiles with a TODO to the left of their slot on your Player Mat **may not be built**. To remove these tiles (and access the higher-level tiles) you must perform the Develop action.
+
+### Overbuilding
+
+Sometimes you are allowed to replace an already placed Industry tile with a higher-level tile of the same industry type (you must still pay the necessary build costs). This is known as Overbuilding. When Overbuilding:
+
+**If the tile you are replacing is your own:**
+
 * You may Overbuild any Industry tile.
-* If there are any iron / coal / beer on the
-tile being replaced, place them back into
-the General Supply.
-If the tile you are replacing is owned by
-an opponent B :
-* You may Overbuild only a Coal Mine or
-an Iron Works.
-* There must be no resource cubes on the
-entire board, including in its Market, of
-the same type as the Industry tile being
-replaced.
-Remove overbuilt Industry tiles from the
-game, and return them to the box (they
-will not score VPs). Players do not lose
-previously gained income or VPs if their
-Industry tiles are overbuilt.
+* If there are any iron / coal / beer on the tile being replaced, place them back into the General Supply.
+
+**If the tile you are replacing is owned by an opponent:**
+
+* You may Overbuild only a Coal Mine or an Iron Works.
+* There must be no resource cubes on the entire board, including in its Market, of the same type as the Industry tile being replaced.
+
+Remove overbuilt Industry tiles from the game, and return them to the box (they will not score VPs). Players do not lose previously gained income or VPs if their Industry tiles are overbuilt.
 
 ### SELL ACTION
 
-Performing the Sell action allows you to flip
-built Cotton Mill, Manufacturer, and Pottery
-tiles. Selling requires:
+Performing the Sell action allows you to flip built Cotton Mill, Manufacturer, and Pottery tiles. Selling requires:
+
 * Connection to a Merchant tile.
 * Beer (usually).
-To perform the Sell action:
-1 Discard any card from your Hand
-and place it face up onto your
-Discard Pile.
-Exception: Wild cards are placed
-back onto their Card Draw Area.
-2 Choose 1 of your unflipped
-Cotton Mill, Manufacturer
-C , or Pottery tiles, that is
-connected to a Merchant tile
-featuring that industry’s icon D .
-3 Consume the required
-amount of beer, shown
-in the top right corner
-of the Industry tile. If
-there is a beer barrel
-E on the space beside
-the Merchant tile you are selling to,
-you may consume this beer as part
-of the Sell action, and collect the
-Merchant beer bonus (see “Merchant
-Beer Bonuses”).
-4 Flip the Industry tile
-and advance your
-Income Marker
-along the Progress Track by the
-number of spaces shown in the
-bottom right corner of the tile.
-5 You may go back to step 2 and
-repeat the process for each of your
-unflipped Industry tiles (including
-those of a different industry).
-Note: You cannot perform the
-Sell action if you cannot consume
-the required beer (see “Consuming
-Beer”).
 
-Merchant Beer Bonuses
-Merchant beer may only be consumed
-as part of a Sell action. If you consume a
-Merchant beer, you also receive the bonus
-displayed beside that Merchant tile’s location:
-* Develop (Gloucester)
-Remove 1 of the lowest level
-tiles of any industry from your
-Player Mat (for no iron cost).
-Exception: You cannot remove a Pottery
-tile showing a icon (see “Potteries
-and the Lightbulb Icon”).
-* Income (Oxford)
-Advance your Income Marker
-2 spaces along the Progress
-Track.
-* Victory Points
-(Nottingham and
-Shrewsbury)
-Advance your VP Marker
-along the Progress Track by the
-number of spaces indicated.
-* Money (Warrington)
+#### To perform the Sell action:
+
+1. Discard any card from your Hand and place it face up onto your Discard Pile.  
+***Exception:** Wild cards are placed back onto their Card Draw Area.*
+2. Choose 1 of your unflipped Cotton Mill, Manufacturer, or Pottery tiles, that is connected to a Merchant tile featuring that industry’s icon.
+3. Consume the required amount of beer, shown in the top right corner of the Industry tile. If there is a beer barrel on the space beside the Merchant tile you are selling to, you may consume this beer as part of the Sell action, and collect the Merchant beer bonus (see “[Merchant Beer Bonuses](#merchant-beer-bonuses)”).
+4. Flip the Industry tile and advance your Income Marker along the Progress Track by the number of spaces shown in the bottom right corner of the tile.
+5. You may go back to step 2 and repeat the process for each of your unflipped Industry tiles (including those of a different industry).  
+***Note:** You cannot perform the Sell action if you cannot consume the required beer (see “[Consuming Beer](#consuming-beer)”).*
+
+#### Merchant Beer Bonuses
+
+Merchant beer may only be consumed as part of a Sell action. If you consume a Merchant beer, you also receive the bonus displayed beside that Merchant tile’s location:
+
+* **Develop (Gloucester)**  
+Remove 1 of the lowest level tiles of any industry from your Player Mat (for no iron cost).  
+***Exception:** You cannot remove a Pottery tile showing a icon (see “[Potteries and the Lightbulb Icon](#potteries-and-the-lightbulb-icon)”).*
+* **Income (Oxford)**  
+Advance your Income Marker 2 spaces along the Progress Track.
+* **Victory Points (Nottingham and Shrewsbury)**  
+Advance your VP Marker along the Progress Track by the number of spaces indicated.
+* **Money (Warrington)**  
 Receive £5 from the Bank.
 
 ### LOAN ACTION
 
-Performing the Loan action
-allows you to acquire more
-money. Loans are never repaid,
-but instead lower your income
-level.
-To perform the Loan
-action:
-1 Discard any card from
-your Hand, and place it
-face up onto your
-Discard Pile.
-Exception: Wild cards
-are placed back onto their
-Card Draw Area.
-2 Take £30 from the bank,
-and move your Income
-Marker 3 income levels
-(not spaces) backwards
-down the Progress Track
-F . Place your Income
-Marker on the highest
-space within the new
-lower income level.
-Exception: You
-cannot take a loan
-if it will take your
-income level below
--10.
+Performing the Loan action allows you to acquire more money. Loans are never repaid, but instead lower your income level.
+
+#### To perform the Loan action:
+
+1. Discard any card from your Hand, and place it face up onto your Discard Pile.  
+***Exception:** Wild cards are placed back onto their Card Draw Area.*
+2. Take £30 from the bank, and move your Income Marker 3 income levels (not spaces) backwards down the Progress Track. Place your Income Marker on the highest space within the new lower income level.  
+***Exception:** You cannot take a loan if it will take your income level below -10.*
 
 ### SCOUT ACTION
 
-Performing the Scout action
-allows you to acquire Wild
-cards, which provide increased
-flexibility in where you may
-build. The Wild Industry card
-can be played as any Industry card. The
-Wild Location card can be played as any
-Location card. When discarded, a Wild
-card is placed back onto its Card Draw
-Area, not onto your Discard Pile.
-To perform the Scout action:
-1 Discard any card from your Hand,
-plus 2 additional cards and place
-them face up onte your Discard
-Pile.
-2 Take 1 Wild Location and 1 Wild
-Industry card.
-Note: You may not perform this
-action if you already have a Wild
-card in your Hand.
+Performing the Scout action allows you to acquire Wild cards, which provide increased flexibility in where you may build. The Wild Industry card can be played as any Industry card. The Wild Location card can be played as any Location card. When discarded, a Wild card is placed back onto its Card Draw Area, not onto your Discard Pile.
+
+#### To perform the Scout action:
+
+1. Discard any card from your Hand, plus 2 additional cards and place them face up onto your Discard Pile.
+2. Take 1 Wild Location and 1 Wild Industry card.  
+***Note:** You may not perform this action if you already have a Wild card in your Hand.*
 
 ### DEVELOP ACTION
 
-Performing the
-Develop action allows
-you to remove Industry
-tiles from your Player
-Mat. This allows
-you to gain access to
-higher-level Industry tiles
-without having to build all of
-the lower-level tiles of that
-industry.
-To perform the Develop action:
-1 Discard any card from your Hand,
-and place it face up onto your
-Discard Pile.
-Exception: Wild cards are placed
-back onto their Card Draw Area.
+Performing the Develop action allows you to remove Industry tiles from your Player Mat. This allows you to gain access to higher-level Industry tiles without having to build all of the lower-level tiles of that industry.
 
-2 Remove 1 or 2 Industry tiles from
-your Player Mat, and return them
-to the box. Each Industry tile is
-removed separately and does not
-need to be of the same industry,
-but must be the lowest level tile of
-the chosen industry (as it is
-removed) G .
-3 Consume 1 iron for each tile
-removed (see “Consuming Iron”).
-Potteries and the
-Lightbulb Icon
-Pottery tiles that show a
-icon may not be developed.
-These tiles may only be
-removed from your Player Mat through
-use of the Build action. They must be
-removed before you can access the
-higher-level Pottery tiles.
+#### To perform the Develop action:
 
+1. Discard any card from your Hand, and place it face up onto your Discard Pile.  
+***Exception:** Wild cards are placed back onto their Card Draw Area.*
+
+2. Remove 1 or 2 Industry tiles from your Player Mat, and return them to the box. Each Industry tile is removed separately and does not need to be of the same industry, but must be the lowest level tile of the chosen industry (as it is removed).
+3. Consume 1 iron for each tile removed (see “[Consuming Iron](#consuming-iron)”).
+
+#### Potteries and the Lightbulb Icon
+
+Pottery tiles that show a Lightbulb icon may not be developed. These tiles may only be removed from your Player Mat through use of the Build action. They must be removed before you can access the higher-level Pottery tiles.
 
 ### NETWORK ACTION
 
-Performing the Network
-action allows you to place
-Link tiles, which expand
-your network and gain
-you access to new locations.
-To perform the Network
-action:
-1 Discard any card from your Hand,
-and place it face up onto your
-Discard Pile.
-Exception: Wild cards are placed
-back onto their Card Draw Area.
-2 Place a Link tile on an undeveloped
-line on the board H . The placed
-Link tile must be adjacent to a
-location that is a part of your
-network (see “Your Network”).
-Exception: If you have no Industry
-or Link tiles on the board, you may
-place a Link tile on any undeveloped
-line (you must still consume coal if
-building a rail Link).
+Performing the Network action allows you to place Link tiles, which expand your network and gain you access to new locations.
 
-Network During Canal Era:
+#### To perform the Network action:
+
+1. Discard any card from your Hand, and place it face up onto your Discard Pile.  
+***Exception:** Wild cards are placed back onto their Card Draw Area.*
+2. Place a Link tile on an undeveloped line on the board. The placed Link tile must be adjacent to a location that is a part of your network (see “[Your Network](#your-network)”).  
+***Exception:** If you have no Industry or Link tiles on the board, you may place a Link tile on any undeveloped line (you must still consume coal if building a rail Link).*
+
+#### Network During Canal Era:
+
 * You may not build rail Links.
-* You may build canal Links on
-undeveloped canal lines I .
-* You may build a maximum of 1 canal
-Link for £3.
-Network During Rail Era:
-* You may not build canal Links.
-* You may build rail Links on
-undeveloped railroad lines J .
-* You may build 1 rail Link for £5.
-* In a single Network action, you may
-build a maximum of 2 rail Links for
-£15, if you also consume 1 beer.
-This beer must be consumed from a
-Brewery (not a Merchant beer).
-Remember: If consuming beer from
-another player’s Brewery, it must be
-connected to the second rail Link (after
-it is placed).
-* You must consume 1 coal for each
-rail Link built (see “Consuming Coal”)
-Remember: Each rail Link is placed
-separately and must be connected to a
-source of coal (after it is placed).
+* You may build canal Links on undeveloped canal lines.
+* You may build a maximum of 1 canal Link for £3.
 
+#### Network During Rail Era:
+
+* You may not build canal Links.
+* You may build rail Links on undeveloped railroad lines.
+* You may build 1 rail Link for £5.
+* In a single Network action, you may build a maximum of 2 rail Links for £15, if you also consume 1 beer. This beer must be consumed from a Brewery (not a Merchant beer).  
+***Remember:** If consuming beer from another player’s Brewery, it must be connected to the second rail Link (after it is placed).*
+* You must consume 1 coal for each rail Link built (see “[Consuming Coal](#consuming-coal)”)  
+***Remember:** Each rail Link is placed separately and must be connected to a source of coal (after it is placed).*
 
 ## TIPS AND VARIANTS
 
