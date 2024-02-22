@@ -392,6 +392,12 @@ const assets: Game[] = [
     code: 'terraforming_mars',
   },
   {
+    bggid: 244522,
+    name: 'That\'s Pretty Clever!',
+    code: 'thats_pretty_clever',
+    alternativeNames: ['Ganz Schön Clever!'],
+  },
+  {
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the_castles_of_burgundy',

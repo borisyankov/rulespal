@@ -8,6 +8,7 @@ export type Game = {
   bggid: number;
   name: string;
   code: string;
+  alternativeNames?: string[];
 };
 
 export type EmbeddingSet = {
