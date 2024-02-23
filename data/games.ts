@@ -27,6 +27,11 @@ const assets: Game[] = [
     code: 'anachrony',
   },
   {
+    bggid: 400314,
+    name: 'Apiary',
+    code: 'apiary',
+  },
+  {
     bggid: 342942,
     name: 'Ark Nova',
     code: 'ark_nova',
@@ -247,6 +252,11 @@ const assets: Game[] = [
     code: 'klask',
   },
   {
+    bggid: 50,
+    name: 'Lost Cities',
+    code: 'lost_cities',
+  },
+  {
     bggid: 312484,
     name: 'Lost Ruins of Arnak',
     code: 'lost_ruins_of_arnak',
@@ -310,6 +320,11 @@ const assets: Game[] = [
     bggid: 262712,
     name: 'Res Arcana',
     code: 'res_arcana',
+  },
+  {
+    bggid: 332772,
+    name: 'Revive',
+    code: 'revive',
   },
   {
     bggid: 237182,
