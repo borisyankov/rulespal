@@ -2,9 +2,10 @@ import { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
-    bggid: 268586,
-    name: '6 Nimmt',
-    code: '6_nimmt',
+    bggid: 432,
+    name: 'Take 5',
+    code: 'take_5',
+    alternativeNames: ['6 nimmt!', 'Sechs Nimmt', 'Category 5'],
   },
   {
     bggid: 68448,
