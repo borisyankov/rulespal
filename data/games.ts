@@ -2,12 +2,6 @@ import { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
-    bggid: 432,
-    name: 'Take 5',
-    code: 'take_5',
-    alternativeNames: ['6 nimmt!', 'Sechs Nimmt', 'Category 5'],
-  },
-  {
     bggid: 68448,
     name: '7 Wonders',
     code: '7_wonders',
@@ -396,6 +390,12 @@ const assets: Game[] = [
     bggid: 192291,
     name: 'Sushi Go Party!',
     code: 'sushi_go_party',
+  },
+  {
+    bggid: 432,
+    name: 'Take 5',
+    code: 'take_5',
+    alternativeNames: ['6 nimmt!', 'Sechs Nimmt', 'Category 5'],
   },
   {
     bggid: 46213,
