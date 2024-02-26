@@ -228,7 +228,7 @@ Using an effect is always optional!
 
 **Resource** - Gain the shown resource.
 
-TODO - You may trade a basic resource (gear, book,
+**Trade** - You may trade a basic resource (gear, book,
 food) for any other basic resource
 You may repeat this up to 3 times, choosing
 the same or a different resource each time.

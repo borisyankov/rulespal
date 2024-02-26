@@ -419,11 +419,6 @@ const assets: Game[] = [
     code: 'the_castles_of_burgundy',
   },
   {
-    bggid: 36553,
-    name: 'Time\'s Up! Title Recall!',
-    code: 'times_up_title_recall',
-  },
-  {
     bggid: 284083,
     name: 'The Crew',
     code: 'the_crew',
@@ -432,6 +427,11 @@ const assets: Game[] = [
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks_of_quedlinburg',
+  },
+  {
+    bggid: 217372,
+    name: 'The Quest for El Dorado',
+    code: 'the_quest_for_el_dorado',
   },
   {
     bggid: 128882,
@@ -457,6 +457,11 @@ const assets: Game[] = [
     bggid: 14996,
     name: 'Ticket to Ride: Europe',
     code: 'ticket_to_ride_europe',
+  },
+  {
+    bggid: 36553,
+    name: 'Time\'s Up! Title Recall!',
+    code: 'times_up_title_recall',
   },
   {
     bggid: 356123,
