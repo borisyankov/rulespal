@@ -474,6 +474,11 @@ const assets: Game[] = [
     code: 'underwater_cities',
   },
   {
+    bggid: 183394,
+    name: 'Viticulture',
+    code: 'viticulture',
+  },
+  {
     bggid: 233867,
     name: 'Welcome To...',
     code: 'welcome_to',
