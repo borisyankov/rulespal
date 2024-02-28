@@ -147,6 +147,11 @@ const assets: Game[] = [
     code: 'dune_imperium_uprising',
   },
   {
+    bggid: 2346,
+    name: 'DVONN',
+    code: 'dvonn',
+  },
+  {
     bggid: 350184,
     name: 'Earth',
     code: 'earth',
@@ -180,6 +185,11 @@ const assets: Game[] = [
     bggid: 391163,
     name: 'Forest Shuffle',
     code: 'forest_shuffle', // _rulebook.toString() + forest_shuffle_appendix.toString(), 'appendix',
+  },
+  {
+    bggid: 527,
+    name: 'GIPF',
+    code: 'gipf',
   },
   {
     bggid: 246192,
@@ -262,6 +272,11 @@ const assets: Game[] = [
     code: 'love_letter',
   },
   {
+    bggid: 217083,
+    name: 'LYNGK',
+    code: 'lyngk',
+  },
+  {
     bggid: 156546,
     name: 'Monikers',
     code: 'monikers',
@@ -295,6 +310,11 @@ const assets: Game[] = [
     bggid: 3076,
     name: 'Puerto Rico',
     code: 'puerto_rico',
+  },
+  {
+    bggid: 19764,
+    name: 'PÜNCT',
+    code: 'punct',
   },
   {
     bggid: 12,
@@ -469,6 +489,11 @@ const assets: Game[] = [
     code: 'turing_machine',
   },
   {
+    bggid: 31999,
+    name: 'TZAAR',
+    code: 'tzaar',
+  },
+  {
     bggid: 247763,
     name: 'Underwater Cities',
     code: 'underwater_cities',
@@ -492,6 +517,16 @@ const assets: Game[] = [
     bggid: 365258,
     name: 'World Wonders',
     code: 'world_wonders',
+  },
+  {
+    bggid: 7854,
+    name: 'YINSH',
+    code: 'yinsh',
+  },
+  {
+    bggid: 528,
+    name: 'ZÈRTZ',
+    code: 'zertz',
   },
 ];
 
