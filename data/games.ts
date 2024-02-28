@@ -382,6 +382,11 @@ const assets: Game[] = [
     code: 'so_clover',
   },
   {
+    bggid: 242302,
+    name: 'Space Base',
+    code: 'space_base',
+  },
+  {
     bggid: 162886,
     name: 'Spirit Island',
     code: 'spirit_island',
@@ -421,6 +426,11 @@ const assets: Game[] = [
     bggid: 46213,
     name: 'Telestrations',
     code: 'telestrations',
+  },
+  {
+    bggid: 120677,
+    name: 'Terra Mystica',
+    code: 'terra_mystica',
   },
   {
     bggid: 167791,
