@@ -225,6 +225,11 @@ const assets: Game[] = [
     code: 'hanabi',
   },
   {
+    bggid: 158600,
+    name: 'Hanamikoji',
+    code: 'hanamikoji',
+  },
+  {
     bggid: 366013,
     name: 'Heat: Pedal to the Metal',
     code: 'heat',

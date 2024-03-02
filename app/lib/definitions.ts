@@ -9,6 +9,7 @@ export type Game = {
   name: string;
   code: string;
   alternativeNames?: string[];
+  extraSources?: string[];
 };
 
 export type EmbeddingSet = {
