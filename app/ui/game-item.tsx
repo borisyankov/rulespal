@@ -5,8 +5,8 @@ import { Game } from '../lib/definitions';
 export default function GameItem({ game } : { game: Game }) {
   return (
     <Link
-      className="cursor-pointer p-8
-      size-52
+      className="cursor-pointer
+      h-36 w-32
       flex flex-col items-center justify-center overflow-hidden text-balance rounded-xl
       bg-white
       dark:bg-zinc-800
@@ -20,7 +20,7 @@ export default function GameItem({ game } : { game: Game }) {
       href={`/${game.code}`}
     >
       <Thumbnail game={game} />
-      <span className="mt-2 text-xs opacity-75">{game.name}</span>
+      <span className="my-2 text-xs opacity-75">{game.name}</span>
     </Link>
   );
 }

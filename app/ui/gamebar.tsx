@@ -24,7 +24,7 @@ function matchesSearchInput(target: string, searchInput: string): boolean {
 export default function GameBar() {
   const [search, setSearch] = useState('');
   const shownGames = games.filter((game) =>
-    ([game.name, ...(game.alternativeNames || [])].some((name) =>
+    ([game.name, game.code, ...(game.alternativeNames || [])].some((name) =>
       matchesSearchInput(name, search)))
   );
   return (

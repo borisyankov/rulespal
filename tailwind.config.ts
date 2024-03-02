@@ -81,6 +81,8 @@ const config: Config = {
             '--tw-prose-invert-bullets': 'purple',
             '--tw-prose-counters': 'purple',
             '--tw-prose-invert-counters': 'purple',
+            'blockquote p:first-of-type::before': { content: 'none' },
+            'blockquote p:first-of-type::after': { content: 'none' },
           },
         },
       },
