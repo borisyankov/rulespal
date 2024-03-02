@@ -20,6 +20,7 @@ const assets: Game[] = [
     bggid: 185343,
     name: 'Anachrony',
     code: 'anachrony',
+    extraSources: ['chronobot_chronossus'],
   },
   {
     bggid: 400314,
@@ -34,12 +35,18 @@ const assets: Game[] = [
   {
     bggid: 205637,
     name: 'Arkham Horror: The Card Game',
-    code: 'arkham_horror_card_game', // [reference]
+    code: 'arkham_horror_card_game',
+    extraSources: ['reference'],
   },
   {
     bggid: 230802,
     name: 'Azul',
     code: 'azul',
+  },
+  {
+    bggid: 287954,
+    name: 'Azul: Summer Pavilion',
+    code: 'azul_summer_pavilion',
   },
   {
     bggid: 224517,
@@ -167,6 +174,11 @@ const assets: Game[] = [
     code: 'fantasy_realms',
   },
   {
+    bggid: 336986,
+    name: 'Flamecraft',
+    code: 'flamecraft',
+  },
+  {
     bggid: 334590,
     name: 'For Northwood!',
     code: 'for_northwood',
@@ -184,7 +196,8 @@ const assets: Game[] = [
   {
     bggid: 391163,
     name: 'Forest Shuffle',
-    code: 'forest_shuffle', // _rulebook.toString() + forest_shuffle_appendix.toString(), 'appendix',
+    code: 'forest_shuffle',
+    extraSources: ['appendix'],
   },
   {
     bggid: 527,
