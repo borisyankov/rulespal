@@ -507,6 +507,11 @@ const assets: Game[] = [
     code: 'ticket_to_ride_europe',
   },
   {
+    bggid: 390092,
+    name: 'Ticket to Ride Legacy: Legends of the West',
+    code: 'ticket_to_ride_legacy_legends_of_the_west',
+  },
+  {
     bggid: 36553,
     name: 'Time\'s Up! Title Recall!',
     code: 'times_up_title_recall',
