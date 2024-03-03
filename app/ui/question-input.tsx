@@ -4,6 +4,7 @@ import { SendHorizontalIcon, StopCircleIcon } from "lucide-react"
 import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
 import { useEnterSubmit } from "./use-enter-submit";
+import Textarea from 'react-textarea-autosize';
 
 type Props = {
   isLoading: boolean;
@@ -43,19 +44,17 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     onChange(event);
   };
   const ButtonIcon = isLoading ? StopCircleIcon : SendHorizontalIcon;
-  const height = value.split("\n").length * 24 + 24;
   return (
     <form
       ref={formRef}
       className="stretch p-4 flex flex-row gap-3 mx-auto w-full max-w-screen-md"
       onSubmit={handleFormSubmit}
     >
-      <textarea
+      <Textarea
         id="prompt-textarea"
         className="resize-none rounded-3xl focus:ring-2 focus:ring-primary focus:outline-none flex-1
         leading-6 text-zinc-900 placeholder:zinc-400 px-6 py-3 ring-inset bg-gray-200 dark:bg-gray-800 dark:text-zinc-200" 
         ref={textAreaRef}
-        style={{ height }}
         value={value}
         placeholder="Ask about rules..."
         spellCheck="false"
@@ -74,5 +73,3 @@ export default function QuestionInput({ isLoading, stop, submitMessage, onChange
     </form>
   );
 }
-
-// dark:text-zinc-300 text-zinc-700 hover:text-zinc-300
