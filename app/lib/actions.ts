@@ -41,7 +41,7 @@ export async function searchFor(query: string, bggid: number): Promise<SearchFor
   cosine.sort((a, b) => b.similarity - a.similarity);
   console.timeEnd('Search all embeddings');
   const topFive = cosine.slice(0, 5);
-  const rulesExcerpt = topFive.map((x, i) => `${rulebook.substring(x.start, x.start + x.length)} 【${i + 1}†source】`).join('\n');
+  const rulesExcerpt = topFive.map((x, i) => rulebook.substring(x.start, x.start + x.length)).join('\n');
   return {
     prompt: getPrompt(rulesExcerpt, game.name),
     embeddings: topFive,

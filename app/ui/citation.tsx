@@ -2,20 +2,23 @@ import Link from "next/link";
 import { Quote } from "lucide-react"
 
 type Props = {
-  index: number;
-  data: any;
+  text: string;
 };
 
-export default function Citation({ index, data }: Props) {
+export default function Citation({ text }: Props) {
   const code = '7_wonders';
-  const citation = data[0].citations[index];
-  console.log(data, index, citation);
-  if (!citation) {
+  if (!text || text.length === 0) {
     return null;
   }
   return (
-    <Link className="inline-block bg-primary rounded-full ml-1 align-middle" href={`/${code}/rules#${citation.start}-${citation.length}`}>
-      <Quote size={20} className="p-1	text-gray-50" />
+    <Link href={`/${code}/rules`} title={text}>
+      <span className="inline-block bg-primary rounded-full ml-1 align-middle">
+        <Quote size={20} className="p-1	text-gray-50" />
+      </span>
+      {text}
+      <span className="inline-block bg-primary rounded-full ml-1 align-middle">
+        <Quote size={20} className="p-1	text-gray-50" />
+      </span>
     </Link>
   );
 }

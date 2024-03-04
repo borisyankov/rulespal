@@ -8,7 +8,6 @@ import { Root, Content, Text, RootContent } from 'mdast';
 type Props = {
   m: Message;
   isLoading: boolean;
-  data: any;
 };
 
 const appendLoading = () => {
@@ -32,28 +31,36 @@ const appendLoading = () => {
   };
 };
 
-export default function Answer({ m, isLoading, data }: Props) {
+export default function Answer({ m, isLoading }: Props) {
   return (
     <Markdown
-      className="prose prose-zinc dark:prose-invert mb-10"
+      className="prose prose-zinc mb-10 dark:prose-invert"
       remarkPlugins={isLoading ? [remarkGfm, appendLoading] : [remarkGfm]}
       components={{
-        p(props:  React.ClassAttributes<HTMLElement> & React.HTMLAttributes<HTMLElement> & ExtraProps) {
+        p(
+          props: React.ClassAttributes<HTMLElement> &
+            React.HTMLAttributes<HTMLElement> &
+            ExtraProps,
+        ) {
           return (
             <p>
-              {React.Children.map(props.children, child => {
+              {React.Children.map(props.children, (child) => {
                 if (typeof child === 'string') {
-                  const regex = /【(\d+)†source】/g;
+                  const regex = /(?:【([^】]*)】|【(.*?)$)/g;
                   const parts = child.split(regex);
                   return parts.map((part, index) =>
-                    index % 2 === 0 ? part : <Citation key={part} index={Number(part)} data={data} />
+                    index % 2 === 0 ? (
+                      part
+                    ) : (
+                      <Citation key={part} text={part} />
+                    ),
                   );
                 }
                 return child;
               })}
             </p>
           );
-        }
+        },
       }}
     >
       {m.content}
