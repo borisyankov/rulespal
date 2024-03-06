@@ -144,6 +144,11 @@ const assets: Game[] = [
     code: 'dominion',
   },
   {
+    bggid: 370591,
+    name: 'Dorfromantik',
+    code: 'dorfromantik',
+  },
+  {
     bggid: 316554,
     name: 'Dune: Imperium',
     code: 'dune_imperium',
