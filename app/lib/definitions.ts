@@ -7,6 +7,7 @@ export type LogEntry = {
 export type Game = {
   bggid: number;
   name: string;
+  shortName?: string;
   code: string;
   alternativeNames?: string[];
   extraSources?: string[];

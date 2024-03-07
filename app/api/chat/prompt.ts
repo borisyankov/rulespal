@@ -8,7 +8,7 @@ To answer questions about game rules use this part of the rulebook:
 ${rulesExcerpt}
 == END OF RULEBOOK EXCERPT ==
 
-After the answer append verbatim the part of the excerpt that was used to answer the question, prepend 【 and and the end put 】.
+After the answer append verbatim the part of the excerpt that was used to answer the question, put \`\`\` before and after on new lines.
 
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 `;

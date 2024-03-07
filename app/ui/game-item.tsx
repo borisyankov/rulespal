@@ -20,7 +20,7 @@ export default function GameItem({ game } : { game: Game }) {
       href={`/${game.code}`}
     >
       <Thumbnail game={game} />
-      <span className="my-2 text-xs opacity-75">{game.name}</span>
+      <span className="my-2 text-xs opacity-75">{game.shortName || game.name}</span>
     </Link>
   );
 }
