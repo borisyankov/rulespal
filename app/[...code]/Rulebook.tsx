@@ -3,11 +3,12 @@ import remarkGfm from 'remark-gfm';
 
 type Props = {
   code: string;
+  resource: string;
 };
 
-export default async function Rulebook({ code }: Props) {
+export default async function Rulebook({ code, resource }: Props) {
   const gameRulebook = (
-    await import(`../../data/rulebooks/${code}_rulebook.md`)
+    await import(`../../data/rulebooks/${code}_${resource}.md`)
   ).default;
   return (
     <Markdown

@@ -16,7 +16,7 @@ export default function Home({ params: { code } }: Props) {
   if (!game) {
     return redirect('/');
   }
-  const tab = code[1] === 'rules' ? 'rulebook' : 'chat';
+  const tab = code[1] === 'chat' ? 'chat' : 'rulebook';
   return (
     <div className="flex h-screen flex-col">
       <Tabs defaultValue={tab} className="flex flex-col p-2 h-screen">
@@ -34,7 +34,7 @@ export default function Home({ params: { code } }: Props) {
           </TabsContent>
           <TabsContent value="rulebook" className="flex-1 h-screen overflow-auto">
             <Suspense fallback="Loading...">
-              <Rulebook code={game.code} />
+              <Rulebook code={game.code} resource={code[1]} />
             </Suspense>
           </TabsContent>
         </>
