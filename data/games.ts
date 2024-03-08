@@ -145,7 +145,8 @@ const assets: Game[] = [
   },
   {
     bggid: 370591,
-    name: 'Dorfromantik',
+    name: 'Dorfromantik: The Board Game',
+    shortName: 'Dorfromantik',
     code: 'dorfromantik',
   },
   {
@@ -298,6 +299,13 @@ const assets: Game[] = [
     bggid: 217083,
     name: 'LYNGK',
     code: 'lyngk',
+  },
+  {
+    bggid: 285774,
+    name: 'Marvel Champions: The Card Game',
+    shortName: 'Marvel Champions',
+    code: 'marvel_champions',
+    extraSources: ['reference'],
   },
   {
     bggid: 156546,
