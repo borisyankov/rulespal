@@ -34,7 +34,7 @@ export default function Home({ params: { code } }: Props) {
           </TabsContent>
           <TabsContent value="rulebook" className="flex-1 h-screen overflow-auto">
             <Suspense fallback="Loading...">
-              <Rulebook code={game.code} resource={code[1]} />
+              <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
             </Suspense>
           </TabsContent>
         </>

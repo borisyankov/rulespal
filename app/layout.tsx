@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/app/ui/theme-provider";
 const noto = Noto_Sans({
   style: ["normal", "italic"],
   subsets: ["latin"],
-  weight  : ["400", "700"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {

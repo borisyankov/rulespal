@@ -44,6 +44,7 @@ async function listNotExitingGames() {
       notFound++;
     }
   }
+  console.log('Games:', games.length);
   console.log('Not found:', notFound);
   console.log('Total:', items.length);
 }
