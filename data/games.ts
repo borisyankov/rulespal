@@ -368,6 +368,11 @@ const assets: Game[] = [
     code: 'res_arcana',
   },
   {
+    bggid: 352697,
+    name: 'Resist!',
+    code: 'resist',
+  },
+  {
     bggid: 332772,
     name: 'Revive',
     code: 'revive',
@@ -558,6 +563,11 @@ const assets: Game[] = [
     bggid: 266192,
     name: 'Wingspan',
     code: 'wingspan',
+  },
+  {
+    bggid: 383499,
+    name: 'Witchcraft!',
+    code: 'witchcraft',
   },
   {
     bggid: 365258,
