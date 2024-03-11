@@ -4,9 +4,11 @@ import { Message } from 'ai/react';
 import remarkGfm from 'remark-gfm';
 import Citation from './citation';
 import { Root, Content, Text, RootContent } from 'mdast';
+import { Game } from '../lib/definitions';
 
 type Props = {
   m: Message;
+  game: Game;
   isLoading: boolean;
 };
 
@@ -31,7 +33,7 @@ const appendLoading = () => {
   };
 };
 
-export default function Answer({ m, isLoading }: Props) {
+export default function Answer({ m, game, isLoading }: Props) {
   return (
     <Markdown
       className="prose prose-zinc mb-10 dark:prose-invert"
@@ -52,7 +54,7 @@ export default function Answer({ m, isLoading }: Props) {
                     index % 2 === 0 ? (
                       part
                     ) : (
-                      <Citation key={part} text={part} />
+                      <Citation key={part} text={part} game={game} />
                     ),
                   );
                 }
@@ -60,6 +62,15 @@ export default function Answer({ m, isLoading }: Props) {
               })}
             </p>
           );
+        },
+        pre(
+          props: React.ClassAttributes<HTMLElement> &
+            React.HTMLAttributes<HTMLElement> &
+            ExtraProps,
+        ) {
+          return React.isValidElement(props.children) ? (
+            <Citation text={props.children.props.children} game={game} />
+          ) : null;
         },
       }}
     >

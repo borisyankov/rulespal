@@ -22,6 +22,7 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-h1:mt-8 prose-h2:mt-7 prose-h3:mt-6
       prose-h1:mb-5 prose-h2:mb-4 prose-h3:mb-3
       prose-h4:mt-4
+      prose-h5:font-bold
       prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl"
       remarkPlugins={[remarkGfm]}
     >
