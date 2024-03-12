@@ -99,6 +99,11 @@ const assets: Game[] = [
     code: 'catan',
   },
   {
+    bggid: 209685,
+    name: 'Century: Spice Road',
+    code: 'century_spice_road',
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
