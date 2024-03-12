@@ -500,6 +500,11 @@ const assets: Game[] = [
     code: 'the_crew',
   },
   {
+    bggid: 281259,
+    name: 'The Isle of Cats',
+    code: 'the_isle_of_cats',
+  },
+  {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks_of_quedlinburg',
