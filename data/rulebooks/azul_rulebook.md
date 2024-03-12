@@ -4,14 +4,14 @@
 
 ## Game Setup
 
-1. Give each player a player board. Flip your board to the side with the colored wall. (See Variant Play to play with the gray side of the player board). Each player must use the same side.
-2. Take 1 scoring marker (B)  and place it on space "0" of your score track.
-3. Place the Factory displays (C)  in a circle around the center of the table:
-   * In a 2-player game, place 5 Factory   displays.
+1. Give each player a player board. Flip your board to the side with the colored wall. (See [Variant Play](#variant-play) to play with the gray side of the player board). Each player must use the same side.
+2. Take 1 scoring marker and place it on space "0" of your score track.
+3. Place the Factory displays in a circle around the center of the table:
+   * In a 2-player game, place 5 Factory displays.
    * In a 3-player game, place 7 Factory displays.
    * In a 4-player game, place 9 Factory displays.
-4. Fill the bag (D) with the 100 tiles (20 of each color) (E).
-5. The player who most recently visited Portugal takes the starting player marker (F) and then fills each Factory display with exactly 4 tiles randomly drawn from the bag.
+4. Fill the bag with the 100 tiles (20 of each color).
+5. The player who most recently visited Portugal takes the starting player marker and then fills each Factory display with exactly 4 tiles randomly drawn from the bag.
 
 Return any unused player boards, scoring markers and Factory displays to the box.
 
@@ -45,7 +45,7 @@ Then, add the tiles you picked to **one** of the 5 pattern lines on your player 
 
 * Place the tiles, one by one, **from right to left** in your chosen pattern line.
 * If the pattern line already holds tiles, you may only add tiles of the same color to it.
-* Once all spaces of a pattern line are filled, that line is considered complete. If you have picked up more tiles than you can place in your chosen pattern line, you must place the excess tiles in the floor line (see Floor line).
+* Once all spaces of a pattern line are filled, that line is considered complete. If you have picked up more tiles than you can place in your chosen pattern line, you must place the excess tiles in the floor line (see [Floor line](#floor-line)).
 
 *Your goal in this phase is to complete as many of your pattern lines as you can, because during the following Wall-tiling phase, you will only be able to move tiles from complete pattern lines to their corresponding lines on your wall to score points.*
 
@@ -62,7 +62,7 @@ Then, continue with the Wall-tiling phase.
 ### B. Wall-tiling
 
 This phase can be carried out by all players simultaneously, as they move tiles from their complete pattern lines over to their walls.
-A) Go through your pattern lines from top to bottom. Move the rightmost  tile of each complete line to the space of the same color in the corresponding line of your wall. Each time you move a tile, score points immediately (see Scoring ).
+A) Go through your pattern lines from top to bottom. Move the rightmost  tile of each complete line to the space of the same color in the corresponding line of your wall. Each time you move a tile, score points immediately (see [Scoring](#scoring)).
 
 B) Then, remove all tiles from any pattern lines that now have no tile in the rightmost  space. Place them into the lid of the game box to store them for now.
 
@@ -83,7 +83,7 @@ Afterwards, remove all tiles in your floor line and place them into the lid of t
 
 ### C. Preparing the next round
 
-If nobody has completed a horizontal line of 5 consecutive tiles on her wall yet (see End of the game), prepare the next round. The player with the starting player marker refills each of the Factory displays with 4 tiles from the bag as in the setup. If the bag is empty, refill it with all the tiles that you have placed in the lid of the game box and then continue filling the remaining Factory displays. Then, start the new round.
+If nobody has completed a horizontal line of 5 consecutive tiles on her wall yet (see [End of the game](#end-of-the-game)), prepare the next round. The player with the starting player marker refills each of the Factory displays with 4 tiles from the bag as in the setup. If the bag is empty, refill it with all the tiles that you have placed in the lid of the game box and then continue filling the remaining Factory displays. Then, start the new round.
 
 In the rare case that you run out of tiles again while there are none left in the lid, start the new round as usual even though not all Factory displays are properly filled.
 

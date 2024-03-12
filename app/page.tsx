@@ -1,10 +1,9 @@
-import GameList from "./ui/game-list";
-import games from '@/data/games';
+import GameBar from "./ui/gamebar";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <GameList games={games} />
+      <GameBar />
     </div>
   );
 }
