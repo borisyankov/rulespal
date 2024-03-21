@@ -12,7 +12,7 @@ type Props = {
 
 export default function MessageList({ game, messages, isLoading }: Props) {
   return (
-    <div className="scrollbar flex-1 p-4 overflow-y-auto text-base mx-auto gap-3 w-full max-w-screen-md">
+    <div className="scrollbar flex-1 p-4 overflow-y-auto text-base mx-auto gap-3 w-full max-w-screen-md py-12">
       {messages.map((m: Message, index) =>
         m.role === "user" ? (
           <Question key={m.id} m={m} />

@@ -12,7 +12,7 @@ export default async function Rulebook({ code, resource }: Props) {
   ).default;
   return (
     <Markdown
-      className="prose lg:prose-lg md:prose mb-10 dark:prose-invert px-4 mx-auto
+      className="prose lg:prose-lg md:prose mb-10 dark:prose-invert px-4 pt-12 mx-auto
       prose-hr:my-8 prose-p:leading-relaxed
       prose-li:my-0 prose-li:p-0 marker:primary
       prose-ul:pl-5

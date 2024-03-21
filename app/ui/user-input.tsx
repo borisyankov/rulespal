@@ -3,7 +3,7 @@
 import { SendHorizontalIcon, StopCircleIcon } from "lucide-react";
 import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
-import { useEnterSubmit } from "./use-enter-submit";
+import { useEnterSubmit } from "@/app/lib/use-enter-submit";
 import Textarea from 'react-textarea-autosize';
 
 type Props = {
@@ -47,7 +47,7 @@ export default function UserInput({ isLoading, stop, submitMessage, onChange }: 
   return (
     <form
       ref={formRef}
-      className="stretch p-4 flex flex-row gap-3 mx-auto w-full max-w-screen-md"
+      className="fixed bottom-0 inset-x-0 p-4 flex flex-row gap-3 mx-auto w-full max-w-screen-md"
       onSubmit={handleFormSubmit}
     >
       <Textarea
@@ -65,7 +65,7 @@ export default function UserInput({ isLoading, stop, submitMessage, onChange }: 
       <button
         type="submit"
         className="mb-[4px] ml-[-56px] resize-none rounded-full flex justify-center items-center size-10 self-end
-        text-zinc-700 dark:text-zinc-300 enabled:hover:text-white
+        text-zinc-700 dark:text-zinc-300 enabled:hover:text-white bg-transparent transition
         enabled:hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25"
         disabled={!isLoading && value.length === 0}
       > 
