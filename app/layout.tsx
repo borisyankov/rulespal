@@ -1,11 +1,10 @@
 import type { Metadata, Viewport } from "next";
-import { Noto_Sans } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 
 import "./globals.css";
 import { ThemeProvider } from "@/app/ui/theme-provider";
 
-const noto = Noto_Sans({
-  style: ["normal", "italic"],
+const font = Work_Sans({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -28,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`h-full ${noto.className}`}>
+      <body className={`h-full ${font.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

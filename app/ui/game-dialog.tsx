@@ -5,6 +5,7 @@ import { Button } from "./button";
 import { Game } from "../lib/definitions";
 import Thumbnail from "./thumbnail";
 import GameBar from "./gamebar";
+import { SearchIcon } from "lucide-react";
 
 type Props = {
   game: Game;
@@ -15,7 +16,7 @@ export default function GameDialog({ game }: Props) {
     <Dialog>
       <DialogTrigger asChild>
         <Button variant="ghost">
-          <Thumbnail className="size-10" game={game} />
+          <SearchIcon />
         </Button>
       </DialogTrigger>
       <DialogContent className="size-full">

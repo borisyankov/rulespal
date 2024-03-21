@@ -3,7 +3,7 @@
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 
-export default function Themer() {
+export default function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
 
   const toggleTheme = () => {

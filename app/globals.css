@@ -59,17 +59,12 @@
     @apply bg-background text-foreground;
   }
 }
-
-
-
-.scrollbar::-webkit-scrollbar
-{
+::-webkit-scrollbar {
 	width: 10px;
 	background-color: transparent;
 }
 
-.scrollbar::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-thumb {
 	border-radius: 10px;
   background-color: rgba(127, 127, 127, 0.25);
 }

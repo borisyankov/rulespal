@@ -3,7 +3,7 @@
 import { useChat } from "ai/react";
 import EmptyState from "@/app/ui/empty-state";
 import MessageList from "@/app/ui/message-list";
-import QuestionInput from "@/app/ui/question-input";
+import QuestionInput from "@/app/ui/user-input";
 import { Game } from "./lib/definitions";
 import { FormEvent } from "react";
 
