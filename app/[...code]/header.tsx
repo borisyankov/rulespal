@@ -10,18 +10,24 @@ type Props = {
 };
 
 export default function Home({ game }: Props) {
-  // const tab = code[1] === 'chat' ? 'chat' : 'rulebook';
   return (
-    <header className="fixed top-0 inset-x-0 gap-8 flex flex-row bg-primary items-center justify-center">
-      <Thumbnail className="size-10" game={game} />
-      <GameDialog game={game} />
-      <Link href={`/${game.code}/chat`} className="flex flex-row gap-2">
-        <MessageCircleQuestion /><span className="hidden md:block">Chat</span>
-      </Link>
-      <Link href={`/${game.code}/rulebook`} className="flex flex-row gap-2">
-        <BookOpenTextIcon /><span className="hidden md:block">Rulebook</span>
-      </Link>
-      <ThemeSwitcher />
+    <header className="fixed top-0 inset-x-0 bg-primary">
+      <div className="flex w-full m-auto px-2 max-w-screen-md flex-row items-center justify-between gap-8">
+        <div className="flex flex-row items-center gap-2">
+          <Thumbnail className="size-10" game={game} />
+          {game.name}
+        </div>
+        <Link href={`/${game.code}/chat`} className="flex flex-row gap-2">
+          <MessageCircleQuestion />
+          <span className="hidden md:block">Chat</span>
+        </Link>
+        <Link href={`/${game.code}/rulebook`} className="flex flex-row gap-2">
+          <BookOpenTextIcon />
+          <span className="hidden md:block">Rulebook</span>
+        </Link>
+        <ThemeSwitcher />
+        <GameDialog game={game} />
+      </div>
     </header>
   );
 }

@@ -6,7 +6,7 @@ export default function GameItem({ game } : { game: Game }) {
   return (
     <Link
       className="cursor-pointer
-      h-36 w-32
+      h-42 w-32
       flex flex-col items-center justify-center overflow-hidden text-balance rounded-xl
       bg-white
       dark:bg-zinc-800
@@ -19,8 +19,10 @@ export default function GameItem({ game } : { game: Game }) {
       key={game.name}
       href={`/${game.code}`}
     >
-      <Thumbnail game={game} />
-      <span className="my-2 text-xs opacity-75">{game.shortName || game.name}</span>
+      <div className="size-32">
+        <Thumbnail game={game} className="size-full" />
+      </div>
+      <div className="h-10 flex items-center text-xs opacity-75">{game.shortName || game.name}</div>
     </Link>
   );
 }

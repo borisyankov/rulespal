@@ -23,7 +23,7 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-h1:mb-5 prose-h2:mb-4 prose-h3:mb-3
       prose-h4:mt-4
       prose-h5:font-bold
-      prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl"
+      prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl"
       remarkPlugins={[remarkGfm]}
     >
       {gameRulebook}

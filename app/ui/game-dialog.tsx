@@ -13,7 +13,7 @@ export default function GameDialog({ game }: Props) {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <SearchIcon />
+        <SearchIcon className="cursor-pointer" />
       </DialogTrigger>
       <DialogContent className="size-full">
         <GameBar />

@@ -68,9 +68,17 @@ export default function Answer({ m, game, isLoading }: Props) {
             React.HTMLAttributes<HTMLElement> &
             ExtraProps,
         ) {
-          return React.isValidElement(props.children) ? (
-            <Citation text={props.children.props.children} game={game} />
-          ) : null;
+          if (!React.isValidElement(props.children)) {
+            return null;
+          }
+          return <Citation text={props.children.props.children} game={game} />;
+        },
+        code(
+          props: React.ClassAttributes<HTMLElement> &
+            React.HTMLAttributes<HTMLElement> &
+            ExtraProps,
+        ) {
+          return <Citation text={String(props.children)} game={game} />;
         },
       }}
     >
