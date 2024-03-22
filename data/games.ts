@@ -490,6 +490,11 @@ const assets: Game[] = [
     alternativeNames: ['Ganz Schön Clever!'],
   },
   {
+    bggid: 286063,
+    name: 'The 7th Citadel',
+    code: 'the_7th_citadel',
+  },
+  {
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the_castles_of_burgundy',
