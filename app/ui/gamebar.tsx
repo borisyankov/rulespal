@@ -28,7 +28,7 @@ export default function GameBar() {
       matchesSearchInput(name, search)))
   );
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 overflow-auto">
       <div className="relative flex max-w-2xl items-center ">
         <Search className="absolute left-2 top-1/2 size-4 -translate-y-1/2" />
         <Input
