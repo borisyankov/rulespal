@@ -13,13 +13,9 @@ export default function Citation({ game, text }: Props) {
   }
   return (
     <Link href={`/${game.code}/rules`} title={text}>
-      <span className="inline-block bg-primary rounded-full ml-1 align-middle">
-        <Quote size={20} className="p-1	text-gray-50" />
+      <span className="inline-block bg-primary rounded-full align-middle hover:animate-pulse">
+        <Quote size={24} className="p-1.5	text-gray-50" />
       </span>
-      {/* {text}
-      <span className="inline-block bg-primary rounded-full ml-1 align-middle">
-        <Quote size={20} className="p-1	text-gray-50" />
-      </span> */}
     </Link>
   );
 }

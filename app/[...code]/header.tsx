@@ -15,7 +15,7 @@ export default function Home({ game }: Props) {
       <div className="flex w-full m-auto px-2 max-w-screen-md flex-row items-center justify-between gap-8">
         <div className="flex flex-row items-center gap-2">
           <Thumbnail className="size-10" game={game} />
-          {game.name}
+          <span className="hidden md:block">{game.name}</span>
         </div>
         <Link href={`/${game.code}/chat`} className="flex flex-row gap-2">
           <MessageCircleQuestion />
