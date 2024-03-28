@@ -1,9 +1,9 @@
+import { useEffect, useRef } from "react";
 import { Message } from "ai/react";
 import Question from "./question";
 import Answer from "./answer";
 import Loading from "./loading";
 import { Game } from "../lib/definitions";
-import { ChatScrollAnchor } from "../lib/chat-scroll-anchor";
 
 type Props = {
   game: Game;
@@ -12,8 +12,21 @@ type Props = {
 };
 
 export default function MessageList({ game, messages, isLoading }: Props) {
+  const listRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!listRef.current) return;
+    const resizeObserver = new ResizeObserver(() => {
+      console.log('resize detected');
+      listRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "end",
+      });
+    });
+    resizeObserver.observe(listRef.current);
+    return () => resizeObserver.disconnect();
+  }, []);
   return (
-    <div className="scrollbar flex-1 p-4 overflow-y-auto text-base mx-auto gap-3 w-full max-w-screen-md py-12">
+    <div className="flex-1 p-4 overflow-y-auto text-base mx-auto gap-3 w-full max-w-screen-md py-12" ref={listRef}>
       {messages.map((m: Message, index) =>
         m.role === "user" ? (
           <Question key={m.id} m={m} />
@@ -24,7 +37,6 @@ export default function MessageList({ game, messages, isLoading }: Props) {
       {isLoading && messages[messages.length - 1].role === 'user' && (
         <Loading />
       )}
-      <ChatScrollAnchor trackVisibility />
     </div>
   );
 }
