@@ -29,7 +29,7 @@ export default function GameBar() {
   );
   return (
     <div className="flex flex-col gap-5 overflow-auto">
-      <div className="relative flex max-w-2xl items-center ">
+      <div className="relative w-full flex items-center p-1">
         <Search className="absolute left-2 top-1/2 size-4 -translate-y-1/2" />
         <Input
           placeholder="Your search..."

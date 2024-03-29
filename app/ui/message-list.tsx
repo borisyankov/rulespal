@@ -16,7 +16,6 @@ export default function MessageList({ game, messages, isLoading }: Props) {
   useEffect(() => {
     if (!listRef.current) return;
     const resizeObserver = new ResizeObserver(() => {
-      console.log('resize detected');
       listRef.current?.scrollIntoView({
         behavior: "smooth",
         block: "end",

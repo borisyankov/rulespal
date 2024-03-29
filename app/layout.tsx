@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`h-full ${font.className}`}>
+      <body className={`min-h-screen ${font.className}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

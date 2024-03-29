@@ -12,7 +12,7 @@ type Props = {
 export default function Home({ game }: Props) {
   return (
     <header className="fixed top-0 inset-x-0 bg-primary">
-      <div className="flex w-full m-auto px-2 max-w-screen-md flex-row items-center justify-between gap-8">
+      <div className="flex w-full m-auto px-2 max-w-screen-md flex-row items-center justify-between gap-8 text-white/80">
         <div className="flex flex-row items-center gap-2">
           <Thumbnail className="size-10" game={game} />
           <span className="hidden md:block">{game.name}</span>

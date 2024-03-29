@@ -24,19 +24,21 @@ export default function UserInput({ isLoading, stop, submitMessage, onChange }: 
   }, []);
   const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-
     if (isLoading) {
       stop();
       return;
     }
-
     if (!value.trim()) {
       return;
     }
     if (textAreaRef.current) {
-      textAreaRef.current.focus();
-      setValue('');
+      if (window.innerWidth < 600) {
+        textAreaRef.current.blur();
+      } else {
+        textAreaRef.current.focus();
+      }
     }
+    setValue('');
     submitMessage(event);
   };
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
