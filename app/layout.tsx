@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Work_Sans } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
 
 import "./globals.css";
 import { ThemeProvider } from "@/app/ui/theme-provider";
@@ -36,6 +37,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
