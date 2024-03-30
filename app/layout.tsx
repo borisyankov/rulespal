@@ -1,24 +1,25 @@
-import type { Metadata, Viewport } from "next";
-import { Work_Sans } from "next/font/google";
+import type { Metadata, Viewport } from 'next';
+import { Work_Sans } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 
-import "./globals.css";
-import { ThemeProvider } from "@/app/ui/theme-provider";
+import './globals.css';
+import { ThemeProvider } from '@/app/ui/theme-provider';
+import { CSPostHogProvider } from './providers';
 
 const font = Work_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
+  subsets: ['latin'],
+  weight: ['400', '700'],
 });
 
 export const metadata: Metadata = {
-  title: "RulesPal",
-  description: "Rules for board games, answered by your AI pal.",
+  title: 'RulesPal',
+  description: 'Rules for board games, answered by your AI pal.',
 };
 
 export const viewport: Viewport = {
-  width: "device-width",
+  width: 'device-width',
   initialScale: 1,
-  interactiveWidget: "resizes-content",
+  interactiveWidget: 'resizes-content',
 };
 
 export default function RootLayout({
@@ -28,17 +29,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`min-h-screen ${font.className}`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-        <Analytics />
-      </body>
+      <CSPostHogProvider>
+        <body className={`min-h-screen ${font.className}`}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+          <Analytics />
+        </body>
+      </CSPostHogProvider>
     </html>
   );
 }

@@ -22,7 +22,7 @@ export default function Home({ params: { code } }: Props) {
       {tab === 'chat' ? (
         <Chat game={game} />
       ) : (
-        <Suspense>
+        <Suspense fallback={<p>Loading feed...</p>}>
           <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
         </Suspense>
       )}
