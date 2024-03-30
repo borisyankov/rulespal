@@ -1,5 +1,7 @@
 # Terra Mystica Rulebook
 
+## Table of Contents
+
 ## INTRODUCTION
 
 In **Terra Mystica** each player governs one of 14 factions trying to develop more successfully than their opponents. Terra Mystica is a magical world: its inhabitants are able to transform the terrain they are living in. Each faction is bound to a specific type of terrain: It can only build structures on its “Home terrain”. This is why each faction over the centuries needed to develop **Terraforming** capability.

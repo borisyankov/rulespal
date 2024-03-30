@@ -1,5 +1,7 @@
 # Time's Up! Title Recall! Rulebook
 
+## Table of Contents
+
 ## CONTENTS
 
 * 432 Cards

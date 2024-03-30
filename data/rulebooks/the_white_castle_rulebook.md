@@ -1,5 +1,7 @@
 # The White Castle Rulebook
 
+## Table of Contents
+
 Japan, 1761: Harima province. Daimyo Sakai Tadazumi is one of the most significant advisors to the Edo Shogunate, and governs the region from Himeji Castle. Thus, it is in the best interest of the various local clans to curry favor with the Sakai clan. To achieve influence, they will have to insert members of their family into every level of life within the White Castle, from political roles to military positions, and even down to the lowliest landscape workers, who care for the smallest details of the palace’s gardens.
 
 In *The White Castle*, players take on the role of leaders of minor clans, who vie for position and their clan’s future in the court of the White Heron. Cunning and timely management of resources and the placement of family members within Himeji Castle will be the key to victory!

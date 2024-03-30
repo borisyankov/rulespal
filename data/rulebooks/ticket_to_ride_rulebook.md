@@ -1,8 +1,8 @@
 # Ticket to Ride Rulebook
 
-On a blustery autumn evening five old friends met in the backroom of one of the city’s oldest and most private clubs. Each had
-traveled a long distance — from all corners of the world — to meet on this very specific day… October 2, 1900 — 28 years to the
-day that the London eccentric, Phileas Fogg accepted and then won a £20,000 bet that he could travel *Around the World in 80 Days*.
+## Table of Contents
+
+On a blustery autumn evening five old friends met in the backroom of one of the city’s oldest and most private clubs. Each had traveled a long distance — from all corners of the world — to meet on this very specific day… October 2, 1900 — 28 years to the day that the London eccentric, Phileas Fogg accepted and then won a £20,000 bet that he could travel *Around the World in 80 Days*.
 
 When the story of Fogg’s triumphant journey filled all the newspapers of the day, the five attended University together. Inspired by his impetuous gamble, and a few pints from the local pub, the group commemorated his circumnavigation with a more modest excursion and wager – a bottle of good claret to the first to make it to *Le Procope* in Paris.
 

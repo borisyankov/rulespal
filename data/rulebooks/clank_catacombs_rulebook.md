@@ -1,5 +1,7 @@
 # Clank! Catacombs Rulebook
 
+## Table of Contents
+
 Leave the board behind with *CLANK! Catacombs*, a stand-alone deck-building adventure!
 
 The catacombs of the skeletal dragon Umbrok Versa are mysterious and dangerous. Portals transport you all around the dungeon depths. Wayshrines offer vast riches to intrepid explorers. Prisoners are counting on you to free them. Ghosts, once disturbed, may haunt you to death.

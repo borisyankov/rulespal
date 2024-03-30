@@ -1,5 +1,7 @@
 # Small World Rulebook
 
+## Table of Contents
+
 ## Components
 
 Inside **Small World™**, you will discover:

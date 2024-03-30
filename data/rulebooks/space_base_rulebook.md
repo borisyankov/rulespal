@@ -1,5 +1,7 @@
 # Space Base Rulebook
 
+## Table of Contents
+
 ## GAME OVERVIEW
 
 In *Space Base* each player assumes the role of Commodore of a small fleet of ships. Ships begin docked at their stations and are then deployed to sectors as new ships are commissioned under your command. Use cargo vessels to engage in trade and commerce, mining vessels to build recurring base income, and carriers to spread your influence. Establish new colonies in a sector to gain even more influence.

@@ -1,5 +1,7 @@
 # Lost Cities Rulebook
 
+## Table of Contents
+
 ## Explore the Lost Cities!
 
 Place your cards to form expedition routes that lead you to remote and mysterious corners of the world: the Himalayan mountains, the Central American rainforest, the Egyptian desert, a mysterious volcano, and the bottom of the sea. Particularly daring players can also make a bet on the success of their expeditions. If after three games you have the highest overall score, you win.

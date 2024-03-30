@@ -1,5 +1,7 @@
 # Jaipur Rulebook
 
+## Table of Contents
+
 ## INTRODUCTION AND AIM OF THE GAME
 
 Jaipur... You are hoping to become the Maharaja’s personal trader by being richer than your opponent at the end of each week *(round)*.

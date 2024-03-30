@@ -1,5 +1,7 @@
 # Crokinole Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * 12 Natural Disks

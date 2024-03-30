@@ -1,5 +1,7 @@
 # Sprawlopolis Rulebook
 
+## Table of Contents
+
 You and your fellow city planners have been hired to develop the ultimate sprawling metropolis! Together you must build a city that keeps the officials happy... and they've got some pretty specific requirements. You'll need to plan carefully if you want to meet their lofty expectations!
 
 ## COMPONENTS

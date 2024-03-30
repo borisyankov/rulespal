@@ -1,5 +1,7 @@
 # Witchcraft! Rulebook
 
+## Table of Contents
+
 A midnight bell tolls on the streets of Wildegrens as the villagers shutter their windows against the darkness. Something moves through the night–in the forest, through the fields, across the old battlefield. The isolated village is in danger. Crops are failing, animals are dying, and villagers are disappearing. Townsfolk are scared. Some of the women are fighting back but the villagers suspect that these women may be dealing with the devil himself. From behind the old school a shadow crosses to the town well. A feeble light reveals two witches who nod to one another, shutter the lantern, and make their way towards the dark woods.
 
 ## Historical Note

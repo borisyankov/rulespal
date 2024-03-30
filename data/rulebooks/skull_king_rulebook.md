@@ -1,5 +1,7 @@
 # Skull King Rulebook
 
+## Table of Contents
+
 ## OVERVIEW
 
 Skull King is a trick-taking game in which you will bid the exact number of tricks you predict you will win each round. You’ll battle with your rivals as you strive to keep your own bid afloat… while seizing opportunities to also sink your opponents! The pirate with the highest score at the end of the game wins and earns the title of Captain of the Seven Seas!

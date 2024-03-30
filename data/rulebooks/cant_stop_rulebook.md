@@ -1,5 +1,7 @@
 # Can't Stop Rulebook
 
+## Table of Contents
+
 ## OBJECT
 
 To be the first player to reach the top of any three columns.

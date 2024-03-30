@@ -1,5 +1,7 @@
 # Captain Sonar Rulebook
 
+## Table of Contents
+
 **In the near future, a few decades from now.**
 
 Confronted with rising waters, governments had to adapt by building giant underwater stations. They multiplied across the world’s seas, splitting the population into two communities: the Alphans, connected to the surface world, and the Omega, adapted to their new habitat.

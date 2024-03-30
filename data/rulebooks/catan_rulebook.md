@@ -1,5 +1,7 @@
 # CATAN Rulebook
 
+## Table of Contents
+
 ## Game Rules
 
 ### Game Components

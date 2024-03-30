@@ -1,5 +1,7 @@
 # Kingdomino Rulebook
 
+## Table of Contents
+
 ## Contents:
 
 * 4 starting tiles

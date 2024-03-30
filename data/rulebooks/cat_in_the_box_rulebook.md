@@ -1,5 +1,7 @@
 # Cat In The Box Rulebook
 
+## Table of Contents
+
 ## Outline of the Experiment
 
 "**Cat in the box**" is a card game categorized as a trick-taking game. The color of each cat card is not certain, and when the card is played, it will be treated as the color declared by the player. **However, players are not allowed to declare the color of a card with the same number that has already been declared.** Follow the rules, and approach the mysterious ecology of ... Cats.

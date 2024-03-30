@@ -1,5 +1,7 @@
 # Splendor Rulebook
 
+## Table of Contents
+
 In Splendor, you take on the role of a rich merchant during the Renaissance. You will use your resources to acquire mines, transportation methods, and artisans who will allow you to turn raw gems into beautiful jewels.
 
 ## Contents

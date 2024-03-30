@@ -1,5 +1,7 @@
 # Century: Spice Road Rulebook
 
+## Table of Contents
+
 *Centuries ago, the spice trade was the most important market in the world. It established and destroyed empires, compelled men to explore the far corners of the earth, and led to the discovery of new worlds. At that time, the value of spices even rivaled that of gold! In the old days, they carried a sense of mystery and allure. Spice merchants would weave fantastic tales of danger to reach these spices in hopes of selling their wares at high prices. In later centuries, the demand on spices became so great, that those who controlled the spices generated immense wealth and renown. It is at this time, you find yourself leading your caravan across the eastern lands to the Mediterranean Sea in search of wealth and fortune.*
 
 *As a caravan leader, your journey begins on the Spice Road.*

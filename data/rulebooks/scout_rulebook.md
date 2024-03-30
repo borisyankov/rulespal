@@ -1,5 +1,7 @@
 # SCOUT Rulebook
 
+## Table of Contents
+
 You have suddenly been appointed as the leader of a circus. Using the members of your circus you must put together a show that will beat out your rivals. Everyone on your team has a specific role. To fill in the gaps on your team, try to scout members away from other circus groups! Will you battle with your current members? Or will you wait it out and try to recruit different ones? You will feel amazing when you make the right choices in this speedy card game!
 
 ## Contents

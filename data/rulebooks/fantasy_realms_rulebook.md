@@ -1,5 +1,7 @@
 # Fantasy Realms Rulebook
 
+## Table of Contents
+
 *You are the ultimate ruler of a far-away land. Your goal is to build up the mightiest realm in the world. You might build up a massive army to sweep all before you, but that is not the only path to victory. Perhaps your kingdom will take the form of a bursting volcano, or a terrible hurricane sweeping away all in its path. Perhaps you will gather an impressive collection of powerful artifacts or weapons. Perhaps you will control a great wizard in his fortress, remote on an inaccessible island and surrounded by impenetrable flames. The choice is yours, for no two realms will be the same.*
 
 ## OVERVIEW

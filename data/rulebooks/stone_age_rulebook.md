@@ -1,5 +1,7 @@
 # Stone Age Rulebook
 
+## Table of Contents
+
 ## Game components
 
 * 1 game board

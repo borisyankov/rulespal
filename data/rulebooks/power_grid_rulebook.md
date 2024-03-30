@@ -1,5 +1,7 @@
 # Power Grid Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * **1 two-sided board:** Germany/USA with scoring track, player order and resource market

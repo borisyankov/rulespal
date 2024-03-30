@@ -1,5 +1,7 @@
 # The Resistance: Avalon
 
+## Table of Contents
+
 ## Contents
 
 * **14 Character Cards** *(Merlin, Assassin, Percival, Mordred, Morgana, Oberon, 5 Loyal Servants of Arthur and 3 Minions of Mordred)*

@@ -1,5 +1,7 @@
 # Dune Imperium Rulebook
 
+## Table of Contents
+
 In all the Known Universe, there is no more precious resource than the spice melange. Found only on the harsh desert planet of Arrakis (also known as Dune), control of the spice is a focal point of conflict among the Great Houses of the Imperium. In its pursuit, those vying for power seek alliances and support to secure their position. The governing councilors of the Landsraad. The CHOAM Company and its insatiable hunger for profit. The far-sighted Bene Gesserit. The Spacing Guild with its monopoly on foldspace travel. The Fremen, resilient warriors of the desert. Even the Emperor himself is not above the struggle for dominance. Conflict is inevitable, and its outcome is uncertain. One thing is certain, however:
 
 Whoever controls the spice controls the universe...

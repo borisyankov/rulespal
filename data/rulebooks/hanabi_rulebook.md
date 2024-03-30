@@ -1,5 +1,7 @@
 # Hanabi Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * 60 Hanabi cards 6 SUITS, each with Three 1’s, Two 2's, Two 3’s, Two 4’s, One 5

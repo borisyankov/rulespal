@@ -1,5 +1,7 @@
 # The Quacks of Quedlinburg Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * 4 pots (player boards)

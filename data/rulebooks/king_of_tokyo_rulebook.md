@@ -1,5 +1,7 @@
 # King of Tokyo Rulebook
 
+## Table of Contents
+
 You are giant Monsters on a rampage. Your destructive feats earn you glory in the form of Victory Points.
 
 The first to get to 20 wins the game. Or the last standing - if y'all want to take that route...

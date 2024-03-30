@@ -1,5 +1,7 @@
 # For Sale Rulebook
 
+## Table of Contents
+
 Buy the best houses at the lowest price, force other players to spend too much then resell your properties to make the most profit!
 
 ## Content

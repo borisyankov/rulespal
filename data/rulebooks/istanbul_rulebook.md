@@ -1,5 +1,7 @@
 # Istanbul Rulebook
 
+## Table of Contents
+
 ## INTRODUCTION
 
 Hustle and bustle in the bazaar district of Istanbul: merchants and their assistants are hurrying through the narrow alleys attempting to be more successful than their competitors. Good organization is key: wheelbarrows have to be filled with goods at the warehouses and then swiftly transported by the assistants to the various destinations. The goal of the merchants is to be the first to collect a certain amount of rubies.

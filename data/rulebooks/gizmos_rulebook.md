@@ -1,5 +1,7 @@
 # Gizmos Rulebook
 
+## Table of Contents
+
 The Great Science Fair approaches! You, the brilliant minds of our generation, will compete to build the most creative and powerful Gizmos in your homemade labs. Can you master the four energies and construct the best combos to bring home the first-place prize?
 
 ## COMPONENTS

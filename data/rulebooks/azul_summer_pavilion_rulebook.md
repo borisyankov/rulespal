@@ -1,5 +1,7 @@
 # Azul: Summer Pavilion Rulebook
 
+## Table of Contents
+
 *At the turn of the 16th Century, King Manuel I commissioned Portugal's greatest artisans to construct grandiose buildings. After completing the Palaces of Evora and Sintra, the king sought to build a Summer Pavilion to honor the most famous members of the royal family. This construction was intended for the most talented artisans-whose skills meet the splendor that the royal family deserves. Sadly, King Manuel I died before construction ever began.*
 
 *In **Azul–Summer Pavilion**, players return to Portugal to accomplish the task that never began. As a master artisan, you must use the finest materials to create the Summer Pavilion while carefully avoiding wasting supplies. Only the best will rise to the challenge to honor the Portuguese royal family.*

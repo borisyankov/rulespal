@@ -1,5 +1,7 @@
 # World Wonders Rulebook
 
+## Table of Contents
+
 The great leaders of the ancient world are willing to spend all their gold in order to build the most glorious city ever seen. It is your duty to wisely choose which stately buildings and wondrous monuments best fit the plans for your settlement. Doing so will increase its production of key resources, which in turn increases its population by attracting more residents. Pay attention, however, to your rivals' plans: they may be eyeing the same buildings as you.
 
 Whoever has the most victory points at the end of the game will be declared the winner and creator of the greatest city in all antiquity!

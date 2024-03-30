@@ -1,5 +1,7 @@
 # Res Arcana Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * **40 Artifact cards**

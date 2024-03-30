@@ -1,5 +1,7 @@
 # YINSH Rulebook
 
+## Table of Contents
+
 *Sometimes you’ll have the impression that there is nothing but chaos on the board. You line up a few of your pieces – and the next thing you notice is that they have changed color! The more pieces on the board, the more difficult it becomes to predict what will happen. But also the more opportunities you have! So don’t worry: you’ll get your chance. Just stay alert, and you’ll create your own little bit of order in the chaos!*
 
 ## CONTENTS

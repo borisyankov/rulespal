@@ -1,5 +1,7 @@
 # Race for the Galaxy Rulebook
 
+## Table of Contents
+
 ***Explore, Settle, Develop, Trade, Consume, or Produce? Which do you need the most?  
 Which of Earth’s former colonies will be most successful at settling the galaxy, now that JumpDrive exists? Who will discover the secrets of the mysteriously vanished Alien Overlords?  
 Your goal: to build the most prosperous and powerful space empire!***

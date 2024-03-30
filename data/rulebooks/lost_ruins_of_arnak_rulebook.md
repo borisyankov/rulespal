@@ -1,5 +1,7 @@
 # Lost Ruins of Arnak Rulebook
 
+## Table of Contents
+
 ## Components
 
 * main board, Bird Temple side (Snake Temple on other side)

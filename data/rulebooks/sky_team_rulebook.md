@@ -1,5 +1,7 @@
 # Sky Team Rulebook
 
+## Table of Contents
+
 ## LANDING PROCEDURE
 
 Take the controls of an airliner with your trusty crewmate, coordinate your efforts, and land your aircraft all over the world!

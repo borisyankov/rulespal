@@ -1,5 +1,7 @@
 # Spirit Island Rulebook
 
+## Table of Contents
+
 You are powerful Spirits of the natural world, existing on an isolated island. Invaders from beyond the known sea have recently begun their colonization of your island, killing the native islanders - a people called the Dahan - and upsetting the natural balance. The Spirits of the island must grow in power and throw back the Invaders before the island is blighted beyond hope of recovery!
 
 ## GAMEPLAY OVERVIEW

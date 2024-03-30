@@ -1,5 +1,7 @@
 # Klask Rulebook
 
+## Table of Contents
+
 ## WHAT’S INSIDE THE BOX:
 
 * KLASK board

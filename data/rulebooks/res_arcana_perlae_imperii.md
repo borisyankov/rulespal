@@ -1,5 +1,7 @@
 # Res Arcana Perlae Imperii
 
+## Table of Contents
+
 > On a wild coast, a seafaring mage prepares to dive below to a magical pearl bed in search of a pearl of power. Meanwhile, a dragon tamer travels to Blood Isle to seek an ancient dragon.
 
 Welcome to *Perlae Imperii*™ (pearls of power), the second Res Arcana® expansion. Perlae Imperii adds a new essence type - pearls - and extends the game to 13 victory points. New mages, magic items, monuments, places of power, and artifacts further expand the game.

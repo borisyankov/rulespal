@@ -1,5 +1,7 @@
 # Clank!: A Deck-Building Adventure
 
+## Table of Contents
+
 The passages beneath Dragon Keep are the most dangerous territory in the Realm. Only the greatest burglars can sneak in, steal from the dragon, and escape to tell the tale. So naturally, you and your fellow thieves have challenged each other to do just that.
 
 Along the way, you’ll recruit allies and snatch up extra loot. But one false step and—Clank! Careless noise draws the dragon’s attention, and each Artifact stolen increases its rage. You’d better hope your friends are louder than you are if you want to escape the depths alive...

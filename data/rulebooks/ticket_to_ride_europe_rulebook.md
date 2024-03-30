@@ -1,5 +1,7 @@
 # Ticket to Ride: Europe Rulebook
 
+## Table of Contents
+
 From the craggy hillsides of Edinburgh to the sunlit docks of Constantinople, from the dusty alleys of Pamplona to a windswept station in Berlin, Ticket to Ride Europe takes you on a new train adventure through the great cities of turn-of-the-century Europe.
 
 Will you risk a trip through the dark tunnels of Switzerland? Venture aboard a ferry on the Black Sea? Or erect lavish train stations in the great capitals of the old empires? Your next move might just make you Europe's greatest train magnate!

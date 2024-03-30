@@ -1,5 +1,7 @@
 # Patchwork Rulebook
 
+## Table of Contents
+
 Patchwork is a form of needlework that involves sewing together pieces of fabric into a larger design. In the past, it was a way to make use of left over pieces of cloth to create clothing and quilts. Today, patchwork is a form of art, in which the designers use precious fabrics to create beautiful textiles. The use of uneven pieces of fabric in particular can result in real masterpieces and is therefore being practiced by a large number of textile artists.
 
 To create a beautiful quilt, however, requires effort and time, but the available patches just do not want to fit together. So choose your patches carefully and keep a healthy supply of buttons to not only finish your quilt, but to make it better and more beautiful than your opponent‘s.

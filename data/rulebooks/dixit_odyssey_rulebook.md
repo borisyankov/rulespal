@@ -1,5 +1,7 @@
 # Dixit: Odyssey Rulebook
 
+## Table of Contents
+
 ## Box Contents
 
 * 1 scoreboard

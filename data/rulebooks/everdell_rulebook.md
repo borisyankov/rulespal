@@ -1,5 +1,7 @@
 # Everdell Rulebook
 
+## Table of Contents
+
 ## A NEW YEAR BEGINS...
 
 Within the charming valley of Everdell, beneath the boughs of towering trees, among meandering streams and mossy hollows, a civilization of forest critters is thriving and expanding. Ever since famed adventurer Corrin Evertail discovered the hidden realm long ago, the citizens have prospered under the shelter of the enduring Ever Tree.

@@ -1,5 +1,7 @@
 # Brass: Birmingham Rulebook
 
+## Table of Contents
+
 ## AN INDUSTRIAL REVOLUTION
 
 Brass: Birmingham tells the story of competing entrepreneurs in the West Midlands during England’s Industrial Revolution, between the years 1770-1870. During the game, you will expand your empire by establishing canals and rails, and building and developing various industries, including Cotton Mills, Coal Mines, Iron Works, Manufacturers, Potteries, and Breweries.

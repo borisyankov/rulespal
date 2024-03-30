@@ -1,5 +1,7 @@
 # Sea Salt & Paper Rulebook
 
+## Table of Contents
+
 ## COMPONENTS
 
 58 cards, 6 game aids, a rulebook.

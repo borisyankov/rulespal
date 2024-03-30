@@ -1,5 +1,7 @@
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkToc from 'remark-toc';
+import rehypeSlug from 'rehype-slug'
 
 type Props = {
   code: string;
@@ -24,7 +26,8 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-h4:mt-4
       prose-h5:font-bold
       prose-h1:text-4xl prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl"
-      remarkPlugins={[remarkGfm]}
+      rehypePlugins={[rehypeSlug]}
+      remarkPlugins={[remarkGfm, [remarkToc, {ordered: true, tight: false }]]}
     >
       {gameRulebook}
     </Markdown>

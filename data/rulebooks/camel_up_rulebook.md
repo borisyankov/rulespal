@@ -1,5 +1,7 @@
 # Camel Up Rulebook
 
+## Table of Contents
+
 *Welcome to the craziest camel race you'll ever see, where you can bet on the most auspicious camels and strike it rich. But the camels tend to carry each other along, so beating the odds is not as easy as you might think. A good sense of timing is just as important as reading the dynamics of the race. However, to make it even harder, two new contestants have joined the race. Unfortunately, these camels are so crazy that they head off in the wrong direction. And even though they are immediately disqualified, they just keep on going...*  
 
 *So let the fun begin!*

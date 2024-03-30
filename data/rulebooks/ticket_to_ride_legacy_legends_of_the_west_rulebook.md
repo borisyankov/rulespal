@@ -1,5 +1,7 @@
 # Ticket to Ride Legacy: Legends of the West Rulebook
 
+## Table of Contents
+
 It’s the late 19th century and America is booming. New train companies compete to satisfy the needs of a growing population. Merchants, officials, food, and goods need to travel from one place to another. An intricate network of train lines has appeared.
 
 Thaddeus Reeves was one of the young entrepreneurs dreaming of connecting the entire nation and succeeded beyond his wildest dreams. Reeves Rails quickly established lucrative train routes from the Atlantic to the Mississippi and the company’s future is bright. But greedy rail barons are looking at Thaddeus’ growing rail empire and thinking about how they can take it away.

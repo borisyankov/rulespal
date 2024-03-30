@@ -1,5 +1,7 @@
 # Arkham Horror The Card Game Rulebook
 
+## Table of Contents
+
 ## Beyond Time and Space...
 
 > Assuming that I was sane and awake, my experience on that night was such as has befallen no man before. It was, moreover, a frightful confirmation of all I had sought to dismiss as myth and dream.

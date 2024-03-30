@@ -1,13 +1,8 @@
 # The Isle of Cats Rulebook
 
-City legends have always told of a fabulous island where
-a race of ancient, wise, fierce and playful cats made their
-home. Recent scouts from Squall's End have revealed that
-it is real! But it is threatened by the approaching armies
-of Vesh Darkhand, who will stop at nothing to destroy the
-island and the rest of the world. Trees will burn, and the
-ancient rocks will be broken - but there's a chance that
-these noble creatures can be saved!
+## Table of Contents
+
+City legends have always told of a fabulous island where a race of ancient, wise, fierce and playful cats made their home. Recent scouts from Squall's End have revealed that it is real! But it is threatened by the approaching armies of Vesh Darkhand, who will stop at nothing to destroy the island and the rest of the world. Trees will burn, and the ancient rocks will be broken - but there's a chance that these noble creatures can be saved!
 
 ## GAME PLAY
 

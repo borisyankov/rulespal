@@ -1,5 +1,7 @@
 # 7 Wonders Rulebook
 
+## Table of Contents
+
 ## OVERVIEW OF THE GAME
 
 A game plays over 3 rounds, called Ages, during which you simultaneously play cards one by one to develop your City. These cards represent the different Buildings you can construct: resource production, civil, commercial, military, scientific, and guild Buildings.

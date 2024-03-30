@@ -1,5 +1,7 @@
 # Obsession Rulebook
 
+## Table of Contents
+
 ## Our Story
 
 Changes are afoot in Derbyshire, England, where four families all possessed of eligible young gentlemen and ladies find themselves embroiled in romance and intrigue during a time of optimism. Fortune has recently smiled on these somewhat neglected estates, families with respectable histories that endured hard times in the late 18th century. Now, in the mid-19th, the families Asquith, Cavendish, Ponsonby, and York have coincidentally come into new sources of income and are intent on improving their country estates and restoring their failing reputations. The inflow of funds is modest, but there is a new optimism abroad in this part of Derbyshire!

@@ -1,5 +1,7 @@
 # Agricola Rulebook
 
+## Table of Contents
+
 ## Game Idea
 
 Central Europe, around 1670 A.D. The Plague which has raged for centuries has finally been overcome. The civilized world is revitalized. People are upgrading and extending their simple wooden houses. Fields must be plowed, sowed, and harvested. People are living off millet gruel, bread, and vegetables. The famine of the previous years has also encouraged them to eat more meat *(a habit that we continue to this day as our wealth is growing)*.

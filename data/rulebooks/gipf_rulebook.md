@@ -1,5 +1,7 @@
 # GIPF Rulebook
 
+## Table of Contents
+
 ## CONTENTS
 
 * 1 game board

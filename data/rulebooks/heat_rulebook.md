@@ -1,5 +1,7 @@
 # Heat Rulebook
 
+## Table of Contents
+
 Heat waves shimmer from the racetrack, obscuring the first corner. You adjust your goggles as the sun glints off the chrome of race cars slowly being pushed into position around you. The murmur of the crowd, the snap of flags in the wind, the gentle rumble of your engine. A blue summer sky, calm and tranquil in your pole position.
 
 The countdown begins and sudden deep roars cut through the air as all the cars leap away from their starting lines; the Grand Prix is underway. Dust and wind rush past your helmet as you enter the first corner. Pushing your engine to the limit, you almost spin out. But tightening your grip on the steering wheel you slide through the corner apex still in first. You got this!

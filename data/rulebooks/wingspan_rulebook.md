@@ -1,5 +1,7 @@
 # Wingspan Rulebook
 
+## Table of Contents
+
 You are bird enthusiasts — researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats.
 
 Each habitat focuses on a key aspect of the growth of your preserves:

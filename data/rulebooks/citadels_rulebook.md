@@ -1,5 +1,7 @@
 # Citadels Rulebook
 
+## Table of Contents
+
 ## Introduction
 
 In Citadels, players are vying to become the kingdom’s next Master Builder by constructing the most impressive medieval city. To do so, players must acquire gold and enlist the services of a diverse cast of characters.

@@ -1,5 +1,7 @@
 # Anachrony CHRONOBOT & CHRONOSSUS RULEBOOK
 
+## Table of Contents
+
 **NOTE:** Components used by both Solo Opponents are double-sided. One side shows the Chronobot, while the other shows the Chronossus iconography. Use the one corresponding to your chosen opponent.
 
 ## COMPONENT LIST

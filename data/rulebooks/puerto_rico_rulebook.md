@@ -1,5 +1,7 @@
 # Puerto Rico Rulebook
 
+## Table of Contents
+
 Prospector, captain, mayor, trader, settler, craftsman, or builder?
 
 Which roles will you play in the new world? Will you own the most prosperous plantations?  

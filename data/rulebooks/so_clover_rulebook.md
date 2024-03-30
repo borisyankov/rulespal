@@ -1,5 +1,7 @@
 # So Clover! Rulebook
 
+## Table of Contents
+
 ## CONTENTS
 
 * 220 Keyword cards

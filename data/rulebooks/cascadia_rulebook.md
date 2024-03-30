@@ -1,5 +1,7 @@
 # Cascadia Rulebook
 
+## Table of Contents
+
 ## INTRO
 
 A puzzly tile-laying and token-drafting game featuring the habitats & wildlife of the Pacific Northwest. Designed by Randy Flynn, for 1-4 players, ages 10+.

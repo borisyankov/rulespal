@@ -1,5 +1,7 @@
 # Ra Rulebook
 
+## Table of Contents
+
 ## OVERVIEW
 
 The Old Kingdom of Ancient Egypt was a time period marked by prosperity and security. The kings established a strong bureaucratic system that helped to administer the vast wealth of the country.

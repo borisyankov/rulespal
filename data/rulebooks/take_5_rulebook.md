@@ -1,5 +1,7 @@
 # 6 nimmt! Rulebook
 
+## Table of Contents
+
 ## Components
 
 * 132 playing cards

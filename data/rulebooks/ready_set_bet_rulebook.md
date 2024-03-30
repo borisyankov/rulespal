@@ -1,5 +1,7 @@
 # Ready Set Bet Rulebook
 
+## Table of Contents
+
 ## You’re off to the races in Ready Set Bet!
 
 Do you bet early to lock in the best odds or do you wait and see how the race develops and bet in the last few seconds? The choice is yours in this game of real-time horse race betting.

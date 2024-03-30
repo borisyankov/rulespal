@@ -1,5 +1,7 @@
 # Revive Rulebook
 
+## Table of Contents
+
 ## SETUP
 
 ### GENERAL COMPONENTS

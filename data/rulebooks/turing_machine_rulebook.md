@@ -1,5 +1,7 @@
 # Turing Machine Rulebook
 
+## Table of Contents
+
 British mathematician and cryptanalyst *Alan Turing* made a significant contribution to the advent of computers. We are offering you a chance to use a proto-computer, working without electricity or electronics, to find secret codes.
 
 ## GOAL

@@ -1,5 +1,7 @@
 # Viticulture Rulebook
 
+## Table of Contents
+
 ## Object of the Game
 
 Players allocate workers and play visitors to complete various tasks throughout the seasons (each worker is placed on one action each year). In the **spring**, players decide the schedule their workers will follow. An early rise gives the player the chance to act first; however, offering workers a later wake-up time gives you more valuable bonuses. In the **summer**, players place workers on action spaces to plant vines and build structures that help advance that player’s vineyard. In the **fall**, players invite visitors to help their workers. In the **winter**, players place workers on action spaces to harvest grapes, make wine, and fill orders.

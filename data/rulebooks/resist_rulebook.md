@@ -1,5 +1,7 @@
 # Resist! Rulebook
 
+## Table of Contents
+
 ## HISTORY
 
 Spain, 1936. General Franco and his troops advance through the territories of Spain, giving way to a long period of civil war and repression. After the Spanish Civil War, a group of loyalists to the Republic continued the armed struggle, forming resistance groups better known as "maquis". Hidden among the mountains these men and women risked their lives to defend the ideals of democracy and freedom. Against them they had the Army of Franco, the Civil Guard, and the Armed Police. But the maquis perfected their guerilla warfare in France during the second World War, and were determined to take back their homeland. In the head of each maquisard resonated the echo of the desire of many compatriots: Resist!

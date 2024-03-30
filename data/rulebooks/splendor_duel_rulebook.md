@@ -1,5 +1,7 @@
 # Splendor Duel Rulebook
 
+## Table of Contents
+
 As the master of a guild of jewelers, you create majestic adornments of the highest quality for monarchs and other powerful leaders of the Renaissance to increase your prestige and fortune. However, you have an ambitious rival, and it’s time to show your worth!
 
 ## CONTENTS

@@ -1,5 +1,7 @@
 # PÜNCT Rulebook
 
+## Table of Contents
+
 *This game is about the 5th element: spirit, in its broadest sense!  
 That is, the human mind, the mix of conscious and subconscious, divine sparks of inspiration, the potential to create. And therefore, also, the sense for meaning, the sense for art, the sense for beauty.  
 And, last but not least, courage!  

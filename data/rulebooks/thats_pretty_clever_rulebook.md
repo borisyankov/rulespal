@@ -1,5 +1,7 @@
 # That's Pretty Clever! Rulebook
 
+## Table of Contents
+
 ## THE GAME
 
 In Ganz Schön Clever choose your dice well then enter them into the matching colored area, put together tricky chain-scoring opportunities, and rack up the points. The dice you don't use are as important as what you do because every die that's smaller than the chosen is offered to other players ‘on a silver platter’, keeping everyone in the game at all times.

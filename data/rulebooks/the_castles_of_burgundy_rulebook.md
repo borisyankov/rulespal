@@ -1,5 +1,7 @@
 # The Castles of Burgundy Rulebook
 
+## Table of Contents
+
 ## Introduction
 
 It is the 15th Century in Burgundy, Central France. As an influential duke it is your goal to lead your estates to prosperity through strategical expansion and trade.

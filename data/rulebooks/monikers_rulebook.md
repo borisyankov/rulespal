@@ -1,5 +1,7 @@
 # Monikers Rulebook
 
+## Table of Contents
+
 ## GETTING STARTED
 
 Monikers only takes about **5-10 minutes to learn**. Start by dividing your group into **2 teams**.

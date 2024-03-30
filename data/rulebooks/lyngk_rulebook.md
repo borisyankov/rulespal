@@ -1,5 +1,7 @@
 # LYNGK Rulebook
 
+## Table of Contents
+
 *Although the **GIPF** project was initially going to consist of 6 games, **LYNGK** is the seventh title in the series and acts as a synthesis of the project. While **GIPF** itself is the epicenter of the project, **LYNGK** is the umbrella game. It brings together all 6 games through the implementation of elements and mechanics that characterize each game of the series.*
 
 ## CONTENTS

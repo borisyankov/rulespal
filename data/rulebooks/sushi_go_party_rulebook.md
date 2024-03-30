@@ -1,5 +1,7 @@
 # Sushi Go Party! Rulebook
 
+## Table of Contents
+
 Welcome to Sushi Go Party! You are dining à la carte at a deluxe sushi feast. Before you eat, you must first create your own menu from a wide variety of delectable options. Then try to score the most points over three rounds by grabbing the best combination of cards before they whiz by!
 
 ## CONTENTS

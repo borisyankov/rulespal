@@ -1,5 +1,7 @@
 # Anachrony Rulebook
 
+## Table of Contents
+
 ## COMPONENT LIST
 
 * 1x Main board

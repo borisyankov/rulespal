@@ -1,5 +1,7 @@
 # ZÈRTZ Rulebook
 
+## Table of Contents
+
 *Strange...  
 A board that gets smaller and two players playing with the same marbles...  
 In the beginning you will have to get used to it, but once you do, you will find out that there are many ways to get the game under control. Play the right marble at the right place at the right moment, and you will be leading the dance!*

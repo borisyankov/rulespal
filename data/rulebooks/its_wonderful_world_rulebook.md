@@ -1,5 +1,7 @@
 # It's a Wonderful World Rulebook
 
+## Table of Contents
+
 ## GOAL AND CONCEPT
 
 In **It’s a Wonderful World**, you are leading an expanding **Empire**. You must choose the path that will get you to develop faster and better than your competitors.

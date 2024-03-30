@@ -1,5 +1,7 @@
 # Love Letter Rulebook
 
+## Table of Contents
+
 ## Overview
 
 In *Love Letter*, 2–6 suitors compete to have

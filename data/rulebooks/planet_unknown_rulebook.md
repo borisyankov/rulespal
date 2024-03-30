@@ -1,5 +1,7 @@
 # Planet Unknown Rulebook
 
+## Table of Contents
+
 ## COMPONENTS
 
 * 1 x Space Station (S.U.S.A.N.)

@@ -1,5 +1,7 @@
 # Marvel Champions: The Card Game Rulebook
 
+## Table of Contents
+
 ## OVERVIEW
 
 ***Marvel Champions: The Card Game*** is a cooperative card game for one to four players. Each player takes the role of one Marvel hero, playing the game as that character and their alter-ego.

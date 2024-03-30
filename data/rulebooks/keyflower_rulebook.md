@@ -1,5 +1,7 @@
 # Keyflower Rulebook
 
+## Table of Contents
+
 ## Game summary
 
 Keyflower is a game for two to six players played over four rounds. Each round represents a season: spring, summer, autumn and finally winter. Each player starts the game with a 'home' tile and an initial random team of eight blue, red and yellow workers. Same coloured workers are used by the players to bid for tiles to add to their villages. Matching workers may alternatively be used to generate resources, skills, additional workers and victory points not only from the player's own tiles, but also from the tiles in the other players' villages and from the new tiles being auctioned.

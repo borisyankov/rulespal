@@ -1,5 +1,7 @@
 # Forest Shuffle Appendix
 
+## Table of Contents
+
 The following provides detailed explanations of the **effects,** **bonuses,** and **point values** of all **cards** in **alphabetic order.** Each entry features, in parenthesis beside the name, where the card is placed in the forest *(tree, left/right, top, bottom)*, its frequency in the deck, and the cost to play the card. If an entry does not mention an effect or bonus, then that card does not have one.
 
 ## **Barbastelle Bat** *(left/right, 3×, cost: 1)*

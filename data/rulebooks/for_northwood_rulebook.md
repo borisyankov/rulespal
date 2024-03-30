@@ -1,5 +1,7 @@
 # For Northwood! Rulebook
 
+## Table of Contents
+
 For Northwood! Is a solo hand management and precision trick-taking game. Your task is to peacefully unite the titular woodland kingdom. You do this by visiting eight fiefs and engaging their rulers in dialogue (tricks) to win them over.
 
 You start with four allies, each with an ability that you can use once per visit. These abilities can make you draw, discard, or otherwise manipulate your hand to help you hit the target score.

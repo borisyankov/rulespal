@@ -1,5 +1,7 @@
 # The 7th Citadel Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * Rulebook

@@ -1,5 +1,7 @@
 # Sagrada Rulebook
 
+## Table of Contents
+
 ## Components
 
 * 12 Window Pattern Cards

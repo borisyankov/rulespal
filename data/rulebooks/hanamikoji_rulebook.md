@@ -1,5 +1,7 @@
 # Hanamikoji Rulebook
 
+## Table of Contents
+
 Welcome to the most well-known geisha street in the old capital, Hanamikoji. Geisha, the graceful women elegantly mastering in art, music, dance, and a variety of artistic performances after years of training, are greatly respected and adored. Geisha may be translated to “artist” and they dance, sing and entertain everyone.
 
 In Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel. With careful speculation and sometimes a few bold moves, you may earn the essential items by giving away the less critical ones. Can you outsmart your opponent and win the most favors of the geisha?

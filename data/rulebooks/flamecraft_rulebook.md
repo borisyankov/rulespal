@@ -1,5 +1,7 @@
 # Flamecraft Rulebook
 
+## Table of Contents
+
 ## Welcome to Town!
 
 Artisan dragons are creative little crafters who spout specialized flames to help them create a variety of tasty or helpful goods. They are highly sought-after by shopkeepers who hope to draw in and delight customers with their Flamecraft.

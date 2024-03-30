@@ -1,5 +1,7 @@
 # Dixit Rulebook
 
+## Table of Contents
+
 ## Contents
 
 * One scoreboard

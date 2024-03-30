@@ -1,5 +1,7 @@
 # Carcassonne Rulebook
 
+## Table of Contents
+
 The southern French city of Carcassonne is famous for its unique fortifications dating from the time of the Romans. The players set out to find their fortunes with their meeples in the streets, cities, monasteries, and meadows surrounding Carcassonne. The development of the landscape is in their hands, and the clever use of their meeples as highwaymen, knights, monks, or farmers paves the way to success.me, and go over the components at the same time.
 
 ## Components and Setup

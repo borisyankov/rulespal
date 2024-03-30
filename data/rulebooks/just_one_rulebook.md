@@ -1,5 +1,7 @@
 # Just One Rulebook
 
+## Table of Contents
+
 ## OBJECT OF THE GAME
 
 Just One is a cooperative party game.

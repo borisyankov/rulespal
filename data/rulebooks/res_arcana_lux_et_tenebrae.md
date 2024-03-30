@@ -1,5 +1,7 @@
 # Res Arcana Lux et Tenebrae
 
+## Table of Contents
+
 > In a dark cathedral, a mage harnesses the power of demons to enhance her spells. In an alchemical laboratory, a diviner inscribes a scroll of destruction. Meanwhile, a bard and beastmaster seek out the prismatic dragon and golden lion to keep the forces of darkness at bay.
 
 Welcome to *Lux et Tenebrae*™ (light and darkness), the first *Res Arcana*™ expansion. *Lux et Tenebrae* expands *Res Arcana* to 5 players, adds a new artifact type – demons – and introduces scrolls: special one use powers that can be gained one round and saved for future rounds. New mages, magic items, monuments, places of power, and artifacts further expand the game.

@@ -1,5 +1,7 @@
 # Marvel Champions: The Card Game Reference
 
+## Table of Contents
+
 ## OVERVIEW
 
 This document is intended as the definitive source for rules information, but does not teach players how to play the game. Players should first read the Learn to Play book in its entirety and use this Rules Reference as needed while playing the game.

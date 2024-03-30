@@ -1,5 +1,7 @@
 # Bunny Kingdom Rulebook
 
+## Table of Contents
+
 Bunny Kingdom is a game for 2 to 4 players, in which you are Rabbit Lords who are conquering a new world on behalf of the Bunny King.
 
 You will need to get the best of what these lands have to offer. Explore the furthest corners, construct Cities, farm Resources to make your Fiefs prosper, and accumulate precious Golden Carrots. Don’t forget to satisfy the King by accomplishing Missions of the utmost discretion on behalf of His Majesty!

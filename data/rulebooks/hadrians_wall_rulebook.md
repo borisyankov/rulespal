@@ -1,5 +1,6 @@
 # Hadrian's Wall Rulebook
 
+## Table of Contents
 
 ## INTRODUCTION
 

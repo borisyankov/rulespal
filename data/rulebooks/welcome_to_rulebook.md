@@ -1,5 +1,7 @@
 # Welcome to... Rulebook
 
+## Table of Contents
+
 ## Game components
 
 * **29 City Plan cards** (58x88 mm)

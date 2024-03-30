@@ -1,5 +1,7 @@
 # Cartographers Rulebook
 
+## Table of Contents
+
 ## Introduction
 
 *Queen Gimnax has ordered the reclamation of the northern lands. As a cartographer in her service, you are sent to map this territory, claiming it for the Kingdom of Nalos. Through official edicts, the queen announces which lands she prizes most, and you will increase your reputation by meeting her demands.*

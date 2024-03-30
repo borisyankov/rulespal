@@ -1,5 +1,7 @@
 # The Quest for El Dorado Rulebook
 
+## Table of Contents
+
 ## DESCRIPTION
 
 Deep in the dense jungles of South America lies El Dorado, the city of gold. Unlimited treasure waits in this lost kingdom — gold, jewels, and precious artifacts. You are a group of daring adventurers who embark on a search for the lost city. Slip into the role of brave expedition leaders and guide your team to El Dorado. Assemble a team of experts for your expedition, acquire valuable equipment, and plan your journey wisely. Whoever crosses the border into the golden city first wins the game and claims all the treasure.

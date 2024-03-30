@@ -1,5 +1,7 @@
 # Codenames Rulebook
 
+## Table of Contents
+
 ## SETUP
 
 Players split up into two teams of similar size and skill. You need at least four players (two teams of two) for a standard game. Variants for two or three players can be found on the back page.

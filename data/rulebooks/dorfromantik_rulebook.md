@@ -1,5 +1,7 @@
 # Dorfromantik Rulebook
 
+## Table of Contents
+
 ## COMPONENTS
 
 * 73 Tiles, including:

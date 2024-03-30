@@ -1,5 +1,7 @@
 # Anachrony Classic Expansion Pack RULEBOOK
 
+## Table of Contents
+
 ## COMPONENT LIST
 
 ### “DOOMSDAY” MODULE COMPONENTS

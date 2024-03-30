@@ -1,5 +1,7 @@
 # Forest Shuffle Rulebook
 
+## Table of Contents
+
 ## Object of the Game
 
 Life is bustling in the local forest: Animals scurry around the clearings looking for edible plants and insects. Some enjoy the dense treetops, while others prefer the lush undergrowth and only feel comfortable in the shelter of the trees.

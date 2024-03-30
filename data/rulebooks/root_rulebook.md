@@ -1,5 +1,7 @@
 # The Law of Root
 
+## Table of Contents
+
 ## Reading the Law
 
 *Root* contains two rulebooks: the Learning to Play guide and this book, the Law. If you like a conversational teaching style and many graphical examples, read the Learning to Play guide. If you like a strictly defined, formal rules in a concise reference style, read the Law.

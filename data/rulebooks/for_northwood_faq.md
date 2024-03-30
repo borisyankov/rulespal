@@ -1,5 +1,7 @@
 # For Northwood! FAQ
 
+## Table of Contents
+
 ## General
 
 * Unless specified in the ability, you always 'draw' from the deck to your hand, and 'discard' from your hand to the discard pile.

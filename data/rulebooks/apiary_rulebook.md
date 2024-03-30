@@ -1,5 +1,7 @@
 # Apiary Rulebook
 
+## Table of Contents
+
 *In a far-distant future, humans no longer inhabit Earth. The cause of their disappearance (or perhaps their demise) is unknown, but their absence left a void ready to be filled by another sentient species.*
 
 *Over the span of untold generations, one species of the humble honeybee evolved to fill that void. They grew in size and intelligence to become a highly advanced society. They call themselves Mellifera.*

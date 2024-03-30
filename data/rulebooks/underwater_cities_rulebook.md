@@ -1,4 +1,9 @@
+# Underwater Cities Rulebook
+
+## Table of Contents
+
 ## THE NEXT FRONTIER
+
 The earth is overpopulated. The colonization of Mars is always four decades away. Only one avenue is open for human expansion: the world under the sea.
 
 Players compete to build the best underwater nation – an archipelago of undersea cities connected by a network of transportation tunnels. Kelp farms and desalination plants will provide your people with food and water. Laboratories will give you the knowledge you need to run everything more efficiently. Perhaps you will even be able to build symbiotic cities, fully integrated with the underwater ecosystem.

@@ -1,5 +1,7 @@
 # Telestrations Rulebook
 
+## Table of Contents
+
 **WELCOME** to Telestrations™, the visual version of the classic "telephone" game... where your sketches & guesses can create laugh-out- loud party fun! It's the game where you **DRAW** what you see, then **GUESS** what you saw!
 
 ## OBJECT

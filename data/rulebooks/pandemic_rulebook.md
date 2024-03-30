@@ -1,5 +1,7 @@
 # Pandemic Rulebook
 
+## Table of Contents
+
 Do you have what it takes to save humanity? As skilled members of a disease-fighting team, you must keep four deadly diseases at bay while discovering their cures.
 
 You and your teammates will travel across the globe, treating infections while finding resources for cures. You must work together, using your individual strengths, to succeed. The clock is ticking as outbreaks and epidemics fuel the spreading plagues.

@@ -1,5 +1,7 @@
 # TZAAR Rulebook
 
+## Table of Contents
+
 *“Shall I make myself stronger or my opponent weaker?”  
 This is the tricky question you’ll have to ask yourself on each of your turns.*
 

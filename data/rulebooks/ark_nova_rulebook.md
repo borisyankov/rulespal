@@ -1,5 +1,7 @@
 # Ark Nova Rulebook
 
+## Table of Contents
+
 ## COMPONENTS
 
 ### Cards

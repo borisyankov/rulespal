@@ -1,5 +1,7 @@
 # Decrypto Rulebook
 
+## Table of Contents
+
 ## Overview
 
 In **DECRYPTO**, two teams of 2 to 4 players each compete against one another to see who the best codemasters are (rules for 3-player games are explained at the end of the rulebook).

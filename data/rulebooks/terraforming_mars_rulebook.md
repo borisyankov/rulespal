@@ -1,5 +1,7 @@
 # Terraforming Mars Rulebook
 
+## Table of Contents
+
 > The Terraforming Announcement:
 >
 > Since its inception in 2174, the World Government has continually strived for global unity and peace. Our mission is to be humanity’s shared tool for shaping a better future.

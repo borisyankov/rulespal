@@ -1,5 +1,7 @@
 # DVONN Rulebook
 
+## Table of Contents
+
 *Build stacks, try to control your opponent’s pieces and, above all, remain linked to the red DVONN pieces. If you do not? Well, you may suddenly see quite a few of your pieces disappear from the board. Be aware of everything your opponent does, but do not forget to watch your step, too. If you do not? Well, you may be forced to make moves you really do not want to make and, then, strange things can happen...*
 
 ## CONTENTS

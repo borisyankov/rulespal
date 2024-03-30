@@ -1,5 +1,7 @@
 # The Crew Rulebook
 
+## Table of Contents
+
 Astronauts wanted! Scientists say there is a mysterious ninth planet located at the edge of our solar system. But despite all of their efforts, so far they have been unable to provide substantial evidence of its existence. Join this exciting space adventure to find out if the theories are just science fiction or if you will discover Planet Nine.
 
 In this cooperative trick-taking game you need to complete 50 different missions. But you will only succeed if you can work together as a team. To master the challenges and achieve your mission, communication will be essential — but in space, things can be more difficult than you expect ...

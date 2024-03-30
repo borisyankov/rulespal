@@ -1,5 +1,7 @@
 # Thunder Road: Vendetta Rulebook
 
+## Table of Contents
+
 ## READY. AIM. DRIVE!
 
 Thunder Road: Vendetta is a game of fast turns and

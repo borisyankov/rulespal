@@ -1,5 +1,7 @@
 # Earth Rulebook
 
+## Table of Contents
+
 Earth, the soil that supports and sustains our beautiful planet, Earth. Over millions of years of evolution and adaptation, the Flora and Fauna of this unique planet have grown and developed into amazing life-forms, creating symbiotic ecosystems and habitats. It's time to jump into these rich environments and create some amazing natural synergies that replicate and extrapolate on Earth's amazing versatility and plethora of natural resources.
 
 Create a self-supporting engine of growth, expansion and supply where even your unused Flora become compost for future growth. Earth is an open-world engine builder for 1 to 5 players with simple rules but many strategic possibilities.

@@ -1,5 +1,7 @@
 # Heat ADVANCED PLAY and CHAMPIONSHIP SYSTEM
 
+## Table of Contents
+
 This booklet introduces customized cars, Legends (bots) you can compete against in solo and multiplayer games, and Weather & Road Conditions rules. These rules and modules can be introduced progressively, once you’re familiar with the game, for brand new challenges. You can also play a full season by adding all this exciting content together and playing the Championship System! If you feel more competitive and want a different challenge, you can also try the Tournament Mode.
 
 ## Extra Components

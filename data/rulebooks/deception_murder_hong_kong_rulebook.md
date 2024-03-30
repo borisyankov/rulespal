@@ -1,5 +1,7 @@
 # Deception: Murder in Hong Kong Rulebook
 
+## Table of Contents
+
 ## BACKGROUND
 
 In the neon-bathed city of Hong Kong, a grisly murder has taken place. You and your fellow Investigators arrive at the scene of the crime to discover that the culprit has left important clues. From among the suspicious objects scattered around, you must deduce the "Means of Murder" and identify the "Key Evidence" in order to catch and convict the killer.

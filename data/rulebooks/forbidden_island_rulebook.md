@@ -1,5 +1,7 @@
 # Forbidden Island Rulebook
 
+## Table of Contents
+
 *Forbidden Island was the secluded retreat of an ancient mystical empire known as the Archeans. Legend has it that the Archeans possessed the ability to control the Earth’s core elements – fire, wind, water, and earth – through four sacred treasures: The Crystal of Fire, The Statue of the Wind, The Ocean’s Chalice, and The Earth Stone. Because of their potential to cause catastrophic damage if they fell into enemy hands, the Archeans kept the treasures secretly hidden on Forbidden Island and designed it to sink if intruders ever attempted to claim them. In the centuries since the mysterious collapse of their empire, Forbidden Island remained undiscovered ... until now.*
 
 *Will your team be the first to breach its borders, capture the treasures, and make it out alive?*
