@@ -2,276 +2,135 @@
 
 ## Our Story
 
-Changes are afoot in Derbyshire, England, where four families all possessed of eligible
-young gentlemen and ladies find themselves embroiled in romance and intrigue during
-a time of optimism. Fortune has recently smiled on these somewhat neglected estates,
-families with respectable histories that endured hard times in the late 18th century.
-Now, in the mid-19th, the families Asquith, Cavendish, Ponsonby, and York have
-coincidentally come into new sources of income and are intent on improving their
-country estates and restoring their failing reputations. The inflow of funds is modest,
-but there is a new optimism abroad in this part of Derbyshire!
+Changes are afoot in Derbyshire, England, where four families all possessed of eligible young gentlemen and ladies find themselves embroiled in romance and intrigue during a time of optimism. Fortune has recently smiled on these somewhat neglected estates, families with respectable histories that endured hard times in the late 18th century. Now, in the mid-19th, the families Asquith, Cavendish, Ponsonby, and York have coincidentally come into new sources of income and are intent on improving their country estates and restoring their failing reputations. The inflow of funds is modest, but there is a new optimism abroad in this part of Derbyshire!
 
-The envy of this part of the county is Alderley Hall where Margaret, Dowager Countess
-Fairchild, and her sister-in-law, Ethel, reside with a joint income well in excess of 20,000 pa.
-Only their loneliness living on such a sprawling estate dampens the generous hearts of the two
-widowed and childless ladies.
+The envy of this part of the county is Alderley Hall where Margaret, Dowager Countess Fairchild, and her sister-in-law, Ethel, reside with a joint income well in excess of 20,000 pa. Only their loneliness living on such a sprawling estate dampens the generous hearts of the two widowed and childless ladies.
 
-Then, to their delight, they welcome new occupants: their dashing nephew Charles and lovely niece
-Elizabeth, sadly not far removed from tragedy. Their parents, returning from holiday in the south of France,
-perished crossing the Channel in suddenly ill weather. The death of Margaret's brother-in-law and his lady
-has brought Charles and Elizabeth permanently to the Fairchild residence, far from their childhood estate in
-Yorkshire. Of course, the irrepressible Fairchild ladies, now a year removed from the terrible accident, know
-precisely what is the best medicine for a sad heart: romance! And the surrounding hills are awash in prime
-matchmaking material. The nearby Derbyshire families all have marriageable children, and the Fairchild
-ladies have designs!
+Then, to their delight, they welcome new occupants: their dashing nephew Charles and lovely niece Elizabeth, sadly not far removed from tragedy. Their parents, returning from holiday in the south of France, perished crossing the Channel in suddenly ill weather. The death of Margaret's brother-in-law and his lady has brought Charles and Elizabeth permanently to the Fairchild residence, far from their childhood estate in Yorkshire. Of course, the irrepressible Fairchild ladies, now a year removed from the terrible accident, know precisely what is the best medicine for a sad heart: romance! And the surrounding hills are awash in prime matchmaking material. The nearby Derbyshire families all have marriageable children, and the Fairchild ladies have designs!
 
-Glossary Info
-This Obsession Rulebook enables rapid set up and
-gameplay. The game also comes with a separate
-alphabetised Glossary where detailed explanations
-can be found beyond the scope of this Rulebook.
-Every highlighted term in *Blue* the reader
-encounters in these pages has a corresponding
-Glossary entry.
+## Glossary Info
 
-The Glossary provides thematic content and should
-also be used whenever necessary to clarify rules
-described in brief here. Note that game variations are
-presented in the Glossary under *Variations*. The
-Glossary is a critical adjunct to this Rulebook if one is
-seeking to get the most out of the game of Obsession!
+This *Obsession* Rulebook enables rapid set up and gameplay. The game also comes with a separate alphabetised Glossary where detailed explanations can be found beyond the scope of this Rulebook. Every highlighted term in *Blue* the reader encounters in these pages has a corresponding Glossary entry.
 
-Skip the reading,
-watch the tutorials!
+The Glossary provides thematic content and should also be used whenever necessary to clarify rules described in brief here. Note that game variations are presented in the Glossary under *Variations*. The Glossary is a critical adjunct to this Rulebook if one is seeking to get the most out of the game of *Obsession*!
 
 Game Components
 
-SUPPLY BOARD (1)
-ROUND TRACK (1)
+* SUPPLY BOARD (1)
+* ROUND TRACK (1)
+* BUTLER (4)
+* VALET (8)
+* HOUSEKEEPER (4)
+* LADY'S MAID (8)
+* UNDERBUTLER (2)
+* FOOTMAN (13)
+* PLAYER BOARDS (4)
+* ORGANISERS (4)
+* THEME CARDS (10)
+* VICTORY POINT CARDS (30)
+* PAWNS (2)
+* SCOREPAD (1)
+* REPUTATION WHEEL COUNTERS (20)
+* REPUTATION WHEEL MARKERS (4)
+* £100 COINS (35)
+* £500 COINS (11)
+* TWO-SIDED PLAYER AIDS (12)
+* LINEN DRAW BAG (1)
+* REMINDER TILES (4)
+* TWO-SIDED PLAYER AIDS (12)
+* OBJECTIVE CARDS (30)
+* FAMILY CARDS (17)
+* FAIRCHILD CARDS (2)
+* STARTER GUEST CARDS (15)
+* CASUAL GUEST CARDS (35)
+* PRESTIGE GUEST CARDS (26)
+* GENTRY CARDS (95)
+* SOLITAIRE OPPONENT CARDS (12)
+* SOLITAIRE AI CARD (1)
+* SOLITAIRE DICE DICE (1)
+* ESSENTIALS TILES (13)
+* SERVICE TILES (14)
+* ESTATE TILES (14)
+* PRESTIGE TILES (13)
+* SPORTING TILES (15)
+* MONUMENT TILES (15)
+* SUITES EXPANSION AND HYBRID 2ND PRINTING TILES (5)
 
-BUTLER (4)
-VALET (8)
-HOUSEKEEPER (4) 
-LADY'S MAID (8)
-UNDERBUTLER (2)
-FOOTMAN (13)
+## Player Area Setup (standard play)
 
-PLAYER BOARDS (4)
-ORGANISERS (4)
-
-THEME CARDS (10)
-VICTORY POINT CARDS (30)
-PAWNS (2)
-SCOREPAD (1)
-
-REPUTATION WHEEL COUNTERS (20)
-REPUTATION WHEEL MARKERS (4)
-
-£100 COINS (35) 
-£500 COINS (11) 
-TWO-SIDED PLAYER AIDS (12)
-
-LINEN DRAW BAG (1)
-REMINDER TILES (4)
-
-TWO-SIDED PLAYER AIDS (12)
-OBJECTIVE CARDS (30)
-
-FAMILY CARDS (17)
-FAIRCHILD CARDS (2)
-STARTER GUEST CARDS (15)
-CASUAL GUEST CARDS (35)
-PRESTIGE GUEST CARDS (26)
-GENTRY CARDS (95)
-
-SOLITAIRE OPPONENT CARDS (12)
-SOLITAIRE AI CARD (1)
-SOLITAIRE DICE DICE (1)
-
-ESSENTIALS TILES (13)
-SERVICE TILES (14)
-ESTATE TILES (14)
-PRESTIGE TILES (13)
-SPORTING TILES (15)
-MONUMENT TILES (15)
-SUITES EXPANSION AND HYBRID 2ND PRINTING TILES (5)
-
-
-
-Player Area Setup (standard play)
-Rules for four Obsession variants can be found in the Glossary under *Variants*
+Rules for four *Obsession* variants can be found in the Glossary under *Variations*
 
 First Player Rules Summary
 
-SETUP
+### SETUP
 
-A player is randomly assigned the
-1st player marker. Starting with the
-person to the left of the 1st player
-and going clockwise, players
-choose a family board (the first
-player will get last choice).
+A player is randomly assigned the 1st player marker. Starting with the person to the left of the 1st player and going clockwise, players choose a family board (the first player will get last choice).
 
-DURING THE GAME
+### DURING THE GAME
 
-At the end of each courtship
-season, the 1st player pawn is
-passed counterclockwise (to the
-player's right).
+At the end of each courtship season, the 1st player pawn is passed ***counterclockwise*** (to the player's right).
 
 1. Decide who will be the starting player and give him or her the purple 1st player pawn.
 
-IMPORTANT: Player Area
-setup must take place before
-Central Play Area setup
-(detailed on pages 4 and S).
+   IMPORTANT: Player Area setup must take place before Central Play Area setup (detailed on pages 4 and 5).
 
-Family Bonus: Family Ponsonhy begins the game with £300. Place coins totaling 300 on or near the player board.
+   ***Family Bonus: Family Ponsonhy begins the game with £300. Place coins totaling 300 on or near the player board.***
 
-2. Beginning with the player to the left of the 1st player and moving clockwise, choose a family *Player Board*.
-Note: The only gameplay difference between player boards is the starting *Family Bonus* (which is described in the lower right-hand corner of each board).
+2. Beginning with the player to the left of the 1st player and moving clockwise, choose a family *Player Board*.  
+**Note:** The only gameplay difference between player boards is the starting *Family Bonus* (which is described in the lower right-hand corner of each board).
 
 3. Each family gets four reputation wheel counters (two-sided circular chits). Players place the chit with the number 1 face up on the board as shown and set the rest nearby the player board for later use.
 
-EXTENDED PLAY:  If playing an
-*Extended Play* game, an additional
-7/8 reputation wheel
-counter is used and set
-near the player board.
+   **EXTENDED PLAY:** If playing an *Extended Play* game, an additional 7/8 reputation wheel counter is used and set near the player board.
 
-4. Place a reputation wheel
-marker on position 1 of the
-wheel. Family Bonus:
-Family Cavendish starts on
-position 4.
+4. Place a reputation wheel marker on position 1 of the wheel. ***Family Bonus: Family Cavendish starts on position 4.***
 
-5. Each family acquires the S
-starting servant meeples (the
-blue *Butler*, red
-*Housekeeper*, green *Valet*, purple
-*Lady's Maid*, and white *Footman*
-and places them in Available Service
-on the player board as shown).
-Family Bonus: Family York begins
-the game with an extra footman.
+5. Each family acquires the S starting servant meeples (the blue *Butler*, red *Housekeeper*, green *Valet*, purple *Lady's Maid*, and white *Footman* and places them in Available Service on the player board as shown). ***Family Bonus: Family York begins the game with an extra footman.***
 
-6. Place a *Country Estate Organiser* near the
-player board, either below as shown here or
-to one side (shown on the next page).
-Leave room below the organiser for
-additional tiles. Alternatively, players
-may use the back side of the player
-board, which has an integrated organiser.
+6. Place a *Country Estate Organiser* near the player board, either below as shown here or to one side (shown on the next page). Leave room below the organiser for additional tiles. Alternatively, players may use the back side of the player board, which has an integrated organiser.
 
-7. Each family starts with the same 5 *Improvement
-Tiles*, which are distinguished by a building icon
-in the upper right-hand corner on only one side.
-Place the tiles as shown with the building icon visible.
+7. Each family starts with the same 5 *Improvement Tiles*, which are distinguished by a building icon in the upper right-hand corner on only one side. Place the tiles as shown with the building icon visible.
 
-8. Each family begins with the same four family
-members: a husband and wife, heir, and daughter.
-Frequently, estate names differ from the family's
-last name. Note, however, that each family member
-shares the same crest as on their player board, and above
-that crest is the 1st letter of the family name. Locate the
-family cards, which will be the first cards in the player's
-gentry deck. Family bonus: Family Asquith begins with
-a fifth family member, a Dowager Countess aunt.
+8. Each family begins with the same four family members: a husband and wife, heir, and daughter. Frequently, estate names differ from the family's last name. Note, however, that each family member shares the same crest as on their player board, and above that crest is the 1st letter of the family name. Locate the family cards, which will be the first cards in the player's gentry deck. ***Family bonus: Family Asquith begins with a fifth family member, a Dowager Countess aunt.***
 
-9. The 15 Starter Guests
-have a crown in the upper
-left-hand corner of the card.
+9. The 15 Starter Guests have a crown in the upper left-hand corner of the card.
 
-Randomly deal
-two starter guests
-to each player.
-These two
-close family
-friends are
-combined with
-the four family
-cards to form
-the player's
-starting
-*Gentry Deck*.
+   Randomly deal two starter guests to each player. These two close family friends are combined with the four family cards to form the player's starting *Gentry Deck*.
 
-Alternatively, players can use a
-Starter Guest card draft to
-choose these guests. See
-*Variations*, page 26 in the Glossary.
+   Alternatively, players can use a Starter Guest card draft to choose these guests. See *Variations*, page 26 in the Glossary.
 
-10. Each player is dealt five
-*Objective Cards*,
-keeping them all. Over
-the course of the game, players
-will discard objectives that are
-less desirable, finishing with and
-scoring three.
+10. Each player is dealt five *Objective Cards*, keeping them all. Over the course of the game, players will discard objectives that are less desirable, finishing with and scoring three.
 
-EXTENDED PLAY: Each
-player is dealt four *Objective
-Cards*, keeping them all. Over
-the course of the game, players
-will discard objectives that are
-less desirable, finishing with and
-scoring four.
+   **EXTENDED PLAY:** Each player is dealt four *Objective Cards*, keeping them all. Over the course of the game, players will discard objectives that are less desirable, finishing with and scoring four.
 
+#### Objective Cards (OC)
 
-Objective Cards (OC)
+**DISCARDING BAD OBJECTIVES DURING THE GAME**
 
-DISCARDING BAD OBJECTIVES
-DURING THE GAME
+*In standard play, players begin the game with five objective cards. In season one (first four rounds), players evaluate their objectives, discarding the worst card after the Season 1 courtship.*
 
-In standard play, players begin the
-game with five objective cards. In
-season one (first four rounds),
-players evaluate their objectives,
-discarding the worst card after the
-Season 1 courtship.
+*Early in Season 2 (round 6), players draw and keep two more cards. At the end of each of the next three courtships, players discard a card (getting rid of a total of four), settling on the three best scoring objectives after the final courtship.*
 
-Early in Season 2 (round 6),
-players draw and keep two more
-cards. At the end of each of the
-next three courtships, players
-discard a card (getting rid of a
-total of four), settling on the three
-best scoring objectives after the
-final courtship.
+### Central Play Area Setup
 
-
-
-Central Play Area Setup
 Setup shown is for a two-player, standard length game
 
-For each step below, locate the corresponding number icon in the layout graphic. Please recall
-that any term in *Blue* is a Glossary term (where additional detail is provided).
+For each step below, locate the corresponding number icon in the layout graphic. Please recall that any term in *Blue* is a Glossary term (where additional detail is provided).
 
-Place the supply board in the centre of the playing area where it will be easily accessible by all
-players. Populate the supply board as follows:
+Place the supply board in the centre of the playing area where it will be easily accessible by all players. Populate the supply board as follows:
 
-1. *Servants for Hire*: The Servants for Hire box on the supply board holds extra servants
-that may be hired during the game. The number of servants varies depending on the
-number of players. Populate servants on the supply board as follows:
- * 2 Players: 2 *Underbutlers*, 4 *Footmen*, 2 *Valets*, 2 *Lady's Maids*
- * 3 Players: 2 *Underbutlers*, 6 footmen, 3 valets, 3 lady's maids
- * 4 Players: 2 *Underbutlers*, 8 footmen, 4 valets, 4 lady's maids
+1. **Servants for Hire**: The Servants for Hire box on the supply board holds extra servants that may be hired during the game. The number of servants varies depending on the number of players. Populate servants on the supply board as follows:
+   * **2 Players:** 2 *Underbutlers*, 4 *Footmen*, 2 *Valets*, 2 *Lady's Maids*
+   * **3 Players:** 2 *Underbutlers*, 6 footmen, 3 valets, 3 lady's maids
+   * **4 Players:** 2 *Underbutlers*, 8 footmen, 4 valets, 4 lady's maids
 
-IMPORTANT: The underbutler pawn(s) are stored in the Servants for
-Hire area, but the underbutler is not acquired in the same fashion as
-footmen, valets, and lady's maids, who are hired by the butler in the
-*Butler's Room*. The underbutler is only hired when a *Butler's Pantry*
-service tile is purchased from the Builders' Market; then and only then is
-the underbutler taken from the Servants for Hire area.
+   **IMPORTANT:** The underbutler pawn(s) are stored in the Servants for Hire area, but the underbutler is not acquired in the same fashion as footmen, valets, and lady's maids, who are hired by the butler in the *Butler's Room*. The underbutler is only hired when a *Butler's Pantry* service tile is purchased from the Builders' Market; then and only then is the underbutler taken from the Servants for Hire area.
 
-2. Objective Cards: Each player was dealt objective cards during player setup. Place the
-remaining objective cards on the supply board as shown.
+2. **Objective Cards:** Each player was dealt objective cards during player setup. Place the remaining objective cards on the supply board as shown.
 
-3. £100 and £500 Coins: Thirty-five (35) £100 coins and eleven (11) £500 coins come with
-the game. Place a sufficient supply of coins as indicated. This supply is the bank; favours
-are taken from here, and purchases are paid into here. Money is not limited; if players
-run out of coins, use a suitable substitute.
+3. **£100 and £500 Coins:** Thirty-five (35) £100 coins and eleven (11) £500 coins come with the game. Place a sufficient supply of coins as indicated. This supply is the bank; favours are taken from here, and purchases are paid into here. Money is not limited; if players run out of coins, use a suitable substitute.
 
-4. Casual Guests: The supply board holds two decks of *Gentry Cards* - casual guests and
+4. **Casual Guests:** The supply board holds two decks of *Gentry Cards* - casual guests and
 prestige guests. The symbol for casual guests is one *Fleur-de-lis* in the upper
 left-hand corner of the gentry card (below the prestige rating). Each player
 received two *Starter Guests* during player setup; these starter guests are a subset of

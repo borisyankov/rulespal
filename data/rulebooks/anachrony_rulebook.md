@@ -392,9 +392,9 @@ Power Plant buildings allow manipulation of time by powering up the Time Rift. P
 1. Move your **Focus marker** onto any **past** Timeline tile no further to the left than the Power Plant’s range. (**Measured from the current Era’s Timeline tile**, ignoring the Impact tile. Ranges are not cumulative.) You may also choose to leave your Focus marker on the same past Timeline as long as it is in range of the Power Plant used. You may never end up with your Focus marker in the current Era after using a Power Plant.
 2. You may **optionally send an asset back through the Time Rift**. Select one of your own Warp tiles present on the Timeline where the Focus was set to, and spend the Resource/Water/Worker/Exosuit on that Warp tile. Finally, **remove the Warp tile** corresponding to the spent asset from the Focused Timeline tile and return it to your personal supply.
 
-**NOTE:** This represents the assets being sent back in time, and “technically” these goods being spent are the very same goods you received in the past, seemingly “for free”.
+   **NOTE:** This represents the assets being sent back in time, and “technically” these goods being spent are the very same goods you received in the past, seemingly “for free”.
 
-**IMPORTANT:** Workers must be spent from the Active column and an Exosuit must be sent back poweredup (from one of the Hexes on the Player board).
+   **IMPORTANT:** Workers must be spent from the Active column and an Exosuit must be sent back poweredup (from one of the Hexes on the Player board).
 
 3. If you executed **both steps 1 and 2**, **move your Time Travel marker on your Player board one step to the right**. Each step on the Time Travel track will be worth Victory Points at the end of the game, representing the advances the Path has made in using Time Travel technology.
 

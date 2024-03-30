@@ -205,9 +205,9 @@ During the game, you will store:
 
 ***Note:** As stated on the "**Quest items**" and "**The Past**" dividers, you may lay these dividers flat near the Board and place the applicable cards on them.*
 
-**Golden rule!** Green *Adventure* cards must always be placed before any gold *Adventure* cards bearing the same number. Then, among the cards of the same color, any *Black Flag* *Adventure* cards must always be placed before any *White Flag* *Adventure* cards bearing the same number.
+**Golden rule!** Green *Adventure* cards must always be placed before any gold *Adventure* cards bearing the same number. Then, among the cards of the same color, any *Blank Flag* *Adventure* cards must always be placed before any *White Flag* *Adventure* cards bearing the same number.
 
-***Note:** Some Adventure cards exist only with a gold back. Some Adventure cards with a Black Flag have no alternative version with a White Flag.*
+***Note:** Some Adventure cards exist only with a gold back. Some Adventure cards with a Blank Flag have no alternative version with a White Flag.*
 
 ## Begin a new adventure
 
@@ -444,15 +444,15 @@ When the action's cost has a *Chain* icon, the *Chain +Y* effect enables the act
 
 ##### Convert class icons into various bonuses
 
-Some effects enable the active player to convert into various bonuses the *Martial*, *Cunning*, *Leadership* or *Arcana*, and *Wild* class icons shown in the result areas of the revealed cards, on the *Purse* cards they have selected, on the *Skill* cards in their hand, on their *Quest* cards, etc.
+Some effects enable the active player to convert into various bonuses the *Strength*, *Dexterity*, *Support* or *Arcane*, and *Wild* class icons shown in the result areas of the revealed cards, on the *Purse* cards they have selected, on the *Skill* cards in their hand, on their *Quest* cards, etc.
 
 ##### Clarifications:
 
 * Even when the action's cost has a *Chain* icon, you may take every class icon in every revealed card's result area into account and apply the effect of every *Reflex Skill* card and every *Purse* card you selected.
 * Each class icon obtained may be used only once, only by the active player, and for a single effect.
 * When an effect comes with "**max. X**", the active player may apply that effect **X** times at most.
-* The *Black Question* icon is "wild" - it may represent any of the following class icons: *Martial*, *Cunning*, *Leadership* or *Arcana*.
-* The *White Question* icon means you may "spend" any of the following icons to apply the shown effect: *Martial*, *Cunning*, *Leadership* or *Arcana*.
+* The *Black Question* icon is "wild" - it may represent any of the following class icons: *Strength*, *Dexterity*, *Support* or *Arcane*.
+* The *White Question* icon means you may "spend" any of the following icons to apply the shown effect: *Strength*, *Dexterity*, *Support* or *Arcane*.
 
 #### D. Check the number of successes obtained against the action's difficulty
 
@@ -975,7 +975,7 @@ To do so, they choose a character and form their Action Deck as explained on pag
 
 **Reflex Skill (p. 19):** A *Skill* card that players can gain when they make progress on the *Destiny* page of the Citadel leaflet, and whose effect is applied when the active player reveals it from their Action Deck during the Result step of an action.
 
-**Return (p. 18):** To put a card back in its place in its original deck. In the Adventure Deck, sort cards by number - green cards always come before any gold cards bearing the same number, and *Black Flag* cards always come before *White Flag* cards bearing the same number.
+**Return (p. 18):** To put a card back in its place in its original deck. In the Adventure Deck, sort cards by number - green cards always come before any gold cards bearing the same number, and *Blank Flag* cards always come before *White Flag* cards bearing the same number.
 
 **Reveal:** Look at / read the contents of a card.
 
@@ -1003,7 +1003,7 @@ To do so, they choose a character and form their Action Deck as explained on pag
 
 ## Easily forgotten golden rules
 
-1. Any *Adventure* card whose numbox (on the back) is associated with a *White Flag* icon is linked to a specific scenario or card. You must take it over any other if the pictograph inside the *Flag* icon matches that of the scenario you are playing, or can be seen on another card you possess. Otherwise, you may not take it and you must take another card (bearing the same number) with the *Black Flag* shape.
+1. Any *Adventure* card whose numbox (on the back) is associated with a *White Flag* icon is linked to a specific scenario or card. You must take it over any other if the pictograph inside the *Flag* icon matches that of the scenario you are playing, or can be seen on another card you possess. Otherwise, you may not take it and you must take another card (bearing the same number) with the *Blank Flag* shape.
 
 2. When an action is mandatory, all characters on the same *Terrain* card as the player who revealed it **must** get involved in the action. The involved characters choose which of them is the active player.
 
@@ -1011,7 +1011,7 @@ To do so, they choose a character and form their Action Deck as explained on pag
 
 4. During the Draw step of an action, the active player may choose to draw **MORE** cards than the number (X+ default cost) shown on the action.
 
-5. Any Star, Question, *Martial*, *Cunning*, *Leadership*, *Arcana* icons **in the result area** of *Skill* cards are only ever taken into account when they are revealed from the active player's Action Deck during the Result step of an action.
+5. Any Star, Question, *Strength*, *Dexterity*, *Support*, *Arcane* icons **in the result area** of *Skill* cards are only ever taken into account when they are revealed from the active player's Action Deck during the Result step of an action.
 
 6. The *Chain* icon on certain actions limits only the number of cards whose successes you may take into account. It does not forbid you to draw more cards or to take class icons on every drawn card into account.
 

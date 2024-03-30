@@ -6,11 +6,11 @@
 
 ### DOUBLE-SIDED COMPONENTS
 
-1x Solo banner with plastic standee
-1x Solo board
-4x Command tokens
-8x Solo Warp tiles
-6x Hex-shaped Exosuit markers
+* 1x Solo banner with plastic standee
+* 1x Solo board
+* 4x Command tokens
+* 8x Solo Warp tiles
+* 6x Hex-shaped Exosuit markers
 
 1x AI die
 
@@ -18,10 +18,10 @@
 
 ### CHRONOSSUS COMPONENTS
 
-5x Exhausted Energy Core tokens 
-3x Basic Chronossus Action tiles
-8x Basic Solo Objective cards 
-4x Solo Path markers
+* 5x Exhausted Energy Core tokens
+* 3x Basic Chronossus Action tiles
+* 8x Basic Solo Objective cards
+* 4x Solo Path markers
 
 **NOTE:** Solo Path markers are not meant to be limited. If they run out, use one of the unused Paths’ markers in their place.
 
@@ -29,9 +29,42 @@
 
 **NOTE:** Components that are only added to the game with certain modules are marked with the respective icon.
 
-...
-...
-...
+### FRACTURES OF TIME
+
+* 3x Empty Flux Casing tokens
+* 4x Chronossus Action tiles
+* 2x Solo Objective cards
+
+### DOOMSDAY
+
+* 2x Chronossus Action tiles
+* 1x Solo Objective card
+
+### GUARDIANS OF THE COUNCIL
+
+* 1x Chronossus Action tile
+* 1x Solo Objective card
+
+### HYPERSYNC FUTURE ACTIONS
+
+* 2x Chronossus Action tiles
+* 3x Solo Hypersync tiles
+
+### PIONEERS OF NEW EARTH
+
+* 2x Chronossus Action tiles
+* 1x Solo Objective card
+* 1x Chronossus Exosuit Upgrade board
+
+### No additional components are needed
+
+* Quantum Loops
+* Variable Anomalies
+* Alternate Timelines
+
+**NOTE:** The Intrigues of the Council module is not supported, as it is mainly built on human player interaction.
+
+NOTE: The Interlocking buildings and Neutronide buildings are supported and require no additional components or adjustments to the rules.
 
 ## CHRONOBOT RULES
 
