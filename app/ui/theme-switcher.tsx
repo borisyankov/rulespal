@@ -2,6 +2,7 @@
 
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
+import RoundButton from "./round-button";
 
 export default function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
@@ -11,9 +12,9 @@ export default function ThemeSwitcher() {
   };
 
   return (
-    <div className="flex cursor-pointer flex-row">
-      <SunIcon className="size-10 rounded-full bg-gray-500/10 p-2 hidden dark:block hover:bg-gray-500/30" onClick={toggleTheme} />
-      <MoonIcon className="size-10 rounded-full bg-gray-500/10 p-2 is-light dark:hidden hover:bg-gray-500/30" onClick={toggleTheme} />
-    </div>
+    <RoundButton>
+      <SunIcon className="size-5 hidden dark:block" onClick={toggleTheme} />
+      <MoonIcon className="size-5 is-light dark:hidden" onClick={toggleTheme} />
+    </RoundButton>
   );
 }
