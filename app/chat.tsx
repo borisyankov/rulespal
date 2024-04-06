@@ -3,7 +3,7 @@
 import { useChat } from "ai/react";
 import EmptyState from "@/app/ui/empty-state";
 import MessageList from "@/app/ui/message-list";
-import QuestionInput from "@/app/ui/user-input";
+import UserInput from "@/app/ui/user-input";
 import { Game } from "./lib/definitions";
 import { FormEvent } from "react";
 
@@ -12,10 +12,9 @@ type Props = {
 }
 
 export default function Chat({ game }: Props) {
-  const options = useChat({
+  const { messages, isLoading, stop, data, handleInputChange, handleSubmit } = useChat({
     api: "/api/chat",
-  });
-  const { messages, isLoading, stop, data, handleInputChange, handleSubmit } = options;
+  });;
   function submitWithGame(e: FormEvent<HTMLFormElement>) {
     handleSubmit(e, { data: { bggid: game.bggid.toString() } });
   }
@@ -26,7 +25,7 @@ export default function Chat({ game }: Props) {
       ) : (
         <EmptyState game={game} />
       )}
-      <QuestionInput
+      <UserInput
         isLoading={isLoading}
         stop={stop}
         submitMessage={submitWithGame}

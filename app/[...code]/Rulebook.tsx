@@ -19,7 +19,7 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-li:my-0 prose-li:p-0 marker:primary
       prose-ul:pl-5
       marker:text-green 
-      prose-a:decoration-violet-600 prose-a:decoration-2
+      prose-a:decoration-primary prose-a:decoration-2
       prose-p:my-3 prose-ul:my-2 prose-ol:my-2
       prose-h1:mt-8 prose-h2:mt-7 prose-h3:mt-6
       prose-h1:mb-5 prose-h2:mb-4 prose-h3:mb-3
