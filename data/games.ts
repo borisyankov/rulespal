@@ -555,6 +555,11 @@ const assets: Game[] = [
     code: 'times_up_title_recall',
   },
   {
+    bggid: 73439,
+    name: 'Troyes',
+    code: 'troyes',
+  },
+  {
     bggid: 356123,
     name: 'Turing Machine',
     code: 'turing_machine',
