@@ -1,10 +1,10 @@
 import games from '@/data/games';
-import Chat from '../chat';
+import Chat from './chat';
 import { redirect } from 'next/navigation';
 import Rulebook from './Rulebook';
 
-import Header from './header';
 import { Suspense } from 'react';
+import HeaderGame from './header-game';
 
 type Props = {
   params: { code: string };
@@ -15,17 +15,19 @@ export default function Home({ params: { code } }: Props) {
   if (!game) {
     return redirect('/');
   }
-  const tab = code[1] === 'chat' ? 'chat' : 'rulebook';
   return (
     <>
-      <Header game={game} />
-      {tab === 'chat' ? (
-        <Chat game={game} />
-      ) : (
-        <Suspense fallback={<p>Loading feed...</p>}>
-          <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
-        </Suspense>
-      )}
+      <HeaderGame game={game} />
+      <div className="flex flex-row items-center justify-center">
+        {code[1] !== 'rulebook' ? <Chat game={game} /> : null}
+        {code[1] !== 'chat' ? (
+          <div className="h-screen overflow-auto">
+            <Suspense fallback={<p>Loading feed...</p>}>
+              <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
+            </Suspense>
+          </div>
+        ) : null}
+      </div>
     </>
   );
 }
