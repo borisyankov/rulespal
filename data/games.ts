@@ -139,6 +139,11 @@ const assets: Game[] = [
     code: 'decrypto',
   },
   {
+    bggid: 162082,
+    name: 'Deus',
+    code: 'deus',
+  },
+  {
     bggid: 39856,
     name: 'Dixit',
     code: 'dixit',
