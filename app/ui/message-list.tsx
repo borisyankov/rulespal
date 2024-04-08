@@ -25,7 +25,7 @@ export default function MessageList({ game, messages, isLoading }: Props) {
     return () => resizeObserver.disconnect();
   }, []);
   return (
-    <div className="flex-1 p-4 overflow-y-auto text-base mx-auto gap-3 w-full max-w-screen-md py-12" ref={listRef}>
+    <div className="flex-1 p-4 overflow-y-auto text-base gap-3 w-full max-w-screen-md py-12" ref={listRef}>
       {messages.map((m: Message, index) =>
         m.role === "user" ? (
           <Question key={m.id} m={m} />

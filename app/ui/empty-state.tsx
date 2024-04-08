@@ -7,10 +7,10 @@ type Props = {
 
 export default function EmptyState({ game }: Props) {
   return (
-    <div className="flex flex-row text-center justify-center items-center h-screen">
+    <div className="flex flex-1 flex-row text-center justify-center items-center">
       <div className="">
         <Thumbnail game={game} className="mx-auto mb-4 size-48" />
-        <h2>Ask any rules question about {game.name}<br/>Get answers directly from the rule book.</h2>
+        <h2>Ask any rules question about {game.name}.<br/>Get answers directly from the rule book.</h2>
       </div>
     </div>
   );

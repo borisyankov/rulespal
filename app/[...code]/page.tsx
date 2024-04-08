@@ -16,18 +16,16 @@ export default function Home({ params: { code } }: Props) {
     return redirect('/');
   }
   return (
-    <>
+    <div className="h-screen flex flex-col">
       <HeaderGame game={game} />
-      <div className="flex flex-row items-center justify-center">
+      <main className="flex flex-1 flex-row justify-center overflow-auto scroll-smooth">
         {code[1] !== 'rulebook' ? <Chat game={game} /> : null}
         {code[1] !== 'chat' ? (
-          <div className="h-screen overflow-auto">
-            <Suspense fallback={<p>Loading feed...</p>}>
-              <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
-            </Suspense>
-          </div>
+          <Suspense fallback={<p>Loading feed...</p>}>
+            <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
+          </Suspense>
         ) : null}
-      </div>
-    </>
+      </main>
+    </div>
   );
 }
