@@ -195,6 +195,11 @@ const assets: Game[] = [
     code: 'fantasy_realms',
   },
   {
+    bggid: 157354,
+    name: 'Five Tribes: The Djinns of Naqala',
+    code: 'five_tribes',
+  },
+  {
     bggid: 336986,
     name: 'Flamecraft',
     code: 'flamecraft',
