@@ -49,6 +49,11 @@ const assets: Game[] = [
     code: 'azul_summer_pavilion',
   },
   {
+    bggid: 11,
+    name: 'Bohnanza',
+    code: 'bohnanza',
+  },
+  {
     bggid: 224517,
     name: 'Brass: Birmingham',
     code: 'brass_birmingham',
@@ -198,6 +203,7 @@ const assets: Game[] = [
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
     code: 'five_tribes',
+    shortName: 'Five Tribes',
   },
   {
     bggid: 336986,
