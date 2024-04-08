@@ -463,6 +463,11 @@ const assets: Game[] = [
     code: 'stone_age',
   },
   {
+    bggid: 133473,
+    name: 'Sushi Go!',
+    code: 'sushi_go',
+  },
+  {
     bggid: 192291,
     name: 'Sushi Go Party!',
     code: 'sushi_go_party',
