@@ -602,8 +602,9 @@ const assets: Game[] = [
   },
   {
     bggid: 183394,
-    name: 'Viticulture',
+    name: 'Viticulture Essential Edition',
     code: 'viticulture',
+    shortName: 'Viticulture',
   },
   {
     bggid: 233867,

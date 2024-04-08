@@ -75,12 +75,12 @@ const config: Config = {
       typography: {
         DEFAULT: {
           css: {
-            '--tw-prose-quote-borders': 'purple',
-            '--tw-prose-invert-quote-borders': 'purple',
-            '--tw-prose-bullets': 'purple',
-            '--tw-prose-invert-bullets': 'purple',
-            '--tw-prose-counters': 'purple',
-            '--tw-prose-invert-counters': 'purple',
+            '--tw-prose-quote-borders': 'hsl(var(--primary))',
+            '--tw-prose-invert-quote-borders': 'hsl(var(--primary))',
+            '--tw-prose-bullets': 'hsl(var(--primary))',
+            '--tw-prose-invert-bullets': 'hsl(var(--primary))',
+            '--tw-prose-counters': 'hsl(var(--primary))',
+            '--tw-prose-invert-counters': 'hsl(var(--primary))',
             'blockquote p:first-of-type::before': { content: 'none' },
             'blockquote p:first-of-type::after': { content: 'none' },
           },
