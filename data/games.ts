@@ -479,6 +479,11 @@ const assets: Game[] = [
     alternativeNames: ['6 nimmt!', 'Sechs Nimmt', 'Category 5'],
   },
   {
+    bggid: 70919,
+    name: 'Takenoko',
+    code: 'takenoko',
+  },
+  {
     bggid: 46213,
     name: 'Telestrations',
     code: 'telestrations',
