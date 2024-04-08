@@ -474,6 +474,11 @@ const assets: Game[] = [
     code: 'sprawlopolis',
   },
   {
+    bggid: 147020,
+    name: 'Star Realms',
+    code: 'star_realms',
+  },
+  {
     bggid: 34635,
     name: 'Stone Age',
     code: 'stone_age',
