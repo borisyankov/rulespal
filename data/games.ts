@@ -606,6 +606,11 @@ const assets: Game[] = [
     code: 'troyes',
   },
   {
+    bggid: 16992,
+    name: 'Tsuro',
+    code: 'tsuro',
+  },
+  {
     bggid: 356123,
     name: 'Turing Machine',
     code: 'turing_machine',
