@@ -581,6 +581,11 @@ const assets: Game[] = [
     code: 'thunder_road_vendetta',
   },
   {
+    bggid: 215,
+    name: 'Tichu',
+    code: 'tichu',
+  },
+  {
     bggid: 9209,
     name: 'Ticket to Ride',
     code: 'ticket_to_ride',
