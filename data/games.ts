@@ -312,6 +312,11 @@ const assets: Game[] = [
     code: 'klask',
   },
   {
+    bggid: 110327,
+    name: 'Lords of Waterdeep',
+    code: 'lords_of_waterdeep',
+  },
+  {
     bggid: 50,
     name: 'Lost Cities',
     code: 'lost_cities',
@@ -342,6 +347,11 @@ const assets: Game[] = [
     bggid: 156546,
     name: 'Monikers',
     code: 'monikers',
+  },
+  {
+    bggid: 12942,
+    name: 'No Thanks!',
+    code: 'no_thanks',
   },
   {
     bggid: 231733,
