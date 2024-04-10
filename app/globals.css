@@ -25,6 +25,8 @@
     --input: 220 13% 91%;
     --ring: 262.1 83.3% 57.8%;
     --radius: 0.3rem;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-caret-down-fill' viewBox='0 0 16 16' %3E%3Cpath fill='currentColor' d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z' /%3E%3C/svg%3E")
+
   }
 
   .dark {
@@ -68,4 +70,30 @@
 ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
   background-color: rgba(127, 127, 127, 0.25);
+}
+
+#table-of-contents {
+  display: none;
+}
+
+::selection {
+  color: hsl(var(--primary-foreground));
+  background: hsl(var(--primary));
+}
+
+summary {
+  background: hsl(var(--muted));
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-list'%3E%3Cline x1='8' x2='21' y1='6' y2='6'/%3E%3Cline x1='8' x2='21' y1='12' y2='12'/%3E%3Cline x1='8' x2='21' y1='18' y2='18'/%3E%3Cline x1='3' x2='3.01' y1='6' y2='6'/%3E%3Cline x1='3' x2='3.01' y1='12' y2='12'/%3E%3Cline x1='3' x2='3.01' y1='18' y2='18'/%3E%3C/svg%3E");
+  background-size: 1rem; /* Set the size of the SVG */
+  background-repeat: no-repeat;
+  background-position: 0.5rem 50%;
+  padding-left: 2rem;
+}
+
+summary::marker {
+  content: "";
 }

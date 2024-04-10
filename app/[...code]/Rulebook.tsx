@@ -1,7 +1,9 @@
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkToc from 'remark-toc';
-import rehypeSlug from 'rehype-slug'
+import remarkCollapse from 'remark-collapse';
+import rehypeSlug from 'rehype-slug';
+import rehypeRaw from 'rehype-raw';
 
 type Props = {
   code: string;
@@ -14,11 +16,11 @@ export default async function Rulebook({ code, resource }: Props) {
   ).default;
   return (
     <Markdown
-      className="prose lg:prose-lg md:prose dark:prose-invert px-4
+      className="prose dark:prose-invert max-w-xl
       prose-hr:my-8 prose-p:leading-normal
       prose-li:my-0 prose-li:p-0 marker:primary
       prose-ul:pl-5
-      marker:text-green 
+      prose-summary:bg-red-500
       prose-a:decoration-primary prose-a:decoration-2
       prose-p:my-3 prose-ul:my-2 prose-ol:my-2
       prose-h1:hidden
@@ -27,8 +29,12 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-h4:text-2xl prose-h4:mt-4
       prose-h5:text-xl prose-h5:font-bold
       "
-      rehypePlugins={[rehypeSlug]}
-      remarkPlugins={[remarkGfm, [remarkToc, {ordered: true, tight: false }]]}
+      rehypePlugins={[rehypeRaw, rehypeSlug]}
+      remarkPlugins={[
+        remarkGfm,
+        [remarkToc, {ordered: true, tight: false }], 
+        [remarkCollapse, { test: 'Table of Contents', summary: 'Table of Contents'}],
+      ]}
     >
       {gameRulebook}
     </Markdown>
