@@ -217,7 +217,8 @@ const assets: Game[] = [
   },
   {
     bggid: 334590,
-    name: 'For Northwood!',
+    name: 'For Northwood! A Solo Trick-Taking Game',
+    shortName: 'For Northwood',
     code: 'for_northwood',
   },
   {
@@ -519,6 +520,12 @@ const assets: Game[] = [
     name: 'Telestrations',
     code: 'telestrations',
   },
+  { 
+    bggid: 229853,
+    name: 'Teotihuacan: City of Gods',
+    code: 'teotihuacan',
+    shortName: 'Teotihuacan',
+  },
   {
     bggid: 120677,
     name: 'Terra Mystica',
@@ -544,6 +551,7 @@ const assets: Game[] = [
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the_castles_of_burgundy',
+    alternativeNames: ['The Castles of Burgundy: Special Edition'],
   },
   {
     bggid: 284083,
