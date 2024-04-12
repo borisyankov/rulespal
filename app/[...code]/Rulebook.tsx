@@ -28,11 +28,12 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-h3:text-3xl prose-h3:mt-6 prose-h3:mb-3
       prose-h4:text-2xl prose-h4:mt-4
       prose-h5:text-xl prose-h5:font-bold
+      prose-h6:font-bold
       "
       rehypePlugins={[rehypeRaw, rehypeSlug]}
       remarkPlugins={[
         remarkGfm,
-        [remarkToc, {ordered: true, tight: false }], 
+        [remarkToc, ], 
         [remarkCollapse, { test: 'Table of Contents', summary: 'Table of Contents'}],
       ]}
     >

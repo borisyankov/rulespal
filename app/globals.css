@@ -94,6 +94,6 @@ summary {
   padding-left: 2rem;
 }
 
-summary::marker {
+summary::marker, details li::marker {
   content: "";
 }

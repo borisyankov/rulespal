@@ -5,6 +5,7 @@ import Rulebook from './Rulebook';
 
 import { Suspense } from 'react';
 import HeaderGame from './header-game';
+import ExtraSources from '../ui/extra-sources';
 
 type Props = {
   params: { code: string };
@@ -22,6 +23,7 @@ export default function Home({ params: { code } }: Props) {
         {code[1] !== 'rulebook' ? <Chat game={game} /> : null}
         {code[1] !== 'chat' ? (
           <Suspense fallback={<p>Loading...</p>}>
+            <ExtraSources game={game} />
             <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
           </Suspense>
         ) : null}

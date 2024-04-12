@@ -1,10 +1,14 @@
 import { Game } from '../lib/definitions';
 import GameItem from './game-item';
 
-export default function GameList({ games }: { games: Game[]}) {
+type Props = {
+  games: Game[];
+}
+
+export default function GameList({ games }: Props) {
   return (
     <div className="overflow-auto flex flex-1 flex-wrap content-start gap-3">
-      {games.map((game, _) => (
+      {games.map((game) => (
         <GameItem key={game.code} game={game} />
       ))}
     </div>
