@@ -109,6 +109,11 @@ const assets: Game[] = [
     code: 'century_spice_road',
   },
   {
+    bggid: 171,
+    name: 'Chess',
+    code: 'chess',
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
@@ -555,8 +560,9 @@ const assets: Game[] = [
   },
   {
     bggid: 284083,
-    name: 'The Crew',
+    name: 'The Crew: The Quest for Planet Nine',
     code: 'the_crew',
+    shortName: 'The Crew',
   },
   {
     bggid: 281259,
