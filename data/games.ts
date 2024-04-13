@@ -221,6 +221,12 @@ const assets: Game[] = [
     code: 'flamecraft',
   },
   {
+    bggid: 311988,
+    name: 'Frostpunk: The Board Game',
+    code: 'frostpunk',
+    shortName: 'Frostpunk',
+  },
+  {
     bggid: 334590,
     name: 'For Northwood! A Solo Trick-Taking Game',
     shortName: 'For Northwood',
@@ -578,6 +584,11 @@ const assets: Game[] = [
     bggid: 217372,
     name: 'The Quest for El Dorado',
     code: 'the_quest_for_el_dorado',
+  },
+  {
+    bggid: 244992,
+    name: 'The Mind',
+    code: 'the_mind',
   },
   {
     bggid: 128882,
