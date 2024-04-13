@@ -29,15 +29,16 @@ async function fetchGeeklist(geeklistId: string): Promise<GeeklistItem[]> {
 }
 
 async function listNotExitingGames() {
-  const geeklistId = '299279'; 
+  const geeklistId = '335065'; 
   // 299279 => Most played games of all time (April 2022 version)
+  // 335065 => Top 50 Most Played - February 2024
   // 330951 => Top 50 Most Played - December 2023
   // 327111 => Top 50 Most Played - November 2023
   // 324731 => 2023 People's Choice Top 200 Solo Games
   // 326659 => Reviewer's "Best of 2023" meta-Compilation
   let notFound = 0; 
   const items = await fetchGeeklist(geeklistId);
-  const top = items.slice(0, 100);
+  const top = items.slice(0, 50);
   for (const item of top) {
     const game = games.find(g => g.name === item.title || g.alternativeNames?.includes(item.title));
     if (!game) {

@@ -7,7 +7,8 @@ async function listNotExitingGames() {
     Game: string,
   }
   const items: GameRow[] = [];
-  fs.createReadStream('../boardgames_all_time.csv')
+  fs.createReadStream('../boardgames_2024.csv')
+  // fs.createReadStream('../boardgames_all_time.csv')
   .pipe(csvParser())
   .on('data', (data) => items.push(data))
   .on('end', () => {
