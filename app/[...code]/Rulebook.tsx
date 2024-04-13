@@ -1,9 +1,9 @@
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkToc from 'remark-toc';
-import remarkCollapse from 'remark-collapse';
 import rehypeSlug from 'rehype-slug';
 import rehypeRaw from 'rehype-raw';
+import remarkTocCollapse from '../lib/remark-toc-collapse';
 
 type Props = {
   code: string;
@@ -33,8 +33,8 @@ export default async function Rulebook({ code, resource }: Props) {
       rehypePlugins={[rehypeRaw, rehypeSlug]}
       remarkPlugins={[
         remarkGfm,
-        [remarkToc, ], 
-        [remarkCollapse, { test: 'Table of Contents', summary: 'Table of Contents'}],
+        remarkToc, 
+        remarkTocCollapse,
       ]}
     >
       {gameRulebook}
