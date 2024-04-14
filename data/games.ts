@@ -407,6 +407,11 @@ const assets: Game[] = [
     code: 'punct',
   },
   {
+    bggid: 131260,
+    name: 'Qwixx',
+    code: 'qwixx',
+  },
+  {
     bggid: 12,
     name: 'Ra',
     code: 'ra',
