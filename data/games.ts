@@ -502,6 +502,12 @@ const assets: Game[] = [
     code: 'splendor_duel',
   },
   {
+    bggid: 63268,
+    name: 'Spot it!',
+    code: 'spot_it',
+    alternativeNames: ['Dobble'],
+  },
+  {
     bggid: 251658,
     name: 'Sprawlopolis',
     code: 'sprawlopolis',
