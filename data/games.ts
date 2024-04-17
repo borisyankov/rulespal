@@ -408,6 +408,11 @@ const assets: Game[] = [
     code: 'planet_unknown',
   },
   {
+    bggid: 274960,
+    name: 'Point Salad',
+    code: 'point_salad',
+  },
+  {
     bggid: 2651,
     name: 'Power Grid',
     code: 'power_grid',
