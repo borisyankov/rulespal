@@ -25,10 +25,10 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-a:decoration-primary prose-a:decoration-2
       prose-p:my-3 prose-ul:my-2 prose-ol:my-2
       prose-h1:hidden
-      prose-h2:text-4xl prose-h2:mt-7 prose-h2:mb-4 prose-h2:tracking-wider
-      prose-h3:text-3xl prose-h3:mt-6 prose-h3:mb-3 prose-h3:tracking-wider
-      prose-h4:text-2xl prose-h4:mt-4 prose-h4:tracking-wider
-      prose-h5:text-xl prose-h5:font-bold prose-h5:tracking-wider
+      prose-h2:text-3xl prose-h2:mt-7 prose-h2:mb-4 prose-h2:tracking-wider
+      prose-h3:text-2xl prose-h3:mt-6 prose-h3:mb-3 prose-h3:tracking-wider
+      prose-h4:text-xl prose-h4:mt-4 prose-h4:tracking-wider
+      prose-h5:text-lg prose-h5:font-bold prose-h5:tracking-wider
       prose-h6:font-bold prose-h6:tracking-wider
       "
       rehypePlugins={[rehypeRaw, rehypeSlug]}
