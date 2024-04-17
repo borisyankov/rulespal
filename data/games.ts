@@ -1,10 +1,15 @@
-import { Game } from '@/app/lib/definitions';
+import type { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
     bggid: 68448,
     name: '7 Wonders',
     code: '7_wonders',
+  },
+  {
+    bggid: 346703,
+    name: '7 Wonders: Architects',
+    code: '7_wonders_architects',
   },
   {
     bggid: 173346,
