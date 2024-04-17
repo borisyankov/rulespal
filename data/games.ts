@@ -139,6 +139,11 @@ const assets: Game[] = [
     code: 'codenames',
   },
   {
+    bggid: 5782,
+    name: 'Coloretto',
+    code: 'coloretto',
+  },
+  {
     bggid: 131357,
     name: 'Coup',
     code: 'coup',
