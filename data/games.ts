@@ -365,6 +365,12 @@ const assets: Game[] = [
     code: 'lyngk',
   },
   {
+    bggid: 283948,
+    name: 'Marco Polo II: In the Service of the Khan',
+    code: 'marco_polo_ii',
+    shortName: 'Marco Polo II'
+  },
+  {
     bggid: 285774,
     name: 'Marvel Champions: The Card Game',
     shortName: 'Marvel Champions',
@@ -626,6 +632,11 @@ const assets: Game[] = [
     bggid: 371942,
     name: 'The White Castle',
     code: 'the_white_castle',
+  },
+  {
+    bggid: 171623,
+    name: 'The Voyages of Marco Polo',
+    code: 'marco_polo',
   },
   {
     bggid: 342070,
