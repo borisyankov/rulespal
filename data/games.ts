@@ -270,6 +270,11 @@ const assets: Game[] = [
     code: 'gizmos',
   },
   {
+    bggid: 393672,
+    name: 'Gloomhaven: Buttons & Bugs',
+    code: 'gloomhaven_buttons_and_bugs',
+  },
+  {
     bggid: 291457,
     name: 'Gloomhaven: Jaws of the Lion',
     code: 'gloomhaven_jotl',
