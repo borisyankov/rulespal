@@ -735,6 +735,11 @@ const assets: Game[] = [
     code: 'world_wonders',
   },
   {
+    bggid: 410201,
+    name: 'Wyrmspan',
+    code: 'wyrmspan',
+  },
+  {
     bggid: 7854,
     name: 'YINSH',
     code: 'yinsh',
