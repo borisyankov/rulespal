@@ -679,6 +679,11 @@ const assets: Game[] = [
     code: 'times_up_title_recall',
   },
   {
+    bggid: 352515,
+    name: 'Trio',
+    code: 'trio',
+  },
+  {
     bggid: 73439,
     name: 'Troyes',
     code: 'troyes',
