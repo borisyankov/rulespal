@@ -388,6 +388,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 387378,
+    name: 'MLEM: Space Agency',
+    code: 'mlem_space_agency',
+  },
+  {
     bggid: 156546,
     name: 'Monikers',
     code: 'monikers',
