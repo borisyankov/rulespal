@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 import { cosineSimilarity } from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
-import { EmbeddingSet } from './definitions';
+import type { EmbeddingSet } from './definitions';
 
 const openai = new OpenAI();
 

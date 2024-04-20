@@ -3,7 +3,7 @@ import path from 'path';
 import OpenAI from "openai";
 import { splitText } from '../app/lib/rag';
 import games from '../data/games';
-import { Game } from '@/app/lib/definitions';
+import type { Game } from '@/app/lib/definitions';
 
 const openai = new OpenAI();
 

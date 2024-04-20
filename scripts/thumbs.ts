@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import sharp from 'sharp';
 import { parseStringPromise } from 'xml2js';
 import games from '../data/games';
-import { Game } from '@/app/lib/definitions';
+import type { Game } from '@/app/lib/definitions';
 import fs from 'fs';
 import path from 'path';
 

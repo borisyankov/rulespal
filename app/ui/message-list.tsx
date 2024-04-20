@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react";
-import { Message } from "ai/react";
+import type { Message } from "ai/react";
 import Question from "./question";
 import Answer from "./answer";
 import Loading from "./loading";
-import { Game } from "../lib/definitions";
+import type { Game } from "../lib/definitions";
 
 type Props = {
   game: Game;

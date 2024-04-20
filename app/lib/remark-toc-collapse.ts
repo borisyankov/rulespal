@@ -1,4 +1,4 @@
-import { Root } from 'mdast';
+import type { Root } from 'mdast';
 import { headingRange } from 'mdast-util-heading-range';
 
 export default function detailsPlugin() {

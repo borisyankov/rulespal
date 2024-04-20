@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Quote } from "lucide-react"
-import { Game } from "../lib/definitions";
+import type { Game } from "../lib/definitions";
 
 type Props = {
   game: Game;

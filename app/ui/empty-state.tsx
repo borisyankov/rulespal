@@ -1,4 +1,4 @@
-import { Game } from "../lib/definitions";
+import type { Game } from "../lib/definitions";
 import Thumbnail from "./thumbnail";
 
 type Props = {

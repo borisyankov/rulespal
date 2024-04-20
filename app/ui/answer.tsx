@@ -1,10 +1,10 @@
 import React from 'react';
-import Markdown, { ExtraProps } from 'react-markdown';
-import { Message } from 'ai/react';
+import Markdown, { type ExtraProps } from 'react-markdown';
+import type { Message } from 'ai/react';
 import remarkGfm from 'remark-gfm';
 import Citation from './citation';
-import { Root, Content, Text, RootContent } from 'mdast';
-import { Game } from '../lib/definitions';
+import type { Root, Content, Text, RootContent } from 'mdast';
+import type { Game } from '../lib/definitions';
 
 type Props = {
   m: Message;

@@ -1,7 +1,7 @@
 'use client';
 
 import { Dialog, DialogContent, DialogTrigger } from '@/app/ui/dialog';
-import { Game } from '../lib/definitions';
+import type { Game } from '../lib/definitions';
 import GameBar from './gamebar';
 import { SearchIcon } from 'lucide-react';
 import RoundButton from './round-button';

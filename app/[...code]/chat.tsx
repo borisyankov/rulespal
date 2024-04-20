@@ -4,8 +4,8 @@ import { useChat } from "ai/react";
 import EmptyState from "@/app/ui/empty-state";
 import MessageList from "@/app/ui/message-list";
 import UserInput from "@/app/ui/user-input";
-import { Game } from "../lib/definitions";
-import { FormEvent } from "react";
+import type { Game } from "../lib/definitions";
+import type { FormEvent } from "react";
 
 type Props = {
   game: Game;
