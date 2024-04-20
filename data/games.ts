@@ -310,6 +310,11 @@ const assets: Game[] = [
     code: 'hive',
   },
   {
+    bggid: 15512,
+    name: 'Incan Gold',
+    code: 'incan_gold',
+  },
+  {
     bggid: 63888,
     name: 'Innovation',
     code: 'innovation',
