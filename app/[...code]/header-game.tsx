@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Game } from '../lib/definitions';
+import type { Game } from '../lib/definitions';
 import GameDialog from '../ui/game-dialog';
 import ThemeSwitcher from '../ui/theme-switcher';
 import { MessageCircleQuestion, BookOpenTextIcon } from 'lucide-react';
