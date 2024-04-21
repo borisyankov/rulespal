@@ -2,6 +2,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkToc from 'remark-toc';
 import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeRaw from 'rehype-raw';
 import remarkTocCollapse from '../lib/remark-toc-collapse';
 
@@ -31,7 +32,7 @@ export default async function Rulebook({ code, resource }: Props) {
       prose-h5:text-lg prose-h5:font-bold prose-h5:tracking-wider
       prose-h6:font-bold prose-h6:tracking-wider
       "
-      rehypePlugins={[rehypeRaw, rehypeSlug]}
+      rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
       remarkPlugins={[
         remarkGfm,
         remarkToc, 
