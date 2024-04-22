@@ -1,4 +1,4 @@
-export default function Loading() {
+export default function Progress() {
   return (
     <span className="animate-pulse text-purple-600">⬤</span>
   );

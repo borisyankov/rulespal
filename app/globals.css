@@ -93,6 +93,7 @@ summary {
 
 summary:hover {
   background-color: hsl(var(--primary));
+  color: white;
 }
 
 summary::marker, details li::marker {

@@ -31,7 +31,7 @@ export default function GameBar() {
   return (
     <div className="flex flex-col gap-5 overflow-auto">
       <div className="relative flex w-full items-center p-1">
-        <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2" />
+        <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-primary" />
         <Input
           autoFocus
           value={search}

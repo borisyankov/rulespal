@@ -15,9 +15,10 @@ export default async function Rulebook({ code, resource }: Props) {
   const gameRulebook = (
     await import(`../../data/rulebooks/${code}_${resource}.md`)
   ).default;
+  // await (() => new Promise(res => setTimeout(res, 60 * 1000)))();
   return (
     <Markdown
-      className="prose dark:prose-invert max-w-xl
+      className="prose dark:prose-invert max-w-screen-sm
       prose-a:font-bold
       prose-hr:my-8 prose-p:leading-normal
       prose-li:my-0 prose-li:p-0 marker:primary

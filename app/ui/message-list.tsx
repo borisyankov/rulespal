@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import type { Message } from "ai/react";
 import Question from "./question";
 import Answer from "./answer";
-import Loading from "./loading";
+import Progress from "./progress";
 import type { Game } from "../lib/definitions";
 
 type Props = {
@@ -34,7 +34,7 @@ export default function MessageList({ game, messages, isLoading }: Props) {
         )
       )}
       {isLoading && messages[messages.length - 1].role === 'user' && (
-        <Loading />
+        <Progress />
       )}
     </div>
   );
