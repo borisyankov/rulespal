@@ -1,6 +1,6 @@
 import Thumbnail from './thumbnail';
 import Link from 'next/link';
-import { Game } from '../lib/definitions';
+import type { Game } from '../lib/definitions';
 
 export default function GameItem({ game } : { game: Game }) {
   return (

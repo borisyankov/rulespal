@@ -13,8 +13,8 @@ export default function ThemeSwitcher() {
 
   return (
     <RoundButton>
-      <SunIcon className="size-5 hidden dark:block" onClick={toggleTheme} />
-      <MoonIcon className="size-5 is-light dark:hidden" onClick={toggleTheme} />
+      <SunIcon className="size-5 hidden text-primary dark:block" onClick={toggleTheme} />
+      <MoonIcon className="size-5 is-light text-primary dark:hidden" onClick={toggleTheme} />
     </RoundButton>
   );
 }

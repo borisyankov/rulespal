@@ -15,7 +15,7 @@ export default function GameDialog({ game }: Props) {
     <Dialog>
       <DialogTrigger asChild>
         <RoundButton>
-          <SearchIcon className="size-5 cursor-pointer" />
+          <SearchIcon className="size-5 cursor-pointer text-primary" />
         </RoundButton>
       </DialogTrigger>
       <DialogContent className="size-full">
