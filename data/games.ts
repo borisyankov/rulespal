@@ -285,6 +285,12 @@ const assets: Game[] = [
     code: 'gloomhaven_jotl',
   },
   {
+    bggid: 341169,
+    name: 'Great Western Trail: Second Edition',
+    code: 'great_western_trail',
+    shortName: 'Great Western Trail'
+  },
+  {
     bggid: 304783,
     name: 'Hadrian\'s Wall',
     code: 'hadrians_wall',
