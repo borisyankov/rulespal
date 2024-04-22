@@ -7,13 +7,15 @@ import {
 import { searchFor } from '@/app/lib/actions';
 
 const openai = new OpenAI({
-  baseURL: "https://oai.hconeai.com/openai/v1",
+  baseURL: "https://together.hconeai.com/v1",
+  // baseURL: "https://oai.hconeai.com/openai/v1",
   defaultHeaders: {
-    Authorization: "Bearer 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",
+    // Groq: Authorization: "Bearer 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",
+    Authorization: "Bearer 9eb698f84047054ea1fe55fee50fc348a65e91794201c1c00780194782292dbb", // together
     "Helicone-Auth": "Bearer sk-6f2u4iq-qqfeziq-ukhmmea-6ra4t5y",
     "Content-Type": "application/json",
-    "Helicone-Target-Provider": "Groq",
-    "Helicone-Target-Url": "https://api.groq.com",
+    // "Helicone-Target-Provider": "Groq",
+    // "Helicone-Target-Url": "https://api.groq.com",
   },
 });
 
@@ -45,7 +47,7 @@ export async function POST(req: Request) {
   }
 
   const response = await openai.chat.completions.create({
-    model: 'llama3-70b-8192', // model: 'gpt-3.5-turbo',
+    model: 'meta-llama/Llama-3-70b-chat-hf', //n 'llama3-70b-8192', // model: 'gpt-3.5-turbo',
     stream: true,
     temperature: 0,
     messages,
