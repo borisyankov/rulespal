@@ -3,13 +3,18 @@ import GameItem from './game-item';
 
 type Props = {
   games: Game[];
-}
+  selected?: Game;
+};
 
-export default function GameList({ games }: Props) {
+export default function GameList({ games, selected }: Props) {
   return (
-    <div className="overflow-auto flex flex-1 flex-wrap content-start gap-3">
+    <div className="flex flex-1 flex-wrap content-start gap-3 overflow-auto">
       {games.map((game) => (
-        <GameItem key={game.code} game={game} />
+        <GameItem
+          key={game.code}
+          game={game}
+          selected={game.code === selected?.code}
+        />
       ))}
     </div>
   );

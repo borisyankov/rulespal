@@ -17,7 +17,6 @@ export default async function Rulebook({ game, resource }: Props) {
   const gameRulebook = (
     await import(`../../data/rulebooks/${game.code}_${resource}.md`)
   ).default;
-  // await (() => new Promise(res => setTimeout(res, 60 * 1000)))();
   return (
     <div>
       <div className="inline-flex items-center gap-4">

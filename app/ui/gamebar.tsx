@@ -5,6 +5,7 @@ import { Input } from './input';
 import { Search } from 'lucide-react';
 import { useState } from 'react';
 import games from '@/data/games';
+import type { Game } from '../lib/definitions';
 
 function matchesSearchInput(target: string, searchInput: string): boolean {
   let searchIndex = 0;
@@ -21,7 +22,11 @@ function matchesSearchInput(target: string, searchInput: string): boolean {
   return false;
 }
 
-export default function GameBar() {
+type Props = {
+  game?: Game;
+};
+
+export default function GameBar({ game }: Props) {
   const [search, setSearch] = useState('');
   const shownGames = games.filter((game) =>
     [game.name, game.code, ...(game.alternativeNames || [])].some((name) =>
@@ -39,7 +44,7 @@ export default function GameBar() {
           className="pl-8"
         />
       </div>
-      <GameList games={shownGames} />
+      <GameList games={shownGames} selected={game} />
     </div>
   );
 }

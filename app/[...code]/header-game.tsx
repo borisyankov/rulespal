@@ -12,14 +12,25 @@ type Props = {
 export default function HeaderGame({ game }: Props) {
   return (
     <Header>
-      <Link href="/"><img className="h-6" src="/rulespal.svg" alt="RulesPal" /></Link>
-      <Link href={`/${game.code}/chat`} className="flex flex-row gap-2 p-2 rounded-full hover:bg-primary/25">
-        <MessageCircleQuestion className="text-primary" />
-        <span className="hidden md:block text-primary font-semibold">Chat</span>
+      <Link href="/">
+        <img className="h-6" src="/rulespal.svg" alt="RulesPal" />
       </Link>
-      <Link href={`/${game.code}/rulebook`} className="flex flex-row gap-2 p-2 rounded-full hover:bg-primary/25">
+      <Link
+        href={`/${game.code}/chat`}
+        className="flex flex-row gap-2 rounded-full p-2 hover:bg-primary/25"
+      >
+        <MessageCircleQuestion className="text-primary" />
+        <span className="hidden font-semibold text-primary md:block">Chat</span>
+      </Link>
+      <Link
+        href={`/${game.code}/rulebook`}
+        prefetch={false}
+        className="flex flex-row gap-2 rounded-full p-2 hover:bg-primary/25"
+      >
         <BookOpenTextIcon className="text-primary" />
-        <span className="hidden md:block text-primary font-semibold">Rulebook</span>
+        <span className="hidden font-semibold text-primary md:block">
+          Rulebook
+        </span>
       </Link>
       <ThemeSwitcher />
       <GameDialog game={game} />

@@ -19,7 +19,7 @@ export default function GameDialog({ game }: Props) {
         </RoundButton>
       </DialogTrigger>
       <DialogContent className="size-full">
-        <GameBar />
+        <GameBar game={game} />
       </DialogContent>
     </Dialog>
   );

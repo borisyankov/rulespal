@@ -15,7 +15,6 @@ export default function Home({ params: { code } }: Props) {
   return code[1] === 'chat' ? (
     <Chat game={game} />
   ) : (
-      // <ExtraSources game={game} />
-    <Rulebook code={game.code} resource={code[1] || 'rulebook'} />
+    <Rulebook game={game} resource={code[1] || 'rulebook'} />
   );
 }
