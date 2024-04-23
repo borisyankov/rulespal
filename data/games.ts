@@ -75,7 +75,7 @@ const assets: Game[] = [
   },
   {
     bggid: 41,
-    name: 'Can\'t Stop',
+    name: "Can't Stop",
     code: 'cant_stop',
   },
   {
@@ -102,6 +102,7 @@ const assets: Game[] = [
     bggid: 345972,
     name: 'Cat in the Box: Deluxe Edition',
     code: 'cat_in_the_box',
+    shortName: 'Cat in the Box',
   },
   {
     bggid: 13,
@@ -127,6 +128,7 @@ const assets: Game[] = [
     bggid: 201808,
     name: 'Clank!: A Deck-Building Adventure',
     code: 'clank',
+    shortName: 'Clank!',
   },
   {
     bggid: 365717,
@@ -157,6 +159,7 @@ const assets: Game[] = [
     bggid: 156129,
     name: 'Deception: Murder in Hong Kong',
     code: 'deception_murder_hong_kong',
+    shortName: 'Deception',
   },
   {
     bggid: 225694,
@@ -182,7 +185,7 @@ const assets: Game[] = [
     bggid: 36218,
     name: 'Dominion',
     code: 'dominion',
-    alternativeNames: ['Dominion (Second Edition)']
+    alternativeNames: ['Dominion (Second Edition)'],
   },
   {
     bggid: 370591,
@@ -288,11 +291,11 @@ const assets: Game[] = [
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
     code: 'great_western_trail',
-    shortName: 'Great Western Trail'
+    shortName: 'Great Western Trail',
   },
   {
     bggid: 304783,
-    name: 'Hadrian\'s Wall',
+    name: "Hadrian's Wall",
     code: 'hadrians_wall',
   },
   {
@@ -332,7 +335,7 @@ const assets: Game[] = [
   },
   {
     bggid: 271324,
-    name: 'It\'s a Wonderful World',
+    name: "It's a Wonderful World",
     code: 'its_wonderful_world',
   },
   {
@@ -394,7 +397,7 @@ const assets: Game[] = [
     bggid: 283948,
     name: 'Marco Polo II: In the Service of the Khan',
     code: 'marco_polo_ii',
-    shortName: 'Marco Polo II'
+    shortName: 'Marco Polo II',
   },
   {
     bggid: 285774,
@@ -600,7 +603,7 @@ const assets: Game[] = [
     name: 'Telestrations',
     code: 'telestrations',
   },
-  { 
+  {
     bggid: 229853,
     name: 'Teotihuacan: City of Gods',
     code: 'teotihuacan',
@@ -618,7 +621,7 @@ const assets: Game[] = [
   },
   {
     bggid: 244522,
-    name: 'That\'s Pretty Clever!',
+    name: "That's Pretty Clever!",
     code: 'thats_pretty_clever',
     alternativeNames: ['Ganz Schön Clever!'],
   },
@@ -698,10 +701,11 @@ const assets: Game[] = [
     bggid: 390092,
     name: 'Ticket to Ride Legacy: Legends of the West',
     code: 'ticket_to_ride_legacy_legends_of_the_west',
+    shortName: 'Ticket to Ride Legacy',
   },
   {
     bggid: 36553,
-    name: 'Time\'s Up! Title Recall!',
+    name: "Time's Up! Title Recall!",
     code: 'times_up_title_recall',
   },
   {

@@ -29,6 +29,7 @@ export default function GameItem({ game, selected }: Props) {
       )}
       key={game.name}
       href={`/${game.code}`}
+      title={game.name}
     >
       <div className="size-28">
         <Thumbnail game={game} className="size-full" />
