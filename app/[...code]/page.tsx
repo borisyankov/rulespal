@@ -12,7 +12,7 @@ export default function Home({ params: { code } }: Props) {
   if (!game) {
     return redirect('/');
   }
-  return code[1] === 'chat' ? (
+  return !code[1] || code[1] === 'chat' ? (
     <Chat game={game} />
   ) : (
     <Rulebook game={game} resource={code[1] || 'rulebook'} />

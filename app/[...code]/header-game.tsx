@@ -16,14 +16,14 @@ export default function HeaderGame({ game }: Props) {
         <img className="h-6" src="/rulespal.svg" alt="RulesPal" />
       </Link>
       <Link
-        href={`/${game.code}/chat`}
+        href={`/${game.code}/`}
         className="flex flex-row gap-2 rounded-full p-2 hover:bg-primary/25"
       >
         <MessageCircleQuestion className="text-primary" />
         <span className="hidden font-semibold text-primary md:block">Chat</span>
       </Link>
       <Link
-        href={`/${game.code}/rulebook`}
+        href="rulebook"
         prefetch={false}
         className="flex flex-row gap-2 rounded-full p-2 hover:bg-primary/25"
       >

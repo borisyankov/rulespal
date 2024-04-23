@@ -1,5 +1,3 @@
 export default function Progress() {
-  return (
-    <span className="animate-pulse text-purple-600">⬤</span>
-  );
+  return <span className="animate-pulse text-primary">⬤</span>;
 }
