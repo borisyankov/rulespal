@@ -22,14 +22,21 @@ type SearchForResponse = {
   embeddings: EmbeddingSet[];
 };
 
-export async function searchFor(query: string, bggid: number): Promise<SearchForResponse> {
+export async function searchFor(
+  query: string,
+  bggid: number,
+): Promise<SearchForResponse> {
   const game = games.find((x) => x.bggid === bggid);
   if (!game) {
-    throw "Game not found";
+    throw 'Game not found';
   }
   const [rulebook, gameEmbeddings] = await Promise.all([
-    import(`../../data/rulebooks/${game.code}_rulebook.md`).then((module) => module.default as string),
-    import(`../../data/embeddings/${game.code}_embeddings.json`).then((module) => module.default as EmbeddingSet[])
+    import(`../../data/rulebooks/${game.code}-rulebook.md`).then(
+      (module) => module.default as string,
+    ),
+    import(`../../data/embeddings/${game.code}-embeddings.json`).then(
+      (module) => module.default as EmbeddingSet[],
+    ),
   ]);
   const queryEmbedding = await getEmbedding(query);
   console.time('Search all embeddings');
@@ -41,7 +48,9 @@ export async function searchFor(query: string, bggid: number): Promise<SearchFor
   cosine.sort((a, b) => b.similarity - a.similarity);
   console.timeEnd('Search all embeddings');
   const topFive = cosine.slice(0, 5);
-  const rulesExcerpt = topFive.map((x, i) => rulebook.substring(x.start, x.start + x.length)).join('\n');
+  const rulesExcerpt = topFive
+    .map((x, i) => rulebook.substring(x.start, x.start + x.length))
+    .join('\n');
   return {
     prompt: getPrompt(rulesExcerpt, game.name),
     embeddings: topFive,
