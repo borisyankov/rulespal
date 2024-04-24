@@ -15,7 +15,7 @@ type Props = {
 
 export default async function Rulebook({ game, resource }: Props) {
   const gameRulebook = (
-    await import(`../../data/rulebooks/${game.code}_${resource}.md`)
+    await import(`../../data/rulebooks/${game.code}-${resource}.md`)
   ).default;
   return (
     <div className="pt-5">

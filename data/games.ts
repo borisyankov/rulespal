@@ -4,17 +4,17 @@ const assets: Game[] = [
   {
     bggid: 68448,
     name: '7 Wonders',
-    code: '7_wonders',
+    code: '7-wonders',
   },
   {
     bggid: 346703,
     name: '7 Wonders: Architects',
-    code: '7_wonders_architects',
+    code: '7-wonders-architects',
   },
   {
     bggid: 173346,
     name: '7 Wonders Duel',
-    code: '7_wonders_duel',
+    code: '7-wonders-duel',
   },
   {
     bggid: 31260,
@@ -25,7 +25,7 @@ const assets: Game[] = [
     bggid: 185343,
     name: 'Anachrony',
     code: 'anachrony',
-    extraSources: ['chronobot_chronossus'],
+    extraSources: ['chronobot-chronossus'],
   },
   {
     bggid: 400314,
@@ -35,12 +35,12 @@ const assets: Game[] = [
   {
     bggid: 342942,
     name: 'Ark Nova',
-    code: 'ark_nova',
+    code: 'ark-nova',
   },
   {
     bggid: 205637,
     name: 'Arkham Horror: The Card Game',
-    code: 'arkham_horror_card_game',
+    code: 'arkham-horror-card-game',
     extraSources: ['reference'],
   },
   {
@@ -51,7 +51,7 @@ const assets: Game[] = [
   {
     bggid: 287954,
     name: 'Azul: Summer Pavilion',
-    code: 'azul_summer_pavilion',
+    code: 'azul-summer-pavilion',
   },
   {
     bggid: 11,
@@ -61,27 +61,27 @@ const assets: Game[] = [
   {
     bggid: 224517,
     name: 'Brass: Birmingham',
-    code: 'brass_birmingham',
+    code: 'brass-birmingham',
   },
   {
     bggid: 184921,
     name: 'Bunny Kingdom',
-    code: 'bunny_kingdom',
+    code: 'bunny-kingdom',
   },
   {
     bggid: 260605,
     name: 'Camel Up',
-    code: 'camel_up',
+    code: 'camel-up',
   },
   {
     bggid: 41,
     name: "Can't Stop",
-    code: 'cant_stop',
+    code: 'cant-stop',
   },
   {
     bggid: 171131,
     name: 'Captain Sonar',
-    code: 'captain_sonar',
+    code: 'captain-sonar',
   },
   {
     bggid: 822,
@@ -101,7 +101,7 @@ const assets: Game[] = [
   {
     bggid: 345972,
     name: 'Cat in the Box: Deluxe Edition',
-    code: 'cat_in_the_box',
+    code: 'cat-in-the-box',
     shortName: 'Cat in the Box',
   },
   {
@@ -112,7 +112,7 @@ const assets: Game[] = [
   {
     bggid: 209685,
     name: 'Century: Spice Road',
-    code: 'century_spice_road',
+    code: 'century-spice-road',
   },
   {
     bggid: 171,
@@ -133,7 +133,7 @@ const assets: Game[] = [
   {
     bggid: 365717,
     name: 'Clank!: Catacombs',
-    code: 'clank_catacombs',
+    code: 'clank-catacombs',
   },
   {
     bggid: 178900,
@@ -158,7 +158,7 @@ const assets: Game[] = [
   {
     bggid: 156129,
     name: 'Deception: Murder in Hong Kong',
-    code: 'deception_murder_hong_kong',
+    code: 'deception-murder-hong-kong',
     shortName: 'Deception',
   },
   {
@@ -179,7 +179,7 @@ const assets: Game[] = [
   {
     bggid: 92828,
     name: 'Dixit: Odyssey',
-    code: 'dixit_odyssey',
+    code: 'dixit-odyssey',
   },
   {
     bggid: 36218,
@@ -196,12 +196,12 @@ const assets: Game[] = [
   {
     bggid: 316554,
     name: 'Dune: Imperium',
-    code: 'dune_imperium',
+    code: 'dune-imperium',
   },
   {
     bggid: 397598,
     name: 'Dune: Imperium – Uprising',
-    code: 'dune_imperium_uprising',
+    code: 'dune-imperium-uprising',
   },
   {
     bggid: 2346,
@@ -221,7 +221,7 @@ const assets: Game[] = [
   {
     bggid: 223040,
     name: 'Fantasy Realms',
-    code: 'fantasy_realms',
+    code: 'fantasy-realms',
   },
   {
     bggid: 385761,
@@ -231,7 +231,7 @@ const assets: Game[] = [
   {
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
-    code: 'five_tribes',
+    code: 'five-tribes',
     shortName: 'Five Tribes',
   },
   {
@@ -249,22 +249,22 @@ const assets: Game[] = [
     bggid: 334590,
     name: 'For Northwood! A Solo Trick-Taking Game',
     shortName: 'For Northwood',
-    code: 'for_northwood',
+    code: 'for-northwood',
   },
   {
     bggid: 172,
     name: 'For Sale',
-    code: 'for_sale',
+    code: 'for-sale',
   },
   {
     bggid: 65244,
     name: 'Forbidden Island',
-    code: 'forbidden_island',
+    code: 'forbidden-island',
   },
   {
     bggid: 391163,
     name: 'Forest Shuffle',
-    code: 'forest_shuffle',
+    code: 'forest-shuffle',
     extraSources: ['appendix'],
   },
   {
@@ -280,23 +280,23 @@ const assets: Game[] = [
   {
     bggid: 393672,
     name: 'Gloomhaven: Buttons & Bugs',
-    code: 'gloomhaven_buttons_and_bugs',
+    code: 'gloomhaven-buttons-and-bugs',
   },
   {
     bggid: 291457,
     name: 'Gloomhaven: Jaws of the Lion',
-    code: 'gloomhaven_jotl',
+    code: 'gloomhaven-jotl',
   },
   {
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
-    code: 'great_western_trail',
+    code: 'great-western-trail',
     shortName: 'Great Western Trail',
   },
   {
     bggid: 304783,
     name: "Hadrian's Wall",
-    code: 'hadrians_wall',
+    code: 'hadrians-wall',
   },
   {
     bggid: 98778,
@@ -321,7 +321,7 @@ const assets: Game[] = [
   {
     bggid: 15512,
     name: 'Incan Gold',
-    code: 'incan_gold',
+    code: 'incan-gold',
   },
   {
     bggid: 63888,
@@ -336,7 +336,7 @@ const assets: Game[] = [
   {
     bggid: 271324,
     name: "It's a Wonderful World",
-    code: 'its_wonderful_world',
+    code: 'its-wonderful-world',
   },
   {
     bggid: 54043,
@@ -346,7 +346,7 @@ const assets: Game[] = [
   {
     bggid: 254640,
     name: 'Just One',
-    code: 'just_one',
+    code: 'just-one',
   },
   {
     bggid: 122515,
@@ -356,7 +356,7 @@ const assets: Game[] = [
   {
     bggid: 70323,
     name: 'King of Tokyo',
-    code: 'king_of_tokyo',
+    code: 'king-of-tokyo',
   },
   {
     bggid: 204583,
@@ -371,22 +371,22 @@ const assets: Game[] = [
   {
     bggid: 110327,
     name: 'Lords of Waterdeep',
-    code: 'lords_of_waterdeep',
+    code: 'lords-of-waterdeep',
   },
   {
     bggid: 50,
     name: 'Lost Cities',
-    code: 'lost_cities',
+    code: 'lost-cities',
   },
   {
     bggid: 312484,
     name: 'Lost Ruins of Arnak',
-    code: 'lost_ruins_of_arnak',
+    code: 'lost-ruins-of-arnak',
   },
   {
     bggid: 129622,
     name: 'Love Letter',
-    code: 'love_letter',
+    code: 'love-letter',
   },
   {
     bggid: 217083,
@@ -396,20 +396,20 @@ const assets: Game[] = [
   {
     bggid: 283948,
     name: 'Marco Polo II: In the Service of the Khan',
-    code: 'marco_polo_ii',
+    code: 'marco-polo-ii',
     shortName: 'Marco Polo II',
   },
   {
     bggid: 285774,
     name: 'Marvel Champions: The Card Game',
     shortName: 'Marvel Champions',
-    code: 'marvel_champions',
+    code: 'marvel-champions',
     extraSources: ['reference'],
   },
   {
     bggid: 387378,
     name: 'MLEM: Space Agency',
-    code: 'mlem_space_agency',
+    code: 'mlem-space-agency',
   },
   {
     bggid: 156546,
@@ -419,7 +419,7 @@ const assets: Game[] = [
   {
     bggid: 12942,
     name: 'No Thanks!',
-    code: 'no_thanks',
+    code: 'no-thanks',
   },
   {
     bggid: 231733,
@@ -439,22 +439,22 @@ const assets: Game[] = [
   {
     bggid: 258779,
     name: 'Planet Unknown',
-    code: 'planet_unknown',
+    code: 'planet-unknown',
   },
   {
     bggid: 274960,
     name: 'Point Salad',
-    code: 'point_salad',
+    code: 'point-salad',
   },
   {
     bggid: 2651,
     name: 'Power Grid',
-    code: 'power_grid',
+    code: 'power-grid',
   },
   {
     bggid: 3076,
     name: 'Puerto Rico',
-    code: 'puerto_rico',
+    code: 'puerto-rico',
   },
   {
     bggid: 19764,
@@ -474,17 +474,17 @@ const assets: Game[] = [
   {
     bggid: 28143,
     name: 'Race for the Galaxy',
-    code: 'race_for_the_galaxy',
+    code: 'race-for-the-galaxy',
   },
   {
     bggid: 351040,
     name: 'Ready Set Bet',
-    code: 'ready_set_bet',
+    code: 'ready-set-bet',
   },
   {
     bggid: 262712,
     name: 'Res Arcana',
-    code: 'res_arcana',
+    code: 'res-arcana',
   },
   {
     bggid: 352697,
@@ -514,37 +514,37 @@ const assets: Game[] = [
   {
     bggid: 367220,
     name: 'Sea Salt & Paper',
-    code: 'sea_salt_n_paper',
+    code: 'sea-salt-n-paper',
   },
   {
     bggid: 150145,
     name: 'Skull King',
-    code: 'skull_king',
+    code: 'skull-king',
   },
   {
     bggid: 373106,
     name: 'Sky Team',
-    code: 'sky_team',
+    code: 'sky-team',
   },
   {
     bggid: 40692,
     name: 'Small World',
-    code: 'small_world',
+    code: 'small-world',
   },
   {
     bggid: 329839,
     name: 'So Clover!',
-    code: 'so_clover',
+    code: 'so-clover',
   },
   {
     bggid: 242302,
     name: 'Space Base',
-    code: 'space_base',
+    code: 'space-base',
   },
   {
     bggid: 162886,
     name: 'Spirit Island',
-    code: 'spirit_island',
+    code: 'spirit-island',
   },
   {
     bggid: 148228,
@@ -554,12 +554,12 @@ const assets: Game[] = [
   {
     bggid: 364073,
     name: 'Splendor Duel',
-    code: 'splendor_duel',
+    code: 'splendor-duel',
   },
   {
     bggid: 63268,
     name: 'Spot it!',
-    code: 'spot_it',
+    code: 'spot-it',
     alternativeNames: ['Dobble'],
   },
   {
@@ -570,27 +570,27 @@ const assets: Game[] = [
   {
     bggid: 147020,
     name: 'Star Realms',
-    code: 'star_realms',
+    code: 'star-realms',
   },
   {
     bggid: 34635,
     name: 'Stone Age',
-    code: 'stone_age',
+    code: 'stone-age',
   },
   {
     bggid: 133473,
     name: 'Sushi Go!',
-    code: 'sushi_go',
+    code: 'sushi-go',
   },
   {
     bggid: 192291,
     name: 'Sushi Go Party!',
-    code: 'sushi_go_party',
+    code: 'sushi-go-party',
   },
   {
     bggid: 432,
     name: 'Take 5',
-    code: 'take_5',
+    code: 'take-5',
     alternativeNames: ['6 nimmt!', 'Sechs Nimmt', 'Category 5'],
   },
   {
@@ -612,75 +612,75 @@ const assets: Game[] = [
   {
     bggid: 120677,
     name: 'Terra Mystica',
-    code: 'terra_mystica',
+    code: 'terra-mystica',
   },
   {
     bggid: 167791,
     name: 'Terraforming Mars',
-    code: 'terraforming_mars',
+    code: 'terraforming-mars',
   },
   {
     bggid: 244522,
     name: "That's Pretty Clever!",
-    code: 'thats_pretty_clever',
+    code: 'thats-pretty-clever',
     alternativeNames: ['Ganz Schön Clever!'],
   },
   {
     bggid: 286063,
     name: 'The 7th Citadel',
-    code: 'the_7th_citadel',
+    code: 'the-7th-citadel',
   },
   {
     bggid: 84876,
     name: 'The Castles of Burgundy',
-    code: 'the_castles_of_burgundy',
+    code: 'the-castles-of-burgundy',
     alternativeNames: ['The Castles of Burgundy: Special Edition'],
   },
   {
     bggid: 284083,
     name: 'The Crew: The Quest for Planet Nine',
-    code: 'the_crew',
+    code: 'the-crew',
     shortName: 'The Crew',
   },
   {
     bggid: 281259,
     name: 'The Isle of Cats',
-    code: 'the_isle_of_cats',
+    code: 'the-isle-of-cats',
   },
   {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
-    code: 'quacks_of_quedlinburg',
+    code: 'quacks-of-quedlinburg',
   },
   {
     bggid: 217372,
     name: 'The Quest for El Dorado',
-    code: 'the_quest_for_el_dorado',
+    code: 'the-quest-for-el-dorado',
   },
   {
     bggid: 244992,
     name: 'The Mind',
-    code: 'the_mind',
+    code: 'the-mind',
   },
   {
     bggid: 128882,
     name: 'The Resistance: Avalon',
-    code: 'resistance_avalon',
+    code: 'resistance-avalon',
   },
   {
     bggid: 371942,
     name: 'The White Castle',
-    code: 'the_white_castle',
+    code: 'the-white-castle',
   },
   {
     bggid: 171623,
     name: 'The Voyages of Marco Polo',
-    code: 'marco_polo',
+    code: 'marco-polo',
   },
   {
     bggid: 342070,
     name: 'Thunder Road: Vendetta',
-    code: 'thunder_road_vendetta',
+    code: 'thunder-road-vendetta',
   },
   {
     bggid: 215,
@@ -690,23 +690,23 @@ const assets: Game[] = [
   {
     bggid: 9209,
     name: 'Ticket to Ride',
-    code: 'ticket_to_ride',
+    code: 'ticket-to-ride',
   },
   {
     bggid: 14996,
     name: 'Ticket to Ride: Europe',
-    code: 'ticket_to_ride_europe',
+    code: 'ticket-to-ride-europe',
   },
   {
     bggid: 390092,
     name: 'Ticket to Ride Legacy: Legends of the West',
-    code: 'ticket_to_ride_legacy_legends_of_the_west',
+    code: 'ticket-to-ride-legacy-legends-of-the-west',
     shortName: 'Ticket to Ride Legacy',
   },
   {
     bggid: 36553,
     name: "Time's Up! Title Recall!",
-    code: 'times_up_title_recall',
+    code: 'times-up-title-recall',
   },
   {
     bggid: 352515,
@@ -726,7 +726,7 @@ const assets: Game[] = [
   {
     bggid: 356123,
     name: 'Turing Machine',
-    code: 'turing_machine',
+    code: 'turing-machine',
   },
   {
     bggid: 31999,
@@ -736,7 +736,7 @@ const assets: Game[] = [
   {
     bggid: 247763,
     name: 'Underwater Cities',
-    code: 'underwater_cities',
+    code: 'underwater-cities',
   },
   {
     bggid: 183394,
@@ -747,7 +747,7 @@ const assets: Game[] = [
   {
     bggid: 233867,
     name: 'Welcome To...',
-    code: 'welcome_to',
+    code: 'welcome-to',
   },
   {
     bggid: 266192,
@@ -762,7 +762,7 @@ const assets: Game[] = [
   {
     bggid: 365258,
     name: 'World Wonders',
-    code: 'world_wonders',
+    code: 'world-wonders',
   },
   {
     bggid: 410201,
