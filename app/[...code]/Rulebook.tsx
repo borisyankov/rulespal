@@ -18,14 +18,14 @@ export default async function Rulebook({ game, resource }: Props) {
     await import(`../../data/rulebooks/${game.code}_${resource}.md`)
   ).default;
   return (
-    <div>
+    <div className="pt-5">
       <div className="inline-flex items-center gap-4">
         <Thumbnail game={game} className="size-12" />
         <h1 className="text-3xl font-semibold">{game.name}</h1>
       </div>
       <Markdown
         className="marker:primary prose-summary:bg-red-500 prose
-      max-w-screen-sm
+      max-w-screen-sm py-5
       dark:prose-invert prose-h1:hidden
       prose-h2:mb-4 prose-h2:mt-7 prose-h2:text-3xl
       prose-h2:tracking-wider

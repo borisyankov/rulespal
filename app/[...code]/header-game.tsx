@@ -7,7 +7,8 @@ import ThemeSwitcher from '../ui/theme-switcher';
 import { MessageCircleQuestion, BookOpenTextIcon } from 'lucide-react';
 import Header from '../ui/header';
 import { usePathname } from 'next/navigation';
-import { cn } from '../lib/utils';
+import TabButton from '../ui/tab-button';
+import Logo from '../ui/logo';
 
 type Props = {
   game: Game;
@@ -19,37 +20,20 @@ export default function HeaderGame({ game }: Props) {
   return (
     <Header>
       <Link href="/">
-        <img className="h-6" src="/rulespal.svg" alt="RulesPal" />
+        <Logo className="w-24" />
       </Link>
-      <div
-        className={cn(isChatActive && 'shadow-[0_5px_0_0_hsl(var(--primary))]')}
-      >
-        <Link
-          href={`/${game.code}/`}
-          className="flex flex-row gap-2 rounded-md p-2 hover:bg-primary/25"
-        >
-          <MessageCircleQuestion className="text-primary" />
-          <span className="hidden font-semibold text-primary md:block">
-            Chat
-          </span>
-        </Link>
-      </div>
-      <div
-        className={cn(
-          !isChatActive && 'shadow-[0_5px_0_0_hsl(var(--primary))]',
-        )}
-      >
-        <Link
-          href={`/${game.code}/rulebook`}
-          prefetch={false}
-          className="flex flex-row gap-2 rounded-md p-2 hover:bg-primary/25"
-        >
-          <BookOpenTextIcon className="text-primary" />
-          <span className="hidden font-semibold text-primary md:block">
-            Rulebook
-          </span>
-        </Link>
-      </div>
+      <TabButton
+        text="Chat"
+        Icon={MessageCircleQuestion}
+        href={`/${game.code}/`}
+        isActive={isChatActive}
+      />
+      <TabButton
+        text="Rulebook"
+        Icon={BookOpenTextIcon}
+        href={`/${game.code}/rulebook`}
+        isActive={!isChatActive}
+      />
       <ThemeSwitcher />
       <GameDialog game={game} />
     </Header>
