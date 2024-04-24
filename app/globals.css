@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 @layer base {
   :root {
@@ -25,8 +24,7 @@
     --input: 220 13% 91%;
     --ring: 262.1 83.3% 57.8%;
     --radius: 0.3rem;
-    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-caret-down-fill' viewBox='0 0 16 16' %3E%3Cpath fill='currentColor' d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z' /%3E%3C/svg%3E")
-
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-caret-down-fill' viewBox='0 0 16 16' %3E%3Cpath fill='currentColor' d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z' /%3E%3C/svg%3E");
   }
 
   .dark {
@@ -52,7 +50,6 @@
   }
 }
 
- 
 @layer base {
   * {
     @apply border-border;
@@ -63,12 +60,12 @@
 }
 
 ::-webkit-scrollbar {
-	width: 10px;
-	background-color: transparent;
+  width: 10px;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-	border-radius: 10px;
+  border-radius: 10px;
   background-color: rgba(127, 127, 127, 0.25);
 }
 
@@ -83,7 +80,7 @@
 
 summary {
   display: flex;
-  align-items: center;  
+  align-items: center;
   gap: 0.5rem;
   background: hsl(var(--muted));
   cursor: pointer;
@@ -96,6 +93,15 @@ summary:hover {
   color: white;
 }
 
-summary::marker, details li::marker {
-  content: "";
+summary::marker,
+details li::marker {
+  content: '';
+}
+
+details a {
+  text-decoration: none !important;
+}
+
+details a:hover {
+  text-decoration: underline 2px hsl(var(--primary)) !important;
 }
