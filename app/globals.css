@@ -60,7 +60,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.75rem;
   background-color: transparent;
 }
 
@@ -78,19 +78,23 @@
   background: hsl(var(--primary));
 }
 
+details {
+  background: hsl(var(--muted));
+  border-radius: 0.25rem;
+}
+
 summary {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: hsl(var(--muted));
   cursor: pointer;
   padding: 0.5rem;
-  border-radius: 0.25rem;
 }
 
 summary:hover {
   background-color: hsl(var(--primary));
   color: white;
+  border-radius: 0.25rem;
 }
 
 summary::marker,

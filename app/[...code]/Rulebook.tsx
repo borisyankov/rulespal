@@ -7,6 +7,7 @@ import rehypeRaw from 'rehype-raw';
 import remarkTocCollapse from '../lib/remark-toc-collapse';
 import type { Game } from '../lib/definitions';
 import Thumbnail from '../ui/thumbnail';
+import GameTitle from '../ui/game-title';
 
 type Props = {
   game: Game;
@@ -18,11 +19,8 @@ export default async function Rulebook({ game, resource }: Props) {
     await import(`../../data/rulebooks/${game.code}-${resource}.md`)
   ).default;
   return (
-    <div className="pt-5">
-      <div className="inline-flex items-center gap-4">
-        <Thumbnail game={game} className="size-12" />
-        <h1 className="text-3xl font-semibold">{game.name}</h1>
-      </div>
+    <div>
+      <GameTitle game={game} />
       <Markdown
         className="marker:primary prose-summary:bg-red-500 prose
       max-w-screen-sm py-5
