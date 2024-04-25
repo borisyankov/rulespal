@@ -27,14 +27,14 @@ async function docToEmbeddings(rulebookFile: string, embeddingFile: string) {
 
 async function processRulebook(game: Game) {
   const projectRoot = path.resolve(__dirname, '..');
-  const outputFilename = `${projectRoot}/data/embeddings/${game.code}_embeddings.json`;
+  const outputFilename = `${projectRoot}/data/embeddings/${game.code}-embeddings.json`;
   if (fs.existsSync(outputFilename)) {
     console.log(`Skipping ${game.code}`);
     return;
   }
 
   console.log(`Processing ${game.code}`);
-  const rulebookFilename = `${projectRoot}/data/rulebooks/${game.code}_rulebook.md`;
+  const rulebookFilename = `${projectRoot}/data/rulebooks/${game.code}-rulebook.md`;
   docToEmbeddings(rulebookFilename, outputFilename);
 }
 
