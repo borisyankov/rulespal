@@ -268,6 +268,11 @@ const assets: Game[] = [
     extraSources: ['appendix'],
   },
   {
+    bggid: 220308,
+    name: 'Gaia Project',
+    code: 'gaia-project',
+  },
+  {
     bggid: 527,
     name: 'GIPF',
     code: 'gipf',
