@@ -172,6 +172,11 @@ const assets: Game[] = [
     code: 'deus',
   },
   {
+    bggid: 369646,
+    name: 'Disney Lorcana',
+    code: 'disney-lorcana',
+  },
+  {
     bggid: 39856,
     name: 'Dixit',
     code: 'dixit',
