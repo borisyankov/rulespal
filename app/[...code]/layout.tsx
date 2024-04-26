@@ -1,11 +1,8 @@
 import games from '@/data/games';
-import Chat from './chat';
 import { redirect } from 'next/navigation';
-import Rulebook from './Rulebook';
 
-import { Suspense } from 'react';
 import HeaderGame from './header-game';
-import ExtraSources from '../ui/extra-sources';
+import Script from 'next/script';
 
 type Props = {
   children: React.ReactNode;
@@ -23,6 +20,7 @@ export default function Layout({ params: { code }, children }: Props) {
       <main className="flex flex-1 flex-row justify-center gap-4 overflow-auto scroll-smooth px-4">
         {children}
       </main>
+      <Script src="/scroll.js" />
     </div>
   );
 }
