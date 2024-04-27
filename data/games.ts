@@ -422,6 +422,12 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 345584,
+    name: 'Mindbug: First Contact',
+    code: 'mindbug-first-contact',
+    shortName: 'Mindbug',
+  },
+  {
     bggid: 387378,
     name: 'MLEM: Space Agency',
     code: 'mlem-space-agency',
