@@ -22,7 +22,7 @@ export default function Chat({ game }: Props) {
     handleSubmit(e, { data: { bggid: game.bggid.toString() } });
   }
   return (
-    <div className="w-full max-w-screen-sm mx-auto">
+    <main className="w-full max-w-screen-sm mx-auto">
       <GameTitle game={game} />
       {messages.length ? (
         <MessageList game={game} messages={messages} isLoading={isLoading} />
@@ -35,6 +35,6 @@ export default function Chat({ game }: Props) {
         submitMessage={submitWithGame}
         onChange={handleInputChange}
       />
-    </div>
+    </main>
   );
 }

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex h-screen flex-col pt-20">
       <Header />
-      <div className="mx-auto w-full max-w-screen-sm">
+      <div className="mx-auto w-full max-w-screen-sm p-2">
         <GameBar />
       </div>
       <Footer />

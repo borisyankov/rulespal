@@ -49,7 +49,7 @@ export default function UserInput({ isLoading, stop, submitMessage, onChange }: 
   return (
     <form
       ref={formRef}
-      className="fixed bottom-0 inset-x-0 p-4 flex flex-row gap-3 mx-auto w-full max-w-screen-md"
+      className="fixed bottom-0 inset-x-0 p-4 flex flex-row gap-3 mx-auto w-full max-w-screen-sm"
       onSubmit={handleFormSubmit}
     >
       <Textarea

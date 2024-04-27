@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <div className="mt-10 w-full">
+    <div className="mt-10 w-full p-2">
       {[...Array(10)].map((_, index) => (
         <div
           key={index}

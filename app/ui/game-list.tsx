@@ -8,7 +8,7 @@ type Props = {
 
 export default function GameList({ games, selected }: Props) {
   return (
-    <div className="flex flex-1 flex-wrap content-start gap-5 overflow-auto">
+    <div className="flex flex-1 flex-wrap content-start gap-4 overflow-auto">
       {games.map((game) => (
         <GameItem
           key={game.code}
