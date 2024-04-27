@@ -404,6 +404,11 @@ const assets: Game[] = [
     code: 'lyngk',
   },
   {
+    bggid: 118247,
+    name: 'Lucky Numbers',
+    code: 'lucky-numbers',
+  },
+  {
     bggid: 283948,
     name: 'Marco Polo II: In the Service of the Khan',
     code: 'marco-polo-ii',
@@ -425,6 +430,11 @@ const assets: Game[] = [
     bggid: 156546,
     name: 'Monikers',
     code: 'monikers',
+  },
+  {
+    bggid: 353545,
+    name: 'Next Station: London',
+    code: 'next-station-london',
   },
   {
     bggid: 12942,
