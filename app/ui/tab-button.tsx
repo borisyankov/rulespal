@@ -22,7 +22,7 @@ export default function TabButton({ text, Icon, href, isActive }: Props) {
       </Link>
       <div
         className={cn(
-          'relative bottom-0 left-0 block h-1 w-full rounded-full',
+          'relative bottom-0 left-0 block h-1 -mt-1  w-full rounded-full',
           isActive && 'bg-primary',
         )}
       />

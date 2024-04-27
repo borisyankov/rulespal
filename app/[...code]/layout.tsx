@@ -1,8 +1,7 @@
 import games from '@/data/games';
 import { redirect } from 'next/navigation';
-
-import HeaderGame from './header-game';
 import Script from 'next/script';
+import Header from '../ui/header';
 
 type Props = {
   children: React.ReactNode;
@@ -15,11 +14,9 @@ export default function Layout({ params: { code }, children }: Props) {
     return redirect('/');
   }
   return (
-    <div className="flex h-screen flex-col">
-      <HeaderGame game={game} />
-      <main className="flex flex-1 flex-row justify-center gap-4 overflow-auto scroll-smooth px-4">
-        {children}
-      </main>
+    <div className="flex h-screen flex-col pt-20">
+      <Header game={game} />
+      {children}
       <Script src="/scroll.js" />
     </div>
   );

@@ -6,7 +6,6 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeRaw from 'rehype-raw';
 import remarkTocCollapse from '../lib/remark-toc-collapse';
 import type { Game } from '../lib/definitions';
-import Thumbnail from '../ui/thumbnail';
 import GameTitle from '../ui/game-title';
 
 type Props = {
@@ -19,7 +18,7 @@ export default async function Rulebook({ game, resource }: Props) {
     await import(`../../data/rulebooks/${game.code}-${resource}.md`)
   ).default;
   return (
-    <div>
+    <main className="max-w-screen-sm mx-auto">
       <GameTitle game={game} />
       <Markdown
         className="marker:primary prose-summary:bg-red-500 prose
@@ -33,8 +32,8 @@ export default async function Rulebook({ game, resource }: Props) {
       prose-h4:tracking-wider
       prose-h5:text-lg prose-h5:font-bold prose-h5:tracking-wider prose-h6:font-bold
       prose-h6:tracking-wider prose-p:my-3 prose-p:leading-normal prose-a:font-bold
-      prose-a:decoration-primary prose-a:decoration-2 prose-ol:my-2
-      prose-ul:my-2 prose-ul:pl-5 prose-li:my-0
+      prose-a:decoration-primary prose-a:decoration-2 prose-a:underline-offset-2
+      prose-ol:my-2 prose-ul:my-2 prose-ul:pl-5 prose-li:my-0
       prose-li:p-0 prose-hr:my-8
       "
         rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
@@ -42,6 +41,6 @@ export default async function Rulebook({ game, resource }: Props) {
       >
         {gameRulebook}
       </Markdown>
-    </div>
+    </main>
   );
 }

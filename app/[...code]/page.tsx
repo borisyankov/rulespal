@@ -7,7 +7,7 @@ type Props = {
   params: { code: string };
 };
 
-export default function Home({ params: { code } }: Props) {
+export default function GamePage({ params: { code } }: Props) {
   const game = games.find((game) => game.code === code[0]);
   if (!game) {
     return redirect('/');
