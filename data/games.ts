@@ -537,9 +537,9 @@ const assets: Game[] = [
     code: 'sea-salt-n-paper',
   },
   {
-    bggid: 150145,
-    name: 'Skull King',
-    code: 'skull-king',
+    bggid: 268620,
+    name: 'Similo',
+    code: 'similo',
   },
   {
     bggid: 373106,
