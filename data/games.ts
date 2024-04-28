@@ -156,6 +156,11 @@ const assets: Game[] = [
     code: 'crokinole',
   },
   {
+    bggid: 245476,
+    name: 'CuBirds',
+    code: 'cubirds',
+  },
+  {
     bggid: 156129,
     name: 'Deception: Murder in Hong Kong',
     code: 'deception-murder-hong-kong',
