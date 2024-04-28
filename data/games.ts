@@ -443,6 +443,11 @@ const assets: Game[] = [
     code: 'monikers',
   },
   {
+    bggid: 295486,
+    name: 'My City',
+    code: 'my-city',
+  },
+  {
     bggid: 353545,
     name: 'Next Station: London',
     code: 'next-station-london',
