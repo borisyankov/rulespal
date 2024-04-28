@@ -594,6 +594,11 @@ const assets: Game[] = [
     alternativeNames: ['Dobble'],
   },
   {
+    bggid: 372559,
+    name: 'Spots',
+    code: 'spots',
+  },
+  {
     bggid: 251658,
     name: 'Sprawlopolis',
     code: 'sprawlopolis',
