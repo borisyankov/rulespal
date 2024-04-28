@@ -199,6 +199,11 @@ const assets: Game[] = [
     code: 'dorfromantik',
   },
   {
+    bggid: 264055,
+    name: 'Draftosaurus',
+    code: 'draftosaurus',
+  },
+  {
     bggid: 316554,
     name: 'Dune: Imperium',
     code: 'dune-imperium',
