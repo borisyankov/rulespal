@@ -22,6 +22,11 @@ const assets: Game[] = [
     code: 'agricola',
   },
   {
+    bggid: 357563,
+    name: 'Akropolis',
+    code: 'akropolis',
+  },
+  {
     bggid: 185343,
     name: 'Anachrony',
     code: 'anachrony',
