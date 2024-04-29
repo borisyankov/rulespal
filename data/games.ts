@@ -115,6 +115,11 @@ const assets: Game[] = [
     code: 'century-spice-road',
   },
   {
+    bggid: 359970,
+    name: 'Challengers!',
+    code: 'challengers',
+  },
+  {
     bggid: 171,
     name: 'Chess',
     code: 'chess',
