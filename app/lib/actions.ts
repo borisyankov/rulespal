@@ -30,15 +30,17 @@ export async function searchFor(
   if (!game) {
     throw 'Game not found';
   }
-  const [rulebook, gameEmbeddings] = await Promise.all([
+  console.time('Load rulebook, embeddings, embeddings for query');
+  const [rulebook, gameEmbeddings, queryEmbedding] = await Promise.all([
     import(`../../data/rulebooks/${game.code}-rulebook.md`).then(
       (module) => module.default as string,
     ),
     import(`../../data/embeddings/${game.code}-embeddings.json`).then(
       (module) => module.default as EmbeddingSet[],
     ),
+    await getEmbedding(query)
   ]);
-  const queryEmbedding = await getEmbedding(query);
+  console.timeEnd('Load rulebook, embeddings, embeddings for query');
   console.time('Search all embeddings');
   const cosine = gameEmbeddings.map((x) => ({
     ...x,
