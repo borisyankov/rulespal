@@ -29,8 +29,9 @@ async function fetchGeeklist(geeklistId: string): Promise<GeeklistItem[]> {
 }
 
 async function listNotExitingGames() {
-  const geeklistId = '335065'; 
+  const geeklistId = '335606'; 
   // 299279 => Most played games of all time (April 2022 version)
+  // 335606 => Top 50 Most Played - March 2024
   // 335065 => Top 50 Most Played - February 2024
   // 330951 => Top 50 Most Played - December 2023
   // 327111 => Top 50 Most Played - November 2023

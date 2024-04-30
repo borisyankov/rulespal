@@ -37,7 +37,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            {children}
+            <div className="flex h-screen flex-col pt-16 px-2">
+              {children}
+            </div>
           </ThemeProvider>
           <Analytics />
         </body>

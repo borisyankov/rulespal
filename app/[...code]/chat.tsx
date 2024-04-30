@@ -1,12 +1,11 @@
 'use client';
 
+import type { FormEvent } from 'react';
 import { useChat } from 'ai/react';
 import EmptyState from '@/app/ui/empty-state';
 import MessageList from '@/app/ui/message-list';
 import UserInput from '@/app/ui/user-input';
 import type { Game } from '../lib/definitions';
-import type { FormEvent } from 'react';
-import GameTitle from '../ui/game-title';
 
 type Props = {
   game: Game;
@@ -22,8 +21,7 @@ export default function Chat({ game }: Props) {
     handleSubmit(e, { data: { bggid: game.bggid.toString() } });
   }
   return (
-    <main className="w-full max-w-screen-sm mx-auto">
-      <GameTitle game={game} />
+    <main className="size-full max-w-screen-sm mx-auto">
       {messages.length ? (
         <MessageList game={game} messages={messages} isLoading={isLoading} />
       ) : (

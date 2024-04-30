@@ -17,7 +17,7 @@ export default function Header({ game }: Props) {
   const pathname = usePathname();
   const isChatActive = (pathname.match(/\//g) || []).length === 1;
   return (
-    <header className="fixed left-0 top-0 w-full backdrop-blur-3xl p-2">
+    <header className="fixed z-50 left-0 top-0 w-full backdrop-blur-3xl p-2 bg-background/50">
       <div className="m-auto flex w-full max-w-screen-sm flex-row items-center justify-between gap-8 text-white/80">
         <Link href="/">
           <Logo className="w-24" />

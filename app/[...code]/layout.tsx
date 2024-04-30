@@ -14,10 +14,10 @@ export default function Layout({ params: { code }, children }: Props) {
     return redirect('/');
   }
   return (
-    <div className="flex h-screen flex-col pt-20">
+    <>
       <Header game={game} />
       {children}
       <Script src="/scroll.js" />
-    </div>
+    </>
   );
 }

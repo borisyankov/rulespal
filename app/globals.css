@@ -78,10 +78,16 @@
   background: hsl(var(--primary));
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 details {
   background: hsl(var(--muted));
   border-radius: 0.25rem;
   padding: 0.5rem;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
 summary {
@@ -104,6 +110,7 @@ details li::marker {
 }
 
 details a {
+  font-weight: normal !important;
   text-decoration: none !important;
 }
 

@@ -4,6 +4,7 @@ import Question from './question';
 import Answer from './answer';
 import Progress from './progress';
 import type { Game } from '../lib/definitions';
+import GameTitle from './game-title';
 
 type Props = {
   game: Game;
@@ -25,25 +26,28 @@ export default function MessageList({ game, messages, isLoading }: Props) {
     return () => resizeObserver.disconnect();
   }, []);
   return (
-    <div
-      className="w-full flex-1 gap-3 overflow-y-auto p-2 text-base"
-      ref={listRef}
-    >
-      {messages.map((m: Message, index) =>
-        m.role === 'user' ? (
-          <Question key={m.id} m={m} />
-        ) : (
-          <Answer
-            key={m.id}
-            m={m}
-            game={game}
-            isLoading={isLoading && index === messages.length - 1}
-          />
-        ),
-      )}
-      {isLoading && messages[messages.length - 1].role === 'user' && (
-        <Progress />
-      )}
-    </div>
+    <>
+      <GameTitle game={game} />
+      <div
+        className="w-full flex-1 gap-3 overflow-y-auto text-base"
+        ref={listRef}
+      >
+        {messages.map((m: Message, index) =>
+          m.role === 'user' ? (
+            <Question key={m.id} m={m} />
+          ) : (
+            <Answer
+              key={m.id}
+              m={m}
+              game={game}
+              isLoading={isLoading && index === messages.length - 1}
+            />
+          ),
+        )}
+        {isLoading && messages[messages.length - 1].role === 'user' && (
+          <Progress />
+        )}
+      </div>
+    </>
   );
 }

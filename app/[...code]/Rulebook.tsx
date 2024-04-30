@@ -18,12 +18,13 @@ export default async function Rulebook({ game, resource }: Props) {
     await import(`../../data/rulebooks/${game.code}-${resource}.md`)
   ).default;
   return (
-    <article className="max-w-screen-sm mx-auto p-2">
+    <div className="mx-2">
+      <article className="max-w-screen-sm mx-auto">
       <GameTitle game={game} />
       <Markdown
         className="marker:primary prose-summary:bg-red-500 prose
       max-w-screen-sm py-5
-      sm:text-xl
+      sm:text-lg
       dark:prose-invert prose-h1:hidden
       prose-h2:mb-4 prose-h2:mt-7 prose-h2:text-3xl
       prose-h2:tracking-  
@@ -44,6 +45,7 @@ export default async function Rulebook({ game, resource }: Props) {
       >
         {gameRulebook}
       </Markdown>
-    </article>
+      </article>
+    </div>
   );
 }
