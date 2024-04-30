@@ -639,6 +639,11 @@ const assets: Game[] = [
     code: 'star-realms',
   },
   {
+    bggid: 387866,
+    name: 'Star Wars: Unlimited',
+    code: 'star-wars-unlimited',
+  },
+  {
     bggid: 34635,
     name: 'Stone Age',
     code: 'stone-age',
@@ -732,6 +737,11 @@ const assets: Game[] = [
     bggid: 128882,
     name: 'The Resistance: Avalon',
     code: 'resistance-avalon',
+  },
+  {
+    bggid: 385529,
+    name: 'The Vale of Eternity',
+    code: 'the-vale-of-eternity',
   },
   {
     bggid: 371942,
