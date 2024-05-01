@@ -30,40 +30,61 @@ async function timeThis<T>(
   console.time(log);
   try {
     return await asyncFunction();
-  }
-  finally {
+  } finally {
     console.timeEnd(log);
   }
 }
 
-export const loadFileAsArray = () =>{
+export const loadFileAsArray = () => {
   try {
-    const fileContent = fs.readFileSync('../../data/dict.dic', 'utf8');
+    const fileContent = fs.readFileSync('./data/dict.dic', 'utf8');
     const array = fileContent.trim().split('\n');
     return array;
   } catch (error) {
     console.error(error);
     return [];
   }
-}
+};
 
-async function loadData(game: Game, query: string): Promise<[string[], string, EmbeddingSet[], number[]]> {
+async function loadData(
+  game: Game,
+  query: string,
+): Promise<[string[], string, EmbeddingSet[], number[]]> {
   return await Promise.all([
-    timeThis<string[]>("Load dictionary", async () => {
+    timeThis<string[]>('Load dictionary', async () => {
       return loadFileAsArray();
     }),
-    timeThis<string>("Load rulebook", async () => {
+    timeThis<string>('Load rulebook', async () => {
       const m = await import(`../../data/rulebooks/${game.code}-rulebook.md`);
       return m.default as string;
     }),
-    timeThis<EmbeddingSet[]>("Load embeddings", async () => {
-      const m = await import(`../../data/embeddings/${game.code}-embeddings.json`)
+    timeThis<EmbeddingSet[]>('Load embeddings', async () => {
+      const m = await import(
+        `../../data/embeddings/${game.code}-embeddings.json`
+      );
       return m.default as EmbeddingSet[];
     }),
-    timeThis<number[]>("Get embeddings for query", async () => {
+    timeThis<number[]>('Get embeddings for query', async () => {
       return await getEmbedding(query);
     }),
   ]);
+}
+
+function findOOVs(dict: string[], query: string) {
+  const words = query.match(/[a-zA-Z]+/g) || [];
+  const lowerCaseDict = dict.map((word) => word.toLowerCase());
+  const OOVs = words.filter(
+    (word) => !lowerCaseDict.includes(word.toLowerCase()),
+  );
+  return OOVs;
+}
+
+function getOovCount(content: string, OOVs: string[]) {
+  const lowerContent = content.toLowerCase();
+  const count = OOVs.map((oov) =>
+    lowerContent.includes(oov.toLowerCase()),
+  ).filter((x) => x).length;
+  return count;
 }
 
 export async function searchFor(
@@ -76,15 +97,26 @@ export async function searchFor(
   }
 
   console.time('Load rulebook, embeddings, embeddings for query');
-  const [dict, rulebook, gameEmbeddings, queryEmbedding] = await loadData(game, query);
+  const [dict, rulebook, gameEmbeddings, queryEmbedding] = await loadData(
+    game,
+    query,
+  );
   console.timeEnd('Load rulebook, embeddings, embeddings for query');
-  
+
+  const OOVs = findOOVs(dict, query);
+
   console.time('Search all embeddings');
-  const cosine = gameEmbeddings.map((x) => ({
-    ...x,
-    content: rulebook.substring(x.start, x.start + x.length),
-    similarity: cosineSimilarity(x.embedding, queryEmbedding),
-  }));
+  const cosine = gameEmbeddings.map((x) => {
+    const content = rulebook.substring(x.start, x.start + x.length);
+    const cosine = cosineSimilarity(x.embedding, queryEmbedding);
+    const oovCount = getOovCount(content, OOVs);
+    console.log(oovCount);
+    return {
+      ...x,
+      content,
+      similarity: cosine + oovCount * 0.1,
+    };
+  });
   cosine.sort((a, b) => b.similarity - a.similarity);
   console.timeEnd('Search all embeddings');
 
