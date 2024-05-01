@@ -3,7 +3,7 @@ import { cosineSimilarity } from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { EmbeddingSet, Game } from './definitions';
-import { promises as fs } from 'node:fs';
+import dict from '../../data/dict';
 
 const openai = new OpenAI();
 
@@ -35,25 +35,11 @@ async function timeThis<T>(
   }
 }
 
-async function loadFileAsArray() {
-  try {
-    const fileContent = await fs.readFile(`${process.cwd()}/data/dict.dic`, 'utf8');
-    const array = fileContent.trim().split('\n');
-    return array;
-  } catch (error) {
-    console.error(error);
-    return [];
-  }
-};
-
 async function loadData(
   game: Game,
   query: string,
-): Promise<[string[], string, EmbeddingSet[], number[]]> {
+): Promise<[string, EmbeddingSet[], number[]]> {
   return await Promise.all([
-    timeThis<string[]>('Load dictionary', async () => {
-      return loadFileAsArray();
-    }),
     timeThis<string>('Load rulebook', async () => {
       const m = await import(`../../data/rulebooks/${game.code}-rulebook.md`);
       return m.default as string;
@@ -97,7 +83,7 @@ export async function searchFor(
   }
 
   console.time('Load rulebook, embeddings, embeddings for query');
-  const [dict, rulebook, gameEmbeddings, queryEmbedding] = await loadData(
+  const [rulebook, gameEmbeddings, queryEmbedding] = await loadData(
     game,
     query,
   );
