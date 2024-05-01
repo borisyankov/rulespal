@@ -104,7 +104,7 @@ export async function searchFor(
     return {
       ...x,
       content,
-      similarity: cosine + oovCount * 0.1,
+      similarity: cosine + oovCount * 0.2,
     };
   });
   cosine.sort((a, b) => b.similarity - a.similarity);
