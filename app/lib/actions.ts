@@ -3,7 +3,7 @@ import { cosineSimilarity } from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { EmbeddingSet, Game } from './definitions';
-import fs from 'node:fs';
+import { promises as fs } from 'node:fs';
 
 const openai = new OpenAI();
 
@@ -35,9 +35,9 @@ async function timeThis<T>(
   }
 }
 
-export const loadFileAsArray = () => {
+async function loadFileAsArray() {
   try {
-    const fileContent = fs.readFileSync('./data/dict.dic', 'utf8');
+    const fileContent = await fs.readFile(`${process.cwd()}/data/dict.dic`, 'utf8');
     const array = fileContent.trim().split('\n');
     return array;
   } catch (error) {
@@ -110,7 +110,6 @@ export async function searchFor(
     const content = rulebook.substring(x.start, x.start + x.length);
     const cosine = cosineSimilarity(x.embedding, queryEmbedding);
     const oovCount = getOovCount(content, OOVs);
-    console.log(oovCount);
     return {
       ...x,
       content,
