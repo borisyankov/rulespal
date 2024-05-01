@@ -90,6 +90,11 @@ export async function searchFor(
   console.timeEnd('Load rulebook, embeddings, embeddings for query');
 
   const OOVs = findOOVs(dict, query);
+  if (OOVs.length === 0) {
+    console.log('No OOVs found!');
+  } else {
+    console.log('OOVs found: ', OOVs);
+  }
 
   console.time('Search all embeddings');
   const cosine = gameEmbeddings.map((x) => {
