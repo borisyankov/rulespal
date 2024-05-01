@@ -26,7 +26,7 @@ export default function MessageList({ game, messages, isLoading }: Props) {
     return () => resizeObserver.disconnect();
   }, []);
   return (
-    <>
+    <div className="pb-16">
       <GameTitle game={game} />
       <div
         className="w-full flex-1 gap-3 overflow-y-auto text-base"
@@ -48,6 +48,6 @@ export default function MessageList({ game, messages, isLoading }: Props) {
           <Progress />
         )}
       </div>
-    </>
+    </div>
   );
 }
