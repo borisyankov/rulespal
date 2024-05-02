@@ -573,6 +573,11 @@ const assets: Game[] = [
     code: 'scout',
   },
   {
+    bggid: 169786,
+    name: 'Scythe',
+    code: 'scythe',
+  },
+  {
     bggid: 367220,
     name: 'Sea Salt & Paper',
     code: 'sea-salt-n-paper',
