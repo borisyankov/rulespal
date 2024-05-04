@@ -13,7 +13,7 @@ const font = Work_Sans({
 
 export const metadata: Metadata = {
   title: 'RulesPal',
-  description: 'Rules for board games, answered by your AI pal.',
+  description: 'Board game rules answered by your AI pal.',
 };
 
 export const viewport: Viewport = {

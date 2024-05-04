@@ -9,6 +9,8 @@ After the answer append verbatim the part of the excerpt that was used to answer
 
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
+Respond in the user's language.
+
 The excerpt of the rulebook that you can use is:
 
 ${rulesExcerpt}

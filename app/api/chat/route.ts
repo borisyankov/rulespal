@@ -46,7 +46,7 @@ export async function POST(req: Request) {
   const response = await openai.chat.completions.create({
     model: 'meta-llama/Llama-3-70b-chat-hf', //n 'llama3-70b-8192', // model: 'gpt-3.5-turbo',
     stream: true,
-    temperature: 0,
+    temperature: 0.1,
     messages,
   });
 
