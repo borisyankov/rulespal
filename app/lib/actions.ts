@@ -23,7 +23,7 @@ type SearchForResponse = {
   embeddings: EmbeddingSet[];
 };
 
-async function timeThis<T>(
+async function time<T>(
   log: string,
   asyncFunction: () => Promise<T>,
 ): Promise<T> {
@@ -35,25 +35,29 @@ async function timeThis<T>(
   }
 }
 
+type AnswerData = [string, EmbeddingSet[], number[]];
+
 async function loadData(
   game: Game,
   query: string,
-): Promise<[string, EmbeddingSet[], number[]]> {
-  return await Promise.all([
-    timeThis<string>('Load rulebook', async () => {
-      const m = await import(`../../data/rulebooks/${game.code}-rulebook.md`);
-      return m.default as string;
-    }),
-    timeThis<EmbeddingSet[]>('Load embeddings', async () => {
-      const m = await import(
-        `../../data/embeddings/${game.code}-embeddings.json`
-      );
-      return m.default as EmbeddingSet[];
-    }),
-    timeThis<number[]>('Get embeddings for query', async () => {
-      return await getEmbedding(query);
-    }),
-  ]);
+): Promise<AnswerData> {
+  const loadRulebook = async () => {
+    const m = await import(`../../data/rulebooks/${game.code}-rulebook.md`);
+    return m.default as string;
+  };
+  const loadEmbeddings = async () => {
+    const m = await import(
+      `../../data/embeddings/${game.code}-embeddings.json`
+    );
+    return m.default as EmbeddingSet[];
+  };
+  const getEmbeddingsForQuery = async () => await getEmbedding(query);
+
+  return await time<AnswerData>('Load all data', () => Promise.all([
+    time<string>('Load rulebook', loadRulebook),
+    time<EmbeddingSet[]>('Load embeddings', loadEmbeddings),
+    time<number[]>('Get embeddings for query', getEmbeddingsForQuery),
+  ]));
 }
 
 function findOOVs(dict: string[], query: string) {
