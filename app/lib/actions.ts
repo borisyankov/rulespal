@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 import { cosineSimilarity } from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
-import type { EmbeddingSet, Game } from './definitions';
+import type { Citation, EmbeddingSet, Game } from './definitions';
 import dict from '../../data/dict';
 
 const openai = new OpenAI();
@@ -19,8 +19,8 @@ export async function getEmbedding(text: string): Promise<number[]> {
 }
 
 type SearchForResponse = {
-  prompt: string;
-  embeddings: EmbeddingSet[];
+  system: string;
+  citations: Citation[];
 };
 
 async function time<T>(
@@ -119,7 +119,11 @@ export async function searchFor(
     .map((x, i) => rulebook.substring(x.start, x.start + x.length))
     .join('\n');
   return {
-    prompt: getPrompt(rulesExcerpt, game.name),
-    embeddings: topFive,
+    system: getPrompt(rulesExcerpt, game.name),
+    citations: topFive.map((x) => ({
+      start: x.start,
+      length: x.length,
+      content: x.content,
+    }))
   };
 }

@@ -21,3 +21,9 @@ export type EmbeddingSet = {
   content: string;
   embedding: number[];
 };
+
+export type Citation = {
+  start: number;
+  length: number;
+  content: string;
+}
