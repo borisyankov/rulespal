@@ -71,7 +71,8 @@ export default function Answer({ m, game, isLoading }: Props) {
           if (!React.isValidElement(props.children)) {
             return null;
           }
-          return <Citation text={props.children.props.children} game={game} />;
+          const childrenProps = props.children.props as { children: string };
+          return <Citation text={childrenProps.children} game={game} />;
         },
         code(
           props: React.ClassAttributes<HTMLElement> &

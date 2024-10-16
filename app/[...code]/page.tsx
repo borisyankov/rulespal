@@ -4,10 +4,16 @@ import { redirect } from 'next/navigation';
 import Rulebook from './Rulebook';
 
 type Props = {
-  params: { code: string };
+  params: Promise<{ code: string }>;
 };
 
-export default function GamePage({ params: { code } }: Props) {
+export default async function GamePage(props: Props) {
+  const params = await props.params;
+
+  const {
+    code
+  } = params;
+
   const game = games.find((game) => game.code === code[0]);
   if (!game) {
     return redirect('/');

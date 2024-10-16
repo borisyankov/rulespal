@@ -5,10 +5,20 @@ import Header from '../ui/header';
 
 type Props = {
   children: React.ReactNode;
-  params: { code: string };
+  params: Promise<{ code: string }>;
 };
 
-export default function Layout({ params: { code }, children }: Props) {
+export default async function Layout(props: Props) {
+  const params = await props.params;
+
+  const {
+    code
+  } = params;
+
+  const {
+    children
+  } = props;
+
   const game = games.find((game) => game.code === code[0]);
   if (!game) {
     return redirect('/');
