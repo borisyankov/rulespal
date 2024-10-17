@@ -8,6 +8,6 @@ const groq = createGroq({
     },
   });
 
-const model = groq('llama-3.1-8b-instant');
+const model = groq('llama-3.1-70b-versatile');
 
 export default model;
