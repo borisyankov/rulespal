@@ -31,7 +31,7 @@ async function fetchGeeklist(geeklistId: string): Promise<GeeklistItem[]> {
 }
 
 async function listNotExitingGames() {
-  const geeklistId = '337879';
+  const geeklistId = '344723';
   let notFound = 0;
   const items = await fetchGeeklist(geeklistId);
   const top = items.slice(0, 100);
