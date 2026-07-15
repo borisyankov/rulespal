@@ -481,6 +481,12 @@ const assets: Game[] = [
     code: 'lucky-numbers',
   },
   {
+    bggid: 205059,
+    name: 'Mansions of Madness: Second Edition',
+    code: 'mansions-of-madness-second-edition',
+    shortName: 'Mansions of Madness',
+  },
+  {
     bggid: 276025,
     name: 'Maracaibo',
     code: 'maracaibo',
