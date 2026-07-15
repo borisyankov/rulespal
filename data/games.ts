@@ -890,6 +890,11 @@ const assets: Game[] = [
     code: 'so-clover',
   },
   {
+    bggid: 2603,
+    name: 'Sorry!',
+    code: 'sorry',
+  },
+  {
     bggid: 242302,
     name: 'Space Base',
     code: 'space-base',
