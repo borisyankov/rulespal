@@ -69,6 +69,11 @@ const assets: Game[] = [
     code: 'barrage',
   },
   {
+    bggid: 317985,
+    name: 'Beyond the Sun',
+    code: 'beyond-the-sun',
+  },
+  {
     bggid: 11,
     name: 'Bohnanza',
     code: 'bohnanza',
