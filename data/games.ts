@@ -271,6 +271,11 @@ const assets: Game[] = [
     code: 'coup',
   },
   {
+    bggid: 2398,
+    name: 'Cribbage',
+    code: 'cribbage',
+  },
+  {
     bggid: 521,
     name: 'Crokinole',
     code: 'crokinole',
