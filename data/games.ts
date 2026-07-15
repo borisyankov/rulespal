@@ -64,6 +64,11 @@ const assets: Game[] = [
     code: 'azul-summer-pavilion',
   },
   {
+    bggid: 251247,
+    name: 'Barrage',
+    code: 'barrage',
+  },
+  {
     bggid: 11,
     name: 'Bohnanza',
     code: 'bohnanza',
