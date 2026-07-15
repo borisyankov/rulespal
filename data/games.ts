@@ -1075,6 +1075,13 @@ const assets: Game[] = [
     code: 'yinsh',
   },
   {
+    bggid: 5674,
+    name: 'Yu-Gi-Oh! Trading Card Game',
+    code: 'yu-gi-oh',
+    shortName: 'Yu-Gi-Oh!',
+    alternativeNames: ['Yugioh', 'Yu-Gi-Oh'],
+  },
+  {
     bggid: 528,
     name: 'ZÈRTZ',
     code: 'zertz',
