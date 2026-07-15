@@ -328,6 +328,11 @@ const assets: Game[] = [
     code: 'el-grande',
   },
   {
+    bggid: 146021,
+    name: 'Eldritch Horror',
+    code: 'eldritch-horror',
+  },
+  {
     bggid: 367966,
     name: 'Endeavor: Deep Sea',
     code: 'endeavor-deep-sea',
