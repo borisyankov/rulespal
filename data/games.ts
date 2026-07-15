@@ -707,6 +707,12 @@ const assets: Game[] = [
     code: 'nucleum',
   },
   {
+    bggid: 291572,
+    name: 'Oath: Chronicles of Empire & Exile',
+    code: 'oath',
+    shortName: 'Oath',
+  },
+  {
     bggid: 231733,
     name: 'Obsession',
     code: 'obsession',
