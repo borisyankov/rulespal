@@ -214,6 +214,11 @@ const assets: Game[] = [
     code: 'concordia',
   },
   {
+    bggid: 39463,
+    name: 'Cosmic Encounter',
+    code: 'cosmic-encounter',
+  },
+  {
     bggid: 131357,
     name: 'Coup',
     code: 'coup',
