@@ -959,6 +959,11 @@ const assets: Game[] = [
     shortName: 'War of the Ring',
   },
   {
+    bggid: 262543,
+    name: 'Wavelength',
+    code: 'wavelength',
+  },
+  {
     bggid: 233867,
     name: 'Welcome To...',
     code: 'welcome-to',
