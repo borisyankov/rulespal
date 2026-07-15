@@ -22,6 +22,11 @@ const assets: Game[] = [
     code: 'a-feast-for-odin',
   },
   {
+    bggid: 191189,
+    name: "Aeon's End",
+    code: 'aeons-end',
+  },
+  {
     bggid: 31260,
     name: 'Agricola',
     code: 'agricola',
