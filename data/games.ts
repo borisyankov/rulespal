@@ -505,6 +505,11 @@ const assets: Game[] = [
     code: 'my-city',
   },
   {
+    bggid: 167355,
+    name: 'Nemesis',
+    code: 'nemesis',
+  },
+  {
     bggid: 353545,
     name: 'Next Station: London',
     code: 'next-station-london',
