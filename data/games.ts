@@ -918,6 +918,11 @@ const assets: Game[] = [
     code: 'similo',
   },
   {
+    bggid: 1269,
+    name: 'Skip-Bo',
+    code: 'skip-bo',
+  },
+  {
     bggid: 92415,
     name: 'Skull',
     code: 'skull',
