@@ -530,6 +530,11 @@ const assets: Game[] = [
     code: 'obsession',
   },
   {
+    bggid: 184267,
+    name: 'On Mars',
+    code: 'on-mars',
+  },
+  {
     bggid: 160477,
     name: 'Onitama',
     code: 'onitama',
