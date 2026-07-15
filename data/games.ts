@@ -448,6 +448,11 @@ const assets: Game[] = [
     code: 'hanamikoji',
   },
   {
+    bggid: 43015,
+    name: 'Hansa Teutonica',
+    code: 'hansa-teutonica',
+  },
+  {
     bggid: 414317,
     name: 'Harmonies',
     code: 'harmonies',
