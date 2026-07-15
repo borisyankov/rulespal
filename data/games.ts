@@ -145,6 +145,11 @@ const assets: Game[] = [
     code: 'carcassonne',
   },
   {
+    bggid: 50381,
+    name: 'Cards Against Humanity',
+    code: 'cards-against-humanity',
+  },
+  {
     bggid: 263918,
     name: 'Cartographers',
     code: 'cartographers',
