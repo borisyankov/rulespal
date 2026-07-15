@@ -17,6 +17,11 @@ const assets: Game[] = [
     code: '7-wonders-duel',
   },
   {
+    bggid: 177736,
+    name: 'A Feast for Odin',
+    code: 'a-feast-for-odin',
+  },
+  {
     bggid: 31260,
     name: 'Agricola',
     code: 'agricola',
