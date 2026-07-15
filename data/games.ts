@@ -100,6 +100,11 @@ const assets: Game[] = [
     code: 'bohnanza',
   },
   {
+    bggid: 2453,
+    name: 'Blokus',
+    code: 'blokus',
+  },
+  {
     bggid: 240980,
     name: 'Blood on the Clocktower',
     code: 'blood-on-the-clocktower',
