@@ -465,6 +465,11 @@ const assets: Game[] = [
     code: 'lucky-numbers',
   },
   {
+    bggid: 276025,
+    name: 'Maracaibo',
+    code: 'maracaibo',
+  },
+  {
     bggid: 283948,
     name: 'Marco Polo II: In the Service of the Khan',
     code: 'marco-polo-ii',
