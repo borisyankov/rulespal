@@ -998,6 +998,13 @@ const assets: Game[] = [
     code: 'turing-machine',
   },
   {
+    bggid: 233078,
+    name: 'Twilight Imperium: Fourth Edition',
+    code: 'twilight-imperium-4',
+    shortName: 'Twilight Imperium',
+    alternativeNames: ['Twilight Imperium 4th Edition', 'TI4'],
+  },
+  {
     bggid: 12333,
     name: 'Twilight Struggle',
     code: 'twilight-struggle',
