@@ -755,6 +755,12 @@ const assets: Game[] = [
     code: 'secret-hitler',
   },
   {
+    bggid: 418059,
+    name: 'SETI: Search for Extraterrestrial Intelligence',
+    code: 'seti',
+    shortName: 'SETI',
+  },
+  {
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
