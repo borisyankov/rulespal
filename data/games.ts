@@ -682,6 +682,11 @@ const assets: Game[] = [
     code: 'sky-team',
   },
   {
+    bggid: 255984,
+    name: 'Sleeping Gods',
+    code: 'sleeping-gods',
+  },
+  {
     bggid: 40692,
     name: 'Small World',
     code: 'small-world',
