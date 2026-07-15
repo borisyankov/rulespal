@@ -155,6 +155,12 @@ const assets: Game[] = [
     code: 'challengers',
   },
   {
+    bggid: 2083,
+    name: 'Checkers',
+    code: 'checkers',
+    alternativeNames: ['Draughts'],
+  },
+  {
     bggid: 171,
     name: 'Chess',
     code: 'chess',
