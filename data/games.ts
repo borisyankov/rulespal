@@ -291,6 +291,12 @@ const assets: Game[] = [
     code: 'disney-lorcana',
   },
   {
+    bggid: 256382,
+    name: 'Disney Villainous: The Worst Takes It All',
+    code: 'disney-villainous',
+    shortName: 'Disney Villainous',
+  },
+  {
     bggid: 39856,
     name: 'Dixit',
     code: 'dixit',
