@@ -329,6 +329,11 @@ const assets: Game[] = [
     alternativeNames: ['Dominion (Second Edition)'],
   },
   {
+    bggid: 2394,
+    name: 'Dominoes',
+    code: 'dominoes',
+  },
+  {
     bggid: 370591,
     name: 'Dorfromantik: The Board Game',
     shortName: 'Dorfromantik',
