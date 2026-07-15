@@ -530,6 +530,13 @@ const assets: Game[] = [
     alternativeNames: ['Mage Knight Board Game'],
   },
   {
+    bggid: 463,
+    name: 'Magic: The Gathering',
+    code: 'magic-the-gathering',
+    shortName: 'Magic',
+    alternativeNames: ['MTG'],
+  },
+  {
     bggid: 205059,
     name: 'Mansions of Madness: Second Edition',
     code: 'mansions-of-madness-second-edition',
