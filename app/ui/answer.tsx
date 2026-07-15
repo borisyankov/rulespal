@@ -1,13 +1,14 @@
 import React from 'react';
 import Markdown, { type ExtraProps } from 'react-markdown';
-import type { Message } from 'ai/react';
+import type { UIMessage } from 'ai';
 import remarkGfm from 'remark-gfm';
 import Citation from './citation';
 import type { Root, Content, Text, RootContent } from 'mdast';
 import type { Game } from '../lib/definitions';
+import { messageText } from '../lib/utils';
 
 type Props = {
-  m: Message;
+  m: UIMessage;
   game: Game;
   isLoading: boolean;
 };
@@ -35,8 +36,8 @@ const appendLoading = () => {
 
 export default function Answer({ m, game, isLoading }: Props) {
   return (
+    <div className="prose prose-zinc mb-10 dark:prose-invert">
     <Markdown
-      className="prose prose-zinc mb-10 dark:prose-invert"
       remarkPlugins={isLoading ? [remarkGfm, appendLoading] : [remarkGfm]}
       components={{
         p(
@@ -83,7 +84,8 @@ export default function Answer({ m, game, isLoading }: Props) {
         },
       }}
     >
-      {m.content}
+      {messageText(m)}
     </Markdown>
+    </div>
   );
 }

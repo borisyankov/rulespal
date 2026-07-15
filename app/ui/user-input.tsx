@@ -1,7 +1,6 @@
 "use client"
 
 import { SendHorizontalIcon, StopCircleIcon } from "lucide-react";
-import { ChatRequestOptions } from "ai";
 import { ChangeEvent, FormEvent, useEffect, useRef, useState } from "react";
 import { useEnterSubmit } from "@/app/lib/use-enter-submit";
 import Textarea from 'react-textarea-autosize';
@@ -9,11 +8,10 @@ import Textarea from 'react-textarea-autosize';
 type Props = {
   isLoading: boolean;
   stop: () => void;
-  submitMessage: (e: FormEvent<HTMLFormElement>, chatRequestOptions?: ChatRequestOptions | undefined) => void
-  onChange: (event: React.ChangeEvent<HTMLTextAreaElement> | React.ChangeEvent<HTMLInputElement>) => void;
+  onSend: (text: string) => void;
 };
 
-export default function UserInput({ isLoading, stop, submitMessage, onChange }: Props) {
+export default function UserInput({ isLoading, stop, onSend }: Props) {
   const { formRef, onKeyDown } = useEnterSubmit();
   const [value, setValue] = useState('');
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
@@ -38,12 +36,12 @@ export default function UserInput({ isLoading, stop, submitMessage, onChange }: 
         textAreaRef.current.focus();
       }
     }
+    const text = value;
     setValue('');
-    submitMessage(event);
+    onSend(text);
   };
   const handleChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setValue(event.target.value);
-    onChange(event);
   };
   const ButtonIcon = isLoading ? StopCircleIcon : SendHorizontalIcon;
   return (
@@ -68,7 +66,7 @@ export default function UserInput({ isLoading, stop, submitMessage, onChange }: 
         type="submit"
         className="mb-[4px] ml-[-56px] resize-none rounded-full flex justify-center items-center size-10 self-end
         text-zinc-700 dark:text-zinc-300 enabled:hover:text-white bg-transparent transition
-        enabled:hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25"
+        enabled:hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25"
         disabled={!isLoading && value.length === 0}
       > 
         <ButtonIcon className="size-5" aria-hidden="true" />

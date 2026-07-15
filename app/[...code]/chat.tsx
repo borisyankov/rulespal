@@ -1,7 +1,7 @@
 'use client';
 
-import type { FormEvent } from 'react';
-import { useChat } from 'ai/react';
+import { useChat } from '@ai-sdk/react';
+import { DefaultChatTransport } from 'ai';
 import EmptyState from '@/app/ui/empty-state';
 import MessageList from '@/app/ui/message-list';
 import UserInput from '@/app/ui/user-input';
@@ -12,13 +12,14 @@ type Props = {
 };
 
 export default function Chat({ game }: Props) {
-  const { messages, isLoading, stop, data, handleInputChange, handleSubmit } =
-    useChat({
-      id: game.code,
-      // initialMessages - taken from the localStorage!!
-    });
-  function submitWithGame(e: FormEvent<HTMLFormElement>) {
-    handleSubmit(e, { data: { bggid: game.bggid.toString() } });
+  const { messages, sendMessage, status, stop } = useChat({
+    id: game.code,
+    transport: new DefaultChatTransport({ api: '/api/chat' }),
+    // initialMessages - taken from the localStorage!!
+  });
+  const isLoading = status === 'submitted' || status === 'streaming';
+  function submitWithGame(text: string) {
+    sendMessage({ text }, { body: { bggid: game.bggid.toString() } });
   }
   return (
     <main className="size-full max-w-screen-sm mx-auto">
@@ -27,12 +28,7 @@ export default function Chat({ game }: Props) {
       ) : (
         <EmptyState game={game} />
       )}
-      <UserInput
-        isLoading={isLoading}
-        stop={stop}
-        submitMessage={submitWithGame}
-        onChange={handleInputChange}
-      />
+      <UserInput isLoading={isLoading} stop={stop} onSend={submitWithGame} />
     </main>
   );
 }

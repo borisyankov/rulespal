@@ -5,7 +5,7 @@ import Header from '../ui/header';
 
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ code: string }>;
+  params: Promise<{ code: string[] }>;
 };
 
 export default async function Layout(props: Props) {

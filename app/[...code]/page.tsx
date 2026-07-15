@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 import Rulebook from './Rulebook';
 
 type Props = {
-  params: Promise<{ code: string }>;
+  params: Promise<{ code: string[] }>;
 };
 
 export default async function GamePage(props: Props) {

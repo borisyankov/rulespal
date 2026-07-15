@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import type { Message } from 'ai/react';
+import type { UIMessage } from 'ai';
 import Question from './question';
 import Answer from './answer';
 import Progress from './progress';
@@ -8,7 +8,7 @@ import GameTitle from './game-title';
 
 type Props = {
   game: Game;
-  messages: Message[];
+  messages: UIMessage[];
   isLoading: boolean;
 };
 
@@ -32,7 +32,7 @@ export default function MessageList({ game, messages, isLoading }: Props) {
         className="w-full flex-1 gap-3 overflow-y-auto text-base"
         ref={listRef}
       >
-        {messages.map((m: Message, index) =>
+        {messages.map((m: UIMessage, index) =>
           m.role === 'user' ? (
             <Question key={m.id} m={m} />
           ) : (
