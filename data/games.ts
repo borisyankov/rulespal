@@ -27,6 +27,11 @@ const assets: Game[] = [
     code: 'aeons-end',
   },
   {
+    bggid: 422732,
+    name: 'Agent Avenue',
+    code: 'agent-avenue',
+  },
+  {
     bggid: 31260,
     name: 'Agricola',
     code: 'agricola',
