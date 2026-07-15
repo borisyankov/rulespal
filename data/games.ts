@@ -871,6 +871,11 @@ const assets: Game[] = [
     code: 'the-mind',
   },
   {
+    bggid: 41114,
+    name: 'The Resistance',
+    code: 'the-resistance',
+  },
+  {
     bggid: 128882,
     name: 'The Resistance: Avalon',
     code: 'resistance-avalon',
