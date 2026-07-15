@@ -150,6 +150,11 @@ const assets: Game[] = [
     code: 'cant-stop',
   },
   {
+    bggid: 5048,
+    name: 'Candy Land',
+    code: 'candy-land',
+  },
+  {
     bggid: 171131,
     name: 'Captain Sonar',
     code: 'captain-sonar',
