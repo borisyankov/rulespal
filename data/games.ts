@@ -914,6 +914,11 @@ const assets: Game[] = [
     code: 'tzaar',
   },
   {
+    bggid: 268864,
+    name: 'Undaunted: Normandy',
+    code: 'undaunted-normandy',
+  },
+  {
     bggid: 247763,
     name: 'Underwater Cities',
     code: 'underwater-cities',
