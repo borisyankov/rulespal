@@ -983,6 +983,11 @@ const assets: Game[] = [
     code: 'underwater-cities',
   },
   {
+    bggid: 2223,
+    name: 'UNO',
+    code: 'uno',
+  },
+  {
     bggid: 183394,
     name: 'Viticulture Essential Edition',
     code: 'viticulture',
