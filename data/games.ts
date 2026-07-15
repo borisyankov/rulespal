@@ -463,6 +463,12 @@ const assets: Game[] = [
     code: 'monikers',
   },
   {
+    bggid: 425549,
+    name: 'Moon Colony Bloodbath',
+    code: 'moon-colony-bloodbath',
+    alternativeNames: ['Moon Colonies Bloodbath'],
+  },
+  {
     bggid: 295486,
     name: 'My City',
     code: 'my-city',
