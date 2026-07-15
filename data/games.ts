@@ -1130,7 +1130,7 @@ const assets: Game[] = [
     code: 'trio',
   },
   {
-    bggid: 2921,
+    bggid: 2952,
     name: 'Trivial Pursuit',
     code: 'trivial-pursuit',
   },
