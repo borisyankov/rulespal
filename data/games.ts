@@ -435,6 +435,11 @@ const assets: Game[] = [
     code: 'knarr',
   },
   {
+    bggid: 161533,
+    name: 'Lisboa',
+    code: 'lisboa',
+  },
+  {
     bggid: 110327,
     name: 'Lords of Waterdeep',
     code: 'lords-of-waterdeep',
