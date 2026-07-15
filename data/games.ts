@@ -110,6 +110,11 @@ const assets: Game[] = [
     code: 'blood-rage',
   },
   {
+    bggid: 413246,
+    name: 'Bomb Busters',
+    code: 'bomb-busters',
+  },
+  {
     bggid: 224517,
     name: 'Brass: Birmingham',
     code: 'brass-birmingham',
