@@ -642,6 +642,12 @@ const assets: Game[] = [
     alternativeNames: ['MTG'],
   },
   {
+    bggid: 2448,
+    name: 'Mancala',
+    code: 'mancala',
+    alternativeNames: ['Kalah'],
+  },
+  {
     bggid: 205059,
     name: 'Mansions of Madness: Second Edition',
     code: 'mansions-of-madness-second-edition',
