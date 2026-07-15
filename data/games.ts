@@ -579,6 +579,11 @@ const assets: Game[] = [
     code: 'on-mars',
   },
   {
+    bggid: 147949,
+    name: 'One Night Ultimate Werewolf',
+    code: 'one-night-ultimate-werewolf',
+  },
+  {
     bggid: 160477,
     name: 'Onitama',
     code: 'onitama',
