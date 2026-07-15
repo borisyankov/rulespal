@@ -188,6 +188,12 @@ const assets: Game[] = [
     shortName: 'Clank! Legacy',
   },
   {
+    bggid: 1294,
+    name: 'Clue',
+    code: 'clue',
+    alternativeNames: ['Cluedo'],
+  },
+  {
     bggid: 178900,
     name: 'Codenames',
     code: 'codenames',
