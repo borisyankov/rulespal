@@ -653,6 +653,11 @@ const assets: Game[] = [
     code: 'onitama',
   },
   {
+    bggid: 164928,
+    name: 'Orléans',
+    code: 'orleans',
+  },
+  {
     bggid: 30549,
     name: 'Pandemic',
     code: 'pandemic',
