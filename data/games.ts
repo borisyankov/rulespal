@@ -684,6 +684,11 @@ const assets: Game[] = [
     code: 'sea-salt-n-paper',
   },
   {
+    bggid: 188834,
+    name: 'Secret Hitler',
+    code: 'secret-hitler',
+  },
+  {
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
