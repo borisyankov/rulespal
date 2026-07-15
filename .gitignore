@@ -38,3 +38,6 @@ next-env.d.ts
 # config files
 .env
 .vscode
+
+# thumbnail source images (inputs for scripts/thumbs.ts; the .jpg is the artifact)
+/public/thumbs/_src/
