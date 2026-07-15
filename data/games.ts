@@ -750,6 +750,11 @@ const assets: Game[] = [
     code: 'star-realms',
   },
   {
+    bggid: 187645,
+    name: 'Star Wars: Rebellion',
+    code: 'star-wars-rebellion',
+  },
+  {
     bggid: 387866,
     name: 'Star Wars: Unlimited',
     code: 'star-wars-unlimited',
