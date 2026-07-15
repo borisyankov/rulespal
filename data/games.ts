@@ -161,6 +161,12 @@ const assets: Game[] = [
     code: 'clank-catacombs',
   },
   {
+    bggid: 266507,
+    name: 'Clank! Legacy: Acquisitions Incorporated',
+    code: 'clank-legacy',
+    shortName: 'Clank! Legacy',
+  },
+  {
     bggid: 178900,
     name: 'Codenames',
     code: 'codenames',
