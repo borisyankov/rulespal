@@ -481,6 +481,11 @@ const assets: Game[] = [
     shortName: 'Great Western Trail',
   },
   {
+    bggid: 4143,
+    name: 'Guess Who?',
+    code: 'guess-who',
+  },
+  {
     bggid: 304783,
     name: "Hadrian's Wall",
     code: 'hadrians-wall',
