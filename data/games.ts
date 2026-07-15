@@ -1049,6 +1049,12 @@ const assets: Game[] = [
     shortName: 'The Crew',
   },
   {
+    bggid: 2921,
+    name: 'The Game of Life',
+    code: 'the-game-of-life',
+    alternativeNames: ['Game of Life', 'Life'],
+  },
+  {
     bggid: 281259,
     name: 'The Isle of Cats',
     code: 'the-isle-of-cats',
