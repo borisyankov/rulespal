@@ -109,6 +109,11 @@ const assets: Game[] = [
     code: 'bunny-kingdom',
   },
   {
+    bggid: 283155,
+    name: 'Calico',
+    code: 'calico',
+  },
+  {
     bggid: 260605,
     name: 'Camel Up',
     code: 'camel-up',
