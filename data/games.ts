@@ -638,6 +638,11 @@ const assets: Game[] = [
     code: 'my-city',
   },
   {
+    bggid: 181304,
+    name: 'Mysterium',
+    code: 'mysterium',
+  },
+  {
     bggid: 167355,
     name: 'Nemesis',
     code: 'nemesis',
