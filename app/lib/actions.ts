@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { cosineSimilarity } from './rag';
+import { cosineSimilarity, findOOVs, getOovCount } from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { Citation, EmbeddingSet, Game } from './definitions';
@@ -60,30 +60,13 @@ async function loadData(
   ]));
 }
 
-function findOOVs(dict: string[], query: string) {
-  const words = query.match(/[a-zA-Z]+/g) || [];
-  const lowerCaseDict = dict.map((word) => word.toLowerCase());
-  const OOVs = words.filter(
-    (word) => !lowerCaseDict.includes(word.toLowerCase()),
-  );
-  return OOVs;
-}
-
-function getOovCount(content: string, OOVs: string[]) {
-  const lowerContent = content.toLowerCase();
-  const count = OOVs.map((oov) =>
-    lowerContent.includes(oov.toLowerCase()),
-  ).filter((x) => x).length;
-  return count;
-}
-
 export async function searchFor(
   query: string,
   bggid: number,
 ): Promise<SearchForResponse> {
   const game = games.find((x) => x.bggid === bggid);
   if (!game) {
-    throw 'Game not found';
+    throw new Error('Game not found');
   }
 
   console.time('Load rulebook, embeddings, embeddings for query');

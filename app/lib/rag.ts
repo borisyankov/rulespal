@@ -92,10 +92,29 @@ function magnitude(vec: number[]): number {
 
 export function cosineSimilarity(vecA: number[], vecB: number[]): number {
   if (vecA.length !== vecB.length) {
-    throw 'Vectors are not of the same dimension';
+    throw new Error('Vectors are not of the same dimension');
   }
   const dotProd = dotProduct(vecA, vecB);
   const magnitudeA = magnitude(vecA);
   const magnitudeB = magnitude(vecB);
   return dotProd / (magnitudeA * magnitudeB);
+}
+
+// Out-of-vocabulary words: query words that are not in the language dictionary
+// (typically game-specific terms), used to boost matching rulebook chunks.
+export function findOOVs(dict: string[], query: string): string[] {
+  const words = query.match(/[a-zA-Z]+/g) || [];
+  const lowerCaseDict = dict.map((word) => word.toLowerCase());
+  const OOVs = words.filter(
+    (word) => !lowerCaseDict.includes(word.toLowerCase()),
+  );
+  return OOVs;
+}
+
+export function getOovCount(content: string, OOVs: string[]): number {
+  const lowerContent = content.toLowerCase();
+  const count = OOVs.map((oov) =>
+    lowerContent.includes(oov.toLowerCase()),
+  ).filter((x) => x).length;
+  return count;
 }
