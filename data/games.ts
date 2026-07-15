@@ -84,6 +84,11 @@ const assets: Game[] = [
     code: 'bohnanza',
   },
   {
+    bggid: 170216,
+    name: 'Blood Rage',
+    code: 'blood-rage',
+  },
+  {
     bggid: 224517,
     name: 'Brass: Birmingham',
     code: 'brass-birmingham',
