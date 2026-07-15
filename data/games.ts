@@ -790,6 +790,11 @@ const assets: Game[] = [
     code: 'patchwork',
   },
   {
+    bggid: 1258,
+    name: 'Phase 10',
+    code: 'phase-10',
+  },
+  {
     bggid: 258779,
     name: 'Planet Unknown',
     code: 'planet-unknown',
