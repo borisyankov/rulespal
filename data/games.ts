@@ -564,6 +564,11 @@ const assets: Game[] = [
     code: 'monikers',
   },
   {
+    bggid: 1406,
+    name: 'Monopoly',
+    code: 'monopoly',
+  },
+  {
     bggid: 425549,
     name: 'Moon Colony Bloodbath',
     code: 'moon-colony-bloodbath',
