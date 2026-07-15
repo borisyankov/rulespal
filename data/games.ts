@@ -291,6 +291,11 @@ const assets: Game[] = [
     code: 'everdell',
   },
   {
+    bggid: 172225,
+    name: 'Exploding Kittens',
+    code: 'exploding-kittens',
+  },
+  {
     bggid: 223040,
     name: 'Fantasy Realms',
     code: 'fantasy-realms',
