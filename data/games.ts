@@ -244,6 +244,12 @@ const assets: Game[] = [
     code: 'earth',
   },
   {
+    bggid: 246900,
+    name: 'Eclipse: Second Dawn for the Galaxy',
+    code: 'eclipse-second-dawn-for-the-galaxy',
+    shortName: 'Eclipse',
+  },
+  {
     bggid: 199792,
     name: 'Everdell',
     code: 'everdell',
