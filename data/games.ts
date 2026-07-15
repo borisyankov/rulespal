@@ -540,6 +540,12 @@ const assets: Game[] = [
     code: 'just-one',
   },
   {
+    bggid: 297562,
+    name: 'Kemet: Blood and Sand',
+    code: 'kemet-blood-and-sand',
+    shortName: 'Kemet',
+  },
+  {
     bggid: 122515,
     name: 'Keyflower',
     code: 'keyflower',
