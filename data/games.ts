@@ -380,6 +380,11 @@ const assets: Game[] = [
     code: 'gloomhaven-jotl',
   },
   {
+    bggid: 188,
+    name: 'Go',
+    code: 'go',
+  },
+  {
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
     code: 'great-western-trail',
