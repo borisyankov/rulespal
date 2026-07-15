@@ -716,6 +716,11 @@ const assets: Game[] = [
     code: 'scout',
   },
   {
+    bggid: 320,
+    name: 'Scrabble',
+    code: 'scrabble',
+  },
+  {
     bggid: 169786,
     name: 'Scythe',
     code: 'scythe',
