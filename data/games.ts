@@ -653,6 +653,13 @@ const assets: Game[] = [
     code: 'point-salad',
   },
   {
+    bggid: 3121,
+    name: 'Pokémon Trading Card Game',
+    code: 'pokemon-tcg',
+    shortName: 'Pokémon TCG',
+    alternativeNames: ['Pokemon Trading Card Game', 'Pokemon TCG'],
+  },
+  {
     bggid: 2651,
     name: 'Power Grid',
     code: 'power-grid',
