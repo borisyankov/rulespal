@@ -689,6 +689,12 @@ const assets: Game[] = [
     code: 'similo',
   },
   {
+    bggid: 92415,
+    name: 'Skull',
+    code: 'skull',
+    alternativeNames: ['Skull & Roses'],
+  },
+  {
     bggid: 373106,
     name: 'Sky Team',
     code: 'sky-team',
