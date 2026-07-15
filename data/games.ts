@@ -250,6 +250,12 @@ const assets: Game[] = [
     code: 'concordia',
   },
   {
+    bggid: 2719,
+    name: 'Connect Four',
+    code: 'connect-four',
+    alternativeNames: ['Connect 4'],
+  },
+  {
     bggid: 39463,
     name: 'Cosmic Encounter',
     code: 'cosmic-encounter',
