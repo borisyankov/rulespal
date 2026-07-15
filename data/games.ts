@@ -265,6 +265,11 @@ const assets: Game[] = [
     code: 'flamecraft',
   },
   {
+    bggid: 295770,
+    name: 'Frosthaven',
+    code: 'frosthaven',
+  },
+  {
     bggid: 311988,
     name: 'Frostpunk: The Board Game',
     code: 'frostpunk',
