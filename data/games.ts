@@ -496,6 +496,13 @@ const assets: Game[] = [
     code: 'lucky-numbers',
   },
   {
+    bggid: 248562,
+    name: 'Mage Knight: Ultimate Edition',
+    code: 'mage-knight',
+    shortName: 'Mage Knight',
+    alternativeNames: ['Mage Knight Board Game'],
+  },
+  {
     bggid: 205059,
     name: 'Mansions of Madness: Second Edition',
     code: 'mansions-of-madness-second-edition',
