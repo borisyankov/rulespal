@@ -921,6 +921,11 @@ const assets: Game[] = [
     code: 'turing-machine',
   },
   {
+    bggid: 12333,
+    name: 'Twilight Struggle',
+    code: 'twilight-struggle',
+  },
+  {
     bggid: 31999,
     name: 'TZAAR',
     code: 'tzaar',
