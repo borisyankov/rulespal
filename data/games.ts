@@ -1025,6 +1025,11 @@ const assets: Game[] = [
     code: 'wyrmspan',
   },
   {
+    bggid: 2243,
+    name: 'Yahtzee',
+    code: 'yahtzee',
+  },
+  {
     bggid: 7854,
     name: 'YINSH',
     code: 'yinsh',
