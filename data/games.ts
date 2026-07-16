@@ -1580,6 +1580,11 @@ const assets: Game[] = [
     code: 'star-wars-unlimited',
   },
   {
+    bggid: 316624,
+    name: 'Stationfall',
+    code: 'stationfall',
+  },
+  {
     bggid: 34635,
     name: 'Stone Age',
     code: 'stone-age',
