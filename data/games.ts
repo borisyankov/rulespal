@@ -1951,6 +1951,11 @@ const assets: Game[] = [
     code: 'wonderlands-war',
   },
   {
+    bggid: 355093,
+    name: 'Woodcraft',
+    code: 'woodcraft',
+  },
+  {
     bggid: 365258,
     name: 'World Wonders',
     code: 'world-wonders',
