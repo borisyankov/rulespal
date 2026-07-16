@@ -1656,6 +1656,12 @@ const assets: Game[] = [
     code: 'the-grizzled',
   },
   {
+    bggid: 350933,
+    name: 'The Guild of Merchant Explorers',
+    code: 'the-guild-of-merchant-explorers',
+    shortName: 'Guild of Merchant Explorers',
+  },
+  {
     bggid: 281259,
     name: 'The Isle of Cats',
     code: 'the-isle-of-cats',
