@@ -59,6 +59,12 @@ const assets: Game[] = [
     code: 'apiary',
   },
   {
+    bggid: 155873,
+    name: 'AquaSphere',
+    code: 'aquasphere',
+    alternativeNames: ['Aqua Sphere'],
+  },
+  {
     bggid: 236457,
     name: 'Architects of the West Kingdom',
     code: 'architects-of-the-west-kingdom',
