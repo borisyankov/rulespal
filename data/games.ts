@@ -1350,6 +1350,11 @@ const assets: Game[] = [
     code: 'tokaido',
   },
   {
+    bggid: 102680,
+    name: 'Trajan',
+    code: 'trajan',
+  },
+  {
     bggid: 163068,
     name: 'Trickerion: Legends of Illusion',
     code: 'trickerion',
