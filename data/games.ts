@@ -1445,6 +1445,11 @@ const assets: Game[] = [
     alternativeNames: ['The Castles of Burgundy: Special Edition'],
   },
   {
+    bggid: 192836,
+    name: 'The Colonists',
+    code: 'the-colonists',
+  },
+  {
     bggid: 284083,
     name: 'The Crew: The Quest for Planet Nine',
     code: 'the-crew',
