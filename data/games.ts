@@ -633,6 +633,11 @@ const assets: Game[] = [
     code: 'knarr',
   },
   {
+    bggid: 35677,
+    name: 'Le Havre',
+    code: 'le-havre',
+  },
+  {
     bggid: 356033,
     name: 'Libertalia: Winds of Galecrest',
     code: 'libertalia-winds-of-galecrest',
