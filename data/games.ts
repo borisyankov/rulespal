@@ -468,6 +468,11 @@ const assets: Game[] = [
     shortName: 'Dead of Winter',
   },
   {
+    bggid: 276182,
+    name: 'Dead Reckoning',
+    code: 'dead-reckoning',
+  },
+  {
     bggid: 156129,
     name: 'Deception: Murder in Hong Kong',
     code: 'deception-murder-hong-kong',
