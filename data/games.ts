@@ -1568,6 +1568,11 @@ const assets: Game[] = [
     name: 'ZÈRTZ',
     code: 'zertz',
   },
+  {
+    bggid: 176189,
+    name: 'Zombicide: Black Plague',
+    code: 'zombicide-black-plague',
+  },
 ];
 
 export default assets;
