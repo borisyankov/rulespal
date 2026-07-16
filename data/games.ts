@@ -1221,6 +1221,11 @@ const assets: Game[] = [
     code: 'notre-dame',
   },
   {
+    bggid: 284435,
+    name: 'Nova Luna',
+    code: 'nova-luna',
+  },
+  {
     bggid: 396790,
     name: 'Nucleum',
     code: 'nucleum',
