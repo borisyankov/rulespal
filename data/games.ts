@@ -890,6 +890,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 298047,
+    name: 'Marvel United',
+    code: 'marvel-united',
+  },
+  {
     bggid: 314491,
     name: 'Meadow',
     code: 'meadow',
