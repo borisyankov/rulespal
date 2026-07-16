@@ -123,6 +123,12 @@ const assets: Game[] = [
     code: 'backgammon',
   },
   {
+    bggid: 383607,
+    name: 'Barcelona',
+    code: 'barcelona',
+    alternativeNames: ['Barcelona: The Rose of Fire'],
+  },
+  {
     bggid: 219513,
     name: 'Bärenpark',
     code: 'barenpark',
