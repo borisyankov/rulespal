@@ -1859,6 +1859,11 @@ const assets: Game[] = [
     shortName: 'Wayfarers',
   },
   {
+    bggid: 237179,
+    name: 'Weather Machine',
+    code: 'weather-machine',
+  },
+  {
     bggid: 233867,
     name: 'Welcome To...',
     code: 'welcome-to',
