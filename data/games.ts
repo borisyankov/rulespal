@@ -1457,6 +1457,11 @@ const assets: Game[] = [
     alternativeNames: ['Game of Life', 'Life'],
   },
   {
+    bggid: 171668,
+    name: 'The Grizzled',
+    code: 'the-grizzled',
+  },
+  {
     bggid: 281259,
     name: 'The Isle of Cats',
     code: 'the-isle-of-cats',
