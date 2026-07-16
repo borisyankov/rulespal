@@ -689,6 +689,11 @@ const assets: Game[] = [
     code: 'fresco',
   },
   {
+    bggid: 384213,
+    name: 'Fromage',
+    code: 'fromage',
+  },
+  {
     bggid: 295770,
     name: 'Frosthaven',
     code: 'frosthaven',
