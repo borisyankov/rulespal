@@ -201,6 +201,12 @@ const assets: Game[] = [
     code: 'catan',
   },
   {
+    bggid: 102794,
+    name: 'Caverna: The Cave Farmers',
+    code: 'caverna',
+    shortName: 'Caverna',
+  },
+  {
     bggid: 209685,
     name: 'Century: Spice Road',
     code: 'century-spice-road',
