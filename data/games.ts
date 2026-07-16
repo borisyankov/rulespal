@@ -1261,6 +1261,11 @@ const assets: Game[] = [
     shortName: 'Viticulture',
   },
   {
+    bggid: 337627,
+    name: 'Voidfall',
+    code: 'voidfall',
+  },
+  {
     bggid: 115746,
     name: 'War of the Ring: Second Edition',
     code: 'war-of-the-ring',
