@@ -1100,6 +1100,12 @@ const assets: Game[] = [
     code: 'meadow',
   },
   {
+    bggid: 306040,
+    name: 'Merv: The Heart of the Silk Road',
+    code: 'merv',
+    shortName: 'Merv',
+  },
+  {
     bggid: 318977,
     name: 'MicroMacro: Crime City',
     code: 'micromacro-crime-city',
