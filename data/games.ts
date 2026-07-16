@@ -241,6 +241,11 @@ const assets: Game[] = [
     code: 'chess',
   },
   {
+    bggid: 239188,
+    name: 'Chronicles of Crime',
+    code: 'chronicles-of-crime',
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
