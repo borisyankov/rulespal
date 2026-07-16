@@ -1654,6 +1654,12 @@ const assets: Game[] = [
     code: 'sushi-go-party',
   },
   {
+    bggid: 316786,
+    name: 'Tabannusi: Builders of Ur',
+    code: 'tabannusi',
+    shortName: 'Tabannusi',
+  },
+  {
     bggid: 432,
     name: 'Take 5',
     code: 'take-5',
