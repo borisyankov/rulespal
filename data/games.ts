@@ -1041,6 +1041,12 @@ const assets: Game[] = [
     code: 'pandemic-legacy-season-1',
   },
   {
+    bggid: 260428,
+    name: 'Pandemic: Fall of Rome',
+    code: 'pandemic-fall-of-rome',
+    shortName: 'Fall of Rome',
+  },
+  {
     bggid: 266524,
     name: 'PARKS',
     code: 'parks',
