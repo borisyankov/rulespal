@@ -581,6 +581,11 @@ const assets: Game[] = [
     code: 'just-one',
   },
   {
+    bggid: 284378,
+    name: 'Kanban EV',
+    code: 'kanban-ev',
+  },
+  {
     bggid: 297562,
     name: 'Kemet: Blood and Sand',
     code: 'kemet-blood-and-sand',
