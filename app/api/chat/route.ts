@@ -2,6 +2,10 @@ import { searchFor } from '@/app/lib/actions';
 import { convertToModelMessages, streamText, type UIMessage } from 'ai';
 import model from './model';
 
+// Cap the retrieved question so a single request can't push an unbounded
+// payload into the embedding and LLM APIs.
+const MAX_QUESTION_LENGTH = 2000;
+
 function lastUserText(messages: UIMessage[]): string {
   const lastUser = [...messages].reverse().find((m) => m.role === 'user');
   return (lastUser?.parts ?? [])
@@ -14,9 +18,25 @@ export async function POST(req: Request) {
   try {
     const { messages, bggid }: { messages: UIMessage[]; bggid: string } =
       await req.json();
+
+    if (!Array.isArray(messages) || messages.length === 0) {
+      return Response.json({ error: 'No messages provided' }, { status: 400 });
+    }
+    if (!Number.isFinite(+bggid)) {
+      return Response.json({ error: 'Invalid game id' }, { status: 400 });
+    }
     // Retrieve on the latest user turn, but let the model see the whole
     // conversation so follow-up questions keep their context.
     const query = lastUserText(messages);
+    if (query.length === 0) {
+      return Response.json({ error: 'Empty question' }, { status: 400 });
+    }
+    if (query.length > MAX_QUESTION_LENGTH) {
+      return Response.json(
+        { error: 'Question is too long' },
+        { status: 413 },
+      );
+    }
     const { system, citations } = await searchFor(query, +bggid);
     const result = streamText({
       model,
