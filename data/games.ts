@@ -621,6 +621,12 @@ const assets: Game[] = [
     code: 'innovation',
   },
   {
+    bggid: 176494,
+    name: 'Isle of Skye: From Chieftain to King',
+    code: 'isle-of-skye',
+    shortName: 'Isle of Skye',
+  },
+  {
     bggid: 148949,
     name: 'Istanbul',
     code: 'istanbul',
