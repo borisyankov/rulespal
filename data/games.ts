@@ -618,6 +618,11 @@ const assets: Game[] = [
     code: 'lisboa',
   },
   {
+    bggid: 328479,
+    name: 'Living Forest',
+    code: 'living-forest',
+  },
+  {
     bggid: 110327,
     name: 'Lords of Waterdeep',
     code: 'lords-of-waterdeep',
