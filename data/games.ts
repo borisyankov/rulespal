@@ -437,6 +437,11 @@ const assets: Game[] = [
     code: 'flamecraft',
   },
   {
+    bggid: 175914,
+    name: 'Food Chain Magnate',
+    code: 'food-chain-magnate',
+  },
+  {
     bggid: 295770,
     name: 'Frosthaven',
     code: 'frosthaven',
