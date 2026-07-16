@@ -1285,6 +1285,11 @@ const assets: Game[] = [
     code: 'times-up-title-recall',
   },
   {
+    bggid: 123540,
+    name: 'Tokaido',
+    code: 'tokaido',
+  },
+  {
     bggid: 163068,
     name: 'Trickerion: Legends of Illusion',
     code: 'trickerion',
