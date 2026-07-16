@@ -102,6 +102,12 @@ const assets: Game[] = [
     code: 'backgammon',
   },
   {
+    bggid: 219513,
+    name: 'Bärenpark',
+    code: 'barenpark',
+    alternativeNames: ['Barenpark', 'Baerenpark'],
+  },
+  {
     bggid: 251247,
     name: 'Barrage',
     code: 'barrage',
