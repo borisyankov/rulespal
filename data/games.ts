@@ -937,6 +937,12 @@ const assets: Game[] = [
     code: 'karuba',
   },
   {
+    bggid: 374595,
+    name: 'Kelp',
+    code: 'kelp',
+    alternativeNames: ['Kelp: Shark vs Octopus'],
+  },
+  {
     bggid: 297562,
     name: 'Kemet: Blood and Sand',
     code: 'kemet-blood-and-sand',
