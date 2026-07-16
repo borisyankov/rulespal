@@ -438,6 +438,11 @@ const assets: Game[] = [
     alternativeNames: ['Connect 4'],
   },
   {
+    bggid: 269511,
+    name: 'Cooper Island',
+    code: 'cooper-island',
+  },
+  {
     bggid: 39463,
     name: 'Cosmic Encounter',
     code: 'cosmic-encounter',
