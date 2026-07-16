@@ -1939,6 +1939,12 @@ const assets: Game[] = [
     code: 'village',
   },
   {
+    bggid: 175640,
+    name: 'Vinhos',
+    code: 'vinhos',
+    alternativeNames: ['Vinhos: Deluxe Edition'],
+  },
+  {
     bggid: 296151,
     name: 'Viscounts of the West Kingdom',
     code: 'viscounts-of-the-west-kingdom',
