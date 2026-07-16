@@ -858,6 +858,11 @@ const assets: Game[] = [
     code: 'mlem-space-agency',
   },
   {
+    bggid: 172386,
+    name: 'Mombasa',
+    code: 'mombasa',
+  },
+  {
     bggid: 156546,
     name: 'Monikers',
     code: 'monikers',
