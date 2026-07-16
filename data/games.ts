@@ -961,6 +961,11 @@ const assets: Game[] = [
     code: 'pandemic-legacy-season-1',
   },
   {
+    bggid: 266524,
+    name: 'PARKS',
+    code: 'parks',
+  },
+  {
     bggid: 163412,
     name: 'Patchwork',
     code: 'patchwork',
