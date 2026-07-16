@@ -848,6 +848,11 @@ const assets: Game[] = [
     code: 'living-forest',
   },
   {
+    bggid: 295374,
+    name: 'Long Shot: The Dice Game',
+    code: 'long-shot-the-dice-game',
+  },
+  {
     bggid: 110327,
     name: 'Lords of Waterdeep',
     code: 'lords-of-waterdeep',
