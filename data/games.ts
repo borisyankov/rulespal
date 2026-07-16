@@ -196,6 +196,13 @@ const assets: Game[] = [
     code: 'cascadia',
   },
   {
+    bggid: 155426,
+    name: 'Castles of Mad King Ludwig',
+    code: 'castles-of-mad-king-ludwig',
+    shortName: 'Mad King Ludwig',
+    alternativeNames: ['Castles of Mad King Ludwig: Second Edition'],
+  },
+  {
     bggid: 345972,
     name: 'Cat in the Box: Deluxe Edition',
     code: 'cat-in-the-box',
