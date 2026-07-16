@@ -716,6 +716,11 @@ const assets: Game[] = [
     code: 'gaia-project',
   },
   {
+    bggid: 391137,
+    name: 'Galactic Cruise',
+    code: 'galactic-cruise',
+  },
+  {
     bggid: 527,
     name: 'GIPF',
     code: 'gipf',
