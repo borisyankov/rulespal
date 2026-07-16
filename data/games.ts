@@ -380,6 +380,11 @@ const assets: Game[] = [
     code: 'codenames-duet',
   },
   {
+    bggid: 325022,
+    name: 'Coffee Traders',
+    code: 'coffee-traders',
+  },
+  {
     bggid: 245638,
     name: 'Coimbra',
     code: 'coimbra',
