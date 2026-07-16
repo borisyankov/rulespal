@@ -838,6 +838,12 @@ const assets: Game[] = [
     code: 'orleans',
   },
   {
+    bggid: 266810,
+    name: 'Paladins of the West Kingdom',
+    code: 'paladins-of-the-west-kingdom',
+    shortName: 'Paladins',
+  },
+  {
     bggid: 30549,
     name: 'Pandemic',
     code: 'pandemic',
