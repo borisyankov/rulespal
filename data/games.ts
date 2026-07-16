@@ -1107,6 +1107,12 @@ const assets: Game[] = [
     code: 'risk',
   },
   {
+    bggid: 121921,
+    name: 'Robinson Crusoe: Adventures on the Cursed Island',
+    code: 'robinson-crusoe',
+    shortName: 'Robinson Crusoe',
+  },
+  {
     bggid: 132531,
     name: 'Roll for the Galaxy',
     code: 'roll-for-the-galaxy',
