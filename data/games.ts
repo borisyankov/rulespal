@@ -301,6 +301,12 @@ const assets: Game[] = [
     alternativeNames: ['Cluedo'],
   },
   {
+    bggid: 11971,
+    name: 'Cockroach Poker',
+    code: 'cockroach-poker',
+    alternativeNames: ['Kakerlakenpoker'],
+  },
+  {
     bggid: 178900,
     name: 'Codenames',
     code: 'codenames',
