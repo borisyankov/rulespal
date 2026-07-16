@@ -804,6 +804,11 @@ const assets: Game[] = [
     code: 'next-station-london',
   },
   {
+    bggid: 293014,
+    name: 'Nidavellir',
+    code: 'nidavellir',
+  },
+  {
     bggid: 12942,
     name: 'No Thanks!',
     code: 'no-thanks',
