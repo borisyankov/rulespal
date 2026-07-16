@@ -672,6 +672,11 @@ const assets: Game[] = [
     code: 'hadrians-wall',
   },
   {
+    bggid: 300322,
+    name: 'Hallertau',
+    code: 'hallertau',
+  },
+  {
     bggid: 98778,
     name: 'Hanabi',
     code: 'hanabi',
