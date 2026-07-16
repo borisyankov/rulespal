@@ -562,6 +562,12 @@ const assets: Game[] = [
     code: 'heat',
   },
   {
+    bggid: 321608,
+    name: 'Hegemony: Lead Your Class to Victory',
+    code: 'hegemony',
+    shortName: 'Hegemony',
+  },
+  {
     bggid: 2655,
     name: 'Hive',
     code: 'hive',
