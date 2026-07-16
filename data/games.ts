@@ -832,6 +832,11 @@ const assets: Game[] = [
     code: 'power-grid',
   },
   {
+    bggid: 308765,
+    name: 'Praga Caput Regni',
+    code: 'praga-caput-regni',
+  },
+  {
     bggid: 3076,
     name: 'Puerto Rico',
     code: 'puerto-rico',
