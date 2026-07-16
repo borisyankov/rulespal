@@ -1406,6 +1406,12 @@ const assets: Game[] = [
     alternativeNames: ['Sherlock Holmes Consulting Detective'],
   },
   {
+    bggid: 202426,
+    name: 'Sidereal Confluence',
+    code: 'sidereal-confluence',
+    alternativeNames: ['Sidereal Confluence: Trading and Negotiation in the Elysian Quadrant', 'Sidereal Confluence: Remastered Edition'],
+  },
+  {
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
