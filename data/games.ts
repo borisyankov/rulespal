@@ -847,6 +847,12 @@ const assets: Game[] = [
     code: 'jaipur',
   },
   {
+    bggid: 332686,
+    name: 'John Company: Second Edition',
+    code: 'john-company',
+    shortName: 'John Company',
+  },
+  {
     bggid: 254640,
     name: 'Just One',
     code: 'just-one',
