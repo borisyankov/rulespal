@@ -2,6 +2,11 @@ import type { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
+    bggid: 207830,
+    name: '5-Minute Dungeon',
+    code: '5-minute-dungeon',
+  },
+  {
     bggid: 68448,
     name: '7 Wonders',
     code: '7-wonders',
@@ -48,6 +53,12 @@ const assets: Game[] = [
     alternativeNames: ['Der Palast von Alhambra', 'Alhambra: Revised Edition'],
   },
   {
+    bggid: 5404,
+    name: 'Amun-Re',
+    code: 'amun-re',
+    alternativeNames: ['Amon Ra'],
+  },
+  {
     bggid: 185343,
     name: 'Anachrony',
     code: 'anachrony',
@@ -57,6 +68,12 @@ const assets: Game[] = [
     bggid: 400314,
     name: 'Apiary',
     code: 'apiary',
+  },
+  {
+    bggid: 155873,
+    name: 'AquaSphere',
+    code: 'aquasphere',
+    alternativeNames: ['Aqua Sphere'],
   },
   {
     bggid: 236457,
@@ -86,6 +103,11 @@ const assets: Game[] = [
     code: 'azul',
   },
   {
+    bggid: 346965,
+    name: "Azul: Queen's Garden",
+    code: 'azul-queens-garden',
+  },
+  {
     bggid: 287954,
     name: 'Azul: Summer Pavilion',
     code: 'azul-summer-pavilion',
@@ -94,6 +116,12 @@ const assets: Game[] = [
     bggid: 2397,
     name: 'Backgammon',
     code: 'backgammon',
+  },
+  {
+    bggid: 219513,
+    name: 'Bärenpark',
+    code: 'barenpark',
+    alternativeNames: ['Barenpark', 'Baerenpark'],
   },
   {
     bggid: 251247,
@@ -115,6 +143,11 @@ const assets: Game[] = [
     bggid: 317985,
     name: 'Beyond the Sun',
     code: 'beyond-the-sun',
+  },
+  {
+    bggid: 262215,
+    name: 'Blackout: Hong Kong',
+    code: 'blackout-hong-kong',
   },
   {
     bggid: 11,
@@ -145,6 +178,11 @@ const assets: Game[] = [
     bggid: 343905,
     name: 'Boonlake',
     code: 'boonlake',
+  },
+  {
+    bggid: 127060,
+    name: 'Bora Bora',
+    code: 'bora-bora',
   },
   {
     bggid: 224517,
@@ -252,6 +290,11 @@ const assets: Game[] = [
     code: 'challengers',
   },
   {
+    bggid: 172287,
+    name: 'Champions of Midgard',
+    code: 'champions-of-midgard',
+  },
+  {
     bggid: 2083,
     name: 'Checkers',
     code: 'checkers',
@@ -317,6 +360,11 @@ const assets: Game[] = [
     code: 'codenames-duet',
   },
   {
+    bggid: 245638,
+    name: 'Coimbra',
+    code: 'coimbra',
+  },
+  {
     bggid: 5782,
     name: 'Coloretto',
     code: 'coloretto',
@@ -378,6 +426,11 @@ const assets: Game[] = [
     code: 'cyclades',
   },
   {
+    bggid: 322289,
+    name: "Darwin's Journey",
+    code: 'darwins-journey',
+  },
+  {
     bggid: 150376,
     name: 'Dead of Winter: A Crossroads Game',
     code: 'dead-of-winter',
@@ -409,6 +462,11 @@ const assets: Game[] = [
     name: 'Disney Villainous: The Worst Takes It All',
     code: 'disney-villainous',
     shortName: 'Disney Villainous',
+  },
+  {
+    bggid: 295895,
+    name: 'Distilled',
+    code: 'distilled',
   },
   {
     bggid: 39856,
@@ -489,9 +547,20 @@ const assets: Game[] = [
     code: 'eldritch-horror',
   },
   {
+    bggid: 233398,
+    name: 'Endeavor: Age of Sail',
+    code: 'endeavor-age-of-sail',
+  },
+  {
     bggid: 367966,
     name: 'Endeavor: Deep Sea',
     code: 'endeavor-deep-sea',
+  },
+  {
+    bggid: 305096,
+    name: 'Endless Winter: Paleoamericans',
+    code: 'endless-winter',
+    shortName: 'Endless Winter',
   },
   {
     bggid: 199792,
@@ -536,6 +605,11 @@ const assets: Game[] = [
     code: 'food-chain-magnate',
   },
   {
+    bggid: 66188,
+    name: 'Fresco',
+    code: 'fresco',
+  },
+  {
     bggid: 295770,
     name: 'Frosthaven',
     code: 'frosthaven',
@@ -574,6 +648,11 @@ const assets: Game[] = [
     extraSources: ['appendix'],
   },
   {
+    bggid: 318084,
+    name: 'Furnace',
+    code: 'furnace',
+  },
+  {
     bggid: 220308,
     name: 'Gaia Project',
     code: 'gaia-project',
@@ -587,6 +666,11 @@ const assets: Game[] = [
     bggid: 246192,
     name: 'Gizmos',
     code: 'gizmos',
+  },
+  {
+    bggid: 143693,
+    name: 'Glass Road',
+    code: 'glass-road',
   },
   {
     bggid: 265188,
@@ -620,6 +704,12 @@ const assets: Game[] = [
     code: 'grand-austria-hotel',
   },
   {
+    bggid: 364011,
+    name: 'Great Western Trail: Argentina',
+    code: 'great-western-trail-argentina',
+    shortName: 'GWT: Argentina',
+  },
+  {
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
     code: 'great-western-trail',
@@ -634,6 +724,11 @@ const assets: Game[] = [
     bggid: 304783,
     name: "Hadrian's Wall",
     code: 'hadrians-wall',
+  },
+  {
+    bggid: 300322,
+    name: 'Hallertau',
+    code: 'hallertau',
   },
   {
     bggid: 98778,
@@ -676,6 +771,12 @@ const assets: Game[] = [
     bggid: 2655,
     name: 'Hive',
     code: 'hive',
+  },
+  {
+    bggid: 282524,
+    name: 'Horrified',
+    code: 'horrified',
+    alternativeNames: ['Horrified: Universal Monsters'],
   },
   {
     bggid: 154203,
@@ -787,6 +888,12 @@ const assets: Game[] = [
     alternativeNames: ['Die Legenden von Andor'],
   },
   {
+    bggid: 140620,
+    name: 'Lewis & Clark: The Expedition',
+    code: 'lewis-and-clark',
+    shortName: 'Lewis & Clark',
+  },
+  {
     bggid: 356033,
     name: 'Libertalia: Winds of Galecrest',
     code: 'libertalia-winds-of-galecrest',
@@ -801,6 +908,11 @@ const assets: Game[] = [
     bggid: 328479,
     name: 'Living Forest',
     code: 'living-forest',
+  },
+  {
+    bggid: 295374,
+    name: 'Long Shot: The Dice Game',
+    code: 'long-shot-the-dice-game',
   },
   {
     bggid: 110327,
@@ -887,6 +999,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 298047,
+    name: 'Marvel United',
+    code: 'marvel-united',
+  },
+  {
     bggid: 314491,
     name: 'Meadow',
     code: 'meadow',
@@ -930,6 +1047,11 @@ const assets: Game[] = [
     alternativeNames: ['Moon Colonies Bloodbath'],
   },
   {
+    bggid: 1927,
+    name: 'Munchkin',
+    code: 'munchkin',
+  },
+  {
     bggid: 295486,
     name: 'My City',
     code: 'my-city',
@@ -945,6 +1067,11 @@ const assets: Game[] = [
     code: 'nemesis',
   },
   {
+    bggid: 244711,
+    name: 'Newton',
+    code: 'newton',
+  },
+  {
     bggid: 353545,
     name: 'Next Station: London',
     code: 'next-station-london',
@@ -958,6 +1085,11 @@ const assets: Game[] = [
     bggid: 12942,
     name: 'No Thanks!',
     code: 'no-thanks',
+  },
+  {
+    bggid: 25554,
+    name: 'Notre Dame',
+    code: 'notre-dame',
   },
   {
     bggid: 396790,
@@ -1021,6 +1153,12 @@ const assets: Game[] = [
     bggid: 161936,
     name: 'Pandemic Legacy: Season 1',
     code: 'pandemic-legacy-season-1',
+  },
+  {
+    bggid: 260428,
+    name: 'Pandemic: Fall of Rome',
+    code: 'pandemic-fall-of-rome',
+    shortName: 'Fall of Rome',
   },
   {
     bggid: 266524,
@@ -1135,6 +1273,11 @@ const assets: Game[] = [
     bggid: 332772,
     name: 'Revive',
     code: 'revive',
+  },
+  {
+    bggid: 241831,
+    name: 'Reykholt',
+    code: 'reykholt',
   },
   {
     bggid: 205896,
@@ -1313,6 +1456,12 @@ const assets: Game[] = [
     code: 'star-realms',
   },
   {
+    bggid: 271896,
+    name: 'Star Wars: Outer Rim',
+    code: 'star-wars-outer-rim',
+    shortName: 'Outer Rim',
+  },
+  {
     bggid: 187645,
     name: 'Star Wars: Rebellion',
     code: 'star-wars-rebellion',
@@ -1371,6 +1520,11 @@ const assets: Game[] = [
     code: 'terra-mystica',
   },
   {
+    bggid: 350458,
+    name: 'Terracotta Army',
+    code: 'terracotta-army',
+  },
+  {
     bggid: 167791,
     name: 'Terraforming Mars',
     code: 'terraforming-mars',
@@ -1393,6 +1547,11 @@ const assets: Game[] = [
     alternativeNames: ['The Castles of Burgundy: Special Edition'],
   },
   {
+    bggid: 192836,
+    name: 'The Colonists',
+    code: 'the-colonists',
+  },
+  {
     bggid: 284083,
     name: 'The Crew: The Quest for Planet Nine',
     code: 'the-crew',
@@ -1408,6 +1567,11 @@ const assets: Game[] = [
     name: 'The Game of Life',
     code: 'the-game-of-life',
     alternativeNames: ['Game of Life', 'Life'],
+  },
+  {
+    bggid: 171668,
+    name: 'The Grizzled',
+    code: 'the-grizzled',
   },
   {
     bggid: 281259,
@@ -1488,9 +1652,24 @@ const assets: Game[] = [
     shortName: 'Ticket to Ride Legacy',
   },
   {
+    bggid: 276894,
+    name: 'Ticket to Ride: London',
+    code: 'ticket-to-ride-london',
+  },
+  {
+    bggid: 202670,
+    name: 'Ticket to Ride: Rails & Sails',
+    code: 'ticket-to-ride-rails-and-sails',
+  },
+  {
     bggid: 42,
     name: 'Tigris & Euphrates',
     code: 'tigris-and-euphrates',
+  },
+  {
+    bggid: 54,
+    name: 'Tikal',
+    code: 'tikal',
   },
   {
     bggid: 36553,
@@ -1503,9 +1682,28 @@ const assets: Game[] = [
     code: 'tokaido',
   },
   {
+    bggid: 88,
+    name: 'Torres',
+    code: 'torres',
+  },
+  {
     bggid: 102680,
     name: 'Trajan',
     code: 'trajan',
+  },
+  {
+    bggid: 154428,
+    name: 'Trekking the National Parks',
+    code: 'trekking-the-national-parks',
+    alternativeNames: [
+      'Trekking the National Parks: Third Edition',
+      'Trekking the National Parks: Second Edition',
+    ],
+  },
+  {
+    bggid: 353288,
+    name: 'Trekking Through History',
+    code: 'trekking-through-history',
   },
   {
     bggid: 163068,
@@ -1578,6 +1776,11 @@ const assets: Game[] = [
     code: 'uno',
   },
   {
+    bggid: 334065,
+    name: 'Verdant',
+    code: 'verdant',
+  },
+  {
     bggid: 104006,
     name: 'Village',
     code: 'village',
@@ -1609,6 +1812,12 @@ const assets: Game[] = [
     bggid: 262543,
     name: 'Wavelength',
     code: 'wavelength',
+  },
+  {
+    bggid: 350316,
+    name: 'Wayfarers of the South Tigris',
+    code: 'wayfarers-of-the-south-tigris',
+    shortName: 'Wayfarers',
   },
   {
     bggid: 233867,
@@ -1654,6 +1863,11 @@ const assets: Game[] = [
     bggid: 196340,
     name: 'Yokohama',
     code: 'yokohama',
+  },
+  {
+    bggid: 22345,
+    name: 'Yspahan',
+    code: 'yspahan',
   },
   {
     bggid: 5674,
