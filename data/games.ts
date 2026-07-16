@@ -1334,6 +1334,12 @@ const assets: Game[] = [
     code: 'uno',
   },
   {
+    bggid: 296151,
+    name: 'Viscounts of the West Kingdom',
+    code: 'viscounts-of-the-west-kingdom',
+    shortName: 'Viscounts',
+  },
+  {
     bggid: 183394,
     name: 'Viticulture Essential Edition',
     code: 'viticulture',
