@@ -284,6 +284,11 @@ const assets: Game[] = [
     shortName: 'Clank! Legacy',
   },
   {
+    bggid: 216132,
+    name: 'Clans of Caledonia',
+    code: 'clans-of-caledonia',
+  },
+  {
     bggid: 1294,
     name: 'Clue',
     code: 'clue',
