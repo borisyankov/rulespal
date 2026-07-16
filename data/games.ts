@@ -656,6 +656,12 @@ const assets: Game[] = [
     code: 'harmonies',
   },
   {
+    bggid: 199042,
+    name: 'Harry Potter: Hogwarts Battle',
+    code: 'harry-potter-hogwarts-battle',
+    shortName: 'Hogwarts Battle',
+  },
+  {
     bggid: 366013,
     name: 'Heat: Pedal to the Metal',
     code: 'heat',
