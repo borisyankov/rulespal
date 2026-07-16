@@ -70,6 +70,12 @@ const assets: Game[] = [
     extraSources: ['chronobot-chronossus'],
   },
   {
+    bggid: 311193,
+    name: 'Anno 1800',
+    code: 'anno-1800',
+    alternativeNames: ['Anno 1800: The Board Game', 'Anno 1800 - Das Brettspiel'],
+  },
+  {
     bggid: 400314,
     name: 'Apiary',
     code: 'apiary',
