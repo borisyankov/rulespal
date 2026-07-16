@@ -311,6 +311,11 @@ const assets: Game[] = [
     code: 'codenames',
   },
   {
+    bggid: 245638,
+    name: 'Coimbra',
+    code: 'coimbra',
+  },
+  {
     bggid: 5782,
     name: 'Coloretto',
     code: 'coloretto',
