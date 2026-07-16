@@ -170,6 +170,11 @@ const assets: Game[] = [
     code: 'cards-against-humanity',
   },
   {
+    bggid: 310873,
+    name: 'Carnegie',
+    code: 'carnegie',
+  },
+  {
     bggid: 263918,
     name: 'Cartographers',
     code: 'cartographers',
