@@ -15,7 +15,6 @@ export default function Chat({ game }: Props) {
   const { messages, sendMessage, status, stop } = useChat<RulesUIMessage>({
     id: game.code,
     transport: new DefaultChatTransport({ api: '/api/chat' }),
-    // initialMessages - taken from the localStorage!!
   });
   const isLoading = status === 'submitted' || status === 'streaming';
   function submitWithGame(text: string) {
