@@ -2,6 +2,11 @@ import type { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
+    bggid: 207830,
+    name: '5-Minute Dungeon',
+    code: '5-minute-dungeon',
+  },
+  {
     bggid: 68448,
     name: '7 Wonders',
     code: '7-wonders',
