@@ -150,6 +150,11 @@ const assets: Game[] = [
     code: 'beyond-the-sun',
   },
   {
+    bggid: 323612,
+    name: 'Bitoku',
+    code: 'bitoku',
+  },
+  {
     bggid: 262215,
     name: 'Blackout: Hong Kong',
     code: 'blackout-hong-kong',
