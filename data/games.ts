@@ -836,6 +836,12 @@ const assets: Game[] = [
     code: 'patchwork',
   },
   {
+    bggid: 256960,
+    name: 'Pax Pamir: Second Edition',
+    code: 'pax-pamir-second-edition',
+    shortName: 'Pax Pamir',
+  },
+  {
     bggid: 1258,
     name: 'Phase 10',
     code: 'phase-10',
