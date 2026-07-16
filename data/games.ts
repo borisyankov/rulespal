@@ -1829,6 +1829,11 @@ const assets: Game[] = [
     code: 'tikal',
   },
   {
+    bggid: 351913,
+    name: 'Tiletum',
+    code: 'tiletum',
+  },
+  {
     bggid: 36553,
     name: "Time's Up! Title Recall!",
     code: 'times-up-title-recall',
