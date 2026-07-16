@@ -152,6 +152,12 @@ const assets: Game[] = [
     code: 'brass-birmingham',
   },
   {
+    bggid: 136888,
+    name: 'Bruges',
+    code: 'bruges',
+    alternativeNames: ['Brügge'],
+  },
+  {
     bggid: 184921,
     name: 'Bunny Kingdom',
     code: 'bunny-kingdom',
