@@ -931,6 +931,11 @@ const assets: Game[] = [
     code: 'le-havre',
   },
   {
+    bggid: 354934,
+    name: 'Legacy of Yu',
+    code: 'legacy-of-yu',
+  },
+  {
     bggid: 127398,
     name: 'Legends of Andor',
     code: 'legends-of-andor',
