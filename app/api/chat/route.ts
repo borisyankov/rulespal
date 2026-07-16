@@ -1,20 +1,26 @@
 import { searchFor } from '@/app/lib/actions';
-import { streamText, type UIMessage } from 'ai';
+import { convertToModelMessages, streamText, type UIMessage } from 'ai';
 import model from './model';
+
+function lastUserText(messages: UIMessage[]): string {
+  const lastUser = [...messages].reverse().find((m) => m.role === 'user');
+  return (lastUser?.parts ?? [])
+    .filter((part) => part.type === 'text')
+    .map((part) => part.text)
+    .join('');
+}
 
 export async function POST(req: Request) {
   const { messages, bggid }: { messages: UIMessage[]; bggid: string } =
     await req.json();
-  const lastMessage = messages[messages.length - 1];
-  const prompt = lastMessage.parts
-    .filter((part) => part.type === 'text')
-    .map((part) => part.text)
-    .join('');
-  const { system } = await searchFor(prompt, +bggid);
+  // Retrieve on the latest user turn, but let the model see the whole
+  // conversation so follow-up questions keep their context.
+  const query = lastUserText(messages);
+  const { system } = await searchFor(query, +bggid);
   const result = streamText({
     model,
     system,
-    prompt,
+    messages: convertToModelMessages(messages),
     temperature: 0.1,
   });
   return result.toUIMessageStreamResponse();
