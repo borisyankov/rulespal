@@ -1257,6 +1257,13 @@ const assets: Game[] = [
     code: 'tzaar',
   },
   {
+    bggid: 126163,
+    name: "Tzolk'in: The Mayan Calendar",
+    code: 'tzolkin',
+    shortName: "Tzolk'in",
+    alternativeNames: ['Tzolkin'],
+  },
+  {
     bggid: 268864,
     name: 'Undaunted: Normandy',
     code: 'undaunted-normandy',
