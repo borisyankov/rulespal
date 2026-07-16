@@ -53,6 +53,11 @@ const assets: Game[] = [
     code: 'apiary',
   },
   {
+    bggid: 359871,
+    name: 'Arcs',
+    code: 'arcs',
+  },
+  {
     bggid: 342942,
     name: 'Ark Nova',
     code: 'ark-nova',
