@@ -919,6 +919,11 @@ const assets: Game[] = [
     code: 'revive',
   },
   {
+    bggid: 205896,
+    name: 'Rising Sun',
+    code: 'rising-sun',
+  },
+  {
     bggid: 181,
     name: 'Risk',
     code: 'risk',
