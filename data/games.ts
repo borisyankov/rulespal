@@ -42,6 +42,12 @@ const assets: Game[] = [
     code: 'akropolis',
   },
   {
+    bggid: 6249,
+    name: 'Alhambra',
+    code: 'alhambra',
+    alternativeNames: ['Der Palast von Alhambra', 'Alhambra: Revised Edition'],
+  },
+  {
     bggid: 185343,
     name: 'Anachrony',
     code: 'anachrony',
