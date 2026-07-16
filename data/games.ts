@@ -1798,6 +1798,11 @@ const assets: Game[] = [
     code: 'ticket-to-ride-rails-and-sails',
   },
   {
+    bggid: 362541,
+    name: 'Ticket to Ride: San Francisco',
+    code: 'ticket-to-ride-san-francisco',
+  },
+  {
     bggid: 42,
     name: 'Tigris & Euphrates',
     code: 'tigris-and-euphrates',
