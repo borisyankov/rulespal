@@ -882,6 +882,12 @@ const assets: Game[] = [
     code: 'knarr',
   },
   {
+    bggid: 385610,
+    name: 'Kutná Hora: The City of Silver',
+    code: 'kutna-hora',
+    shortName: 'Kutná Hora',
+  },
+  {
     bggid: 146886,
     name: 'La Granja',
     code: 'la-granja',
