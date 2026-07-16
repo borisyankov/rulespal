@@ -836,6 +836,12 @@ const assets: Game[] = [
     code: 'meadow',
   },
   {
+    bggid: 318977,
+    name: 'MicroMacro: Crime City',
+    code: 'micromacro-crime-city',
+    shortName: 'MicroMacro',
+  },
+  {
     bggid: 345584,
     name: 'Mindbug: First Contact',
     code: 'mindbug-first-contact',
