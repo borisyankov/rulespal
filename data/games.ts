@@ -207,6 +207,11 @@ const assets: Game[] = [
     code: 'bomb-busters',
   },
   {
+    bggid: 304420,
+    name: 'Bonfire',
+    code: 'bonfire',
+  },
+  {
     bggid: 343905,
     name: 'Boonlake',
     code: 'boonlake',
