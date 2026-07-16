@@ -252,6 +252,11 @@ const assets: Game[] = [
     code: 'challengers',
   },
   {
+    bggid: 172287,
+    name: 'Champions of Midgard',
+    code: 'champions-of-midgard',
+  },
+  {
     bggid: 2083,
     name: 'Checkers',
     code: 'checkers',
