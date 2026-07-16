@@ -493,6 +493,11 @@ const assets: Game[] = [
     code: 'for-sale',
   },
   {
+    bggid: 136063,
+    name: 'Forbidden Desert',
+    code: 'forbidden-desert',
+  },
+  {
     bggid: 65244,
     name: 'Forbidden Island',
     code: 'forbidden-island',
