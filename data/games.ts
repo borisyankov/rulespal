@@ -1507,6 +1507,11 @@ const assets: Game[] = [
     code: 'witchcraft',
   },
   {
+    bggid: 227935,
+    name: "Wonderland's War",
+    code: 'wonderlands-war',
+  },
+  {
     bggid: 365258,
     name: 'World Wonders',
     code: 'world-wonders',
