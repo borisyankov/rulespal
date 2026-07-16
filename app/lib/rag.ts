@@ -136,3 +136,15 @@ export function getOovCount(content: string, OOVs: string[]): number {
   ).filter((x) => x).length;
   return count;
 }
+
+// Weight added to a chunk's cosine similarity for each distinct
+// out-of-vocabulary (game-specific) query term the chunk contains. Boosts
+// chunks that mention the rare terms from the question above chunks that are
+// only semantically close.
+export const OOV_BOOST = 0.2;
+
+// Final retrieval score for a chunk: its cosine similarity to the query,
+// nudged up by the number of game-specific query terms it contains.
+export function similarityScore(cosine: number, oovCount: number): number {
+  return cosine + oovCount * OOV_BOOST;
+}

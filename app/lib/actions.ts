@@ -1,5 +1,11 @@
 import OpenAI from 'openai';
-import { cosineToUnit, findOOVs, getOovCount, normalize } from './rag';
+import {
+  cosineToUnit,
+  findOOVs,
+  getOovCount,
+  normalize,
+  similarityScore,
+} from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { Citation, EmbeddingSet, Game } from './definitions';
@@ -92,7 +98,7 @@ export async function searchFor(
     return {
       ...x,
       content,
-      similarity: cosine + oovCount * 0.2,
+      similarity: similarityScore(cosine, oovCount),
     };
   });
   cosine.sort((a, b) => b.similarity - a.similarity);

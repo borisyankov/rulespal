@@ -6,6 +6,8 @@ import {
   normalize,
   findOOVs,
   getOovCount,
+  similarityScore,
+  OOV_BOOST,
 } from '../rag';
 
 const wingspanExcept = `# Wingspan Rulebook
@@ -162,6 +164,21 @@ describe("cosineToUnit", () => {
     expect(() => cosineToUnit([1, 2, 3], [1, 2])).toThrow(
       'Vectors are not of the same dimension',
     );
+  });
+});
+
+
+describe("similarityScore", () => {
+  test("returns the cosine similarity when no OOV terms match", () => {
+    expect(similarityScore(0.5, 0)).toEqual(0.5);
+  });
+
+  test("adds OOV_BOOST for each matching OOV term", () => {
+    expect(similarityScore(0.5, 2)).toBeCloseTo(0.5 + 2 * OOV_BOOST, 12);
+  });
+
+  test("an OOV match can outrank a higher raw cosine", () => {
+    expect(similarityScore(0.4, 1)).toBeGreaterThan(similarityScore(0.5, 0));
   });
 });
 
