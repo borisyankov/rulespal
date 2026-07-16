@@ -1575,6 +1575,15 @@ const assets: Game[] = [
     code: 'trajan',
   },
   {
+    bggid: 154428,
+    name: 'Trekking the National Parks',
+    code: 'trekking-the-national-parks',
+    alternativeNames: [
+      'Trekking the National Parks: Third Edition',
+      'Trekking the National Parks: Second Edition',
+    ],
+  },
+  {
     bggid: 163068,
     name: 'Trickerion: Legends of Illusion',
     code: 'trickerion',
