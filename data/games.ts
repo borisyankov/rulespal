@@ -922,6 +922,12 @@ const assets: Game[] = [
     code: 'race-for-the-galaxy',
   },
   {
+    bggid: 170042,
+    name: 'Raiders of the North Sea',
+    code: 'raiders-of-the-north-sea',
+    shortName: 'Raiders',
+  },
+  {
     bggid: 351040,
     name: 'Ready Set Bet',
     code: 'ready-set-bet',
