@@ -682,6 +682,12 @@ const assets: Game[] = [
     code: 'incan-gold',
   },
   {
+    bggid: 9674,
+    name: 'Ingenious',
+    code: 'ingenious',
+    alternativeNames: ['Einfach Genial', 'Simply Ingenious'],
+  },
+  {
     bggid: 63888,
     name: 'Innovation',
     code: 'innovation',
