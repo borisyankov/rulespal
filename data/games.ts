@@ -1897,6 +1897,12 @@ const assets: Game[] = [
     alternativeNames: ['Tzolkin'],
   },
   {
+    bggid: 401978,
+    name: 'Undaunted 2200: Callisto',
+    code: 'undaunted-2200-callisto',
+    shortName: 'Undaunted 2200',
+  },
+  {
     bggid: 268864,
     name: 'Undaunted: Normandy',
     code: 'undaunted-normandy',
