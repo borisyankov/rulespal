@@ -1500,6 +1500,11 @@ const assets: Game[] = [
     code: 'yinsh',
   },
   {
+    bggid: 196340,
+    name: 'Yokohama',
+    code: 'yokohama',
+  },
+  {
     bggid: 5674,
     name: 'Yu-Gi-Oh! Trading Card Game',
     code: 'yu-gi-oh',
