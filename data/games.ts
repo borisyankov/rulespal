@@ -1479,6 +1479,11 @@ const assets: Game[] = [
     code: 'tigris-and-euphrates',
   },
   {
+    bggid: 54,
+    name: 'Tikal',
+    code: 'tikal',
+  },
+  {
     bggid: 36553,
     name: "Time's Up! Title Recall!",
     code: 'times-up-title-recall',
