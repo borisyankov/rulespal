@@ -1167,6 +1167,11 @@ const assets: Game[] = [
     code: 'nucleum',
   },
   {
+    bggid: 234277,
+    name: 'Nusfjord',
+    code: 'nusfjord',
+  },
+  {
     bggid: 291572,
     name: 'Oath: Chronicles of Empire & Exile',
     code: 'oath',
