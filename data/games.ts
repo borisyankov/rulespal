@@ -687,6 +687,12 @@ const assets: Game[] = [
     code: 'hive',
   },
   {
+    bggid: 282524,
+    name: 'Horrified',
+    code: 'horrified',
+    alternativeNames: ['Horrified: Universal Monsters'],
+  },
+  {
     bggid: 154203,
     name: 'Imperial Settlers',
     code: 'imperial-settlers',
