@@ -1198,6 +1198,11 @@ const assets: Game[] = [
     code: 'revive',
   },
   {
+    bggid: 241831,
+    name: 'Reykholt',
+    code: 'reykholt',
+  },
+  {
     bggid: 205896,
     name: 'Rising Sun',
     code: 'rising-sun',
