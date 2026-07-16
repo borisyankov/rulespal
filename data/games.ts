@@ -1584,6 +1584,12 @@ const assets: Game[] = [
     code: 'the-isle-of-cats',
   },
   {
+    bggid: 421006,
+    name: 'The Lord of the Rings: Duel for Middle-earth',
+    code: 'duel-for-middle-earth',
+    shortName: 'Duel for Middle-earth',
+  },
+  {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks-of-quedlinburg',
