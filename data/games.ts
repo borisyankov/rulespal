@@ -535,6 +535,12 @@ const assets: Game[] = [
     code: 'everdell',
   },
   {
+    bggid: 379078,
+    name: 'Expeditions',
+    code: 'expeditions',
+    alternativeNames: ['Expeditions: A Sequel to Scythe', 'Expeditions (Ironclad Edition)'],
+  },
+  {
     bggid: 172225,
     name: 'Exploding Kittens',
     code: 'exploding-kittens',
