@@ -1262,6 +1262,11 @@ const assets: Game[] = [
     code: 'photosynthesis',
   },
   {
+    bggid: 256730,
+    name: 'Pipeline',
+    code: 'pipeline',
+  },
+  {
     bggid: 258779,
     name: 'Planet Unknown',
     code: 'planet-unknown',
