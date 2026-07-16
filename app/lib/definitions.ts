@@ -1,11 +1,5 @@
 import type { UIMessage } from 'ai';
 
-export type LogEntry = {
-  id: number;
-  timestamp: Date;
-  message: string;
-};
-
 export type Game = {
   bggid: number;
   name: string;
