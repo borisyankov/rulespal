@@ -49,7 +49,7 @@ export async function POST(req: Request) {
     const result = streamText({
       model,
       system,
-      messages: convertToModelMessages(messages),
+      messages: await convertToModelMessages(messages),
       temperature: 0.1,
     });
     return result.toUIMessageStreamResponse({
