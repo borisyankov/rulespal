@@ -1629,6 +1629,12 @@ const assets: Game[] = [
     shortName: 'Duel for Middle-earth',
   },
   {
+    bggid: 269385,
+    name: 'The Lord of the Rings: Journeys in Middle-earth',
+    code: 'journeys-in-middle-earth',
+    shortName: 'Journeys in Middle-earth',
+  },
+  {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks-of-quedlinburg',
