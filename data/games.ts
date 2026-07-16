@@ -532,6 +532,11 @@ const assets: Game[] = [
     code: 'go',
   },
   {
+    bggid: 182874,
+    name: 'Grand Austria Hotel',
+    code: 'grand-austria-hotel',
+  },
+  {
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
     code: 'great-western-trail',
