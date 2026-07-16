@@ -951,6 +951,12 @@ const assets: Game[] = [
     code: 'operation',
   },
   {
+    bggid: 70149,
+    name: 'Ora et Labora',
+    code: 'ora-et-labora',
+    alternativeNames: ['Ora & Labora'],
+  },
+  {
     bggid: 164928,
     name: 'Orléans',
     code: 'orleans',
