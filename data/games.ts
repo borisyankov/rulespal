@@ -875,6 +875,11 @@ const assets: Game[] = [
     code: 'phase-10',
   },
   {
+    bggid: 218603,
+    name: 'Photosynthesis',
+    code: 'photosynthesis',
+  },
+  {
     bggid: 258779,
     name: 'Planet Unknown',
     code: 'planet-unknown',
