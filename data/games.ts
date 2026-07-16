@@ -536,6 +536,12 @@ const assets: Game[] = [
     code: 'endeavor-deep-sea',
   },
   {
+    bggid: 305096,
+    name: 'Endless Winter: Paleoamericans',
+    code: 'endless-winter',
+    shortName: 'Endless Winter',
+  },
+  {
     bggid: 199792,
     name: 'Everdell',
     code: 'everdell',
