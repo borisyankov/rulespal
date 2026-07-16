@@ -1424,6 +1424,11 @@ const assets: Game[] = [
     code: 'reykholt',
   },
   {
+    bggid: 291859,
+    name: 'Riftforce',
+    code: 'riftforce',
+  },
+  {
     bggid: 205896,
     name: 'Rising Sun',
     code: 'rising-sun',
