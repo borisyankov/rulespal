@@ -1966,6 +1966,11 @@ const assets: Game[] = [
     code: 'welcome-to',
   },
   {
+    bggid: 244654,
+    name: 'Wildlands',
+    code: 'wildlands',
+  },
+  {
     bggid: 266192,
     name: 'Wingspan',
     code: 'wingspan',
