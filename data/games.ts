@@ -1789,6 +1789,11 @@ const assets: Game[] = [
     code: 'the-mind',
   },
   {
+    bggid: 227224,
+    name: 'The Red Cathedral',
+    code: 'the-red-cathedral',
+  },
+  {
     bggid: 41114,
     name: 'The Resistance',
     code: 'the-resistance',
