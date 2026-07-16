@@ -16,12 +16,17 @@ export async function POST(req: Request) {
   // Retrieve on the latest user turn, but let the model see the whole
   // conversation so follow-up questions keep their context.
   const query = lastUserText(messages);
-  const { system } = await searchFor(query, +bggid);
+  const { system, citations } = await searchFor(query, +bggid);
   const result = streamText({
     model,
     system,
     messages: convertToModelMessages(messages),
     temperature: 0.1,
   });
-  return result.toUIMessageStreamResponse();
+  return result.toUIMessageStreamResponse({
+    // Citations are known up front from retrieval, so attach them when the
+    // assistant message starts streaming.
+    messageMetadata: ({ part }) =>
+      part.type === 'start' ? { citations } : undefined,
+  });
 }

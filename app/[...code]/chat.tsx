@@ -5,14 +5,14 @@ import { DefaultChatTransport } from 'ai';
 import EmptyState from '@/app/ui/empty-state';
 import MessageList from '@/app/ui/message-list';
 import UserInput from '@/app/ui/user-input';
-import type { Game } from '../lib/definitions';
+import type { Game, RulesUIMessage } from '../lib/definitions';
 
 type Props = {
   game: Game;
 };
 
 export default function Chat({ game }: Props) {
-  const { messages, sendMessage, status, stop } = useChat({
+  const { messages, sendMessage, status, stop } = useChat<RulesUIMessage>({
     id: game.code,
     transport: new DefaultChatTransport({ api: '/api/chat' }),
     // initialMessages - taken from the localStorage!!
