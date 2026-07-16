@@ -779,6 +779,12 @@ const assets: Game[] = [
     code: 'le-havre',
   },
   {
+    bggid: 140620,
+    name: 'Lewis & Clark: The Expedition',
+    code: 'lewis-and-clark',
+    shortName: 'Lewis & Clark',
+  },
+  {
     bggid: 356033,
     name: 'Libertalia: Winds of Galecrest',
     code: 'libertalia-winds-of-galecrest',
