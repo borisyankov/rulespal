@@ -688,6 +688,12 @@ const assets: Game[] = [
     code: 'grand-austria-hotel',
   },
   {
+    bggid: 364011,
+    name: 'Great Western Trail: Argentina',
+    code: 'great-western-trail-argentina',
+    shortName: 'GWT: Argentina',
+  },
+  {
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
     code: 'great-western-trail',
