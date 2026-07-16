@@ -718,6 +718,11 @@ const assets: Game[] = [
     code: 'lucky-numbers',
   },
   {
+    bggid: 143884,
+    name: 'Machi Koro',
+    code: 'machi-koro',
+  },
+  {
     bggid: 248562,
     name: 'Mage Knight: Ultimate Edition',
     code: 'mage-knight',
