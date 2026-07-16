@@ -1165,6 +1165,12 @@ const assets: Game[] = [
     code: 'stone-age',
   },
   {
+    bggid: 123260,
+    name: 'Suburbia',
+    code: 'suburbia',
+    alternativeNames: ['Suburbia Collector\'s Edition'],
+  },
+  {
     bggid: 133473,
     name: 'Sushi Go!',
     code: 'sushi-go',
