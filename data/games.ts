@@ -399,6 +399,11 @@ const assets: Game[] = [
     code: 'cyclades',
   },
   {
+    bggid: 322289,
+    name: "Darwin's Journey",
+    code: 'darwins-journey',
+  },
+  {
     bggid: 150376,
     name: 'Dead of Winter: A Crossroads Game',
     code: 'dead-of-winter',
