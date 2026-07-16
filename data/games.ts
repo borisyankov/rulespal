@@ -1754,6 +1754,12 @@ const assets: Game[] = [
     code: 'wavelength',
   },
   {
+    bggid: 350316,
+    name: 'Wayfarers of the South Tigris',
+    code: 'wayfarers-of-the-south-tigris',
+    shortName: 'Wayfarers',
+  },
+  {
     bggid: 233867,
     name: 'Welcome To...',
     code: 'welcome-to',
