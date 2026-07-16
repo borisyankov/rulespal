@@ -1,6 +1,7 @@
 import { searchFor } from '@/app/lib/actions';
 import { convertToModelMessages, streamText, type UIMessage } from 'ai';
 import model from './model';
+import { clientKey, rateLimit } from './rate-limit';
 
 // Cap the retrieved question so a single request can't push an unbounded
 // payload into the embedding and LLM APIs.
@@ -16,6 +17,13 @@ function lastUserText(messages: UIMessage[]): string {
 
 export async function POST(req: Request) {
   try {
+    if (!rateLimit(clientKey(req))) {
+      return Response.json(
+        { error: 'Too many requests' },
+        { status: 429 },
+      );
+    }
+
     const { messages, bggid }: { messages: UIMessage[]; bggid: string } =
       await req.json();
 
