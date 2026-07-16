@@ -471,6 +471,12 @@ const assets: Game[] = [
     code: 'faraway',
   },
   {
+    bggid: 159675,
+    name: 'Fields of Arle',
+    code: 'fields-of-arle',
+    alternativeNames: ['Arler Erde'],
+  },
+  {
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
     code: 'five-tribes',
