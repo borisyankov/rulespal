@@ -775,6 +775,12 @@ const assets: Game[] = [
     code: 'le-havre',
   },
   {
+    bggid: 127398,
+    name: 'Legends of Andor',
+    code: 'legends-of-andor',
+    alternativeNames: ['Die Legenden von Andor'],
+  },
+  {
     bggid: 356033,
     name: 'Libertalia: Winds of Galecrest',
     code: 'libertalia-winds-of-galecrest',
