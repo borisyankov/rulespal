@@ -567,6 +567,12 @@ const assets: Game[] = [
     code: 'gizmos',
   },
   {
+    bggid: 265188,
+    name: 'Glen More II: Chronicles',
+    code: 'glen-more-ii',
+    shortName: 'Glen More II',
+  },
+  {
     bggid: 174430,
     name: 'Gloomhaven',
     code: 'gloomhaven',
