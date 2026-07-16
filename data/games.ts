@@ -1591,6 +1591,11 @@ const assets: Game[] = [
     shortName: 'Ticket to Ride Legacy',
   },
   {
+    bggid: 276894,
+    name: 'Ticket to Ride: London',
+    code: 'ticket-to-ride-london',
+  },
+  {
     bggid: 42,
     name: 'Tigris & Euphrates',
     code: 'tigris-and-euphrates',
