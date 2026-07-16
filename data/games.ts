@@ -1330,6 +1330,11 @@ const assets: Game[] = [
     code: 'ready-set-bet',
   },
   {
+    bggid: 244228,
+    name: 'Reef',
+    code: 'reef',
+  },
+  {
     bggid: 262712,
     name: 'Res Arcana',
     code: 'res-arcana',
