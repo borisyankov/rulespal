@@ -1557,6 +1557,12 @@ const assets: Game[] = [
     code: 'the-colonists',
   },
   {
+    bggid: 324856,
+    name: 'The Crew: Mission Deep Sea',
+    code: 'the-crew-deep-sea',
+    shortName: 'Mission Deep Sea',
+  },
+  {
     bggid: 284083,
     name: 'The Crew: The Quest for Planet Nine',
     code: 'the-crew',
