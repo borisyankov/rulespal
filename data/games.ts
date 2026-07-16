@@ -1987,6 +1987,11 @@ const assets: Game[] = [
     code: 'uno',
   },
   {
+    bggid: 420033,
+    name: 'Vantage',
+    code: 'vantage',
+  },
+  {
     bggid: 334065,
     name: 'Verdant',
     code: 'verdant',
