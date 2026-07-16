@@ -604,6 +604,11 @@ const assets: Game[] = [
     code: 'exploding-kittens',
   },
   {
+    bggid: 386368,
+    name: 'Ezra and Nehemiah',
+    code: 'ezra-and-nehemiah',
+  },
+  {
     bggid: 223040,
     name: 'Fantasy Realms',
     code: 'fantasy-realms',
