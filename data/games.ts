@@ -1171,6 +1171,13 @@ const assets: Game[] = [
     code: 'marco-polo',
   },
   {
+    bggid: 182028,
+    name: 'Through the Ages: A New Story of Civilization',
+    code: 'through-the-ages',
+    shortName: 'Through the Ages',
+    alternativeNames: ['Through the Ages'],
+  },
+  {
     bggid: 342070,
     name: 'Thunder Road: Vendetta',
     code: 'thunder-road-vendetta',
