@@ -777,6 +777,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 314491,
+    name: 'Meadow',
+    code: 'meadow',
+  },
+  {
     bggid: 345584,
     name: 'Mindbug: First Contact',
     code: 'mindbug-first-contact',
