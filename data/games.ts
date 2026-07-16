@@ -680,6 +680,11 @@ const assets: Game[] = [
     code: 'king-of-tokyo',
   },
   {
+    bggid: 107529,
+    name: 'Kingdom Builder',
+    code: 'kingdom-builder',
+  },
+  {
     bggid: 204583,
     name: 'Kingdomino',
     code: 'kingdomino',
