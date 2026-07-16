@@ -2002,6 +2002,12 @@ const assets: Game[] = [
     name: 'Zombicide: Black Plague',
     code: 'zombicide-black-plague',
   },
+  {
+    bggid: 368061,
+    name: 'Zoo Vadis',
+    code: 'zoo-vadis',
+    alternativeNames: ['Quo Vadis?'],
+  },
 ];
 
 export default assets;
