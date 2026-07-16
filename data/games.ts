@@ -747,6 +747,11 @@ const assets: Game[] = [
     code: 'lords-of-waterdeep',
   },
   {
+    bggid: 203993,
+    name: 'Lorenzo il Magnifico',
+    code: 'lorenzo-il-magnifico',
+  },
+  {
     bggid: 50,
     name: 'Lost Cities',
     code: 'lost-cities',
