@@ -1484,6 +1484,11 @@ const assets: Game[] = [
     code: 'uno',
   },
   {
+    bggid: 104006,
+    name: 'Village',
+    code: 'village',
+  },
+  {
     bggid: 296151,
     name: 'Viscounts of the West Kingdom',
     code: 'viscounts-of-the-west-kingdom',
