@@ -103,6 +103,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 348554,
+    name: 'Autobahn',
+    code: 'autobahn',
+  },
+  {
     bggid: 230802,
     name: 'Azul',
     code: 'azul',
