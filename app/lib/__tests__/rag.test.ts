@@ -2,6 +2,8 @@ import fs from 'fs';
 import {
   splitText,
   cosineSimilarity,
+  cosineToUnit,
+  normalize,
   findOOVs,
   getOovCount,
 } from '../rag';
@@ -128,6 +130,36 @@ describe("cosineSimilarity", () => {
 
   test("throws when dimensions differ", () => {
     expect(() => cosineSimilarity([1, 2, 3], [1, 2])).toThrow(
+      'Vectors are not of the same dimension',
+    );
+  });
+});
+
+
+describe("normalize", () => {
+  test("scales a vector to unit length", () => {
+    expect(normalize([3, 4])).toEqual([0.6, 0.8]);
+  });
+
+  test("leaves a zero vector unchanged", () => {
+    expect(normalize([0, 0])).toEqual([0, 0]);
+  });
+});
+
+
+describe("cosineToUnit", () => {
+  test("matches cosineSimilarity when the query is pre-normalized", () => {
+    const a = [1, 2, 3];
+    const b = [4, 5, 6];
+    expect(cosineToUnit(a, normalize(b))).toBeCloseTo(cosineSimilarity(a, b), 12);
+  });
+
+  test("returns 0 for a zero vector", () => {
+    expect(cosineToUnit([0, 0], normalize([1, 1]))).toEqual(0);
+  });
+
+  test("throws when dimensions differ", () => {
+    expect(() => cosineToUnit([1, 2, 3], [1, 2])).toThrow(
       'Vectors are not of the same dimension',
     );
   });

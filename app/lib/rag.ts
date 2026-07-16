@@ -100,6 +100,24 @@ export function cosineSimilarity(vecA: number[], vecB: number[]): number {
   return dotProd / (magnitudeA * magnitudeB);
 }
 
+// Scale a vector to unit length. Returns the vector unchanged if it has zero
+// magnitude.
+export function normalize(vec: number[]): number[] {
+  const mag = magnitude(vec);
+  return mag === 0 ? vec : vec.map((v) => v / mag);
+}
+
+// Cosine similarity when the query vector is already normalized to unit
+// length. Lets a caller normalize the query once and reuse it across many
+// chunk comparisons instead of recomputing the query magnitude each time.
+export function cosineToUnit(vec: number[], unitQuery: number[]): number {
+  if (vec.length !== unitQuery.length) {
+    throw new Error('Vectors are not of the same dimension');
+  }
+  const mag = magnitude(vec);
+  return mag === 0 ? 0 : dotProduct(vec, unitQuery) / mag;
+}
+
 // Out-of-vocabulary words: query words that are not in the language dictionary
 // (typically game-specific terms), used to boost matching rulebook chunks.
 export function findOOVs(dict: string[], query: string): string[] {

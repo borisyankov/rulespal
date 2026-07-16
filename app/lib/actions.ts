@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { cosineSimilarity, findOOVs, getOovCount } from './rag';
+import { cosineToUnit, findOOVs, getOovCount, normalize } from './rag';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { Citation, EmbeddingSet, Game } from './definitions';
@@ -84,9 +84,10 @@ export async function searchFor(
   }
 
   console.time('Search all embeddings');
+  const queryUnit = normalize(queryEmbedding);
   const cosine = gameEmbeddings.map((x) => {
     const content = rulebook.substring(x.start, x.start + x.length);
-    const cosine = cosineSimilarity(x.embedding, queryEmbedding);
+    const cosine = cosineToUnit(x.embedding, queryUnit);
     const oovCount = getOovCount(content, OOVs);
     return {
       ...x,
