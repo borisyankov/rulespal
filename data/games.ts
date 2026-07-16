@@ -341,6 +341,12 @@ const assets: Game[] = [
     code: 'cyclades',
   },
   {
+    bggid: 150376,
+    name: 'Dead of Winter: A Crossroads Game',
+    code: 'dead-of-winter',
+    shortName: 'Dead of Winter',
+  },
+  {
     bggid: 156129,
     name: 'Deception: Murder in Hong Kong',
     code: 'deception-murder-hong-kong',
