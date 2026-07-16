@@ -145,6 +145,12 @@ const assets: Game[] = [
     code: 'battleship',
   },
   {
+    bggid: 369880,
+    name: 'Beer & Bread',
+    code: 'beer-and-bread',
+    alternativeNames: ['Beer and Bread'],
+  },
+  {
     bggid: 358504,
     name: 'Betrayal at House on the Hill: 3rd Edition',
     code: 'betrayal-at-house-on-the-hill',
