@@ -386,6 +386,11 @@ const assets: Game[] = [
     code: 'dune-imperium-uprising',
   },
   {
+    bggid: 367150,
+    name: 'Dune: War for Arrakis',
+    code: 'dune-war-for-arrakis',
+  },
+  {
     bggid: 2346,
     name: 'DVONN',
     code: 'dvonn',
