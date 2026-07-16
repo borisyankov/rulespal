@@ -1215,6 +1215,11 @@ const assets: Game[] = [
     shortName: 'Ticket to Ride Legacy',
   },
   {
+    bggid: 42,
+    name: 'Tigris & Euphrates',
+    code: 'tigris-and-euphrates',
+  },
+  {
     bggid: 36553,
     name: "Time's Up! Title Recall!",
     code: 'times-up-title-recall',
