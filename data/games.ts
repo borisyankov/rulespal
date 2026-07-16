@@ -1332,6 +1332,12 @@ const assets: Game[] = [
     code: 'star-realms',
   },
   {
+    bggid: 271896,
+    name: 'Star Wars: Outer Rim',
+    code: 'star-wars-outer-rim',
+    shortName: 'Outer Rim',
+  },
+  {
     bggid: 187645,
     name: 'Star Wars: Rebellion',
     code: 'star-wars-rebellion',
