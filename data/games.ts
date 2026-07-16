@@ -584,6 +584,11 @@ const assets: Game[] = [
     extraSources: ['appendix'],
   },
   {
+    bggid: 318084,
+    name: 'Furnace',
+    code: 'furnace',
+  },
+  {
     bggid: 220308,
     name: 'Gaia Project',
     code: 'gaia-project',
