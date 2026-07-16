@@ -526,6 +526,12 @@ const assets: Game[] = [
     code: 'draftosaurus',
   },
   {
+    bggid: 283355,
+    name: 'Dune',
+    code: 'dune',
+    alternativeNames: ['Dune (2019)', 'Dune: The Board Game'],
+  },
+  {
     bggid: 316554,
     name: 'Dune: Imperium',
     code: 'dune-imperium',
