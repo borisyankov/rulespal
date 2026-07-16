@@ -432,6 +432,11 @@ const assets: Game[] = [
     shortName: 'Disney Villainous',
   },
   {
+    bggid: 295895,
+    name: 'Distilled',
+    code: 'distilled',
+  },
+  {
     bggid: 39856,
     name: 'Dixit',
     code: 'dixit',
