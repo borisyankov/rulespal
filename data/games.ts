@@ -326,6 +326,11 @@ const assets: Game[] = [
     code: 'citadels',
   },
   {
+    bggid: 400602,
+    name: 'Civolution',
+    code: 'civolution',
+  },
+  {
     bggid: 201808,
     name: 'Clank!: A Deck-Building Adventure',
     code: 'clank',
