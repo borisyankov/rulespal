@@ -220,6 +220,11 @@ const assets: Game[] = [
     shortName: 'Cat in the Box',
   },
   {
+    bggid: 228504,
+    name: 'Cat Lady',
+    code: 'cat-lady',
+  },
+  {
     bggid: 13,
     name: 'CATAN',
     code: 'catan',
