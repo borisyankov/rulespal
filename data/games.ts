@@ -1651,6 +1651,11 @@ const assets: Game[] = [
     shortName: 'The Crew',
   },
   {
+    bggid: 368432,
+    name: 'The Fox Experiment',
+    code: 'the-fox-experiment',
+  },
+  {
     bggid: 125153,
     name: 'The Gallerist',
     code: 'the-gallerist',
