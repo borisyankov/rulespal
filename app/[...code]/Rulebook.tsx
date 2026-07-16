@@ -13,12 +13,32 @@ type Props = {
   resource: string;
 };
 
+const siteUrl = 'https://rulespal.com';
+
 export default async function Rulebook({ game, resource }: Props) {
   const gameRulebook = (
     await import(`../../data/rulebooks/${game.code}-${resource}.md`)
   ).default;
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Game',
+    name: game.name,
+    ...(game.alternativeNames?.length
+      ? { alternateName: game.alternativeNames }
+      : {}),
+    url: `${siteUrl}/${game.code}/${resource}`,
+    image: `${siteUrl}/thumbs/${game.code}.jpg`,
+    description: `The complete ${game.name} rulebook with setup, gameplay, and scoring, plus an AI assistant that answers your ${game.name} rules questions.`,
+    genre: 'Board game',
+  };
+
   return (
     <article className="mx-auto max-w-screen-sm">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <GameTitle game={game} />
       <div
         className="marker:primary prose-summary:bg-red-500 prose-h2:tracking-

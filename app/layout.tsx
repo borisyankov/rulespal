@@ -11,9 +11,55 @@ const font = Work_Sans({
   weight: ['400', '600'],
 });
 
+const siteUrl = 'https://rulespal.com';
+
 export const metadata: Metadata = {
-  title: 'RulesPal',
-  description: 'Board game rules answered by your AI pal.',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'RulesPal — Board Game Rules Answered by AI',
+    template: '%s | RulesPal',
+  },
+  description:
+    'Get instant answers to board game rules questions and read full rulebooks for hundreds of games. RulesPal is your AI board game rules pal.',
+  applicationName: 'RulesPal',
+  keywords: [
+    'board game rules',
+    'rulebook',
+    'how to play',
+    'board game FAQ',
+    'game rules explained',
+    'RulesPal',
+  ],
+  authors: [{ name: 'Boris Yankov', url: 'https://x.com/borisyankov' }],
+  creator: 'Boris Yankov',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'RulesPal',
+    url: siteUrl,
+    title: 'RulesPal — Board Game Rules Answered by AI',
+    description:
+      'Get instant answers to board game rules questions and read full rulebooks for hundreds of games.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'RulesPal — Board Game Rules Answered by AI',
+    description:
+      'Get instant answers to board game rules questions and read full rulebooks for hundreds of games.',
+    creator: '@borisyankov',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export const viewport: Viewport = {
