@@ -578,6 +578,11 @@ const assets: Game[] = [
     code: 'food-chain-magnate',
   },
   {
+    bggid: 66188,
+    name: 'Fresco',
+    code: 'fresco',
+  },
+  {
     bggid: 295770,
     name: 'Frosthaven',
     code: 'frosthaven',
