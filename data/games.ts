@@ -1110,6 +1110,11 @@ const assets: Game[] = [
     shortName: 'SETI',
   },
   {
+    bggid: 157969,
+    name: 'Sheriff of Nottingham',
+    code: 'sheriff-of-nottingham',
+  },
+  {
     bggid: 2511,
     name: 'Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases',
     code: 'sherlock-holmes-consulting-detective',
