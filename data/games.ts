@@ -1041,6 +1041,11 @@ const assets: Game[] = [
     shortName: 'Isle of Skye',
   },
   {
+    bggid: 325494,
+    name: 'ISS Vanguard',
+    code: 'iss-vanguard',
+  },
+  {
     bggid: 148949,
     name: 'Istanbul',
     code: 'istanbul',
