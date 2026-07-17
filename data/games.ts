@@ -1006,6 +1006,11 @@ const assets: Game[] = [
     code: 'la-granja',
   },
   {
+    bggid: 348450,
+    name: 'Lacrimosa',
+    code: 'lacrimosa',
+  },
+  {
     bggid: 35677,
     name: 'Le Havre',
     code: 'le-havre',
