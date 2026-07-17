@@ -569,6 +569,11 @@ const assets: Game[] = [
     code: 'decrypto',
   },
   {
+    bggid: 322708,
+    name: 'Descent: Legends of the Dark',
+    code: 'descent-legends-of-the-dark',
+  },
+  {
     bggid: 162082,
     name: 'Deus',
     code: 'deus',
