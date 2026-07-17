@@ -1191,6 +1191,11 @@ const assets: Game[] = [
     shortName: 'MicroMacro',
   },
   {
+    bggid: 346501,
+    name: 'Mille Fiori',
+    code: 'mille-fiori',
+  },
+  {
     bggid: 345584,
     name: 'Mindbug: First Contact',
     code: 'mindbug-first-contact',
