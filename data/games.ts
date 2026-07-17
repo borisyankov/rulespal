@@ -542,6 +542,11 @@ const assets: Game[] = [
     code: 'deus',
   },
   {
+    bggid: 360206,
+    name: 'Discordia',
+    code: 'discordia',
+  },
+  {
     bggid: 369646,
     name: 'Disney Lorcana',
     code: 'disney-lorcana',
