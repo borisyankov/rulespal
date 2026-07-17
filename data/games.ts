@@ -228,6 +228,11 @@ const assets: Game[] = [
     code: 'bora-bora',
   },
   {
+    bggid: 413260,
+    name: 'Botanicus',
+    code: 'botanicus',
+  },
+  {
     bggid: 224517,
     name: 'Brass: Birmingham',
     code: 'brass-birmingham',
