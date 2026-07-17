@@ -841,6 +841,12 @@ const assets: Game[] = [
     code: 'guess-who',
   },
   {
+    bggid: 250458,
+    name: 'Gùgōng',
+    code: 'gugong',
+    alternativeNames: ['Gugong', 'Gugong (The Forbidden City)'],
+  },
+  {
     bggid: 339958,
     name: 'Gutenberg',
     code: 'gutenberg',
