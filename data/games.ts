@@ -710,6 +710,11 @@ const assets: Game[] = [
     alternativeNames: ['Arler Erde'],
   },
   {
+    bggid: 200954,
+    name: 'Fields of Green',
+    code: 'fields-of-green',
+  },
+  {
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
     code: 'five-tribes',
