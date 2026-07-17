@@ -2360,6 +2360,11 @@ const assets: Game[] = [
     code: 'welcome-to',
   },
   {
+    bggid: 335275,
+    name: 'Whirling Witchcraft',
+    code: 'whirling-witchcraft',
+  },
+  {
     bggid: 301255,
     name: 'Whistle Mountain',
     code: 'whistle-mountain',
