@@ -2243,6 +2243,11 @@ const assets: Game[] = [
     alternativeNames: ['Yugioh', 'Yu-Gi-Oh'],
   },
   {
+    bggid: 322589,
+    name: 'Zapotec',
+    code: 'zapotec',
+  },
+  {
     bggid: 528,
     name: 'ZÈRTZ',
     code: 'zertz',
