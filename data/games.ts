@@ -987,6 +987,11 @@ const assets: Game[] = [
     shortName: 'Hegemony',
   },
   {
+    bggid: 220,
+    name: 'High Society',
+    code: 'high-society',
+  },
+  {
     bggid: 2655,
     name: 'Hive',
     code: 'hive',
