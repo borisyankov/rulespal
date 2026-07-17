@@ -1664,6 +1664,11 @@ const assets: Game[] = [
     code: 'sky-team',
   },
   {
+    bggid: 359438,
+    name: 'Skymines',
+    code: 'skymines',
+  },
+  {
     bggid: 338960,
     name: 'Slay the Spire: The Board Game',
     code: 'slay-the-spire',
