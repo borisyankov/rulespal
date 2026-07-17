@@ -1807,6 +1807,11 @@ const assets: Game[] = [
     code: 'santorini',
   },
   {
+    bggid: 372,
+    name: 'Schotten Totten',
+    code: 'schotten-totten',
+  },
+  {
     bggid: 291453,
     name: 'SCOUT',
     code: 'scout',
