@@ -987,6 +987,11 @@ const assets: Game[] = [
     code: 'hive',
   },
   {
+    bggid: 367498,
+    name: 'Horizons of Spirit Island',
+    code: 'horizons-of-spirit-island',
+  },
+  {
     bggid: 282524,
     name: 'Horrified',
     code: 'horrified',
