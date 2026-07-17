@@ -2452,6 +2452,11 @@ const assets: Game[] = [
     code: 'voidfall',
   },
   {
+    bggid: 249259,
+    name: 'War Chest',
+    code: 'war-chest',
+  },
+  {
     bggid: 115746,
     name: 'War of the Ring: Second Edition',
     code: 'war-of-the-ring',
