@@ -1619,6 +1619,12 @@ const assets: Game[] = [
     code: 'rummikub',
   },
   {
+    bggid: 228328,
+    name: 'Rurik: Dawn of Kiev',
+    code: 'rurik',
+    shortName: 'Rurik',
+  },
+  {
     bggid: 360265,
     name: 'Sabika',
     code: 'sabika',
