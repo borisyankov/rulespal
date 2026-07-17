@@ -2253,6 +2253,11 @@ const assets: Game[] = [
     code: 'tokaido',
   },
   {
+    bggid: 192135,
+    name: 'Too Many Bones',
+    code: 'too-many-bones',
+  },
+  {
     bggid: 88,
     name: 'Torres',
     code: 'torres',
