@@ -1213,6 +1213,11 @@ const assets: Game[] = [
     alternativeNames: ['Kalah'],
   },
   {
+    bggid: 264241,
+    name: 'Mandala',
+    code: 'mandala',
+  },
+  {
     bggid: 205059,
     name: 'Mansions of Madness: Second Edition',
     code: 'mansions-of-madness-second-edition',
