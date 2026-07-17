@@ -1984,6 +1984,12 @@ const assets: Game[] = [
     code: 'trio',
   },
   {
+    bggid: 281442,
+    name: 'Trismegistus: The Ultimate Formula',
+    code: 'trismegistus',
+    shortName: 'Trismegistus',
+  },
+  {
     bggid: 2952,
     name: 'Trivial Pursuit',
     code: 'trivial-pursuit',
