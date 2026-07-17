@@ -1547,6 +1547,11 @@ const assets: Game[] = [
     code: 'paleo',
   },
   {
+    bggid: 239464,
+    name: 'Palm Island',
+    code: 'palm-island',
+  },
+  {
     bggid: 131287,
     name: 'Panamax',
     code: 'panamax',
