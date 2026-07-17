@@ -1763,6 +1763,11 @@ const assets: Game[] = [
     code: 'so-clover',
   },
   {
+    bggid: 170199,
+    name: 'Solarius Mission',
+    code: 'solarius-mission',
+  },
+  {
     bggid: 296626,
     name: 'Sonora',
     code: 'sonora',
