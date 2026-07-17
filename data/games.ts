@@ -1026,6 +1026,12 @@ const assets: Game[] = [
     code: 'its-wonderful-world',
   },
   {
+    bggid: 270109,
+    name: 'Iwari',
+    code: 'iwari',
+    alternativeNames: ['Web of Power', 'China', 'Kardinal & König'],
+  },
+  {
     bggid: 54043,
     name: 'Jaipur',
     code: 'jaipur',
