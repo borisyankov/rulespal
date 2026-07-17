@@ -282,6 +282,12 @@ const assets: Game[] = [
     alternativeNames: ['Brussels 1893'],
   },
   {
+    bggid: 307305,
+    name: 'Bullet♥︎',
+    code: 'bullet-heart',
+    alternativeNames: ['Bullet Heart', 'Bullet'],
+  },
+  {
     bggid: 184921,
     name: 'Bunny Kingdom',
     code: 'bunny-kingdom',
