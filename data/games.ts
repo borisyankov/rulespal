@@ -302,6 +302,11 @@ const assets: Game[] = [
     code: 'candy-land',
   },
   {
+    bggid: 328565,
+    name: 'Caper: Europe',
+    code: 'caper-europe',
+  },
+  {
     bggid: 171131,
     name: 'Captain Sonar',
     code: 'captain-sonar',
