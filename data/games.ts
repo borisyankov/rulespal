@@ -2715,6 +2715,11 @@ const assets: Game[] = [
     code: 'zapotec',
   },
   {
+    bggid: 424219,
+    name: 'Zenith',
+    code: 'zenith',
+  },
+  {
     bggid: 528,
     name: 'ZÈRTZ',
     code: 'zertz',
