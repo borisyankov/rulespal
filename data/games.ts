@@ -1403,6 +1403,11 @@ const assets: Game[] = [
     shortName: 'Paladins',
   },
   {
+    bggid: 131287,
+    name: 'Panamax',
+    code: 'panamax',
+  },
+  {
     bggid: 30549,
     name: 'Pandemic',
     code: 'pandemic',
