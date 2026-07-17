@@ -1546,6 +1546,13 @@ const assets: Game[] = [
     code: 'sagrada',
   },
   {
+    bggid: 382518,
+    name: 'Sankoré: The Pride of Mansa Musa',
+    code: 'sankore',
+    shortName: 'Sankoré',
+    alternativeNames: ['Sankore', 'Sankore: The Pride of Mansa Musa'],
+  },
+  {
     bggid: 229220,
     name: 'Santa Maria',
     code: 'santa-maria',
