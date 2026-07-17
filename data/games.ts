@@ -2311,6 +2311,12 @@ const assets: Game[] = [
     code: 'zertz',
   },
   {
+    bggid: 381819,
+    name: 'Zhanguo: The First Empire',
+    code: 'zhanguo',
+    shortName: 'Zhanguo',
+  },
+  {
     bggid: 176189,
     name: 'Zombicide: Black Plague',
     code: 'zombicide-black-plague',
