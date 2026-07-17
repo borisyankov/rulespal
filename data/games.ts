@@ -1682,6 +1682,12 @@ const assets: Game[] = [
     code: 'rebirth',
   },
   {
+    bggid: 161417,
+    name: 'Red7',
+    code: 'red7',
+    alternativeNames: ['Red 7'],
+  },
+  {
     bggid: 244228,
     name: 'Reef',
     code: 'reef',
