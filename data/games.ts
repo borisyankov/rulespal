@@ -1093,6 +1093,11 @@ const assets: Game[] = [
     shortName: 'John Company',
   },
   {
+    bggid: 193042,
+    name: 'Junk Art',
+    code: 'junk-art',
+  },
+  {
     bggid: 254640,
     name: 'Just One',
     code: 'just-one',
