@@ -460,6 +460,11 @@ const assets: Game[] = [
     code: 'cooper-island',
   },
   {
+    bggid: 269595,
+    name: 'Copenhagen',
+    code: 'copenhagen',
+  },
+  {
     bggid: 39463,
     name: 'Cosmic Encounter',
     code: 'cosmic-encounter',
