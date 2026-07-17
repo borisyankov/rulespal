@@ -1846,6 +1846,12 @@ const assets: Game[] = [
     code: 'so-clover',
   },
   {
+    bggid: 332944,
+    name: 'Sobek: 2 Players',
+    code: 'sobek-2-players',
+    shortName: 'Sobek',
+  },
+  {
     bggid: 170199,
     name: 'Solarius Mission',
     code: 'solarius-mission',
