@@ -2296,6 +2296,11 @@ const assets: Game[] = [
     shortName: 'Journeys in Middle-earth',
   },
   {
+    bggid: 216459,
+    name: 'The Lost Expedition',
+    code: 'the-lost-expedition',
+  },
+  {
     bggid: 176734,
     name: 'The Manhattan Project: Energy Empire',
     code: 'energy-empire',
