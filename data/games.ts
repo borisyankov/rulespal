@@ -2446,6 +2446,11 @@ const assets: Game[] = [
     code: 'uno',
   },
   {
+    bggid: 340325,
+    name: 'Vagrantsong',
+    code: 'vagrantsong',
+  },
+  {
     bggid: 420033,
     name: 'Vantage',
     code: 'vantage',
