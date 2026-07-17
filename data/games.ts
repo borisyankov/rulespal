@@ -2546,6 +2546,12 @@ const assets: Game[] = [
     code: 'underwater-cities',
   },
   {
+    bggid: 381297,
+    name: 'Unmatched Adventures: Tales to Amaze',
+    code: 'unmatched-adventures-tales-to-amaze',
+    shortName: 'Unmatched Adventures',
+  },
+  {
     bggid: 2223,
     name: 'UNO',
     code: 'uno',
