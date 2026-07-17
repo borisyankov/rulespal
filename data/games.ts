@@ -925,6 +925,11 @@ const assets: Game[] = [
     code: 'hallertau',
   },
   {
+    bggid: 30381,
+    name: 'Hamburgum',
+    code: 'hamburgum',
+  },
+  {
     bggid: 98778,
     name: 'Hanabi',
     code: 'hanabi',
