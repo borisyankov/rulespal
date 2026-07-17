@@ -757,6 +757,11 @@ const assets: Game[] = [
     code: 'fields-of-green',
   },
   {
+    bggid: 436126,
+    name: 'Finspan',
+    code: 'finspan',
+  },
+  {
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
     code: 'five-tribes',
