@@ -821,6 +821,11 @@ const assets: Game[] = [
     code: 'guess-who',
   },
   {
+    bggid: 339958,
+    name: 'Gutenberg',
+    code: 'gutenberg',
+  },
+  {
     bggid: 304783,
     name: "Hadrian's Wall",
     code: 'hadrians-wall',
