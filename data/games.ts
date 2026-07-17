@@ -2107,6 +2107,11 @@ const assets: Game[] = [
     code: 'resistance-avalon',
   },
   {
+    bggid: 279537,
+    name: 'The Search for Planet X',
+    code: 'the-search-for-planet-x',
+  },
+  {
     bggid: 385529,
     name: 'The Vale of Eternity',
     code: 'the-vale-of-eternity',
