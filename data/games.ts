@@ -2366,6 +2366,11 @@ const assets: Game[] = [
     alternativeNames: ['Twilight Imperium 4th Edition', 'TI4'],
   },
   {
+    bggid: 361545,
+    name: 'Twilight Inscription',
+    code: 'twilight-inscription',
+  },
+  {
     bggid: 12333,
     name: 'Twilight Struggle',
     code: 'twilight-struggle',
