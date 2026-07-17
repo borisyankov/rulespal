@@ -648,6 +648,11 @@ const assets: Game[] = [
     shortName: 'Endless Winter',
   },
   {
+    bggid: 142379,
+    name: 'Escape Plan',
+    code: 'escape-plan',
+  },
+  {
     bggid: 199792,
     name: 'Everdell',
     code: 'everdell',
