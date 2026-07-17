@@ -223,6 +223,12 @@ const assets: Game[] = [
     code: 'boonlake',
   },
   {
+    bggid: 355433,
+    name: 'Boop',
+    code: 'boop',
+    alternativeNames: ['boop.'],
+  },
+  {
     bggid: 127060,
     name: 'Bora Bora',
     code: 'bora-bora',
