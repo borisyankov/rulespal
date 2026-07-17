@@ -1558,6 +1558,11 @@ const assets: Game[] = [
     code: 'roll-for-the-galaxy',
   },
   {
+    bggid: 169426,
+    name: 'Roll Player',
+    code: 'roll-player',
+  },
+  {
     bggid: 237182,
     name: 'Root',
     code: 'root',
