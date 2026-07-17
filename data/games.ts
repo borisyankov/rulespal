@@ -2623,6 +2623,11 @@ const assets: Game[] = [
     code: 'welcome-to-the-moon',
   },
   {
+    bggid: 219215,
+    name: 'Werewords',
+    code: 'werewords',
+  },
+  {
     bggid: 335275,
     name: 'Whirling Witchcraft',
     code: 'whirling-witchcraft',
