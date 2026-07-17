@@ -2248,6 +2248,11 @@ const assets: Game[] = [
     code: 'undaunted-normandy',
   },
   {
+    bggid: 376740,
+    name: 'Undergrove',
+    code: 'undergrove',
+  },
+  {
     bggid: 247763,
     name: 'Underwater Cities',
     code: 'underwater-cities',
