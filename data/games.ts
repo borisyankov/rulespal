@@ -1893,6 +1893,11 @@ const assets: Game[] = [
     code: 'sequence',
   },
   {
+    bggid: 307386,
+    name: 'Set a Watch: Swords of the Coin',
+    code: 'set-a-watch-swords-of-the-coin',
+  },
+  {
     bggid: 418059,
     name: 'SETI: Search for Extraterrestrial Intelligence',
     code: 'seti',
