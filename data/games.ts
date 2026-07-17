@@ -2050,6 +2050,11 @@ const assets: Game[] = [
     code: 'the-7th-citadel',
   },
   {
+    bggid: 180263,
+    name: 'The 7th Continent',
+    code: 'the-7th-continent',
+  },
+  {
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the-castles-of-burgundy',
