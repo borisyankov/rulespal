@@ -2182,6 +2182,11 @@ const assets: Game[] = [
     alternativeNames: ['Game of Life', 'Life'],
   },
   {
+    bggid: 411567,
+    name: 'The Gang',
+    code: 'the-gang',
+  },
+  {
     bggid: 111341,
     name: 'The Great Zimbabwe',
     code: 'the-great-zimbabwe',
