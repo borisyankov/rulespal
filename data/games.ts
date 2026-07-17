@@ -1347,6 +1347,11 @@ const assets: Game[] = [
     code: 'planet-unknown',
   },
   {
+    bggid: 388339,
+    name: 'Planta Nubo',
+    code: 'planta-nubo',
+  },
+  {
     bggid: 274960,
     name: 'Point Salad',
     code: 'point-salad',
