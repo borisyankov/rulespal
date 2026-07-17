@@ -1159,6 +1159,11 @@ const assets: Game[] = [
     shortName: 'Merv',
   },
   {
+    bggid: 2955,
+    name: 'Mexica',
+    code: 'mexica',
+  },
+  {
     bggid: 318977,
     name: 'MicroMacro: Crime City',
     code: 'micromacro-crime-city',
