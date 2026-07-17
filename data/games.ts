@@ -1151,6 +1151,12 @@ const assets: Game[] = [
     shortName: 'Marco Polo II',
   },
   {
+    bggid: 342810,
+    name: 'Marrakesh',
+    code: 'marrakesh',
+    alternativeNames: ['Marrakesh: Stefan Feld City Collection'],
+  },
+  {
     bggid: 285774,
     name: 'Marvel Champions: The Card Game',
     shortName: 'Marvel Champions',
