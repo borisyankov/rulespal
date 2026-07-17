@@ -1732,6 +1732,12 @@ const assets: Game[] = [
     code: 'tapestry',
   },
   {
+    bggid: 297030,
+    name: 'Tekhenu: Obelisk of the Sun',
+    code: 'tekhenu',
+    shortName: 'Tekhenu',
+  },
+  {
     bggid: 46213,
     name: 'Telestrations',
     code: 'telestrations',
