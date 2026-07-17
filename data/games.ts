@@ -1348,6 +1348,11 @@ const assets: Game[] = [
     shortName: 'Mindbug',
   },
   {
+    bggid: 422780,
+    name: 'Mistborn: The Deckbuilding Game',
+    code: 'mistborn-the-deckbuilding-game',
+  },
+  {
     bggid: 387378,
     name: 'MLEM: Space Agency',
     code: 'mlem-space-agency',
