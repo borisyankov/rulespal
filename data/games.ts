@@ -1716,6 +1716,11 @@ const assets: Game[] = [
     code: 'punct',
   },
   {
+    bggid: 213492,
+    name: 'Pyramids',
+    code: 'pyramids',
+  },
+  {
     bggid: 232043,
     name: 'Queendomino',
     code: 'queendomino',
