@@ -1149,6 +1149,11 @@ const assets: Game[] = [
     code: 'lisboa',
   },
   {
+    bggid: 241266,
+    name: 'Little Town',
+    code: 'little-town',
+  },
+  {
     bggid: 328479,
     name: 'Living Forest',
     code: 'living-forest',
