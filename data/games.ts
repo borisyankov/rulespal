@@ -2095,6 +2095,12 @@ const assets: Game[] = [
     shortName: 'Isle of Cats: Explore & Draw',
   },
   {
+    bggid: 316412,
+    name: 'The Loop',
+    code: 'the-loop',
+    alternativeNames: ['The LOOP'],
+  },
+  {
     bggid: 421006,
     name: 'The Lord of the Rings: Duel for Middle-earth',
     code: 'duel-for-middle-earth',
