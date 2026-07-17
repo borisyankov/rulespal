@@ -1794,6 +1794,11 @@ const assets: Game[] = [
     code: 'signorie',
   },
   {
+    bggid: 270673,
+    name: 'Silver & Gold',
+    code: 'silver-and-gold',
+  },
+  {
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
