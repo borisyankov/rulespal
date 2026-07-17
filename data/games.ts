@@ -512,6 +512,11 @@ const assets: Game[] = [
     code: 'crokinole',
   },
   {
+    bggid: 246784,
+    name: 'Cryptid',
+    code: 'cryptid',
+  },
+  {
     bggid: 253344,
     name: 'Cthulhu: Death May Die',
     code: 'cthulhu-death-may-die',
