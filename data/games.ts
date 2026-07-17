@@ -1563,6 +1563,11 @@ const assets: Game[] = [
     code: 'ready-set-bet',
   },
   {
+    bggid: 417197,
+    name: 'Rebirth',
+    code: 'rebirth',
+  },
+  {
     bggid: 244228,
     name: 'Reef',
     code: 'reef',
