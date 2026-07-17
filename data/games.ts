@@ -1399,6 +1399,11 @@ const assets: Game[] = [
     code: 'puerto-rico',
   },
   {
+    bggid: 228341,
+    name: 'Pulsar 2849',
+    code: 'pulsar-2849',
+  },
+  {
     bggid: 19764,
     name: 'PÜNCT',
     code: 'punct',
