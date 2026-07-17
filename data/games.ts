@@ -794,6 +794,11 @@ const assets: Game[] = [
     code: 'go',
   },
   {
+    bggid: 298383,
+    name: 'Golem',
+    code: 'golem',
+  },
+  {
     bggid: 182874,
     name: 'Grand Austria Hotel',
     code: 'grand-austria-hotel',
