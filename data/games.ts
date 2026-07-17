@@ -1013,6 +1013,11 @@ const assets: Game[] = [
     code: 'imperium-classics',
   },
   {
+    bggid: 318182,
+    name: 'Imperium: Legends',
+    code: 'imperium-legends',
+  },
+  {
     bggid: 31594,
     name: 'In the Year of the Dragon',
     code: 'in-the-year-of-the-dragon',
