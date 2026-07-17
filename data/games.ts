@@ -2561,6 +2561,11 @@ const assets: Game[] = [
     shortName: 'War of the Ring',
   },
   {
+    bggid: 296237,
+    name: "Warp's Edge",
+    code: 'warps-edge',
+  },
+  {
     bggid: 274364,
     name: 'Watergate',
     code: 'watergate',
