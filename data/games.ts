@@ -162,6 +162,11 @@ const assets: Game[] = [
     code: 'barrage',
   },
   {
+    bggid: 760,
+    name: 'Battle Line',
+    code: 'battle-line',
+  },
+  {
     bggid: 2425,
     name: 'Battleship',
     code: 'battleship',
