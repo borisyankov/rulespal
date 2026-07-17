@@ -2083,6 +2083,11 @@ const assets: Game[] = [
     shortName: 'War of the Ring',
   },
   {
+    bggid: 274364,
+    name: 'Watergate',
+    code: 'watergate',
+  },
+  {
     bggid: 262543,
     name: 'Wavelength',
     code: 'wavelength',
