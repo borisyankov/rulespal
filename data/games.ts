@@ -610,6 +610,11 @@ const assets: Game[] = [
     code: 'deus',
   },
   {
+    bggid: 153318,
+    name: 'Dimension',
+    code: 'dimension',
+  },
+  {
     bggid: 360206,
     name: 'Discordia',
     code: 'discordia',
