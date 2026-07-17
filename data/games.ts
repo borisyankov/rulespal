@@ -1314,6 +1314,11 @@ const assets: Game[] = [
     code: 'nidavellir',
   },
   {
+    bggid: 154809,
+    name: 'Nippon',
+    code: 'nippon',
+  },
+  {
     bggid: 12942,
     name: 'No Thanks!',
     code: 'no-thanks',
