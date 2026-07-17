@@ -1780,6 +1780,11 @@ const assets: Game[] = [
     code: 'takenoko',
   },
   {
+    bggid: 252153,
+    name: 'Tang Garden',
+    code: 'tang-garden',
+  },
+  {
     bggid: 286096,
     name: 'Tapestry',
     code: 'tapestry',
