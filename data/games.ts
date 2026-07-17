@@ -76,6 +76,11 @@ const assets: Game[] = [
     extraSources: ['chronobot-chronossus'],
   },
   {
+    bggid: 358661,
+    name: "Andromeda's Edge",
+    code: 'andromedas-edge',
+  },
+  {
     bggid: 311193,
     name: 'Anno 1800',
     code: 'anno-1800',
