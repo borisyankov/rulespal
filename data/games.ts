@@ -2043,6 +2043,12 @@ const assets: Game[] = [
     shortName: 'Tabannusi',
   },
   {
+    bggid: 264220,
+    name: 'Tainted Grail: The Fall of Avalon',
+    code: 'tainted-grail-the-fall-of-avalon',
+    shortName: 'Tainted Grail',
+  },
+  {
     bggid: 432,
     name: 'Take 5',
     code: 'take-5',
