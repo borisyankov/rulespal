@@ -889,6 +889,11 @@ const assets: Game[] = [
     code: 'imperial-settlers',
   },
   {
+    bggid: 31594,
+    name: 'In the Year of the Dragon',
+    code: 'in-the-year-of-the-dragon',
+  },
+  {
     bggid: 15512,
     name: 'Incan Gold',
     code: 'incan-gold',
