@@ -1728,6 +1728,11 @@ const assets: Game[] = [
     code: 'terra-mystica',
   },
   {
+    bggid: 364186,
+    name: 'Terra Nova',
+    code: 'terra-nova',
+  },
+  {
     bggid: 350458,
     name: 'Terracotta Army',
     code: 'terracotta-army',
