@@ -445,6 +445,11 @@ const assets: Game[] = [
     code: 'clans-of-caledonia',
   },
   {
+    bggid: 316858,
+    name: 'CloudAge',
+    code: 'cloudage',
+  },
+  {
     bggid: 1294,
     name: 'Clue',
     code: 'clue',
