@@ -1956,6 +1956,12 @@ const assets: Game[] = [
     shortName: 'Journeys in Middle-earth',
   },
   {
+    bggid: 176734,
+    name: 'The Manhattan Project: Energy Empire',
+    code: 'energy-empire',
+    shortName: 'Energy Empire',
+  },
+  {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks-of-quedlinburg',
