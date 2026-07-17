@@ -743,6 +743,12 @@ const assets: Game[] = [
     code: 'eldritch-horror',
   },
   {
+    bggid: 206931,
+    name: 'Encore!',
+    code: 'encore',
+    alternativeNames: ['Noch mal!'],
+  },
+  {
     bggid: 233398,
     name: 'Endeavor: Age of Sail',
     code: 'endeavor-age-of-sail',
