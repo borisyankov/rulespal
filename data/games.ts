@@ -806,6 +806,11 @@ const assets: Game[] = [
     extraSources: ['appendix'],
   },
   {
+    bggid: 296912,
+    name: 'Fort',
+    code: 'fort',
+  },
+  {
     bggid: 284189,
     name: 'Foundations of Rome',
     code: 'foundations-of-rome',
