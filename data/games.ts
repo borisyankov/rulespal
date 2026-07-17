@@ -1295,6 +1295,11 @@ const assets: Game[] = [
     code: 'namiji',
   },
   {
+    bggid: 66589,
+    name: 'Navegador',
+    code: 'navegador',
+  },
+  {
     bggid: 167355,
     name: 'Nemesis',
     code: 'nemesis',
