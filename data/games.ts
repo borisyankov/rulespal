@@ -1425,6 +1425,11 @@ const assets: Game[] = [
     shortName: 'Raiders',
   },
   {
+    bggid: 220877,
+    name: 'Rajas of the Ganges',
+    code: 'rajas-of-the-ganges',
+  },
+  {
     bggid: 351040,
     name: 'Ready Set Bet',
     code: 'ready-set-bet',
