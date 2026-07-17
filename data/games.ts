@@ -1940,6 +1940,11 @@ const assets: Game[] = [
     code: 'tapestry',
   },
   {
+    bggid: 118048,
+    name: 'Targi',
+    code: 'targi',
+  },
+  {
     bggid: 297030,
     name: 'Tekhenu: Obelisk of the Sun',
     code: 'tekhenu',
