@@ -2232,6 +2232,11 @@ const assets: Game[] = [
     code: 'vantage',
   },
   {
+    bggid: 41002,
+    name: 'Vasco da Gama',
+    code: 'vasco-da-gama',
+  },
+  {
     bggid: 334065,
     name: 'Verdant',
     code: 'verdant',
