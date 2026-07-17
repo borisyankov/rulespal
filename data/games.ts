@@ -293,6 +293,13 @@ const assets: Game[] = [
     code: 'bunny-kingdom',
   },
   {
+    bggid: 271321,
+    name: 'CABO (Second Edition)',
+    code: 'cabo',
+    shortName: 'CABO',
+    alternativeNames: ['Cabo'],
+  },
+  {
     bggid: 283155,
     name: 'Calico',
     code: 'calico',
