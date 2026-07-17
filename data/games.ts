@@ -688,6 +688,11 @@ const assets: Game[] = [
     code: 'faraway',
   },
   {
+    bggid: 163839,
+    name: 'Feudum',
+    code: 'feudum',
+  },
+  {
     bggid: 159675,
     name: 'Fields of Arle',
     code: 'fields-of-arle',
