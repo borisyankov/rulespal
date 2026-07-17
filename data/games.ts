@@ -47,6 +47,12 @@ const assets: Game[] = [
     code: 'agricola',
   },
   {
+    bggid: 247367,
+    name: 'Air, Land, & Sea',
+    code: 'air-land-and-sea',
+    alternativeNames: ['Air, Land & Sea', 'Air, Land & Sea: Revised Edition'],
+  },
+  {
     bggid: 357563,
     name: 'Akropolis',
     code: 'akropolis',
