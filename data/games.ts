@@ -1828,6 +1828,11 @@ const assets: Game[] = [
     alternativeNames: ['The Castles of Burgundy: Special Edition'],
   },
   {
+    bggid: 300327,
+    name: 'The Castles of Tuscany',
+    code: 'the-castles-of-tuscany',
+  },
+  {
     bggid: 192836,
     name: 'The Colonists',
     code: 'the-colonists',
