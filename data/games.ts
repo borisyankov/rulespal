@@ -2130,6 +2130,11 @@ const assets: Game[] = [
     code: 'welcome-to',
   },
   {
+    bggid: 301255,
+    name: 'Whistle Mountain',
+    code: 'whistle-mountain',
+  },
+  {
     bggid: 244654,
     name: 'Wildlands',
     code: 'wildlands',
