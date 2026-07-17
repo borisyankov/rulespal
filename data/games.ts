@@ -658,6 +658,11 @@ const assets: Game[] = [
     code: 'earth',
   },
   {
+    bggid: 342900,
+    name: 'Earthborne Rangers',
+    code: 'earthborne-rangers',
+  },
+  {
     bggid: 246900,
     name: 'Eclipse: Second Dawn for the Galaxy',
     code: 'eclipse-second-dawn-for-the-galaxy',
