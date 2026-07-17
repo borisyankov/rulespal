@@ -1748,6 +1748,11 @@ const assets: Game[] = [
     alternativeNames: ['Sidereal Confluence: Trading and Negotiation in the Elysian Quadrant', 'Sidereal Confluence: Remastered Edition'],
   },
   {
+    bggid: 177678,
+    name: 'Signorie',
+    code: 'signorie',
+  },
+  {
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
