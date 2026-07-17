@@ -1444,6 +1444,11 @@ const assets: Game[] = [
     code: 'race-for-the-galaxy',
   },
   {
+    bggid: 253635,
+    name: 'Ragusa',
+    code: 'ragusa',
+  },
+  {
     bggid: 170042,
     name: 'Raiders of the North Sea',
     code: 'raiders-of-the-north-sea',
