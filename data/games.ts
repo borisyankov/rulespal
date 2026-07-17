@@ -337,6 +337,11 @@ const assets: Game[] = [
     code: 'cascadia',
   },
   {
+    bggid: 416851,
+    name: 'Castle Combo',
+    code: 'castle-combo',
+  },
+  {
     bggid: 155426,
     name: 'Castles of Mad King Ludwig',
     code: 'castles-of-mad-king-ludwig',
