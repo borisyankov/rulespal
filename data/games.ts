@@ -295,6 +295,11 @@ const assets: Game[] = [
     code: 'carnegie',
   },
   {
+    bggid: 245934,
+    name: 'Carpe Diem',
+    code: 'carpe-diem',
+  },
+  {
     bggid: 263918,
     name: 'Cartographers',
     code: 'cartographers',
