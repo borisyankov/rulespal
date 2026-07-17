@@ -2482,6 +2482,11 @@ const assets: Game[] = [
     code: 'uno',
   },
   {
+    bggid: 290484,
+    name: 'Unsettled',
+    code: 'unsettled',
+  },
+  {
     bggid: 340325,
     name: 'Vagrantsong',
     code: 'vagrantsong',
