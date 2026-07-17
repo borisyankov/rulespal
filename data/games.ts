@@ -2230,6 +2230,12 @@ const assets: Game[] = [
     shortName: 'The Crew',
   },
   {
+    bggid: 356080,
+    name: 'The Elder Scrolls: Betrayal of the Second Era',
+    code: 'the-elder-scrolls-betrayal-of-the-second-era',
+    shortName: 'The Elder Scrolls: Betrayal',
+  },
+  {
     bggid: 249381,
     name: 'The Estates',
     code: 'the-estates',
