@@ -2206,6 +2206,11 @@ const assets: Game[] = [
     code: 'village',
   },
   {
+    bggid: 224783,
+    name: 'Vindication',
+    code: 'vindication',
+  },
+  {
     bggid: 175640,
     name: 'Vinhos',
     code: 'vinhos',
