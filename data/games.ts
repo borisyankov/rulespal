@@ -1082,6 +1082,11 @@ const assets: Game[] = [
     code: 'imperium-legends',
   },
   {
+    bggid: 265402,
+    name: 'In the Hall of the Mountain King',
+    code: 'in-the-hall-of-the-mountain-king',
+  },
+  {
     bggid: 31594,
     name: 'In the Year of the Dragon',
     code: 'in-the-year-of-the-dragon',
