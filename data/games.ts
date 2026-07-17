@@ -1114,6 +1114,11 @@ const assets: Game[] = [
     code: 'lucky-numbers',
   },
   {
+    bggid: 55670,
+    name: 'Macao',
+    code: 'macao',
+  },
+  {
     bggid: 143884,
     name: 'Machi Koro',
     code: 'machi-koro',
