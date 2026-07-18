@@ -2575,6 +2575,11 @@ const assets: Game[] = [
     code: 'tortuga-1667',
   },
   {
+    bggid: 434654,
+    name: 'Toy Battle',
+    code: 'toy-battle',
+  },
+  {
     bggid: 102680,
     name: 'Trajan',
     code: 'trajan',
