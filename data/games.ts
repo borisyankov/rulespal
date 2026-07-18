@@ -975,6 +975,12 @@ const assets: Game[] = [
     code: 'flamecraft',
   },
   {
+    bggid: 100901,
+    name: 'Flash Point: Fire Rescue',
+    code: 'flash-point-fire-rescue',
+    shortName: 'Flash Point',
+  },
+  {
     bggid: 175914,
     name: 'Food Chain Magnate',
     code: 'food-chain-magnate',
