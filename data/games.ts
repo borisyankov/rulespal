@@ -1191,6 +1191,11 @@ const assets: Game[] = [
     code: 'hot-streak',
   },
   {
+    bggid: 302520,
+    name: 'Hues and Cues',
+    code: 'hues-and-cues',
+  },
+  {
     bggid: 154203,
     name: 'Imperial Settlers',
     code: 'imperial-settlers',
