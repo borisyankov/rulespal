@@ -2392,6 +2392,11 @@ const assets: Game[] = [
     code: 'resistance-avalon',
   },
   {
+    bggid: 238546,
+    name: 'The Rise of Queensdale',
+    code: 'the-rise-of-queensdale',
+  },
+  {
     bggid: 279537,
     name: 'The Search for Planet X',
     code: 'the-search-for-planet-x',
