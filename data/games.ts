@@ -2216,6 +2216,13 @@ const assets: Game[] = [
     alternativeNames: ['Suburbia Collector\'s Edition'],
   },
   {
+    bggid: 332800,
+    name: 'Summoner Wars (Second Edition)',
+    code: 'summoner-wars',
+    shortName: 'Summoner Wars',
+    alternativeNames: ['Summoner Wars', 'Summoner Wars Second Edition', 'Summoner Wars: Second Edition'],
+  },
+  {
     bggid: 133473,
     name: 'Sushi Go!',
     code: 'sushi-go',
