@@ -2273,6 +2273,11 @@ const assets: Game[] = [
     code: 'sorry',
   },
   {
+    bggid: 38453,
+    name: 'Space Alert',
+    code: 'space-alert',
+  },
+  {
     bggid: 242302,
     name: 'Space Base',
     code: 'space-base',
