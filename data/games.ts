@@ -1000,6 +1000,12 @@ const assets: Game[] = [
     shortName: 'Five Tribes',
   },
   {
+    bggid: 15511,
+    name: 'Fjords',
+    code: 'fjords',
+    alternativeNames: ['Fjorde'],
+  },
+  {
     bggid: 336986,
     name: 'Flamecraft',
     code: 'flamecraft',
