@@ -3289,6 +3289,11 @@ const assets: Game[] = [
     code: 'zoo-vadis',
     alternativeNames: ['Quo Vadis?'],
   },
+  {
+    bggid: 27588,
+    name: 'Zooloretto',
+    code: 'zooloretto',
+  },
 ];
 
 export default assets;
