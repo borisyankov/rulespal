@@ -770,6 +770,11 @@ const assets: Game[] = [
     code: 'draftosaurus',
   },
   {
+    bggid: 300010,
+    name: 'Dragomino',
+    code: 'dragomino',
+  },
+  {
     bggid: 447243,
     name: 'Duel for Cardia',
     code: 'duel-for-cardia',
