@@ -2043,6 +2043,13 @@ const assets: Game[] = [
     shortName: 'Raiders',
   },
   {
+    bggid: 245654,
+    name: 'Railroad Ink: Deep Blue Edition',
+    code: 'railroad-ink',
+    shortName: 'Railroad Ink',
+    alternativeNames: ['Railroad Ink: Blazing Red Edition'],
+  },
+  {
     bggid: 220877,
     name: 'Rajas of the Ganges',
     code: 'rajas-of-the-ganges',
