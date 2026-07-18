@@ -848,6 +848,12 @@ const assets: Game[] = [
     code: 'food-chain-magnate',
   },
   {
+    bggid: 383206,
+    name: 'Freelancers: A Crossroads Game',
+    code: 'freelancers',
+    shortName: 'Freelancers',
+  },
+  {
     bggid: 66188,
     name: 'Fresco',
     code: 'fresco',
