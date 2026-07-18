@@ -2759,6 +2759,11 @@ const assets: Game[] = [
     code: 'twilight-struggle',
   },
   {
+    bggid: 134352,
+    name: 'Two Rooms and a Boom',
+    code: 'two-rooms-and-a-boom',
+  },
+  {
     bggid: 189932,
     name: 'Tyrants of the Underdark',
     code: 'tyrants-of-the-underdark',
