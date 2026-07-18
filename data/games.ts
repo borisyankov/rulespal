@@ -2167,6 +2167,12 @@ const assets: Game[] = [
     alternativeNames: ['Sherlock Holmes Consulting Detective'],
   },
   {
+    bggid: 272380,
+    name: 'SHŌBU',
+    code: 'shobu',
+    alternativeNames: ['SHOBU', 'Shobu'],
+  },
+  {
     bggid: 202426,
     name: 'Sidereal Confluence',
     code: 'sidereal-confluence',
