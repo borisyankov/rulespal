@@ -1196,6 +1196,12 @@ const assets: Game[] = [
     code: 'hues-and-cues',
   },
   {
+    bggid: 177524,
+    name: 'ICECOOL',
+    code: 'icecool',
+    alternativeNames: ['Ice Cool', 'IceCool'],
+  },
+  {
     bggid: 154203,
     name: 'Imperial Settlers',
     code: 'imperial-settlers',
