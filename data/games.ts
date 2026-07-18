@@ -304,6 +304,11 @@ const assets: Game[] = [
     code: 'bunny-kingdom',
   },
   {
+    bggid: 38032,
+    name: 'Byzanz',
+    code: 'byzanz',
+  },
+  {
     bggid: 271321,
     name: 'CABO (Second Edition)',
     code: 'cabo',
