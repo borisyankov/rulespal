@@ -2300,6 +2300,12 @@ const assets: Game[] = [
     code: 'space-base',
   },
   {
+    bggid: 84419,
+    name: 'Space Empires: 4X',
+    code: 'space-empires-4x',
+    shortName: 'Space Empires',
+  },
+  {
     bggid: 299169,
     name: 'Spicy',
     code: 'spicy',
