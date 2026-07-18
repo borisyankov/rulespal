@@ -1298,6 +1298,12 @@ const assets: Game[] = [
     code: 'kingdom-builder',
   },
   {
+    bggid: 415776,
+    name: 'Kingdom Legacy: Feudal Kingdom',
+    code: 'kingdom-legacy-feudal-kingdom',
+    shortName: 'Feudal Kingdom',
+  },
+  {
     bggid: 204583,
     name: 'Kingdomino',
     code: 'kingdomino',
