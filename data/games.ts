@@ -1329,6 +1329,11 @@ const assets: Game[] = [
     code: 'lacrimosa',
   },
   {
+    bggid: 281474,
+    name: 'Lands of Galzyr',
+    code: 'lands-of-galzyr',
+  },
+  {
     bggid: 35677,
     name: 'Le Havre',
     code: 'le-havre',
