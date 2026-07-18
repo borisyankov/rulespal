@@ -2515,6 +2515,12 @@ const assets: Game[] = [
     code: 'sushi-go-party',
   },
   {
+    bggid: 271869,
+    name: 'Sushi Roll',
+    code: 'sushi-roll',
+    alternativeNames: ['Sushi Roll: The Sushi Go! Dice Game'],
+  },
+  {
     bggid: 316786,
     name: 'Tabannusi: Builders of Ur',
     code: 'tabannusi',
