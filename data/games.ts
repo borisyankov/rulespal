@@ -1504,6 +1504,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 348406,
+    name: 'Marvel Dice Throne',
+    code: 'marvel-dice-throne',
+  },
+  {
     bggid: 298047,
     name: 'Marvel United',
     code: 'marvel-united',
