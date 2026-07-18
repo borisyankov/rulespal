@@ -2235,6 +2235,11 @@ const assets: Game[] = [
     code: 'space-base',
   },
   {
+    bggid: 299169,
+    name: 'Spicy',
+    code: 'spicy',
+  },
+  {
     bggid: 162886,
     name: 'Spirit Island',
     code: 'spirit-island',
