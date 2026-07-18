@@ -2340,6 +2340,16 @@ const assets: Game[] = [
     code: 'the-estates',
   },
   {
+    bggid: 429293,
+    name: 'The Fellowship of the Ring: Trick-Taking Game',
+    code: 'fellowship-trick-taking-game',
+    shortName: 'Fellowship Trick-Taking Game',
+    alternativeNames: [
+      'The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game',
+      'The Fellowship of the Ring Trick-Taking Game',
+    ],
+  },
+  {
     bggid: 368432,
     name: 'The Fox Experiment',
     code: 'the-fox-experiment',
