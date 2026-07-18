@@ -261,6 +261,12 @@ const assets: Game[] = [
     code: 'blood-rage',
   },
   {
+    bggid: 273330,
+    name: 'Bloodborne: The Board Game',
+    code: 'bloodborne',
+    shortName: 'Bloodborne',
+  },
+  {
     bggid: 284587,
     name: 'Bloodstones',
     code: 'bloodstones',
