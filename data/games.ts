@@ -48,6 +48,11 @@ const assets: Game[] = [
     code: 'age-of-innovation',
   },
   {
+    bggid: 270871,
+    name: 'Agemonia',
+    code: 'agemonia',
+  },
+  {
     bggid: 422732,
     name: 'Agent Avenue',
     code: 'agent-avenue',
