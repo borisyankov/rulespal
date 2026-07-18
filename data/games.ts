@@ -2970,6 +2970,12 @@ const assets: Game[] = [
     code: 'times-up-title-recall',
   },
   {
+    bggid: 267979,
+    name: 'Tiwanaku',
+    code: 'tiwanaku',
+    alternativeNames: ['Pachamama'],
+  },
+  {
     bggid: 123540,
     name: 'Tokaido',
     code: 'tokaido',
