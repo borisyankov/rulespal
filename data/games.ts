@@ -3335,6 +3335,11 @@ const assets: Game[] = [
     code: 'world-wonders',
   },
   {
+    bggid: 350689,
+    name: 'Wormholes',
+    code: 'wormholes',
+  },
+  {
     bggid: 410201,
     name: 'Wyrmspan',
     code: 'wyrmspan',
