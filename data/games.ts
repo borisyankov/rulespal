@@ -1223,6 +1223,12 @@ const assets: Game[] = [
     alternativeNames: ['Hero Quest', 'HeroQuest Game System'],
   },
   {
+    bggid: 8203,
+    name: "Hey, That's My Fish!",
+    code: 'hey-thats-my-fish',
+    alternativeNames: ["Hey! That's My Fish!", 'Hey, Thats My Fish'],
+  },
+  {
     bggid: 220,
     name: 'High Society',
     code: 'high-society',
