@@ -3047,6 +3047,11 @@ const assets: Game[] = [
     code: 'warps-edge',
   },
   {
+    bggid: 38996,
+    name: "Washington's War",
+    code: 'washingtons-war',
+  },
+  {
     bggid: 274364,
     name: 'Watergate',
     code: 'watergate',
