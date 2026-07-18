@@ -1662,6 +1662,11 @@ const assets: Game[] = [
     code: 'mille-fiori',
   },
   {
+    bggid: 151347,
+    name: 'Millennium Blades',
+    code: 'millennium-blades',
+  },
+  {
     bggid: 284653,
     name: 'Mind MGMT: The Psychic Espionage “Game.”',
     code: 'mind-mgmt',
