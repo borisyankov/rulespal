@@ -2894,6 +2894,17 @@ const assets: Game[] = [
     code: 'tiletum',
   },
   {
+    bggid: 128664,
+    name: 'Timeline',
+    code: 'timeline',
+    alternativeNames: [
+      'Timeline: Classic',
+      'Timeline: Inventions',
+      'Timeline: Events',
+      'Timeline: Diversity',
+    ],
+  },
+  {
     bggid: 36553,
     name: "Time's Up! Title Recall!",
     code: 'times-up-title-recall',
