@@ -2892,6 +2892,11 @@ const assets: Game[] = [
     code: 'werewords',
   },
   {
+    bggid: 232405,
+    name: 'Western Legends',
+    code: 'western-legends',
+  },
+  {
     bggid: 335275,
     name: 'Whirling Witchcraft',
     code: 'whirling-witchcraft',
