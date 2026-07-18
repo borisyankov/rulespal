@@ -969,6 +969,11 @@ const assets: Game[] = [
     code: 'first-rat',
   },
   {
+    bggid: 352574,
+    name: 'Fit to Print',
+    code: 'fit-to-print',
+  },
+  {
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
     code: 'five-tribes',
