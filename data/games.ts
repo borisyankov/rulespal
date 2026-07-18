@@ -2290,6 +2290,11 @@ const assets: Game[] = [
     alternativeNames: ['Skull & Roses'],
   },
   {
+    bggid: 150145,
+    name: 'Skull King',
+    code: 'skull-king',
+  },
+  {
     bggid: 373106,
     name: 'Sky Team',
     code: 'sky-team',
