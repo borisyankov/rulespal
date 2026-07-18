@@ -609,6 +609,11 @@ const assets: Game[] = [
     code: 'cuzco',
   },
   {
+    bggid: 376893,
+    name: 'Cyberion',
+    code: 'cyberion',
+  },
+  {
     bggid: 54998,
     name: 'Cyclades',
     code: 'cyclades',
