@@ -2746,6 +2746,11 @@ const assets: Game[] = [
     code: 'undaunted-normandy',
   },
   {
+    bggid: 306735,
+    name: 'Under Falling Skies',
+    code: 'under-falling-skies',
+  },
+  {
     bggid: 376740,
     name: 'Undergrove',
     code: 'undergrove',
