@@ -58,6 +58,12 @@ const assets: Game[] = [
     code: 'age-of-innovation',
   },
   {
+    bggid: 4098,
+    name: 'Age of Steam',
+    code: 'age-of-steam',
+    alternativeNames: ['Age of Steam: Deluxe Edition'],
+  },
+  {
     bggid: 270871,
     name: 'Agemonia',
     code: 'agemonia',
