@@ -2726,6 +2726,11 @@ const assets: Game[] = [
     shortName: 'Energy Empire',
   },
   {
+    bggid: 555,
+    name: 'The Princes of Florence',
+    code: 'the-princes-of-florence',
+  },
+  {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks-of-quedlinburg',
