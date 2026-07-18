@@ -927,6 +927,11 @@ const assets: Game[] = [
     code: 'exploding-kittens',
   },
   {
+    bggid: 346205,
+    name: 'Explorers of the Woodlands',
+    code: 'explorers-of-the-woodlands',
+  },
+  {
     bggid: 386368,
     name: 'Ezra and Nehemiah',
     code: 'ezra-and-nehemiah',
