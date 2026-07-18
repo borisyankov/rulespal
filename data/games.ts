@@ -907,6 +907,11 @@ const assets: Game[] = [
     code: 'finspan',
   },
   {
+    bggid: 347703,
+    name: 'First Rat',
+    code: 'first-rat',
+  },
+  {
     bggid: 157354,
     name: 'Five Tribes: The Djinns of Naqala',
     code: 'five-tribes',
