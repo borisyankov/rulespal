@@ -2357,6 +2357,11 @@ const assets: Game[] = [
     code: 'stone-age',
   },
   {
+    bggid: 204472,
+    name: 'Sub Terra',
+    code: 'sub-terra',
+  },
+  {
     bggid: 123260,
     name: 'Suburbia',
     code: 'suburbia',
