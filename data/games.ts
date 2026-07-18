@@ -547,6 +547,13 @@ const assets: Game[] = [
     alternativeNames: ['Connect 4'],
   },
   {
+    bggid: 276042,
+    name: 'Conspiracy: Abyss Universe',
+    code: 'conspiracy-abyss-universe',
+    shortName: 'Conspiracy',
+    alternativeNames: ['Abyss: Conspiracy', 'Conspiracy'],
+  },
+  {
     bggid: 269511,
     name: 'Cooper Island',
     code: 'cooper-island',
