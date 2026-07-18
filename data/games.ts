@@ -1144,6 +1144,12 @@ const assets: Game[] = [
     code: 'high-society',
   },
   {
+    bggid: 318243,
+    name: 'Hitster',
+    code: 'hitster',
+    alternativeNames: ['HITSTER'],
+  },
+  {
     bggid: 2655,
     name: 'Hive',
     code: 'hive',
