@@ -1164,6 +1164,11 @@ const assets: Game[] = [
     shortName: 'Hegemony',
   },
   {
+    bggid: 299252,
+    name: 'Here to Slay',
+    code: 'here-to-slay',
+  },
+  {
     bggid: 699,
     name: 'HeroQuest',
     code: 'heroquest',
