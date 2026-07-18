@@ -134,6 +134,11 @@ const assets: Game[] = [
     code: 'apiary',
   },
   {
+    bggid: 367662,
+    name: 'Applejack',
+    code: 'applejack',
+  },
+  {
     bggid: 155873,
     name: 'AquaSphere',
     code: 'aquasphere',
