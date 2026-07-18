@@ -667,6 +667,11 @@ const assets: Game[] = [
     code: 'crokinole',
   },
   {
+    bggid: 300753,
+    name: 'Cross Clues',
+    code: 'cross-clues',
+  },
+  {
     bggid: 246784,
     name: 'Cryptid',
     code: 'cryptid',
