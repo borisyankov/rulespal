@@ -2103,6 +2103,11 @@ const assets: Game[] = [
     code: 'rajas-of-the-ganges',
   },
   {
+    bggid: 3837,
+    name: 'Rat-a-Tat Cat',
+    code: 'rat-a-tat-cat',
+  },
+  {
     bggid: 351040,
     name: 'Ready Set Bet',
     code: 'ready-set-bet',
