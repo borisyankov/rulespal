@@ -765,6 +765,11 @@ const assets: Game[] = [
     code: 'dorfromantik',
   },
   {
+    bggid: 181345,
+    name: 'Dr. Eureka',
+    code: 'dr-eureka',
+  },
+  {
     bggid: 264055,
     name: 'Draftosaurus',
     code: 'draftosaurus',
