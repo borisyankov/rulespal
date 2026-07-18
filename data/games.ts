@@ -2396,6 +2396,12 @@ const assets: Game[] = [
     code: 'the-7th-continent',
   },
   {
+    bggid: 326494,
+    name: 'The Adventures of Robin Hood',
+    code: 'the-adventures-of-robin-hood',
+    shortName: 'Robin Hood',
+  },
+  {
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the-castles-of-burgundy',
