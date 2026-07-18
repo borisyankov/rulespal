@@ -775,6 +775,11 @@ const assets: Game[] = [
     code: 'dixit-odyssey',
   },
   {
+    bggid: 331401,
+    name: 'Dog Park',
+    code: 'dog-park',
+  },
+  {
     bggid: 62219,
     name: 'Dominant Species',
     code: 'dominant-species',
