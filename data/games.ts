@@ -1598,6 +1598,12 @@ const assets: Game[] = [
     code: 'mexica',
   },
   {
+    bggid: 124708,
+    name: 'Mice and Mystics',
+    code: 'mice-and-mystics',
+    alternativeNames: ['Mice & Mystics'],
+  },
+  {
     bggid: 318977,
     name: 'MicroMacro: Crime City',
     code: 'micromacro-crime-city',
