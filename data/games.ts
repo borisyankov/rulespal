@@ -27,6 +27,11 @@ const assets: Game[] = [
     code: '7-wonders-duel',
   },
   {
+    bggid: 127518,
+    name: 'A Distant Plain',
+    code: 'a-distant-plain',
+  },
+  {
     bggid: 135779,
     name: 'A Fake Artist Goes to New York',
     code: 'a-fake-artist-goes-to-new-york',
