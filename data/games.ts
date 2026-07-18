@@ -1837,6 +1837,13 @@ const assets: Game[] = [
     alternativeNames: ['Ora & Labora'],
   },
   {
+    bggid: 245487,
+    name: 'Orchard: A 9 card solitaire game',
+    code: 'orchard',
+    shortName: 'Orchard',
+    alternativeNames: ['Orchard: 9 card solitaire game'],
+  },
+  {
     bggid: 164928,
     name: 'Orléans',
     code: 'orleans',
