@@ -1150,6 +1150,11 @@ const assets: Game[] = [
     alternativeNames: ['Horrified: Universal Monsters'],
   },
   {
+    bggid: 446497,
+    name: 'Hot Streak',
+    code: 'hot-streak',
+  },
+  {
     bggid: 154203,
     name: 'Imperial Settlers',
     code: 'imperial-settlers',
