@@ -839,6 +839,12 @@ const assets: Game[] = [
     code: 'faraway',
   },
   {
+    bggid: 363625,
+    name: 'Fateforge: Chronicles of Kaan',
+    code: 'fateforge-chronicles-of-kaan',
+    shortName: 'Fateforge',
+  },
+  {
     bggid: 163839,
     name: 'Feudum',
     code: 'feudum',
