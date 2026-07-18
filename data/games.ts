@@ -2450,6 +2450,11 @@ const assets: Game[] = [
     code: 'the-castles-of-tuscany',
   },
   {
+    bggid: 227072,
+    name: 'The Chameleon',
+    code: 'the-chameleon',
+  },
+  {
     bggid: 192836,
     name: 'The Colonists',
     code: 'the-colonists',
