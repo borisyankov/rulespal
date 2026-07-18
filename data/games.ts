@@ -1928,6 +1928,11 @@ const assets: Game[] = [
     code: 'pipeline',
   },
   {
+    bggid: 125548,
+    name: 'Pixel Tactics',
+    code: 'pixel-tactics',
+  },
+  {
     bggid: 258779,
     name: 'Planet Unknown',
     code: 'planet-unknown',
