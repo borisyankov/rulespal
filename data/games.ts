@@ -2445,6 +2445,11 @@ const assets: Game[] = [
     code: 'the-fox-experiment',
   },
   {
+    bggid: 221965,
+    name: 'The Fox in the Forest',
+    code: 'the-fox-in-the-forest',
+  },
+  {
     bggid: 125153,
     name: 'The Gallerist',
     code: 'the-gallerist',
