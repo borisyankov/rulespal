@@ -2185,6 +2185,12 @@ const assets: Game[] = [
     code: 'star-realms',
   },
   {
+    bggid: 444481,
+    name: 'Star Wars: Battle of Hoth',
+    code: 'star-wars-battle-of-hoth',
+    shortName: 'Battle of Hoth',
+  },
+  {
     bggid: 271896,
     name: 'Star Wars: Outer Rim',
     code: 'star-wars-outer-rim',
