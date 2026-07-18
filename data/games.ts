@@ -1757,6 +1757,11 @@ const assets: Game[] = [
     code: 'my-city',
   },
   {
+    bggid: 359394,
+    name: 'My Island',
+    code: 'my-island',
+  },
+  {
     bggid: 181304,
     name: 'Mysterium',
     code: 'mysterium',
