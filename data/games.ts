@@ -119,6 +119,11 @@ const assets: Game[] = [
     alternativeNames: ['Aqua Sphere'],
   },
   {
+    bggid: 140934,
+    name: 'Arboretum',
+    code: 'arboretum',
+  },
+  {
     bggid: 236457,
     name: 'Architects of the West Kingdom',
     code: 'architects-of-the-west-kingdom',
