@@ -2668,6 +2668,12 @@ const assets: Game[] = [
     shortName: 'Guild of Merchant Explorers',
   },
   {
+    bggid: 113873,
+    name: 'The Hunters: German U-Boats at War, 1939-43',
+    code: 'the-hunters',
+    shortName: 'The Hunters',
+  },
+  {
     bggid: 281259,
     name: 'The Isle of Cats',
     code: 'the-isle-of-cats',
