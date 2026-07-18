@@ -3118,6 +3118,12 @@ const assets: Game[] = [
     code: 'witchcraft',
   },
   {
+    bggid: 20100,
+    name: 'Wits & Wagers',
+    code: 'wits-and-wagers',
+    alternativeNames: ['Wits and Wagers', 'Wits & Wagers Deluxe Edition'],
+  },
+  {
     bggid: 227935,
     name: "Wonderland's War",
     code: 'wonderlands-war',
