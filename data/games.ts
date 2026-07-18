@@ -887,6 +887,11 @@ const assets: Game[] = [
     code: 'fields-of-green',
   },
   {
+    bggid: 277659,
+    name: 'Final Girl',
+    code: 'final-girl',
+  },
+  {
     bggid: 436126,
     name: 'Finspan',
     code: 'finspan',
