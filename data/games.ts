@@ -1355,6 +1355,11 @@ const assets: Game[] = [
     code: 'kanban-ev',
   },
   {
+    bggid: 241477,
+    name: 'Karak',
+    code: 'karak',
+  },
+  {
     bggid: 183251,
     name: 'Karuba',
     code: 'karuba',
