@@ -2445,6 +2445,12 @@ const assets: Game[] = [
     code: 'targi',
   },
   {
+    bggid: 146278,
+    name: 'Tash-Kalar: Arena of Legends',
+    code: 'tash-kalar',
+    shortName: 'Tash-Kalar',
+  },
+  {
     bggid: 297030,
     name: 'Tekhenu: Obelisk of the Sun',
     code: 'tekhenu',
