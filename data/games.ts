@@ -2884,6 +2884,13 @@ const assets: Game[] = [
     code: 'ticket-to-ride-europe',
   },
   {
+    bggid: 366488,
+    name: 'Ticket to Ride: Ghost Train',
+    code: 'ticket-to-ride-ghost-train',
+    shortName: 'Ghost Train',
+    alternativeNames: ['Ticket to Ride: First Journey Ghost Train'],
+  },
+  {
     bggid: 390092,
     name: 'Ticket to Ride Legacy: Legends of the West',
     code: 'ticket-to-ride-legacy-legends-of-the-west',
