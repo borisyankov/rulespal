@@ -1698,6 +1698,11 @@ const assets: Game[] = [
     code: 'nemesis',
   },
   {
+    bggid: 310100,
+    name: 'Nemesis: Lockdown',
+    code: 'nemesis-lockdown',
+  },
+  {
     bggid: 300877,
     name: 'New York Zoo',
     code: 'new-york-zoo',
