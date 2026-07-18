@@ -1163,6 +1163,11 @@ const assets: Game[] = [
     alternativeNames: ['Heuschrecken Poker'],
   },
   {
+    bggid: 330036,
+    name: 'Great Plains',
+    code: 'great-plains',
+  },
+  {
     bggid: 364011,
     name: 'Great Western Trail: Argentina',
     code: 'great-western-trail-argentina',
