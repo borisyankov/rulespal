@@ -2189,6 +2189,12 @@ const assets: Game[] = [
     code: 'star-wars-rebellion',
   },
   {
+    bggid: 374173,
+    name: 'Star Wars: The Deckbuilding Game',
+    code: 'star-wars-the-deckbuilding-game',
+    shortName: 'SW Deckbuilding Game',
+  },
+  {
     bggid: 387866,
     name: 'Star Wars: Unlimited',
     code: 'star-wars-unlimited',
