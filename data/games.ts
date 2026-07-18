@@ -1967,6 +1967,11 @@ const assets: Game[] = [
     alternativeNames: ['Pokemon Trading Card Game', 'Pokemon TCG'],
   },
   {
+    bggid: 156009,
+    name: 'Port Royal',
+    code: 'port-royal',
+  },
+  {
     bggid: 2651,
     name: 'Power Grid',
     code: 'power-grid',
