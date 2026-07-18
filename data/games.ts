@@ -1786,6 +1786,11 @@ const assets: Game[] = [
     shortName: 'Fall of Rome',
   },
   {
+    bggid: 141572,
+    name: 'Paperback',
+    code: 'paperback',
+  },
+  {
     bggid: 266524,
     name: 'PARKS',
     code: 'parks',
