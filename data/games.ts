@@ -2949,6 +2949,12 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 300442,
+    name: 'Trekking the World',
+    code: 'trekking-the-world',
+    alternativeNames: ['Trekking the World: Second Edition'],
+  },
+  {
     bggid: 353288,
     name: 'Trekking Through History',
     code: 'trekking-through-history',
