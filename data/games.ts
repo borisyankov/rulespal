@@ -526,6 +526,11 @@ const assets: Game[] = [
     code: 'cloudage',
   },
   {
+    bggid: 262211,
+    name: 'Cloudspire',
+    code: 'cloudspire',
+  },
+  {
     bggid: 1294,
     name: 'Clue',
     code: 'clue',
