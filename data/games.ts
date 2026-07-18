@@ -1033,6 +1033,12 @@ const assets: Game[] = [
     code: 'grand-austria-hotel',
   },
   {
+    bggid: 346553,
+    name: 'Grasshopper Poker',
+    code: 'grasshopper-poker',
+    alternativeNames: ['Heuschrecken Poker'],
+  },
+  {
     bggid: 364011,
     name: 'Great Western Trail: Argentina',
     code: 'great-western-trail-argentina',
