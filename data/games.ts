@@ -2130,6 +2130,12 @@ const assets: Game[] = [
     code: 'sleeping-gods',
   },
   {
+    bggid: 358320,
+    name: 'Sleeping Gods: Distant Skies',
+    code: 'sleeping-gods-distant-skies',
+    shortName: 'Distant Skies',
+  },
+  {
     bggid: 40692,
     name: 'Small World',
     code: 'small-world',
