@@ -585,6 +585,11 @@ const assets: Game[] = [
     code: 'coup',
   },
   {
+    bggid: 456440,
+    name: 'Cozy Stickerville',
+    code: 'cozy-stickerville',
+  },
+  {
     bggid: 385331,
     name: 'Creature Caravan',
     code: 'creature-caravan',
