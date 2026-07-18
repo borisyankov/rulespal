@@ -1990,6 +1990,11 @@ const assets: Game[] = [
     code: 'pyramids',
   },
   {
+    bggid: 368465,
+    name: 'Qawale',
+    code: 'qawale',
+  },
+  {
     bggid: 232043,
     name: 'Queendomino',
     code: 'queendomino',
