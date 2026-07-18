@@ -1075,6 +1075,12 @@ const assets: Game[] = [
     code: 'foundations-of-rome',
   },
   {
+    bggid: 122298,
+    name: 'Fungi',
+    code: 'fungi',
+    alternativeNames: ['Morels', 'Funghi'],
+  },
+  {
     bggid: 318084,
     name: 'Furnace',
     code: 'furnace',
