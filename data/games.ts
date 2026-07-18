@@ -1212,6 +1212,12 @@ const assets: Game[] = [
     code: 'keyflower',
   },
   {
+    bggid: 391795,
+    name: 'Kinfire Delve: Vainglory\'s Grotto',
+    code: 'kinfire-delve-vainglorys-grotto',
+    shortName: 'Kinfire Delve',
+  },
+  {
     bggid: 70323,
     name: 'King of Tokyo',
     code: 'king-of-tokyo',
