@@ -1972,6 +1972,12 @@ const assets: Game[] = [
     code: 'reykholt',
   },
   {
+    bggid: 91514,
+    name: 'Rhino Hero',
+    code: 'rhino-hero',
+    alternativeNames: ['Super Rhino!'],
+  },
+  {
     bggid: 291859,
     name: 'Riftforce',
     code: 'riftforce',
