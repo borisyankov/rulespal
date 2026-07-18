@@ -702,6 +702,11 @@ const assets: Game[] = [
     code: 'deus',
   },
   {
+    bggid: 194594,
+    name: 'Dice Forge',
+    code: 'dice-forge',
+  },
+  {
     bggid: 153318,
     name: 'Dimension',
     code: 'dimension',
