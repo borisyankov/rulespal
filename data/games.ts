@@ -2578,6 +2578,11 @@ const assets: Game[] = [
     code: 'the-chameleon',
   },
   {
+    bggid: 207243,
+    name: 'The City of Kings',
+    code: 'the-city-of-kings',
+  },
+  {
     bggid: 192836,
     name: 'The Colonists',
     code: 'the-colonists',
