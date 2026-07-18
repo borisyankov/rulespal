@@ -1164,6 +1164,12 @@ const assets: Game[] = [
     shortName: 'Hegemony',
   },
   {
+    bggid: 699,
+    name: 'HeroQuest',
+    code: 'heroquest',
+    alternativeNames: ['Hero Quest', 'HeroQuest Game System'],
+  },
+  {
     bggid: 220,
     name: 'High Society',
     code: 'high-society',
