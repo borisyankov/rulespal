@@ -562,6 +562,11 @@ const assets: Game[] = [
     code: 'coup',
   },
   {
+    bggid: 385331,
+    name: 'Creature Caravan',
+    code: 'creature-caravan',
+  },
+  {
     bggid: 2398,
     name: 'Cribbage',
     code: 'cribbage',
