@@ -271,6 +271,11 @@ const assets: Game[] = [
     code: 'bora-bora',
   },
   {
+    bggid: 454672,
+    name: 'Boss Fighters QR',
+    code: 'boss-fighters-qr',
+  },
+  {
     bggid: 413260,
     name: 'Botanicus',
     code: 'botanicus',
