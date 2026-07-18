@@ -2653,6 +2653,11 @@ const assets: Game[] = [
     code: 'twilight-struggle',
   },
   {
+    bggid: 189932,
+    name: 'Tyrants of the Underdark',
+    code: 'tyrants-of-the-underdark',
+  },
+  {
     bggid: 31999,
     name: 'TZAAR',
     code: 'tzaar',
