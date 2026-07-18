@@ -1293,6 +1293,12 @@ const assets: Game[] = [
     code: 'keyflower',
   },
   {
+    bggid: 364655,
+    name: 'Kinfire Chronicles: Night\'s Fall',
+    code: 'kinfire-chronicles-nights-fall',
+    shortName: 'Kinfire Chronicles',
+  },
+  {
     bggid: 391795,
     name: 'Kinfire Delve: Vainglory\'s Grotto',
     code: 'kinfire-delve-vainglorys-grotto',
