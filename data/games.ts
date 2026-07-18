@@ -2475,6 +2475,12 @@ const assets: Game[] = [
     code: 'star-realms',
   },
   {
+    bggid: 360676,
+    name: 'Star Realms: Rise of Empire',
+    code: 'star-realms-rise-of-empire',
+    shortName: 'Rise of Empire',
+  },
+  {
     bggid: 444481,
     name: 'Star Wars: Battle of Hoth',
     code: 'star-wars-battle-of-hoth',
