@@ -1881,6 +1881,12 @@ const assets: Game[] = [
     code: 'photosynthesis',
   },
   {
+    bggid: 252526,
+    name: 'Pictomania',
+    code: 'pictomania',
+    alternativeNames: ['Pictomania (Second Edition)'],
+  },
+  {
     bggid: 256730,
     name: 'Pipeline',
     code: 'pipeline',
