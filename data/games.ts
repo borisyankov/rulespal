@@ -2563,6 +2563,11 @@ const assets: Game[] = [
     alternativeNames: ['Summoner Wars', 'Summoner Wars Second Edition', 'Summoner Wars: Second Edition'],
   },
   {
+    bggid: 394334,
+    name: 'Sunrise Lane',
+    code: 'sunrise-lane',
+  },
+  {
     bggid: 133473,
     name: 'Sushi Go!',
     code: 'sushi-go',
