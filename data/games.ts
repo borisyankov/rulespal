@@ -986,6 +986,11 @@ const assets: Game[] = [
     shortName: 'Flash Point',
   },
   {
+    bggid: 258,
+    name: 'Fluxx',
+    code: 'fluxx',
+  },
+  {
     bggid: 175914,
     name: 'Food Chain Magnate',
     code: 'food-chain-magnate',
