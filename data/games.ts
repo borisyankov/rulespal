@@ -2120,6 +2120,11 @@ const assets: Game[] = [
     code: 'sail',
   },
   {
+    bggid: 175549,
+    name: 'Salem 1692',
+    code: 'salem-1692',
+  },
+  {
     bggid: 382518,
     name: 'Sankoré: The Pride of Mansa Musa',
     code: 'sankore',
