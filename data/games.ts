@@ -27,6 +27,11 @@ const assets: Game[] = [
     code: '7-wonders-duel',
   },
   {
+    bggid: 135779,
+    name: 'A Fake Artist Goes to New York',
+    code: 'a-fake-artist-goes-to-new-york',
+  },
+  {
     bggid: 177736,
     name: 'A Feast for Odin',
     code: 'a-feast-for-odin',
