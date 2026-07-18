@@ -32,6 +32,11 @@ const assets: Game[] = [
     code: 'a-feast-for-odin',
   },
   {
+    bggid: 172818,
+    name: 'Above and Below',
+    code: 'above-and-below',
+  },
+  {
     bggid: 268504,
     name: "Adventure Tactics: Domianne's Tower",
     code: 'adventure-tactics-domiannes-tower',
