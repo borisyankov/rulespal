@@ -32,6 +32,12 @@ const assets: Game[] = [
     code: 'a-feast-for-odin',
   },
   {
+    bggid: 268504,
+    name: "Adventure Tactics: Domianne's Tower",
+    code: 'adventure-tactics-domiannes-tower',
+    shortName: 'Adventure Tactics',
+  },
+  {
     bggid: 191189,
     name: "Aeon's End",
     code: 'aeons-end',
