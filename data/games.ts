@@ -3237,6 +3237,7 @@ const assets: Game[] = [
     bggid: 528,
     name: 'ZÈRTZ',
     code: 'zertz',
+    alternativeNames: ['ZERTZ', 'Zertz'],
   },
   {
     bggid: 381819,
