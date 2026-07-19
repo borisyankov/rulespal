@@ -949,6 +949,11 @@ const assets: Game[] = [
     code: 'dvonn',
   },
   {
+    bggid: 271055,
+    name: 'Dwellings of Eldervale',
+    code: 'dwellings-of-eldervale',
+  },
+  {
     bggid: 350184,
     name: 'Earth',
     code: 'earth',
