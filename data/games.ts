@@ -1093,6 +1093,11 @@ const assets: Game[] = [
     alternativeNames: ['Everdell: Farshore', 'Farshore'],
   },
   {
+    bggid: 379078,
+    name: 'Expeditions',
+    code: 'expeditions',
+  },
+  {
     bggid: 172225,
     name: 'Exploding Kittens',
     code: 'exploding-kittens',
