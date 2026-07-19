@@ -2033,6 +2033,12 @@ const assets: Game[] = [
     code: 'mysterium',
   },
   {
+    bggid: 244191,
+    name: 'Naga Raja',
+    code: 'naga-raja',
+    alternativeNames: ['Nagaraja'],
+  },
+  {
     bggid: 275215,
     name: 'Namiji',
     code: 'namiji',
