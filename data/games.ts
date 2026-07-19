@@ -2447,6 +2447,11 @@ const assets: Game[] = [
     code: 'rebirth',
   },
   {
+    bggid: 329465,
+    name: 'Red Rising',
+    code: 'red-rising',
+  },
+  {
     bggid: 161417,
     name: 'Red7',
     code: 'red7',
