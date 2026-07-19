@@ -288,6 +288,11 @@ const assets: Game[] = [
     shortName: 'Betrayal at House on the Hill',
   },
   {
+    bggid: 168435,
+    name: 'Between Two Cities',
+    code: 'between-two-cities',
+  },
+  {
     bggid: 317985,
     name: 'Beyond the Sun',
     code: 'beyond-the-sun',
