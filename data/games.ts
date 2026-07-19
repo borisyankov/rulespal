@@ -1019,6 +1019,11 @@ const assets: Game[] = [
     shortName: 'Eclipse',
   },
   {
+    bggid: 271519,
+    name: 'Ecosystem',
+    code: 'ecosystem',
+  },
+  {
     bggid: 93,
     name: 'El Grande',
     code: 'el-grande',
