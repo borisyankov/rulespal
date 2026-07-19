@@ -1990,6 +1990,12 @@ const assets: Game[] = [
     code: 'orleans',
   },
   {
+    bggid: 319910,
+    name: 'Pagan: Fate of Roanoke',
+    code: 'pagan-fate-of-roanoke',
+    shortName: 'Pagan',
+  },
+  {
     bggid: 266810,
     name: 'Paladins of the West Kingdom',
     code: 'paladins-of-the-west-kingdom',
