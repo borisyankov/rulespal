@@ -3451,6 +3451,12 @@ const assets: Game[] = [
     code: 'undaunted-normandy',
   },
   {
+    bggid: 354570,
+    name: 'Undaunted: Stalingrad',
+    code: 'undaunted-stalingrad',
+    shortName: 'Stalingrad',
+  },
+  {
     bggid: 306735,
     name: 'Under Falling Skies',
     code: 'under-falling-skies',
