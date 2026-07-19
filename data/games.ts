@@ -192,6 +192,12 @@ const assets: Game[] = [
     code: 'astro-knights',
   },
   {
+    bggid: 39683,
+    name: 'At the Gates of Loyang',
+    code: 'loyang',
+    shortName: 'Loyang',
+  },
+  {
     bggid: 348554,
     name: 'Autobahn',
     code: 'autobahn',
