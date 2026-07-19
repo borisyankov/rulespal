@@ -3403,6 +3403,13 @@ const assets: Game[] = [
     code: 'trajan',
   },
   {
+    bggid: 303672,
+    name: 'Trek 12: Himalaya',
+    code: 'trek-12',
+    shortName: 'Trek 12',
+    alternativeNames: ['Trek 12'],
+  },
+  {
     bggid: 154428,
     name: 'Trekking the National Parks',
     code: 'trekking-the-national-parks',
