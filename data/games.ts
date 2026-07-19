@@ -3560,6 +3560,11 @@ const assets: Game[] = [
     code: 'western-legends',
   },
   {
+    bggid: 305761,
+    name: 'Whale Riders',
+    code: 'whale-riders',
+  },
+  {
     bggid: 335275,
     name: 'Whirling Witchcraft',
     code: 'whirling-witchcraft',
