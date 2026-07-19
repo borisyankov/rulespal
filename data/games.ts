@@ -873,6 +873,11 @@ const assets: Game[] = [
     code: 'dimension',
   },
   {
+    bggid: 221194,
+    name: 'Dinosaur Island',
+    code: 'dinosaur-island',
+  },
+  {
     bggid: 360206,
     name: 'Discordia',
     code: 'discordia',
