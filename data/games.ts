@@ -1082,6 +1082,12 @@ const assets: Game[] = [
     code: 'escape-plan',
   },
   {
+    bggid: 133848,
+    name: 'Euphoria: Build a Better Dystopia',
+    code: 'euphoria',
+    shortName: 'Euphoria',
+  },
+  {
     bggid: 382843,
     name: 'Evacuation',
     code: 'evacuation',
