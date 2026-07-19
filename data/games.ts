@@ -3133,6 +3133,11 @@ const assets: Game[] = [
     code: 'turing-machine',
   },
   {
+    bggid: 352238,
+    name: 'Turncoats',
+    code: 'turncoats',
+  },
+  {
     bggid: 233078,
     name: 'Twilight Imperium: Fourth Edition',
     code: 'twilight-imperium-4',
