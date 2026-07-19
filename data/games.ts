@@ -339,6 +339,11 @@ const assets: Game[] = [
     code: 'blue-lagoon',
   },
   {
+    bggid: 21882,
+    name: 'Blue Moon City',
+    code: 'blue-moon-city',
+  },
+  {
     bggid: 413246,
     name: 'Bomb Busters',
     code: 'bomb-busters',
