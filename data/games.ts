@@ -2009,6 +2009,11 @@ const assets: Game[] = [
     code: 'mistborn-the-deckbuilding-game',
   },
   {
+    bggid: 285533,
+    name: 'Miyabi',
+    code: 'miyabi',
+  },
+  {
     bggid: 387378,
     name: 'MLEM: Space Agency',
     code: 'mlem-space-agency',
