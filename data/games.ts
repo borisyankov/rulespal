@@ -3653,6 +3653,13 @@ const assets: Game[] = [
     code: 'wonderlands-war',
   },
   {
+    bggid: 419763,
+    name: 'Wonders of The First CCG',
+    code: 'wonders-of-the-first',
+    shortName: 'Wonders of the First',
+    alternativeNames: ['Wonders of the First'],
+  },
+  {
     bggid: 355093,
     name: 'Woodcraft',
     code: 'woodcraft',
