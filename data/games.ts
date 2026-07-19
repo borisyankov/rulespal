@@ -1817,6 +1817,11 @@ const assets: Game[] = [
     code: 'merchants-of-the-dark-road',
   },
   {
+    bggid: 39684,
+    name: 'Merkator',
+    code: 'merkator',
+  },
+  {
     bggid: 306040,
     name: 'Merv: The Heart of the Silk Road',
     code: 'merv',
