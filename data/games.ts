@@ -149,6 +149,12 @@ const assets: Game[] = [
     alternativeNames: ['Anno 1800: The Board Game', 'Anno 1800 - Das Brettspiel'],
   },
   {
+    bggid: 19600,
+    name: 'Antike',
+    code: 'antike',
+    alternativeNames: ['Antique'],
+  },
+  {
     bggid: 400314,
     name: 'Apiary',
     code: 'apiary',
