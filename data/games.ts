@@ -1553,6 +1553,11 @@ const assets: Game[] = [
     code: 'karvi',
   },
   {
+    bggid: 387515,
+    name: 'Kavango',
+    code: 'kavango',
+  },
+  {
     bggid: 374595,
     name: 'Kelp',
     code: 'kelp',
