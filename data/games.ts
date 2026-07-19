@@ -3305,6 +3305,11 @@ const assets: Game[] = [
     code: 'washingtons-war',
   },
   {
+    bggid: 396618,
+    name: 'Waterfall Park',
+    code: 'waterfall-park',
+  },
+  {
     bggid: 274364,
     name: 'Watergate',
     code: 'watergate',
