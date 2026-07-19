@@ -971,6 +971,11 @@ const assets: Game[] = [
     code: 'ezra-and-nehemiah',
   },
   {
+    bggid: 318983,
+    name: 'Faiyum',
+    code: 'faiyum',
+  },
+  {
     bggid: 216600,
     name: 'Fantastic Factories',
     code: 'fantastic-factories',
