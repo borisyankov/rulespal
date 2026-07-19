@@ -1171,6 +1171,11 @@ const assets: Game[] = [
     code: 'fort',
   },
   {
+    bggid: 244049,
+    name: 'Forum Trajanum',
+    code: 'forum-trajanum',
+  },
+  {
     bggid: 284189,
     name: 'Foundations of Rome',
     code: 'foundations-of-rome',
