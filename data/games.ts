@@ -3482,6 +3482,11 @@ const assets: Game[] = [
     code: 'turncoats',
   },
   {
+    bggid: 257614,
+    name: 'Tussie Mussie',
+    code: 'tussie-mussie',
+  },
+  {
     bggid: 233078,
     name: 'Twilight Imperium: Fourth Edition',
     code: 'twilight-imperium-4',
