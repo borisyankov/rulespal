@@ -2978,6 +2978,12 @@ const assets: Game[] = [
     code: 'ticket-to-ride',
   },
   {
+    bggid: 309113,
+    name: 'Ticket to Ride: Amsterdam',
+    code: 'ticket-to-ride-amsterdam',
+    shortName: 'Amsterdam',
+  },
+  {
     bggid: 14996,
     name: 'Ticket to Ride: Europe',
     code: 'ticket-to-ride-europe',
