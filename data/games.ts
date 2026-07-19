@@ -293,6 +293,12 @@ const assets: Game[] = [
     shortName: 'Betrayal at House on the Hill',
   },
   {
+    bggid: 258036,
+    name: 'Between Two Castles of Mad King Ludwig',
+    code: 'between-two-castles-of-mad-king-ludwig',
+    shortName: 'Between Two Castles',
+  },
+  {
     bggid: 168435,
     name: 'Between Two Cities',
     code: 'between-two-cities',
