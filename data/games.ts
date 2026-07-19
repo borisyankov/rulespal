@@ -328,6 +328,15 @@ const assets: Game[] = [
     code: 'botanicus',
   },
   {
+    bggid: 380837,
+    name: 'Botany',
+    code: 'botany',
+    alternativeNames: [
+      'Botany: Flower Hunting in the Victorian Era',
+      'Botany: A Victorian Expedition',
+    ],
+  },
+  {
     bggid: 224517,
     name: 'Brass: Birmingham',
     code: 'brass-birmingham',
