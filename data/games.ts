@@ -2060,6 +2060,11 @@ const assets: Game[] = [
     code: 'my-island',
   },
   {
+    bggid: 226320,
+    name: 'My Little Scythe',
+    code: 'my-little-scythe',
+  },
+  {
     bggid: 181304,
     name: 'Mysterium',
     code: 'mysterium',
