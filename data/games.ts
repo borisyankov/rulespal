@@ -2813,6 +2813,11 @@ const assets: Game[] = [
     shortName: 'Tainted Grail',
   },
   {
+    bggid: 475,
+    name: 'Taj Mahal',
+    code: 'taj-mahal',
+  },
+  {
     bggid: 432,
     name: 'Take 5',
     code: 'take-5',
