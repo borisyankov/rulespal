@@ -1300,6 +1300,13 @@ const assets: Game[] = [
     alternativeNames: ["Hey! That's My Fish!", 'Hey, Thats My Fish'],
   },
   {
+    bggid: 281655,
+    name: 'High Frontier 4 All',
+    code: 'high-frontier-4-all',
+    shortName: 'High Frontier',
+    alternativeNames: ['High Frontier 4All', 'High Frontier: 4 All'],
+  },
+  {
     bggid: 220,
     name: 'High Society',
     code: 'high-society',
