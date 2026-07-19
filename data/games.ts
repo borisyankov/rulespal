@@ -1207,6 +1207,11 @@ const assets: Game[] = [
     code: 'gutenberg',
   },
   {
+    bggid: 200853,
+    name: 'Habitats',
+    code: 'habitats',
+  },
+  {
     bggid: 304783,
     name: "Hadrian's Wall",
     code: 'hadrians-wall',
