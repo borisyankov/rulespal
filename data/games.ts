@@ -1576,6 +1576,12 @@ const assets: Game[] = [
     code: 'knarr',
   },
   {
+    bggid: 171879,
+    name: 'Kraftwagen',
+    code: 'kraftwagen',
+    alternativeNames: ['Kraftwagen: V6 Edition'],
+  },
+  {
     bggid: 385610,
     name: 'Kutná Hora: The City of Silver',
     code: 'kutna-hora',
