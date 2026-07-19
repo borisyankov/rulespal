@@ -1593,6 +1593,11 @@ const assets: Game[] = [
     code: 'living-forest',
   },
   {
+    bggid: 236301,
+    name: 'Living Planet',
+    code: 'living-planet',
+  },
+  {
     bggid: 295374,
     name: 'Long Shot: The Dice Game',
     code: 'long-shot-the-dice-game',
