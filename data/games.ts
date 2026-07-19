@@ -1787,6 +1787,12 @@ const assets: Game[] = [
     alternativeNames: ['MTG'],
   },
   {
+    bggid: 9440,
+    name: 'Maharaja: The Game of Palace Building in India',
+    code: 'maharaja',
+    shortName: 'Maharaja',
+  },
+  {
     bggid: 2448,
     name: 'Mancala',
     code: 'mancala',
