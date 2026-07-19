@@ -505,6 +505,12 @@ const assets: Game[] = [
     code: 'cascadia',
   },
   {
+    bggid: 407317,
+    name: 'Cascadia: Rolling Hills',
+    code: 'cascadia-rolling-hills',
+    shortName: 'Rolling Hills',
+  },
+  {
     bggid: 416851,
     name: 'Castle Combo',
     code: 'castle-combo',
