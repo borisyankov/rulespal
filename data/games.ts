@@ -586,6 +586,11 @@ const assets: Game[] = [
     code: 'chartae',
   },
   {
+    bggid: 197376,
+    name: 'Charterstone',
+    code: 'charterstone',
+  },
+  {
     bggid: 2083,
     name: 'Checkers',
     code: 'checkers',
