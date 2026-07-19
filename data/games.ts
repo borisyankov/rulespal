@@ -2585,6 +2585,11 @@ const assets: Game[] = [
     shortName: 'Space Empires',
   },
   {
+    bggid: 356414,
+    name: 'Space Station Phoenix',
+    code: 'space-station-phoenix',
+  },
+  {
     bggid: 299169,
     name: 'Spicy',
     code: 'spicy',
