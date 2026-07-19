@@ -3129,6 +3129,12 @@ const assets: Game[] = [
     alternativeNames: ['Through the Ages'],
   },
   {
+    bggid: 503,
+    name: 'Through the Desert',
+    code: 'through-the-desert',
+    alternativeNames: ['Durch die Wüste'],
+  },
+  {
     bggid: 342070,
     name: 'Thunder Road: Vendetta',
     code: 'thunder-road-vendetta',
