@@ -177,6 +177,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 352179,
+    name: 'Astro Knights',
+    code: 'astro-knights',
+  },
+  {
     bggid: 348554,
     name: 'Autobahn',
     code: 'autobahn',
