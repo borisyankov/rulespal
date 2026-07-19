@@ -628,6 +628,12 @@ const assets: Game[] = [
     alternativeNames: ['Cluedo'],
   },
   {
+    bggid: 214887,
+    name: 'CO₂: Second Chance',
+    code: 'co2-second-chance',
+    alternativeNames: ['CO2: Second Chance', 'CO2 Second Chance'],
+  },
+  {
     bggid: 11971,
     name: 'Cockroach Poker',
     code: 'cockroach-poker',
