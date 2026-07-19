@@ -645,6 +645,12 @@ const assets: Game[] = [
     alternativeNames: ['CO2: Second Chance', 'CO2 Second Chance'],
   },
   {
+    bggid: 143515,
+    name: 'Coal Baron',
+    code: 'coal-baron',
+    alternativeNames: ['Glück Auf', 'Gluck Auf'],
+  },
+  {
     bggid: 11971,
     name: 'Cockroach Poker',
     code: 'cockroach-poker',
