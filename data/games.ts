@@ -3000,6 +3000,11 @@ const assets: Game[] = [
     shortName: 'Energy Empire',
   },
   {
+    bggid: 193558,
+    name: 'The Oracle of Delphi',
+    code: 'oracle-of-delphi',
+  },
+  {
     bggid: 555,
     name: 'The Princes of Florence',
     code: 'the-princes-of-florence',
