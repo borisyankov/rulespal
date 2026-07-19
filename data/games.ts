@@ -3067,6 +3067,12 @@ const assets: Game[] = [
     code: 'terraforming-mars',
   },
   {
+    bggid: 328871,
+    name: 'Terraforming Mars: Ares Expedition',
+    code: 'ares-expedition',
+    shortName: 'Ares Expedition',
+  },
+  {
     bggid: 244522,
     name: "That's Pretty Clever!",
     code: 'thats-pretty-clever',
