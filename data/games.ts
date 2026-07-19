@@ -2671,6 +2671,12 @@ const assets: Game[] = [
     code: 'skymines',
   },
   {
+    bggid: 298231,
+    name: 'Skyrise',
+    code: 'skyrise',
+    alternativeNames: ['Metropolys'],
+  },
+  {
     bggid: 338960,
     name: 'Slay the Spire: The Board Game',
     code: 'slay-the-spire',
