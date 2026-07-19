@@ -116,6 +116,11 @@ const assets: Game[] = [
     alternativeNames: ['Der Palast von Alhambra', 'Alhambra: Revised Edition'],
   },
   {
+    bggid: 137408,
+    name: 'Amerigo',
+    code: 'amerigo',
+  },
+  {
     bggid: 5404,
     name: 'Amun-Re',
     code: 'amun-re',
