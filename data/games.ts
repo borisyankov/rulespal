@@ -276,6 +276,11 @@ const assets: Game[] = [
     code: 'beacon-patrol',
   },
   {
+    bggid: 281549,
+    name: 'Beast',
+    code: 'beast',
+  },
+  {
     bggid: 369880,
     name: 'Beer & Bread',
     code: 'beer-and-bread',
