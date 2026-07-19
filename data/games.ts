@@ -2155,6 +2155,11 @@ const assets: Game[] = [
     shortName: 'Pax Pamir',
   },
   {
+    bggid: 42910,
+    name: 'Peloponnes',
+    code: 'peloponnes',
+  },
+  {
     bggid: 1258,
     name: 'Phase 10',
     code: 'phase-10',
