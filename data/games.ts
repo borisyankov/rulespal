@@ -3027,6 +3027,11 @@ const assets: Game[] = [
     code: 'toy-battle',
   },
   {
+    bggid: 352454,
+    name: 'Trailblazers',
+    code: 'trailblazers',
+  },
+  {
     bggid: 102680,
     name: 'Trajan',
     code: 'trajan',
