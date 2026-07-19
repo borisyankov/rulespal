@@ -1828,6 +1828,11 @@ const assets: Game[] = [
     code: 'merkator',
   },
   {
+    bggid: 230933,
+    name: 'Merlin',
+    code: 'merlin',
+  },
+  {
     bggid: 306040,
     name: 'Merv: The Heart of the Silk Road',
     code: 'merv',
