@@ -3659,6 +3659,12 @@ const assets: Game[] = [
     code: 'voidfall',
   },
   {
+    bggid: 355483,
+    name: 'Wandering Towers',
+    code: 'wandering-towers',
+    alternativeNames: ['The Wandering Towers'],
+  },
+  {
     bggid: 249259,
     name: 'War Chest',
     code: 'war-chest',
