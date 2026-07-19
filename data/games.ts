@@ -2337,6 +2337,11 @@ const assets: Game[] = [
     alternativeNames: ['Super Rhino!'],
   },
   {
+    bggid: 119591,
+    name: 'Rialto',
+    code: 'rialto',
+  },
+  {
     bggid: 291859,
     name: 'Riftforce',
     code: 'riftforce',
