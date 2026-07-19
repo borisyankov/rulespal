@@ -229,6 +229,11 @@ const assets: Game[] = [
     code: 'azul-summer-pavilion',
   },
   {
+    bggid: 266164,
+    name: 'Babylonia',
+    code: 'babylonia',
+  },
+  {
     bggid: 2397,
     name: 'Backgammon',
     code: 'backgammon',
