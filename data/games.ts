@@ -3430,6 +3430,11 @@ const assets: Game[] = [
     code: 'trekking-through-history',
   },
   {
+    bggid: 202582,
+    name: 'Trellis',
+    code: 'trellis',
+  },
+  {
     bggid: 163068,
     name: 'Trickerion: Legends of Illusion',
     code: 'trickerion',
