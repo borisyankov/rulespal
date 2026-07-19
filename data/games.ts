@@ -89,6 +89,16 @@ const assets: Game[] = [
     code: 'agricola',
   },
   {
+    bggid: 119890,
+    name: 'Agricola: All Creatures Big and Small',
+    code: 'agricola-all-creatures-big-and-small',
+    shortName: 'All Creatures Big and Small',
+    alternativeNames: [
+      'All Creatures Big and Small',
+      'Agricola: All Creatures Big and Small – The Big Box',
+    ],
+  },
+  {
     bggid: 247367,
     name: 'Air, Land, & Sea',
     code: 'air-land-and-sea',
