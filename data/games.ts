@@ -1953,6 +1953,11 @@ const assets: Game[] = [
     shortName: 'Marco Polo II',
   },
   {
+    bggid: 297978,
+    name: 'Mariposas',
+    code: 'mariposas',
+  },
+  {
     bggid: 342810,
     name: 'Marrakesh',
     code: 'marrakesh',
