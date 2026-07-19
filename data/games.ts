@@ -2545,6 +2545,11 @@ const assets: Game[] = [
     code: 'roll-player-adventures',
   },
   {
+    bggid: 305682,
+    name: 'Rolling Realms',
+    code: 'rolling-realms',
+  },
+  {
     bggid: 237182,
     name: 'Root',
     code: 'root',
