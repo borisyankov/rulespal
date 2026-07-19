@@ -1755,6 +1755,12 @@ const assets: Game[] = [
     code: 'marvel-dice-throne',
   },
   {
+    bggid: 293296,
+    name: 'Marvel Splendor',
+    code: 'marvel-splendor',
+    alternativeNames: ['Splendor: Marvel', 'Splendor Marvel'],
+  },
+  {
     bggid: 298047,
     name: 'Marvel United',
     code: 'marvel-united',
