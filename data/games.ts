@@ -3070,6 +3070,12 @@ const assets: Game[] = [
     code: 'the-search-for-planet-x',
   },
   {
+    bggid: 66505,
+    name: 'The Speicherstadt',
+    code: 'the-speicherstadt',
+    alternativeNames: ['Die Speicherstadt'],
+  },
+  {
     bggid: 385529,
     name: 'The Vale of Eternity',
     code: 'the-vale-of-eternity',
