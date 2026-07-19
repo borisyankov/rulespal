@@ -1165,6 +1165,11 @@ const assets: Game[] = [
     code: 'foundations-of-metropolis',
   },
   {
+    bggid: 353152,
+    name: 'Framework',
+    code: 'framework',
+  },
+  {
     bggid: 383206,
     name: 'Freelancers: A Crossroads Game',
     code: 'freelancers',
