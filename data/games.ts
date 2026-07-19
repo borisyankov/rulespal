@@ -955,6 +955,11 @@ const assets: Game[] = [
     code: 'escape-plan',
   },
   {
+    bggid: 382843,
+    name: 'Evacuation',
+    code: 'evacuation',
+  },
+  {
     bggid: 199792,
     name: 'Everdell',
     code: 'everdell',
