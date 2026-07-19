@@ -1977,6 +1977,11 @@ const assets: Game[] = [
     code: 'meadow',
   },
   {
+    bggid: 277700,
+    name: 'Merchants Cove',
+    code: 'merchants-cove',
+  },
+  {
     bggid: 300217,
     name: 'Merchants of the Dark Road',
     code: 'merchants-of-the-dark-road',
