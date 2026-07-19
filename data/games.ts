@@ -387,6 +387,11 @@ const assets: Game[] = [
     code: 'calico',
   },
   {
+    bggid: 199383,
+    name: 'Calimala',
+    code: 'calimala',
+  },
+  {
     bggid: 266993,
     name: 'Call to Adventure: The Stormlight Archive',
     code: 'call-to-adventure-the-stormlight-archive',
