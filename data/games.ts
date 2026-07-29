@@ -2344,6 +2344,11 @@ const assets: Game[] = [
     code: 'peloponnes',
   },
   {
+    bggid: 312804,
+    name: 'Pendulum',
+    code: 'pendulum',
+  },
+  {
     bggid: 1258,
     name: 'Phase 10',
     code: 'phase-10',
