@@ -521,6 +521,11 @@ const assets: Game[] = [
     code: 'cartographers',
   },
   {
+    bggid: 401216,
+    name: 'Cascadero',
+    code: 'cascadero',
+  },
+  {
     bggid: 295947,
     name: 'Cascadia',
     code: 'cascadia',
