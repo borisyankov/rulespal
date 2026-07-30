@@ -648,6 +648,15 @@ const assets: Game[] = [
     code: 'chronicles-of-crime',
   },
   {
+    bggid: 132018,
+    name: 'Churchill',
+    code: 'churchill',
+    alternativeNames: [
+      'Churchill: Big Three Struggle for Peace',
+      'Churchill: The Big Three Struggle for Peace',
+    ],
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
