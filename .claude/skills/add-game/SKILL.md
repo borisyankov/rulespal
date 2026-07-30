@@ -11,7 +11,7 @@ Adding a game means producing **four artifacts**, all keyed off a single `code` 
 | --- | --- | --- |
 | Rulebook | `data/rulebooks/<code>-rulebook.md` | Transcribe the real rulebook (below) |
 | Catalog entry | `data/games.ts` | Add a `Game` object, alphabetically |
-| Embeddings | `data/embeddings/<code>-embeddings.json` | `npm run embeddings` |
+| Embeddings | `data/embeddings/<code>-embeddings.json` | `npm run embeddings -- <code>` |
 | Thumbnail | `public/thumbs/<code>.jpg` | Manual (BGG API is dead — see step 5) |
 
 All four are required. The app loads the rulebook and embeddings per-game at query time (`app/lib/actions.ts`), so a game missing its embeddings **errors when opened**; a game missing its thumbnail shows a broken image.
@@ -101,8 +101,10 @@ Example:
 
 ```bash
 [ -d node_modules ] || npm install   # repo uses legacy-peer-deps via .npmrc
-npm run embeddings                    # skips games that already have a file; builds only the new one
+npm run embeddings -- <code>          # just this game, read straight off its rulebook file
 ```
+
+A bare `npm run embeddings` walks the whole catalog and builds every missing file. Passing one or more codes is the targeted form — it needs no `data/games.ts` entry (it reads `data/rulebooks/<code>-rulebook.md` directly), so you can embed before cataloguing. Add `--force` to regenerate a file that already exists.
 
 Requirements & notes:
 - Needs a **funded `OPENAI_API_KEY`** in the environment (`insufficient_quota` = billing problem, ask the user to fix it, then retry).
@@ -112,10 +114,10 @@ Requirements & notes:
 ## Step 6 — Generate the thumbnail
 
 ```bash
-npm run thumbs   # skips games that already have a thumb; builds only the new one(s)
+npm run thumbs -- <code>   # just this game; bare `npm run thumbs` does the whole catalog
 ```
 
-`scripts/thumbs.ts` resolves each game's image in this order: a local source file → an override URL → BGG's XML API. It fails per-game (never crashes the batch) and prints a summary of any it couldn't fetch.
+`scripts/thumbs.ts` resolves each game's image in this order: a local source file → an override URL → BGG's XML API. The targeted form works before the game is in `data/games.ts`, as long as a `_src` image or an override URL exists (with no catalog entry there is no `bggid` to look up). It fails per-game (never crashes the batch) and prints a summary of any it couldn't fetch.
 
 **BGG's XML API is often unreachable** — it returns `Unauthorized` from many networks (notably datacenter/CI IPs; it may still work from a home connection). When a game lands in the failure summary, supply the image yourself, then re-run `npm run thumbs`:
 

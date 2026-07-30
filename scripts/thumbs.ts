@@ -108,10 +108,30 @@ async function processGame(
   }
 
   // 2) An explicit override URL, then 3) BGG's API.
+  if (!overrides[game.code] && Number.isNaN(game.bggid)) {
+    throw new Error(
+      `not in data/games.ts, so there is no bggid to look up — add a` +
+        ` public/thumbs/_src/${game.code}.jpg or a thumb-sources.json entry`,
+    );
+  }
   const imageUrl = overrides[game.code] ?? (await getBggImageUrl(game.bggid));
   console.log(`Processing ${game.code} <- ${imageUrl}`);
   await resizeToThumb(await fetchWithRetry(imageUrl), outputFilename);
   return 'created';
+}
+
+// Usage:
+//   npm run thumbs                  every catalog game missing a thumbnail
+//   npm run thumbs -- azul dominion  just those codes; a code with no data/games.ts
+//                                    entry still works if it has a _src image or an
+//                                    entry in thumb-sources.json (no bggid needed)
+function selectGames(games: Game[], codes: string[]): Game[] {
+  if (!codes.length) return games;
+
+  const byCode = new Map(games.map((game) => [game.code, game]));
+  return codes.map(
+    (code) => byCode.get(code) ?? ({ code, bggid: NaN, name: code } as Game),
+  );
 }
 
 async function processGames(games: Game[]): Promise<void> {
@@ -146,4 +166,4 @@ async function processGames(games: Game[]): Promise<void> {
   }
 }
 
-processGames(games);
+processGames(selectGames(games, process.argv.slice(2)));
