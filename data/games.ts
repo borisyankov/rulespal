@@ -1364,6 +1364,11 @@ const assets: Game[] = [
     code: 'flamecraft',
   },
   {
+    bggid: 199478,
+    name: 'Flamme Rouge',
+    code: 'flamme-rouge',
+  },
+  {
     bggid: 100901,
     name: 'Flash Point: Fire Rescue',
     code: 'flash-point-fire-rescue',
