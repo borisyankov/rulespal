@@ -1469,6 +1469,12 @@ const assets: Game[] = [
     code: 'hamburgum',
   },
   {
+    bggid: 276086,
+    name: 'Hamlet: The Village Building Game',
+    code: 'hamlet',
+    shortName: 'Hamlet',
+  },
+  {
     bggid: 98778,
     name: 'Hanabi',
     code: 'hanabi',
