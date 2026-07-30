@@ -2194,6 +2194,12 @@ const assets: Game[] = [
     code: 'no-thanks',
   },
   {
+    bggid: 294693,
+    name: 'Nokosu Dice',
+    code: 'nokosu-dice',
+    alternativeNames: ['ノコスダイス'],
+  },
+  {
     bggid: 25554,
     name: 'Notre Dame',
     code: 'notre-dame',
