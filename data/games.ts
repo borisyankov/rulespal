@@ -3407,6 +3407,14 @@ const assets: Game[] = [
     shortName: 'Robin Hood',
   },
   {
+    bggid: 342921,
+    name: 'The British Way: Counterinsurgency at the End of Empire',
+    code: 'the-british-way',
+    shortName: 'The British Way',
+    alternativeNames: ['The British Way', 'COIN Multipack I'],
+    extraSources: ['campaign'],
+  },
+  {
     bggid: 84876,
     name: 'The Castles of Burgundy',
     code: 'the-castles-of-burgundy',
