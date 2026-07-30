@@ -3454,6 +3454,11 @@ const assets: Game[] = [
     code: 'takenoko',
   },
   {
+    bggid: 24508,
+    name: 'Taluva',
+    code: 'taluva',
+  },
+  {
     bggid: 252153,
     name: 'Tang Garden',
     code: 'tang-garden',
