@@ -160,6 +160,11 @@ const assets: Game[] = [
     alternativeNames: ['Antique'],
   },
   {
+    bggid: 13122,
+    name: 'Antiquity',
+    code: 'antiquity',
+  },
+  {
     bggid: 400314,
     name: 'Apiary',
     code: 'apiary',
