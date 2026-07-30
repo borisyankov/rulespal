@@ -782,6 +782,13 @@ const assets: Game[] = [
     code: 'coral',
   },
   {
+    bggid: 396895,
+    name: 'Corps of Discovery: A Game Set in the World of Manifest Destiny',
+    shortName: 'Corps of Discovery',
+    code: 'corps-of-discovery',
+    alternativeNames: ['Corps of Discovery'],
+  },
+  {
     bggid: 344277,
     name: 'Corrosion',
     code: 'corrosion',
