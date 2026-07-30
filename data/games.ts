@@ -655,6 +655,11 @@ const assets: Game[] = [
     code: 'catan',
   },
   {
+    bggid: 2582,
+    name: 'Catch Phrase!',
+    code: 'catch-phrase',
+  },
+  {
     bggid: 102794,
     name: 'Caverna: The Cave Farmers',
     code: 'caverna',
@@ -1773,6 +1778,11 @@ const assets: Game[] = [
     name: "Hey, That's My Fish!",
     code: 'hey-thats-my-fish',
     alternativeNames: ["Hey! That's My Fish!", 'Hey, Thats My Fish'],
+  },
+  {
+    bggid: 6932,
+    name: 'Hi Ho! Cherry-O',
+    code: 'hi-ho-cherry-o',
   },
   {
     bggid: 281655,
