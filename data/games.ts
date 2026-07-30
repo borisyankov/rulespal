@@ -2322,6 +2322,11 @@ const assets: Game[] = [
     alternativeNames: ['Moon Colonies Bloodbath'],
   },
   {
+    bggid: 21763,
+    name: 'Mr. Jack',
+    code: 'mr-jack',
+  },
+  {
     bggid: 1927,
     name: 'Munchkin',
     code: 'munchkin',
