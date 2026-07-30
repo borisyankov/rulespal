@@ -688,6 +688,11 @@ const assets: Game[] = [
     code: 'chess',
   },
   {
+    bggid: 47,
+    name: 'Chinatown',
+    code: 'chinatown',
+  },
+  {
     bggid: 240567,
     name: 'Chocolate Factory',
     code: 'chocolate-factory',
