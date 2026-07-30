@@ -1403,6 +1403,16 @@ const assets: Game[] = [
     code: 'galactic-cruise',
   },
   {
+    bggid: 220588,
+    name: 'Gandhi: The Decolonization of British India, 1917-1947',
+    shortName: 'Gandhi',
+    code: 'gandhi',
+    alternativeNames: [
+      'Gandhi',
+      'Gandhi: The Decolonization of British India, 1917 – 1947',
+    ],
+  },
+  {
     bggid: 527,
     name: 'GIPF',
     code: 'gipf',
