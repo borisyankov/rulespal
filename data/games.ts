@@ -2789,6 +2789,12 @@ const assets: Game[] = [
     shortName: 'Pax Pamir',
   },
   {
+    bggid: 1797,
+    name: 'Pay Day',
+    code: 'payday',
+    alternativeNames: ['PayDay', 'Pay Day Game'],
+  },
+  {
     bggid: 42910,
     name: 'Peloponnes',
     code: 'peloponnes',
