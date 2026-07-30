@@ -2624,6 +2624,13 @@ const assets: Game[] = [
     code: 'pendulum',
   },
   {
+    bggid: 247136,
+    name: 'People Power: Insurgency in the Philippines, 1981-1986',
+    code: 'people-power',
+    shortName: 'People Power',
+    extraSources: ['non-player'],
+  },
+  {
     bggid: 1258,
     name: 'Phase 10',
     code: 'phase-10',
