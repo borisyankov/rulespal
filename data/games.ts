@@ -3003,6 +3003,11 @@ const assets: Game[] = [
     code: 'secret-hitler',
   },
   {
+    bggid: 25021,
+    name: 'Sekigahara: The Unification of Japan',
+    code: 'sekigahara',
+  },
+  {
     bggid: 2027,
     name: 'Sequence',
     code: 'sequence',
