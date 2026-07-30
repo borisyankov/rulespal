@@ -2858,6 +2858,11 @@ const assets: Game[] = [
     code: 'reef',
   },
   {
+    bggid: 307002,
+    name: 'Regicide',
+    code: 'regicide',
+  },
+  {
     bggid: 262712,
     name: 'Res Arcana',
     code: 'res-arcana',
