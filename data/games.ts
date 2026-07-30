@@ -209,6 +209,11 @@ const assets: Game[] = [
     code: 'applejack',
   },
   {
+    bggid: 74,
+    name: 'Apples to Apples',
+    code: 'apples-to-apples',
+  },
+  {
     bggid: 155873,
     name: 'AquaSphere',
     code: 'aquasphere',
@@ -286,6 +291,11 @@ const assets: Game[] = [
     bggid: 2397,
     name: 'Backgammon',
     code: 'backgammon',
+  },
+  {
+    bggid: 163,
+    name: 'Balderdash',
+    code: 'balderdash',
   },
   {
     bggid: 299571,
@@ -940,6 +950,11 @@ const assets: Game[] = [
     bggid: 456440,
     name: 'Cozy Stickerville',
     code: 'cozy-stickerville',
+  },
+  {
+    bggid: 891,
+    name: 'Cranium',
+    code: 'cranium',
   },
   {
     bggid: 385331,
