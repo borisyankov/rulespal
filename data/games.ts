@@ -1862,6 +1862,7 @@ const assets: Game[] = [
     name: 'Kutná Hora: The City of Silver',
     code: 'kutna-hora',
     shortName: 'Kutná Hora',
+    alternativeNames: ['Kutna Hora', 'Kutna Hora: The City of Silver'],
   },
   {
     bggid: 146886,
