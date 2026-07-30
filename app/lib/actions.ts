@@ -1,15 +1,8 @@
 import OpenAI from 'openai';
-import {
-  cosineToUnit,
-  findOOVs,
-  getOovCount,
-  normalize,
-  similarityScore,
-} from './rag';
+import { BM25Index, Retriever, VectorIndex } from './retriever';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { Citation, EmbeddingSet, Game } from './definitions';
-import dict from '../../data/dict';
 
 const openai = new OpenAI();
 
@@ -82,32 +75,33 @@ export async function searchFor(
   );
   console.timeEnd('Load rulebook, embeddings, embeddings for query');
 
-  const OOVs = findOOVs(dict, query);
-  if (OOVs.length === 0) {
-    console.log('No OOVs found!');
-  } else {
-    console.log('OOVs found: ', OOVs);
-  }
+  // Hybrid retrieval: fuse semantic (vector) and lexical (BM25) rankings.
+  // The query embedding was fetched in parallel with the file loads above, so
+  // the vector index just hands it back rather than embedding again.
+  const chunks = gameEmbeddings.map((x) => ({
+    ...x,
+    content: rulebook.substring(x.start, x.start + x.length),
+  }));
 
   console.time('Search all embeddings');
-  const queryUnit = normalize(queryEmbedding);
-  const cosine = gameEmbeddings.map((x) => {
-    const content = rulebook.substring(x.start, x.start + x.length);
-    const cosine = cosineToUnit(x.embedding, queryUnit);
-    const oovCount = getOovCount(content, OOVs);
-    return {
-      ...x,
-      content,
-      similarity: similarityScore(cosine, oovCount),
-    };
-  });
-  cosine.sort((a, b) => b.similarity - a.similarity);
+  const vectorIndex = new VectorIndex<(typeof chunks)[number]>(
+    async () => queryEmbedding,
+  );
+  const bm25Index = new BM25Index<(typeof chunks)[number]>();
+  // Each chunk is unique by its offset in the rulebook; key fusion on it so
+  // the same chunk from both indexes is recognized as one document.
+  const retriever = new Retriever(
+    [vectorIndex, bm25Index],
+    (chunk) => String(chunk.start),
+  );
+  for (const chunk of chunks) {
+    retriever.addDocument(chunk);
+  }
+  const results = await retriever.search(query, 5);
   console.timeEnd('Search all embeddings');
 
-  const topFive = cosine.slice(0, 5);
-  const rulesExcerpt = topFive
-    .map((x, i) => rulebook.substring(x.start, x.start + x.length))
-    .join('\n');
+  const topFive = results.map((result) => result.document);
+  const rulesExcerpt = topFive.map((x) => x.content).join('\n');
   return {
     system: getPrompt(rulesExcerpt, game.name),
     citations: topFive.map((x) => ({
