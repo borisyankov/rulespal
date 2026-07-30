@@ -42,6 +42,11 @@ const assets: Game[] = [
     code: 'a-feast-for-odin',
   },
   {
+    bggid: 334011,
+    name: 'A Gentle Rain',
+    code: 'a-gentle-rain',
+  },
+  {
     bggid: 526,
     name: 'Abalone',
     code: 'abalone',
