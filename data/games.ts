@@ -2309,6 +2309,11 @@ const assets: Game[] = [
     code: 'nova-roma',
   },
   {
+    bggid: 314745,
+    name: 'Now or Never',
+    code: 'now-or-never',
+  },
+  {
     bggid: 396790,
     name: 'Nucleum',
     code: 'nucleum',
