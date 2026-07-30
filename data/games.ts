@@ -737,6 +737,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 5432,
+    name: 'Chutes and Ladders',
+    code: 'chutes-and-ladders',
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
@@ -1146,6 +1151,11 @@ const assets: Game[] = [
     bggid: 2394,
     name: 'Dominoes',
     code: 'dominoes',
+  },
+  {
+    bggid: 4888,
+    name: "Don't Break the Ice",
+    code: 'dont-break-the-ice',
   },
   {
     bggid: 370591,
@@ -1655,6 +1665,11 @@ const assets: Game[] = [
     code: 'guess-who',
   },
   {
+    bggid: 2379,
+    name: 'Guesstures',
+    code: 'guesstures',
+  },
+  {
     bggid: 250458,
     name: 'Gùgōng',
     code: 'gugong',
@@ -1807,6 +1822,11 @@ const assets: Game[] = [
     bggid: 302520,
     name: 'Hues and Cues',
     code: 'hues-and-cues',
+  },
+  {
+    bggid: 5895,
+    name: 'Hungry Hungry Hippos',
+    code: 'hungry-hungry-hippos',
   },
   {
     bggid: 177524,
@@ -2761,6 +2781,11 @@ const assets: Game[] = [
     extraSources: ['non-player'],
   },
   {
+    bggid: 5588,
+    name: 'Perfection',
+    code: 'perfection',
+  },
+  {
     bggid: 1258,
     name: 'Phase 10',
     code: 'phase-10',
@@ -2769,6 +2794,11 @@ const assets: Game[] = [
     bggid: 218603,
     name: 'Photosynthesis',
     code: 'photosynthesis',
+  },
+  {
+    bggid: 2281,
+    name: 'Pictionary',
+    code: 'pictionary',
   },
   {
     bggid: 252526,
@@ -3240,6 +3270,11 @@ const assets: Game[] = [
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
+  },
+  {
+    bggid: 5749,
+    name: 'Simon',
+    code: 'simon',
   },
   {
     bggid: 1269,
@@ -4084,6 +4119,11 @@ const assets: Game[] = [
     bggid: 2952,
     name: 'Trivial Pursuit',
     code: 'trivial-pursuit',
+  },
+  {
+    bggid: 1410,
+    name: 'Trouble',
+    code: 'trouble',
   },
   {
     bggid: 73439,
