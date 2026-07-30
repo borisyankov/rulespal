@@ -800,6 +800,16 @@ const assets: Game[] = [
     code: 'colt-express',
   },
   {
+    bggid: 21050,
+    name: 'Combat Commander: Europe',
+    shortName: 'Combat Commander',
+    code: 'combat-commander-europe',
+    alternativeNames: [
+      'Combat Commander',
+      'Combat Commander: Europe & Mediterranean 20th Anniversary Edition',
+    ],
+  },
+  {
     bggid: 147151,
     name: 'Concept',
     code: 'concept',
