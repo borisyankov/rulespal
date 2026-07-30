@@ -4297,6 +4297,11 @@ const assets: Game[] = [
     code: 'voidfall',
   },
   {
+    bggid: 3307,
+    name: 'Wallenstein',
+    code: 'wallenstein',
+  },
+  {
     bggid: 355483,
     name: 'Wandering Towers',
     code: 'wandering-towers',
