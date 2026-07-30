@@ -1613,6 +1613,11 @@ const assets: Game[] = [
     code: 'hanamikoji',
   },
   {
+    bggid: 136955,
+    name: 'Hands in the Sea',
+    code: 'hands-in-the-sea',
+  },
+  {
     bggid: 43015,
     name: 'Hansa Teutonica',
     code: 'hansa-teutonica',
