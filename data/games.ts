@@ -1443,6 +1443,11 @@ const assets: Game[] = [
     code: 'for-sale',
   },
   {
+    bggid: 833,
+    name: 'For the People',
+    code: 'for-the-people',
+  },
+  {
     bggid: 136063,
     name: 'Forbidden Desert',
     code: 'forbidden-desert',
