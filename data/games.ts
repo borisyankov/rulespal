@@ -2177,6 +2177,12 @@ const assets: Game[] = [
     code: 'my-little-scythe',
   },
   {
+    bggid: 392023,
+    name: 'Mycelia',
+    code: 'mycelia',
+    alternativeNames: ['Mycelia: Im Tal der Tausend Tautropfen'],
+  },
+  {
     bggid: 181304,
     name: 'Mysterium',
     code: 'mysterium',
