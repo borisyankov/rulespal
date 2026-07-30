@@ -2787,6 +2787,11 @@ const assets: Game[] = [
     code: 'skip-bo',
   },
   {
+    bggid: 232595,
+    name: 'Skulk Hollow',
+    code: 'skulk-hollow',
+  },
+  {
     bggid: 92415,
     name: 'Skull',
     code: 'skull',
