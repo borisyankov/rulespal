@@ -859,6 +859,11 @@ const assets: Game[] = [
     alternativeNames: ['Abyss: Conspiracy', 'Conspiracy'],
   },
   {
+    bggid: 453740,
+    name: 'Container',
+    code: 'container',
+  },
+  {
     bggid: 269511,
     name: 'Cooper Island',
     code: 'cooper-island',
