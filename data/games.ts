@@ -1657,6 +1657,11 @@ const assets: Game[] = [
     code: 'imperial-settlers',
   },
   {
+    bggid: 206480,
+    name: 'Imperial Struggle',
+    code: 'imperial-struggle',
+  },
+  {
     bggid: 318184,
     name: 'Imperium: Classics',
     code: 'imperium-classics',
