@@ -1185,6 +1185,13 @@ const assets: Game[] = [
     code: 'faiyum',
   },
   {
+    bggid: 163154,
+    name: 'Falling Sky: The Gallic Revolt Against Caesar',
+    shortName: 'Falling Sky',
+    code: 'falling-sky',
+    alternativeNames: ['Falling Sky'],
+  },
+  {
     bggid: 216600,
     name: 'Fantastic Factories',
     code: 'fantastic-factories',
