@@ -2100,6 +2100,11 @@ const assets: Game[] = [
     alternativeNames: ['Mage Knight Board Game'],
   },
   {
+    bggid: 209778,
+    name: 'Magic Maze',
+    code: 'magic-maze',
+  },
+  {
     bggid: 463,
     name: 'Magic: The Gathering',
     code: 'magic-the-gathering',
