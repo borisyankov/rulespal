@@ -3969,6 +3969,11 @@ const assets: Game[] = [
     code: 'verdant',
   },
   {
+    bggid: 253506,
+    name: 'Versailles 1919',
+    code: 'versailles-1919',
+  },
+  {
     bggid: 104006,
     name: 'Village',
     code: 'village',
