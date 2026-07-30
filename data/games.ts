@@ -143,6 +143,12 @@ const assets: Game[] = [
     code: 'ancient-knowledge',
   },
   {
+    bggid: 91080,
+    name: 'Andean Abyss',
+    code: 'andean-abyss',
+    alternativeNames: ['Andean Abyss: Insurgency and Counterinsurgency in Colombia'],
+  },
+  {
     bggid: 358661,
     name: "Andromeda's Edge",
     code: 'andromedas-edge',
