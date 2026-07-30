@@ -3976,6 +3976,12 @@ const assets: Game[] = [
     code: 'trajan',
   },
   {
+    bggid: 904,
+    name: 'Traumfabrik',
+    code: 'traumfabrik',
+    alternativeNames: ['Dream Factory', 'Fabrik der Träume', 'Hollywood Blockbuster', 'Hollywood Golden Age'],
+  },
+  {
     bggid: 303672,
     name: 'Trek 12: Himalaya',
     code: 'trek-12',
