@@ -2275,6 +2275,11 @@ const assets: Game[] = [
     code: 'meadow',
   },
   {
+    bggid: 46,
+    name: 'Medici',
+    code: 'medici',
+  },
+  {
     bggid: 277700,
     name: 'Merchants Cove',
     code: 'merchants-cove',
