@@ -4282,6 +4282,11 @@ const assets: Game[] = [
     code: 'zombicide-black-plague',
   },
   {
+    bggid: 256952,
+    name: 'Zombie Kidz Evolution',
+    code: 'zombie-kidz-evolution',
+  },
+  {
     bggid: 368061,
     name: 'Zoo Vadis',
     code: 'zoo-vadis',
