@@ -330,6 +330,11 @@ const assets: Game[] = [
     code: 'battleship',
   },
   {
+    bggid: 37111,
+    name: 'Battlestar Galactica: The Board Game',
+    code: 'battlestar-galactica',
+  },
+  {
     bggid: 362976,
     name: 'Beacon Patrol',
     code: 'beacon-patrol',
