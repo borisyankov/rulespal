@@ -3062,6 +3062,11 @@ const assets: Game[] = [
     shortName: 'Robinson Crusoe',
   },
   {
+    bggid: 7308,
+    name: "Rock 'Em Sock 'Em Robots",
+    code: 'rock-em-sock-em-robots',
+  },
+  {
     bggid: 132531,
     name: 'Roll for the Galaxy',
     code: 'roll-for-the-galaxy',
