@@ -1609,6 +1609,15 @@ const assets: Game[] = [
     shortName: 'Hegemony',
   },
   {
+    bggid: 17392,
+    name: 'Here I Stand',
+    code: 'here-i-stand',
+    alternativeNames: [
+      'Here I Stand: Wars of the Reformation 1517-1555',
+      'Here I Stand: 500th Anniversary Edition',
+    ],
+  },
+  {
     bggid: 299252,
     name: 'Here to Slay',
     code: 'here-to-slay',
