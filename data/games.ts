@@ -1890,6 +1890,16 @@ const assets: Game[] = [
     code: 'la-granja',
   },
   {
+    bggid: 62227,
+    name: 'Labyrinth: The War on Terror, 2001 – ?',
+    code: 'labyrinth',
+    shortName: 'Labyrinth',
+    alternativeNames: [
+      'Labyrinth: The War on Terror',
+      'Labyrinth: The War on Terror, 2001-?',
+    ],
+  },
+  {
     bggid: 348450,
     name: 'Lacrimosa',
     code: 'lacrimosa',
