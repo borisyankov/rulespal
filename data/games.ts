@@ -2314,6 +2314,12 @@ const assets: Game[] = [
     code: 'namiji',
   },
   {
+    bggid: 102435,
+    name: 'Navajo Wars',
+    code: 'navajo-wars',
+    alternativeNames: ['Navajo Wars: A History of the American Southwest, 1598-1864'],
+  },
+  {
     bggid: 66589,
     name: 'Navegador',
     code: 'navegador',
