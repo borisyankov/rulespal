@@ -1957,6 +1957,12 @@ const assets: Game[] = [
     shortName: 'Mansions of Madness',
   },
   {
+    bggid: 358690,
+    name: 'Mantis',
+    code: 'mantis',
+    alternativeNames: ['MANTIS'],
+  },
+  {
     bggid: 276025,
     name: 'Maracaibo',
     code: 'maracaibo',
