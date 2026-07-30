@@ -2147,6 +2147,11 @@ const assets: Game[] = [
     code: 'lost-ruins-of-arnak',
   },
   {
+    bggid: 13642,
+    name: 'Louis XIV',
+    code: 'louis-xiv',
+  },
+  {
     bggid: 129622,
     name: 'Love Letter',
     code: 'love-letter',
