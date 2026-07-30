@@ -283,6 +283,11 @@ const assets: Game[] = [
     code: 'backgammon',
   },
   {
+    bggid: 191925,
+    name: 'Bandido',
+    code: 'bandido',
+  },
+  {
     bggid: 143741,
     name: 'BANG! The Dice Game',
     code: 'bang-the-dice-game',
