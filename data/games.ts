@@ -2390,6 +2390,12 @@ const assets: Game[] = [
     code: 'nemesis-lockdown',
   },
   {
+    bggid: 187617,
+    name: "Nemo's War (Second Edition)",
+    code: 'nemos-war',
+    shortName: "Nemo's War",
+  },
+  {
     bggid: 249590,
     name: 'Nevsky: Teutons and Rus in Collision, 1240-1242',
     shortName: 'Nevsky',
