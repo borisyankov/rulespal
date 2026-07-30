@@ -253,6 +253,11 @@ const assets: Game[] = [
     shortName: 'Loyang',
   },
   {
+    bggid: 8051,
+    name: 'Attika',
+    code: 'attika',
+  },
+  {
     bggid: 348554,
     name: 'Autobahn',
     code: 'autobahn',
