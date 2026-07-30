@@ -560,6 +560,12 @@ const assets: Game[] = [
     code: 'carcassonne',
   },
   {
+    bggid: 4390,
+    name: 'Carcassonne: Hunters and Gatherers',
+    code: 'carcassonne-hunters-and-gatherers',
+    alternativeNames: ['Carcassonne: Hunters & Gatherers', 'Carcassonne: Jäger und Sammler'],
+  },
+  {
     bggid: 50381,
     name: 'Cards Against Humanity',
     code: 'cards-against-humanity',
@@ -1198,6 +1204,11 @@ const assets: Game[] = [
     bggid: 146021,
     name: 'Eldritch Horror',
     code: 'eldritch-horror',
+  },
+  {
+    bggid: 10,
+    name: 'Elfenland',
+    code: 'elfenland',
   },
   {
     bggid: 206931,
@@ -2804,6 +2815,11 @@ const assets: Game[] = [
     code: 'ra',
   },
   {
+    bggid: 35503,
+    name: 'Ra: The Dice Game',
+    code: 'ra-the-dice-game',
+  },
+  {
     bggid: 28143,
     name: 'Race for the Galaxy',
     code: 'race-for-the-galaxy',
@@ -2907,6 +2923,11 @@ const assets: Game[] = [
     bggid: 119591,
     name: 'Rialto',
     code: 'rialto',
+  },
+  {
+    bggid: 51,
+    name: 'Ricochet Robots',
+    code: 'ricochet-robots',
   },
   {
     bggid: 291859,
