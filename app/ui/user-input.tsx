@@ -64,7 +64,7 @@ export default function UserInput({ isLoading, stop, onSend }: Props) {
       />
       <button
         type="submit"
-        className="mb-[4px] ml-[-56px] resize-none rounded-full flex justify-center items-center size-10 self-end
+        className="mb-1 -ml-14 resize-none rounded-full flex justify-center items-center size-10 self-end
         text-zinc-700 dark:text-zinc-300 enabled:hover:text-white bg-transparent transition
         enabled:hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-25"
         disabled={!isLoading && value.length === 0}
