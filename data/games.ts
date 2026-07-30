@@ -3317,6 +3317,12 @@ const assets: Game[] = [
     shortName: 'Duel for Middle-earth',
   },
   {
+    bggid: 436217,
+    name: 'The Lord of the Rings: Fate of the Fellowship',
+    code: 'fate-of-the-fellowship',
+    shortName: 'Fate of the Fellowship',
+  },
+  {
     bggid: 269385,
     name: 'The Lord of the Rings: Journeys in Middle-earth',
     code: 'journeys-in-middle-earth',
