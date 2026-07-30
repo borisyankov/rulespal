@@ -860,6 +860,12 @@ const assets: Game[] = [
     code: 'cthulhu-death-may-die',
   },
   {
+    bggid: 111799,
+    name: 'Cuba Libre',
+    code: 'cuba-libre',
+    alternativeNames: ["Cuba Libre: Castro's Insurgency"],
+  },
+  {
     bggid: 245476,
     name: 'CuBirds',
     code: 'cubirds',
