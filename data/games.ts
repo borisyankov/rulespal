@@ -3384,6 +3384,11 @@ const assets: Game[] = [
     code: 'marco-polo',
   },
   {
+    bggid: 291845,
+    name: 'Three Sisters',
+    code: 'three-sisters',
+  },
+  {
     bggid: 182028,
     name: 'Through the Ages: A New Story of Civilization',
     code: 'through-the-ages',
