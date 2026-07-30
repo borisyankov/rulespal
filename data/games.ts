@@ -625,6 +625,11 @@ const assets: Game[] = [
     shortName: 'Caverna',
   },
   {
+    bggid: 18602,
+    name: 'Caylus',
+    code: 'caylus',
+  },
+  {
     bggid: 333372,
     name: 'Cellulose: A Plant Cell Biology Game',
     code: 'cellulose',
@@ -2413,6 +2418,11 @@ const assets: Game[] = [
       'Nevsky: Teutons and Rus in Collision 1240-1242',
       'Nevsky: Teutons and Rus in Collision, 1240-1242 (Second Edition)',
     ],
+  },
+  {
+    bggid: 174660,
+    name: 'New York 1901',
+    code: 'new-york-1901',
   },
   {
     bggid: 300877,
