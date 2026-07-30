@@ -596,6 +596,11 @@ const assets: Game[] = [
     code: 'cards-against-humanity',
   },
   {
+    bggid: 1475,
+    name: 'Careers',
+    code: 'careers',
+  },
+  {
     bggid: 310873,
     name: 'Carnegie',
     code: 'carnegie',
@@ -2262,6 +2267,12 @@ const assets: Game[] = [
     shortName: 'Maharaja',
   },
   {
+    bggid: 5086,
+    name: 'Electronic Mall Madness',
+    code: 'mall-madness',
+    alternativeNames: ['Mall Madness'],
+  },
+  {
     bggid: 2448,
     name: 'Mancala',
     code: 'mancala',
@@ -2739,6 +2750,12 @@ const assets: Game[] = [
     bggid: 141572,
     name: 'Paperback',
     code: 'paperback',
+  },
+  {
+    bggid: 2136,
+    name: 'Parcheesi',
+    code: 'parcheesi',
+    alternativeNames: ['Pachisi'],
   },
   {
     bggid: 266524,
