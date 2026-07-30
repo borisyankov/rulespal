@@ -3982,6 +3982,17 @@ const assets: Game[] = [
     code: 'weather-machine',
   },
   {
+    bggid: 265537,
+    name: 'Weimar: The Fight for Democracy',
+    shortName: 'Weimar',
+    code: 'weimar',
+    alternativeNames: [
+      'Weimar',
+      'Weimar: Der Kampf um die Demokratie',
+      'Weimar: La Lucha por la Democracia',
+    ],
+  },
+  {
     bggid: 233867,
     name: 'Welcome To...',
     code: 'welcome-to',
