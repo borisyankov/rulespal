@@ -1303,6 +1303,14 @@ const assets: Game[] = [
     alternativeNames: ['Arler Erde'],
   },
   {
+    bggid: 367527,
+    name: 'Fields of Fire Deluxe Edition, 2nd Printing',
+    code: 'fields-of-fire',
+    shortName: 'Fields of Fire',
+    alternativeNames: ['Fields of Fire'],
+    extraSources: ['stand-alone-mission'],
+  },
+  {
     bggid: 200954,
     name: 'Fields of Green',
     code: 'fields-of-green',
