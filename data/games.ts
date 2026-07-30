@@ -3959,6 +3959,15 @@ const assets: Game[] = [
     alternativeNames: ['Vinhos: Deluxe Edition'],
   },
   {
+    bggid: 41066,
+    name: 'Virgin Queen',
+    code: 'virgin-queen',
+    alternativeNames: [
+      'Virgin Queen: Wars of Religion 1559-1598',
+      'Virgin Queen: Wars of Religion, 1559-1598',
+    ],
+  },
+  {
     bggid: 296151,
     name: 'Viscounts of the West Kingdom',
     code: 'viscounts-of-the-west-kingdom',
