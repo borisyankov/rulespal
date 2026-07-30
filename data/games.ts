@@ -604,6 +604,12 @@ const assets: Game[] = [
     shortName: 'Caverna',
   },
   {
+    bggid: 333372,
+    name: 'Cellulose: A Plant Cell Biology Game',
+    code: 'cellulose',
+    shortName: 'Cellulose',
+  },
+  {
     bggid: 209685,
     name: 'Century: Spice Road',
     code: 'century-spice-road',
