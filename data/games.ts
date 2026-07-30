@@ -2423,6 +2423,11 @@ const assets: Game[] = [
     code: 'namiji',
   },
   {
+    bggid: 126042,
+    name: 'Nations',
+    code: 'nations',
+  },
+  {
     bggid: 102435,
     name: 'Navajo Wars',
     code: 'navajo-wars',
