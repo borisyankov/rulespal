@@ -2286,6 +2286,17 @@ const assets: Game[] = [
     code: 'nemesis-lockdown',
   },
   {
+    bggid: 249590,
+    name: 'Nevsky: Teutons and Rus in Collision, 1240-1242',
+    shortName: 'Nevsky',
+    code: 'nevsky',
+    alternativeNames: [
+      'Nevsky',
+      'Nevsky: Teutons and Rus in Collision 1240-1242',
+      'Nevsky: Teutons and Rus in Collision, 1240-1242 (Second Edition)',
+    ],
+  },
+  {
     bggid: 300877,
     name: 'New York Zoo',
     code: 'new-york-zoo',
