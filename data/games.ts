@@ -2449,6 +2449,13 @@ const assets: Game[] = [
     code: 'peloponnes',
   },
   {
+    bggid: 193728,
+    name: 'Pendragon: The Fall of Roman Britain',
+    shortName: 'Pendragon',
+    code: 'pendragon',
+    alternativeNames: ['Pendragon'],
+  },
+  {
     bggid: 312804,
     name: 'Pendulum',
     code: 'pendulum',
