@@ -11,7 +11,7 @@ Adding a game means producing **four artifacts**, all keyed off a single `code` 
 | --- | --- | --- |
 | Rulebook | `data/rulebooks/<code>-rulebook.md` | Transcribe the real rulebook (below) |
 | Catalog entry | `data/games.ts` | Add a `Game` object, alphabetically |
-| Embeddings | `data/embeddings/<code>-embeddings.json` | `npm run embeddings -- <code>` |
+| Embeddings | `public/embeddings/<code>-embeddings.json` | `npm run embeddings -- <code>` |
 | Thumbnail | `public/thumbs/<code>.jpg` | Manual (BGG API is dead — see step 5) |
 
 All four are required. The app loads the rulebook and embeddings per-game at query time (`app/lib/actions.ts`), so a game missing its embeddings **errors when opened**; a game missing its thumbnail shows a broken image.
@@ -109,7 +109,7 @@ A bare `npm run embeddings` walks the whole catalog and builds every missing fil
 Requirements & notes:
 - Needs a **funded `OPENAI_API_KEY`** in the environment (`insufficient_quota` = billing problem, ask the user to fix it, then retry).
 - Uses `text-embedding-3-large` at **512 dimensions** (`scripts/embeddings.ts`).
-- Verify: `node -e "const d=require('./data/embeddings/<code>-embeddings.json'); console.log(d.length, d[0].embedding.length)"` — expect a nonzero chunk count and `512` dims.
+- Verify: `node -e "const d=require('./public/embeddings/<code>-embeddings.json'); console.log(d.length, d[0].embedding.length)"` — expect a nonzero chunk count and `512` dims.
 
 ## Step 6 — Generate the thumbnail
 
@@ -132,7 +132,7 @@ Stage exactly the artifacts you created (typically up to 4 files) — **do not c
 
 ```bash
 git add data/games.ts data/rulebooks/<code>-rulebook.md \
-        data/embeddings/<code>-embeddings.json public/thumbs/<code>.jpg
+        public/embeddings/<code>-embeddings.json public/thumbs/<code>.jpg
 git commit -m "Add <Name>"
 ```
 
@@ -142,6 +142,6 @@ Follow the repo's branch/PR norms. Only push if the user asks.
 
 - [ ] `data/rulebooks/<code>-rulebook.md` exists; starts with `# <Name> Rulebook`; intro under `## Table of Contents`.
 - [ ] `data/games.ts` entry added alphabetically with correct `bggid`, `name`, `code`.
-- [ ] `data/embeddings/<code>-embeddings.json` exists; nonzero chunks, 512 dims.
+- [ ] `public/embeddings/<code>-embeddings.json` exists; nonzero chunks, 512 dims.
 - [ ] `public/thumbs/<code>.jpg` exists; 500px wide; looks right (`Read` it).
 - [ ] Counts line up: embeddings-file count == games count; thumbs count == games count.

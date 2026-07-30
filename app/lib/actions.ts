@@ -1,12 +1,11 @@
 import OpenAI from 'openai';
 import { BM25Index, Retriever, VectorIndex } from './retriever';
+import { loadEmbeddings } from './embedding-store';
 import { getPrompt } from '../api/chat/prompt';
 import games from '@/data/games';
 import type { Citation, EmbeddingSet, Game } from './definitions';
 
 const openai = new OpenAI();
-
-export const runtime = 'edge';
 
 export async function getEmbedding(text: string): Promise<number[]> {
   const embeddingResponse = await openai.embeddings.create({
@@ -39,29 +38,29 @@ type AnswerData = [string, EmbeddingSet[], number[]];
 async function loadData(
   game: Game,
   query: string,
+  origin: string,
 ): Promise<AnswerData> {
   const loadRulebook = async () => {
     const m = await import(`../../data/rulebooks/${game.code}-rulebook.md`);
     return m.default as string;
   };
-  const loadEmbeddings = async () => {
-    const m = await import(
-      `../../data/embeddings/${game.code}-embeddings.json`
-    );
-    return m.default as EmbeddingSet[];
-  };
   const getEmbeddingsForQuery = async () => await getEmbedding(query);
 
   return await time<AnswerData>('Load all data', () => Promise.all([
     time<string>('Load rulebook', loadRulebook),
-    time<EmbeddingSet[]>('Load embeddings', loadEmbeddings),
+    time<EmbeddingSet[]>('Load embeddings', () =>
+      loadEmbeddings(game.code, origin),
+    ),
     time<number[]>('Get embeddings for query', getEmbeddingsForQuery),
   ]));
 }
 
+// `origin` is where the embedding files are served from; it comes from the
+// incoming request so the function reads assets off its own deployment.
 export async function searchFor(
   query: string,
   bggid: number,
+  origin: string,
 ): Promise<SearchForResponse> {
   const game = games.find((x) => x.bggid === bggid);
   if (!game) {
@@ -72,6 +71,7 @@ export async function searchFor(
   const [rulebook, gameEmbeddings, queryEmbedding] = await loadData(
     game,
     query,
+    origin,
   );
   console.timeEnd('Load rulebook, embeddings, embeddings for query');
 

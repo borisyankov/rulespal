@@ -91,7 +91,7 @@ Then:
 
 ```bash
 git add data/games.ts data/rulebooks/<code>-rulebook.md \
-        data/embeddings/<code>-embeddings.json public/thumbs/<code>.jpg
+        public/embeddings/<code>-embeddings.json public/thumbs/<code>.jpg
 git commit -m "Add <Name>"
 ```
 

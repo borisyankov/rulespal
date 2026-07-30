@@ -45,7 +45,11 @@ export async function POST(req: Request) {
         { status: 413 },
       );
     }
-    const { system, citations } = await searchFor(query, +bggid);
+    const { system, citations } = await searchFor(
+      query,
+      +bggid,
+      new URL(req.url).origin,
+    );
     const result = streamText({
       model,
       system,

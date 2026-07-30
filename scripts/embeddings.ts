@@ -47,7 +47,9 @@ async function processCode(
   code: string,
   force: boolean,
 ): Promise<'skipped' | number> {
-  const outputFilename = `${projectRoot}/data/embeddings/${code}-embeddings.json`;
+  // Under public/ so the files are served as static assets — see
+  // app/lib/embedding-store.ts for why they must stay out of the bundle.
+  const outputFilename = `${projectRoot}/public/embeddings/${code}-embeddings.json`;
   if (fs.existsSync(outputFilename) && !force) return 'skipped';
 
   const rulebookFilename = `${projectRoot}/data/rulebooks/${code}-rulebook.md`;
