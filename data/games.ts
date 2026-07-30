@@ -3669,6 +3669,17 @@ const assets: Game[] = [
     code: 'tiletum',
   },
   {
+    bggid: 164949,
+    name: 'Time of Crisis: The Roman Empire in Turmoil, 235-284 AD',
+    shortName: 'Time of Crisis',
+    code: 'time-of-crisis',
+    alternativeNames: [
+      'Time of Crisis',
+      'Time of Crisis: Deluxe Edition',
+      'Time of Crisis: La Crisi Del III Secolo, 235-284 DC',
+    ],
+  },
+  {
     bggid: 128664,
     name: 'Timeline',
     code: 'timeline',
