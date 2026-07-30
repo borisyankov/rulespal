@@ -810,6 +810,17 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 159692,
+    name: 'Comanchería: The Rise and Fall of the Comanche Empire',
+    shortName: 'Comanchería',
+    code: 'comancheria',
+    alternativeNames: [
+      'Comancheria',
+      'Comancheria: The Rise and Fall of the Comanche Empire',
+      'Comanchería: Vzestup a pád říše Komančů',
+    ],
+  },
+  {
     bggid: 147151,
     name: 'Concept',
     code: 'concept',
