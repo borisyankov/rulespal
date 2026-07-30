@@ -2793,6 +2793,12 @@ const assets: Game[] = [
     code: 'santorini',
   },
   {
+    bggid: 367041,
+    name: 'Scholars of the South Tigris',
+    code: 'scholars-of-the-south-tigris',
+    shortName: 'Scholars',
+  },
+  {
     bggid: 372,
     name: 'Schotten Totten',
     code: 'schotten-totten',
