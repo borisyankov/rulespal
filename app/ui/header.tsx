@@ -8,6 +8,7 @@ import { MessageCircleQuestion, BookOpenTextIcon } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import TabButton from '../ui/tab-button';
 import Logo from '../ui/logo';
+import games from '@/data/games';
 
 type Props = {
   game?: Game;
@@ -22,6 +23,9 @@ export default function Header({ game }: Props) {
         <Link href="/">
           <Logo className="w-24" />
         </Link>
+        {!game && (
+          <span className="text-foreground/50">{games.length} games</span>
+        )}
         {game && (
           <TabButton
             text="Chat"
