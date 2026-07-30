@@ -1515,6 +1515,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 30539,
+    name: 'Get Bit!',
+    code: 'get-bit',
+  },
+  {
     bggid: 527,
     name: 'GIPF',
     code: 'gipf',
