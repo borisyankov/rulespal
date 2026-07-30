@@ -1573,6 +1573,13 @@ const assets: Game[] = [
     alternativeNames: ['Ice Cool', 'IceCool'],
   },
   {
+    bggid: 371972,
+    name: 'Ierusalem: Anno Domini',
+    shortName: 'Ierusalem',
+    code: 'ierusalem-anno-domini',
+    alternativeNames: ['Ierusalem', 'Ierusalem. Anno Domini', 'Jerusalem: Anno Domini'],
+  },
+  {
     bggid: 177478,
     name: 'IKI',
     code: 'iki',
