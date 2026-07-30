@@ -2727,6 +2727,12 @@ const assets: Game[] = [
     alternativeNames: ['Pictomania (Second Edition)'],
   },
   {
+    bggid: 246200,
+    name: 'Piepmatz: Little Songbirds',
+    code: 'piepmatz',
+    shortName: 'Piepmatz',
+  },
+  {
     bggid: 256730,
     name: 'Pipeline',
     code: 'pipeline',
