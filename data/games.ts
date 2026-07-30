@@ -4131,6 +4131,11 @@ const assets: Game[] = [
     code: 'underwater-cities',
   },
   {
+    bggid: 94,
+    name: 'Union Pacific',
+    code: 'union-pacific',
+  },
+  {
     bggid: 381297,
     name: 'Unmatched Adventures: Tales to Amaze',
     code: 'unmatched-adventures-tales-to-amaze',
