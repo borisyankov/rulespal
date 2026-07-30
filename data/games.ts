@@ -1939,6 +1939,11 @@ const assets: Game[] = [
     code: 'junk-art',
   },
   {
+    bggid: 2452,
+    name: 'Jenga',
+    code: 'jenga',
+  },
+  {
     bggid: 254640,
     name: 'Just One',
     code: 'just-one',
@@ -4126,6 +4131,11 @@ const assets: Game[] = [
     bggid: 12333,
     name: 'Twilight Struggle',
     code: 'twilight-struggle',
+  },
+  {
+    bggid: 5894,
+    name: 'Twister',
+    code: 'twister',
   },
   {
     bggid: 134352,
