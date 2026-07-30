@@ -1587,6 +1587,11 @@ const assets: Game[] = [
     code: 'gloomhaven-jotl',
   },
   {
+    bggid: 19857,
+    name: 'Glory to Rome',
+    code: 'glory-to-rome',
+  },
+  {
     bggid: 188,
     name: 'Go',
     code: 'go',
