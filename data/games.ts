@@ -3260,6 +3260,13 @@ const assets: Game[] = [
     shortName: 'Guild of Merchant Explorers',
   },
   {
+    bggid: 436215,
+    name: 'The Hobbit: There and Back Again',
+    code: 'the-hobbit-there-and-back-again',
+    shortName: 'The Hobbit',
+    alternativeNames: ['The Hobbit: There & Back Again'],
+  },
+  {
     bggid: 113873,
     name: 'The Hunters: German U-Boats at War, 1939-43',
     code: 'the-hunters',
