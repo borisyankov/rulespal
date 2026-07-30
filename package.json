@@ -80,6 +80,7 @@
       "picomatch@2": "^2.3.2",
       "postcss": "^8.5.10",
       "serialize-javascript": "^7.0.5",
+      "sharp": "^0.35.3",
       "svelte": "^5.55.7"
     }
   }
