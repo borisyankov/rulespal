@@ -3001,6 +3001,11 @@ const assets: Game[] = [
     code: 'star-wars-unlimited',
   },
   {
+    bggid: 223770,
+    name: 'Startups',
+    code: 'startups',
+  },
+  {
     bggid: 316624,
     name: 'Stationfall',
     code: 'stationfall',
