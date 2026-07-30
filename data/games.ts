@@ -2545,6 +2545,16 @@ const assets: Game[] = [
     code: 'patchwork-doodle',
   },
   {
+    bggid: 91,
+    name: 'Paths of Glory',
+    code: 'paths-of-glory',
+    alternativeNames: [
+      'Paths of Glory: The First World War, 1914-1918',
+      'Paths of Glory Deluxe Edition',
+      'PoG',
+    ],
+  },
+  {
     bggid: 256960,
     name: 'Pax Pamir: Second Edition',
     code: 'pax-pamir-second-edition',
