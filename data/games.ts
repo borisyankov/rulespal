@@ -1230,6 +1230,12 @@ const assets: Game[] = [
     code: 'finspan',
   },
   {
+    bggid: 144189,
+    name: 'Fire in the Lake',
+    code: 'fire-in-the-lake',
+    alternativeNames: ['Fire in the Lake: Insurgency in Vietnam'],
+  },
+  {
     bggid: 347703,
     name: 'First Rat',
     code: 'first-rat',
