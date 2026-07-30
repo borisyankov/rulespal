@@ -2681,6 +2681,11 @@ const assets: Game[] = [
     code: 'orleans',
   },
   {
+    bggid: 2389,
+    name: 'Othello',
+    code: 'othello',
+  },
+  {
     bggid: 319910,
     name: 'Pagan: Fate of Roanoke',
     code: 'pagan-fate-of-roanoke',
@@ -3501,6 +3506,11 @@ const assets: Game[] = [
     bggid: 316624,
     name: 'Stationfall',
     code: 'stationfall',
+  },
+  {
+    bggid: 1917,
+    name: 'Stratego',
+    code: 'stratego',
   },
   {
     bggid: 279720,
