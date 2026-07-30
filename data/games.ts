@@ -3691,6 +3691,13 @@ const assets: Game[] = [
     shortName: 'Viticulture',
   },
   {
+    bggid: 360226,
+    name: 'Viticulture World: Cooperative Expansion',
+    code: 'viticulture-world',
+    shortName: 'Viticulture World',
+    alternativeNames: ['Viticulture World'],
+  },
+  {
     bggid: 337627,
     name: 'Voidfall',
     code: 'voidfall',
