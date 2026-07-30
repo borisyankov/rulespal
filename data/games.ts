@@ -2589,6 +2589,17 @@ const assets: Game[] = [
     code: 'planta-nubo',
   },
   {
+    bggid: 352135,
+    name: "Plantagenet: Cousins' War for England, 1459 - 1485",
+    shortName: 'Plantagenet',
+    code: 'plantagenet',
+    alternativeNames: [
+      'Plantagenet',
+      "Plantagenet: Cousins' War for England, 1459-1485",
+      "Plantagenet: Cousins' Wars for England, 1459-1485",
+    ],
+  },
+  {
     bggid: 368017,
     name: 'Point City',
     code: 'point-city',
