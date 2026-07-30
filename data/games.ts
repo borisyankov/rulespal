@@ -2763,6 +2763,11 @@ const assets: Game[] = [
     code: 'parks',
   },
   {
+    bggid: 1549,
+    name: 'Password',
+    code: 'password',
+  },
+  {
     bggid: 163412,
     name: 'Patchwork',
     code: 'patchwork',
