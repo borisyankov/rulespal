@@ -2,6 +2,13 @@ import type { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
+    bggid: 27708,
+    name: '1960: The Making of the President',
+    shortName: '1960',
+    code: '1960-making-of-the-president',
+    alternativeNames: ['1960', 'The Making of the President'],
+  },
+  {
     bggid: 371947,
     name: '3 Ring Circus',
     code: '3-ring-circus',
