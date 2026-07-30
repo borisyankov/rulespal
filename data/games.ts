@@ -735,6 +735,13 @@ const assets: Game[] = [
     code: 'coloma',
   },
   {
+    bggid: 180199,
+    name: 'Colonial Twilight: The French-Algerian War, 1954-62',
+    shortName: 'Colonial Twilight',
+    code: 'colonial-twilight',
+    alternativeNames: ['Colonial Twilight'],
+  },
+  {
     bggid: 5782,
     name: 'Coloretto',
     code: 'coloretto',
