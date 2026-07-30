@@ -1918,6 +1918,13 @@ const assets: Game[] = [
     shortName: 'Libertalia',
   },
   {
+    bggid: 165872,
+    name: 'Liberty or Death: The American Insurrection',
+    shortName: 'Liberty or Death',
+    code: 'liberty-or-death',
+    alternativeNames: ['Liberty or Death'],
+  },
+  {
     bggid: 161533,
     name: 'Lisboa',
     code: 'lisboa',
