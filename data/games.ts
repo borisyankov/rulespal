@@ -3520,6 +3520,12 @@ const assets: Game[] = [
     shortName: 'The Crew',
   },
   {
+    bggid: 13004,
+    name: 'The Downfall of Pompeii',
+    code: 'downfall-of-pompeii',
+    alternativeNames: ['Der Untergang von Pompeji'],
+  },
+  {
     bggid: 356080,
     name: 'The Elder Scrolls: Betrayal of the Second Era',
     code: 'the-elder-scrolls-betrayal-of-the-second-era',
