@@ -138,6 +138,17 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 295103,
+    name: 'Almoravid: Reconquista and Riposte in Spain, 1085-1086',
+    shortName: 'Almoravid',
+    code: 'almoravid',
+    alternativeNames: [
+      'Almoravid',
+      'Almoravid: Reconquista and Riposte in Spain 1085-1086',
+      'Almoravid: Reconquista y Reacción en Hispania 1085-1086',
+    ],
+  },
+  {
     bggid: 137408,
     name: 'Amerigo',
     code: 'amerigo',
