@@ -4,10 +4,6 @@ import {
   cosineSimilarity,
   cosineToUnit,
   normalize,
-  findOOVs,
-  getOovCount,
-  similarityScore,
-  OOV_BOOST,
 } from '../rag';
 
 const wingspanExcept = `# Wingspan Rulebook
@@ -164,60 +160,5 @@ describe("cosineToUnit", () => {
     expect(() => cosineToUnit([1, 2, 3], [1, 2])).toThrow(
       'Vectors are not of the same dimension',
     );
-  });
-});
-
-
-describe("similarityScore", () => {
-  test("returns the cosine similarity when no OOV terms match", () => {
-    expect(similarityScore(0.5, 0)).toEqual(0.5);
-  });
-
-  test("adds OOV_BOOST for each matching OOV term", () => {
-    expect(similarityScore(0.5, 2)).toBeCloseTo(0.5 + 2 * OOV_BOOST, 12);
-  });
-
-  test("an OOV match can outrank a higher raw cosine", () => {
-    expect(similarityScore(0.4, 1)).toBeGreaterThan(similarityScore(0.5, 0));
-  });
-});
-
-
-describe("findOOVs", () => {
-  const dict = ["the", "player", "with", "most", "points", "wins"];
-
-  test("returns words not present in the dictionary", () => {
-    expect(findOOVs(dict, "the meeple wins")).toEqual(["meeple"]);
-  });
-
-  test("matching is case-insensitive", () => {
-    expect(findOOVs(dict, "The Player Wins")).toEqual([]);
-  });
-
-  test("ignores non-alphabetic characters", () => {
-    expect(findOOVs(dict, "wins 100 points!")).toEqual([]);
-  });
-
-  test("returns an empty list when the query has no words", () => {
-    expect(findOOVs(dict, "123 ...")).toEqual([]);
-  });
-});
-
-
-describe("getOovCount", () => {
-  test("counts how many OOV terms appear in the content", () => {
-    expect(getOovCount("The meeple moves to the castle", ["meeple", "castle"])).toEqual(2);
-  });
-
-  test("matching is case-insensitive", () => {
-    expect(getOovCount("The MEEPLE moves", ["meeple"])).toEqual(1);
-  });
-
-  test("does not double-count repeated terms", () => {
-    expect(getOovCount("meeple meeple meeple", ["meeple"])).toEqual(1);
-  });
-
-  test("returns 0 when no OOV terms are present", () => {
-    expect(getOovCount("a plain sentence", ["meeple"])).toEqual(0);
   });
 });

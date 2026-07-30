@@ -1,5 +1,6 @@
 import {
   BM25Index,
+  CANDIDATE_MULTIPLIER,
   Retriever,
   VectorIndex,
   tokenize,
@@ -125,15 +126,18 @@ describe('Retriever', () => {
   });
 
   // A tiny index that returns a fixed ranking, letting us assert the fusion
-  // math independent of any real scoring.
+  // math independent of any real scoring. It honors k like a real index so
+  // tests can observe how wide a slice the retriever asks for.
   class FixedIndex implements SearchIndex<{ content: string }> {
     constructor(private ranking: string[]) {}
     addDocument(): void {}
-    search(): SearchResult<{ content: string }>[] {
-      return this.ranking.map((content, i) => ({
-        document: { content },
-        score: this.ranking.length - i,
-      }));
+    search(queryText: string, k: number): SearchResult<{ content: string }>[] {
+      return this.ranking
+        .map((content, i) => ({
+          document: { content },
+          score: this.ranking.length - i,
+        }))
+        .slice(0, k);
     }
   }
 
@@ -160,6 +164,30 @@ describe('Retriever', () => {
     const results = await retriever.search('q', 3);
 
     expect(results[0].document.content).toBe('shared');
+  });
+
+  test('asks each index for more candidates than the caller requested', async () => {
+    const search = jest.fn(() => []);
+    const index: SearchIndex<{ content: string }> = {
+      addDocument: () => {},
+      search,
+    };
+    await new Retriever([index]).search('q', 5);
+
+    expect(search).toHaveBeenCalledWith('q', 5 * CANDIDATE_MULTIPLIER);
+  });
+
+  test('surfaces a document both indexes ranked below the requested k', async () => {
+    // 'agreed' sits at rank 3 in both rankings, past a k of 2. Fusing only the
+    // top 2 from each index would drop it, yet it is the one document both
+    // methods endorse.
+    const retriever = new Retriever([
+      new FixedIndex(['onlyA1', 'onlyA2', 'agreed']),
+      new FixedIndex(['onlyB1', 'onlyB2', 'agreed']),
+    ]);
+    const results = await retriever.search('q', 2);
+
+    expect(results[0].document.content).toBe('agreed');
   });
 
   test('combines vector and lexical search end to end', async () => {

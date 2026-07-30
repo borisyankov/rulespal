@@ -170,6 +170,13 @@ export class VectorIndex<T extends EmbeddedDocument = EmbeddedDocument>
 // paper and a common default.
 export const RRF_K = 60;
 
+// How many candidates to pull from each index before fusing, as a multiple of
+// the requested result count. Asking each index for only k would discard a
+// chunk that every index ranked just below the cutoff — precisely the kind of
+// broad agreement fusion exists to reward — so each index contributes a wider
+// slice and the fused ranking is trimmed to k afterwards.
+export const CANDIDATE_MULTIPLIER = 4;
+
 // Identifies a document across indexes so its ranks can be summed. Two indexes
 // return the same logical chunk as distinct object instances, so identity is
 // keyed on content by default.
@@ -208,8 +215,9 @@ export class Retriever<T extends IndexDocument> {
     k = 1,
     kRrf = RRF_K,
   ): Promise<SearchResult<T>[]> {
+    const poolSize = k * CANDIDATE_MULTIPLIER;
     const perIndexResults = await Promise.all(
-      this.indexes.map((index) => index.search(queryText, k)),
+      this.indexes.map((index) => index.search(queryText, poolSize)),
     );
 
     const scores = new Map<string, number>();

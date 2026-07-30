@@ -117,34 +117,3 @@ export function cosineToUnit(vec: number[], unitQuery: number[]): number {
   const mag = magnitude(vec);
   return mag === 0 ? 0 : dotProduct(vec, unitQuery) / mag;
 }
-
-// Out-of-vocabulary words: query words that are not in the language dictionary
-// (typically game-specific terms), used to boost matching rulebook chunks.
-export function findOOVs(dict: string[], query: string): string[] {
-  const words = query.match(/[a-zA-Z]+/g) || [];
-  const lowerCaseDict = dict.map((word) => word.toLowerCase());
-  const OOVs = words.filter(
-    (word) => !lowerCaseDict.includes(word.toLowerCase()),
-  );
-  return OOVs;
-}
-
-export function getOovCount(content: string, OOVs: string[]): number {
-  const lowerContent = content.toLowerCase();
-  const count = OOVs.map((oov) =>
-    lowerContent.includes(oov.toLowerCase()),
-  ).filter((x) => x).length;
-  return count;
-}
-
-// Weight added to a chunk's cosine similarity for each distinct
-// out-of-vocabulary (game-specific) query term the chunk contains. Boosts
-// chunks that mention the rare terms from the question above chunks that are
-// only semantically close.
-export const OOV_BOOST = 0.2;
-
-// Final retrieval score for a chunk: its cosine similarity to the query,
-// nudged up by the number of game-specific query terms it contains.
-export function similarityScore(cosine: number, oovCount: number): number {
-  return cosine + oovCount * OOV_BOOST;
-}
