@@ -2462,6 +2462,11 @@ const assets: Game[] = [
     code: 'mysterium',
   },
   {
+    bggid: 106,
+    name: 'Mystery Rummy: Jack the Ripper',
+    code: 'mystery-rummy-jack-the-ripper',
+  },
+  {
     bggid: 244191,
     name: 'Naga Raja',
     code: 'naga-raja',
