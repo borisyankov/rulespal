@@ -3058,6 +3058,12 @@ const assets: Game[] = [
     code: 'silver-and-gold',
   },
   {
+    bggid: 214996,
+    name: 'Silver Bayonet: The First Team in Vietnam, 1965',
+    code: 'silver-bayonet',
+    shortName: 'Silver Bayonet',
+  },
+  {
     bggid: 268620,
     name: 'Similo',
     code: 'similo',
