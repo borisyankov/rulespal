@@ -4095,6 +4095,11 @@ const assets: Game[] = [
     code: 'villagers',
   },
   {
+    bggid: 60,
+    name: 'Vinci',
+    code: 'vinci',
+  },
+  {
     bggid: 224783,
     name: 'Vindication',
     code: 'vindication',
