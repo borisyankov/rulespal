@@ -3958,6 +3958,11 @@ const assets: Game[] = [
     code: 'tussie-mussie',
   },
   {
+    bggid: 269210,
+    name: 'Twice as Clever!',
+    code: 'twice-as-clever',
+  },
+  {
     bggid: 233078,
     name: 'Twilight Imperium: Fourth Edition',
     code: 'twilight-imperium-4',
