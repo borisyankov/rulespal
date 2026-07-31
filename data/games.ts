@@ -923,6 +923,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 37231,
+    name: 'Comuni',
+    code: 'comuni',
+  },
+  {
     bggid: 147151,
     name: 'Concept',
     code: 'concept',
