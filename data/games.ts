@@ -60,6 +60,12 @@ const assets: Game[] = [
     code: 'a-gentle-rain',
   },
   {
+    bggid: 178054,
+    name: 'A Study in Emerald (Second Edition)',
+    shortName: 'A Study in Emerald',
+    code: 'a-study-in-emerald',
+  },
+  {
     bggid: 526,
     name: 'Abalone',
     code: 'abalone',
