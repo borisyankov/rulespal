@@ -252,6 +252,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 12005,
+    name: 'Around the World in 80 Days',
+    code: 'around-the-world-in-80-days',
+  },
+  {
     bggid: 72991,
     name: 'Asara',
     code: 'asara',
