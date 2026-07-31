@@ -2119,6 +2119,11 @@ const assets: Game[] = [
     code: 'incan-gold',
   },
   {
+    bggid: 19777,
+    name: 'Indonesia',
+    code: 'indonesia',
+  },
+  {
     bggid: 9674,
     name: 'Ingenious',
     code: 'ingenious',
