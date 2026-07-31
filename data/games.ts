@@ -1577,6 +1577,12 @@ const assets: Game[] = [
     code: 'feudum',
   },
   {
+    bggid: 152470,
+    name: 'Fief: France 1429',
+    shortName: 'Fief',
+    code: 'fief',
+  },
+  {
     bggid: 159675,
     name: 'Fields of Arle',
     code: 'fields-of-arle',
