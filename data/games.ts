@@ -1193,6 +1193,11 @@ const assets: Game[] = [
     code: 'dog-park',
   },
   {
+    bggid: 854,
+    name: 'Doge',
+    code: 'doge',
+  },
+  {
     bggid: 62219,
     name: 'Dominant Species',
     code: 'dominant-species',
