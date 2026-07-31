@@ -2430,6 +2430,11 @@ const assets: Game[] = [
     code: 'mariposas',
   },
   {
+    bggid: 29223,
+    name: 'Marrakech',
+    code: 'marrakech',
+  },
+  {
     bggid: 342810,
     name: 'Marrakesh',
     code: 'marrakesh',
