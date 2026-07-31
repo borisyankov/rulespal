@@ -642,6 +642,11 @@ const assets: Game[] = [
     code: 'carpe-diem',
   },
   {
+    bggid: 826,
+    name: 'Cartagena',
+    code: 'cartagena',
+  },
+  {
     bggid: 263918,
     name: 'Cartographers',
     code: 'cartographers',
