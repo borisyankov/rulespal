@@ -2304,6 +2304,11 @@ const assets: Game[] = [
     code: 'mandala-stones',
   },
   {
+    bggid: 15817,
+    name: 'Manila',
+    code: 'manila',
+  },
+  {
     bggid: 205059,
     name: 'Mansions of Madness: Second Edition',
     code: 'mansions-of-madness-second-edition',
