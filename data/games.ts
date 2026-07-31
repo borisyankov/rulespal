@@ -2203,6 +2203,11 @@ const assets: Game[] = [
     alternativeNames: ['Kraftwagen: V6 Edition'],
   },
   {
+    bggid: 196,
+    name: 'Kremlin',
+    code: 'kremlin',
+  },
+  {
     bggid: 385610,
     name: 'Kutná Hora: The City of Silver',
     code: 'kutna-hora',
