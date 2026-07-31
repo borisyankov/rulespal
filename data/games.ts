@@ -2,6 +2,12 @@ import type { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
+    bggid: 421,
+    name: '1830: Railways & Robber Barons',
+    shortName: '1830',
+    code: '1830',
+  },
+  {
     bggid: 27708,
     name: '1960: The Making of the President',
     shortName: '1960',
