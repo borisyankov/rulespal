@@ -1868,6 +1868,11 @@ const assets: Game[] = [
     alternativeNames: ['Iki', 'IKI: A Game of Edo Artisans', 'Iki: A Game of Edo Artisans'],
   },
   {
+    bggid: 119391,
+    name: 'Il Vecchio',
+    code: 'il-vecchio',
+  },
+  {
     bggid: 348602,
     name: 'Illiterati',
     code: 'illiterati',
