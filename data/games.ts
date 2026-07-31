@@ -4185,6 +4185,11 @@ const assets: Game[] = [
     alternativeNames: ['Der Untergang von Pompeji'],
   },
   {
+    bggid: 36235,
+    name: 'The Duke',
+    code: 'the-duke',
+  },
+  {
     bggid: 356080,
     name: 'The Elder Scrolls: Betrayal of the Second Era',
     code: 'the-elder-scrolls-betrayal-of-the-second-era',
