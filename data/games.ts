@@ -387,6 +387,11 @@ const assets: Game[] = [
     alternativeNames: ['Beer and Bread'],
   },
   {
+    bggid: 17449,
+    name: 'Beowulf: The Legend',
+    code: 'beowulf-the-legend',
+  },
+  {
     bggid: 358504,
     name: 'Betrayal at House on the Hill: 3rd Edition',
     code: 'betrayal-at-house-on-the-hill',
