@@ -1398,6 +1398,11 @@ const assets: Game[] = [
     shortName: 'Eclipse',
   },
   {
+    bggid: 279254,
+    name: 'Ecos: First Continent',
+    code: 'ecos-first-continent',
+  },
+  {
     bggid: 271519,
     name: 'Ecosystem',
     code: 'ecosystem',
