@@ -2536,6 +2536,11 @@ const assets: Game[] = [
     shortName: 'Merv',
   },
   {
+    bggid: 25568,
+    name: 'Metropolys',
+    code: 'metropolys',
+  },
+  {
     bggid: 2955,
     name: 'Mexica',
     code: 'mexica',
