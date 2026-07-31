@@ -1116,6 +1116,11 @@ const assets: Game[] = [
     code: 'discordia',
   },
   {
+    bggid: 91312,
+    name: 'Discworld: Ankh-Morpork',
+    code: 'discworld-ankh-morpork',
+  },
+  {
     bggid: 369646,
     name: 'Disney Lorcana',
     code: 'disney-lorcana',
