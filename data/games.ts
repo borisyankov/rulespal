@@ -812,6 +812,11 @@ const assets: Game[] = [
     code: 'champions-of-midgard',
   },
   {
+    bggid: 43111,
+    name: 'Chaos in the Old World',
+    code: 'chaos-in-the-old-world',
+  },
+  {
     bggid: 269257,
     name: 'Chartae',
     code: 'chartae',
