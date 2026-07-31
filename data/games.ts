@@ -2549,6 +2549,11 @@ const assets: Game[] = [
     code: 'mombasa',
   },
   {
+    bggid: 125,
+    name: 'Money!',
+    code: 'money',
+  },
+  {
     bggid: 156546,
     name: 'Monikers',
     code: 'monikers',
