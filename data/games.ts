@@ -2734,6 +2734,11 @@ const assets: Game[] = [
     shortName: 'Paladins',
   },
   {
+    bggid: 15318,
+    name: 'Palazzo',
+    code: 'palazzo',
+  },
+  {
     bggid: 300531,
     name: 'Paleo',
     code: 'paleo',
