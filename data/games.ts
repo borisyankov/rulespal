@@ -2102,6 +2102,12 @@ const assets: Game[] = [
     code: 'kanban-ev',
   },
   {
+    bggid: 139992,
+    name: 'Kaosball: The Fantasy Sport of Total Domination',
+    code: 'kaosball',
+    shortName: 'Kaosball',
+  },
+  {
     bggid: 241477,
     name: 'Karak',
     code: 'karak',
