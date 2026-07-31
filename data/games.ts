@@ -2983,6 +2983,12 @@ const assets: Game[] = [
     code: 'one-night-ultimate-werewolf',
   },
   {
+    bggid: 156336,
+    name: 'Onirim (Second Edition)',
+    shortName: 'Onirim',
+    code: 'onirim',
+  },
+  {
     bggid: 160477,
     name: 'Onitama',
     code: 'onitama',
