@@ -3096,6 +3096,7 @@ const assets: Game[] = [
     bggid: 111,
     name: 'Rheinländer',
     code: 'rheinlander',
+    alternativeNames: ['Rheinlander'],
   },
   {
     bggid: 262712,
