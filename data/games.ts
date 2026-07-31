@@ -1317,6 +1317,11 @@ const assets: Game[] = [
     code: 'egizia',
   },
   {
+    bggid: 9,
+    name: 'El Caballero',
+    code: 'el-caballero',
+  },
+  {
     bggid: 29972,
     name: 'El Capitán',
     code: 'el-capitan',
@@ -1326,6 +1331,12 @@ const assets: Game[] = [
     bggid: 93,
     name: 'El Grande',
     code: 'el-grande',
+  },
+  {
+    bggid: 19526,
+    name: 'Elasund: The First City',
+    code: 'elasund',
+    shortName: 'Elasund',
   },
   {
     bggid: 146021,
@@ -2681,6 +2692,11 @@ const assets: Game[] = [
     bggid: 181304,
     name: 'Mysterium',
     code: 'mysterium',
+  },
+  {
+    bggid: 915,
+    name: 'Mystery of the Abbey',
+    code: 'mystery-of-the-abbey',
   },
   {
     bggid: 106,
