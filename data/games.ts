@@ -3747,6 +3747,11 @@ const assets: Game[] = [
     alternativeNames: ['6 nimmt!', 'Sechs Nimmt', 'Category 5'],
   },
   {
+    bggid: 128,
+    name: 'Take it Easy!',
+    code: 'take-it-easy',
+  },
+  {
     bggid: 70919,
     name: 'Takenoko',
     code: 'takenoko',
