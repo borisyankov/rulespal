@@ -1742,6 +1742,11 @@ const assets: Game[] = [
     code: 'glass-road',
   },
   {
+    bggid: 66362,
+    name: 'Glen More',
+    code: 'glen-more',
+  },
+  {
     bggid: 265188,
     name: 'Glen More II: Chronicles',
     code: 'glen-more-ii',
