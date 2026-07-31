@@ -2876,6 +2876,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 157413,
+    name: 'New Bedford',
+    code: 'new-bedford',
+  },
+  {
     bggid: 174660,
     name: 'New York 1901',
     code: 'new-york-1901',
