@@ -3648,6 +3648,11 @@ const assets: Game[] = [
     code: 'snake-oil',
   },
   {
+    bggid: 119432,
+    name: 'Snowdonia',
+    code: 'snowdonia',
+  },
+  {
     bggid: 329839,
     name: 'So Clover!',
     code: 'so-clover',
