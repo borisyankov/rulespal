@@ -3389,6 +3389,11 @@ const assets: Game[] = [
     code: 'schotten-totten-2',
   },
   {
+    bggid: 438,
+    name: 'Scotland Yard',
+    code: 'scotland-yard',
+  },
+  {
     bggid: 291453,
     name: 'SCOUT',
     code: 'scout',
