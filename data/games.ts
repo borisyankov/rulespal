@@ -627,6 +627,11 @@ const assets: Game[] = [
     code: 'bunny-kingdom',
   },
   {
+    bggid: 552,
+    name: 'Bus',
+    code: 'bus',
+  },
+  {
     bggid: 38032,
     name: 'Byzanz',
     code: 'byzanz',
@@ -4816,6 +4821,11 @@ const assets: Game[] = [
     code: 'vasco-da-gama',
   },
   {
+    bggid: 170416,
+    name: 'Vast: The Crystal Caverns',
+    code: 'vast-the-crystal-caverns',
+  },
+  {
     bggid: 334065,
     name: 'Verdant',
     code: 'verdant',
@@ -5082,6 +5092,12 @@ const assets: Game[] = [
     bggid: 410201,
     name: 'Wyrmspan',
     code: 'wyrmspan',
+  },
+  {
+    bggid: 82222,
+    name: 'Xia: Legends of a Drift System',
+    shortName: 'Xia',
+    code: 'xia-legends-of-a-drift-system',
   },
   {
     bggid: 2243,
