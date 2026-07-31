@@ -1847,6 +1847,12 @@ const assets: Game[] = [
     shortName: 'Hegemony',
   },
   {
+    bggid: 382,
+    name: 'Heimlich & Co.',
+    code: 'heimlich-and-co',
+    alternativeNames: ['Top Secret Spies', 'Under Cover', 'CIA'],
+  },
+  {
     bggid: 17392,
     name: 'Here I Stand',
     code: 'here-i-stand',
