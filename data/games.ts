@@ -549,6 +549,11 @@ const assets: Game[] = [
     alternativeNames: ['boop.'],
   },
   {
+    bggid: 12477,
+    name: 'Bootleggers',
+    code: 'bootleggers',
+  },
+  {
     bggid: 127060,
     name: 'Bora Bora',
     code: 'bora-bora',
