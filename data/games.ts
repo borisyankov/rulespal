@@ -2383,14 +2383,20 @@ const assets: Game[] = [
     code: 'love-letter',
   },
   {
-    bggid: 217083,
-    name: 'LYNGK',
-    code: 'lyngk',
+    bggid: 66,
+    name: 'Löwenherz',
+    code: 'lowenherz',
+    alternativeNames: ['Lowenherz', 'Lionheart'],
   },
   {
     bggid: 118247,
     name: 'Lucky Numbers',
     code: 'lucky-numbers',
+  },
+  {
+    bggid: 217083,
+    name: 'LYNGK',
+    code: 'lyngk',
   },
   {
     bggid: 55670,
