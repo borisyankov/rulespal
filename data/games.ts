@@ -128,6 +128,11 @@ const assets: Game[] = [
     alternativeNames: ['Der Palast von Alhambra', 'Alhambra: Revised Edition'],
   },
   {
+    bggid: 48726,
+    name: 'Alien Frontiers',
+    code: 'alien-frontiers',
+  },
+  {
     bggid: 242520,
     name: 'All Bridges Burning: Red Revolt and White Guard in Finland, 1917-1918',
     shortName: 'All Bridges Burning',
