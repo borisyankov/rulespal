@@ -3409,6 +3409,11 @@ const assets: Game[] = [
     code: 'san-juan',
   },
   {
+    bggid: 1041,
+    name: 'San Marco',
+    code: 'san-marco',
+  },
+  {
     bggid: 382518,
     name: 'Sankoré: The Pride of Mansa Musa',
     code: 'sankore',
