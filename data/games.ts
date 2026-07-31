@@ -769,6 +769,12 @@ const assets: Game[] = [
     code: 'chess',
   },
   {
+    bggid: 31730,
+    name: 'Chicago Express',
+    code: 'chicago-express',
+    alternativeNames: ['Wabash Cannonball'],
+  },
+  {
     bggid: 47,
     name: 'Chinatown',
     code: 'chinatown',
