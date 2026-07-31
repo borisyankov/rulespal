@@ -3139,6 +3139,12 @@ const assets: Game[] = [
     shortName: 'Pax Pamir',
   },
   {
+    bggid: 308119,
+    name: 'Pax Renaissance: 2nd Edition',
+    code: 'pax-renaissance',
+    shortName: 'Pax Renaissance',
+  },
+  {
     bggid: 1797,
     name: 'Pay Day',
     code: 'payday',
