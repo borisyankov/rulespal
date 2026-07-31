@@ -129,6 +129,11 @@ const assets: Game[] = [
     alternativeNames: ['Air, Land & Sea', 'Air, Land & Sea: Revised Edition'],
   },
   {
+    bggid: 90419,
+    name: 'Airlines Europe',
+    code: 'airlines-europe',
+  },
+  {
     bggid: 357563,
     name: 'Akropolis',
     code: 'akropolis',
