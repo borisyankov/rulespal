@@ -2424,6 +2424,12 @@ const assets: Game[] = [
     code: 'living-planet',
   },
   {
+    bggid: 236191,
+    name: 'London (Second Edition)',
+    shortName: 'London',
+    code: 'london',
+  },
+  {
     bggid: 295374,
     name: 'Long Shot: The Dice Game',
     code: 'long-shot-the-dice-game',
