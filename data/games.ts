@@ -70,6 +70,12 @@ const assets: Game[] = [
     shortName: 'Adventure Tactics',
   },
   {
+    bggid: 120,
+    name: 'Adel Verpflichtet',
+    code: 'adel-verpflichtet',
+    alternativeNames: ['Hoity Toity'],
+  },
+  {
     bggid: 191189,
     name: "Aeon's End",
     code: 'aeons-end',
