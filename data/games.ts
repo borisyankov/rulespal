@@ -1611,6 +1611,12 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 1345,
+    name: 'Genoa',
+    code: 'genoa',
+    alternativeNames: ['The Traders of Genoa', 'Die Händler von Genua', 'Genua'],
+  },
+  {
     bggid: 30539,
     name: 'Get Bit!',
     code: 'get-bit',
