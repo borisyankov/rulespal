@@ -4068,6 +4068,11 @@ const assets: Game[] = [
     shortName: 'Ares Expedition',
   },
   {
+    bggid: 375651,
+    name: "That's Not a Hat",
+    code: 'thats-not-a-hat',
+  },
+  {
     bggid: 244522,
     name: "That's Pretty Clever!",
     code: 'thats-pretty-clever',
