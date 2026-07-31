@@ -2439,6 +2439,11 @@ const assets: Game[] = [
     code: 'medici',
   },
   {
+    bggid: 202288,
+    name: 'Medici: The Card Game',
+    code: 'medici-the-card-game',
+  },
+  {
     bggid: 277700,
     name: 'Merchants Cove',
     code: 'merchants-cove',
