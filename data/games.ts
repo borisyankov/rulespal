@@ -1977,6 +1977,11 @@ const assets: Game[] = [
     code: 'its-wonderful-world',
   },
   {
+    bggid: 883,
+    name: 'Ivanhoe',
+    code: 'ivanhoe',
+  },
+  {
     bggid: 270109,
     name: 'Iwari',
     code: 'iwari',
