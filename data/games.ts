@@ -2964,6 +2964,11 @@ const assets: Game[] = [
     code: 'praga-caput-regni',
   },
   {
+    bggid: 8045,
+    name: 'Princes of the Renaissance',
+    code: 'princes-of-the-renaissance',
+  },
+  {
     bggid: 3076,
     name: 'Puerto Rico',
     code: 'puerto-rico',
