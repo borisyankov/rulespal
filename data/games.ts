@@ -2554,6 +2554,11 @@ const assets: Game[] = [
     code: 'modern-art',
   },
   {
+    bggid: 40381,
+    name: 'Modern Art: The Card Game',
+    code: 'modern-art-the-card-game',
+  },
+  {
     bggid: 349750,
     name: 'Molly House',
     code: 'molly-house',
