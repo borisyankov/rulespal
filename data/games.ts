@@ -171,6 +171,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 15157,
+    name: 'Amazonas',
+    code: 'amazonas',
+  },
+  {
     bggid: 137408,
     name: 'Amerigo',
     code: 'amerigo',
