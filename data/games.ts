@@ -4817,6 +4817,11 @@ const assets: Game[] = [
     code: 'wormholes',
   },
   {
+    bggid: 878,
+    name: 'Wyatt Earp',
+    code: 'wyatt-earp',
+  },
+  {
     bggid: 410201,
     name: 'Wyrmspan',
     code: 'wyrmspan',
