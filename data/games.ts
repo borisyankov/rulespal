@@ -679,6 +679,11 @@ const assets: Game[] = [
     code: 'carpe-diem',
   },
   {
+    bggid: 39938,
+    name: 'Carson City',
+    code: 'carson-city',
+  },
+  {
     bggid: 826,
     name: 'Cartagena',
     code: 'cartagena',
