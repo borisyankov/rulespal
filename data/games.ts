@@ -311,6 +311,11 @@ const assets: Game[] = [
     code: 'autobahn',
   },
   {
+    bggid: 39351,
+    name: 'Automobile',
+    code: 'automobile',
+  },
+  {
     bggid: 230802,
     name: 'Azul',
     code: 'azul',
