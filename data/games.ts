@@ -403,6 +403,11 @@ const assets: Game[] = [
     code: 'beyond-the-sun',
   },
   {
+    bggid: 34004,
+    name: 'Big Points',
+    code: 'big-points',
+  },
+  {
     bggid: 323612,
     name: 'Bitoku',
     code: 'bitoku',
