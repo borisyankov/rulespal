@@ -1785,6 +1785,11 @@ const assets: Game[] = [
     alternativeNames: ['Gugong', 'Gugong (The Forbidden City)'],
   },
   {
+    bggid: 132372,
+    name: 'Guildhall',
+    code: 'guildhall',
+  },
+  {
     bggid: 339958,
     name: 'Gutenberg',
     code: 'gutenberg',
