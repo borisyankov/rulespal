@@ -4640,6 +4640,12 @@ const assets: Game[] = [
     code: 'verdant',
   },
   {
+    bggid: 17240,
+    name: 'Verflixxt!',
+    code: 'verflixxt',
+    alternativeNames: ["That's Life!"],
+  },
+  {
     bggid: 72,
     name: 'Verräter',
     code: 'verrater',
