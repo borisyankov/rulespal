@@ -3894,6 +3894,12 @@ const assets: Game[] = [
     code: 'space-station-phoenix',
   },
   {
+    bggid: 128671,
+    name: 'Spartacus: A Game of Blood and Treachery',
+    shortName: 'Spartacus',
+    code: 'spartacus-a-game-of-blood-and-treachery',
+  },
+  {
     bggid: 299169,
     name: 'Spicy',
     code: 'spicy',
