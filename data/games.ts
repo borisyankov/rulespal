@@ -252,6 +252,11 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 72991,
+    name: 'Asara',
+    code: 'asara',
+  },
+  {
     bggid: 352179,
     name: 'Astro Knights',
     code: 'astro-knights',
