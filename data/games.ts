@@ -1276,6 +1276,12 @@ const assets: Game[] = [
     code: 'egizia',
   },
   {
+    bggid: 29972,
+    name: 'El Capitán',
+    code: 'el-capitan',
+    alternativeNames: ['El Capitan'],
+  },
+  {
     bggid: 93,
     name: 'El Grande',
     code: 'el-grande',
