@@ -1180,6 +1180,12 @@ const assets: Game[] = [
     code: 'detective-club',
   },
   {
+    bggid: 223321,
+    name: 'Detective: A Modern Crime Board Game',
+    shortName: 'Detective',
+    code: 'detective-a-modern-crime-board-game',
+  },
+  {
     bggid: 162082,
     name: 'Deus',
     code: 'deus',
