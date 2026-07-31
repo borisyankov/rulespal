@@ -2810,6 +2810,11 @@ const assets: Game[] = [
     alternativeNames: ['Moon Colonies Bloodbath'],
   },
   {
+    bggid: 175199,
+    name: 'Mottainai',
+    code: 'mottainai',
+  },
+  {
     bggid: 2679,
     name: 'Mouse Trap',
     code: 'mouse-trap',
