@@ -2093,6 +2093,11 @@ const assets: Game[] = [
     alternativeNames: ['Einfach Genial', 'Simply Ingenious'],
   },
   {
+    bggid: 155821,
+    name: 'Inis',
+    code: 'inis',
+  },
+  {
     bggid: 63888,
     name: 'Innovation',
     code: 'innovation',
