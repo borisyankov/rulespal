@@ -4419,6 +4419,12 @@ const assets: Game[] = [
     code: 'verdant',
   },
   {
+    bggid: 72,
+    name: 'Verräter',
+    code: 'verrater',
+    alternativeNames: ['Verrater'],
+  },
+  {
     bggid: 253506,
     name: 'Versailles 1919',
     code: 'versailles-1919',
