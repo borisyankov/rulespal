@@ -2056,6 +2056,11 @@ const assets: Game[] = [
     code: 'java',
   },
   {
+    bggid: 2452,
+    name: 'Jenga',
+    code: 'jenga',
+  },
+  {
     bggid: 332686,
     name: 'John Company: Second Edition',
     code: 'john-company',
@@ -2067,9 +2072,9 @@ const assets: Game[] = [
     code: 'junk-art',
   },
   {
-    bggid: 2452,
-    name: 'Jenga',
-    code: 'jenga',
+    bggid: 242,
+    name: 'Junta',
+    code: 'junta',
   },
   {
     bggid: 254640,
