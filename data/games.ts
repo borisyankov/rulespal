@@ -2214,6 +2214,12 @@ const assets: Game[] = [
     shortName: 'Kemet',
   },
   {
+    bggid: 205507,
+    name: 'Key to the City: London',
+    shortName: 'Key to the City',
+    code: 'key-to-the-city',
+  },
+  {
     bggid: 122515,
     name: 'Keyflower',
     code: 'keyflower',
