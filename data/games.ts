@@ -4303,6 +4303,11 @@ const assets: Game[] = [
     alternativeNames: ['Tzolkin'],
   },
   {
+    bggid: 16986,
+    name: 'Ubongo',
+    code: 'ubongo',
+  },
+  {
     bggid: 401978,
     name: 'Undaunted 2200: Callisto',
     code: 'undaunted-2200-callisto',
