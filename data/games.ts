@@ -15,6 +15,12 @@ const assets: Game[] = [
     alternativeNames: ['1960', 'The Making of the President'],
   },
   {
+    bggid: 26997,
+    name: '1989: Dawn of Freedom',
+    shortName: '1989',
+    code: '1989-dawn-of-freedom',
+  },
+  {
     bggid: 371947,
     name: '3 Ring Circus',
     code: '3-ring-circus',
