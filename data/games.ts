@@ -1286,6 +1286,11 @@ const assets: Game[] = [
     code: 'elfenland',
   },
   {
+    bggid: 68425,
+    name: 'Eminent Domain',
+    code: 'eminent-domain',
+  },
+  {
     bggid: 206931,
     name: 'Encore!',
     code: 'encore',
