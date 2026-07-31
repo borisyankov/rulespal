@@ -4042,6 +4042,13 @@ const assets: Game[] = [
     shortName: 'Journeys in Middle-earth',
   },
   {
+    bggid: 18833,
+    name: 'The Lord of the Rings: The Confrontation',
+    code: 'lord-of-the-rings-the-confrontation',
+    shortName: 'The Confrontation',
+    alternativeNames: ['Lord of the Rings: The Confrontation'],
+  },
+  {
     bggid: 216459,
     name: 'The Lost Expedition',
     code: 'the-lost-expedition',
