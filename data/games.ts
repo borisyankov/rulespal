@@ -2280,6 +2280,11 @@ const assets: Game[] = [
     code: 'lost-cities',
   },
   {
+    bggid: 42487,
+    name: 'Lost Cities: The Board Game',
+    code: 'lost-cities-the-board-game',
+  },
+  {
     bggid: 312484,
     name: 'Lost Ruins of Arnak',
     code: 'lost-ruins-of-arnak',
