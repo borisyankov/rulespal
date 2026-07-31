@@ -4324,6 +4324,11 @@ const assets: Game[] = [
     code: 'ticket-to-ride-london',
   },
   {
+    bggid: 31627,
+    name: 'Ticket to Ride: Nordic Countries',
+    code: 'ticket-to-ride-nordic-countries',
+  },
+  {
     bggid: 202670,
     name: 'Ticket to Ride: Rails & Sails',
     code: 'ticket-to-ride-rails-and-sails',
