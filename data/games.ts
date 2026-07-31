@@ -3239,6 +3239,11 @@ const assets: Game[] = [
     shortName: 'Robinson Crusoe',
   },
   {
+    bggid: 18,
+    name: 'RoboRally',
+    code: 'roborally',
+  },
+  {
     bggid: 7308,
     name: "Rock 'Em Sock 'Em Robots",
     code: 'rock-em-sock-em-robots',
@@ -3356,6 +3361,11 @@ const assets: Game[] = [
     bggid: 372,
     name: 'Schotten Totten',
     code: 'schotten-totten',
+  },
+  {
+    bggid: 300930,
+    name: 'Schotten Totten 2',
+    code: 'schotten-totten-2',
   },
   {
     bggid: 291453,
