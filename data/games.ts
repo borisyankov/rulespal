@@ -1857,6 +1857,11 @@ const assets: Game[] = [
     alternativeNames: ['Hero Quest', 'HeroQuest Game System'],
   },
   {
+    bggid: 10659,
+    name: 'Hex Hex',
+    code: 'hex-hex',
+  },
+  {
     bggid: 8203,
     name: "Hey, That's My Fish!",
     code: 'hey-thats-my-fish',
@@ -3325,6 +3330,12 @@ const assets: Game[] = [
     code: 'samurai',
   },
   {
+    bggid: 221,
+    name: 'Samurai Swords',
+    code: 'samurai-swords',
+    alternativeNames: ['Ikusa', 'Shogun'],
+  },
+  {
     bggid: 8217,
     name: 'San Juan',
     code: 'san-juan',
@@ -4225,6 +4236,12 @@ const assets: Game[] = [
     bggid: 36553,
     name: "Time's Up! Title Recall!",
     code: 'times-up-title-recall',
+  },
+  {
+    bggid: 105,
+    name: 'Titan: The Arena',
+    code: 'titan-the-arena',
+    alternativeNames: ['Colossal Arena'],
   },
   {
     bggid: 267979,
