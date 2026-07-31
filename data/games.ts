@@ -429,6 +429,11 @@ const assets: Game[] = [
     code: 'blackout-hong-kong',
   },
   {
+    bggid: 29073,
+    name: 'Blockers!',
+    code: 'blockers',
+  },
+  {
     bggid: 1293,
     name: 'Boggle',
     code: 'boggle',
