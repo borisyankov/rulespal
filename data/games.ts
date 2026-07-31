@@ -2509,6 +2509,11 @@ const assets: Game[] = [
     code: 'mandala-stones',
   },
   {
+    bggid: 199,
+    name: 'Manhattan',
+    code: 'manhattan',
+  },
+  {
     bggid: 15817,
     name: 'Manila',
     code: 'manila',
