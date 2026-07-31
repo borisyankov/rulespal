@@ -2224,6 +2224,11 @@ const assets: Game[] = [
     code: 'kahuna',
   },
   {
+    bggid: 200147,
+    name: 'Kanagawa',
+    code: 'kanagawa',
+  },
+  {
     bggid: 284378,
     name: 'Kanban EV',
     code: 'kanban-ev',
