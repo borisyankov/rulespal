@@ -139,6 +139,12 @@ const assets: Game[] = [
     code: 'akropolis',
   },
   {
+    bggid: 96613,
+    name: 'Alcatraz: The Scapegoat',
+    shortName: 'Alcatraz',
+    code: 'alcatraz',
+  },
+  {
     bggid: 6249,
     name: 'Alhambra',
     code: 'alhambra',
