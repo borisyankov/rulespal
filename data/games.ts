@@ -1266,6 +1266,11 @@ const assets: Game[] = [
     code: 'ecosystem',
   },
   {
+    bggid: 58421,
+    name: 'Egizia',
+    code: 'egizia',
+  },
+  {
     bggid: 93,
     name: 'El Grande',
     code: 'el-grande',
