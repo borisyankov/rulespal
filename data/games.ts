@@ -3093,6 +3093,11 @@ const assets: Game[] = [
     code: 'regicide',
   },
   {
+    bggid: 111,
+    name: 'Rheinländer',
+    code: 'rheinlander',
+  },
+  {
     bggid: 262712,
     name: 'Res Arcana',
     code: 'res-arcana',
