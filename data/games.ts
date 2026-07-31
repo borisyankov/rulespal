@@ -449,6 +449,11 @@ const assets: Game[] = [
     code: 'blokus',
   },
   {
+    bggid: 16395,
+    name: 'Blokus Duo',
+    code: 'blokus-duo',
+  },
+  {
     bggid: 240980,
     name: 'Blood on the Clocktower',
     code: 'blood-on-the-clocktower',
