@@ -4218,6 +4218,11 @@ const assets: Game[] = [
     code: 'tortuga-1667',
   },
   {
+    bggid: 15510,
+    name: 'Tower of Babel',
+    code: 'tower-of-babel',
+  },
+  {
     bggid: 434654,
     name: 'Toy Battle',
     code: 'toy-battle',
