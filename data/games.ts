@@ -4120,6 +4120,11 @@ const assets: Game[] = [
     code: 'the-red-cathedral',
   },
   {
+    bggid: 1513,
+    name: 'The Republic of Rome',
+    code: 'republic-of-rome',
+  },
+  {
     bggid: 41114,
     name: 'The Resistance',
     code: 'the-resistance',
