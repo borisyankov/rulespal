@@ -1859,6 +1859,12 @@ const assets: Game[] = [
     shortName: 'Great Western Trail',
   },
   {
+    bggid: 267609,
+    name: 'Guards of Atlantis II',
+    code: 'guards-of-atlantis',
+    alternativeNames: ['Guards of Atlantis'],
+  },
+  {
     bggid: 4143,
     name: 'Guess Who?',
     code: 'guess-who',
