@@ -1113,6 +1113,11 @@ const assets: Game[] = [
     code: 'cross-clues',
   },
   {
+    bggid: 192457,
+    name: 'Cry Havoc',
+    code: 'cry-havoc',
+  },
+  {
     bggid: 330608,
     name: 'Cryo',
     code: 'cryo',
