@@ -2069,6 +2069,11 @@ const assets: Game[] = [
     code: 'kingdomino',
   },
   {
+    bggid: 27162,
+    name: 'Kingsburg',
+    code: 'kingsburg',
+  },
+  {
     bggid: 348096,
     name: 'Kites',
     code: 'kites',
