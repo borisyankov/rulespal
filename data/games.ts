@@ -5362,6 +5362,11 @@ const assets: Game[] = [
     code: 'wrath-of-ashardalon',
   },
   {
+    bggid: 146451,
+    name: 'Wrath of Kings',
+    code: 'wrath-of-kings',
+  },
+  {
     bggid: 878,
     name: 'Wyatt Earp',
     code: 'wyatt-earp',
