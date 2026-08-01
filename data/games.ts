@@ -195,6 +195,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 299960,
+    name: 'Alma Mater',
+    code: 'alma-mater',
+  },
+  {
     bggid: 295103,
     name: 'Almoravid: Reconquista and Riposte in Spain, 1085-1086',
     shortName: 'Almoravid',
