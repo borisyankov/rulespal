@@ -3070,6 +3070,11 @@ const assets: Game[] = [
     code: 'mystery-rummy-jack-the-ripper',
   },
   {
+    bggid: 133632,
+    name: 'Mythotopia',
+    code: 'mythotopia',
+  },
+  {
     bggid: 244191,
     name: 'Naga Raja',
     code: 'naga-raja',
