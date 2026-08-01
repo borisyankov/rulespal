@@ -282,6 +282,11 @@ const assets: Game[] = [
     code: 'arboretum',
   },
   {
+    bggid: 155068,
+    name: 'Arcadia Quest',
+    code: 'arcadia-quest',
+  },
+  {
     bggid: 236457,
     name: 'Architects of the West Kingdom',
     code: 'architects-of-the-west-kingdom',
