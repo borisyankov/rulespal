@@ -5263,6 +5263,12 @@ const assets: Game[] = [
     code: 'warhammer-quest-the-adventure-card-game',
   },
   {
+    bggid: 420041,
+    name: 'Warhammer Underworlds: Wintermaw',
+    shortName: 'Warhammer Underworlds',
+    code: 'warhammer-underworlds',
+  },
+  {
     bggid: 296237,
     name: "Warp's Edge",
     code: 'warps-edge',
