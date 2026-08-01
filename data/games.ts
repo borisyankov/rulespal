@@ -2378,6 +2378,12 @@ const assets: Game[] = [
     code: 'keyflower',
   },
   {
+    bggid: 257501,
+    name: 'KeyForge: Call of the Archons',
+    shortName: 'KeyForge',
+    code: 'keyforge-call-of-the-archons',
+  },
+  {
     bggid: 364655,
     name: 'Kinfire Chronicles: Night\'s Fall',
     code: 'kinfire-chronicles-nights-fall',
