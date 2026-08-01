@@ -5367,6 +5367,11 @@ const assets: Game[] = [
     code: 'yokohama',
   },
   {
+    bggid: 12761,
+    name: 'Ys',
+    code: 'ys',
+  },
+  {
     bggid: 22345,
     name: 'Yspahan',
     code: 'yspahan',
