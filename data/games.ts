@@ -3600,6 +3600,11 @@ const assets: Game[] = [
     code: 'regicide',
   },
   {
+    bggid: 144270,
+    name: 'Relic Runners',
+    code: 'relic-runners',
+  },
+  {
     bggid: 111,
     name: 'Rheinländer',
     code: 'rheinlander',
