@@ -5032,6 +5032,12 @@ const assets: Game[] = [
     shortName: 'War of the Ring',
   },
   {
+    bggid: 181521,
+    name: 'Warhammer Quest: The Adventure Card Game',
+    shortName: 'Warhammer Quest',
+    code: 'warhammer-quest-the-adventure-card-game',
+  },
+  {
     bggid: 296237,
     name: "Warp's Edge",
     code: 'warps-edge',
