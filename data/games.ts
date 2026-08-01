@@ -660,6 +660,12 @@ const assets: Game[] = [
     code: 'calimala',
   },
   {
+    bggid: 40270,
+    name: 'Call of Cthulhu: The Card Game',
+    shortName: 'Call of Cthulhu',
+    code: 'call-of-cthulhu-the-card-game',
+  },
+  {
     bggid: 266993,
     name: 'Call to Adventure: The Stormlight Archive',
     code: 'call-to-adventure-the-stormlight-archive',
