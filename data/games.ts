@@ -1546,6 +1546,11 @@ const assets: Game[] = [
     code: 'ecosystem',
   },
   {
+    bggid: 229491,
+    name: 'Edge of Darkness',
+    code: 'edge-of-darkness',
+  },
+  {
     bggid: 58421,
     name: 'Egizia',
     code: 'egizia',
