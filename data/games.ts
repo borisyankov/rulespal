@@ -696,6 +696,11 @@ const assets: Game[] = [
     code: 'bus',
   },
   {
+    bggid: 19348,
+    name: 'Byzantium',
+    code: 'byzantium',
+  },
+  {
     bggid: 38032,
     name: 'Byzanz',
     code: 'byzanz',
