@@ -1968,6 +1968,12 @@ const assets: Game[] = [
     alternativeNames: ['The Traders of Genoa', 'Die Händler von Genua', 'Genua'],
   },
   {
+    bggid: 252752,
+    name: 'Genotype: A Mendelian Genetics Game',
+    shortName: 'Genotype',
+    code: 'genotype',
+  },
+  {
     bggid: 30539,
     name: 'Get Bit!',
     code: 'get-bit',
