@@ -5531,6 +5531,11 @@ const assets: Game[] = [
     code: 'zombicide-black-plague',
   },
   {
+    bggid: 224710,
+    name: 'Zombicide: Green Horde',
+    code: 'zombicide-green-horde',
+  },
+  {
     bggid: 248065,
     name: 'Zombicide: Invader',
     code: 'zombicide-invader',
