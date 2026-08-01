@@ -2523,6 +2523,12 @@ const assets: Game[] = [
     code: 'legend-of-the-five-rings-the-card-game',
   },
   {
+    bggid: 146652,
+    name: 'Legendary Encounters: An Alien Deck Building Game',
+    shortName: 'Legendary Encounters',
+    code: 'legendary-encounters-an-alien-deck-building-game',
+  },
+  {
     bggid: 127398,
     name: 'Legends of Andor',
     code: 'legends-of-andor',
