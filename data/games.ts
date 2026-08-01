@@ -352,6 +352,12 @@ const assets: Game[] = [
     code: 'automobile',
   },
   {
+    bggid: 41863,
+    name: 'Axis & Allies: 1942 Second Edition',
+    shortName: 'Axis & Allies',
+    code: 'axis-and-allies',
+  },
+  {
     bggid: 231581,
     name: 'AuZtralia',
     code: 'auztralia',
