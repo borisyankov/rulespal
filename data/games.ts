@@ -3387,6 +3387,11 @@ const assets: Game[] = [
     code: 'pandemic-legacy-season-1',
   },
   {
+    bggid: 221107,
+    name: 'Pandemic Legacy: Season 2',
+    code: 'pandemic-legacy-season-2',
+  },
+  {
     bggid: 260428,
     name: 'Pandemic: Fall of Rome',
     code: 'pandemic-fall-of-rome',
