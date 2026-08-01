@@ -1214,6 +1214,12 @@ const assets: Game[] = [
     code: 'darwins-journey',
   },
   {
+    bggid: 125678,
+    name: 'DC Deck-Building Game',
+    code: 'dc-comics-deck-building-game',
+    alternativeNames: ['DC Comics Deck-Building Game'],
+  },
+  {
     bggid: 150376,
     name: 'Dead of Winter: A Crossroads Game',
     code: 'dead-of-winter',
