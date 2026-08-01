@@ -1355,6 +1355,11 @@ const assets: Game[] = [
     code: 'dont-break-the-ice',
   },
   {
+    bggid: 205317,
+    name: 'DOOM: The Board Game',
+    code: 'doom-the-board-game',
+  },
+  {
     bggid: 370591,
     name: 'Dorfromantik: The Board Game',
     shortName: 'Dorfromantik',
