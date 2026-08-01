@@ -1736,6 +1736,12 @@ const assets: Game[] = [
     alternativeNames: ['Fire in the Lake: Insurgency in Vietnam'],
   },
   {
+    bggid: 233020,
+    name: 'Fireball Island: The Curse of Vul-Kar',
+    code: 'fireball-island',
+    shortName: 'Fireball Island',
+  },
+  {
     bggid: 347703,
     name: 'First Rat',
     code: 'first-rat',
