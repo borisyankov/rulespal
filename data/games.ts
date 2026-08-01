@@ -3533,6 +3533,12 @@ const assets: Game[] = [
     code: 'revive',
   },
   {
+    bggid: 104363,
+    name: 'Rex: Final Days of an Empire',
+    shortName: 'Rex',
+    code: 'rex-final-days-of-an-empire',
+  },
+  {
     bggid: 241831,
     name: 'Reykholt',
     code: 'reykholt',
