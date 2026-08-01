@@ -955,6 +955,11 @@ const assets: Game[] = [
     code: 'chronicles-of-crime',
   },
   {
+    bggid: 302312,
+    name: 'Chronicles of Crime: 2400',
+    code: 'chronicles-of-crime-2400',
+  },
+  {
     bggid: 132018,
     name: 'Churchill',
     code: 'churchill',
@@ -4320,6 +4325,12 @@ const assets: Game[] = [
     code: 'sub-terra',
   },
   {
+    bggid: 281258,
+    name: "Sub Terra II: Inferno's Edge",
+    shortName: 'Sub Terra II',
+    code: 'sub-terra-2',
+  },
+  {
     bggid: 123260,
     name: 'Suburbia',
     code: 'suburbia',
@@ -5141,6 +5152,11 @@ const assets: Game[] = [
     bggid: 247763,
     name: 'Underwater Cities',
     code: 'underwater-cities',
+  },
+  {
+    bggid: 340466,
+    name: 'Unfathomable',
+    code: 'unfathomable',
   },
   {
     bggid: 94,
