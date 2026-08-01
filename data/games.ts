@@ -4711,6 +4711,13 @@ const assets: Game[] = [
     shortName: 'Journeys in Middle-earth',
   },
   {
+    bggid: 77423,
+    name: 'The Lord of the Rings: The Card Game',
+    code: 'lord-of-the-rings-the-card-game',
+    shortName: 'The Card Game',
+    alternativeNames: ['Lord of the Rings: The Card Game'],
+  },
+  {
     bggid: 18833,
     name: 'The Lord of the Rings: The Confrontation',
     code: 'lord-of-the-rings-the-confrontation',
