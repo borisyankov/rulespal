@@ -2063,6 +2063,12 @@ const assets: Game[] = [
     alternativeNames: ['Guards of Atlantis'],
   },
   {
+    bggid: 92776,
+    name: 'Guards! Guards! A Discworld Boardgame',
+    shortName: 'Guards! Guards!',
+    code: 'guards-guards',
+  },
+  {
     bggid: 4143,
     name: 'Guess Who?',
     code: 'guess-who',
