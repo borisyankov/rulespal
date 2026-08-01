@@ -5317,6 +5317,12 @@ const assets: Game[] = [
     code: 'wyrmspan',
   },
   {
+    bggid: 159109,
+    name: 'XenoShyft: Onslaught',
+    shortName: 'XenoShyft',
+    code: 'xenoshyft',
+  },
+  {
     bggid: 82222,
     name: 'Xia: Legends of a Drift System',
     shortName: 'Xia',
