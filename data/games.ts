@@ -1270,6 +1270,11 @@ const assets: Game[] = [
     code: 'cyclades',
   },
   {
+    bggid: 197831,
+    name: 'Dark Souls: The Board Game',
+    code: 'dark-souls',
+  },
+  {
     bggid: 322289,
     name: "Darwin's Journey",
     code: 'darwins-journey',
