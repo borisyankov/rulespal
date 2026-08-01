@@ -66,6 +66,12 @@ const assets: Game[] = [
     code: 'a-few-acres-of-snow',
   },
   {
+    bggid: 103343,
+    name: 'A Game of Thrones: The Board Game (Second Edition)',
+    shortName: 'A Game of Thrones: The Board Game',
+    code: 'a-game-of-thrones-board-game',
+  },
+  {
     bggid: 169255,
     name: 'A Game of Thrones: The Card Game (Second Edition)',
     shortName: 'A Game of Thrones (2E)',
