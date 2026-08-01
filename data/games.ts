@@ -2785,6 +2785,11 @@ const assets: Game[] = [
     code: 'medici-the-card-game',
   },
   {
+    bggid: 10630,
+    name: "Memoir '44",
+    code: 'memoir-44',
+  },
+  {
     bggid: 131646,
     name: 'Merchant of Venus (Second Edition)',
     shortName: 'Merchant of Venus',
