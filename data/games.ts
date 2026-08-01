@@ -5015,6 +5015,12 @@ const assets: Game[] = [
     shortName: 'Unmatched Adventures',
   },
   {
+    bggid: 274637,
+    name: 'Unmatched: Battle of Legends, Volume One',
+    code: 'unmatched-battle-of-legends-volume-one',
+    shortName: 'Battle of Legends, Vol. 1',
+  },
+  {
     bggid: 2223,
     name: 'UNO',
     code: 'uno',
