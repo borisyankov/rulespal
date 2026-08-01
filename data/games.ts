@@ -1882,6 +1882,11 @@ const assets: Game[] = [
     code: 'get-bit',
   },
   {
+    bggid: 37046,
+    name: 'Ghost Stories',
+    code: 'ghost-stories',
+  },
+  {
     bggid: 527,
     name: 'GIPF',
     code: 'gipf',
