@@ -5326,6 +5326,11 @@ const assets: Game[] = [
     shortName: 'Zhanguo',
   },
   {
+    bggid: 113924,
+    name: 'Zombicide',
+    code: 'zombicide',
+  },
+  {
     bggid: 176189,
     name: 'Zombicide: Black Plague',
     code: 'zombicide-black-plague',
