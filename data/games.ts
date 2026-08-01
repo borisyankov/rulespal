@@ -4237,6 +4237,11 @@ const assets: Game[] = [
     code: 'stationfall',
   },
   {
+    bggid: 27833,
+    name: 'Steam',
+    code: 'steam',
+  },
+  {
     bggid: 91873,
     name: 'Strasbourg',
     code: 'strasbourg',
