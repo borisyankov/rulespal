@@ -4297,6 +4297,12 @@ const assets: Game[] = [
     code: 'tang-garden',
   },
   {
+    bggid: 25261,
+    name: 'Tannhäuser',
+    code: 'tannhauser',
+    alternativeNames: ['Tannhauser'],
+  },
+  {
     bggid: 286096,
     name: 'Tapestry',
     code: 'tapestry',
