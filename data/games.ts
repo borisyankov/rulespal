@@ -5066,6 +5066,11 @@ const assets: Game[] = [
     code: 'undaunted-normandy',
   },
   {
+    bggid: 290359,
+    name: 'Undaunted: North Africa',
+    code: 'undaunted-north-africa',
+  },
+  {
     bggid: 354570,
     name: 'Undaunted: Stalingrad',
     code: 'undaunted-stalingrad',
