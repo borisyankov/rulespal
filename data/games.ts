@@ -61,6 +61,12 @@ const assets: Game[] = [
     code: 'a-feast-for-odin',
   },
   {
+    bggid: 169255,
+    name: 'A Game of Thrones: The Card Game (Second Edition)',
+    shortName: 'A Game of Thrones (2E)',
+    code: 'a-game-of-thrones-the-card-game-second-edition',
+  },
+  {
     bggid: 334011,
     name: 'A Gentle Rain',
     code: 'a-gentle-rain',
