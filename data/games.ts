@@ -1468,6 +1468,11 @@ const assets: Game[] = [
     shortName: 'Elasund',
   },
   {
+    bggid: 100423,
+    name: 'Elder Sign',
+    code: 'elder-sign',
+  },
+  {
     bggid: 146021,
     name: 'Eldritch Horror',
     code: 'eldritch-horror',
