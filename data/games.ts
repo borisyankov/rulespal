@@ -5499,6 +5499,11 @@ const assets: Game[] = [
     alternativeNames: ['Wonders of the First'],
   },
   {
+    bggid: 400366,
+    name: 'Wondrous Creatures',
+    code: 'wondrous-creatures',
+  },
+  {
     bggid: 355093,
     name: 'Woodcraft',
     code: 'woodcraft',
