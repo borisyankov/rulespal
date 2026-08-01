@@ -1366,6 +1366,11 @@ const assets: Game[] = [
     code: 'dice-forge',
   },
   {
+    bggid: 216734,
+    name: 'Dice Throne: Season One',
+    code: 'dice-throne-season-one',
+  },
+  {
     bggid: 153318,
     name: 'Dimension',
     code: 'dimension',
