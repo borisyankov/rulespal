@@ -4241,6 +4241,11 @@ const assets: Game[] = [
     code: 'spartacus-a-game-of-blood-and-treachery',
   },
   {
+    bggid: 375459,
+    name: 'Speakeasy',
+    code: 'speakeasy',
+  },
+  {
     bggid: 299169,
     name: 'Spicy',
     code: 'spicy',
