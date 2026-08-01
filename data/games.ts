@@ -2471,6 +2471,12 @@ const assets: Game[] = [
     code: 'legacy-of-yu',
   },
   {
+    bggid: 184151,
+    name: 'Legend of the Five Rings: The Card Game',
+    shortName: 'Legend of the Five Rings',
+    code: 'legend-of-the-five-rings-the-card-game',
+  },
+  {
     bggid: 127398,
     name: 'Legends of Andor',
     code: 'legends-of-andor',
