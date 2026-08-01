@@ -4121,6 +4121,13 @@ const assets: Game[] = [
     code: 'takenoko',
   },
   {
+    bggid: 27627,
+    name: 'Talisman: Revised 4th Edition',
+    shortName: 'Talisman',
+    code: 'talisman',
+    alternativeNames: ['Talisman', 'Talisman Revised 4th Edition'],
+  },
+  {
     bggid: 24508,
     name: 'Taluva',
     code: 'taluva',
