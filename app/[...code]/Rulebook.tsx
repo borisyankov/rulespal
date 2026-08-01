@@ -34,7 +34,7 @@ export default async function Rulebook({ game, resource }: Props) {
   };
 
   return (
-    <article className="mx-auto max-w-screen-sm">
+    <article className="mx-auto max-w-screen-md">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -42,7 +42,7 @@ export default async function Rulebook({ game, resource }: Props) {
       <GameTitle game={game} />
       <div
         className="marker:primary prose-summary:bg-red-500 prose-h2:tracking-
-        prose max-w-screen-sm
+        prose max-w-screen-md
         py-5
         dark:prose-invert prose-h1:hidden
         prose-h2:mb-4 prose-h2:mt-7 prose-h2:text-3xl

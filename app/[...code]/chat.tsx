@@ -21,7 +21,7 @@ export default function Chat({ game }: Props) {
     sendMessage({ text }, { body: { bggid: game.bggid.toString() } });
   }
   return (
-    <main className="size-full max-w-screen-sm mx-auto">
+    <main className="size-full max-w-screen-md mx-auto">
       {messages.length ? (
         <MessageList game={game} messages={messages} isLoading={isLoading} />
       ) : (

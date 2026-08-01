@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="mx-auto w-full max-w-screen-sm">
+      <div className="mx-auto w-full max-w-screen-md">
         <GameBar />
       </div>
       <Footer />
