@@ -4848,6 +4848,12 @@ const assets: Game[] = [
     code: 'marco-polo',
   },
   {
+    bggid: 188920,
+    name: 'This War of Mine: The Board Game',
+    code: 'this-war-of-mine',
+    shortName: 'This War of Mine',
+  },
+  {
     bggid: 291845,
     name: 'Three Sisters',
     code: 'three-sisters',
