@@ -441,6 +441,13 @@ const assets: Game[] = [
     code: 'battle-line',
   },
   {
+    bggid: 146439,
+    name: 'BattleLore: Second Edition',
+    shortName: 'BattleLore',
+    code: 'battlelore',
+    alternativeNames: ['BattleLore', 'BattleLore Second Edition'],
+  },
+  {
     bggid: 2425,
     name: 'Battleship',
     code: 'battleship',
