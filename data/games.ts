@@ -3287,6 +3287,12 @@ const assets: Game[] = [
     shortName: 'Fall of Rome',
   },
   {
+    bggid: 198928,
+    name: 'Pandemic: Iberia',
+    code: 'pandemic-iberia',
+    shortName: 'Iberia',
+  },
+  {
     bggid: 141572,
     name: 'Paperback',
     code: 'paperback',
