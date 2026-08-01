@@ -3284,6 +3284,12 @@ const assets: Game[] = [
     shortName: 'Oath',
   },
   {
+    bggid: 251661,
+    name: 'Oathsworn: Into the Deepwood',
+    code: 'oathsworn-into-the-deepwood',
+    shortName: 'Oathsworn',
+  },
+  {
     bggid: 231733,
     name: 'Obsession',
     code: 'obsession',
