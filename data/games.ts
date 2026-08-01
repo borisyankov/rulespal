@@ -1192,6 +1192,11 @@ const assets: Game[] = [
     code: 'cryptid-urban-legends',
   },
   {
+    bggid: 139976,
+    name: 'Cthulhu Wars',
+    code: 'cthulhu-wars',
+  },
+  {
     bggid: 253344,
     name: 'Cthulhu: Death May Die',
     code: 'cthulhu-death-may-die',
