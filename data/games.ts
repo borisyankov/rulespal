@@ -3963,6 +3963,11 @@ const assets: Game[] = [
     code: 'small-world',
   },
   {
+    bggid: 97786,
+    name: 'Small World Underground',
+    code: 'small-world-underground',
+  },
+  {
     bggid: 113289,
     name: 'Snake Oil',
     code: 'snake-oil',
