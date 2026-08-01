@@ -77,6 +77,12 @@ const assets: Game[] = [
     code: 'a-gentle-rain',
   },
   {
+    bggid: 223376,
+    name: 'A Song of Ice & Fire: Tabletop Miniatures Game',
+    shortName: 'A Song of Ice & Fire',
+    code: 'song-of-ice-and-fire',
+  },
+  {
     bggid: 178054,
     name: 'A Study in Emerald (Second Edition)',
     shortName: 'A Study in Emerald',
