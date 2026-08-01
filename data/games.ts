@@ -755,6 +755,11 @@ const assets: Game[] = [
     code: 'careers',
   },
   {
+    bggid: 90305,
+    name: 'Cargo Noir',
+    code: 'cargo-noir',
+  },
+  {
     bggid: 310873,
     name: 'Carnegie',
     code: 'carnegie',
