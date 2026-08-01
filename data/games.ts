@@ -979,6 +979,12 @@ const assets: Game[] = [
     code: 'clans-of-caledonia',
   },
   {
+    bggid: 22141,
+    name: 'Cleopatra and the Society of Architects',
+    code: 'cleopatra',
+    shortName: 'Cleopatra',
+  },
+  {
     bggid: 316858,
     name: 'CloudAge',
     code: 'cloudage',
