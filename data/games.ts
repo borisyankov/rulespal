@@ -2578,6 +2578,11 @@ const assets: Game[] = [
     code: 'kremlin',
   },
   {
+    bggid: 112138,
+    name: 'Krosmaster: Arena',
+    code: 'krosmaster-arena',
+  },
+  {
     bggid: 385610,
     name: 'Kutná Hora: The City of Silver',
     code: 'kutna-hora',
