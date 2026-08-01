@@ -148,6 +148,11 @@ const assets: Game[] = [
     code: 'agricola',
   },
   {
+    bggid: 200680,
+    name: 'Agricola (Revised Edition)',
+    code: 'agricola-revised-edition',
+  },
+  {
     bggid: 119890,
     name: 'Agricola: All Creatures Big and Small',
     code: 'agricola-all-creatures-big-and-small',
