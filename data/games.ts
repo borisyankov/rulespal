@@ -292,6 +292,12 @@ const assets: Game[] = [
     code: 'ark-nova',
   },
   {
+    bggid: 257499,
+    name: 'Arkham Horror',
+    shortName: 'Arkham Horror (Board Game)',
+    code: 'arkham-horror',
+  },
+  {
     bggid: 205637,
     name: 'Arkham Horror: The Card Game',
     code: 'arkham-horror-card-game',
