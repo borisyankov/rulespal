@@ -228,6 +228,12 @@ const assets: Game[] = [
     alternativeNames: ['Andean Abyss: Insurgency and Counterinsurgency in Colombia'],
   },
   {
+    bggid: 124742,
+    name: 'Android: Netrunner',
+    code: 'android-netrunner',
+    alternativeNames: ['Netrunner'],
+  },
+  {
     bggid: 358661,
     name: "Andromeda's Edge",
     code: 'andromedas-edge',
