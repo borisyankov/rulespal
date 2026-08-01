@@ -2120,6 +2120,11 @@ const assets: Game[] = [
     shortName: 'Hogwarts Battle',
   },
   {
+    bggid: 233868,
+    name: 'HATE',
+    code: 'hate',
+  },
+  {
     bggid: 366013,
     name: 'Heat: Pedal to the Metal',
     code: 'heat',
