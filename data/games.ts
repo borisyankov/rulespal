@@ -3007,6 +3007,11 @@ const assets: Game[] = [
     code: 'mysterium-park',
   },
   {
+    bggid: 65907,
+    name: 'Mystery Express',
+    code: 'mystery-express',
+  },
+  {
     bggid: 915,
     name: 'Mystery of the Abbey',
     code: 'mystery-of-the-abbey',
