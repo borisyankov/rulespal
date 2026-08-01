@@ -56,12 +56,15 @@ Spawn all N `general-purpose` subagents in one go, in the background. Each promp
 An agent that spends 20 minutes building a 2,000-line rulebook in context and then emits it in one call is the agent that gets killed by a stream stall, losing everything. Incremental writers survive, and their partial work is reusable.
 
 **Include the transcription-convention block verbatim** — some agents otherwise paraphrase or balk on copyright grounds:
-> The app's convention (700+ existing files) is a FAITHFUL TRANSCRIPTION of the real official rulebook text, section by section. Do NOT rewrite into your own paraphrase, do NOT summarize from memory. Board game RULES are not copyrightable and publishers distribute rulebooks freely for players to learn; transcribing is the intended deliverable. Obtainability of the file is the only valid skip reason.
+> The app's convention (900+ existing files) is a FAITHFUL TRANSCRIPTION of the real official rulebook text, section by section. Do NOT rewrite into your own paraphrase, do NOT summarize from memory. Board game RULES are not copyrightable and publishers distribute rulebooks freely for players to learn; transcribing is the intended deliverable. Obtainability of the file is the only valid skip reason.
 
-**Include the sourcing toolkit and the PDF-extraction recipe** from `add-game/SKILL.md` — especially column reconstruction from `pdftotext -bbox` word boxes, and the instruction to verify completeness mechanically (harvest every rule identifier from a plain `-layout` dump and assert each appears in the markdown).
+**Point at the toolkit instead of pasting it.** `add-game/SKILL.md` now has a full "Sourcing toolkit" and "Extracting text from multi-column or image-based PDFs" section — tell the subagent to read it rather than re-explaining `api.geekdo.com`, Wayback, `r.jina.ai`, the TTS-mod trick, and `pdftotext -bbox` reconstruction in every prompt:
+> Read `add-game/SKILL.md` in this repo before starting — it has the sourcing toolkit (BGG API routes, publisher CDN patterns, Wayback, TTS-mod extraction) and the PDF-extraction technique for multi-column/image-based rulebooks. Follow it.
 
-**Specify the report format**, since you build the catalog entry from it:
-> Report the verified BGG id and exact published name (verify from `api.geekdo.com`; my hints are often wrong), a paste-ready `data/games.ts` entry object, the markdown line count, the completeness score, and the source URL.
+This alone cuts a typical delegation prompt by more than half — the toolkit text was previously duplicated in every one of the 10 prompts per batch, plus in this file, at real token cost with zero benefit (the subagent can read it once itself, for free relative to you pasting it 10 times).
+
+**Cap the report format** — verbose section-by-section walkthroughs cost real tokens for no integration benefit; you only act on a handful of fields:
+> Report in under 150 words: verified BGG id + exact published name (from `api.geekdo.com`, not my hint), the paste-ready `data/games.ts` object, markdown line count, one line on completeness, the rulebook source URL, and confirmation the thumbnail was written + its source. No section-by-section content summary — I don't need it to integrate your work.
 
 ### When a subagent dies
 
@@ -85,7 +88,7 @@ Both accept multiple codes, a `--force` flag (embeddings), and **work before the
 
 Then:
 
-1. **Read the thumbnail back** and confirm it shows the right game — BGG captions lie and version-id lookups have returned entirely different games.
+1. **Read the thumbnail back** and confirm it shows the right game — BGG captions lie and version-id lookups have returned entirely different games. This costs real vision tokens per game, so it's worth being deliberate about when to skip it: reasonable to skip only when the subagent's report says the image came straight from BGG's own `geekitems`/`images` API response (the most reliable source) *and* nothing else in the report raised doubt (multiple same-named BGG entries, a version-id lookup, a retailer/fan mirror). Always verify when the source was a retailer CDN, a version-specific lookup, or the subagent flagged any ambiguity.
 2. **Insert the `data/games.ts` entry** alphabetically, from the agent's reported object. **An accented `name` needs ASCII `alternativeNames`** or the game is unsearchable (search reads `[name, code, ...alternativeNames]`).
 3. **Commit that game alone**, staging its ≤4 paths explicitly:
 

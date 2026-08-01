@@ -49,6 +49,24 @@ pdftoppm -png -r 150 rules.pdf page   # -> page-01.png, page-02.png, ...
 
 Then `Read` each `page-NN.png` and transcribe faithfully.
 
+### Sourcing toolkit (try these before giving up)
+
+- `api.geekdo.com` is reachable even when boardgamegeek.com HTML is Cloudflare-blocked and BGG's XML API 401s. Metadata: `api/geekitems?objectid=<id>`. Files list (paginated, newest-first): `api/files?objectid=<id>&objecttype=thing&pageid=<n>` — page deeper if page 1 has nothing official. Images: `api/images?objectid=<id>&objecttype=thing` (use the signed thumbor URL from the response; the bare `cf.geekdo-images.com/…/__original/…` form often 400s).
+- Publisher CDNs frequently survive after the parent site is redesigned or shut down — e.g. `images-cdn.fantasyflightgames.com/filer_public/...` (FFG), `cdn0/cdn1.daysofwonder.com/<game>/en/img/...` (Days of Wonder), `cmon.com/wp-content/uploads/...` (CMON), `gmtwebsiteassets.s3.us-west-2.amazonaws.com/<slug>/...` (GMT). Try the direct URL (found via web search or the current product page) before reaching for Wayback.
+- Wayback Machine: use a **direct replay URL** `https://web.archive.org/web/<year>id_/<url>` rather than the availability/CDX APIs, which frequently 429/503. CDX-scan a publisher's old domain (`cdx?url=<domain>*&filter=mimetype:application/pdf`) when the live site has nothing.
+- `r.jina.ai/<url>` renders Cloudflare- or JS-gated pages as plain text and exposes real PDF links buried in client-rendered HTML.
+- Tabletop Simulator Steam Workshop mods often embed the official rulebook PDF in their save file (common for Kickstarter-funded games). Find the Workshop item id, `POST api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/` with body `itemcount=1&publishedfileids[0]=<id>`, download the save from the returned `file_url`, and grep it for a PDF URL.
+- `api.tesera.ru/games/<slug>/files` → `tesera.ru/images/items/<id>/<filename>` — a Russian-community mirror that has repeatedly had byte-exact official scans for Oink Games and OOP/small-press titles other routes couldn't reach.
+- Google Drive folders (common for small/indie publishers): scrape the folder page's `_DRIVE_ivd` blob for file ids, then `drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.
+- BGG's own file-download routes are usually dead ends (`/file/download_redirect/<id>` 410s, login-gated file pages, S3 AccessDenied) — don't spend much effort there. `api/files` is still useful for confirming a file exists and its exact byte size, which you can cross-check against whatever mirror you find.
+- If no English rulebook is reachable anywhere but an official rulebook in another language is, a faithful **translation of that official document** is an acceptable substitute (note the source language in your report) — this is not the same as reconstructing from unrelated secondary sources, which is never acceptable (see "never fabricate rules" above).
+
+### Extracting text from multi-column or image-based PDFs
+
+`pdftotext -layout` interleaves columns and silently corrupts reading order on two-column rulebooks. If a plain dump looks scrambled: reconstruct reading order from `pdftotext -bbox` word boxes — group words into lines by y-coordinate, split fragments on large x-gaps (>~14pt) into columns, then emit column by column. This is more reliable than cropping pages with `pdftoppm -x/-W`, which tends to clip characters at the boundary if the crop width is too narrow.
+
+Always **verify completeness mechanically**: harvest every numbered rule/section identifier from a plain `-layout` dump and assert each one appears somewhere in your markdown. This catches silently-dropped content that a visual skim would miss.
+
 ## Step 3 — Write the rulebook markdown
 
 Create `data/rulebooks/<code>-rulebook.md` following the house format (see `data/rulebooks/azul-rulebook.md` or `dominion-rulebook.md`):
