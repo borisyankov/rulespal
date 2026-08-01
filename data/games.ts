@@ -3992,6 +3992,12 @@ const assets: Game[] = [
     shortName: 'Space Empires',
   },
   {
+    bggid: 71721,
+    name: 'Space Hulk: Death Angel – The Card Game',
+    shortName: 'Death Angel',
+    code: 'space-hulk-death-angel-the-card-game',
+  },
+  {
     bggid: 356414,
     name: 'Space Station Phoenix',
     code: 'space-station-phoenix',
