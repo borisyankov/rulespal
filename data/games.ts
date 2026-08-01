@@ -3709,6 +3709,11 @@ const assets: Game[] = [
     code: 'sekigahara',
   },
   {
+    bggid: 102652,
+    name: 'Sentinels of the Multiverse',
+    code: 'sentinels-of-the-multiverse',
+  },
+  {
     bggid: 2027,
     name: 'Sequence',
     code: 'sequence',
