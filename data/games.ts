@@ -3772,6 +3772,11 @@ const assets: Game[] = [
     code: 'root',
   },
   {
+    bggid: 168788,
+    name: 'Rum & Bones',
+    code: 'rum-and-bones',
+  },
+  {
     bggid: 811,
     name: 'Rummikub',
     code: 'rummikub',
