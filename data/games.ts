@@ -239,6 +239,11 @@ const assets: Game[] = [
     code: 'andromedas-edge',
   },
   {
+    bggid: 285967,
+    name: 'Ankh: Gods of Egypt',
+    code: 'ankh-gods-of-egypt',
+  },
+  {
     bggid: 311193,
     name: 'Anno 1800',
     code: 'anno-1800',
