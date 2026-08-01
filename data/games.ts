@@ -567,6 +567,12 @@ const assets: Game[] = [
     code: 'blokus-trigon',
   },
   {
+    bggid: 90137,
+    name: 'Blood Bowl: Team Manager – The Card Game',
+    shortName: 'Blood Bowl: Team Manager',
+    code: 'blood-bowl-team-manager',
+  },
+  {
     bggid: 240980,
     name: 'Blood on the Clocktower',
     code: 'blood-on-the-clocktower',
