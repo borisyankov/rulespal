@@ -1248,6 +1248,12 @@ const assets: Game[] = [
     code: 'decrypto',
   },
   {
+    bggid: 104162,
+    name: 'Descent: Journeys in the Dark (Second Edition)',
+    shortName: 'Descent: Journeys in the Dark',
+    code: 'descent-journeys-in-the-dark',
+  },
+  {
     bggid: 322708,
     name: 'Descent: Legends of the Dark',
     code: 'descent-legends-of-the-dark',
