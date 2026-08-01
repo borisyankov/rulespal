@@ -4691,6 +4691,13 @@ const assets: Game[] = [
     shortName: 'Energy Empire',
   },
   {
+    bggid: 72321,
+    name: 'The Networks: Primetime',
+    shortName: 'The Networks',
+    code: 'the-networks',
+    alternativeNames: ['The Networks'],
+  },
+  {
     bggid: 193558,
     name: 'The Oracle of Delphi',
     code: 'oracle-of-delphi',
