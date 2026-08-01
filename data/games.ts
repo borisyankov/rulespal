@@ -1291,6 +1291,11 @@ const assets: Game[] = [
     alternativeNames: ['DC Comics Deck-Building Game'],
   },
   {
+    bggid: 149155,
+    name: "Dead Man's Draw",
+    code: 'dead-mans-draw',
+  },
+  {
     bggid: 150376,
     name: 'Dead of Winter: A Crossroads Game',
     code: 'dead-of-winter',
