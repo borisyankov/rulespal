@@ -4685,6 +4685,12 @@ const assets: Game[] = [
     code: 'oracle-of-delphi',
   },
   {
+    bggid: 172047,
+    name: 'The Others: 7 Sins',
+    shortName: 'The Others',
+    code: 'the-others-7-sins',
+  },
+  {
     bggid: 555,
     name: 'The Princes of Florence',
     code: 'the-princes-of-florence',
