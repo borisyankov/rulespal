@@ -347,6 +347,12 @@ const assets: Game[] = [
     extraSources: ['reference'],
   },
   {
+    bggid: 359609,
+    name: 'Arkham Horror: The Card Game (Revised Core Set)',
+    shortName: 'Arkham Horror LCG (Revised)',
+    code: 'arkham-horror-card-game-revised',
+  },
+  {
     bggid: 12005,
     name: 'Around the World in 80 Days',
     code: 'around-the-world-in-80-days',
