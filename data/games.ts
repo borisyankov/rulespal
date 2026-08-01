@@ -4613,6 +4613,11 @@ const assets: Game[] = [
     code: 'the-lost-expedition',
   },
   {
+    bggid: 63628,
+    name: 'The Manhattan Project',
+    code: 'manhattan-project',
+  },
+  {
     bggid: 176734,
     name: 'The Manhattan Project: Energy Empire',
     code: 'energy-empire',
