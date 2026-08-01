@@ -174,6 +174,11 @@ const assets: Game[] = [
     code: 'alcatraz',
   },
   {
+    bggid: 161970,
+    name: 'Alchemists',
+    code: 'alchemists',
+  },
+  {
     bggid: 6249,
     name: 'Alhambra',
     code: 'alhambra',
