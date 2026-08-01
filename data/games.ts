@@ -1821,6 +1821,11 @@ const assets: Game[] = [
     extraSources: ['appendix'],
   },
   {
+    bggid: 37904,
+    name: 'Formula D',
+    code: 'formula-d',
+  },
+  {
     bggid: 296912,
     name: 'Fort',
     code: 'fort',
