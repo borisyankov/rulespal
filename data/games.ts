@@ -1794,6 +1794,12 @@ const assets: Game[] = [
     code: 'furnace',
   },
   {
+    bggid: 181279,
+    name: 'Fury of Dracula (Third/Fourth Edition)',
+    shortName: 'Fury of Dracula',
+    code: 'fury-of-dracula',
+  },
+  {
     bggid: 220308,
     name: 'Gaia Project',
     code: 'gaia-project',
