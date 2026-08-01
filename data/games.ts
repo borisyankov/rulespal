@@ -2813,6 +2813,11 @@ const assets: Game[] = [
     code: 'marvel-united',
   },
   {
+    bggid: 197070,
+    name: 'Massive Darkness',
+    code: 'massive-darkness',
+  },
+  {
     bggid: 314491,
     name: 'Meadow',
     code: 'meadow',
@@ -3711,6 +3716,11 @@ const assets: Game[] = [
     bggid: 94362,
     name: 'Rune Age',
     code: 'rune-age',
+  },
+  {
+    bggid: 59294,
+    name: 'Runewars',
+    code: 'runewars',
   },
   {
     bggid: 228328,
