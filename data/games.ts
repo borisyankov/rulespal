@@ -3378,6 +3378,12 @@ const assets: Game[] = [
     shortName: 'Iberia',
   },
   {
+    bggid: 192153,
+    name: 'Pandemic: Reign of Cthulhu',
+    code: 'pandemic-reign-of-cthulhu',
+    shortName: 'Reign of Cthulhu',
+  },
+  {
     bggid: 141572,
     name: 'Paperback',
     code: 'paperback',
