@@ -2077,6 +2077,13 @@ const assets: Game[] = [
     shortName: 'GWT: Argentina',
   },
   {
+    bggid: 193738,
+    name: 'Great Western Trail',
+    code: 'great-western-trail-original',
+    shortName: 'Great Western Trail (2016)',
+    alternativeNames: ['Great Western Trail: First Edition'],
+  },
+  {
     bggid: 341169,
     name: 'Great Western Trail: Second Edition',
     code: 'great-western-trail',
