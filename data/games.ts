@@ -3816,6 +3816,11 @@ const assets: Game[] = [
     shortName: 'SETI',
   },
   {
+    bggid: 15062,
+    name: 'Shadows over Camelot',
+    code: 'shadows-over-camelot',
+  },
+  {
     bggid: 157969,
     name: 'Sheriff of Nottingham',
     code: 'sheriff-of-nottingham',
