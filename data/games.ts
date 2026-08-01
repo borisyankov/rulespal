@@ -5276,6 +5276,11 @@ const assets: Game[] = [
     code: 'wormholes',
   },
   {
+    bggid: 66356,
+    name: 'Wrath of Ashardalon',
+    code: 'wrath-of-ashardalon',
+  },
+  {
     bggid: 878,
     name: 'Wyatt Earp',
     code: 'wyatt-earp',
