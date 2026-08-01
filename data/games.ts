@@ -1785,6 +1785,11 @@ const assets: Game[] = [
     code: 'forbidden-island',
   },
   {
+    bggid: 175155,
+    name: 'Forbidden Stars',
+    code: 'forbidden-stars',
+  },
+  {
     bggid: 391163,
     name: 'Forest Shuffle',
     code: 'forest-shuffle',
