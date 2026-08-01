@@ -811,6 +811,11 @@ const assets: Game[] = [
     code: 'castle-combo',
   },
   {
+    bggid: 59946,
+    name: 'Castle Ravenloft',
+    code: 'castle-ravenloft',
+  },
+  {
     bggid: 155426,
     name: 'Castles of Mad King Ludwig',
     code: 'castles-of-mad-king-ludwig',
