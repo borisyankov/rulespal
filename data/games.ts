@@ -4838,6 +4838,11 @@ const assets: Game[] = [
     alternativeNames: ['Die Speicherstadt'],
   },
   {
+    bggid: 269207,
+    name: 'The Taverns of Tiefenthal',
+    code: 'taverns-of-tiefenthal',
+  },
+  {
     bggid: 385529,
     name: 'The Vale of Eternity',
     code: 'the-vale-of-eternity',
