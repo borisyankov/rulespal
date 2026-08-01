@@ -3705,6 +3705,11 @@ const assets: Game[] = [
     alternativeNames: ['Railroad Ink: Blazing Red Edition'],
   },
   {
+    bggid: 17133,
+    name: 'Railways of the World',
+    code: 'railways-of-the-world',
+  },
+  {
     bggid: 220877,
     name: 'Rajas of the Ganges',
     code: 'rajas-of-the-ganges',
