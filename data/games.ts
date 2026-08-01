@@ -4152,6 +4152,12 @@ const assets: Game[] = [
     code: 'star-wars-unlimited',
   },
   {
+    bggid: 103885,
+    name: 'Star Wars: X-Wing Miniatures Game',
+    shortName: 'Star Wars: X-Wing',
+    code: 'star-wars-x-wing-miniatures-game',
+  },
+  {
     bggid: 223770,
     name: 'Startups',
     code: 'startups',
