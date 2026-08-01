@@ -4776,6 +4776,11 @@ const assets: Game[] = [
     code: 'times-up-title-recall',
   },
   {
+    bggid: 35570,
+    name: "Tinners' Trail",
+    code: 'tinners-trail',
+  },
+  {
     bggid: 105,
     name: 'Titan: The Arena',
     code: 'titan-the-arena',
