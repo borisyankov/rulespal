@@ -3180,6 +3180,11 @@ const assets: Game[] = [
     code: 'navegador',
   },
   {
+    bggid: 195421,
+    name: 'Near and Far',
+    code: 'near-and-far',
+  },
+  {
     bggid: 167355,
     name: 'Nemesis',
     code: 'nemesis',
