@@ -2861,6 +2861,11 @@ const assets: Game[] = [
     code: 'massive-darkness',
   },
   {
+    bggid: 315610,
+    name: 'Massive Darkness 2: Hellscape',
+    code: 'massive-darkness-2',
+  },
+  {
     bggid: 314491,
     name: 'Meadow',
     code: 'meadow',
