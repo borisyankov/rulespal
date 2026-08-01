@@ -320,6 +320,12 @@ const assets: Game[] = [
     code: 'asara',
   },
   {
+    bggid: 167400,
+    name: 'Ashes Reborn: Rise of the Phoenixborn',
+    shortName: 'Ashes Reborn',
+    code: 'ashes-rise-of-the-phoenixborn',
+  },
+  {
     bggid: 352179,
     name: 'Astro Knights',
     code: 'astro-knights',
