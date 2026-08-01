@@ -2924,6 +2924,11 @@ const assets: Game[] = [
     code: 'meadow',
   },
   {
+    bggid: 209010,
+    name: 'Mechs vs. Minions',
+    code: 'mechs-vs-minions',
+  },
+  {
     bggid: 46,
     name: 'Medici',
     code: 'medici',
