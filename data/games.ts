@@ -4283,6 +4283,13 @@ const assets: Game[] = [
     shortName: 'Battle of Hoth',
   },
   {
+    bggid: 164153,
+    name: 'Star Wars: Imperial Assault',
+    code: 'star-wars-imperial-assault',
+    shortName: 'Imperial Assault',
+    extraSources: ['rules-reference'],
+  },
+  {
     bggid: 271896,
     name: 'Star Wars: Outer Rim',
     code: 'star-wars-outer-rim',
