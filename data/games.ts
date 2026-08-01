@@ -4628,6 +4628,11 @@ const assets: Game[] = [
     shortName: 'Isle of Cats: Explore & Draw',
   },
   {
+    bggid: 245655,
+    name: "The King's Dilemma",
+    code: 'kings-dilemma',
+  },
+  {
     bggid: 316412,
     name: 'The Loop',
     code: 'the-loop',
