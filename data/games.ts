@@ -1611,6 +1611,12 @@ const assets: Game[] = [
     code: 'earthborne-rangers',
   },
   {
+    bggid: 72125,
+    name: 'Eclipse: New Dawn for the Galaxy',
+    code: 'eclipse-new-dawn-for-the-galaxy',
+    shortName: 'Eclipse (2011)',
+  },
+  {
     bggid: 246900,
     name: 'Eclipse: Second Dawn for the Galaxy',
     code: 'eclipse-second-dawn-for-the-galaxy',
