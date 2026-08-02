@@ -2703,6 +2703,12 @@ const assets: Game[] = [
     code: 'legendary-encounters-an-alien-deck-building-game',
   },
   {
+    bggid: 129437,
+    name: 'Legendary: A Marvel Deck Building Game',
+    shortName: 'Legendary (Marvel)',
+    code: 'legendary-marvel',
+  },
+  {
     bggid: 127398,
     name: 'Legends of Andor',
     code: 'legends-of-andor',
