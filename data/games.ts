@@ -5104,6 +5104,11 @@ const assets: Game[] = [
     code: 'too-many-bones',
   },
   {
+    bggid: 235802,
+    name: 'Too Many Bones: Undertow',
+    code: 'too-many-bones-undertow',
+  },
+  {
     bggid: 88,
     name: 'Torres',
     code: 'torres',
