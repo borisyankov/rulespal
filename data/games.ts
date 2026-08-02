@@ -2593,6 +2593,11 @@ const assets: Game[] = [
     code: 'kingdom-builder',
   },
   {
+    bggid: 55690,
+    name: 'Kingdom Death: Monster',
+    code: 'kingdom-death-monster',
+  },
+  {
     bggid: 415776,
     name: 'Kingdom Legacy: Feudal Kingdom',
     code: 'kingdom-legacy-feudal-kingdom',
