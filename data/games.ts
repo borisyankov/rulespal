@@ -122,6 +122,11 @@ const assets: Game[] = [
     code: 'aeons-end',
   },
   {
+    bggid: 218417,
+    name: "Aeon's End: War Eternal",
+    code: 'aeons-end-war-eternal',
+  },
+  {
     bggid: 383179,
     name: 'Age of Innovation',
     code: 'age-of-innovation',
