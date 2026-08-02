@@ -5252,6 +5252,13 @@ const assets: Game[] = [
     alternativeNames: ['Twilight Imperium 4th Edition', 'TI4'],
   },
   {
+    bggid: 12493,
+    name: 'Twilight Imperium: Third Edition',
+    code: 'twilight-imperium-third-edition',
+    shortName: 'TI3',
+    alternativeNames: ['Twilight Imperium 3rd Edition', 'TI3'],
+  },
+  {
     bggid: 361545,
     name: 'Twilight Inscription',
     code: 'twilight-inscription',
