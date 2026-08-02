@@ -1033,6 +1033,12 @@ const assets: Game[] = [
     code: 'clans-of-caledonia',
   },
   {
+    bggid: 299659,
+    name: 'Clash of Cultures: Monumental Edition',
+    shortName: 'Clash of Cultures',
+    code: 'clash-of-cultures-monumental-edition',
+  },
+  {
     bggid: 22141,
     name: 'Cleopatra and the Society of Architects',
     code: 'cleopatra',
