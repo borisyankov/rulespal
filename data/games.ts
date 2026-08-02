@@ -2872,6 +2872,11 @@ const assets: Game[] = [
     shortName: 'Maharaja',
   },
   {
+    bggid: 454103,
+    name: 'Magical Athlete',
+    code: 'magical-athlete',
+  },
+  {
     bggid: 5086,
     name: 'Electronic Mall Madness',
     code: 'mall-madness',
