@@ -5337,6 +5337,11 @@ const assets: Game[] = [
     shortName: 'Battle of Legends, Vol. 1',
   },
   {
+    bggid: 294484,
+    name: 'Unmatched: Cobble & Fog',
+    code: 'unmatched-cobble-fog',
+  },
+  {
     bggid: 2223,
     name: 'UNO',
     code: 'uno',
