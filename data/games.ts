@@ -1021,6 +1021,12 @@ const assets: Game[] = [
     code: 'civolution',
   },
   {
+    bggid: 233371,
+    name: 'Clank! In! Space!: A Deck-Building Adventure',
+    code: 'clank-in-space',
+    shortName: 'Clank! In! Space!',
+  },
+  {
     bggid: 201808,
     name: 'Clank!: A Deck-Building Adventure',
     code: 'clank',
