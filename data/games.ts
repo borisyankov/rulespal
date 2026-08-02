@@ -2111,6 +2111,12 @@ const assets: Game[] = [
     shortName: 'GWT: Argentina',
   },
   {
+    bggid: 380607,
+    name: 'Great Western Trail: New Zealand',
+    code: 'great-western-trail-new-zealand',
+    shortName: 'GWT: New Zealand',
+  },
+  {
     bggid: 193738,
     name: 'Great Western Trail',
     code: 'great-western-trail-original',
