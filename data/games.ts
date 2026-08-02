@@ -1147,6 +1147,12 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 14105,
+    name: 'Commands & Colors: Ancients',
+    code: 'commands-and-colors-ancients',
+    alternativeNames: ['Command & Colors: Ancients'],
+  },
+  {
     bggid: 37231,
     name: 'Comuni',
     code: 'comuni',
