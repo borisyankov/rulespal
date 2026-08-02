@@ -3812,6 +3812,11 @@ const assets: Game[] = [
     code: 'ready-set-bet',
   },
   {
+    bggid: 418556,
+    name: 'Rebel Princess: Deluxe Edition',
+    code: 'rebel-princess-deluxe-edition',
+  },
+  {
     bggid: 417197,
     name: 'Rebirth',
     code: 'rebirth',
