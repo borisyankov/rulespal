@@ -4981,6 +4981,12 @@ const assets: Game[] = [
     alternativeNames: ['Through the Ages'],
   },
   {
+    bggid: 25613,
+    name: 'Through the Ages: A Story of Civilization',
+    code: 'through-the-ages-story-of-civilization',
+    shortName: 'Through the Ages (2006)',
+  },
+  {
     bggid: 503,
     name: 'Through the Desert',
     code: 'through-the-desert',
