@@ -1976,6 +1976,11 @@ const assets: Game[] = [
     extraSources: ['appendix'],
   },
   {
+    bggid: 438402,
+    name: 'Forest Shuffle: Dartmoor',
+    code: 'forest-shuffle-dartmoor',
+  },
+  {
     bggid: 37904,
     name: 'Formula D',
     code: 'formula-d',
