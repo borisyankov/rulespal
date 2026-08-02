@@ -1509,6 +1509,11 @@ const assets: Game[] = [
     alternativeNames: ['Dominion (Second Edition)'],
   },
   {
+    bggid: 40834,
+    name: 'Dominion: Intrigue',
+    code: 'dominion-intrigue',
+  },
+  {
     bggid: 2394,
     name: 'Dominoes',
     code: 'dominoes',
