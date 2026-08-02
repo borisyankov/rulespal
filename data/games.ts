@@ -3699,6 +3699,11 @@ const assets: Game[] = [
     code: 'port-royal',
   },
   {
+    bggid: 331265,
+    name: 'Port Royal: Big Box',
+    code: 'port-royal-big-box',
+  },
+  {
     bggid: 2651,
     name: 'Power Grid',
     code: 'power-grid',
