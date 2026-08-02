@@ -5588,6 +5588,11 @@ const assets: Game[] = [
     code: 'wingspan',
   },
   {
+    bggid: 366161,
+    name: 'Wingspan Asia',
+    code: 'wingspan-asia',
+  },
+  {
     bggid: 383499,
     name: 'Witchcraft!',
     code: 'witchcraft',
