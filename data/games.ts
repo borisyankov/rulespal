@@ -1190,6 +1190,11 @@ const assets: Game[] = [
     code: 'concordia',
   },
   {
+    bggid: 256916,
+    name: 'Concordia Venus',
+    code: 'concordia-venus',
+  },
+  {
     bggid: 2719,
     name: 'Connect Four',
     code: 'connect-four',
