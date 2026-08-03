@@ -1465,6 +1465,11 @@ const assets: Game[] = [
     code: 'descent-legends-of-the-dark',
   },
   {
+    bggid: 285192,
+    name: 'Destinies',
+    code: 'destinies',
+  },
+  {
     bggid: 256788,
     name: 'Detective Club',
     code: 'detective-club',
