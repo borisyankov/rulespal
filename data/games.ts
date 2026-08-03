@@ -3914,6 +3914,12 @@ const assets: Game[] = [
     code: 'photosynthesis',
   },
   {
+    bggid: 15818,
+    name: 'Pickomino',
+    code: 'pickomino',
+    alternativeNames: ['Pick-omino', 'Heckmeck am Bratwurmeck', 'Heck Meck', 'Regenwormen'],
+  },
+  {
     bggid: 2281,
     name: 'Pictionary',
     code: 'pictionary',
