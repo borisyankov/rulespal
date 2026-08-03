@@ -410,6 +410,12 @@ const assets: Game[] = [
     code: 'around-the-world-in-80-days',
   },
   {
+    bggid: 219650,
+    name: 'Arydia: The Paths We Dare Tread',
+    code: 'arydia',
+    shortName: 'Arydia',
+  },
+  {
     bggid: 72991,
     name: 'Asara',
     code: 'asara',
