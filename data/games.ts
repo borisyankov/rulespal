@@ -5606,6 +5606,12 @@ const assets: Game[] = [
     code: 'war-chest',
   },
   {
+    bggid: 9609,
+    name: 'War of the Ring',
+    code: 'war-of-the-ring-first-edition',
+    shortName: 'War of the Ring (1st Edition)',
+  },
+  {
     bggid: 115746,
     name: 'War of the Ring: Second Edition',
     code: 'war-of-the-ring',
