@@ -3869,6 +3869,11 @@ const assets: Game[] = [
     code: 'res-arcana',
   },
   {
+    bggid: 427345,
+    name: 'Res Arcana Duo',
+    code: 'res-arcana-duo',
+  },
+  {
     bggid: 352697,
     name: 'Resist!',
     code: 'resist',
