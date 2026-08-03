@@ -4513,7 +4513,11 @@ const assets: Game[] = [
     bggid: 123260,
     name: 'Suburbia',
     code: 'suburbia',
-    alternativeNames: ['Suburbia Collector\'s Edition'],
+  },
+  {
+    bggid: 267367,
+    name: "Suburbia: Collector's Edition",
+    code: 'suburbia-collectors-edition',
   },
   {
     bggid: 332800,
