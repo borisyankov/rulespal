@@ -755,6 +755,13 @@ const assets: Game[] = [
     code: 'bunny-kingdom',
   },
   {
+    bggid: 322656,
+    name: 'burncycle',
+    code: 'burncycle',
+    alternativeNames: ['Burncycle'],
+    extraSources: ['rules-reference'],
+  },
+  {
     bggid: 552,
     name: 'Bus',
     code: 'bus',
