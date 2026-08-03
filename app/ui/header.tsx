@@ -8,23 +8,27 @@ import { MessageCircleQuestion, BookOpenTextIcon } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import TabButton from '../ui/tab-button';
 import Logo from '../ui/logo';
-import games from '@/data/games';
+import SearchInput from '../ui/search-input';
 
 type Props = {
   game?: Game;
+  search?: string;
+  onSearchChange?: (search: string) => void;
 };
 
-export default function Header({ game }: Props) {
+export default function Header({ game, search, onSearchChange }: Props) {
   const pathname = usePathname();
   const isChatActive = (pathname.match(/\//g) || []).length === 1;
   return (
     <header className="fixed z-50 left-0 top-0 w-full backdrop-blur-3xl p-2 bg-background/50">
-      <div className="m-auto flex w-full max-w-screen-md flex-row items-center justify-between gap-8 text-white/80">
-        <Link href="/">
+      <div className="m-auto flex w-full max-w-screen-md flex-row items-center justify-between gap-4 text-white/80">
+        <Link href="/" className="shrink-0">
           <Logo className="w-24" />
         </Link>
-        {!game && (
-          <span className="text-foreground/50">{games.length} games</span>
+        {onSearchChange && (
+          <div className="min-w-0 flex-1">
+            <SearchInput search={search ?? ''} onSearchChange={onSearchChange} />
+          </div>
         )}
         {game && (
           <TabButton
