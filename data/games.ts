@@ -254,6 +254,11 @@ const assets: Game[] = [
     extraSources: ['chronobot-chronossus'],
   },
   {
+    bggid: 278292,
+    name: 'Anachrony: Infinity Box',
+    code: 'anachrony-infinity-box',
+  },
+  {
     bggid: 338093,
     name: 'Ancient Knowledge',
     code: 'ancient-knowledge',
