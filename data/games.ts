@@ -1033,6 +1033,11 @@ const assets: Game[] = [
     code: 'ceylon',
   },
   {
+    bggid: 267378,
+    name: 'Chakra',
+    code: 'chakra',
+  },
+  {
     bggid: 359970,
     name: 'Challengers!',
     code: 'challengers',
