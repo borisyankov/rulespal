@@ -4565,6 +4565,11 @@ const assets: Game[] = [
     code: 'simon',
   },
   {
+    bggid: 439826,
+    name: 'Six Sojourns',
+    code: 'six-sojourns',
+  },
+  {
     bggid: 1269,
     name: 'Skip-Bo',
     code: 'skip-bo',
