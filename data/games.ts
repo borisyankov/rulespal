@@ -453,6 +453,12 @@ const assets: Game[] = [
     code: 'automobile',
   },
   {
+    bggid: 188866,
+    name: 'Awkward Guests: The Walton Case',
+    code: 'awkward-guests-the-walton-case',
+    shortName: 'Awkward Guests',
+  },
+  {
     bggid: 41863,
     name: 'Axis & Allies: 1942 Second Edition',
     shortName: 'Axis & Allies',
