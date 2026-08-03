@@ -2363,6 +2363,11 @@ const assets: Game[] = [
     code: 'hands-in-the-sea',
   },
   {
+    bggid: 234,
+    name: 'Hannibal: Rome vs. Carthage',
+    code: 'hannibal-rome-vs-carthage',
+  },
+  {
     bggid: 43015,
     name: 'Hansa Teutonica',
     code: 'hansa-teutonica',
