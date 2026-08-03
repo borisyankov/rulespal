@@ -1699,6 +1699,11 @@ const assets: Game[] = [
     code: 'duel-for-cardia',
   },
   {
+    bggid: 473061,
+    name: 'Duel of Meloch',
+    code: 'duel-of-meloch',
+  },
+  {
     bggid: 283355,
     name: 'Dune',
     code: 'dune',
