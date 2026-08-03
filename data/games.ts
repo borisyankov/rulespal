@@ -2502,6 +2502,11 @@ const assets: Game[] = [
     code: 'imperial',
   },
   {
+    bggid: 54138,
+    name: 'Imperial 2030',
+    code: 'imperial-2030',
+  },
+  {
     bggid: 154203,
     name: 'Imperial Settlers',
     code: 'imperial-settlers',
