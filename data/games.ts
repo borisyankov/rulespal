@@ -4221,6 +4221,11 @@ const assets: Game[] = [
     code: 'return-to-dark-tower',
   },
   {
+    bggid: 428099,
+    name: 'Revenant',
+    code: 'revenant',
+  },
+  {
     bggid: 332772,
     name: 'Revive',
     code: 'revive',
