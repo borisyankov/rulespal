@@ -3353,6 +3353,11 @@ const assets: Game[] = [
     code: 'nemesis-lockdown',
   },
   {
+    bggid: 381248,
+    name: 'Nemesis: Retaliation',
+    code: 'nemesis-retaliation',
+  },
+  {
     bggid: 187617,
     name: "Nemo's War (Second Edition)",
     code: 'nemos-war',
