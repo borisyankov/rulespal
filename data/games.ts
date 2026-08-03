@@ -393,6 +393,13 @@ const assets: Game[] = [
     code: 'arkham-horror',
   },
   {
+    bggid: 15987,
+    name: 'Arkham Horror (2005)',
+    shortName: 'Arkham Horror (2005)',
+    code: 'arkham-horror-2005',
+    alternativeNames: ['Arkham Horror Second Edition', 'Arkham Horror (2nd Edition)'],
+  },
+  {
     bggid: 424784,
     name: 'Arkham Horror: Lovecraft Letter',
     code: 'arkham-horror-lovecraft-letter',
