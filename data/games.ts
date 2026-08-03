@@ -1427,6 +1427,11 @@ const assets: Game[] = [
     code: 'darwins-journey',
   },
   {
+    bggid: 334986,
+    name: 'Daybreak',
+    code: 'daybreak',
+  },
+  {
     bggid: 125678,
     name: 'DC Deck-Building Game',
     code: 'dc-comics-deck-building-game',
