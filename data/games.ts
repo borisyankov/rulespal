@@ -2429,6 +2429,11 @@ const assets: Game[] = [
     code: 'imperium-classics',
   },
   {
+    bggid: 367518,
+    name: 'Imperium: Horizons',
+    code: 'imperium-horizons',
+  },
+  {
     bggid: 318182,
     name: 'Imperium: Legends',
     code: 'imperium-legends',
