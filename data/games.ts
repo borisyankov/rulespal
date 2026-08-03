@@ -4408,6 +4408,12 @@ const assets: Game[] = [
     code: 'shogun',
   },
   {
+    bggid: 77130,
+    name: "Sid Meier's Civilization: The Board Game",
+    code: 'sid-meiers-civilization',
+    shortName: "Sid Meier's Civilization",
+  },
+  {
     bggid: 202426,
     name: 'Sidereal Confluence',
     code: 'sidereal-confluence',
