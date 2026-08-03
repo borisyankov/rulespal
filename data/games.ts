@@ -5283,6 +5283,11 @@ const assets: Game[] = [
     code: 'tinners-trail',
   },
   {
+    bggid: 163967,
+    name: 'Tiny Epic Galaxies',
+    code: 'tiny-epic-galaxies',
+  },
+  {
     bggid: 105,
     name: 'Titan: The Arena',
     code: 'titan-the-arena',
