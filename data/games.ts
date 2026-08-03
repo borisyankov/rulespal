@@ -3467,6 +3467,11 @@ const assets: Game[] = [
     shortName: "Nemo's War",
   },
   {
+    bggid: 21241,
+    name: 'Neuroshima Hex',
+    code: 'neuroshima-hex',
+  },
+  {
     bggid: 249590,
     name: 'Nevsky: Teutons and Rus in Collision, 1240-1242',
     shortName: 'Nevsky',
