@@ -4065,6 +4065,11 @@ const assets: Game[] = [
     code: 'rock-em-sock-em-robots',
   },
   {
+    bggid: 144344,
+    name: 'Rococo',
+    code: 'rococo',
+  },
+  {
     bggid: 132531,
     name: 'Roll for the Galaxy',
     code: 'roll-for-the-galaxy',
