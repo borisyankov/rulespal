@@ -4939,6 +4939,11 @@ const assets: Game[] = [
     shortName: 'Isle of Cats: Explore & Draw',
   },
   {
+    bggid: 319966,
+    name: 'The King Is Dead: Second Edition',
+    code: 'the-king-is-dead-second-edition',
+  },
+  {
     bggid: 245655,
     name: "The King's Dilemma",
     code: 'kings-dilemma',
