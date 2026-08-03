@@ -3308,6 +3308,12 @@ const assets: Game[] = [
     shortName: 'Mindbug',
   },
   {
+    bggid: 176920,
+    name: 'Mission: Red Planet',
+    code: 'mission-red-planet',
+    alternativeNames: ['Mission: Red Planet (Second/Third Edition)'],
+  },
+  {
     bggid: 422780,
     name: 'Mistborn: The Deckbuilding Game',
     code: 'mistborn-the-deckbuilding-game',
