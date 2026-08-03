@@ -6205,6 +6205,11 @@ const assets: Game[] = [
     code: 'woodcraft',
   },
   {
+    bggid: 403150,
+    name: 'World Order',
+    code: 'world-order',
+  },
+  {
     bggid: 365258,
     name: 'World Wonders',
     code: 'world-wonders',
