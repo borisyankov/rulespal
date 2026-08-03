@@ -3002,6 +3002,11 @@ const assets: Game[] = [
     alternativeNames: ['Liberty or Death'],
   },
   {
+    bggid: 368305,
+    name: 'Life of the Amazonia',
+    code: 'life-of-the-amazonia',
+  },
+  {
     bggid: 161533,
     name: 'Lisboa',
     code: 'lisboa',
