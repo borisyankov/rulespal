@@ -1804,6 +1804,12 @@ const assets: Game[] = [
     alternativeNames: ['Everdell: Farshore', 'Farshore'],
   },
   {
+    bggid: 203420,
+    name: 'EXIT: The Game – The Abandoned Cabin',
+    code: 'exit-the-abandoned-cabin',
+    shortName: 'EXIT: The Abandoned Cabin',
+  },
+  {
     bggid: 379078,
     name: 'Expeditions',
     code: 'expeditions',
