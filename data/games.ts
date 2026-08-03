@@ -21,6 +21,11 @@ const assets: Game[] = [
     code: '1989-dawn-of-freedom',
   },
   {
+    bggid: 466594,
+    name: '20 Strong: Nemesis',
+    code: '20-strong-nemesis',
+  },
+  {
     bggid: 432950,
     name: '20 Strong: Tanglewoods',
     code: '20-strong-tanglewoods',
