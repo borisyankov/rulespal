@@ -4672,6 +4672,11 @@ const assets: Game[] = [
     code: 'sunrise-lane',
   },
   {
+    bggid: 2653,
+    name: 'Survive: Escape from Atlantis!',
+    code: 'survive-escape-from-atlantis',
+  },
+  {
     bggid: 133473,
     name: 'Sushi Go!',
     code: 'sushi-go',
