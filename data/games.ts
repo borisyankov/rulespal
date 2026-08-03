@@ -2941,6 +2941,11 @@ const assets: Game[] = [
     code: 'lets-go-to-japan',
   },
   {
+    bggid: 59959,
+    name: 'Letters from Whitechapel',
+    code: 'letters-from-whitechapel',
+  },
+  {
     bggid: 140620,
     name: 'Lewis & Clark: The Expedition',
     code: 'lewis-and-clark',
