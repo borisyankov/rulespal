@@ -5218,6 +5218,11 @@ const assets: Game[] = [
     code: 'the-others-7-sins',
   },
   {
+    bggid: 24480,
+    name: 'The Pillars of the Earth',
+    code: 'the-pillars-of-the-earth',
+  },
+  {
     bggid: 555,
     name: 'The Princes of Florence',
     code: 'the-princes-of-florence',
