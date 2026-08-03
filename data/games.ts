@@ -21,6 +21,12 @@ const assets: Game[] = [
     code: '1989-dawn-of-freedom',
   },
   {
+    bggid: 432950,
+    name: '20 Strong: Tanglewoods',
+    code: '20-strong-tanglewoods',
+    extraSources: ['general-rules'],
+  },
+  {
     bggid: 371947,
     name: '3 Ring Circus',
     code: '3-ring-circus',
