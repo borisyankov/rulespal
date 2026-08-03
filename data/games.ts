@@ -5096,6 +5096,11 @@ const assets: Game[] = [
     code: 'the-gang',
   },
   {
+    bggid: 195539,
+    name: "The Godfather: Corleone's Empire",
+    code: 'the-godfather-corleones-empire',
+  },
+  {
     bggid: 111341,
     name: 'The Great Zimbabwe',
     code: 'the-great-zimbabwe',
