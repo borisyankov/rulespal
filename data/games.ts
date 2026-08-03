@@ -2029,6 +2029,11 @@ const assets: Game[] = [
     code: 'forest-shuffle-dartmoor',
   },
   {
+    bggid: 302723,
+    name: 'Forgotten Waters',
+    code: 'forgotten-waters',
+  },
+  {
     bggid: 37904,
     name: 'Formula D',
     code: 'formula-d',
