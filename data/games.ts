@@ -2688,6 +2688,11 @@ const assets: Game[] = [
     code: 'kavango',
   },
   {
+    bggid: 333255,
+    name: 'Keep the Heroes Out!',
+    code: 'keep-the-heroes-out',
+  },
+  {
     bggid: 374595,
     name: 'Kelp',
     code: 'kelp',
