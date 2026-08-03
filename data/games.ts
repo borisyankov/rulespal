@@ -1663,6 +1663,11 @@ const assets: Game[] = [
     code: 'downforce',
   },
   {
+    bggid: 449294,
+    name: 'Dozito',
+    code: 'dozito',
+  },
+  {
     bggid: 181345,
     name: 'Dr. Eureka',
     code: 'dr-eureka',
