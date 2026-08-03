@@ -2066,6 +2066,11 @@ const assets: Game[] = [
     code: 'galactic-cruise',
   },
   {
+    bggid: 31481,
+    name: 'Galaxy Trucker',
+    code: 'galaxy-trucker',
+  },
+  {
     bggid: 220588,
     name: 'Gandhi: The Decolonization of British India, 1917-1947',
     shortName: 'Gandhi',
