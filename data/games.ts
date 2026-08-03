@@ -2,6 +2,12 @@ import type { Game } from '@/app/lib/definitions';
 
 const assets: Game[] = [
   {
+    bggid: 474125,
+    name: '-60°',
+    code: 'minus-60',
+    alternativeNames: ['Sixty Below'],
+  },
+  {
     bggid: 421,
     name: '1830: Railways & Robber Barons',
     shortName: '1830',
