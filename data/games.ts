@@ -2364,6 +2364,11 @@ const assets: Game[] = [
     code: 'honey-buzz',
   },
   {
+    bggid: 176524,
+    name: 'Hoplomachus: Origins',
+    code: 'hoplomachus-origins',
+  },
+  {
     bggid: 338434,
     name: 'Hoplomachus: Remastered',
     code: 'hoplomachus-remastered',
