@@ -4481,6 +4481,12 @@ const assets: Game[] = [
     shortName: 'Colony Wars',
   },
   {
+    bggid: 230253,
+    name: 'Star Realms: Frontiers',
+    code: 'star-realms-frontiers',
+    shortName: 'Frontiers',
+  },
+  {
     bggid: 360676,
     name: 'Star Realms: Rise of Empire',
     code: 'star-realms-rise-of-empire',
