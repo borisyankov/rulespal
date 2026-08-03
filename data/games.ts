@@ -2904,6 +2904,11 @@ const assets: Game[] = [
     alternativeNames: ['Die Legenden von Andor'],
   },
   {
+    bggid: 368173,
+    name: "Let's Go! To Japan",
+    code: 'lets-go-to-japan',
+  },
+  {
     bggid: 140620,
     name: 'Lewis & Clark: The Expedition',
     code: 'lewis-and-clark',
