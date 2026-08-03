@@ -3217,6 +3217,11 @@ const assets: Game[] = [
     alternativeNames: ['Merchant of Venus'],
   },
   {
+    bggid: 25292,
+    name: 'Merchants & Marauders',
+    code: 'merchants-and-marauders',
+  },
+  {
     bggid: 277700,
     name: 'Merchants Cove',
     code: 'merchants-cove',
