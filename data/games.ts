@@ -2006,6 +2006,11 @@ const assets: Game[] = [
     shortName: 'Flash Point',
   },
   {
+    bggid: 404041,
+    name: 'Flowers',
+    code: 'flowers',
+  },
+  {
     bggid: 258,
     name: 'Fluxx',
     code: 'fluxx',
@@ -3587,6 +3592,11 @@ const assets: Game[] = [
     code: 'nidavellir',
   },
   {
+    bggid: 457412,
+    name: 'Night at the Zoo',
+    code: 'night-at-the-zoo',
+  },
+  {
     bggid: 154809,
     name: 'Nippon',
     code: 'nippon',
@@ -3906,6 +3916,11 @@ const assets: Game[] = [
     code: 'pipeline',
   },
   {
+    bggid: 117663,
+    name: 'Piraten Kapern',
+    code: 'piraten-kapern',
+  },
+  {
     bggid: 397385,
     name: 'Pirates of Maracaibo',
     code: 'pirates-of-maracaibo',
@@ -4012,6 +4027,11 @@ const assets: Game[] = [
     bggid: 232043,
     name: 'Queendomino',
     code: 'queendomino',
+  },
+  {
+    bggid: 183006,
+    name: 'Qwinto',
+    code: 'qwinto',
   },
   {
     bggid: 25669,
@@ -4855,6 +4875,11 @@ const assets: Game[] = [
     bggid: 394334,
     name: 'Sunrise Lane',
     code: 'sunrise-lane',
+  },
+  {
+    bggid: 341530,
+    name: 'Super Mega Lucky Box',
+    code: 'super-mega-lucky-box',
   },
   {
     bggid: 2653,
