@@ -5722,6 +5722,12 @@ const assets: Game[] = [
     shortName: 'Battle of Legends, Vol. 1',
   },
   {
+    bggid: 335764,
+    name: 'Unmatched: Battle of Legends, Volume Two',
+    code: 'unmatched-battle-of-legends-volume-two',
+    shortName: 'Battle of Legends, Vol. 2',
+  },
+  {
     bggid: 294484,
     name: 'Unmatched: Cobble & Fog',
     code: 'unmatched-cobble-fog',
