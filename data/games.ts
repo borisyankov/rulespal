@@ -3926,6 +3926,12 @@ const assets: Game[] = [
     shortName: 'Piepmatz',
   },
   {
+    bggid: 415054,
+    name: 'Piña Coladice',
+    code: 'pina-coladice',
+    alternativeNames: ['Pina Coladice'],
+  },
+  {
     bggid: 256730,
     name: 'Pipeline',
     code: 'pipeline',
@@ -5526,6 +5532,11 @@ const assets: Game[] = [
     bggid: 163967,
     name: 'Tiny Epic Galaxies',
     code: 'tiny-epic-galaxies',
+  },
+  {
+    bggid: 378983,
+    name: 'Tipperary',
+    code: 'tipperary',
   },
   {
     bggid: 105,
