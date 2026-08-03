@@ -42,6 +42,11 @@ const assets: Game[] = [
     code: '5-minute-dungeon',
   },
   {
+    bggid: 192458,
+    name: '51st State: Master Set',
+    code: '51st-state-master-set',
+  },
+  {
     bggid: 68448,
     name: '7 Wonders',
     code: '7-wonders',
