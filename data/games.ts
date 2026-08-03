@@ -3774,6 +3774,11 @@ const assets: Game[] = [
     code: 'pipeline',
   },
   {
+    bggid: 397385,
+    name: 'Pirates of Maracaibo',
+    code: 'pirates-of-maracaibo',
+  },
+  {
     bggid: 125548,
     name: 'Pixel Tactics',
     code: 'pixel-tactics',
