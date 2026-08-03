@@ -153,6 +153,12 @@ const assets: Game[] = [
     code: 'aeons-end-war-eternal',
   },
   {
+    bggid: 22545,
+    name: 'Age of Empires III: The Age of Discovery',
+    code: 'age-of-empires-iii-the-age-of-discovery',
+    shortName: 'Age of Empires III',
+  },
+  {
     bggid: 383179,
     name: 'Age of Innovation',
     code: 'age-of-innovation',
