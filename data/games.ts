@@ -2381,6 +2381,11 @@ const assets: Game[] = [
     code: 'hoplomachus-remastered',
   },
   {
+    bggid: 139131,
+    name: 'Hoplomachus: Rise of Rome',
+    code: 'hoplomachus-rise-of-rome',
+  },
+  {
     bggid: 124839,
     name: 'Hoplomachus: The Lost Cities',
     code: 'hoplomachus-the-lost-cities',
