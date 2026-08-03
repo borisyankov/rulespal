@@ -2162,6 +2162,11 @@ const assets: Game[] = [
     code: 'ghost-stories',
   },
   {
+    bggid: 128271,
+    name: 'Ginkgopolis',
+    code: 'ginkgopolis',
+  },
+  {
     bggid: 527,
     name: 'GIPF',
     code: 'gipf',
