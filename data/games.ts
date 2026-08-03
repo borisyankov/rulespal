@@ -3122,6 +3122,11 @@ const assets: Game[] = [
     code: 'marvel-united',
   },
   {
+    bggid: 336382,
+    name: 'Marvel United: X-Men',
+    code: 'marvel-united-x-men',
+  },
+  {
     bggid: 197070,
     name: 'Massive Darkness',
     code: 'massive-darkness',
