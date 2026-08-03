@@ -2326,6 +2326,11 @@ const assets: Game[] = [
     code: 'here-to-slay',
   },
   {
+    bggid: 198994,
+    name: 'Hero Realms',
+    code: 'hero-realms',
+  },
+  {
     bggid: 699,
     name: 'HeroQuest',
     code: 'heroquest',
