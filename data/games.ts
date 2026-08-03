@@ -2374,6 +2374,16 @@ const assets: Game[] = [
     code: 'hoplomachus-remastered',
   },
   {
+    bggid: 124839,
+    name: 'Hoplomachus: The Lost Cities',
+    code: 'hoplomachus-the-lost-cities',
+  },
+  {
+    bggid: 313889,
+    name: 'Hoplomachus: Victorum',
+    code: 'hoplomachus-victorum',
+  },
+  {
     bggid: 367498,
     name: 'Horizons of Spirit Island',
     code: 'horizons-of-spirit-island',
