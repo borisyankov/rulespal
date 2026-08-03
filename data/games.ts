@@ -3832,6 +3832,11 @@ const assets: Game[] = [
     code: 'princes-of-the-renaissance',
   },
   {
+    bggid: 260180,
+    name: 'Project L',
+    code: 'project-l',
+  },
+  {
     bggid: 3076,
     name: 'Puerto Rico',
     code: 'puerto-rico',
