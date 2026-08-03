@@ -357,3 +357,62 @@ Do the following in order:
 - **Financial Department (Blue).** Gain 3 or 5 Money, respectively.
 - **Innovation Department (White).** Advance 1 or 2 spaces, respectively, on the R&D or Mining track. You may choose to advance 1 space on both tracks when gaining the upgraded Department bonus.
 - **Foreign Affairs Department (Yellow).** Gain 2 or 4 Victory points, respectively.
+
+### Investment and Contracts Action
+
+1–3 times:
+
+- Spend 1 Goods of any type to advance 2 spaces on the Finance track or fulfill a Contract, for 1 time.
+- Spend 1 and 2 Goods of different types to advance 2 spaces on the Finance track or fulfill a Contract, for 2 times (in any combination).
+- Spend 1, 2, and 3 Goods of different types to advance 2 spaces on the Finance track or fulfill a Contract, for 3 times (in any combination).
+- Two of the Contracts show special conditions. In order to fulfill such a Contract, among the Goods spent for this action, there should be at least one 2-level Goods or 3-level Goods, depending on the Goods icons shown on the respective Contract token. Each of these Contracts grants you 1 Department bonus of your choice.
+
+*Note: Investment and Contracts action is the main way to increase the Money income. Also, fulfilling Contracts allows you to get the necessary Resources at the right time.*
+
+*Example: The Pink player takes a black Worker to perform the Investment and Contracts action. They spend 2 Goods of Paper and 1 Goods of Lenses to advance 2 spaces on the Finance track and fulfill 1 Contract. The Pink player chooses the Contract that requires Lenses or Bento among spent Goods, and thus gains a Department bonus of their choice — that is 5 Money for the Blue Department bonus. After that, the Pink player places the fulfilled Contract in the leftmost empty space at the bottom of their Zaibatsu.*
+
+#### Fulfill a Contract
+
+Do the following in order:
+
+1. Choose an available Contract.
+2. Gain all bonuses shown on that Contract token.
+3. Place the fulfilled Contract token in the leftmost empty dedicated space at the bottom of your Zaibatsu. (You may place the fulfilled Contract tokens face down, if you wish.)
+
+**Additional Rules and Clarifications**
+
+- No matter what Factory, if any, is above the space where you place the fulfilled Contract. Factories and Contracts are not related to each other in any way.
+- You may not fulfill a fulfilled Contract again.
+
+### Local Markets Action
+
+1–3 times (in one Region): Serve a Local Market.
+
+*Note: Local Markets action is the main way to score points and win the game. However, you may also perform this action to get the necessary Resources at the right time and effectively develop your Zaibatsu.*
+
+*Example: The Pink player takes a yellow Worker to perform the Local Markets action. They decide to place 3 Influence tokens in the Region with Iron bonus to gain 6 Iron in total. The Pink player spends 3 Goods from the Paper Factory and 1 Goods from the Lenses Factory. There is only 1 appropriate Influence space corresponding to Paper in the chosen Region, so the Pink player places their 1-valued token and immediately after that replaces it with their 2-valued token. Finally, they place their 3-valued token on the space corresponding to Lenses.*
+
+*Example: The Pink player takes a yellow Worker to perform the Local Markets action. They decide to place 3 Influence tokens in the Region with Money bonus to gain 6 Victory points in total. The Pink player spends 3 Goods from the Paper Factory and 1 Goods from the Lenses Factory.*
+
+#### Serve a Local Market
+
+Do the following in order:
+
+1. Choose an appropriate Influence space in any Local Market of one Region.
+2. Spend 1–3 Goods of the type shown on the adjacent side of the Demand tile.
+3. Place your available Influence token with an appropriate value on a chosen Influence space.
+4. Gain either the respective Region bonus (2 Silk / 2 Iron / 2 Coal / 3 Money) or 2 Victory points.
+
+**Additional Rules and Clarifications**
+
+- To determine an appropriate value of an Influence token, check the table on the Main board:
+  - For 1-level Goods, take a token with 1/2/3 Influence value for 1/2/3 Goods spent.
+  - For 2-level Goods, take a token with 3/4/5 Influence value for 1/2/3 Goods spent.
+  - For 3-level Goods, take a token with 5/6/7 Influence value for 1/2/3 Goods spent.
+- To choose an appropriate Influence space, check the following conditions:
+  - If the space is empty, you may place your Influence token on it. Ignore the Influence values preprinted on the Main board.
+  - If the space is occupied by a token (opponent's or yours), and the Influence value of the token you are about to place is **higher**, you may replace the current token with the new one. Immediately return the old token to its owner.
+  - If the space is occupied by a token (opponent's or yours), and the Influence value of the token you are about to place is **equal or lower**, you **may not** place the new token on that space.
+- You may not place the Influence tokens which do not match the level of the Goods.
+- You may replace your own Influence tokens, even if you have placed them with the same action. It may be helpful to gain more Region bonuses.
+- There is a limit of available Influence spaces per Local Market (2/3/4 spaces for a 2/3/4-player game, respectively). However, in a 2/3-player game, you may choose any 2/3 spaces in the Local Market to occupy. If the limit is reached, you may still replace old tokens with new (higher-valued) ones. In a 2/3-player game, you may also place a token on the 3rd/4th empty space in the Local Market, but that token must have a higher value than at least one of the tokens in that Local Market. If you do, immediately return any token with the lowermost Influence value from that Local Market to its owner, so that the limit is not exceeded after the new token is placed.
