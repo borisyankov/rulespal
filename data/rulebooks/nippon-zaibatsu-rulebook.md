@@ -392,8 +392,6 @@ Do the following in order:
 
 *Example: The Pink player takes a yellow Worker to perform the Local Markets action. They decide to place 3 Influence tokens in the Region with Iron bonus to gain 6 Iron in total. The Pink player spends 3 Goods from the Paper Factory and 1 Goods from the Lenses Factory. There is only 1 appropriate Influence space corresponding to Paper in the chosen Region, so the Pink player places their 1-valued token and immediately after that replaces it with their 2-valued token. Finally, they place their 3-valued token on the space corresponding to Lenses.*
 
-*Example: The Pink player takes a yellow Worker to perform the Local Markets action. They decide to place 3 Influence tokens in the Region with Money bonus to gain 6 Victory points in total. The Pink player spends 3 Goods from the Paper Factory and 1 Goods from the Lenses Factory.*
-
 #### Serve a Local Market
 
 Do the following in order:
@@ -416,3 +414,235 @@ Do the following in order:
 - You may not place the Influence tokens which do not match the level of the Goods.
 - You may replace your own Influence tokens, even if you have placed them with the same action. It may be helpful to gain more Region bonuses.
 - There is a limit of available Influence spaces per Local Market (2/3/4 spaces for a 2/3/4-player game, respectively). However, in a 2/3-player game, you may choose any 2/3 spaces in the Local Market to occupy. If the limit is reached, you may still replace old tokens with new (higher-valued) ones. In a 2/3-player game, you may also place a token on the 3rd/4th empty space in the Local Market, but that token must have a higher value than at least one of the tokens in that Local Market. If you do, immediately return any token with the lowermost Influence value from that Local Market to its owner, so that the limit is not exceeded after the new token is placed.
+
+## Consolidation
+
+You may choose a Consolidation if you have at least 1 Worker in your Workers area.
+
+To make a Consolidation, take the following steps in order:
+
+**A. Favor Token**
+
+1. Take a Favor token to the right of the topmost Worker in your Workers area. You may take a lower-level token if there are no respective tokens (or if you wish to).
+2. Place the taken Favor token on one of the Personal Objective spaces in the respective area of your Zaibatsu.
+
+Once the Favor token has been placed on one of your Personal Objective spaces, it cannot be moved or discarded unless otherwise specified. Each Personal Objective space may contain only one Favor token.
+
+**B. Discard all Money and Coal you have.**
+
+**C. Departments and Income**
+
+1. Gain a Department bonus corresponding to the color of the lowermost Worker in your Workers area.
+2. If you have at least 4 Workers in your Workers area, and your topmost and lowermost Workers have different colors, gain a Department bonus corresponding to the color of the topmost Worker, too.
+3. Gain Coal according to your Mining level.
+4. Gain Money according to your Finance level.
+
+*Note: Workers in grey spaces never grant Department bonuses.*
+
+**D. Salaries and Clean-Up**
+
+1. You must spend 3 Money per each different color of Workers (including Expert Workers) in your Workers area, but you may not spend the last 1 Money.
+2. If you do not have enough Money to pay the salaries, lose 1 Victory point for each 1 Money you have to pay but cannot (including the last mentioned above).
+3. Return all Expert Workers from your Workers area to their dedicated spaces in the Iwakura Mission area.
+4. Return all standard Workers from your Workers area to the bag.
+
+*Note: Expert Workers are treated as any other Workers in terms of Consolidation.*
+
+*Example: The Purple player makes a Consolidation. They decide to place the 1-level Favor token on the R&D Personal Objective space because they have already advanced on the R&D track. After that, the Purple player discards all their Money and Coal. Then, they gain 3 Money for the Blue Department bonus and may choose to advance 1 space on the R&D track or the Mining track for the White Department bonus. Next, the Purple player gains 2 Coal and 12 Money as Income. Finally, they pay salaries of 6 Money and return all Workers from their Workers area to the bag.*
+
+## End of the Round
+
+At the end of the round, take the following steps in order:
+
+1. If the Round marker is on the **rightmost space of the current Period**, immediately perform the Influence Scoring (see below).
+2. Advance the Round marker 1 space.
+3. Add 1 random Worker from the bag to each Hiring space if there are less than 3 Workers on that space. Do not discard any remaining Workers before adding new ones.
+4. Fill the rows of the Worker Queue with random Workers from the bag, as during setup:
+   - In a 4-player game, place Workers in all three areas of the Worker Queue.
+   - In a 3-player game, place Workers in the top and middle areas of the Worker Queue.
+   - In a 2-player game, place Workers only in the top area of the Worker Queue.
+5. Now, the player to the left of the active player can start their turn.
+
+### Final Rounds
+
+If the Round marker reaches the first light space (occupied by the second Round marker), the active player gives the second Round marker to the player to their left.
+
+- From now on, each player has **3 turns** until the end of the game.
+- When all players, starting with the player with the Round marker, have taken 1 turn each, the current round ends — advance the Round marker 1 space, but do not add Workers to the Hiring spaces and do not fill the rows of the Worker Queue.
+
+## Influence Scoring
+
+There are **3 Influence Scorings** in the game. At the end of each Period, perform the Influence Scoring according to the respective Victory point values preprinted on the Round track. Score each Region one by one from left to right. Take the following steps in order:
+
+1. Calculate the total Influence (gained from Influence tokens and Trains) in the Region for each player. *Each Train usually grants its owner 2 Influence in the Region if that player has at least 1 Influence token in that Region. Otherwise, those Trains grant no Influence.*
+2. Calculate the total Influence of Overseas Companies (preprinted values not covered by players' Influence tokens).
+3. Compare Influence of each player and Overseas Companies to each other.
+4. The first place earns the highest Victory point value, the second place — the second Victory point value, and so on.
+
+If there is a tie, each tied player earns a sum of Victory points for all tied places, divided by the number of tied players and rounded down. Each Victory point value is scored only once, so if 2 players are tied for the 1st place, the 3rd player earns Victory points for the 3rd place, not for the 2nd. *(In extremely rare cases, if 2 players are tied for the 4th place, they earn Victory points for the 4th place, divided by 2 and rounded down.)*
+
+Overseas Companies participate in Influence Scoring but do not count their total score.
+
+In a 2-player game, the 2nd Victory point value is not available. So the 2nd place earns the 3rd Victory point value, and the 3rd place — the 4th Victory point value.
+
+5. If the Round marker is already on the **last space of the Round track**, immediately proceed to the End of the Game (see p. 19). Otherwise, proceed to **step 2 of the End of the Round** above.
+
+*Example: In a 4-player game, players have already scored the Region with Silk bonus. Now, they are about to score the Region with Iron bonus. The Purple player has 3 Influence, the Pink and Green players have 5 Influence each, the Orange player has no Influence, and Overseas Companies have 6 Influence in that Region. As a result, the Pink and the Green players are tied for the 2nd place and earn 7 Victory points each, the Purple player earns 2 Victory points, and the Orange player earns nothing. After scoring that Region, players proceed to the next one.*
+
+## End of the Game
+
+### Final Consolidation
+
+The game is about to end. Prior to the Final Scoring, each player makes a Consolidation as normal (see p. 17), but all players do it simultaneously. A player must make the Final Consolidation, even if they have no Workers in their Workers area.
+
+After that, the game ends, and the players proceed to the Final Scoring.
+
+### Final Scoring
+
+Calculate Victory points for the development of your Zaibatsu (add them to the Victory points you have earned during the game) by taking the following steps in order:
+
+**A. Personal Objectives Scoring**
+
+Check each Personal Objective space in the respective area of your Zaibatsu.
+
+- **For Ships, Machines, Trains; R&D, Mining, and Finance tracks.** Earn 5/8/10 Victory points for each 1/2/3-level Favor token, respectively, if you have reached or passed only the **lower** threshold. Or earn **10/16/20** Victory points for each 1/2/3-level Favor token, respectively, if you have reached or passed the **higher** threshold. For Ships, Machines, and Trains, the threshold is considered reached when the respective space is empty.
+- **For Factories and Contracts.** Earn as many Victory points as shown below/above the **rightmost** built Factory / fulfilled Contract. The **1st/2nd/3rd** Victory point value corresponds to the **1/2/3-level** Favor token, respectively.
+
+**B. Resources, Goods, and Money Scoring**
+
+Earn 1 Victory point for each 3 Goods/Coal/Silk/Iron you have in total.
+Earn 1 Victory point for each 5 Money you have.
+
+Now, the game ends. The player with the highest final score is the winner. If there is a tie, the tied player who took their turn later is the winner.
+
+*Example: Each player has already made the Final Consolidation. The Purple player has earned 109 Victory points during the game. Now, the Purple player sums up Victory points for their Personal Objectives and earns 73 Victory points. Then, they earn 4 Victory points for the remaining Goods/Silk/Iron and 2 Victory points for the remaining Money. The final score of the Purple player is 188 Victory points.*
+
+## Late-Game Factories Module
+
+This module contains 6 additional Factories for the late game. These Factories are Goals-like: the better you fulfill the conditions shown on the Factory tiles, the more Victory points, resources, or other benefits you gain. Players compete for each Factory, balancing between early building with little benefit and later building with more benefit but there is a chance that another player will get that Factory earlier.
+
+The setup for playing with this module is described in step 4b on p. 5. We do not recommend using this module in your first games or mixing it up with the Common Goals module, as they have similar purposes.
+
+## Common Goals Module
+
+This module contains an additional board and a set of Common Goal tokens. It increases the competitiveness of the game.
+
+The setup for playing with this module is described in step 6a on p. 5. We do not recommend using this module in your first games or mixing it up with the Late-Game Factories module, as they have similar purposes.
+
+### Gameplay
+
+At the end of each Period, after step 4 of the Influence Scoring, a player gains a reward for each Common Goal where they lead or share the lead with other players. In Periods I and II, the player may choose any one reward from those shown below. In Period III, each Common Goal corresponds to a specific reward below.
+
+- The player has built the most Ships/Machines/Trains.
+- The player has advanced the farthest along the R&D/Mining/Finance track.
+- The player has built the most Factories.
+- The player has fulfilled the most Contracts.
+- The player has the most Influence tokens in the Regions on the Main board.
+
+## Solo Mode
+
+In Solo mode, you compete against Automa. It has its own Zaibatsu and simulates a player's behavior in a simplified way. To win, you should achieve all of the goals selected for the game. After that, check how well you played.
+
+### Changes in Setup
+
+Perform setup for a 2-player game, with the following changes:
+
+1. **Common Setup.** In step 3a, take the first removed set of Workers and randomly place 4 of them in the Regions on the Main board. Return the 2 remaining Workers from the first set to the box. Place the second removed set near the Main board.
+2. **Common Setup.** Do not take steps 4b and 6a.
+3. **Individual Setup.** Do not set up Zaibatsu for Automa. Take only 1 Zaibatsu board and respective components for yourself.
+4. **Starting Conditions.** Set only 2 random pairs of Starting tokens A + B, choose and take one of them, and return another to the box. You are always the first player.
+
+### Automa Setup
+
+The Automa board has a Priority area (spaces for Worker meeples), a Goals area (spaces for Solo Goal tokens), Trains area, Influence area, and an Actions area (a space for the Action pile and a space for revealed Action tokens).
+
+1. Place the Automa board near the Main board.
+2. Choose a Difficulty level and take:
+   - 1 random Solo Goal token for Easy level.
+   - 2 random Solo Goal tokens for Normal level.
+   - 3 random Solo Goal tokens for Hard level.
+   Then, place all taken Solo Goal tokens in the dedicated spaces on the left side of the Automa board.
+3. Choose an unused color and place all the Trains and Influence tokens of that color in the dedicated areas to the right of the Automa board.
+4. Take the second removed set of Workers and randomly place all of them in the Priority area of the Automa board.
+5. Shuffle all 9 Action tokens into the pile. Place the pile face down on the dedicated space of the Automa board.
+
+### Gameplay (Solo)
+
+You play your turns normally. On Automa's turn, take the following steps for Automa in order:
+
+**A. Reveal an Action token** from the top of the pile and place it on the dedicated space to the right.
+
+**B. Return a Worker** from the Hiring space above the respective actions to the bag. Select that Worker by the color following the Priority left to right.
+
+The respective actions are determined by the icons on the revealed Action token.
+
+If the revealed Action token shows the Workers icon, find the Hiring space with the most Workers. That space determines the respective actions for that token. (In case of a tie, select the Hiring space with the most Workers in the direction of the arrow shown on that token. If the arrow points to the left, select the leftmost tied space; if it points to the right, select the rightmost tied space.)
+
+**C. If the revealed Action token corresponds to the Trains action or the Local Markets action,** determine a Region to perform the respective Automa action (see below).
+
+If the revealed Action token shows the Workers icon, and the determined action for that token is either Trains or Local Markets, Automa performs that action, but only if the Difficulty level of that token does not exceed the Difficulty level chosen for the game. Otherwise, Automa does not perform an action. (The Difficulty level of the Action token is determined by its color and corresponds to the number of Goal tokens taken for the game.)
+
+Thus, the higher the Difficulty level, the more aggressively Automa plays by performing more actions that affect you.
+
+**D. At the end of the Automa's turn, if there are no Action tokens in the pile,** update the Priority area and the Action pile by repeating steps 4 and 5 of the Automa setup.
+
+#### Determining a Region
+
+Following its current Priority, Automa aims to gain more influence in a Region than you.
+
+Following the Priority, check each Region:
+
+1. If Automa has equal or less Influence in the Region than you, it performs the Automa action in that Region.
+2. If Automa has more Influence in the Region than you, it proceeds to the next Region (following the Priority) and checks the condition in step 1.
+3. If Automa has equal or less Influence in the Region than you, but it cannot perform the Automa action in that Region (for example, there are no available spaces for Influence tokens or Trains), it proceeds to the next Region (following the Priority) and checks the condition in step 1.
+4. If Automa has more Influence in all Regions than you, it performs the Automa action in the first Region according to the Priority.
+5. If there are no available spaces in any Region, Automa does nothing.
+
+**Trains Action**
+
+Automa takes a Train from its Trains area and places it on the topmost empty dedicated space in the determined Region. If Automa runs out of Trains, it does nothing with the Trains action.
+
+Unlike your Trains, the Automa's Trains grant Influence anyway, even if Automa has no Influence tokens in the Region.
+
+**Local Markets Action**
+
+1. Depending on the current Period, Automa selects a row in the Influence area of the Automa board:
+   - Bottom row for Period I. Influence tokens from that row relate to all 1-level Goods (Paper and Cotton) at the same time.
+   - Middle row for Period II. Influence tokens from that row relate to all 2-level Goods (Lenses and Bento) at the same time.
+   - Top row for Period III. Influence tokens from that row relate to all 3-level Goods (Clocks and Bulbs) at the same time.
+
+If the row of the current Period has run out of Influence tokens, Automa selects the row above. If Automa runs out of Influence tokens, it does nothing with the Local Markets action.
+
+2. In the determined Region, Automa tries to place the leftmost (lowest-valued) Influence token from the respective row on the available Influence space. That space must match one of the two respective types of Goods (no matter which one). If there are no appropriate Influence spaces with matching types of Goods, Automa must determine another Region.
+
+Thus, Automa checks the possibility to place its Influence token in the determined Region in the following order:
+
+1. To replace your highest-valued Influence token (on available space). The replaced token immediately returns to your supply as normal.
+2. To cover the highest-valued preprinted space.
+3. To place its Influence token on the leftmost space, if there are 2 or more appropriate spaces.
+
+Automa never replaces its own Influence tokens. If there are no available Influence spaces in the Region, Automa determines another Region.
+
+*Note: As in a 2-player game, there is a limit of 2 available Influence spaces per Local Market (see p. 16). You may replace Automa's Influence tokens as normal — immediately return the replaced Automa's tokens to the box.*
+
+*Example: On its turn, Automa reveals an Action token with the Workers icon. Automa finds the Hiring space with the most Workers. It is the space corresponding to the Local Markets action. Automa follows its Priority and returns a white Worker from that Hiring space.*
+
+*The Difficulty level is Hard, which means Automa performs the action (not only returns a Worker). It checks Regions (following the Priority) to find a Region where it does not surpass the player by Influence. In the blue Region (with Iron), Automa has more Influence than the player. The yellow Region does not exist. In the white Region (with Silk), Automa has 2 Influence (because its Trains always count as 2 Influence each), and the player has 4 Influence. Automa must place the 4-valued Influence token because of Period II, but it cannot replace the player's 4-valued token with the equal-valued token. Other two appropriate spaces (corresponding to Lenses or Bento) have no value, so Automa selects the leftmost of them. Now Automa surpasses the player with its 6 total Influence in the white Region.*
+
+### Influence Scoring, and the End of the Game (Solo)
+
+Score Influence in each Region as in normal 2-player game (ignoring the 2nd Victory point value on the Round track).
+
+When the game is about to end, take the following steps in order:
+
+1. If you have not achieved all the Solo Goals taken for the game, you immediately lose and should not perform the Final Scoring.
+2. If you have achieved all taken Solo Goals, perform the Final Consolidation and then the Final Scoring as normal.
+3. Check your final score in the table below to know how well you played.
+
+| Score | Result |
+| --- | --- |
+| 250+ | Emperor's favorite |
+| 220+ | Brilliant |
+| 190+ | Significant |
+| 160+ | Forgetable |
+| 0+ | Unessential |
