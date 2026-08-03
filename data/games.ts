@@ -2482,6 +2482,11 @@ const assets: Game[] = [
     alternativeNames: ['Imhotep: Builder of Egypt'],
   },
   {
+    bggid: 24181,
+    name: 'Imperial',
+    code: 'imperial',
+  },
+  {
     bggid: 154203,
     name: 'Imperial Settlers',
     code: 'imperial-settlers',
