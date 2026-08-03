@@ -3926,6 +3926,11 @@ const assets: Game[] = [
     shortName: 'Piepmatz',
   },
   {
+    bggid: 453584,
+    name: 'Pili Pili',
+    code: 'pili-pili',
+  },
+  {
     bggid: 415054,
     name: 'Piña Coladice',
     code: 'pina-coladice',
