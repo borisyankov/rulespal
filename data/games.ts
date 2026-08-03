@@ -4317,6 +4317,11 @@ const assets: Game[] = [
     shortName: 'SETI',
   },
   {
+    bggid: 408180,
+    name: 'Shackleton Base: A Journey to the Moon',
+    code: 'shackleton-base',
+  },
+  {
     bggid: 15062,
     name: 'Shadows over Camelot',
     code: 'shadows-over-camelot',
