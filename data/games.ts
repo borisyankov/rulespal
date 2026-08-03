@@ -3912,6 +3912,11 @@ const assets: Game[] = [
     code: 'ragusa',
   },
   {
+    bggid: 301880,
+    name: 'Raiders of Scythia',
+    code: 'raiders-of-scythia',
+  },
+  {
     bggid: 170042,
     name: 'Raiders of the North Sea',
     code: 'raiders-of-the-north-sea',
