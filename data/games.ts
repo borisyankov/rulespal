@@ -4673,6 +4673,11 @@ const assets: Game[] = [
     alternativeNames: ['Sushi Roll: The Sushi Go! Dice Game'],
   },
   {
+    bggid: 146508,
+    name: 'T.I.M.E Stories',
+    code: 'time-stories',
+  },
+  {
     bggid: 316786,
     name: 'Tabannusi: Builders of Ur',
     code: 'tabannusi',
