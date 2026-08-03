@@ -5092,6 +5092,11 @@ const assets: Game[] = [
     code: 'marco-polo',
   },
   {
+    bggid: 331106,
+    name: 'The Witcher: Old World',
+    code: 'witcher-old-world',
+  },
+  {
     bggid: 188920,
     name: 'This War of Mine: The Board Game',
     code: 'this-war-of-mine',
