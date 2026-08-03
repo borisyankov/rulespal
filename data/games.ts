@@ -138,6 +138,11 @@ const assets: Game[] = [
     code: 'aeons-end-legacy',
   },
   {
+    bggid: 270633,
+    name: "Aeon's End: The New Age",
+    code: 'aeons-end-the-new-age',
+  },
+  {
     bggid: 218417,
     name: "Aeon's End: War Eternal",
     code: 'aeons-end-war-eternal',
