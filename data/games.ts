@@ -116,6 +116,11 @@ const assets: Game[] = [
     code: 'above-and-below',
   },
   {
+    bggid: 5,
+    name: 'Acquire',
+    code: 'acquire',
+  },
+  {
     bggid: 268504,
     name: "Adventure Tactics: Domianne's Tower",
     code: 'adventure-tactics-domiannes-tower',
