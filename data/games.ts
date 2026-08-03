@@ -279,6 +279,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 397393,
+    name: 'Altered',
+    code: 'altered',
+  },
+  {
     bggid: 234487,
     name: 'Altiplano',
     code: 'altiplano',
