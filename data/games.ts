@@ -57,6 +57,11 @@ const assets: Game[] = [
     code: '7-wonders-architects',
   },
   {
+    bggid: 446231,
+    name: '7 Wonders Dice',
+    code: '7-wonders-dice',
+  },
+  {
     bggid: 173346,
     name: '7 Wonders Duel',
     code: '7-wonders-duel',
