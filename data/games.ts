@@ -2622,6 +2622,11 @@ const assets: Game[] = [
     code: 'kanagawa',
   },
   {
+    bggid: 109276,
+    name: "Kanban: Driver's Edition",
+    code: 'kanban-drivers-edition',
+  },
+  {
     bggid: 284378,
     name: 'Kanban EV',
     code: 'kanban-ev',
