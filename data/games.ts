@@ -782,6 +782,11 @@ const assets: Game[] = [
     code: 'bunny-kingdom',
   },
   {
+    bggid: 172081,
+    name: 'Burgle Bros.',
+    code: 'burgle-bros',
+  },
+  {
     bggid: 322656,
     name: 'burncycle',
     code: 'burncycle',
