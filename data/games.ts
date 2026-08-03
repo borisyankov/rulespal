@@ -4298,6 +4298,11 @@ const assets: Game[] = [
     code: 'sail',
   },
   {
+    bggid: 9217,
+    name: 'Saint Petersburg',
+    code: 'saint-petersburg',
+  },
+  {
     bggid: 175549,
     name: 'Salem 1692',
     code: 'salem-1692',
