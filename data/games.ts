@@ -1428,6 +1428,11 @@ const assets: Game[] = [
     shortName: 'Dead of Winter',
   },
   {
+    bggid: 193037,
+    name: 'Dead of Winter: The Long Night',
+    code: 'dead-of-winter-the-long-night',
+  },
+  {
     bggid: 276182,
     name: 'Dead Reckoning',
     code: 'dead-reckoning',
