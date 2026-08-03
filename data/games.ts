@@ -4066,6 +4066,11 @@ const assets: Game[] = [
     code: 'queendomino',
   },
   {
+    bggid: 624,
+    name: 'Quoridor',
+    code: 'quoridor',
+  },
+  {
     bggid: 183006,
     name: 'Qwinto',
     code: 'qwinto',
@@ -4737,6 +4742,11 @@ const assets: Game[] = [
     bggid: 162886,
     name: 'Spirit Island',
     code: 'spirit-island',
+  },
+  {
+    bggid: 6644,
+    name: 'Spite & Malice',
+    code: 'spite-and-malice',
   },
   {
     bggid: 148228,
