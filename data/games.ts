@@ -3550,6 +3550,11 @@ const assets: Game[] = [
     code: 'nippon',
   },
   {
+    bggid: 434367,
+    name: 'Nippon: Zaibatsu',
+    code: 'nippon-zaibatsu',
+  },
+  {
     bggid: 12942,
     name: 'No Thanks!',
     code: 'no-thanks',
