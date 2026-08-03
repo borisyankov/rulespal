@@ -2359,6 +2359,11 @@ const assets: Game[] = [
     code: 'honey-buzz',
   },
   {
+    bggid: 338434,
+    name: 'Hoplomachus: Remastered',
+    code: 'hoplomachus-remastered',
+  },
+  {
     bggid: 367498,
     name: 'Horizons of Spirit Island',
     code: 'horizons-of-spirit-island',
