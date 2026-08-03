@@ -116,6 +116,11 @@ const assets: Game[] = [
     code: 'above-and-below',
   },
   {
+    bggid: 155987,
+    name: 'Abyss',
+    code: 'abyss',
+  },
+  {
     bggid: 5,
     name: 'Acquire',
     code: 'acquire',
