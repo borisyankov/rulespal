@@ -3689,6 +3689,11 @@ const assets: Game[] = [
     code: 'palm-island',
   },
   {
+    bggid: 303057,
+    name: 'Pan Am',
+    code: 'pan-am',
+  },
+  {
     bggid: 131287,
     name: 'Panamax',
     code: 'panamax',
