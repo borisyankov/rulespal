@@ -4709,6 +4709,12 @@ const assets: Game[] = [
     alternativeNames: ['Summoner Wars', 'Summoner Wars Second Edition', 'Summoner Wars: Second Edition'],
   },
   {
+    bggid: 93260,
+    name: 'Summoner Wars: Master Set',
+    code: 'summoner-wars-master-set',
+    alternativeNames: ['Summoner Wars (First Edition)'],
+  },
+  {
     bggid: 394334,
     name: 'Sunrise Lane',
     code: 'sunrise-lane',
