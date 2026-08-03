@@ -4686,6 +4686,11 @@ const assets: Game[] = [
     code: 'solarius-mission',
   },
   {
+    bggid: 411255,
+    name: 'Solstis',
+    code: 'solstis',
+  },
+  {
     bggid: 296626,
     name: 'Sonora',
     code: 'sonora',
