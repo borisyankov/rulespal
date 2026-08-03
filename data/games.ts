@@ -3331,6 +3331,11 @@ const assets: Game[] = [
     code: 'mexica',
   },
   {
+    bggid: 446519,
+    name: 'Miams',
+    code: 'miams',
+  },
+  {
     bggid: 124708,
     name: 'Mice and Mystics',
     code: 'mice-and-mystics',
@@ -3705,6 +3710,11 @@ const assets: Game[] = [
     name: 'Ora et Labora',
     code: 'ora-et-labora',
     alternativeNames: ['Ora & Labora'],
+  },
+  {
+    bggid: 424152,
+    name: 'Orapa Mine',
+    code: 'orapa-mine',
   },
   {
     bggid: 245487,
