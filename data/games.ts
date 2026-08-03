@@ -5431,6 +5431,11 @@ const assets: Game[] = [
     code: 'ubongo',
   },
   {
+    bggid: 329500,
+    name: 'Unconscious Mind',
+    code: 'unconscious-mind',
+  },
+  {
     bggid: 401978,
     name: 'Undaunted 2200: Callisto',
     code: 'undaunted-2200-callisto',
