@@ -2149,6 +2149,11 @@ const assets: Game[] = [
     code: 'go',
   },
   {
+    bggid: 9216,
+    name: 'Goa',
+    code: 'goa',
+  },
+  {
     bggid: 298383,
     name: 'Golem',
     code: 'golem',
