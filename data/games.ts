@@ -939,6 +939,11 @@ const assets: Game[] = [
     code: 'candy-land',
   },
   {
+    bggid: 290236,
+    name: 'Canvas',
+    code: 'canvas',
+  },
+  {
     bggid: 328565,
     name: 'Caper: Europe',
     code: 'caper-europe',
