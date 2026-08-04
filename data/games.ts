@@ -525,6 +525,13 @@ const assets: Game[] = [
     code: 'azul-queens-garden',
   },
   {
+    bggid: 256226,
+    name: 'Azul: Stained Glass of Sintra',
+    code: 'azul-stained-glass-of-sintra',
+    shortName: 'Azul: Sintra',
+    alternativeNames: ['Azul Sintra', 'Azul: Vitrales de Sintra'],
+  },
+  {
     bggid: 287954,
     name: 'Azul: Summer Pavilion',
     code: 'azul-summer-pavilion',
