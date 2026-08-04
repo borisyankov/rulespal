@@ -2791,6 +2791,14 @@ const assets: Game[] = [
     code: 'imperial-settlers',
   },
   {
+    bggid: 270844,
+    name: 'Imperial Settlers: Empires of the North',
+    code: 'empires-of-the-north',
+    shortName: 'Empires of the North',
+    alternativeNames: ['Empires of the North'],
+    extraSources: ['faq'],
+  },
+  {
     bggid: 206480,
     name: 'Imperial Struggle',
     code: 'imperial-struggle',
