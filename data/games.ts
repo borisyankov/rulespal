@@ -1547,6 +1547,13 @@ const assets: Game[] = [
     code: 'cyclades',
   },
   {
+    bggid: 380619,
+    name: 'Cyclades: Legendary Edition',
+    code: 'cyclades-legendary-edition',
+    shortName: 'Cyclades: Legendary Ed.',
+    alternativeNames: ['Cyclades Legendary Edition'],
+  },
+  {
     bggid: 197831,
     name: 'Dark Souls: The Board Game',
     code: 'dark-souls',
