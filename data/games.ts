@@ -3094,6 +3094,11 @@ const assets: Game[] = [
     code: 'lacuna',
   },
   {
+    bggid: 96913,
+    name: 'Lancaster',
+    code: 'lancaster',
+  },
+  {
     bggid: 336929,
     name: 'Land vs Sea',
     code: 'land-vs-sea',
