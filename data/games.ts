@@ -2473,6 +2473,11 @@ const assets: Game[] = [
     code: 'habitats',
   },
   {
+    bggid: 269144,
+    name: 'Hadara',
+    code: 'hadara',
+  },
+  {
     bggid: 304783,
     name: "Hadrian's Wall",
     code: 'hadrians-wall',
