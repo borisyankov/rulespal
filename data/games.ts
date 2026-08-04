@@ -1608,6 +1608,11 @@ const assets: Game[] = [
     alternativeNames: ['Dice Throne: Season Two'],
   },
   {
+    bggid: 1,
+    name: 'Die Macher',
+    code: 'die-macher',
+  },
+  {
     bggid: 153318,
     name: 'Dimension',
     code: 'dimension',
