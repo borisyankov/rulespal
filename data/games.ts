@@ -4247,6 +4247,12 @@ const assets: Game[] = [
     code: 'port-royal-big-box',
   },
   {
+    bggid: 180974,
+    name: 'Potion Explosion',
+    code: 'potion-explosion',
+    alternativeNames: ['Pozioni Esplosive'],
+  },
+  {
     bggid: 2651,
     name: 'Power Grid',
     code: 'power-grid',
