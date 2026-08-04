@@ -2052,6 +2052,13 @@ const assets: Game[] = [
     shortName: 'Fireball Island',
   },
   {
+    bggid: 138161,
+    name: 'Firefly: The Game',
+    code: 'firefly-the-game',
+    alternativeNames: ['Firefly'],
+    extraSources: ['story-cards'],
+  },
+  {
     bggid: 347703,
     name: 'First Rat',
     code: 'first-rat',
