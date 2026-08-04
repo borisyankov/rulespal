@@ -5724,6 +5724,11 @@ const assets: Game[] = [
     code: 'tiny-epic-galaxies',
   },
   {
+    bggid: 265736,
+    name: 'Tiny Towns',
+    code: 'tiny-towns',
+  },
+  {
     bggid: 378983,
     name: 'Tipperary',
     code: 'tipperary',
