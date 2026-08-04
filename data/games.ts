@@ -3183,6 +3183,13 @@ const assets: Game[] = [
     alternativeNames: ['Mage Knight Board Game'],
   },
   {
+    bggid: 101721,
+    name: 'Mage Wars Arena',
+    code: 'mage-wars-arena',
+    alternativeNames: ['Mage Wars'],
+    extraSources: ['codex'],
+  },
+  {
     bggid: 209778,
     name: 'Magic Maze',
     code: 'magic-maze',
