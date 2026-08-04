@@ -1034,6 +1034,12 @@ const assets: Game[] = [
     shortName: 'Cellulose',
   },
   {
+    bggid: 232832,
+    name: 'Century: Golem Edition',
+    code: 'century-golem-edition',
+    alternativeNames: ['Century Golem', 'Century: Édition Golem'],
+  },
+  {
     bggid: 209685,
     name: 'Century: Spice Road',
     code: 'century-spice-road',
