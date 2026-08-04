@@ -5775,6 +5775,12 @@ const assets: Game[] = [
     code: 'thunder-road-vendetta',
   },
   {
+    bggid: 21790,
+    name: 'Thurn and Taxis',
+    code: 'thurn-and-taxis',
+    alternativeNames: ['Thurn und Taxis'],
+  },
+  {
     bggid: 215,
     name: 'Tichu',
     code: 'tichu',
