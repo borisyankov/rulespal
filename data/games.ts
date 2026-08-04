@@ -4951,6 +4951,14 @@ const assets: Game[] = [
     shortName: 'Space Empires',
   },
   {
+    bggid: 54625,
+    name: 'Space Hulk (Third Edition)',
+    code: 'space-hulk-third-edition',
+    shortName: 'Space Hulk',
+    alternativeNames: ['Space Hulk', 'Space Hulk 3rd Edition'],
+    extraSources: ['missions'],
+  },
+  {
     bggid: 71721,
     name: 'Space Hulk: Death Angel – The Card Game',
     shortName: 'Death Angel',
