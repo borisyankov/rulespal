@@ -691,6 +691,12 @@ const assets: Game[] = [
     alternativeNames: ['Czarna Orkiestra', 'Orquesta Negra', 'Atentát na Hitlera'],
   },
   {
+    bggid: 239942,
+    name: 'Black Rose Wars',
+    code: 'black-rose-wars',
+    extraSources: ['codex-arcanum'],
+  },
+  {
     bggid: 262215,
     name: 'Blackout: Hong Kong',
     code: 'blackout-hong-kong',
