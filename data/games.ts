@@ -1953,6 +1953,11 @@ const assets: Game[] = [
     code: 'escape-plan',
   },
   {
+    bggid: 424981,
+    name: 'Eternal Decks',
+    code: 'eternal-decks',
+  },
+  {
     bggid: 206718,
     name: 'Ethnos',
     code: 'ethnos',
