@@ -381,7 +381,7 @@ const assets: Game[] = [
     code: 'apples-to-apples',
   },
   {
-    bggid: 155873,
+    bggid: 159508,
     name: 'AquaSphere',
     code: 'aquasphere',
     alternativeNames: ['Aqua Sphere'],
