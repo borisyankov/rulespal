@@ -5780,6 +5780,12 @@ const assets: Game[] = [
     code: 'thunder-road-vendetta',
   },
   {
+    bggid: 215341,
+    name: 'Thunderstone Quest',
+    code: 'thunderstone-quest',
+    extraSources: ['questbook'],
+  },
+  {
     bggid: 21790,
     name: 'Thurn and Taxis',
     code: 'thurn-and-taxis',
