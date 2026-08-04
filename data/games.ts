@@ -2595,6 +2595,14 @@ const assets: Game[] = [
     alternativeNames: ['Hero Quest', 'HeroQuest Game System'],
   },
   {
+    bggid: 11170,
+    name: 'Heroscape Master Set: Rise of the Valkyrie',
+    code: 'heroscape-rise-of-the-valkyrie',
+    shortName: 'Heroscape: Rise of the Valkyrie',
+    alternativeNames: ['HeroScape', 'Heroscape Master Set 1', 'Rise of the Valkyrie'],
+    extraSources: ['scenarios'],
+  },
+  {
     bggid: 10659,
     name: 'Hex Hex',
     code: 'hex-hex',
