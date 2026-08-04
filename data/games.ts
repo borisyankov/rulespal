@@ -5378,6 +5378,14 @@ const assets: Game[] = [
     alternativeNames: ['Lord of the Rings: The Card Game'],
   },
   {
+    bggid: 349067,
+    name: 'The Lord of the Rings: The Card Game – Revised Core Set',
+    code: 'lord-of-the-rings-card-game-revised',
+    shortName: 'LotR LCG (Revised)',
+    alternativeNames: ['The Lord of the Rings LCG Revised Core Set'],
+    extraSources: ['rules-reference'],
+  },
+  {
     bggid: 18833,
     name: 'The Lord of the Rings: The Confrontation',
     code: 'lord-of-the-rings-the-confrontation',
