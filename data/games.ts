@@ -5042,6 +5042,11 @@ const assets: Game[] = [
     code: 'steam',
   },
   {
+    bggid: 161614,
+    name: 'Stockpile',
+    code: 'stockpile',
+  },
+  {
     bggid: 91873,
     name: 'Strasbourg',
     code: 'strasbourg',
