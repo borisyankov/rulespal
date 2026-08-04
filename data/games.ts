@@ -3110,6 +3110,11 @@ const assets: Game[] = [
     code: 'long-shot-the-dice-game',
   },
   {
+    bggid: 222509,
+    name: 'Lords of Hellas',
+    code: 'lords-of-hellas',
+  },
+  {
     bggid: 110327,
     name: 'Lords of Waterdeep',
     code: 'lords-of-waterdeep',
