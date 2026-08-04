@@ -2919,6 +2919,13 @@ const assets: Game[] = [
     code: 'king-of-tokyo',
   },
   {
+    bggid: 293141,
+    name: 'King of Tokyo: Dark Edition',
+    code: 'king-of-tokyo-dark-edition',
+    shortName: 'KoT: Dark Edition',
+    alternativeNames: ['King of Tokyo Dark Edition', 'King of Tokyo - Dark Edition'],
+  },
+  {
     bggid: 107529,
     name: 'Kingdom Builder',
     code: 'kingdom-builder',
