@@ -6012,6 +6012,13 @@ const assets: Game[] = [
     code: 'unmatched-cobble-fog',
   },
   {
+    bggid: 325635,
+    name: 'Unmatched: Little Red Riding Hood vs. Beowulf',
+    code: 'unmatched-little-red-riding-hood-vs-beowulf',
+    shortName: 'Little Red Riding Hood vs. Beowulf',
+    alternativeNames: ['Unmatched: Little Red vs. Beowulf', 'Little Red vs. Beowulf'],
+  },
+  {
     bggid: 274638,
     name: 'Unmatched: Robin Hood vs. Bigfoot',
     code: 'unmatched-robin-hood-vs-bigfoot',
