@@ -5552,6 +5552,11 @@ const assets: Game[] = [
     alternativeNames: ['The Networks'],
   },
   {
+    bggid: 357873,
+    name: "The Old King's Crown",
+    code: 'the-old-kings-crown',
+  },
+  {
     bggid: 193558,
     name: 'The Oracle of Delphi',
     code: 'oracle-of-delphi',
