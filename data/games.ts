@@ -1236,6 +1236,11 @@ const assets: Game[] = [
     code: 'codenames-duet',
   },
   {
+    bggid: 198773,
+    name: 'Codenames: Pictures',
+    code: 'codenames-pictures',
+  },
+  {
     bggid: 325022,
     name: 'Coffee Traders',
     code: 'coffee-traders',
