@@ -3241,6 +3241,11 @@ const assets: Game[] = [
     code: 'lords-of-hellas',
   },
   {
+    bggid: 20437,
+    name: 'Lords of Vegas',
+    code: 'lords-of-vegas',
+  },
+  {
     bggid: 110327,
     name: 'Lords of Waterdeep',
     code: 'lords-of-waterdeep',
