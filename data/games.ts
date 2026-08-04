@@ -1541,6 +1541,14 @@ const assets: Game[] = [
     code: 'darwins-journey',
   },
   {
+    bggid: 175095,
+    name: 'Dawn of the Zeds (Third Edition)',
+    code: 'dawn-of-the-zeds-third-edition',
+    shortName: 'Dawn of the Zeds',
+    alternativeNames: ['Dawn of the Zeds', 'Dawn of the Zeds 3rd Edition'],
+    extraSources: ['dossier'],
+  },
+  {
     bggid: 334986,
     name: 'Daybreak',
     code: 'daybreak',
