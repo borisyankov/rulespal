@@ -1584,6 +1584,13 @@ const assets: Game[] = [
     code: 'dice-throne-season-one',
   },
   {
+    bggid: 244271,
+    name: 'Dice Throne: Season Two – Battle Chest',
+    code: 'dice-throne-season-two',
+    shortName: 'Dice Throne: Season Two',
+    alternativeNames: ['Dice Throne: Season Two'],
+  },
+  {
     bggid: 153318,
     name: 'Dimension',
     code: 'dimension',
