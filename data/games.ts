@@ -3214,6 +3214,12 @@ const assets: Game[] = [
     code: 'lucky-numbers',
   },
   {
+    bggid: 371330,
+    name: 'Luthier',
+    code: 'luthier',
+    alternativeNames: ['Luthier: The Art of the Instrument'],
+  },
+  {
     bggid: 217083,
     name: 'LYNGK',
     code: 'lyngk',
