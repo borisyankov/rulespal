@@ -5196,6 +5196,11 @@ const assets: Game[] = [
     code: 'struggle-of-empires',
   },
   {
+    bggid: 233312,
+    name: 'Stuffed Fables',
+    code: 'stuffed-fables',
+  },
+  {
     bggid: 204472,
     name: 'Sub Terra',
     code: 'sub-terra',
