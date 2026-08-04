@@ -673,6 +673,12 @@ const assets: Game[] = [
     code: 'blackout-hong-kong',
   },
   {
+    bggid: 258210,
+    name: 'Blitzkrieg!: World War Two in 20 Minutes',
+    code: 'blitzkrieg',
+    shortName: 'Blitzkrieg!',
+  },
+  {
     bggid: 29073,
     name: 'Blockers!',
     code: 'blockers',
