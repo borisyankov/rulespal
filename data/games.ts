@@ -3480,6 +3480,13 @@ const assets: Game[] = [
     shortName: 'MicroMacro',
   },
   {
+    bggid: 338834,
+    name: 'MicroMacro: Crime City – Full House',
+    code: 'micromacro-crime-city-full-house',
+    shortName: 'MicroMacro: Full House',
+    alternativeNames: ['MicroMacro Crime City Full House', 'MicroMacro: Crime City 2 – Full House'],
+  },
+  {
     bggid: 346501,
     name: 'Mille Fiori',
     code: 'mille-fiori',
