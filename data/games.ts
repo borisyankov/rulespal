@@ -5119,6 +5119,13 @@ const assets: Game[] = [
     alternativeNames: ['Sushi Roll: The Sushi Go! Dice Game'],
   },
   {
+    bggid: 170771,
+    name: 'Sword & Sorcery: Immortal Souls',
+    code: 'sword-and-sorcery-immortal-souls',
+    shortName: 'Sword & Sorcery',
+    alternativeNames: ['Sword & Sorcery'],
+  },
+  {
     bggid: 146508,
     name: 'T.I.M.E Stories',
     code: 'time-stories',
