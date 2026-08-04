@@ -2080,6 +2080,11 @@ const assets: Game[] = [
     shortName: 'Flash Point',
   },
   {
+    bggid: 420087,
+    name: 'Flip 7',
+    code: 'flip-7',
+  },
+  {
     bggid: 404041,
     name: 'Flowers',
     code: 'flowers',
