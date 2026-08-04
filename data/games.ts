@@ -4058,6 +4058,13 @@ const assets: Game[] = [
     code: 'power-grid',
   },
   {
+    bggid: 155873,
+    name: 'Power Grid Deluxe: Europe/North America',
+    code: 'power-grid-deluxe',
+    shortName: 'Power Grid Deluxe',
+    alternativeNames: ['Power Grid Deluxe'],
+  },
+  {
     bggid: 308765,
     name: 'Praga Caput Regni',
     code: 'praga-caput-regni',
