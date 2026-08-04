@@ -680,6 +680,12 @@ const assets: Game[] = [
     code: 'bitoku',
   },
   {
+    bggid: 156858,
+    name: 'Black Orchestra',
+    code: 'black-orchestra',
+    alternativeNames: ['Czarna Orkiestra', 'Orquesta Negra', 'Atentát na Hitlera'],
+  },
+  {
     bggid: 262215,
     name: 'Blackout: Hong Kong',
     code: 'blackout-hong-kong',
