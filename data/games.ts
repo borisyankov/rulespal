@@ -5234,6 +5234,11 @@ const assets: Game[] = [
     code: 'take-it-easy',
   },
   {
+    bggid: 440540,
+    name: 'Take Time',
+    code: 'take-time',
+  },
+  {
     bggid: 70919,
     name: 'Takenoko',
     code: 'takenoko',
