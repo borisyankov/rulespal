@@ -1986,6 +1986,13 @@ const assets: Game[] = [
     alternativeNames: ['Evolution Climate', 'Evolution: CLIMATE Stand Alone'],
   },
   {
+    bggid: 226522,
+    name: 'EXIT: The Game – Dead Man on the Orient Express',
+    code: 'exit-dead-man-on-the-orient-express',
+    shortName: 'EXIT: Dead Man on the Orient Express',
+    alternativeNames: ['EXIT: Das Spiel – Der Tote im Orient-Express'],
+  },
+  {
     bggid: 203420,
     name: 'EXIT: The Game – The Abandoned Cabin',
     code: 'exit-the-abandoned-cabin',
