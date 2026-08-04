@@ -394,6 +394,11 @@ const assets: Game[] = [
     alternativeNames: ['Aqua Sphere'],
   },
   {
+    bggid: 283393,
+    name: 'Aquatica',
+    code: 'aquatica',
+  },
+  {
     bggid: 140934,
     name: 'Arboretum',
     code: 'arboretum',
