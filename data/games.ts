@@ -1341,6 +1341,14 @@ const assets: Game[] = [
     alternativeNames: ['Command & Colors: Ancients'],
   },
   {
+    bggid: 62222,
+    name: 'Commands & Colors: Napoleonics',
+    code: 'commands-and-colors-napoleonics',
+    shortName: 'C&C: Napoleonics',
+    alternativeNames: ['Command & Colors: Napoleonics', 'Commands and Colors: Napoleonics'],
+    extraSources: ['scenarios'],
+  },
+  {
     bggid: 406652,
     name: 'Compile: Main 1',
     code: 'compile-main-1',
