@@ -4261,6 +4261,11 @@ const assets: Game[] = [
     code: 'qawale',
   },
   {
+    bggid: 176396,
+    name: 'Quadropolis',
+    code: 'quadropolis',
+  },
+  {
     bggid: 232043,
     name: 'Queendomino',
     code: 'queendomino',
