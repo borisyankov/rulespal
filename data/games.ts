@@ -4073,6 +4073,12 @@ const assets: Game[] = [
     code: 'pirates-of-maracaibo',
   },
   {
+    bggid: 150,
+    name: 'PitchCar',
+    code: 'pitchcar',
+    alternativeNames: ['Pitch Car'],
+  },
+  {
     bggid: 125548,
     name: 'Pixel Tactics',
     code: 'pixel-tactics',
