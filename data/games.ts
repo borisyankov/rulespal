@@ -1336,6 +1336,12 @@ const assets: Game[] = [
     alternativeNames: ['Command & Colors: Ancients'],
   },
   {
+    bggid: 406652,
+    name: 'Compile: Main 1',
+    code: 'compile-main-1',
+    alternativeNames: ['Compile'],
+  },
+  {
     bggid: 37231,
     name: 'Comuni',
     code: 'comuni',
