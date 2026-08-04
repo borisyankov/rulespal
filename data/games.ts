@@ -58,6 +58,13 @@ const assets: Game[] = [
     code: '7-wonders',
   },
   {
+    bggid: 316377,
+    name: '7 Wonders (Second Edition)',
+    code: '7-wonders-second-edition',
+    shortName: '7 Wonders 2E',
+    alternativeNames: ['7 Wonders 2nd Edition', '7 Wonders Second Edition'],
+  },
+  {
     bggid: 346703,
     name: '7 Wonders: Architects',
     code: '7-wonders-architects',
