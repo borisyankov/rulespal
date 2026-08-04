@@ -1216,6 +1216,11 @@ const assets: Game[] = [
     code: 'clash-of-cultures-monumental-edition',
   },
   {
+    bggid: 36932,
+    name: 'Claustrophobia',
+    code: 'claustrophobia',
+  },
+  {
     bggid: 22141,
     name: 'Cleopatra and the Society of Architects',
     code: 'cleopatra',
