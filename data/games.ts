@@ -1936,6 +1936,12 @@ const assets: Game[] = [
     alternativeNames: ['Everdell: Farshore', 'Farshore'],
   },
   {
+    bggid: 182134,
+    name: 'Evolution: Climate',
+    code: 'evolution-climate',
+    alternativeNames: ['Evolution Climate', 'Evolution: CLIMATE Stand Alone'],
+  },
+  {
     bggid: 203420,
     name: 'EXIT: The Game – The Abandoned Cabin',
     code: 'exit-the-abandoned-cabin',
