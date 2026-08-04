@@ -4710,6 +4710,13 @@ const assets: Game[] = [
     alternativeNames: ['Sherlock Holmes Consulting Detective'],
   },
   {
+    bggid: 204305,
+    name: 'Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures',
+    code: 'sherlock-holmes-jack-the-ripper',
+    shortName: 'Sherlock Holmes: Jack the Ripper',
+    alternativeNames: ['Sherlock Holmes Consulting Detective: Jack the Ripper'],
+  },
+  {
     bggid: 272380,
     name: 'SHŌBU',
     code: 'shobu',
