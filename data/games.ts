@@ -6379,6 +6379,12 @@ const assets: Game[] = [
     code: 'zombicide',
   },
   {
+    bggid: 286751,
+    name: 'Zombicide: 2nd Edition',
+    code: 'zombicide-2nd-edition',
+    alternativeNames: ['Zombicide 2E', 'Zombicide Second Edition'],
+  },
+  {
     bggid: 176189,
     name: 'Zombicide: Black Plague',
     code: 'zombicide-black-plague',
