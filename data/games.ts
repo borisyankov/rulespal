@@ -4496,6 +4496,13 @@ const assets: Game[] = [
     code: 'san-juan',
   },
   {
+    bggid: 166669,
+    name: 'San Juan (Second Edition)',
+    code: 'san-juan-second-edition',
+    shortName: 'San Juan 2E',
+    alternativeNames: ['San Juan 2nd Edition', 'San Juan Second Edition'],
+  },
+  {
     bggid: 1041,
     name: 'San Marco',
     code: 'san-marco',
