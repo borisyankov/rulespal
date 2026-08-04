@@ -3386,6 +3386,11 @@ const assets: Game[] = [
     code: 'memoir-44',
   },
   {
+    bggid: 404431,
+    name: 'Men-Nefer',
+    code: 'men-nefer',
+  },
+  {
     bggid: 131646,
     name: 'Merchant of Venus (Second Edition)',
     shortName: 'Merchant of Venus',
