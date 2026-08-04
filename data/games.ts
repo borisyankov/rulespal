@@ -3683,6 +3683,11 @@ const assets: Game[] = [
     code: 'mystery-rummy-jack-the-ripper',
   },
   {
+    bggid: 194607,
+    name: 'Mystic Vale',
+    code: 'mystic-vale',
+  },
+  {
     bggid: 186751,
     name: 'Mythic Battles: Pantheon',
     code: 'mythic-battles-pantheon',
