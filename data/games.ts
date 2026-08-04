@@ -1481,6 +1481,11 @@ const assets: Game[] = [
     code: 'cubirds',
   },
   {
+    bggid: 298069,
+    name: 'Cubitos',
+    code: 'cubitos',
+  },
+  {
     bggid: 355881,
     name: 'Cubosaurs',
     code: 'cubosaurs',
