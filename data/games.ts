@@ -6395,6 +6395,12 @@ const assets: Game[] = [
     code: 'union-pacific',
   },
   {
+    bggid: 213460,
+    name: 'Unlock!: Escape Adventures',
+    code: 'unlock-escape-adventures',
+    alternativeNames: ['Unlock! Escape Adventures', 'Unlock!: Szabadulós kalandok'],
+  },
+  {
     bggid: 381297,
     name: 'Unmatched Adventures: Tales to Amaze',
     code: 'unmatched-adventures-tales-to-amaze',
