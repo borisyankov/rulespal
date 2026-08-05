@@ -5280,6 +5280,13 @@ const assets: Game[] = [
     code: 'star-wars-unlimited',
   },
   {
+    bggid: 252328,
+    name: 'Star Wars: X-Wing (Second Edition)',
+    shortName: 'Star Wars: X-Wing 2E',
+    code: 'star-wars-x-wing-second-edition',
+    alternativeNames: ['Star Wars: X-Wing Second Edition', 'X-Wing 2.0', 'X-Wing Miniatures Game Second Edition'],
+  },
+  {
     bggid: 103885,
     name: 'Star Wars: X-Wing Miniatures Game',
     shortName: 'Star Wars: X-Wing',
