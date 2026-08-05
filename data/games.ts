@@ -3944,6 +3944,12 @@ const assets: Game[] = [
     code: 'obsession',
   },
   {
+    bggid: 232414,
+    name: 'Oceans',
+    code: 'oceans',
+    extraSources: ['reference', 'deep-and-scenario-reference'],
+  },
+  {
     bggid: 270314,
     name: 'Ohanami',
     code: 'ohanami',
