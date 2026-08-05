@@ -6814,6 +6814,11 @@ const assets: Game[] = [
     code: 'whistle-stop',
   },
   {
+    bggid: 190082,
+    name: 'Whitehall Mystery',
+    code: 'whitehall-mystery',
+  },
+  {
     bggid: 1822,
     name: 'Wilderness War',
     code: 'wilderness-war',
