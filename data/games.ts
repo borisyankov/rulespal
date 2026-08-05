@@ -2198,6 +2198,14 @@ const assets: Game[] = [
     extraSources: ['story-cards'],
   },
   {
+    bggid: 206941,
+    name: 'First Class: All Aboard the Orient Express!',
+    code: 'first-class',
+    shortName: 'First Class',
+    alternativeNames: ['First Class'],
+    extraSources: ['modules'],
+  },
+  {
     bggid: 347703,
     name: 'First Rat',
     code: 'first-rat',
