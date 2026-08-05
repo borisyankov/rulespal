@@ -2012,6 +2012,11 @@ const assets: Game[] = [
     code: 'eternal-decks',
   },
   {
+    bggid: 280794,
+    name: 'Etherfields',
+    code: 'etherfields',
+  },
+  {
     bggid: 206718,
     name: 'Ethnos',
     code: 'ethnos',
