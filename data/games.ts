@@ -5555,6 +5555,11 @@ const assets: Game[] = [
     code: 'taboo',
   },
   {
+    bggid: 434906,
+    name: 'Tag Team',
+    code: 'tag-team',
+  },
+  {
     bggid: 264220,
     name: 'Tainted Grail: The Fall of Avalon',
     code: 'tainted-grail-the-fall-of-avalon',
