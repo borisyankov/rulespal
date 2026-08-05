@@ -4331,6 +4331,12 @@ const assets: Game[] = [
     code: 'qawale',
   },
   {
+    bggid: 266830,
+    name: 'QE',
+    code: 'qe',
+    alternativeNames: ['Q.E.', 'QE: Quantitative Easing'],
+  },
+  {
     bggid: 176396,
     name: 'Quadropolis',
     code: 'quadropolis',
