@@ -1505,6 +1505,12 @@ const assets: Game[] = [
     code: 'creature-caravan',
   },
   {
+    bggid: 304051,
+    name: 'Creature Comforts',
+    code: 'creature-comforts',
+    alternativeNames: ['Die Tiere vom Ahorntal'],
+  },
+  {
     bggid: 2398,
     name: 'Cribbage',
     code: 'cribbage',
