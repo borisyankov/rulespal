@@ -9,10 +9,40 @@ This is the batch wrapper around the single-game [`add-game`](../add-game/SKILL.
 
 1. Picks the **best N games not yet added** (default N = 10).
 2. Fans out **one subagent per game, in parallel**, each producing only that game's rulebook and thumbnail source.
-3. Integrates the finished games **serially in the main thread**: embeddings, thumbnails, and **one commit per game** (`Add <Name>`).
+3. Integrates the finished games **serially**: embeddings, thumbnails, and **one commit per game** (`Add <Name>`).
 4. **Pushes** once at the end.
 
 Read `add-game/SKILL.md` first — every per-game detail (rulebook sourcing, catalog entry, embeddings, thumbnail, the "never fabricate rules" rule) lives there and is not repeated here.
+
+## Step 0 — Delegate the whole batch to one orchestrator subagent
+
+**If you are the main thread, this section is the entire skill for you. Do steps 1-5 only if you are the orchestrator.**
+
+A batch's integration work is cheap per game but *chatty*: ten worker reports, ten sets of npm output, ten catalog reads, several thumbnail vision reads. Run in the main thread that fills a context window fast, which matters most under `/loop`, where the same context has to survive iteration after iteration. None of it needs to be in the main thread — the deliverable is commits on disk, not conversation.
+
+So the main thread spawns **one `general-purpose` orchestrator subagent** that runs the whole batch — picking, fanning out its own per-game workers, integrating, committing, pushing — and reports back a short summary. The main thread's entire turn is then: spawn, relay the summary when it lands, and (under `/loop`) schedule the next wakeup.
+
+Spawn it in the background with a prompt along these lines:
+
+> Run a full `/add-games` batch in the Rulespal repo at /Users/boris.yankov/rulespal.
+>
+> Read `.claude/skills/add-games/SKILL.md` and follow steps 1 through 5 — **you are the orchestrator** described there, so the parts that say "you do this in the main thread" mean you, in your own context. Also read `.claude/skills/add-game/SKILL.md` for the per-game procedure.
+>
+> Candidate pool: `<where the candidates come from — e.g. the top N actionable rows of the user's memory file at ~/.claude/projects/-Users-boris-yankov-rulespal/memory/bgg-top1000-missing-list.md>`. Read `add-games-project-state.md` in the same directory first — it holds the standing guardrails, the permanent skip list and hard-won sourcing notes. Batch size: `<N, default 10>`.
+>
+> You may spawn your own subagents (one per game, in parallel) — do so. Integrate serially yourself as their reports land.
+>
+> **Report back in under 250 words**: the added games with commit hashes, the skipped ones with a one-line reason each, whether the push succeeded, and any new technique or gotcha worth writing to memory. No per-game detail beyond that.
+
+Then have the orchestrator's report be the only thing that reaches the main context. Relay it to the user, and append anything genuinely new to the memory file yourself (a few lines, not a retelling).
+
+**When the main thread should run the batch itself instead:**
+
+- The user explicitly asked to watch the batch happen, or wants to approve the shortlist before transcription starts.
+- Subagent spawning is failing (a capacity outage) — see "When a subagent dies" below; at that point the main thread is the fallback for everything.
+- A batch is already mid-flight in the main thread. Don't hand a half-integrated batch to an orchestrator; finish it, then delegate the next one.
+
+**Nested spawning caveat:** the orchestrator spawns workers of its own. If its `Agent` calls fail outright, it should fall back to doing the games itself, serially, and say so in its report — a slower batch is fine, a stalled one is not.
 
 ## The split: parallel content, serialized integration
 
@@ -23,7 +53,7 @@ Almost all the wall time in a batch is sourcing the PDF, reconstructing its colu
 
 So split the job at that seam. **Subagents do the isolated part in parallel; you do the shared part yourself, serially.** A batch of 10 finishes in roughly the time the slowest single game takes, instead of the sum of all ten.
 
-`npm run embeddings` and `npm run thumbs` are *not* a reason to serialize — both accept explicit game codes (see step 3), so you drive them per-game from the main thread and no subagent ever runs them.
+`npm run embeddings` and `npm run thumbs` are *not* a reason to serialize — both accept explicit game codes (see step 3), so you drive them per-game yourself and no worker subagent ever runs them.
 
 ## Step 1 — Pick the games (best N not yet added)
 
@@ -73,9 +103,9 @@ Infrastructure stalls and 529s are common on long transcriptions. Recovery, in o
 1. **`git status` first.** Partial state is usually just an untracked rulebook file; the tree is normally clean.
 2. **Resume via SendMessage with the raw agent id** — it keeps its downloaded PDF and measured column bounds, which is most of the expensive work. Tell it what already landed on disk so it doesn't redo it.
 3. If the transcript is gone (`No transcript found`), **re-spawn cold**, telling it which artifacts already exist so it skips them, and adding the incremental-write instruction.
-4. If subagent spawns keep failing (a capacity outage), **do a game yourself in the main thread** — your own calls typically keep working.
+4. If subagent spawns keep failing (a capacity outage), **do a game yourself, in your own context** — your own calls typically keep working when spawning doesn't.
 
-## Step 3 — Integrate each finished game (serially, in the main thread)
+## Step 3 — Integrate each finished game (serially, yourself)
 
 As each subagent reports, do this yourself. It takes under a minute per game, so it's fine to run one game's integration while others are still transcribing — **as long as you address the scripts by code**. Never run a bare `npm run embeddings` mid-batch: it scans for *everything* missing and would embed a rulebook another agent is still writing.
 
@@ -122,6 +152,7 @@ Summarize:
 
 ## Guardrails
 
+- **Default to the Step 0 orchestrator.** The main thread spawns one agent and relays one short report; it does not read `data/games.ts`, run npm scripts, or look at thumbnails. Run the batch in the main thread only for the three exceptions listed in Step 0.
 - **Never fabricate rules.** Inherited from add-game — a game with no obtainable real rulebook is skipped, not invented. This is the whole point of the app.
 - **One commit per game**, message `Add <Name>`, staging only that game's ≤4 artifacts by explicit path. No lockfile churn.
 - **Subagents never touch `data/games.ts`, npm scripts, or git.** That's the whole basis for running them in parallel.
