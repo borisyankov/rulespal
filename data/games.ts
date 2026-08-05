@@ -6046,6 +6046,11 @@ const assets: Game[] = [
     code: 'witcher-old-world',
   },
   {
+    bggid: 30869,
+    name: 'Thebes',
+    code: 'thebes',
+  },
+  {
     bggid: 188920,
     name: 'This War of Mine: The Board Game',
     code: 'this-war-of-mine',
