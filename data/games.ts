@@ -428,6 +428,12 @@ const assets: Game[] = [
     code: 'arcadia-quest',
   },
   {
+    bggid: 105551,
+    name: 'Archipelago',
+    code: 'archipelago',
+    extraSources: ['war-and-peace'],
+  },
+  {
     bggid: 236457,
     name: 'Architects of the West Kingdom',
     code: 'architects-of-the-west-kingdom',
