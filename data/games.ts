@@ -426,6 +426,12 @@ const assets: Game[] = [
     code: 'arcs',
   },
   {
+    bggid: 144797,
+    name: 'Argent: The Consortium',
+    code: 'argent-the-consortium',
+    alternativeNames: ['Argent'],
+  },
+  {
     bggid: 342942,
     name: 'Ark Nova',
     code: 'ark-nova',
@@ -1646,6 +1652,11 @@ const assets: Game[] = [
     name: 'Detective: A Modern Crime Board Game',
     shortName: 'Detective',
     code: 'detective-a-modern-crime-board-game',
+  },
+  {
+    bggid: 218074,
+    name: 'Detective: City of Angels',
+    code: 'detective-city-of-angels',
   },
   {
     bggid: 162082,
