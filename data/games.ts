@@ -3158,6 +3158,12 @@ const assets: Game[] = [
     code: 'lands-of-galzyr',
   },
   {
+    bggid: 117959,
+    name: 'Las Vegas',
+    code: 'las-vegas',
+    alternativeNames: ['Vegas'],
+  },
+  {
     bggid: 35677,
     name: 'Le Havre',
     code: 'le-havre',
