@@ -2153,6 +2153,11 @@ const assets: Game[] = [
     shortName: 'Fateforge',
   },
   {
+    bggid: 345868,
+    name: 'Federation',
+    code: 'federation',
+  },
+  {
     bggid: 271601,
     name: 'Feed the Kraken',
     code: 'feed-the-kraken',
