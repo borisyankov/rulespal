@@ -1500,6 +1500,11 @@ const assets: Game[] = [
     code: 'cross-clues',
   },
   {
+    bggid: 170624,
+    name: 'Crusaders: Thy Will Be Done',
+    code: 'crusaders-thy-will-be-done',
+  },
+  {
     bggid: 192457,
     name: 'Cry Havoc',
     code: 'cry-havoc',
@@ -2198,6 +2203,11 @@ const assets: Game[] = [
     name: 'Flash Point: Fire Rescue',
     code: 'flash-point-fire-rescue',
     shortName: 'Flash Point',
+  },
+  {
+    bggid: 245961,
+    name: 'Fleet: The Dice Game',
+    code: 'fleet-the-dice-game',
   },
   {
     bggid: 420087,
