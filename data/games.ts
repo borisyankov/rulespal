@@ -783,6 +783,13 @@ const assets: Game[] = [
     alternativeNames: ['Blood Bowl', 'Blood Bowl 3rd Edition'],
   },
   {
+    bggid: 15985,
+    name: 'Blood Bowl: Living Rulebook',
+    code: 'blood-bowl-living-rulebook',
+    shortName: 'Blood Bowl LRB',
+    alternativeNames: ['Blood Bowl Living Rulebook', 'Blood Bowl LRB 5.0', 'Blood Bowl Handbook'],
+  },
+  {
     bggid: 90137,
     name: 'Blood Bowl: Team Manager – The Card Game',
     shortName: 'Blood Bowl: Team Manager',
