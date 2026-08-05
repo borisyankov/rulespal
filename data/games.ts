@@ -5031,6 +5031,11 @@ const assets: Game[] = [
     code: 'shadows-over-camelot',
   },
   {
+    bggid: 244115,
+    name: 'Shards of Infinity',
+    code: 'shards-of-infinity',
+  },
+  {
     bggid: 157969,
     name: 'Sheriff of Nottingham',
     code: 'sheriff-of-nottingham',
