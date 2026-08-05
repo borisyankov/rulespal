@@ -3598,6 +3598,13 @@ const assets: Game[] = [
     alternativeNames: ['MicroMacro Crime City Full House', 'MicroMacro: Crime City 2 – Full House'],
   },
   {
+    bggid: 169427,
+    name: 'Middara: Unintentional Malum – Act 1',
+    code: 'middara',
+    shortName: 'Middara',
+    alternativeNames: ['Middara', 'Middara: Unintentional Malum'],
+  },
+  {
     bggid: 346501,
     name: 'Mille Fiori',
     code: 'mille-fiori',
