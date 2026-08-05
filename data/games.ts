@@ -638,6 +638,11 @@ const assets: Game[] = [
     code: 'basari',
   },
   {
+    bggid: 151022,
+    name: 'Baseball Highlights: 2045',
+    code: 'baseball-highlights-2045',
+  },
+  {
     bggid: 760,
     name: 'Battle Line',
     code: 'battle-line',
