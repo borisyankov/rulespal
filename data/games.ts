@@ -14,6 +14,13 @@ const assets: Game[] = [
     code: '1830',
   },
   {
+    bggid: 17405,
+    name: '1846: The Race for the Midwest',
+    shortName: '1846',
+    code: '1846',
+    extraSources: ['two-player-variant'],
+  },
+  {
     bggid: 27708,
     name: '1960: The Making of the President',
     shortName: '1960',
@@ -4710,6 +4717,14 @@ const assets: Game[] = [
     code: 'rune-age',
   },
   {
+    bggid: 181530,
+    name: 'Runebound (Third Edition)',
+    code: 'runebound-third-edition',
+    shortName: 'Runebound',
+    alternativeNames: ['Runebound 3rd Edition'],
+    extraSources: ['learn-to-play'],
+  },
+  {
     bggid: 59294,
     name: 'Runewars',
     code: 'runewars',
@@ -6354,6 +6369,11 @@ const assets: Game[] = [
     bggid: 340325,
     name: 'Vagrantsong',
     code: 'vagrantsong',
+  },
+  {
+    bggid: 170561,
+    name: 'Valeria: Card Kingdoms',
+    code: 'valeria-card-kingdoms',
   },
   {
     bggid: 420033,
