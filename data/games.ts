@@ -3811,6 +3811,11 @@ const assets: Game[] = [
     code: 'my-city',
   },
   {
+    bggid: 328866,
+    name: "My Father's Work",
+    code: 'my-fathers-work',
+  },
+  {
     bggid: 359394,
     name: 'My Island',
     code: 'my-island',
@@ -4431,6 +4436,11 @@ const assets: Game[] = [
     bggid: 260180,
     name: 'Project L',
     code: 'project-l',
+  },
+  {
+    bggid: 256999,
+    name: 'Project: ELITE',
+    code: 'project-elite',
   },
   {
     bggid: 3076,
