@@ -2359,6 +2359,13 @@ const assets: Game[] = [
     code: 'galaxy-trucker',
   },
   {
+    bggid: 336794,
+    name: 'Galaxy Trucker (Second Edition)',
+    code: 'galaxy-trucker-second-edition',
+    shortName: 'Galaxy Trucker 2E',
+    alternativeNames: ['Galaxy Trucker 2nd Edition', 'Galaxy Trucker: Second Edition'],
+  },
+  {
     bggid: 220588,
     name: 'Gandhi: The Decolonization of British India, 1917-1947',
     shortName: 'Gandhi',
@@ -3132,6 +3139,13 @@ const assets: Game[] = [
     bggid: 146886,
     name: 'La Granja',
     code: 'la-granja',
+  },
+  {
+    bggid: 341945,
+    name: 'La Granja: Deluxe Master Set',
+    code: 'la-granja-deluxe-master-set',
+    shortName: 'La Granja Deluxe',
+    extraSources: ['modules', 'solo-mode', 'glossary'],
   },
   {
     bggid: 62227,
@@ -4588,6 +4602,12 @@ const assets: Game[] = [
     bggid: 181,
     name: 'Risk',
     code: 'risk',
+  },
+  {
+    bggid: 105134,
+    name: 'Risk Legacy',
+    code: 'risk-legacy',
+    alternativeNames: ['Risiko Evolution', 'Risk Revolution'],
   },
   {
     bggid: 321108,
