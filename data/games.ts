@@ -750,6 +750,13 @@ const assets: Game[] = [
     code: 'blokus-trigon',
   },
   {
+    bggid: 712,
+    name: 'Blood Bowl (Third Edition)',
+    code: 'blood-bowl-third-edition',
+    shortName: 'Blood Bowl',
+    alternativeNames: ['Blood Bowl', 'Blood Bowl 3rd Edition'],
+  },
+  {
     bggid: 90137,
     name: 'Blood Bowl: Team Manager – The Card Game',
     shortName: 'Blood Bowl: Team Manager',
