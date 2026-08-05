@@ -563,6 +563,12 @@ const assets: Game[] = [
     code: 'azul',
   },
   {
+    bggid: 363247,
+    name: 'Azul: Master Chocolatier',
+    code: 'azul-master-chocolatier',
+    alternativeNames: ['Azul Master Chocolatier', 'Azul: Maître Chocolatier'],
+  },
+  {
     bggid: 346965,
     name: "Azul: Queen's Garden",
     code: 'azul-queens-garden',
