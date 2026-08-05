@@ -1982,6 +1982,12 @@ const assets: Game[] = [
     code: 'elfenland',
   },
   {
+    bggid: 163968,
+    name: 'Elysium',
+    code: 'elysium',
+    extraSources: ['cards-guide'],
+  },
+  {
     bggid: 68425,
     name: 'Eminent Domain',
     code: 'eminent-domain',
