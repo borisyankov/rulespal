@@ -2265,6 +2265,12 @@ const assets: Game[] = [
     code: 'framework',
   },
   {
+    bggid: 119506,
+    name: 'Freedom: The Underground Railroad',
+    code: 'freedom-the-underground-railroad',
+    shortName: 'Freedom',
+  },
+  {
     bggid: 383206,
     name: 'Freelancers: A Crossroads Game',
     code: 'freelancers',
