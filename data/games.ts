@@ -4605,6 +4605,11 @@ const assets: Game[] = [
     code: 'raptor',
   },
   {
+    bggid: 399941,
+    name: 'River of Gold',
+    code: 'river-of-gold',
+  },
+  {
     bggid: 144733,
     name: 'Russian Railroads',
     code: 'russian-railroads',
