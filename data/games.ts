@@ -6205,6 +6205,11 @@ const assets: Game[] = [
     alternativeNames: ['Pachamama'],
   },
   {
+    bggid: 42215,
+    name: 'Tobago',
+    code: 'tobago',
+  },
+  {
     bggid: 123540,
     name: 'Tokaido',
     code: 'tokaido',
