@@ -4267,6 +4267,12 @@ const assets: Game[] = [
     code: 'patchwork-doodle',
   },
   {
+    bggid: 133038,
+    name: 'Pathfinder Adventure Card Game: Rise of the Runelords – Base Set',
+    shortName: 'Pathfinder ACG: Rise of the Runelords',
+    code: 'pathfinder-adventure-card-game-rise-of-the-runelords',
+  },
+  {
     bggid: 91,
     name: 'Paths of Glory',
     code: 'paths-of-glory',
