@@ -161,6 +161,12 @@ const assets: Game[] = [
     alternativeNames: ['Hoity Toity'],
   },
   {
+    bggid: 242705,
+    name: 'Aeon Trespass: Odyssey',
+    code: 'aeon-trespass-odyssey',
+    shortName: 'Aeon Trespass',
+  },
+  {
     bggid: 191189,
     name: "Aeon's End",
     code: 'aeons-end',
