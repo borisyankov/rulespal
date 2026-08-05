@@ -2922,6 +2922,12 @@ const assets: Game[] = [
     code: 'jaipur',
   },
   {
+    bggid: 28023,
+    name: 'Jamaica',
+    code: 'jamaica',
+    alternativeNames: ['Jamajka'],
+  },
+  {
     bggid: 855,
     name: 'Java',
     code: 'java',
