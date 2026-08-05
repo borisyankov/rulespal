@@ -3237,6 +3237,12 @@ const assets: Game[] = [
     alternativeNames: ['Vegas'],
   },
   {
+    bggid: 97842,
+    name: 'Last Will',
+    code: 'last-will',
+    extraSources: ['getting-sacked', 'promos'],
+  },
+  {
     bggid: 35677,
     name: 'Le Havre',
     code: 'le-havre',
