@@ -6464,6 +6464,11 @@ const assets: Game[] = [
     alternativeNames: ['Unlock! Escape Adventures', 'Unlock!: Szabadulós kalandok'],
   },
   {
+    bggid: 266121,
+    name: 'Unlock!: Heroic Adventures',
+    code: 'unlock-heroic-adventures',
+  },
+  {
     bggid: 381297,
     name: 'Unmatched Adventures: Tales to Amaze',
     code: 'unmatched-adventures-tales-to-amaze',
