@@ -5570,6 +5570,11 @@ const assets: Game[] = [
     code: 'takenoko',
   },
   {
+    bggid: 34119,
+    name: 'Tales of the Arabian Nights',
+    code: 'tales-of-the-arabian-nights',
+  },
+  {
     bggid: 27627,
     name: 'Talisman: Revised 4th Edition',
     shortName: 'Talisman',
