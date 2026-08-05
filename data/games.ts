@@ -6452,6 +6452,12 @@ const assets: Game[] = [
     code: 'versailles-1919',
   },
   {
+    bggid: 27173,
+    name: 'Vikings',
+    code: 'vikings',
+    extraSources: ['advanced'],
+  },
+  {
     bggid: 104006,
     name: 'Village',
     code: 'village',
