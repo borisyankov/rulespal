@@ -513,6 +513,13 @@ const assets: Game[] = [
     shortName: 'Loyang',
   },
   {
+    bggid: 248490,
+    name: 'Atlantis Rising (Second Edition)',
+    code: 'atlantis-rising-second-edition',
+    shortName: 'Atlantis Rising',
+    alternativeNames: ['Atlantis Rising 2nd Edition'],
+  },
+  {
     bggid: 8051,
     name: 'Attika',
     code: 'attika',
