@@ -5360,6 +5360,14 @@ const assets: Game[] = [
     code: 'star-wars-x-wing-miniatures-game',
   },
   {
+    bggid: 22827,
+    name: 'StarCraft: The Board Game',
+    code: 'starcraft-the-board-game',
+    shortName: 'StarCraft',
+    alternativeNames: ['StarCraft', 'SCBG'],
+    extraSources: ['brood-war', 'faq'],
+  },
+  {
     bggid: 223770,
     name: 'Startups',
     code: 'startups',
