@@ -5390,6 +5390,12 @@ const assets: Game[] = [
     code: 'star-wars-rebellion',
   },
   {
+    bggid: 370913,
+    name: 'Star Wars: The Clone Wars',
+    code: 'star-wars-the-clone-wars',
+    alternativeNames: ['Star Wars: The Clone Wars – A Pandemic System Game', 'Pandemic: Star Wars – The Clone Wars'],
+  },
+  {
     bggid: 374173,
     name: 'Star Wars: The Deckbuilding Game',
     code: 'star-wars-the-deckbuilding-game',
