@@ -4919,6 +4919,13 @@ const assets: Game[] = [
     code: 'shackleton-base',
   },
   {
+    bggid: 146791,
+    name: 'Shadows of Brimstone: City of the Ancients',
+    code: 'shadows-of-brimstone-city-of-the-ancients',
+    shortName: 'Shadows of Brimstone',
+    extraSources: ['adventure-book'],
+  },
+  {
     bggid: 15062,
     name: 'Shadows over Camelot',
     code: 'shadows-over-camelot',
