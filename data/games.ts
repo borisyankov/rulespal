@@ -4080,6 +4080,12 @@ const assets: Game[] = [
     shortName: 'Reign of Cthulhu',
   },
   {
+    bggid: 150658,
+    name: 'Pandemic: The Cure',
+    code: 'pandemic-the-cure',
+    shortName: 'The Cure',
+  },
+  {
     bggid: 141572,
     name: 'Paperback',
     code: 'paperback',
@@ -4431,6 +4437,11 @@ const assets: Game[] = [
     bggid: 220877,
     name: 'Rajas of the Ganges',
     code: 'rajas-of-the-ganges',
+  },
+  {
+    bggid: 177639,
+    name: 'Raptor',
+    code: 'raptor',
   },
   {
     bggid: 144733,
