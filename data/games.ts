@@ -6337,6 +6337,13 @@ const assets: Game[] = [
     shortName: 'Trismegistus',
   },
   {
+    bggid: 130960,
+    name: 'Triumph & Tragedy: European Balance of Power 1936-1945',
+    code: 'triumph-and-tragedy',
+    shortName: 'Triumph & Tragedy',
+    alternativeNames: ['Triumph and Tragedy', 'T&T'],
+  },
+  {
     bggid: 2952,
     name: 'Trivial Pursuit',
     code: 'trivial-pursuit',
