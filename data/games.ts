@@ -8,6 +8,12 @@ const assets: Game[] = [
     alternativeNames: ['Sixty Below'],
   },
   {
+    bggid: 128996,
+    name: '1775: Rebellion',
+    code: '1775-rebellion',
+    alternativeNames: ['1775 Rebellion'],
+  },
+  {
     bggid: 421,
     name: '1830: Railways & Robber Barons',
     shortName: '1830',
