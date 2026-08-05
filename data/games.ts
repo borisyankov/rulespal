@@ -6364,6 +6364,13 @@ const assets: Game[] = [
     code: 'unmatched-cobble-fog',
   },
   {
+    bggid: 284777,
+    name: 'Unmatched: Jurassic Park – InGen vs Raptors',
+    code: 'unmatched-jurassic-park-ingen-vs-raptors',
+    shortName: 'InGen vs Raptors',
+    alternativeNames: ['Unmatched: Jurassic Park - InGen vs Raptors', 'Unmatched: InGen vs Raptors'],
+  },
+  {
     bggid: 325635,
     name: 'Unmatched: Little Red Riding Hood vs. Beowulf',
     code: 'unmatched-little-red-riding-hood-vs-beowulf',
