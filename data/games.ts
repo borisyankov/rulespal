@@ -5038,6 +5038,11 @@ const assets: Game[] = [
     alternativeNames: ['Sherlock Holmes Consulting Detective: Jack the Ripper'],
   },
   {
+    bggid: 23540,
+    name: 'Shikoku 1889',
+    code: 'shikoku-1889',
+  },
+  {
     bggid: 272380,
     name: 'SHŌBU',
     code: 'shobu',
