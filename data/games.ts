@@ -3945,6 +3945,11 @@ const assets: Game[] = [
     code: 'next-station-london',
   },
   {
+    bggid: 15363,
+    name: 'Nexus Ops',
+    code: 'nexus-ops',
+  },
+  {
     bggid: 293014,
     name: 'Nidavellir',
     code: 'nidavellir',
