@@ -3764,6 +3764,12 @@ const assets: Game[] = [
     code: 'love-letter',
   },
   {
+    bggid: 168584,
+    name: 'Love Letter: Batman',
+    code: 'love-letter-batman',
+    alternativeNames: ['Love Letter: Batman Edition'],
+  },
+  {
     bggid: 196326,
     name: 'Love Letter: Premium Edition',
     code: 'love-letter-premium-edition',
