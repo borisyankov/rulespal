@@ -4619,6 +4619,12 @@ const assets: Game[] = [
     code: 'praga-caput-regni',
   },
   {
+    bggid: 303731,
+    name: 'Primal: The Awakening',
+    code: 'primal-the-awakening',
+    alternativeNames: ['Primal: Пробуждение', '프라이멀: 디 어웨이크닝'],
+  },
+  {
     bggid: 8045,
     name: 'Princes of the Renaissance',
     code: 'princes-of-the-renaissance',
