@@ -4226,6 +4226,12 @@ const assets: Game[] = [
     code: 'one-night-ultimate-werewolf',
   },
   {
+    bggid: 163166,
+    name: 'One Night Ultimate Werewolf: Daybreak',
+    code: 'one-night-ultimate-werewolf-daybreak',
+    shortName: 'ONUW: Daybreak',
+  },
+  {
     bggid: 156336,
     name: 'Onirim (Second Edition)',
     shortName: 'Onirim',
