@@ -4984,6 +4984,12 @@ const assets: Game[] = [
     code: 'raptor',
   },
   {
+    bggid: 387780,
+    name: 'Rats of Wistar',
+    code: 'rats-of-wistar',
+    extraSources: ['solo'],
+  },
+  {
     bggid: 399941,
     name: 'River of Gold',
     code: 'river-of-gold',
