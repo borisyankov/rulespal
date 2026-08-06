@@ -939,6 +939,18 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 398,
+    name: 'Botswana',
+    code: 'botswana',
+    alternativeNames: [
+      'Wildlife Safari',
+      'Flinke Pinke',
+      'Loco!',
+      'Ryki Afryki',
+      'Quandary',
+    ],
+  },
+  {
     bggid: 224517,
     name: 'Brass: Birmingham',
     code: 'brass-birmingham',
