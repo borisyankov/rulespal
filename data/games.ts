@@ -6736,6 +6736,12 @@ const assets: Game[] = [
     code: 'unlock-heroic-adventures',
   },
   {
+    bggid: 279613,
+    name: 'Unlock!: Timeless Adventures',
+    code: 'unlock-timeless-adventures',
+    alternativeNames: ['Unlock! 6: Timeless Adventures'],
+  },
+  {
     bggid: 381297,
     name: 'Unmatched Adventures: Tales to Amaze',
     code: 'unmatched-adventures-tales-to-amaze',
