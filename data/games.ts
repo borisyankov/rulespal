@@ -1066,6 +1066,12 @@ const assets: Game[] = [
     alternativeNames: ['Carcassonne: Hunters & Gatherers', 'Carcassonne: Jäger und Sammler'],
   },
   {
+    bggid: 7717,
+    name: 'Carcassonne: The Castle',
+    code: 'carcassonne-the-castle',
+    alternativeNames: ['Carcassonne: Die Burg', 'Carcassonne: De Burcht'],
+  },
+  {
     bggid: 50381,
     name: 'Cards Against Humanity',
     code: 'cards-against-humanity',
