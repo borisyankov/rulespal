@@ -770,6 +770,11 @@ const assets: Game[] = [
     extraSources: ['codex-arcanum'],
   },
   {
+    bggid: 342444,
+    name: 'Black Rose Wars: Rebirth',
+    code: 'black-rose-wars-rebirth',
+  },
+  {
     bggid: 262215,
     name: 'Blackout: Hong Kong',
     code: 'blackout-hong-kong',
