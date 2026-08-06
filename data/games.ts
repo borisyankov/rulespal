@@ -978,6 +978,12 @@ const assets: Game[] = [
     alternativeNames: ['Cabo'],
   },
   {
+    bggid: 171499,
+    name: 'Cacao',
+    code: 'cacao',
+    alternativeNames: ['Kakao'],
+  },
+  {
     bggid: 283155,
     name: 'Calico',
     code: 'calico',
