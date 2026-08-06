@@ -2247,6 +2247,13 @@ const assets: Game[] = [
     shortName: 'EXIT: The Abandoned Cabin',
   },
   {
+    bggid: 203416,
+    name: 'EXIT: The Game – The Pharaoh\'s Tomb',
+    code: 'exit-the-pharaohs-tomb',
+    shortName: 'EXIT: The Pharaoh\'s Tomb',
+    alternativeNames: ['EXIT: Das Spiel – Die Grabkammer des Pharao'],
+  },
+  {
     bggid: 379078,
     name: 'Expeditions',
     code: 'expeditions',
