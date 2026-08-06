@@ -3564,6 +3564,11 @@ const assets: Game[] = [
     alternativeNames: ['Vegas'],
   },
   {
+    bggid: 271319,
+    name: 'Las Vegas Royale',
+    code: 'las-vegas-royale',
+  },
+  {
     bggid: 97842,
     name: 'Last Will',
     code: 'last-will',
