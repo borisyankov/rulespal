@@ -1973,6 +1973,11 @@ const assets: Game[] = [
     code: 'doge',
   },
   {
+    bggid: 158435,
+    name: 'Dogs of War',
+    code: 'dogs-of-war',
+  },
+  {
     bggid: 62219,
     name: 'Dominant Species',
     code: 'dominant-species',
