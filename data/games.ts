@@ -4105,6 +4105,12 @@ const assets: Game[] = [
     alternativeNames: ['Mycelia: Im Tal der Tausend Tautropfen'],
   },
   {
+    bggid: 126792,
+    name: 'Myrmes',
+    code: 'myrmes',
+    extraSources: ['upgraded-colony'],
+  },
+  {
     bggid: 181304,
     name: 'Mysterium',
     code: 'mysterium',
