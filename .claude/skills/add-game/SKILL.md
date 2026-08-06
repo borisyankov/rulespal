@@ -20,6 +20,12 @@ All four are required. The app loads the rulebook and embeddings per-game at que
 
 The rulebooks in `data/rulebooks/` are **verbatim transcriptions of real published rulebooks**, served to real users as fact. Do not summarize from memory and never invent rules. Source the actual official rulebook. If you cannot obtain it, stop and tell the user rather than making one up.
 
+**This rule bans *inventing* rules — it does not license giving up.** A skip is a real cost: the game stays out of the app. Finding a rulebook is expected to take **sustained effort across many routes**, and "the publisher's own site doesn't have it" is the beginning of the search, not the end. Work the full toolkit below before concluding anything is unobtainable, and say which routes you actually tried when you report a skip.
+
+**Do not conclude "no rulebook exists" from "no *official* rulebook exists."** These are different claims and the second one is much harder to earn. A complete, faithful, third-party rules document — an official-language translation, or a credited community transliteration of the printed manual — is acceptable material when the publisher never released a PDF at all. What is never acceptable is *reconstructing* rules from scattered secondary facts (reviews, forum posts, playthroughs). The test is whether you are transcribing one complete rules document that someone else wrote, or assembling one yourself.
+
+When you do use a non-publisher document, **disclose it in the rulebook's `## Table of Contents` block** in a one-line italic source note naming what the document is and who produced it (see `deep-sea-adventure-rulebook.md` and `crystal-palace-appendix.md` for the established wording).
+
 ## Step 1 — Identify the game (get name + BGG id)
 
 Web-search the title. Confirm it's a real game and capture:
@@ -49,7 +55,15 @@ pdftoppm -png -r 150 rules.pdf page   # -> page-01.png, page-02.png, ...
 
 Then `Read` each `page-NN.png` and transcribe faithfully.
 
-### Sourcing toolkit (try these before giving up)
+### Sourcing toolkit (work ALL of these before giving up)
+
+**Always check `1jour-1jeu.com` / `cdn.1j1ju.com`.** It is the single highest-yield mirror in this list and has repeatedly carried the only reachable copy of a rulebook — including for titles whose publisher never released a PDF at all. Find the game's page (`1jour-1jeu.com/…/<slug>` via web search, or search the site directly), then take the PDF off `cdn.1j1ju.com/medias/<a>/<b>/<c>-<slug>-rulebook.pdf`. Caveats learned the hard way:
+
+- **1j1ju rewrites PDF metadata to its own name**, so `pdfinfo` Author/Producer will say `1jour-1jeu.com` regardless of who actually wrote the document. **Read the extracted text's footer/credits line** to find the real attribution before recording provenance.
+- **It hosts community documents as well as official ones.** Both are usable (see the critical-rule section above), but you must say which one you got.
+- It has occasionally served a **partial** document — byte-check against BGG's `api/files` size when the mirror isn't the publisher.
+
+Then work the rest. Exhaust them; a single 404 on the publisher's site proves nothing:
 
 - `api.geekdo.com` is reachable even when boardgamegeek.com HTML is Cloudflare-blocked and BGG's XML API 401s. Metadata: `api/geekitems?objectid=<id>`. Files list (paginated, newest-first): `api/files?objectid=<id>&objecttype=thing&pageid=<n>` — page deeper if page 1 has nothing official. Images: `api/images?objectid=<id>&objecttype=thing` (use the signed thumbor URL from the response; the bare `cf.geekdo-images.com/…/__original/…` form often 400s).
 - Publisher CDNs frequently survive after the parent site is redesigned or shut down — e.g. `images-cdn.fantasyflightgames.com/filer_public/...` (FFG), `cdn0/cdn1.daysofwonder.com/<game>/en/img/...` (Days of Wonder), `cmon.com/wp-content/uploads/...` (CMON), `gmtwebsiteassets.s3.us-west-2.amazonaws.com/<slug>/...` (GMT). Try the direct URL (found via web search or the current product page) before reaching for Wayback.
@@ -59,7 +73,18 @@ Then `Read` each `page-NN.png` and transcribe faithfully.
 - `api.tesera.ru/games/<slug>/files` → `tesera.ru/images/items/<id>/<filename>` — a Russian-community mirror that has repeatedly had byte-exact official scans for Oink Games and OOP/small-press titles other routes couldn't reach.
 - Google Drive folders (common for small/indie publishers): scrape the folder page's `_DRIVE_ivd` blob for file ids, then `drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.
 - BGG's own file-download routes are usually dead ends (`/file/download_redirect/<id>` 410s, login-gated file pages, S3 AccessDenied) — don't spend much effort there. `api/files` is still useful for confirming a file exists and its exact byte size, which you can cross-check against whatever mirror you find.
+- **Publisher Shopify storefronts**: `cdn.shopify.com/s/files/1/<shop>/files/…` — has served official PDFs for many publishers (HABA USA, Roxley, Tabletop Tycoon, North Star, Academy Games). Check for a Shopify store before assuming a redesigned site lost its files.
+- **Tabletopia** hosts publisher-supplied rulebooks: `c.tabletopia.com/games/<slug>/rules/<booklet>/en`. Byte-exact against BGG's listed sizes in testing. Good when the publisher's own site is dead.
+- `desktopgames.com.ua/games/<id>/<OFFICIAL_FILENAME>.pdf` — an Eastern-European mirror in the same family as Tesera; has carried official PDFs for unrelated publishers whose sites are dead.
+- **Azure/blob and cloud-storage containers**: e.g. `portalgames.blob.core.windows.net/<game>/…` (Portal Games). When a publisher's domain is dead or squatted, look for their asset bucket.
+- **Compilation / big-box editions** often carry the same text with a clean text layer when the per-game file is broken, encrypted, or a stale edition (Columbia Games, Queen Games).
 - If no English rulebook is reachable anywhere but an official rulebook in another language is, a faithful **translation of that official document** is an acceptable substitute (note the source language in your report) — this is not the same as reconstructing from unrelated secondary sources, which is never acceptable (see "never fabricate rules" above).
+
+### Before you declare a game unobtainable
+
+A skip is only earned once you have checked, and can name: **1jour-1jeu / cdn.1j1ju.com**, `api/files` on BGG (page past page 1), the publisher's live site *and* its CDN/asset bucket *and* its Shopify store, Wayback replay over the publisher's dead paths, Tesera, desktopgames.com.ua, Tabletopia, a TTS Workshop mod, and a non-English official edition you could translate. Also re-fetch anything that looked truncated — a `curl` cut at exactly 1 MiB is a transfer artifact, not a corrupt file.
+
+Two failures that are genuinely unobtainable look like this, for calibration: a rulebook **never released in any digital form and photographed only on one side** (Dixit: Journey), or a title where **every circulating file is a different game's rules** (Love Letter: Batman). "The publisher doesn't post PDFs" is not in that category — Deep Sea Adventure was wrongly skipped on exactly that reasoning and a complete community transliteration existed on 1j1ju the whole time.
 
 ### Extracting text from multi-column or image-based PDFs
 
