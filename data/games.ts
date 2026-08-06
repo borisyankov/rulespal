@@ -7166,6 +7166,11 @@ const assets: Game[] = [
     code: 'witchcraft',
   },
   {
+    bggid: 318560,
+    name: 'Witchstone',
+    code: 'witchstone',
+  },
+  {
     bggid: 20100,
     name: 'Wits & Wagers',
     code: 'wits-and-wagers',
