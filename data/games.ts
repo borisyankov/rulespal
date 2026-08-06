@@ -3575,6 +3575,11 @@ const assets: Game[] = [
     code: 'le-havre',
   },
   {
+    bggid: 173064,
+    name: 'Leaving Earth',
+    code: 'leaving-earth',
+  },
+  {
     bggid: 354934,
     name: 'Legacy of Yu',
     code: 'legacy-of-yu',
