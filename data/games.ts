@@ -3175,6 +3175,11 @@ const assets: Game[] = [
     extraSources: ['faq'],
   },
   {
+    bggid: 338760,
+    name: 'Imperial Steam',
+    code: 'imperial-steam',
+  },
+  {
     bggid: 206480,
     name: 'Imperial Struggle',
     code: 'imperial-struggle',
