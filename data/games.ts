@@ -5456,6 +5456,13 @@ const assets: Game[] = [
     extraSources: ['adventure-book'],
   },
   {
+    bggid: 150997,
+    name: 'Shadows of Brimstone: Swamps of Death',
+    code: 'shadows-of-brimstone-swamps-of-death',
+    shortName: 'Shadows of Brimstone',
+    extraSources: ['adventure-book'],
+  },
+  {
     bggid: 15062,
     name: 'Shadows over Camelot',
     code: 'shadows-over-camelot',
