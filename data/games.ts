@@ -5717,6 +5717,12 @@ const assets: Game[] = [
     code: 'speakeasy',
   },
   {
+    bggid: 155624,
+    name: 'Specter Ops',
+    code: 'specter-ops',
+    extraSources: ['faq'],
+  },
+  {
     bggid: 299169,
     name: 'Spicy',
     code: 'spicy',
