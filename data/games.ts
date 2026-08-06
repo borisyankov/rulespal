@@ -4592,6 +4592,13 @@ const assets: Game[] = [
     alternativeNames: ['Pachisi'],
   },
   {
+    bggid: 276498,
+    name: 'Paris: La Cité de la Lumière',
+    code: 'paris-la-cite-de-la-lumiere',
+    shortName: 'Paris',
+    alternativeNames: ['Paris: La Cite de la Lumiere', 'Paris: City of Light'],
+  },
+  {
     bggid: 266524,
     name: 'PARKS',
     code: 'parks',
