@@ -4826,6 +4826,12 @@ const assets: Game[] = [
     code: 'point-salad',
   },
   {
+    bggid: 17025,
+    name: 'Poison',
+    code: 'poison',
+    alternativeNames: ['Friday the 13th', 'Freitag der 13.', 'Trucizna', 'Veneno'],
+  },
+  {
     bggid: 3121,
     name: 'Pokémon Trading Card Game',
     code: 'pokemon-tcg',
