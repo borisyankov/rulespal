@@ -1445,6 +1445,12 @@ const assets: Game[] = [
     code: 'comuni',
   },
   {
+    bggid: 160010,
+    name: 'Conan',
+    code: 'conan',
+    extraSources: ['overlord-book'],
+  },
+  {
     bggid: 147151,
     name: 'Concept',
     code: 'concept',
@@ -1589,6 +1595,17 @@ const assets: Game[] = [
     bggid: 253344,
     name: 'Cthulhu: Death May Die',
     code: 'cthulhu-death-may-die',
+  },
+  {
+    bggid: 373600,
+    name: 'Cthulhu: Death May Die – Fear of the Unknown',
+    code: 'cthulhu-death-may-die-fear-of-the-unknown',
+    shortName: 'Death May Die: Fear of the Unknown',
+    alternativeNames: [
+      'Cthulhu: Death May Die - Fear of the Unknown',
+      'Cthulhu Death May Die Season 3',
+      'Death May Die Season 3',
+    ],
   },
   {
     bggid: 111799,
@@ -1829,6 +1846,11 @@ const assets: Game[] = [
     bggid: 62219,
     name: 'Dominant Species',
     code: 'dominant-species',
+  },
+  {
+    bggid: 262941,
+    name: 'Dominant Species: Marine',
+    code: 'dominant-species-marine',
   },
   {
     bggid: 36218,
@@ -5686,6 +5708,16 @@ const assets: Game[] = [
     bggid: 46213,
     name: 'Telestrations',
     code: 'telestrations',
+  },
+  {
+    bggid: 153016,
+    name: 'Telestrations: 12 Player Party Pack',
+    code: 'telestrations-12-player-party-pack',
+    shortName: 'Telestrations 12 Player',
+    alternativeNames: [
+      'Telestrations 12 Player: The Party Pack',
+      'Telestrations 12 Player',
+    ],
   },
   {
     bggid: 229853,
