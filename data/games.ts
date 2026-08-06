@@ -2040,6 +2040,11 @@ const assets: Game[] = [
     code: 'dragomino',
   },
   {
+    bggid: 232219,
+    name: 'Dragon Castle',
+    code: 'dragon-castle',
+  },
+  {
     bggid: 447243,
     name: 'Duel for Cardia',
     code: 'duel-for-cardia',
