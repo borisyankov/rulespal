@@ -5738,6 +5738,14 @@ const assets: Game[] = [
     code: 'star-wars-x-wing-miniatures-game',
   },
   {
+    bggid: 183562,
+    name: 'Star Wars: X-Wing Miniatures Game – The Force Awakens Core Set',
+    shortName: 'X-Wing: The Force Awakens',
+    code: 'star-wars-x-wing-the-force-awakens',
+    alternativeNames: ['X-Wing: The Force Awakens Core Set', 'Star Wars: X-Wing – The Force Awakens'],
+    extraSources: ['rules-reference'],
+  },
+  {
     bggid: 22827,
     name: 'StarCraft: The Board Game',
     code: 'starcraft-the-board-game',
