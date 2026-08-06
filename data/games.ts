@@ -4658,6 +4658,17 @@ const assets: Game[] = [
     shortName: 'Raiders',
   },
   {
+    bggid: 306881,
+    name: 'Railroad Ink Challenge: Lush Green Edition',
+    code: 'railroad-ink-challenge-lush-green',
+    shortName: 'Railroad Ink Challenge',
+    alternativeNames: [
+      'Railroad Ink Challenge',
+      'Railroad Ink Challenge: Edition Blattgrün',
+      "Le Strade d'Inchiostro Challenge: Edizione Verde Rigoglioso",
+    ],
+  },
+  {
     bggid: 245654,
     name: 'Railroad Ink: Deep Blue Edition',
     code: 'railroad-ink',
