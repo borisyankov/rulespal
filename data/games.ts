@@ -7167,6 +7167,12 @@ const assets: Game[] = [
     alternativeNames: ['Wits and Wagers', 'Wits & Wagers Deluxe Edition'],
   },
   {
+    bggid: 1465,
+    name: 'Wizard',
+    code: 'wizard',
+    extraSources: ['faq', 'amigo-edition'],
+  },
+  {
     bggid: 227935,
     name: "Wonderland's War",
     code: 'wonderlands-war',
