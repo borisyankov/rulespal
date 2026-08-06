@@ -38,8 +38,15 @@ Spawn it in the background with a prompt along these lines:
 > You may spawn your own subagents (one per game, in parallel) — do so. Integrate serially yourself as their reports land.
 >
 > **Report back in under 250 words**: the added games with commit hashes, the skipped ones with a one-line reason each, whether the push succeeded, and any new technique or gotcha worth writing to memory. No per-game detail beyond that. Your report is the ONLY thing that survives this batch — anything you leave out is lost, so put durable findings in it and nothing else.
+>
+> **Do not return until that report is written.** Returning early — with a one-line status, or because a worker is still going — permanently destroys everything your workers learned. If a game is unfinished, still write the full report and say which game is outstanding and where its files are.
 
 Then have the orchestrator's report be the only thing that reaches the main context. Relay it to the user, and append anything genuinely new to the memory file yourself (a few lines, not a retelling).
+
+**Two failure modes to check for when the report lands** (both cost a batch's findings on 2026-08-06):
+
+- **A one-line return.** If the orchestrator returns a status line instead of the report, its findings are already gone — the commits survive, the knowledge does not. Recover what you can from `git log`, and note it, but the fix is preventive: the "do not return until the report is written" line above.
+- **Orphaned workers.** An orchestrator returning does *not* mean its workers finished. One kept writing for ten minutes after its parent returned, with nobody left to integrate it. Whenever a report mentions an unfinished game — or `git status` shows an untracked rulebook after a batch — check whether the file is still growing (**a 45–60 s gap, not 20 s**; a short quiet window reads as death and isn't), and integrate it in the main thread when it settles.
 
 **When the main thread should run the batch itself instead:**
 
