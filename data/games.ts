@@ -1847,6 +1847,12 @@ const assets: Game[] = [
     code: 'decrypto',
   },
   {
+    bggid: 169654,
+    name: 'Deep Sea Adventure',
+    code: 'deep-sea-adventure',
+    alternativeNames: ['深海探険'],
+  },
+  {
     bggid: 65532,
     name: 'Defenders of the Realm',
     code: 'defenders-of-the-realm',
