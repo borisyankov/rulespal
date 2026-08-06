@@ -6805,6 +6805,12 @@ const assets: Game[] = [
     code: 'tsuro',
   },
   {
+    bggid: 16747,
+    name: "Tumblin' Dice",
+    code: 'tumblin-dice',
+    alternativeNames: ['Tumblin-Dice', 'Tumblin Dice'],
+  },
+  {
     bggid: 356123,
     name: 'Turing Machine',
     code: 'turing-machine',
