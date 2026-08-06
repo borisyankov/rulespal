@@ -3797,6 +3797,13 @@ const assets: Game[] = [
     code: 'marvel-united-x-men',
   },
   {
+    bggid: 351817,
+    name: 'Marvel Zombies: A Zombicide Game',
+    shortName: 'Marvel Zombies',
+    code: 'marvel-zombies',
+    extraSources: ['extra-missions'],
+  },
+  {
     bggid: 197070,
     name: 'Massive Darkness',
     code: 'massive-darkness',
