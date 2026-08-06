@@ -5835,6 +5835,12 @@ const assets: Game[] = [
     extraSources: ['brood-war', 'faq'],
   },
   {
+    bggid: 332290,
+    name: 'Stardew Valley: The Board Game',
+    code: 'stardew-valley',
+    shortName: 'Stardew Valley',
+  },
+  {
     bggid: 223770,
     name: 'Startups',
     code: 'startups',
