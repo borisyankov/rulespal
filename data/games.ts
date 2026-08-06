@@ -2182,6 +2182,11 @@ const assets: Game[] = [
     alternativeNames: ['Everdell: Farshore', 'Farshore'],
   },
   {
+    bggid: 363307,
+    name: 'Evergreen',
+    code: 'evergreen',
+  },
+  {
     bggid: 182134,
     name: 'Evolution: Climate',
     code: 'evolution-climate',
