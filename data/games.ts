@@ -7243,6 +7243,12 @@ const assets: Game[] = [
     code: 'wingspan-asia',
   },
   {
+    bggid: 165401,
+    name: 'Wir sind das Volk!',
+    code: 'wir-sind-das-volk',
+    alternativeNames: ['Wir sind das Volk', 'We are the People', 'The divided Germany, 1945-1989'],
+  },
+  {
     bggid: 383499,
     name: 'Witchcraft!',
     code: 'witchcraft',
