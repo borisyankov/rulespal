@@ -4535,6 +4535,12 @@ const assets: Game[] = [
     code: 'perfection',
   },
   {
+    bggid: 45,
+    name: 'Perudo',
+    code: 'perudo',
+    alternativeNames: ["Liar's Dice", 'Bluff', 'Dudo'],
+  },
+  {
     bggid: 1258,
     name: 'Phase 10',
     code: 'phase-10',
