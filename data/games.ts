@@ -2320,6 +2320,11 @@ const assets: Game[] = [
     code: 'framework',
   },
   {
+    bggid: 140603,
+    name: 'Francis Drake',
+    code: 'francis-drake',
+  },
+  {
     bggid: 119506,
     name: 'Freedom: The Underground Railroad',
     code: 'freedom-the-underground-railroad',
@@ -2477,6 +2482,12 @@ const assets: Game[] = [
       'Gandhi',
       'Gandhi: The Decolonization of British India, 1917 – 1947',
     ],
+  },
+  {
+    bggid: 42776,
+    name: 'Gears of War: The Board Game',
+    code: 'gears-of-war',
+    shortName: 'Gears of War',
   },
   {
     bggid: 1345,
@@ -4545,6 +4556,12 @@ const assets: Game[] = [
     code: 'quadropolis',
   },
   {
+    bggid: 143519,
+    name: 'Quantum',
+    code: 'quantum',
+    alternativeNames: ['Quantum: Revised Edition'],
+  },
+  {
     bggid: 232043,
     name: 'Queendomino',
     code: 'queendomino',
@@ -4919,6 +4936,13 @@ const assets: Game[] = [
     bggid: 1041,
     name: 'San Marco',
     code: 'san-marco',
+  },
+  {
+    bggid: 441696,
+    name: 'Sanctuary',
+    code: 'sanctuary',
+    alternativeNames: ['Sanctuary: An Ark Nova Game'],
+    extraSources: ['glossary'],
   },
   {
     bggid: 382518,
@@ -5726,6 +5750,16 @@ const assets: Game[] = [
     name: 'The Adventures of Robin Hood',
     code: 'the-adventures-of-robin-hood',
     shortName: 'Robin Hood',
+  },
+  {
+    bggid: 180593,
+    name: 'The Bloody Inn',
+    code: 'the-bloody-inn',
+    alternativeNames: [
+      "L'Auberge Sanglante",
+      'Die Blutige Herberge',
+      'La Posada Sangrienta',
+    ],
   },
   {
     bggid: 342921,
