@@ -486,6 +486,12 @@ const assets: Game[] = [
     code: 'arkham-horror-card-game-revised',
   },
   {
+    bggid: 154825,
+    name: 'Arkwright',
+    code: 'arkwright',
+    extraSources: ['spinning-jenny', 'players-book'],
+  },
+  {
     bggid: 12005,
     name: 'Around the World in 80 Days',
     code: 'around-the-world-in-80-days',
