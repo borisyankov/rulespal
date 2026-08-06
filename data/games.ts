@@ -3300,6 +3300,11 @@ const assets: Game[] = [
     code: 'just-one',
   },
   {
+    bggid: 73761,
+    name: 'K2',
+    code: 'k2',
+  },
+  {
     bggid: 320390,
     name: 'Kabuto Sumo',
     code: 'kabuto-sumo',
