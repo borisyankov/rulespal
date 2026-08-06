@@ -3321,6 +3321,13 @@ const assets: Game[] = [
     code: 'keyforge-call-of-the-archons',
   },
   {
+    bggid: 299684,
+    name: 'Khôra: Rise of an Empire',
+    code: 'khora',
+    shortName: 'Khôra',
+    alternativeNames: ['Khora: Rise of an Empire', 'Khora'],
+  },
+  {
     bggid: 364655,
     name: 'Kinfire Chronicles: Night\'s Fall',
     code: 'kinfire-chronicles-nights-fall',
