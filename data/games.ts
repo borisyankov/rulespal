@@ -3644,6 +3644,16 @@ const assets: Game[] = [
     shortName: 'Marco Polo II',
   },
   {
+    bggid: 174785,
+    name: 'Mare Nostrum: Empires',
+    code: 'mare-nostrum-empires',
+    alternativeNames: [
+      'Mare Nostrum: Imperia',
+      'Mare Nostrum: Imperios',
+      'Mare Nostrum: Impero',
+    ],
+  },
+  {
     bggid: 40354,
     name: 'Maria',
     code: 'maria',
