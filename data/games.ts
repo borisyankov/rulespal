@@ -5237,6 +5237,12 @@ const assets: Game[] = [
     code: 'shadows-over-camelot',
   },
   {
+    bggid: 180511,
+    name: 'Shakespeare',
+    code: 'shakespeare',
+    extraSources: ['reference'],
+  },
+  {
     bggid: 244115,
     name: 'Shards of Infinity',
     code: 'shards-of-infinity',
