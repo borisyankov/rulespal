@@ -5725,6 +5725,13 @@ const assets: Game[] = [
     code: 'space-station-phoenix',
   },
   {
+    bggid: 214029,
+    name: 'SpaceCorp: 2025-2300AD',
+    code: 'spacecorp',
+    shortName: 'SpaceCorp',
+    extraSources: ['solo-rules'],
+  },
+  {
     bggid: 128671,
     name: 'Spartacus: A Game of Blood and Treachery',
     shortName: 'Spartacus',
