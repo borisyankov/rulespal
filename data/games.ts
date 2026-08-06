@@ -1345,6 +1345,12 @@ const assets: Game[] = [
     code: 'chutes-and-ladders',
   },
   {
+    bggid: 264052,
+    name: 'Circadians: First Light',
+    code: 'circadians-first-light',
+    alternativeNames: ['Circadians: First Light 2nd Edition'],
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
