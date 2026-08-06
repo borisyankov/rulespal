@@ -5520,6 +5520,12 @@ const assets: Game[] = [
     shortName: 'Battle of Hoth',
   },
   {
+    bggid: 205359,
+    name: 'Star Wars: Destiny',
+    code: 'star-wars-destiny',
+    alternativeNames: ['Star Wars: Przeznaczenie'],
+  },
+  {
     bggid: 164153,
     name: 'Star Wars: Imperial Assault',
     code: 'star-wars-imperial-assault',
