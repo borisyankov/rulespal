@@ -7279,6 +7279,12 @@ const assets: Game[] = [
     code: 'yahtzee',
   },
   {
+    bggid: 213893,
+    name: 'Yamataï',
+    code: 'yamatai',
+    alternativeNames: ['Yamatai'],
+  },
+  {
     bggid: 244114,
     name: 'Yellow & Yangtze',
     code: 'yellow-and-yangtze',
