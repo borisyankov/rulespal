@@ -1377,6 +1377,12 @@ const assets: Game[] = [
     shortName: 'Cleopatra',
   },
   {
+    bggid: 316546,
+    name: 'Clever Cubed',
+    code: 'clever-cubed',
+    alternativeNames: ['Clever hoch Drei', 'Très futé à la puissance trois', 'Clever tot de 3e macht'],
+  },
+  {
     bggid: 316858,
     name: 'CloudAge',
     code: 'cloudage',
