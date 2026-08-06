@@ -2145,6 +2145,13 @@ const assets: Game[] = [
     code: 'escape-plan',
   },
   {
+    bggid: 113294,
+    name: 'Escape: The Curse of the Temple',
+    code: 'escape-the-curse-of-the-temple',
+    shortName: 'Escape',
+    alternativeNames: ['Escape: Der Fluch des Tempels', 'Escape: La maldición del templo'],
+  },
+  {
     bggid: 424981,
     name: 'Eternal Decks',
     code: 'eternal-decks',
