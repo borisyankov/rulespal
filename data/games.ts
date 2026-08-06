@@ -1246,6 +1246,15 @@ const assets: Game[] = [
     code: 'chronicles-of-crime',
   },
   {
+    bggid: 300300,
+    name: 'Chronicles of Crime: 1400',
+    code: 'chronicles-of-crime-1400',
+    alternativeNames: [
+      'Chronicles of Crime: The Millennium Series – 1400',
+      'Chronicles of Crime Millennium 1400',
+    ],
+  },
+  {
     bggid: 302312,
     name: 'Chronicles of Crime: 2400',
     code: 'chronicles-of-crime-2400',
