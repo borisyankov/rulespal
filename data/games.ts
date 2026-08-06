@@ -3835,6 +3835,12 @@ const assets: Game[] = [
     alternativeNames: ['Moon Colonies Bloodbath'],
   },
   {
+    bggid: 329551,
+    name: 'Mosaic: A Story of Civilization',
+    code: 'mosaic',
+    shortName: 'Mosaic',
+  },
+  {
     bggid: 175199,
     name: 'Mottainai',
     code: 'mottainai',
