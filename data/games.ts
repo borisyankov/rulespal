@@ -3409,6 +3409,11 @@ const assets: Game[] = [
     code: 'letters-from-whitechapel',
   },
   {
+    bggid: 358737,
+    name: 'Leviathan Wilds',
+    code: 'leviathan-wilds',
+  },
+  {
     bggid: 140620,
     name: 'Lewis & Clark: The Expedition',
     code: 'lewis-and-clark',
