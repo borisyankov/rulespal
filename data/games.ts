@@ -502,6 +502,12 @@ const assets: Game[] = [
     code: 'asara',
   },
   {
+    bggid: 69789,
+    name: 'Ascension: Deckbuilding Game',
+    code: 'ascension',
+    alternativeNames: ['Ascension: Chronicle of the Godslayer'],
+  },
+  {
     bggid: 167400,
     name: 'Ashes Reborn: Rise of the Phoenixborn',
     shortName: 'Ashes Reborn',
