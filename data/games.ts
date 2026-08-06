@@ -1279,6 +1279,12 @@ const assets: Game[] = [
     code: 'citadels',
   },
   {
+    bggid: 233247,
+    name: 'Civilization: A New Dawn',
+    code: 'civilization-a-new-dawn',
+    alternativeNames: ["Sid Meier's Civilization: A New Dawn", 'A New Dawn'],
+  },
+  {
     bggid: 400602,
     name: 'Civolution',
     code: 'civolution',
