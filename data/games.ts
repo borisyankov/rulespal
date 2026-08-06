@@ -5323,6 +5323,11 @@ const assets: Game[] = [
     code: 'santa-monica',
   },
   {
+    bggid: 8125,
+    name: 'Santiago',
+    code: 'santiago',
+  },
+  {
     bggid: 194655,
     name: 'Santorini',
     code: 'santorini',
