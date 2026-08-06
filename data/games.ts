@@ -180,6 +180,17 @@ const assets: Game[] = [
     alternativeNames: ['Hoity Toity'],
   },
   {
+    bggid: 271262,
+    name: 'Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations',
+    code: 'advanced-squad-leader-starter-kit-4',
+    shortName: 'ASL Starter Kit #4',
+    alternativeNames: [
+      'ASL Starter Kit #4',
+      'ASLSK #4',
+      'Advanced Squad Leader: Starter Kit #4',
+    ],
+  },
+  {
     bggid: 242705,
     name: 'Aeon Trespass: Odyssey',
     code: 'aeon-trespass-odyssey',
