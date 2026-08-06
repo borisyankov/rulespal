@@ -1841,6 +1841,11 @@ const assets: Game[] = [
     code: 'decrypto',
   },
   {
+    bggid: 65532,
+    name: 'Defenders of the Realm',
+    code: 'defenders-of-the-realm',
+  },
+  {
     bggid: 104162,
     name: 'Descent: Journeys in the Dark (Second Edition)',
     shortName: 'Descent: Journeys in the Dark',
