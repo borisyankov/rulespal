@@ -700,6 +700,11 @@ const assets: Game[] = [
     alternativeNames: ['Beer and Bread'],
   },
   {
+    bggid: 50750,
+    name: 'Belfort',
+    code: 'belfort',
+  },
+  {
     bggid: 17449,
     name: 'Beowulf: The Legend',
     code: 'beowulf-the-legend',
