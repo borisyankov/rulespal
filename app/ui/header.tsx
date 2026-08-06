@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import type { Game } from '../lib/definitions';
-import GameDialog from '../ui/game-dialog';
 import ThemeSwitcher from '../ui/theme-switcher';
 import { MessageCircleQuestion, BookOpenTextIcon } from 'lucide-react';
 import { usePathname } from 'next/navigation';
@@ -47,7 +46,6 @@ export default function Header({ game, search, onSearchChange }: Props) {
           />
         )}
         <ThemeSwitcher />
-        {game && <GameDialog game={game} />}
       </div>
     </header>
   );

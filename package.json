@@ -20,7 +20,6 @@
     "@ai-sdk/groq": "^4.0.16",
     "@ai-sdk/openai": "^4.0.24",
     "@ai-sdk/react": "^4.0.45",
-    "@radix-ui/react-dialog": "^1.1.23",
     "@types/mdast": "^4.0.4",
     "@vercel/analytics": "^2.0.1",
     "ai": "^7.0.42",
