@@ -1198,6 +1198,12 @@ const assets: Game[] = [
     shortName: 'Cellulose',
   },
   {
+    bggid: 270970,
+    name: 'Century: A New World',
+    code: 'century-a-new-world',
+    extraSources: ['from-east-to-west'],
+  },
+  {
     bggid: 232832,
     name: 'Century: Golem Edition',
     code: 'century-golem-edition',
