@@ -6739,6 +6739,12 @@ const assets: Game[] = [
     code: 'unsettled',
   },
   {
+    bggid: 420498,
+    name: 'Unstoppable',
+    code: 'unstoppable',
+    alternativeNames: ['Nezastavitelní', 'Непобедимые'],
+  },
+  {
     bggid: 2536,
     name: 'Vabanque',
     code: 'vabanque',
