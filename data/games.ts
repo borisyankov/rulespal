@@ -1050,6 +1050,11 @@ const assets: Game[] = [
     code: 'caper-europe',
   },
   {
+    bggid: 393325,
+    name: 'Captain Flip',
+    code: 'captain-flip',
+  },
+  {
     bggid: 171131,
     name: 'Captain Sonar',
     code: 'captain-sonar',
