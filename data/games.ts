@@ -2391,6 +2391,11 @@ const assets: Game[] = [
     code: 'final-girl',
   },
   {
+    bggid: 40628,
+    name: 'Finca',
+    code: 'finca',
+  },
+  {
     bggid: 436126,
     name: 'Finspan',
     code: 'finspan',
