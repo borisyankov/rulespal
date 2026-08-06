@@ -5838,6 +5838,18 @@ const assets: Game[] = [
     shortName: 'Robin Hood',
   },
   {
+    bggid: 135219,
+    name: 'The Battle of Five Armies',
+    code: 'battle-of-five-armies',
+    alternativeNames: [
+      'Battle of Five Armies',
+      'Die Schlacht der fünf Heere: Der Hobbit',
+      'Die Schlacht der funf Heere',
+      'La Battaglia dei Cinque Eserciti',
+      'La Bataille des cinq armées',
+    ],
+  },
+  {
     bggid: 180593,
     name: 'The Bloody Inn',
     code: 'the-bloody-inn',
