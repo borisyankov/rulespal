@@ -6521,6 +6521,11 @@ const assets: Game[] = [
     alternativeNames: ['Dream Factory', 'Fabrik der Träume', 'Hollywood Blockbuster', 'Hollywood Golden Age'],
   },
   {
+    bggid: 242639,
+    name: 'Treasure Island',
+    code: 'treasure-island',
+  },
+  {
     bggid: 303672,
     name: 'Trek 12: Himalaya',
     code: 'trek-12',
