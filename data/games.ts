@@ -6505,6 +6505,11 @@ const assets: Game[] = [
     alternativeNames: ['Isla Tucana', 'Wyspy Tukana'],
   },
   {
+    bggid: 121408,
+    name: 'Trains',
+    code: 'trains',
+  },
+  {
     bggid: 102680,
     name: 'Trajan',
     code: 'trajan',
