@@ -984,6 +984,19 @@ const assets: Game[] = [
     alternativeNames: ['Kakao'],
   },
   {
+    bggid: 338957,
+    name: 'Caesar!: Seize Rome in 20 Minutes!',
+    code: 'caesar',
+    shortName: 'Caesar!',
+    alternativeNames: [
+      'Caesar! Seize Rome in 20 Minutes',
+      'Caesar!: Erobere Rom in 20 Minuten!',
+      'Caesar!: Emparez vous de Rome en 20 minutes!',
+      '¡César!: ¡Conquista Roma en 20 minutos!',
+      'Ave Cesare! Conquista Roma in 20 minuti!',
+    ],
+  },
+  {
     bggid: 283155,
     name: 'Calico',
     code: 'calico',
