@@ -1215,6 +1215,12 @@ const assets: Game[] = [
     extraSources: ['from-east-to-west'],
   },
   {
+    bggid: 242574,
+    name: 'Century: Eastern Wonders',
+    code: 'century-eastern-wonders',
+    extraSources: ['from-sand-to-sea'],
+  },
+  {
     bggid: 232832,
     name: 'Century: Golem Edition',
     code: 'century-golem-edition',
