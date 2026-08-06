@@ -1,0 +1,295 @@
+# Sanctuary Rulebook
+
+## Table of Contents
+
+*An Ark Nova Game. In Sanctuary you build your own animal park out of hexagonal tiles: animals, buildings and projects that you draw from the pile and take from a shared display. The game is divided into individual turns. During your turn, you take 1 tile from the display and then perform 1 action. Then the next player in clockwise order takes their turn. Take turns until one of you meets 1 of the 3 end game conditions (see End of Game and Final Scoring).*
+
+## Global (1–6) and Player (A–D) Setup
+
+**1** Place the Display board in the middle of the table.
+
+**2** Shuffle all tiles face down and stack them in one or several piles. Whenever tiles are taken "from the pile" during the game, these tiles are meant.
+
+**3** Place 6 random tiles from the pile face up on the Display board, 1 tile next to each number. These 6 tiles form the **display**.
+
+**4** Leave some space for a **discard pile** next to the Display board.
+
+**5** Set aside the **Conservation markers**, **Pouch markers**, and End-of-game markers as the supply.
+
+**6** Place the **Conservation board** next to the Display board. Shuffle the **10 Conservation objectives** face down. Reveal 5 of them at random and place them onto the Conservation board. The order doesn't matter; however, for a better overview, we recommend that you place all objectives with continent icons next to each other, as well as all objectives with animal icons. Put the other 5 objectives back into the box; you won't need them in this game.
+
+> **Note:** Both the designer and the publisher have made every effort to be realistic in the implementation of this game. Where we have not managed to do so, we ask for your indulgence.
+
+**A** Place **1 Zoo map** in front of you. Make sure that you all use the same side of the Zoo maps. Use side 1 for your first game!
+
+**B** Take 1 set of the **4 different Action cards**. Turn them all to side I. The side is depicted on the bottom right of the card.
+
+Randomly determine a starting player. The starting player places the **Projects** Action card in the leftmost slot under their Zoo map, so that its arrow points to the value 1.
+
+The next players in clockwise order each place their **Projects Action card 1 slot further to the right**, so that its arrow points to the value 2, 3, or 4, respectively. In a game with 5 players, both the 4th and 5th player place their card in the rightmost slot (the arrow points to value 4).
+
+Place your other 3 Action cards randomly in the remaining 3 slots.
+
+**C** Choose a color, take the **4 Upgrade markers** and the **4 Conservation Achievement markers** of your color, and place them face up in front of you.
+
+**D** Place **1 tile holder** in front of you. You will insert all tiles you receive into this holder, so that only you can see them. These tiles in your tile holder count as being "in your hand."
+
+You start the game without any tiles.
+
+> **Tip:** To familiarize yourself with the game, we recommend returning your 4× Conservation Achievement marker to the box for the first game. The end of the game can then be triggered by placing the third of these markers.
+
+## Gameplay and Concepts of the Game
+
+The game is divided into individual turns. During your turn, you take **1 tile from the display** and then perform **1 action**. Then the next player in clockwise order takes their turn.
+
+Take turns until one of you meets **1 of the 3 end game conditions** (see *End of Game and Final Scoring*).
+
+### Zoo Map and Tiles
+
+The central part of the game are the many tiles, which are structured as follows:
+
+You will find various icons at the top (1). These can be a **habitat** (e.g., Water), a **continent** (e.g., Australia), and/or an **animal class** icon (e.g., Herbivore). **Building** and **Project** tiles each have their own icon. All of these icons are considered to be in your zoo after you play the tile.
+
+At the bottom you will find the name of the tile, highlighted in a specific color. The color shows you what type of tile it is and therefore how you can play it. There are **Animals** (yellow, 2a), **Buildings** (blue, 2b), and **Projects** (purple, 2c).
+
+For Animals and Projects, you will find the level of the tile on the left (3). It indicates how high the **strength of your action** must be to play this tile (you'll learn about this soon).
+
+For Buildings, you will instead find the **condition** on the left that you must meet in order to be able to play the tile (4).
+
+**EFFECTS:** Some tiles give you additional effects: Either **once** when you play them, in which case the effect is marked with a lightning bolt and highlighted in light yellow (5); or **ongoing**, in which case it is marked with an infinity sign and highlighted in light green (6).
+
+> **IMPORTANT:** If you play a tile with an ongoing effect, it is **immediately** active. If the effect relates to an icon that is present on the currently played tile itself, it is triggered immediately. This applies, for example, to the *Herpetologist* tile shown above: The effect applies to tiles with a reptile icon and the Herpetologist itself has such an icon.
+
+**POINTS:** Many tiles increase the appeal of your zoo and thus give you points at the end of the game. Some tiles have a fixed point value (7a). For other tiles, the value depends on what other tiles are in your zoo (7b). You can find an explanation of how the *Scoring* of these tiles works in the Glossary.
+
+**ANIMAL PAIRS:** Some animal species exist twice in the tile pile, once as a male and once as a female specimen (8). The names of the two tiles are identical, but the pictures are not. If you manage to place both tiles of the same animal species **next to each other** in your zoo, you immediately gain **1 Conservation marker** (in addition to any other possible effects)!
+
+You can keep Conservation and Pouch markers in the space provided at the bottom left of your zoo map.
+
+**OPEN AREA:** Some Animals and Buildings require more than just 1 space on your Zoo map. If there are **arrows** (9) on one or more sides of the tile, this tile requires **Open Areas** (10) (face-down tiles) on the adjacent spaces at which the arrows point. They may not point at tiles that have already been played **face up**, nor may they point at the outside of your Zoo map.
+
+If the arrows point at Open Areas that are already in your zoo, you can also use these for the newly played tile. This is also true for the Open Areas already printed on your Zoo map. Otherwise, you must place tiles **from your hand** face down on the empty spaces pointed at to create the Open Areas.
+
+Each Open Area in your zoo is worth **1 point** at the end of the game.
+
+> **EXAMPLE:** To play the female *Sumatran Tiger*, you need 2 Open Areas, one at the top left and one at the top right of its tile. In this example, there is only 1 space with an already existing Open Area or room for a new Open Area at the top left and top right.
+>
+> To create the missing Open Area on the left (A), you must place a tile from your hand face down in your zoo. Conveniently, the Open Area on the right (B) was already printed on your Zoo map.
+
+### Placement Rules
+
+Whenever you play a tile in your zoo, you must place it on an **empty space** (a space with no tile and no printed open area on it) on your Zoo map. This empty space must be adjacent to the entrance or a tile already in your zoo. (**Important:** The two Open Areas printed on your Zoo map do **not** count as tiles!)
+
+Therefore, there are 3 possible spaces on which you can place your **first tile**: the 3 spaces next to your **zoo entrance** (11). Later on, you will have more options for placing your tiles. However, you will soon realize that it is not always easy to choose the best place for each tile.
+
+You must always place tiles so that the icons are at the top and the name of the tile is at the bottom (12). You are **not allowed to rotate** the tiles (e.g., so that the arrows point at Open Areas on other spaces).
+
+If a placement bonus is shown on the space on which you place the tile (13) or an Open Area, you will receive that bonus after finishing the placement including Open Areas (if necessary). The various bonuses are explained in the Glossary and on the Player aids.
+
+Some tiles refer to the River on your Zoo map. The 3 spaces on the left and right edges of your Zoo map are considered to be **"by the River"** (14).
+
+Place tiles that you discard during the game on the **discard pile**. Place discarded tiles **face up** on this pile, so that you do not confuse it with the draw pile.
+
+If a tile requires Open Areas, first place the tile itself on your Zoo map according to these placement rules, and then place the Open Areas (if necessary). Finally, receive any placement bonuses from the tile and the Open Areas in any order.
+
+### The Strength of Your Action Cards
+
+To perform an action, you use 1 of your 4 Action cards (more on the individual actions later). These are located below your Zoo map and each have **1 arrow** pointing upward at a numerical value. This numerical value determines the current **strength of the action**. The further to the right the Action card is, the higher the numerical value to which the arrow points (i. e., the stronger the action).
+
+After you have used an action, you place its card in the **leftmost slot** under your Zoo map and slide other cards to the right. (This will be explained in detail later.) This way, the card you used becomes weaker and the other cards become stronger. Try to keep that in mind when choosing your action.
+
+During the game, you can **upgrade** your Action cards if you meet certain conditions (more on this later). You upgrade your Action cards by **flipping them over** to side II. The arrow on that side points at the number on the right. This means that the strength of an upgraded action is always 1 higher than that of a non-upgraded action.
+
+In addition, you can then do more with one action, e. g., play 2 Animals instead of 1.
+
+> **EXAMPLE:** Your *Project* action currently has a strength of 3. If you upgrade the *Water Animals* action (so that it now shows side II), its strength increases from 4 to 5.
+
+## How to Play a Turn
+
+On your turn, there are 2 things you **always** do. Firstly, you take **1 tile from the display** and secondly, you perform **1 action** with one of your Action cards. You then have other **options** available to you. At the end there is some **administration** to take care of. Proceed in the following order:
+
+**ALWAYS**
+
+- **1.** Take **1 tile within range** from the display. Your Action cards stay where they are.
+- **2.** Perform **1 action** with 1 of your Action cards. Move the used Action card all the way to the left.
+
+**POSSIBLY**
+
+- **3.** Play 1 Building.
+- **4.** Support 1 Conservation objective.
+- **5.** Upgrade one or more of your Action cards.
+
+**ADMINISTRATION**
+
+- **6.** At the end of your turn:
+  - Keep to the tile limit
+  - Replenish the display
+  - Check whether the game ends
+
+The individual steps are explained in detail below. The illustrations at the bottom of your Zoo map are there to help you remember the sequence of the individual steps.
+
+### 1. ALWAYS: Take 1 Tile within range from the display
+
+Take 1 tile from the display into your hand; the white arrow of your **Projects** Action card points at the maximum position from which you may take the tile.
+
+So, if the white arrow points to the value 1, only the tile in position 1 is within range for you, and you must take that tile. If the arrow points to the value 4, for example, you choose 1 tile from positions 1 to 4.
+
+> **IMPORTANT:** This step does **not move** your **Projects** Action card!
+>
+> **IMPORTANT:** The "within range" restriction only applies in this step. If a tile effect or placement bonus allows you to take a tile from the display, you can always take a tile from any position of the display.
+
+> **EXAMPLE:** The white arrow points to the "2", which means the tile you take from the display into your hand can be in position 1 or 2. In this example, that would be either the *Alpine Ibex* in position 1 or the *Indian Python* in position 2. Your **Projects** Action card remains in its slot. Then you perform 1 of your 4 actions (see step 2).
+
+### 2. ALWAYS: Perform 1 action with 1 of your Action cards
+
+Choose 1 of your Action cards and pull it a bit downward in its slot. Then perform 1 of the two actions listed on it with their current strength, EITHER to gain tiles OR to play tiles.
+
+#### The four Action cards
+
+Each Action card lists two alternative actions; you perform one of them:
+
+- **Projects Action card** (Tile range / Project level): *Play 1 Project.* **OR** *Take any 1 tile from the display.*
+- **Rock Animals Action card** (Maximum Animal level): *Play 1 Animal with the habitat ROCK or undefined.* **OR** *Draw 2 tiles from the pile.*
+- **Forest Animals Action card** (Maximum Animal level): *Play 1 Animal with the habitat FOREST or undefined.* **OR** *Draw 2 tiles from the pile.*
+- **Water Animals Action card** (Maximum Animal level): *Play 1 Animal with the habitat WATER or undefined.* **OR** *Draw 2 tiles from the pile.*
+
+On side II, an Animals Action card instead reads *Play 1 or 2 Animals* (the sum of the Animal levels must not exceed the strength of the action), and the Projects Action card lets you take 2 tiles from the display.
+
+#### Gaining tiles
+
+**PROJECTS ACTION CARD — Take 1 tile from the display (or 2 tiles if on side II)**
+
+Take any 1 tile from the display. The position of the tile on the display doesn't matter. If you have already upgraded the **Projects** Action card, you may take a 2nd tile from the display.
+
+**ANIMALS ACTION CARDS — Draw 2 tiles from the pile**
+
+Take the 2 topmost (face-down) tiles from the pile and put them in your hand.
+
+#### Playing Tiles (Animals or Projects)
+
+**PROJECTS ACTION CARD — Play 1 Project**
+
+If you have a Project in your hand and the strength of your **Projects** action is at least as high as the level of the tile, place the tile on your Zoo map (on an empty space next to either another tile or your zoo entrance).
+
+If it is a *Release into the wild* Project, place the tile on top of an Animal with the matching icon instead. The Animal (and its icons and points) are then covered and no longer count as being "in your zoo".
+
+If placing the tile triggers effects (one-time effects, ongoing effects, or placement bonuses on the Zoo map), you may perform them in any order.
+
+**ANIMALS ACTION CARDS — Play 1 Animal (or 2 Animals if on side II)**
+
+You have 3 different Action cards to play Animals (yellow tiles). Each of these Action cards applies to a specific **habitat** (Rock, Forest, or Water). You can only play an Animal with the Action card that has the same habitat as the Animal. An exception to that are Animals with the "undefined" habitat, indicated by the undefined-habitat icon. You can play such an Animal with any of the 3 **Animals** Action cards.
+
+To play an Animal from your hand, the strength of the matching action must be at least as high as the level of the Animal tile. Then place the Animal tile on your Zoo map (on an empty space next to either another tile or your zoo entrance). If the Animal requires one or more Open Areas, place it adjacent to existing Open Areas and/or place additional tiles from your hand face down as Open Areas on your Zoo map.
+
+If placing an Animal tile and/or Open Area triggers effects (one-time effects, ongoing effects, or placement bonuses on the Zoo map), you may perform them in any order.
+
+If you use this action to place an Animal next to an Animal with the same name (i. e., the female Animal next to the male Animal or vice versa), you **immediately** receive 1 Conservation marker.
+
+You may only play 1 Animal per action with side I of the Action card. If you have already upgraded the Action card, you may play 2 Animals (instead of just 1) from the corresponding habitat and/or with an undefined habitat. However, the strength of the action must be at least as high as the **sum** of the levels of **both** Animals to do that. Play and place these Animals in your zoo one after the other.
+
+> **IMPORTANT:** Always carry out all effects that you trigger by playing the first Animal before you play the second Animal.
+
+> **EXAMPLE – PLAYING A PROJECT:** Since the *Herpetologist* is a level-4 Project, you must perform a **Projects** action with strength 4 or more to play it into your zoo. You place the Herpetologist on an empty space adjacent to the entrance.
+> The Herpetologist has an ongoing effect that is triggered whenever you play a reptile icon into your zoo. Because the Herpetologist itself has a reptile icon, you immediately trigger its effect for the first time and take any 1 tile from the display into your hand.
+
+> **EXAMPLE – PLAYING 1 ANIMAL TILE:** On your next turn, you play the female *Nile Crocodile* into your zoo. To do this, you need a **Water Animals** action with strength 4 or more, since the Nile Crocodile is an Animal with a Water icon (A) and is level 4 (B). The Nile Crocodile needs an Open Area in your zoo. To create one, you play another tile **from your hand** face down as an Open Area where the Nile Crocodile needs it (C). After you have placed both tiles, the effects of the Nile Crocodile and the Herpetologist are triggered.
+> You receive 2 effects for playing the Nile Crocodile: the one-time effect of the Nile Crocodile (D) and the ongoing effect of the Herpetologist (E). If you receive multiple effects at the same time, you can always choose in which order you want to perform them. In this case, both effects let you draw any 1 tile from the display, so you may draw 2 tiles in total.
+
+> **EXAMPLE – PLAYING 2 ANIMAL TILES:** You want to use one of your upgraded Action cards to play 2 Animals into your zoo. The *Capybara* and the *Goat* are both level 2 (A), so you need an action with strength 4 or more to be able to play both Animals.
+> The Goat's habitat is "undefined" (B), so you could play it with any of the 3 **Animals** actions, but the Capybara is a Water animal (C). You can therefore only play these two Animals together with the **Water Animals** action (D). Conveniently, this action currently has a strength of 4.
+> You first play the male Capybara next to the female Capybara already in your zoo. Since you have managed to place a pair of animals of the same species directly next to each other (E), you receive 1 Conservation marker.
+> Then you play the Goat next to the *Alpaca* already in your zoo.
+
+> **IMPORTANT:** The only tiles you can place using Action cards are Animals and Projects, not Buildings!
+
+#### Complete the action
+
+After you have performed the action, remove the corresponding Action card from its slot. Move the Action cards left of the new gap rightward to close the gap. Finally, place the **used Action card** in the empty **leftmost slot**.
+
+If you use the leftmost Action card, you do not move any cards.
+
+> **EXAMPLE:** After you have performed the **Projects** action with strength 3, place the **Projects** Action card all the way on the left and move the Action cards in between 1 slot to the right. This increases the strength of the **Rock animals** and **Forest Animals** actions by 1, i. e., to 2 and 3, respectively. The **Projects** action only has a strength of 1 on your next turn. The **Water Animals** action does not move, and keeps its strength of 4.
+
+### 3. POSSIBLY: Play 1 Building
+
+If you have at least 1 Building (blue tile) in your hand for which you meet or can meet the playing condition, you may play **exactly 1** such tile in this step. Place it on an empty space on your Zoo map (adjacent to either another tile or your zoo entrance) which meets the condition to play it on the tile, if applicable.
+
+If placing the tile triggers effects (one-time effects, ongoing effects, or placement bonuses on the Zoo map), you may perform them in any order.
+
+> **EXAMPLE:** The *Tree House* must be placed next to 2 tiles with a Forest icon (A). You play it on an empty space between the *Dusky Leaf Monkey* and the *Great Hornbill*, each of which has a Forest icon on their tile (B). Because the empty space shows the take-a-tile icon as a placement bonus (C), you may take any 1 tile from the display.
+
+### 4. POSSIBLY: Support 1 Conservation objective
+
+You have **4 Conservation Achievement markers** (2×, 3×, 4×, and 5× icons), each of which you can use to support 1 Conservation objective. You may not support a single objective more than once. The Conservation objectives show you **which** icons you need to collect to support them.
+
+Each Achievement marker indicates the **minimum number** of icons of a type that you must have in your zoo to support an objective (e.g., you may also use the 4-icon Achievement marker if you have 5 icons for an objective). They also show you how many points the placed Achievement marker is worth at the end of the game.
+
+In this step, you may support **exactly 1** Conservation objective that you have not yet supported. Count the number of icons in your zoo that match the objective you want to support. You may increase that number by returning **Conservation markers** you have collected during the game to the supply. Each Conservation marker you return increases the number of icons by 1. However, you must have at least 1 matching icon in your zoo to support a Conservation objective. You are therefore **not allowed to replace all icons** with Conservation markers when supporting a Conservation objective.
+
+Then place an unused Achievement marker with the matching number of icons face down on the Conservation board, below the Conservation objective you're supporting, on the space of your color.
+
+> **EXAMPLE:** You have 3 bird icons in your zoo (A), but you want to use the best possible Conservation Achievement marker that will earn you the most points. You therefore also discard the 2 Conservation markers you have collected. You then place your 5-icon Conservation Achievement marker on the space of your color underneath the Bird Conservation objective (B). It is worth 14 points at the end of the game. Additional bird icons that you place in your zoo will no longer help you with Conservation objectives.
+
+### 5. POSSIBLY: Upgrade Action cards
+
+You have **4 Upgrade markers**, each of which you can use to upgrade any 1 of your Action cards. You can therefore upgrade all 4 Action cards during the course of the game if you meet all the **conditions** (you may upgrade several at once):
+
+- **1** — You have supported at least 1 Conservation objective.
+- **2** — You have at least 2 Projects in your zoo.
+- **3=** — You have at least 3 connected tiles of a single habitat (Rock, Forest, or Water) in your zoo.
+- **4≠** — You have at least 4 different Animal class icons in your zoo.
+
+Carry out the following steps for **each** of your previously unused Upgrade markers whose condition you have met (which might be multiple markers, one right after the other):
+
+1. Choose 1 of your Action cards that has not yet been upgraded.
+2. Flip it from side I (upward pointing arrow on the left) to side II (upward pointing arrow on the right). This increases the strength of future actions and gives you more options.
+3. Then turn the used Upgrade marker face down. You **cannot** use it again.
+
+> **EXAMPLE:** After you have played the *Tree House* in step 3, you have 3 connected tiles with a forest icon in your zoo (A). You have now met the condition of the "3 connected tiles of a single habitat" Upgrade marker and flip it over (B). This allows you to upgrade 1 of your Action cards and you decide to flip the **Water Animals** action card over to side II (C). This increases the strength of this action by 1 for the rest of the game. For example, if you were to use the **Water Animals** action on your next turn, it would have a strength of 4 (instead of 3 from before the upgrade) and you could play up to 2 Water animals (instead of just 1).
+
+### 6. ADMINISTRATION: Keep to the tile limit, replenish the display, and check whether the game ends
+
+**TILE LIMIT:** If you now have more than 6 tiles in your hand, you must discard tiles until you have exactly 6 tiles left. You may have more than 6 tiles in your hand during your turn, but not at the end of your turn.
+
+**REPLENISH THE DISPLAY:** First, if necessary, move the tiles already in the display to the next lower empty number on the Display board until there are no more gaps between the tiles. Then place a face-up tile from the pile next to each empty number on the board, so that the display once again contains 6 tiles.
+
+**CHECK WHETHER THE GAME ENDS:** Then check whether at least 1 of the conditions for the end of the game has been met (see next section). If none of the end conditions have been met, the next player in clockwise order takes their turn.
+
+> **EXAMPLE – REPLENISHING THE DISPLAY:** At the start of your turn, you take the tile from **position 2** into your hand. With the **Projects** action, you are then allowed to take any tile. You take the tile in **position 5**.
+> At the end of your turn, you first move down the tiles in positions 3, 4 and 6. Then you reveal 2 new tiles from the pile and place them in the now empty positions 5 and 6.
+
+## End of Game and Final Scoring
+
+The end of the game is triggered when at least **1 of the 3 possible end conditions** is met **at the end of a turn**.
+
+### The 3 end conditions
+
+1. You have supported 4 Conservation objectives, so all **4 of your Conservation Achievement markers** are on the **Conservation board**.
+2. You **covered your Zoo map completely**, so there is not a single empty space left on it.
+3. The **pile** of face-down tiles is **empty**.
+
+If, at the end of your turn, you've met condition 1 and/or 2, take the **10-point** End-of-game marker. Then **everyone else** gets **1 more turn** (excluding you). After that, move on to the **final scoring**. If the pile of face-down tiles is empty after you have triggered the end of the game, shuffle all the discarded tiles to form a new pile.
+
+If you also meet condition 1 and/or 2 on your last turn, after someone else has triggered the end of the game, take a **5-point** End-of-game marker.
+
+If you meet condition 3 before one of you meets condition 1 or 2, the game ends **immediately** after your turn. Directly proceed to the **final scoring**.
+
+### Final scoring
+
+Add up:
+
+- **The points OUTSIDE your zoo**
+  - 10 or 5 points if you have an End-of-game marker
+  - the points on your **Conservation Achievement markers** on the Conservation board
+  - 2 points for each Pouch marker and each remaining Conservation marker in your possession
+- **The points for tiles IN your zoo**
+  - fixed point values on tiles, including all **Open Areas** (even those printed on the map)
+  - points depending on how many **icons** of a specific type you have **adjacent** to this tile (the icon on that tile **does not** count)
+  - points for groups of **Petting Zoo animals**
+  - points depending on how many **icons** of a specific type you have **connected** to this tile (there are multiple cells to score different icons)
+  - points depending on how many **icons or elements** you have in your **entire zoo**
+- **Solo mode only:** 5 points for each face-down Solo marker
+
+The player with the **most points wins** the game. In the event of a tie, the tied player with more Animal tiles in their zoo wins. If this number is also tied, you share the victory.
+
+The question-mark icon represents the icons and elements that can give you points during the final scoring: Habitats (e.g., Forest), Continents (e.g., Asia), Animal classes (e.g., Bird), Buildings, Projects, Open Areas, Tiles in your hand, and Animal classes **and** continents.
