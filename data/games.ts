@@ -654,6 +654,13 @@ const assets: Game[] = [
     code: 'battle-line',
   },
   {
+    bggid: 123123,
+    name: 'BattleCON: Devastation of Indines',
+    code: 'battlecon-devastation-of-indines',
+    shortName: 'BattleCON: Devastation',
+    alternativeNames: ['BattleCON Devastation of Indines'],
+  },
+  {
     bggid: 146439,
     name: 'BattleLore: Second Edition',
     shortName: 'BattleLore',
