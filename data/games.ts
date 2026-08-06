@@ -1606,6 +1606,12 @@ const assets: Game[] = [
     code: 'cribbage',
   },
   {
+    bggid: 393429,
+    name: 'Critter Kitchen',
+    code: 'critter-kitchen',
+    extraSources: ['expansion'],
+  },
+  {
     bggid: 521,
     name: 'Crokinole',
     code: 'crokinole',
