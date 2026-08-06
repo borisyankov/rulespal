@@ -6384,6 +6384,12 @@ const assets: Game[] = [
     code: 'trailblazers',
   },
   {
+    bggid: 283864,
+    name: 'Trails of Tucana',
+    code: 'trails-of-tucana',
+    alternativeNames: ['Isla Tucana', 'Wyspy Tukana'],
+  },
+  {
     bggid: 102680,
     name: 'Trajan',
     code: 'trajan',
