@@ -2738,6 +2738,11 @@ const assets: Game[] = [
     shortName: 'Hamlet',
   },
   {
+    bggid: 3685,
+    name: 'Hammer of the Scots',
+    code: 'hammer-of-the-scots',
+  },
+  {
     bggid: 98778,
     name: 'Hanabi',
     code: 'hanabi',
