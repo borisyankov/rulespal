@@ -1,38 +1,43 @@
 ---
-name: add-games
-description: Add rules for several top-ranked games at once — pick the best N games not yet in Rulespal, then add each via the add-game skill in its own commit and push. Use when the user asks to "add the top games", "add several games", "batch add games", or "add N new games".
+name: batch-add-games
+description: Add rules for several top-ranked games at once — pick 10 games not yet in Rulespal, then add each via the add-game skill in its own commit and push. Runs each batch in a disposable context. Use when the user asks to "add the top games", "add several games", "batch add games", or "add N new games".
 ---
 
-# Add Multiple Games to Rulespal
+# Batch-Add Games to Rulespal
 
 This is the batch wrapper around the single-game [`add-game`](../add-game/SKILL.md) skill. It:
 
-1. Picks the **best N games not yet added** (default N = 10).
+1. Picks the **10 best games not yet added**.
 2. Fans out **one subagent per game, in parallel**, each producing only that game's rulebook and thumbnail source.
 3. Integrates the finished games **serially**: embeddings, thumbnails, and **one commit per game** (`Add <Name>`).
 4. **Pushes** once at the end.
+5. **Ends the batch with a clean context** — see Step 0 and Step 6.
 
 Read `add-game/SKILL.md` first — every per-game detail (rulebook sourcing, catalog entry, embeddings, thumbnail, the "never fabricate rules" rule) lives there and is not repeated here.
 
-## Step 0 — Delegate the whole batch to one orchestrator subagent
+**One batch is exactly 10 games.** Not 12, not "keep going while there's budget". Ten, then the context that ran them is thrown away and the next batch starts from disk. The batch size is the unit of context disposal, so it is fixed unless the user names a different number for a specific run.
 
-**If you are the main thread, this section is the entire skill for you. Do steps 1-5 only if you are the orchestrator.**
+## Step 0 — One batch = one disposable context
 
-A batch's integration work is cheap per game but *chatty*: ten worker reports, ten sets of npm output, ten catalog reads, several thumbnail vision reads. Run in the main thread that fills a context window fast, which matters most under `/loop`, where the same context has to survive iteration after iteration. None of it needs to be in the main thread — the deliverable is commits on disk, not conversation.
+**If you are the main thread, this section plus Step 6 is the entire skill for you. Do steps 1-5 only if you are the orchestrator.**
 
-So the main thread spawns **one `general-purpose` orchestrator subagent** that runs the whole batch — picking, fanning out its own per-game workers, integrating, committing, pushing — and reports back a short summary. The main thread's entire turn is then: spawn, relay the summary when it lands, and (under `/loop`) schedule the next wakeup.
+A batch's integration work is cheap per game but *chatty*: ten worker reports, ten sets of npm output, ten catalog reads, several thumbnail vision reads. Run in the main thread, that fills a context window fast — which matters most under `/loop`, where the same context has to survive iteration after iteration. None of it needs to be in the main thread: **the deliverable is commits on disk, not conversation.**
+
+So the main thread spawns **one `general-purpose` orchestrator subagent** that runs the whole batch — picking, fanning out its own per-game workers, integrating, committing, pushing — and reports back a short summary. The main thread's entire turn is: spawn, relay the summary when it lands, persist anything durable to memory, and (under `/loop`) schedule the next wakeup.
+
+The orchestrator's context is where all the batch detail lives, and **it is destroyed when the orchestrator returns.** That is the clearing mechanism: one batch of 10 = one orchestrator = one context that dies at the end. Never reuse an orchestrator for a second batch, and never let one run more than 10 games — a long-lived orchestrator is precisely the accumulating context this design exists to avoid.
 
 Spawn it in the background with a prompt along these lines:
 
-> Run a full `/add-games` batch in the Rulespal repo at /Users/boris.yankov/rulespal.
+> Run a full `/batch-add-games` batch in the Rulespal repo at /Users/boris.yankov/rulespal.
 >
-> Read `.claude/skills/add-games/SKILL.md` and follow steps 1 through 5 — **you are the orchestrator** described there, so the parts that say "you do this in the main thread" mean you, in your own context. Also read `.claude/skills/add-game/SKILL.md` for the per-game procedure.
+> Read `.claude/skills/batch-add-games/SKILL.md` and follow steps 1 through 5 — **you are the orchestrator** described there, so the parts that say "you do this in the main thread" mean you, in your own context. Also read `.claude/skills/add-game/SKILL.md` for the per-game procedure.
 >
-> Candidate pool: `<where the candidates come from — e.g. the top N actionable rows of the user's memory file at ~/.claude/projects/-Users-boris-yankov-rulespal/memory/bgg-top1000-missing-list.md>`. Read `add-games-project-state.md` in the same directory first — it holds the standing guardrails, the permanent skip list and hard-won sourcing notes. Batch size: `<N, default 10>`.
+> Candidate pool: `<where the candidates come from — e.g. the top actionable rows of the user's memory file at ~/.claude/projects/-Users-boris-yankov-rulespal/memory/bgg-top1000-missing-list.md>`. Read `add-games-project-state.md` in the same directory first — it holds the standing guardrails, the permanent skip list and hard-won sourcing notes. **Batch size: exactly 10. Stop at 10 and return, even if more candidates are ready.**
 >
 > You may spawn your own subagents (one per game, in parallel) — do so. Integrate serially yourself as their reports land.
 >
-> **Report back in under 250 words**: the added games with commit hashes, the skipped ones with a one-line reason each, whether the push succeeded, and any new technique or gotcha worth writing to memory. No per-game detail beyond that.
+> **Report back in under 250 words**: the added games with commit hashes, the skipped ones with a one-line reason each, whether the push succeeded, and any new technique or gotcha worth writing to memory. No per-game detail beyond that. Your report is the ONLY thing that survives this batch — anything you leave out is lost, so put durable findings in it and nothing else.
 
 Then have the orchestrator's report be the only thing that reaches the main context. Relay it to the user, and append anything genuinely new to the memory file yourself (a few lines, not a retelling).
 
@@ -55,7 +60,9 @@ So split the job at that seam. **Subagents do the isolated part in parallel; you
 
 `npm run embeddings` and `npm run thumbs` are *not* a reason to serialize — both accept explicit game codes (see step 3), so you drive them per-game yourself and no worker subagent ever runs them.
 
-## Step 1 — Pick the games (best N not yet added)
+## Step 1 — Pick the games (10 best not yet added)
+
+**Start from disk, never from conversation history.** You are a fresh context by design, so establish where the catalog stands before choosing anything: `grep -c "bggid:" data/games.ts`, `git log --oneline -15`, and the memory files. Do not assume the previous batch's picks, findings or failures carry over — if it mattered, it is in `add-games-project-state.md` or the commit log.
 
 Get a ranked list of top games and subtract the ones already in `data/games.ts`. Try these in order until one yields enough fresh titles:
 
@@ -65,7 +72,7 @@ Get a ranked list of top games and subtract the ones already in `data/games.ts`.
 
 **Grep-check every candidate before delegating, not just a sample** — the catalog is deep and false-fresh picks waste a whole subagent. Check both the `name:` and `code:` lines. **For any title with diacritics, grep an ASCII fragment that avoids the accented letter** (`Kutn`, `Comanch`) — grepping the full ASCII spelling of `Kutná Hora` or `Comanchería` returns nothing and reads as missing.
 
-Show the user the shortlist (name + BGG id) before spending on transcription. If the user gave a specific N or specific titles, use those instead of the ranking.
+Show the user the shortlist (name + BGG id) before spending on transcription. If the user gave specific titles, use those instead of the ranking. **Take exactly 10** — if more good candidates surface, they belong to the *next* batch, not this one. Stop at 10 and return; do not keep going because the list is long or the budget allows.
 
 **Pre-resolve the rulebook URL yourself** for any game whose publisher you can reach in a couple of calls (GMT's product pages, a Shopify `products.json`). Handing a subagent a confirmed PDF URL removes its entire search phase.
 
@@ -150,9 +157,26 @@ Summarize:
 - **Skipped** (M): each name + one-line reason.
 - Whether the push succeeded.
 
+Then **return**. Do not start another batch, do not pick more candidates, do not offer to continue — returning is what disposes of your context.
+
+## Step 6 — Clear the context (main thread)
+
+The batch is over the moment the orchestrator's report lands. Everything worth keeping must now be on disk, and everything else must be dropped.
+
+**1. Persist, then forget.** Append genuinely new findings to `add-games-project-state.md` and update the row count in `bgg-top1000-missing-list.md`. A few lines each, not a retelling. Once written, the report has no further value — the memory file and `git log` are the record.
+
+**2. Clear before the next batch.** The main thread cannot clear itself; `/clear` is a user command. So:
+
+- **Interactive use:** after relaying the report, tell the user plainly that the batch is done and the context should be cleared before the next one — `/clear`, then re-invoke the skill. Say it as a one-line recommendation, not a question.
+- **Under `/loop`:** the loop's own context persists across iterations, so treat *each iteration as if the context had been cleared*. At the start of every iteration, re-derive state from disk (`grep -c "bggid:" data/games.ts`, `git log --oneline`, `git status --short`, the memory files) and **do not** rely on, restate, or reason from anything an earlier iteration put in the conversation. Carry forward exactly two things: that a batch is running (or isn't), and the guardrails in memory. If the user wants true clearing between loop iterations, they should stop the loop, `/clear`, and restart it — mention this once, not every iteration.
+
+**3. Never chain batches inside one context.** Two batches in a row without a clear defeats the whole design. If the user asks for 20 games, that is two batches with a clear between them, not one batch of 20.
+
 ## Guardrails
 
 - **Default to the Step 0 orchestrator.** The main thread spawns one agent and relays one short report; it does not read `data/games.ts`, run npm scripts, or look at thumbnails. Run the batch in the main thread only for the three exceptions listed in Step 0.
+- **One batch = 10 games = one context that dies at the end.** Never reuse an orchestrator, never let one exceed 10 games, never chain two batches in a single context. See Step 6.
+- **A fresh batch starts from disk.** Catalog count, recent commits, guardrails and the skip list all come from `data/games.ts`, `git log` and the memory files — never from what someone said earlier in the conversation.
 - **Never fabricate rules.** Inherited from add-game — a game with no obtainable real rulebook is skipped, not invented. This is the whole point of the app.
 - **One commit per game**, message `Add <Name>`, staging only that game's ≤4 artifacts by explicit path. No lockfile churn.
 - **Subagents never touch `data/games.ts`, npm scripts, or git.** That's the whole basis for running them in parallel.
