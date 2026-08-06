@@ -1884,6 +1884,12 @@ const assets: Game[] = [
     code: 'disney-lorcana',
   },
   {
+    bggid: 284760,
+    name: 'Disney Villainous: Evil Comes Prepared',
+    code: 'disney-villainous-evil-comes-prepared',
+    shortName: 'Villainous: Evil Comes Prepared',
+  },
+  {
     bggid: 256382,
     name: 'Disney Villainous: The Worst Takes It All',
     code: 'disney-villainous',
