@@ -6411,6 +6411,12 @@ const assets: Game[] = [
     code: 'too-many-bones-undertow',
   },
   {
+    bggid: 300905,
+    name: 'Top Ten',
+    code: 'top-ten',
+    alternativeNames: ['Masomenos', 'Тип Топ', 'Топ 10'],
+  },
+  {
     bggid: 88,
     name: 'Torres',
     code: 'torres',
