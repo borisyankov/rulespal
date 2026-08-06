@@ -5527,6 +5527,13 @@ const assets: Game[] = [
     code: 'smartphone-inc',
   },
   {
+    bggid: 134726,
+    name: 'Smash Up: Awesome Level 9000',
+    shortName: 'Awesome Level 9000',
+    code: 'smash-up-awesome-level-9000',
+    alternativeNames: ['Smash Up Awesome Level 9000', 'Smash Up 2'],
+  },
+  {
     bggid: 113289,
     name: 'Snake Oil',
     code: 'snake-oil',
