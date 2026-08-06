@@ -4265,6 +4265,12 @@ const assets: Game[] = [
     extraSources: ['reference', 'deep-and-scenario-reference'],
   },
   {
+    bggid: 183840,
+    name: 'Oh My Goods!',
+    code: 'oh-my-goods',
+    alternativeNames: ['Royal Goods', 'Du meine Güter!'],
+  },
+  {
     bggid: 270314,
     name: 'Ohanami',
     code: 'ohanami',
