@@ -1705,6 +1705,12 @@ const assets: Game[] = [
     alternativeNames: ['Cyclades Legendary Edition'],
   },
   {
+    bggid: 29603,
+    name: 'D-Day at Omaha Beach',
+    code: 'd-day-at-omaha-beach',
+    alternativeNames: ['D-Day Playa de Omaha', 'DDOB'],
+  },
+  {
     bggid: 197831,
     name: 'Dark Souls: The Board Game',
     code: 'dark-souls',
