@@ -1239,6 +1239,13 @@ const assets: Game[] = [
     code: 'chess',
   },
   {
+    bggid: 214880,
+    name: 'Chicago 1875: City of the Big Shoulders',
+    code: 'chicago-1875',
+    shortName: 'Chicago 1875',
+    alternativeNames: ['City of the Big Shoulders'],
+  },
+  {
     bggid: 31730,
     name: 'Chicago Express',
     code: 'chicago-express',
