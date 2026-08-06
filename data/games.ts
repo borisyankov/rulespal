@@ -1658,6 +1658,12 @@ const assets: Game[] = [
     code: 'cryptid-urban-legends',
   },
   {
+    bggid: 280480,
+    name: 'Crystal Palace',
+    code: 'crystal-palace',
+    extraSources: ['appendix'],
+  },
+  {
     bggid: 139976,
     name: 'Cthulhu Wars',
     code: 'cthulhu-wars',
