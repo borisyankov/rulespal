@@ -2637,6 +2637,13 @@ const assets: Game[] = [
     code: 'furnace',
   },
   {
+    bggid: 20963,
+    name: 'Fury of Dracula (Second Edition)',
+    shortName: 'Fury of Dracula (2E)',
+    code: 'fury-of-dracula-second-edition',
+    alternativeNames: ['Fury of Dracula 2nd Edition'],
+  },
+  {
     bggid: 181279,
     name: 'Fury of Dracula (Third/Fourth Edition)',
     shortName: 'Fury of Dracula',
