@@ -2191,6 +2191,13 @@ const assets: Game[] = [
     code: 'eminent-domain',
   },
   {
+    bggid: 11825,
+    name: 'Empire of the Sun: The Pacific War 1941-1945',
+    shortName: 'Empire of the Sun',
+    code: 'empire-of-the-sun',
+    alternativeNames: ['Empire of the Sun', 'EotS'],
+  },
+  {
     bggid: 206931,
     name: 'Encore!',
     code: 'encore',
