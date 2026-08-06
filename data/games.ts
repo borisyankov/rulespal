@@ -2396,6 +2396,11 @@ const assets: Game[] = [
     code: 'flip-7',
   },
   {
+    bggid: 352418,
+    name: 'Fliptown',
+    code: 'fliptown',
+  },
+  {
     bggid: 404041,
     name: 'Flowers',
     code: 'flowers',
