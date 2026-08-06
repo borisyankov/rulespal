@@ -1455,6 +1455,12 @@ const assets: Game[] = [
     code: 'codenames-pictures',
   },
   {
+    bggid: 314503,
+    name: 'Codex Naturalis',
+    code: 'codex-naturalis',
+    extraSources: ['solo-variant'],
+  },
+  {
     bggid: 325022,
     name: 'Coffee Traders',
     code: 'coffee-traders',
