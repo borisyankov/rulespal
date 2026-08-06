@@ -4838,6 +4838,11 @@ const assets: Game[] = [
     code: 'river-of-gold',
   },
   {
+    bggid: 407297,
+    name: 'River Valley Glassworks',
+    code: 'river-valley-glassworks',
+  },
+  {
     bggid: 144733,
     name: 'Russian Railroads',
     code: 'russian-railroads',
