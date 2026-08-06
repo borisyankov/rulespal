@@ -3670,6 +3670,12 @@ const assets: Game[] = [
     shortName: 'Libertalia',
   },
   {
+    bggid: 2507,
+    name: 'Liberté',
+    code: 'liberte',
+    alternativeNames: ['Liberte'],
+  },
+  {
     bggid: 165872,
     name: 'Liberty or Death: The American Insurrection',
     shortName: 'Liberty or Death',
