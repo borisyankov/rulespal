@@ -3705,6 +3705,11 @@ const assets: Game[] = [
     alternativeNames: ['MANTIS'],
   },
   {
+    bggid: 148729,
+    name: 'Maquis',
+    code: 'maquis',
+  },
+  {
     bggid: 276025,
     name: 'Maracaibo',
     code: 'maracaibo',
