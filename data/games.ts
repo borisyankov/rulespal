@@ -5260,6 +5260,11 @@ const assets: Game[] = [
     code: 'salem-1692',
   },
   {
+    bggid: 422674,
+    name: 'Saltfjord',
+    code: 'saltfjord',
+  },
+  {
     bggid: 3,
     name: 'Samurai',
     code: 'samurai',
