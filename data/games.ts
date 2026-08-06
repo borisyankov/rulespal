@@ -5395,6 +5395,12 @@ const assets: Game[] = [
     code: 'small-world-underground',
   },
   {
+    bggid: 241590,
+    name: 'Smart10',
+    code: 'smart10',
+    alternativeNames: ['Smart 10'],
+  },
+  {
     bggid: 246684,
     name: 'Smartphone Inc.',
     code: 'smartphone-inc',
