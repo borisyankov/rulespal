@@ -2672,6 +2672,11 @@ const assets: Game[] = [
     alternativeNames: ['Galaxy Trucker 2nd Edition', 'Galaxy Trucker: Second Edition'],
   },
   {
+    bggid: 393333,
+    name: 'Galileo Galilei',
+    code: 'galileo-galilei',
+  },
+  {
     bggid: 220588,
     name: 'Gandhi: The Decolonization of British India, 1917-1947',
     shortName: 'Gandhi',
