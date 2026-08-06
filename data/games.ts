@@ -4849,6 +4849,13 @@ const assets: Game[] = [
     code: 'praga-caput-regni',
   },
   {
+    bggid: 87890,
+    name: 'Prêt-à-Porter',
+    code: 'pret-a-porter',
+    alternativeNames: ['Pret-a-Porter'],
+    extraSources: ['almanac'],
+  },
+  {
     bggid: 303731,
     name: 'Primal: The Awakening',
     code: 'primal-the-awakening',
