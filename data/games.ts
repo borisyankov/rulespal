@@ -7153,6 +7153,11 @@ const assets: Game[] = [
     code: 'vast-the-crystal-caverns',
   },
   {
+    bggid: 15364,
+    name: 'Vegas Showdown',
+    code: 'vegas-showdown',
+  },
+  {
     bggid: 334065,
     name: 'Verdant',
     code: 'verdant',
