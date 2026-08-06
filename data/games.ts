@@ -142,6 +142,12 @@ const assets: Game[] = [
     code: 'a-study-in-emerald',
   },
   {
+    bggid: 253499,
+    name: 'A War of Whispers',
+    code: 'a-war-of-whispers',
+    alternativeNames: ['War of Whispers', 'A War of Whispers: 2nd Edition'],
+  },
+  {
     bggid: 526,
     name: 'Abalone',
     code: 'abalone',
