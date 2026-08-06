@@ -4214,6 +4214,12 @@ const assets: Game[] = [
     code: 'new-bedford',
   },
   {
+    bggid: 255692,
+    name: 'New Frontiers',
+    code: 'new-frontiers',
+    alternativeNames: ['New Frontiers: The Race for the Galaxy Board Game'],
+  },
+  {
     bggid: 174660,
     name: 'New York 1901',
     code: 'new-york-1901',
