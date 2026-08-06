@@ -1865,6 +1865,13 @@ const assets: Game[] = [
     shortName: 'Disney Villainous',
   },
   {
+    bggid: 271518,
+    name: 'Disney Villainous: Wicked to the Core',
+    code: 'disney-villainous-wicked-to-the-core',
+    shortName: 'Villainous: Wicked to the Core',
+    alternativeNames: ['Disney Villainous: Böse bis ins Mark'],
+  },
+  {
     bggid: 295895,
     name: 'Distilled',
     code: 'distilled',
