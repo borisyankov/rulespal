@@ -5070,6 +5070,12 @@ const assets: Game[] = [
     alternativeNames: ['Super Rhino!'],
   },
   {
+    bggid: 218333,
+    name: 'Rhino Hero: Super Battle',
+    code: 'rhino-hero-super-battle',
+    alternativeNames: ['Super Rhino! Super Battle', 'Rhino Hero Super Battle'],
+  },
+  {
     bggid: 119591,
     name: 'Rialto',
     code: 'rialto',
