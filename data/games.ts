@@ -6236,6 +6236,12 @@ const assets: Game[] = [
     code: 'the-search-for-planet-x',
   },
   {
+    bggid: 220517,
+    name: 'The Shipwreck Arcana',
+    code: 'the-shipwreck-arcana',
+    alternativeNames: ['Shipwreck Arcana'],
+  },
+  {
     bggid: 66505,
     name: 'The Speicherstadt',
     code: 'the-speicherstadt',
