@@ -5533,6 +5533,11 @@ const assets: Game[] = [
     shortName: 'Rise of Empire',
   },
   {
+    bggid: 193949,
+    name: 'Star Trek: Ascendancy',
+    code: 'star-trek-ascendancy',
+  },
+  {
     bggid: 422541,
     name: "Star Trek: Captain's Chair",
     code: 'star-trek-captains-chair',
