@@ -5861,6 +5861,12 @@ const assets: Game[] = [
     code: 'steam',
   },
   {
+    bggid: 162007,
+    name: 'Steampunk Rally',
+    code: 'steampunk-rally',
+    alternativeNames: ['Odlotowy wyścig'],
+  },
+  {
     bggid: 161614,
     name: 'Stockpile',
     code: 'stockpile',
