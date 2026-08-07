@@ -1127,6 +1127,11 @@ const assets: Game[] = [
     code: 'call-of-cthulhu-the-card-game',
   },
   {
+    bggid: 238992,
+    name: 'Call to Adventure',
+    code: 'call-to-adventure',
+  },
+  {
     bggid: 266993,
     name: 'Call to Adventure: The Stormlight Archive',
     code: 'call-to-adventure-the-stormlight-archive',
