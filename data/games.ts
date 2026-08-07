@@ -1040,6 +1040,11 @@ const assets: Game[] = [
     code: 'brazil-imperial',
   },
   {
+    bggid: 332386,
+    name: 'Brew',
+    code: 'brew',
+  },
+  {
     bggid: 337765,
     name: 'Brian Boru: High King of Ireland',
     code: 'brian-boru',
