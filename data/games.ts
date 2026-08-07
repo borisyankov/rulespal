@@ -1796,6 +1796,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 30380,
+    name: 'Cuba',
+    code: 'cuba',
+  },
+  {
     bggid: 111799,
     name: 'Cuba Libre',
     code: 'cuba-libre',
