@@ -3360,6 +3360,11 @@ const assets: Game[] = [
     shortName: 'John Company',
   },
   {
+    bggid: 205597,
+    name: 'Jump Drive',
+    code: 'jump-drive',
+  },
+  {
     bggid: 193042,
     name: 'Junk Art',
     code: 'junk-art',
