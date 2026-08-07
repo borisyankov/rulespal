@@ -5377,6 +5377,11 @@ const assets: Game[] = [
     alternativeNames: ['Pokemon Trading Card Game', 'Pokemon TCG'],
   },
   {
+    bggid: 180899,
+    name: 'Ponzi Scheme',
+    code: 'ponzi-scheme',
+  },
+  {
     bggid: 156009,
     name: 'Port Royal',
     code: 'port-royal',
