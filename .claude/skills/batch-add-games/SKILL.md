@@ -15,6 +15,8 @@ This is the batch wrapper around the single-game [`add-game`](../add-game/SKILL.
 
 Read `add-game/SKILL.md` first — every per-game detail (rulebook sourcing, catalog entry, embeddings, thumbnail, the "never fabricate rules" rule) lives there and is not repeated here.
 
+**Everything happens on `main`.** No branches, no worktrees, no PRs — see "Branch discipline" below. **And assume you are not alone:** other sessions run this same skill against this same checkout, so every step has to be safe under a concurrent stranger — see "Working alongside other agents".
+
 **One batch is exactly 10 games.** Not 12, not "keep going while there's budget". Ten, then the context that ran them is thrown away and the next batch starts from disk. The batch size is the unit of context disposal, so it is fixed unless the user names a different number for a specific run.
 
 ## Step 0 — One batch = one disposable context
@@ -37,6 +39,8 @@ Spawn it in the background with a prompt along these lines:
 >
 > You may spawn your own subagents (one per game, in parallel) — do so. Integrate serially yourself as their reports land.
 >
+> **Commit directly to `main`. Never create, switch to, or check out a branch, and never use a worktree.** If `git rev-parse --abbrev-ref HEAD` isn't `main`, stop and report that instead of switching. **Assume another session is running this same batch skill in this same checkout:** re-grep each candidate right before delegating it, re-read `data/games.ts` right before each insert, stage only your game's explicit paths, leave untracked files you didn't create alone, and on a rejected push `git pull --rebase` and retry (never force-push). See the "Branch discipline" and "Working alongside other agents" sections.
+>
 > **Report back in under 250 words**: the added games with commit hashes, the skipped ones with a one-line reason each, whether the push succeeded, and any new technique or gotcha worth writing to memory. No per-game detail beyond that. Your report is the ONLY thing that survives this batch — anything you leave out is lost, so put durable findings in it and nothing else.
 >
 > **Do not return until that report is written.** Returning early — with a one-line status, or because a worker is still going — permanently destroys everything your workers learned. If a game is unfinished, still write the full report and say which game is outstanding and where its files are.
@@ -55,6 +59,41 @@ Then have the orchestrator's report be the only thing that reaches the main cont
 - A batch is already mid-flight in the main thread. Don't hand a half-integrated batch to an orchestrator; finish it, then delegate the next one.
 
 **Nested spawning caveat:** the orchestrator spawns workers of its own. If its `Agent` calls fail outright, it should fall back to doing the games itself, serially, and say so in its report — a slower batch is fine, a stalled one is not.
+
+## Branch discipline — always `main`, never switch
+
+Batches commit **directly to `main`**. One commit per game, straight onto the branch everyone else is on.
+
+- **Never** `git checkout -b`, `git switch`, `git checkout <branch>`, `git worktree add`, or `isolation: 'worktree'` on a subagent. No PRs.
+- A branch would be actively harmful here: parallel sessions each on their own branch turn ten append-only commits into ten merges of the same contended `data/games.ts`.
+- **Check once, at the start of the batch:** `git rev-parse --abbrev-ref HEAD`. If it isn't `main`, **stop and tell the user** rather than switching — they may have work in flight on that branch, and moving off it is their call. Say which branch you found and that the batch is waiting on them.
+- Put this rule in the orchestrator prompt too — the orchestrator is the only one running git.
+- Workers never run git at all (Step 2), so this binds nobody else.
+
+## Working alongside other agents
+
+Take it as given that **another session is running this same skill, right now, in this same working tree** — plus its own fan-out of workers. Nothing coordinates the two. Neither of you owns the repo, so behave as a guest:
+
+**Picking (Step 1)**
+- **Re-grep every candidate immediately before you delegate it**, not just at shortlist time. The gap between building a shortlist and spawning the last worker is long enough for another session to have added several of them.
+- Don't try to "claim" candidates in memory files as a lock — memory writes race too, and a stale claim blocks a game permanently. Detect collisions late instead of preventing them early; wasting one worker is cheaper than a phantom lock.
+- Foreign untracked rulebooks in `git status` are a signal about what someone else is working on. Don't delegate those games, and don't touch the files.
+
+**Integrating (Step 3)**
+- **Re-read `data/games.ts` right before each insert**, and insert with a targeted `Edit` anchored on neighbouring entries. Never write the array from the copy you read at the top of the batch.
+- **If the game is already there, someone else added it.** Drop yours: keep their entry, don't commit a duplicate, and record it in the report as a collision rather than a skip.
+- **Stage only that game's explicit paths.** `git add -A` in a shared tree commits another agent's half-written rulebook.
+- **Never `git stash`, `git reset --hard`, `git checkout -- <path>`, or `git clean`.** Untracked rulebooks and `_src` images you didn't create are most likely a *live* worker's output — someone else's, or an orphan of yours. Check mtime growth (45–60 s, per Step 0) before concluding anything is dead, and when in doubt leave it and mention it in the report.
+- **`index.lock` means another agent is mid-commit**, not that git is broken. Wait a few seconds and retry the commit. Never delete the lock file.
+
+**Pushing (Step 4)**
+- A rejected push is the normal case, not a failure: `git pull --rebase`, then push again. Retry a couple of times — a busy repo can reject twice.
+- Rebase conflicts land in `data/games.ts`, and the resolution is always **keep both entries, alphabetically**. Never resolve by taking one side wholesale; that silently deletes a game someone else just added.
+- **Never `git push --force`**, and never rewrite published history to tidy up interleaved commits. Two sessions' `Add <Name>` commits interleaved is a correct log, not a mess to fix.
+
+**Reporting (Step 5/6)**
+- Count the catalog from disk at the end (`grep -c "bggid:" data/games.ts`) rather than adding 10 to the number you saw at the start — the delta includes another session's work, so don't claim it as yours.
+- When you update the missing-list row counts in memory, note if foreign commits you rebased onto also cleared rows.
 
 ## The split: parallel content, serialized integration
 
@@ -154,7 +193,9 @@ After the last game, push the whole run in one go:
 git push
 ```
 
-If a capacity outage is dragging the batch out, push the completed games rather than holding them all. If push is rejected for auth or upstream reasons, report it rather than force-anything.
+If a capacity outage is dragging the batch out, push the completed games rather than holding them all.
+
+**A non-fast-forward rejection is routine** — another session pushed while you were transcribing. `git pull --rebase`, then push again (see "Working alongside other agents" for the `data/games.ts` conflict resolution). Report an *auth* or upstream-config failure rather than working around it, and never force-anything.
 
 ## Step 5 — Report
 
@@ -185,8 +226,9 @@ The batch is over the moment the orchestrator's report lands. Everything worth k
 - **One batch = 10 games = one context that dies at the end.** Never reuse an orchestrator, never let one exceed 10 games, never chain two batches in a single context. See Step 6.
 - **A fresh batch starts from disk.** Catalog count, recent commits, guardrails and the skip list all come from `data/games.ts`, `git log` and the memory files — never from what someone said earlier in the conversation.
 - **Never fabricate rules.** Inherited from add-game — a game with no obtainable real rulebook is skipped, not invented. This is the whole point of the app. **But a skip must be earned:** see add-game's "Before you declare a game unobtainable" checklist. Sourcing is expected to take real effort across many routes, **1jour-1jeu / `cdn.1j1ju.com` must always be one of them**, and "the publisher never released a PDF" is not by itself a valid skip reason — a complete third-party rules document is usable if you disclose it. Require workers to name the routes they tried in any skip report.
+- **Always on `main`.** Never create, switch to, or check out a branch; never use a worktree; never open a PR. If HEAD isn't `main` at the start of a batch, stop and ask the user instead of switching. See "Branch discipline".
 - **One commit per game**, message `Add <Name>`, staging only that game's ≤4 artifacts by explicit path. No lockfile churn.
 - **Subagents never touch `data/games.ts`, npm scripts, or git.** That's the whole basis for running them in parallel.
 - **Never run a bare `npm run embeddings`/`npm run thumbs` while agents are still writing** — always pass explicit codes.
 - **Verify before pushing** — each game should satisfy add-game's checklist (rulebook, alphabetical catalog entry, 512-dim embeddings, 500px thumbnail), and all four counts should match.
-- **Another session may be running this skill too.** Re-grep each candidate immediately before delegating, and re-read `data/games.ts` before committing if it shows foreign edits.
+- **Another session is probably running this skill too, on the same branch.** Re-grep each candidate right before delegating; re-read `data/games.ts` right before each insert; drop your entry if theirs landed first; leave untracked files you didn't create alone; `pull --rebase` and retry on a rejected push, keeping both entries on a `data/games.ts` conflict; never force-push, reset, stash or clean. See "Working alongside other agents".

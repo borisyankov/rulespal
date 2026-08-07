@@ -171,6 +171,11 @@ Thumbnails come out **500px wide JPEG** (height auto). Transparent PNGs flatten 
 
 ## Step 7 — Commit
 
+**Work directly on `main`. Never create or switch branches.** Adding a game is append-only content work with no review step, and several sessions add games concurrently — a branch per game would turn a trivial append into a merge queue. So:
+
+- No `git checkout -b`, no `git switch`, no `git worktree add`, no `isolation: 'worktree'` subagents, no PR.
+- Check where you are before committing: `git rev-parse --abbrev-ref HEAD`. If it is not `main`, **stop and ask the user** — do not switch, and do not commit onto their branch. Switching could strand work they have in flight; that call is theirs.
+
 Stage exactly the artifacts you created (typically up to 4 files) — **do not commit `package-lock.json`** changes caused by `npm install`:
 
 ```bash
@@ -179,7 +184,18 @@ git add data/games.ts data/rulebooks/<code>-rulebook.md \
 git commit -m "Add <Name>"
 ```
 
-Follow the repo's branch/PR norms. Only push if the user asks.
+Only push if the user asks. When you do, see the concurrency rules below — a rejected push on `main` means someone else committed, not that something is wrong.
+
+## Working alongside other agents
+
+Assume at any moment that **another session, another orchestrator, or a stray subagent is adding a different game to this same checkout, on this same branch.** Nothing coordinates them. That is fine as long as you touch only your own game:
+
+- **`data/games.ts` is the one contended file.** Re-read it immediately before inserting your entry, and insert with a targeted `Edit` anchored on the neighbouring entries — never rewrite the array, and never write the file from a copy you read minutes ago.
+- **If the game is already in `data/games.ts` when you get to Step 4**, someone else added it while you worked. Don't commit a duplicate — keep their entry, drop your redundant artifacts, and say so in your report.
+- **Stage by explicit path, never `git add -A`/`git add .`** — a broad add sweeps another agent's half-written rulebook into your commit.
+- **Never `git stash`, `git reset --hard`, `git checkout -- <path>`, or `git clean`** on anything you did not create. Untracked rulebooks and `_src` images that aren't yours are very likely a live agent's in-flight work; deleting them destroys 20 minutes of transcription with no trace.
+- **A failed commit is usually a lock, not an error.** `index.lock` exists means another agent is mid-commit — wait a few seconds and retry rather than removing the lock file.
+- **Push rejections are expected.** `git pull --rebase`, then push again. If the rebase conflicts in `data/games.ts`, the resolution is always "keep both entries, in alphabetical order" — never take one side wholesale, which silently deletes a game someone else just added. **Never `git push --force`** on `main`.
 
 ## Verification checklist
 
@@ -188,3 +204,4 @@ Follow the repo's branch/PR norms. Only push if the user asks.
 - [ ] `public/embeddings/<code>-embeddings.json` exists; nonzero chunks, 512 dims.
 - [ ] `public/thumbs/<code>.jpg` exists; 500px wide; looks right (`Read` it).
 - [ ] Counts line up: embeddings-file count == games count; thumbs count == games count.
+- [ ] Committed on `main`, no branch created, nothing staged that isn't this game's.
