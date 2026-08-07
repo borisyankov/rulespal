@@ -3473,6 +3473,11 @@ const assets: Game[] = [
     code: 'istanbul',
   },
   {
+    bggid: 235488,
+    name: 'Istanbul: The Dice Game',
+    code: 'istanbul-the-dice-game',
+  },
+  {
     bggid: 271324,
     name: "It's a Wonderful World",
     code: 'its-wonderful-world',
