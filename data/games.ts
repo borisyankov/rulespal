@@ -6217,6 +6217,13 @@ const assets: Game[] = [
     alternativeNames: ['Smash Up Awesome Level 9000', 'Smash Up 2'],
   },
   {
+    bggid: 168917,
+    name: 'Smash Up: Pretty Pretty Smash Up',
+    shortName: 'Pretty Pretty Smash Up',
+    code: 'smash-up-pretty-pretty-smash-up',
+    alternativeNames: ['Smash Up Pretty Pretty Smash Up', 'Smash Up: Trop Minions'],
+  },
+  {
     bggid: 151004,
     name: 'Smash Up: Science Fiction Double Feature',
     code: 'smash-up-science-fiction-double-feature',
