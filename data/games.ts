@@ -2616,6 +2616,13 @@ const assets: Game[] = [
     alternativeNames: ['Falling Sky'],
   },
   {
+    bggid: 232918,
+    name: 'Fallout',
+    code: 'fallout',
+    alternativeNames: ['Fallout: The Board Game'],
+    extraSources: ['rules-reference'],
+  },
+  {
     bggid: 216600,
     name: 'Fantastic Factories',
     code: 'fantastic-factories',
