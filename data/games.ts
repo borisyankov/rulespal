@@ -7803,6 +7803,11 @@ const assets: Game[] = [
     code: 'world-order',
   },
   {
+    bggid: 43528,
+    name: 'World Without End',
+    code: 'world-without-end',
+  },
+  {
     bggid: 365258,
     name: 'World Wonders',
     code: 'world-wonders',
