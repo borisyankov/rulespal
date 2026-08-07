@@ -4110,6 +4110,12 @@ const assets: Game[] = [
     code: 'living-planet',
   },
   {
+    bggid: 240855,
+    name: 'Lockup: A Roll Player Tale',
+    code: 'lockup',
+    shortName: 'Lockup',
+  },
+  {
     bggid: 236191,
     name: 'London (Second Edition)',
     shortName: 'London',
