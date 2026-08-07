@@ -4292,6 +4292,11 @@ const assets: Game[] = [
     code: 'medici-the-card-game',
   },
   {
+    bggid: 193214,
+    name: 'Meeple Circus',
+    code: 'meeple-circus',
+  },
+  {
     bggid: 10630,
     name: "Memoir '44",
     code: 'memoir-44',
