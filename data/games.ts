@@ -4236,6 +4236,11 @@ const assets: Game[] = [
     code: 'munchkin',
   },
   {
+    bggid: 204505,
+    name: 'Museum',
+    code: 'museum',
+  },
+  {
     bggid: 295486,
     name: 'My City',
     code: 'my-city',
