@@ -5772,6 +5772,11 @@ const assets: Game[] = [
     code: 'smartphone-inc',
   },
   {
+    bggid: 122522,
+    name: 'Smash Up',
+    code: 'smash-up',
+  },
+  {
     bggid: 134726,
     name: 'Smash Up: Awesome Level 9000',
     shortName: 'Awesome Level 9000',
