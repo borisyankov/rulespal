@@ -6197,6 +6197,11 @@ const assets: Game[] = [
     code: 'sprawlopolis',
   },
   {
+    bggid: 166384,
+    name: 'Spyfall',
+    code: 'spyfall',
+  },
+  {
     bggid: 137269,
     name: 'Spyrium',
     code: 'spyrium',
