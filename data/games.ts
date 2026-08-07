@@ -2816,6 +2816,11 @@ const assets: Game[] = [
     code: 'fog-of-love',
   },
   {
+    bggid: 309110,
+    name: 'Food Chain Island',
+    code: 'food-chain-island',
+  },
+  {
     bggid: 175914,
     name: 'Food Chain Magnate',
     code: 'food-chain-magnate',
