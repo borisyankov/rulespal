@@ -7688,6 +7688,12 @@ const assets: Game[] = [
     code: 'trailblazers',
   },
   {
+    bggid: 338628,
+    name: 'Trails',
+    code: 'trails',
+    alternativeNames: ['Parks: Trails'],
+  },
+  {
     bggid: 283864,
     name: 'Trails of Tucana',
     code: 'trails-of-tucana',
