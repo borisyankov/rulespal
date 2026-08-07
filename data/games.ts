@@ -2282,6 +2282,11 @@ const assets: Game[] = [
     code: 'escape-plan',
   },
   {
+    bggid: 227456,
+    name: 'Escape the Dark Castle',
+    code: 'escape-the-dark-castle',
+  },
+  {
     bggid: 113294,
     name: 'Escape: The Curse of the Temple',
     code: 'escape-the-curse-of-the-temple',
