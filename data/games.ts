@@ -6863,6 +6863,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 171233,
+    name: 'The Big Book of Madness',
+    code: 'the-big-book-of-madness',
+  },
+  {
     bggid: 180593,
     name: 'The Bloody Inn',
     code: 'the-bloody-inn',
