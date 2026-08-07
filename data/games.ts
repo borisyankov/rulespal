@@ -7398,6 +7398,12 @@ const assets: Game[] = [
     alternativeNames: ['Ticket to Ride: Marklin', 'Ticket to Ride Marklin Edition'],
   },
   {
+    bggid: 253284,
+    name: 'Ticket to Ride: New York',
+    code: 'ticket-to-ride-new-york',
+    alternativeNames: ['Ticket to Ride New York', 'Les aventuriers du Rail: New York', 'Zug um Zug: New York'],
+  },
+  {
     bggid: 31627,
     name: 'Ticket to Ride: Nordic Countries',
     code: 'ticket-to-ride-nordic-countries',
