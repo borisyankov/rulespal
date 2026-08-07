@@ -5749,6 +5749,11 @@ const assets: Game[] = [
     code: 'shikoku-1889',
   },
   {
+    bggid: 55600,
+    name: 'Shipyard',
+    code: 'shipyard',
+  },
+  {
     bggid: 272380,
     name: 'SHŌBU',
     code: 'shobu',
