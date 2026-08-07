@@ -3265,6 +3265,11 @@ const assets: Game[] = [
     code: 'innovation',
   },
   {
+    bggid: 206051,
+    name: 'Insider',
+    code: 'insider',
+  },
+  {
     bggid: 347305,
     name: 'Inventions: Evolution of Ideas',
     code: 'inventions',
