@@ -4585,6 +4585,11 @@ const assets: Game[] = [
     code: 'mr-jack',
   },
   {
+    bggid: 72287,
+    name: 'Mr. Jack Pocket',
+    code: 'mr-jack-pocket',
+  },
+  {
     bggid: 1927,
     name: 'Munchkin',
     code: 'munchkin',
