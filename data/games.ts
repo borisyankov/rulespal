@@ -2544,6 +2544,12 @@ const assets: Game[] = [
     code: 'ezra-and-nehemiah',
   },
   {
+    bggid: 203427,
+    name: 'Fabled Fruit',
+    code: 'fabled-fruit',
+    alternativeNames: ['Fabelsaft', 'Owocowe opowieści'],
+  },
+  {
     bggid: 318983,
     name: 'Faiyum',
     code: 'faiyum',
