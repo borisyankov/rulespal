@@ -1121,6 +1121,12 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 284936,
+    name: 'Café',
+    code: 'cafe',
+    alternativeNames: ['Cafe'],
+  },
+  {
     bggid: 283155,
     name: 'Calico',
     code: 'calico',
