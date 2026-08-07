@@ -1319,6 +1319,13 @@ const assets: Game[] = [
     code: 'century-spice-road',
   },
   {
+    bggid: 218479,
+    name: 'Cerebria: The Inside World',
+    code: 'cerebria-the-inside-world',
+    shortName: 'Cerebria',
+    alternativeNames: ['Cerebria', 'Cerebria: Le monde intérieur'],
+  },
+  {
     bggid: 248900,
     name: 'Ceylon',
     code: 'ceylon',
