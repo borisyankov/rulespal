@@ -206,3 +206,111 @@ Count the number of cards on the top of the stealth deck up to (but not includin
 *The suit diagram arranges the six suits in a ring with arrows running clockwise: rose (red) → oak (green) → bluebell (blue) → acorn (gold) → thistle (teal) → sage (purple) → back to rose. Dotted lines cross the ring as a six-pointed star, joining rose–bluebell–thistle in one triangle and oak–acorn–sage in the other.*
 
 > You may also use stealth deck sequences of greater or lesser difficulty, as described below.
+
+## Additional Stealth Deck Sequences
+
+This section specifies additional hidden movement sequences for the Lady.
+
+These sequences identify each stealth card by the character in its top left corner. If that character is a dash then it uses the following character. (For example, a card whose top row reads `G V A W` is "card G"; a card whose top row reads `- U ... R` is "card -U".)
+
+Choose one of the sequences and place the cards in the order given, setting aside any unused cards. You may also order the cards in reverse for additional sequences, but this may change the difficulty.
+
+Then randomise the starting location by cutting the deck as described in Preparing the Stealth Deck.
+
+*When counting up your score use the number of cards in the sequence as the multiplier for the countdown card value.*
+
+### Very easy sequences (30 cards)
+
+**Moves every turn**
+
+1. J, K, -A, I, U, T, W, X, M, Y, --X, -L, Q, P, Z, D, C, B, A, L, -K, N, F, G, S, R, -S, E, H, V
+
+**May not move**
+
+1. N, M, Z, B, K, J, X, W, T, U, I, H, V, -A, A, Y, L, --X, O, -L, D, C, P, F, G, S, E, Q, R, -S
+
+### Easy sequences (28 cards)
+
+**Moves every turn**
+
+1. R, H, V, W, I, J, K, Y, X, B, C, -L, O, N, -S, G, U, T, -A, A, M, L, -K, P, Z, D, E, -U
+2. N, -U, E, S, I, -A, K, W, X, Y, -K, L, Z, D, M, P, C, -L, O, B, A, J, T, U, G, F, R, Q
+3. I, J, A, M, N, Q, R, D, C, L, K, W, X, B, O, P, -K, -L, --X, Y, Z, -S, G, U, V, H, T, S
+
+**May not move**
+
+1. O, P, -U, Q, G, S, U, V, -A, X, L, M, A, B, -K, -L, C, D, -S, E, H, R, F, N, Z, K, Y, --X
+2. W, V, H, G, D, R, -U, E, F, P, Z, M, C, Y, K, J, T, I, -A, A, B, --X, -L, -S, N, -K, L, X
+3. T, J, K, M, Y, C, D, Z, -L, -S, R, -U, E, U, G, F, P, Q, N, O, L, --X, B, X, W, V, I, H
+
+### Moderate difficulty (26 cards)
+
+**Moves every turn**
+
+1. G, -S, P, -U, R, F, E, Q, -L, -K, N, Z, Y, O, B, X, M, K, L, C, A, J, T, U, I, S
+2. Q, -L, C, D, Z, N, -U, P, -S, E, U, T, J, A, Y, -K, L, X, W, V, H, I, S, G, F, R
+3. --X, B, M, -S, -L, -K, L, X, J, V, H, E, S, G, U, R, Q, N, O, Y, C, A, W, K, Z, P
+
+**May not move**
+
+1. G, Q, -L, F, E, D, Z, P, M, A, C, B, --X, Y, K, X, L, -K, O, N, -S, R, U, I, V, H
+2. B, --X, -K, L, X, C, -S, -L, P, Z, Y, O, N, -U, E, U, I, H, R, S, G, D, M, A, J, K
+3. J, T, V, S, G, F, R, -S, N, M, K, L, --X, Y, C, D, P, -L, Q, E, H, I, -A, A, W, X
+
+> You can also assemble sequences in reverse order.
+
+### Hard sequences (24 cards)
+
+**Moves every turn**
+
+1. U, E, D, -L, M, A, C, X, J, I, -A, T, S, V, W, K, B, Z, -S, N, Q, G, -U, R
+2. G, D, P, Q, N, --X, Y, -K, L, O, -L, -S, R, S, T, W, A, J, V, -A, I, U, E, H
+3. -L, --X, B, X, M, A, -A, T, S, R, -U, N, -S, C, K, Z, Y, -K, P, F, G, U, E, Q
+
+**May not move**
+
+1. D, P, F, G, U, I, H, S, T, J, V, W, X, -A, K, M, A, L, B, Z, N, -S, C, -L
+2. -L, Q, P, -S, N, F, G, D, Z, B, --X, Y, L, C, X, K, J, I, T, W, V, -A, A, M
+3. X, C, N, -U, R, S, E, U, H, G, -S, P, D, M, A, W, T, V, J, K, Z, Y, -K, L
+
+## Credits
+
+Black Sonata © Side Room Games LLC, 2018
+
+Version: 20210104
+
+Game design: John Kean
+
+Artwork: from the public domain — "Agas" map (c. 1560); "Chandos" Shakespeare portrait and various other Elizabethan portraits (c. 1600). Anne Hathaway portrait by Roger Brien Dunn (2010) © Shakespeare Birthplace Trust, used with permission.
+
+Font: HamletOrNot by CybaPee Creations.
+
+Icons: from thenounproject.com, by Ates Evren Aydinel, Yo! Baba, Vladimir Belochkin, Jakub Čaja, Ali Coşkun, Tjasa Kimovec, MRK, Pu Koh, Lastspark, Oksana Latysheva, Jemis Mali, Parkjisun, Lele Saa, Ralf Schmitzer, Daniel Llamas Soto, PJ Souders, Aleksandr Vector and Arif Fajar Yulianto.
+
+For playtesting, suggestions, and editing help we are grateful to: Chris Alton, Alan Andrews, Mary-Ann Andrews, Seren Grey, Vedrana B, Joshua Blaylock, Caroline Berg, Andrew Bowling, Michael Brettell, Lee Broderick, Alex Cannon, Dustin Culbertson, Luke Devery, Brian Garthwaite, Brett Gilbert, Trevor Harmel, Garry Hoddinott, Andrew Joyce, Jonas Lidström Isegrim, C.L. (GreenTea532), Eric Miller, Michael Murphy, Mark Perry, Diogo Poupado, Alycia Pretopapa, Quitch, The Riddler, Luca Sartori, Larry Schneider, Jan Schröder, Steve (saugust), Mark Tuck, G. Uitz, Tomas Uhlir, Deyan Vachkov, Martijn van der Lee, Janine Viglietti, Benjamin Wack, Israel Waldrom, John Williams, Matt Wivs and Pasko Zhelev.
+
+Special thanks to all of our KickStarter supporters!
+
+http://www.sideroomgames.com — https://www.facebook.com/sideroomgames — @sideroomgames
+
+## Quick Summary
+
+**Aim:** Track Shakespeare's mysterious Dark Lady as she flits around London. Successfully search for her in your current location to gain a clue to her identity. Collect enough clues to deduce her three traits, then find and confront her one last time to win the game.
+
+**Set up:**
+
+1. Place the pawn and shuffle the fog cards.
+2. Take a random clue card to be the Dark Lady.
+3. Stack the location cards on top of the card with the same suit as the Dark Lady.
+4. Shuffle the remaining clue cards and put them face up under the clue mask.
+5. Place the stealth cards in order according to one of the alphabetical sequences. Cut the pack and place the countdown card at "2" on the bottom.
+
+**Turn sequence:**
+
+First update the Lady's location. Move the top stealth card to the bottom of the deck.
+
+Now choose one of the following actions, or pass:
+
+- **A. Move your pawn** to an adjoining location. Once you have visited every one you may take the clue that was under the location cards.
+- **B. Search for the Lady.** Slide a new fog card under the top stealth card. Put the stealth card on the location key and flip both over. If you see the Lady through the keyhole then take a new clue. Discard the stealth card and advance the stealth deck by one card for each clue you have.
+- **C. Use a fog card** (if it is the top card of the stealth deck). Slide a new fog card under it, then flip the top card and carry out the stated action. Place the used card at the bottom of the fog deck.
