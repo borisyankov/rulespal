@@ -4727,6 +4727,11 @@ const assets: Game[] = [
     code: 'on-mars',
   },
   {
+    bggid: 179275,
+    name: 'One Deck Dungeon',
+    code: 'one-deck-dungeon',
+  },
+  {
     bggid: 147949,
     name: 'One Night Ultimate Werewolf',
     code: 'one-night-ultimate-werewolf',
