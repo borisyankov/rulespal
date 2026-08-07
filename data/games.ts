@@ -6841,6 +6841,13 @@ const assets: Game[] = [
     code: 'tikal',
   },
   {
+    bggid: 67180,
+    name: 'Tikal II: The Lost Temple',
+    code: 'tikal-ii',
+    shortName: 'Tikal II',
+    alternativeNames: ['Tikal 2', 'Tikal II: Der vergessene Tempel', 'Tikal II: Le temple perdu'],
+  },
+  {
     bggid: 351913,
     name: 'Tiletum',
     code: 'tiletum',
