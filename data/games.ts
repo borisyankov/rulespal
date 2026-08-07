@@ -6224,6 +6224,13 @@ const assets: Game[] = [
     alternativeNames: ['Smash Up Pretty Pretty Smash Up', 'Smash Up: Trop Minions'],
   },
   {
+    bggid: 160018,
+    name: 'Smash Up: Monster Smash',
+    shortName: 'Monster Smash',
+    code: 'smash-up-monster-smash',
+    alternativeNames: ['Smash Up Monster Smash'],
+  },
+  {
     bggid: 151004,
     name: 'Smash Up: Science Fiction Double Feature',
     code: 'smash-up-science-fiction-double-feature',
