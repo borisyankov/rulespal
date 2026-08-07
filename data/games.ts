@@ -721,6 +721,12 @@ const assets: Game[] = [
     code: 'baseball-highlights-2045',
   },
   {
+    bggid: 222514,
+    name: 'Batman: Gotham City Chronicles',
+    code: 'batman-gotham-city-chronicles',
+    shortName: 'Batman: GCC',
+  },
+  {
     bggid: 760,
     name: 'Battle Line',
     code: 'battle-line',
