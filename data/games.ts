@@ -7480,6 +7480,11 @@ const assets: Game[] = [
     code: 'tiny-epic-quest',
   },
   {
+    bggid: 244536,
+    name: 'Tiny Epic Zombies',
+    code: 'tiny-epic-zombies',
+  },
+  {
     bggid: 265736,
     name: 'Tiny Towns',
     code: 'tiny-towns',
