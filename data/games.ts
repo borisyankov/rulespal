@@ -5410,6 +5410,14 @@ const assets: Game[] = [
     alternativeNames: ['Power Grid Deluxe'],
   },
   {
+    bggid: 44163,
+    name: 'Power Grid: Factory Manager',
+    code: 'power-grid-factory-manager',
+    shortName: 'Factory Manager',
+    alternativeNames: ['Funkenschlag: Fabrikmanager', 'Factory Manager'],
+    extraSources: ['overview-sheet'],
+  },
+  {
     bggid: 308765,
     name: 'Praga Caput Regni',
     code: 'praga-caput-regni',
