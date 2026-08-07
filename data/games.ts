@@ -5566,6 +5566,12 @@ const assets: Game[] = [
     alternativeNames: ['Rajas of the Ganges - The Dice Charmers'],
   },
   {
+    bggid: 256589,
+    name: 'Rallyman: GT',
+    code: 'rallyman-gt',
+    alternativeNames: ['Rallyman GT'],
+  },
+  {
     bggid: 177639,
     name: 'Raptor',
     code: 'raptor',
