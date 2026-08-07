@@ -6916,6 +6916,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 1353,
+    name: "Time's Up!",
+    code: 'times-up',
+  },
+  {
     bggid: 128664,
     name: 'Timeline',
     code: 'timeline',
