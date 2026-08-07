@@ -1237,6 +1237,11 @@ const assets: Game[] = [
     code: 'catch-phrase',
   },
   {
+    bggid: 220520,
+    name: 'Caverna: Cave vs Cave',
+    code: 'caverna-cave-vs-cave',
+  },
+  {
     bggid: 102794,
     name: 'Caverna: The Cave Farmers',
     code: 'caverna',
