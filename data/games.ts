@@ -8455,6 +8455,12 @@ const assets: Game[] = [
     code: 'zombie-kidz-evolution',
   },
   {
+    bggid: 310448,
+    name: 'Zombie Teenz Evolution',
+    code: 'zombie-teenz-evolution',
+    alternativeNames: ['Zombie Teenz: Evolution'],
+  },
+  {
     bggid: 368061,
     name: 'Zoo Vadis',
     code: 'zoo-vadis',
