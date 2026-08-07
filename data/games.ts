@@ -3352,6 +3352,12 @@ const assets: Game[] = [
     code: 'high-society',
   },
   {
+    bggid: 235591,
+    name: 'History of the World',
+    code: 'history-of-the-world',
+    alternativeNames: ['A Brief History of the World'],
+  },
+  {
     bggid: 318243,
     name: 'Hitster',
     code: 'hitster',
