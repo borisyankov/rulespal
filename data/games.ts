@@ -6504,6 +6504,13 @@ const assets: Game[] = [
     extraSources: ['rules-reference'],
   },
   {
+    bggid: 353470,
+    name: "Star Wars: Jabba's Palace – A Love Letter Game",
+    code: 'star-wars-jabbas-palace',
+    shortName: "Jabba's Palace",
+    alternativeNames: ["Star Wars: Jabba's Palace"],
+  },
+  {
     bggid: 271896,
     name: 'Star Wars: Outer Rim',
     code: 'star-wars-outer-rim',
