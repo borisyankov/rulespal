@@ -1280,6 +1280,11 @@ const assets: Game[] = [
     extraSources: ['from-east-to-west'],
   },
   {
+    bggid: 175117,
+    name: 'Celestia',
+    code: 'celestia',
+  },
+  {
     bggid: 242574,
     name: 'Century: Eastern Wonders',
     code: 'century-eastern-wonders',
