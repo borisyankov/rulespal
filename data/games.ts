@@ -5438,6 +5438,11 @@ const assets: Game[] = [
     code: 'roads-and-boats',
   },
   {
+    bggid: 267319,
+    name: 'Roam',
+    code: 'roam',
+  },
+  {
     bggid: 121921,
     name: 'Robinson Crusoe: Adventures on the Cursed Island',
     code: 'robinson-crusoe',
