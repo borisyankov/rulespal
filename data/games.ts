@@ -286,6 +286,12 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 314088,
+    name: 'Agropolis',
+    code: 'agropolis',
+    alternativeNames: ['Agrópolis', 'Ranczer', 'Velkostatek'],
+  },
+  {
     bggid: 247367,
     name: 'Air, Land, & Sea',
     code: 'air-land-and-sea',
