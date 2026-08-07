@@ -987,6 +987,11 @@ const assets: Game[] = [
     code: 'brass-lancashire',
   },
   {
+    bggid: 249277,
+    name: 'Brazil: Imperial',
+    code: 'brazil-imperial',
+  },
+  {
     bggid: 337765,
     name: 'Brian Boru: High King of Ireland',
     code: 'brian-boru',
