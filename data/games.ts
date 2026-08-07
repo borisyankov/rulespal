@@ -6771,6 +6771,16 @@ const assets: Game[] = [
     code: 'takenoko',
   },
   {
+    bggid: 130176,
+    name: 'Tales & Games: The Hare & the Tortoise',
+    code: 'hare-and-tortoise',
+    shortName: 'The Hare & the Tortoise',
+    alternativeNames: [
+      'The Hare and the Tortoise',
+      'Tales & Games: The Hare and the Tortoise',
+    ],
+  },
+  {
     bggid: 34119,
     name: 'Tales of the Arabian Nights',
     code: 'tales-of-the-arabian-nights',
