@@ -475,8 +475,8 @@ async function resolveCandidates(opts: Options) {
 
     const previous = best.get(hit.bggid);
     if (previous) {
-      const loser = previous.chars >= size ? { file, chars: size } : previous;
-      rejections.push({ title: hit.name, file: loser.file, reason: 'extra-document' });
+      const loserFile = previous.chars >= size ? file : previous.markdownFile;
+      rejections.push({ title: hit.name, file: loserFile, reason: 'extra-document' });
       if (previous.chars >= size) continue;
     }
     best.set(hit.bggid, {
