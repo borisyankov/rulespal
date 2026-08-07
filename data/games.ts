@@ -6077,6 +6077,11 @@ const assets: Game[] = [
     code: 'steam',
   },
   {
+    bggid: 121410,
+    name: 'Steam Park',
+    code: 'steam-park',
+  },
+  {
     bggid: 162007,
     name: 'Steampunk Rally',
     code: 'steampunk-rally',
