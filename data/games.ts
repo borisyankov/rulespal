@@ -4509,6 +4509,11 @@ const assets: Game[] = [
     shortName: 'Mindbug',
   },
   {
+    bggid: 311715,
+    name: 'Mini Rogue',
+    code: 'mini-rogue',
+  },
+  {
     bggid: 176920,
     name: 'Mission: Red Planet',
     code: 'mission-red-planet',
