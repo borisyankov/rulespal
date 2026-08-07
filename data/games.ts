@@ -2038,6 +2038,11 @@ const assets: Game[] = [
     shortName: 'Villainous: Evil Comes Prepared',
   },
   {
+    bggid: 299047,
+    name: 'Disney Villainous: Perfectly Wretched',
+    code: 'disney-villainous-perfectly-wretched',
+  },
+  {
     bggid: 256382,
     name: 'Disney Villainous: The Worst Takes It All',
     code: 'disney-villainous',
