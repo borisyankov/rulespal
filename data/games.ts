@@ -8273,6 +8273,11 @@ const assets: Game[] = [
     code: 'whale-riders',
   },
   {
+    bggid: 198454,
+    name: 'When I Dream',
+    code: 'when-i-dream',
+  },
+  {
     bggid: 335275,
     name: 'Whirling Witchcraft',
     code: 'whirling-witchcraft',
