@@ -3833,6 +3833,11 @@ const assets: Game[] = [
     code: 'lets-go-to-japan',
   },
   {
+    bggid: 275467,
+    name: 'Letter Jam',
+    code: 'letter-jam',
+  },
+  {
     bggid: 59959,
     name: 'Letters from Whitechapel',
     code: 'letters-from-whitechapel',
