@@ -5357,6 +5357,13 @@ const assets: Game[] = [
     code: 'rajas-of-the-ganges',
   },
   {
+    bggid: 318553,
+    name: 'Rajas of the Ganges: The Dice Charmers',
+    code: 'rajas-of-the-ganges-the-dice-charmers',
+    shortName: 'The Dice Charmers',
+    alternativeNames: ['Rajas of the Ganges - The Dice Charmers'],
+  },
+  {
     bggid: 177639,
     name: 'Raptor',
     code: 'raptor',
