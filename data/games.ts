@@ -6127,6 +6127,12 @@ const assets: Game[] = [
     alternativeNames: ['Smash Up Awesome Level 9000', 'Smash Up 2'],
   },
   {
+    bggid: 151004,
+    name: 'Smash Up: Science Fiction Double Feature',
+    code: 'smash-up-science-fiction-double-feature',
+    shortName: 'Smash Up: Sci-Fi Double Feature',
+  },
+  {
     bggid: 113289,
     name: 'Snake Oil',
     code: 'snake-oil',
