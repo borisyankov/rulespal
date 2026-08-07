@@ -823,6 +823,11 @@ const assets: Game[] = [
     code: 'black-angel',
   },
   {
+    bggid: 157403,
+    name: 'Black Fleet',
+    code: 'black-fleet',
+  },
+  {
     bggid: 156858,
     name: 'Black Orchestra',
     code: 'black-orchestra',
