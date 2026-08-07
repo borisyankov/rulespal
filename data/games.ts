@@ -3123,6 +3123,12 @@ const assets: Game[] = [
     code: 'hands-in-the-sea',
   },
   {
+    bggid: 227460,
+    name: 'Hannibal & Hamilcar',
+    code: 'hannibal-hamilcar',
+    alternativeNames: ['Hannibal and Hamilcar', 'Hannibal & Hamilcar: Rome vs Carthage'],
+  },
+  {
     bggid: 234,
     name: 'Hannibal: Rome vs. Carthage',
     code: 'hannibal-rome-vs-carthage',
