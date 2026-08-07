@@ -6938,6 +6938,18 @@ const assets: Game[] = [
     code: 'the-others-7-sins',
   },
   {
+    bggid: 129948,
+    name: 'The Palaces of Carrara',
+    code: 'the-palaces-of-carrara',
+    alternativeNames: [
+      'Palaces of Carrara',
+      'Die Paläste von Carrara',
+      'Die Palaeste von Carrara',
+      'Les palais de Carrara',
+      'De Paleizen van Carrara',
+    ],
+  },
+  {
     bggid: 24480,
     name: 'The Pillars of the Earth',
     code: 'the-pillars-of-the-earth',
