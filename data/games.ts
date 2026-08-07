@@ -4850,6 +4850,11 @@ const assets: Game[] = [
     code: 'othello',
   },
   {
+    bggid: 172931,
+    name: 'Outfoxed!',
+    code: 'outfoxed',
+  },
+  {
     bggid: 191051,
     name: 'Outlive',
     code: 'outlive',
