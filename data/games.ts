@@ -2899,6 +2899,12 @@ const assets: Game[] = [
     code: 'genotype',
   },
   {
+    bggid: 217780,
+    name: 'Gentes',
+    code: 'gentes',
+    extraSources: ['glossary'],
+  },
+  {
     bggid: 30539,
     name: 'Get Bit!',
     code: 'get-bit',
