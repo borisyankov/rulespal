@@ -3191,6 +3191,15 @@ const assets: Game[] = [
     code: 'illiterati',
   },
   {
+    bggid: 28,
+    name: 'Illuminati',
+    code: 'illuminati',
+    alternativeNames: [
+      'Illuminati: Deluxe Edition',
+      'Illuminati - The Game of Conspiracy',
+    ],
+  },
+  {
     bggid: 191862,
     name: 'Imhotep',
     code: 'imhotep',
