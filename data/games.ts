@@ -7012,6 +7012,18 @@ const assets: Game[] = [
     alternativeNames: ['The LOOP'],
   },
   {
+    bggid: 823,
+    name: 'The Lord of the Rings',
+    code: 'lord-of-the-rings',
+    alternativeNames: [
+      'Lord of the Rings',
+      'The Lord of the Rings: The Boardgame',
+      'The Lord of the Rings Anniversary Edition',
+      'Der Herr der Ringe',
+      'Le Seigneur des Anneaux',
+    ],
+  },
+  {
     bggid: 421006,
     name: 'The Lord of the Rings: Duel for Middle-earth',
     code: 'duel-for-middle-earth',
