@@ -2817,6 +2817,11 @@ const assets: Game[] = [
     code: 'fury-of-dracula',
   },
   {
+    bggid: 171273,
+    name: 'FUSE',
+    code: 'fuse',
+  },
+  {
     bggid: 220308,
     name: 'Gaia Project',
     code: 'gaia-project',
