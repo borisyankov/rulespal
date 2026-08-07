@@ -6713,6 +6713,16 @@ const assets: Game[] = [
     alternativeNames: ['The Castles of Burgundy: Special Edition'],
   },
   {
+    bggid: 191977,
+    name: 'The Castles of Burgundy: The Card Game',
+    code: 'the-castles-of-burgundy-the-card-game',
+    shortName: 'Castles of Burgundy: Card Game',
+    alternativeNames: [
+      'Die Burgen von Burgund: Das Kartenspiel',
+      'Les Châteaux de Bourgogne: Le jeu de cartes',
+    ],
+  },
+  {
     bggid: 300327,
     name: 'The Castles of Tuscany',
     code: 'the-castles-of-tuscany',
