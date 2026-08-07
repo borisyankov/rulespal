@@ -3745,6 +3745,12 @@ const assets: Game[] = [
     alternativeNames: ['Kingdomino: Duel'],
   },
   {
+    bggid: 340041,
+    name: 'Kingdomino Origins',
+    code: 'kingdomino-origins',
+    alternativeNames: ['Kingdomino: Origins', 'Kingdomino Prehistoria'],
+  },
+  {
     bggid: 119,
     name: 'Kingdoms',
     code: 'kingdoms',
