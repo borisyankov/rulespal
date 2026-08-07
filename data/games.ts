@@ -3632,6 +3632,11 @@ const assets: Game[] = [
     shortName: 'Kinfire Delve',
   },
   {
+    bggid: 160499,
+    name: 'King of New York',
+    code: 'king-of-new-york',
+  },
+  {
     bggid: 70323,
     name: 'King of Tokyo',
     code: 'king-of-tokyo',
