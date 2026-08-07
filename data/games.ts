@@ -5714,6 +5714,11 @@ const assets: Game[] = [
     code: 'santorini',
   },
   {
+    bggid: 324090,
+    name: 'Scarface 1920',
+    code: 'scarface-1920',
+  },
+  {
     bggid: 2381,
     name: 'Scattergories',
     code: 'scattergories',
