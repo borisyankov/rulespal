@@ -3476,6 +3476,11 @@ const assets: Game[] = [
     alternativeNames: ['Jamajka'],
   },
   {
+    bggid: 12002,
+    name: 'Jambo',
+    code: 'jambo',
+  },
+  {
     bggid: 855,
     name: 'Java',
     code: 'java',
