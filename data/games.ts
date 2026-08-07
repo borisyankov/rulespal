@@ -2446,6 +2446,11 @@ const assets: Game[] = [
     alternativeNames: ['Noch mal!'],
   },
   {
+    bggid: 351526,
+    name: 'Encyclopedia',
+    code: 'encyclopedia',
+  },
+  {
     bggid: 33160,
     name: 'Endeavor',
     code: 'endeavor',
