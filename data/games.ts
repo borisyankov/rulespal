@@ -6033,6 +6033,11 @@ const assets: Game[] = [
     code: 'shackleton-base',
   },
   {
+    bggid: 24068,
+    name: 'Shadow Hunters',
+    code: 'shadow-hunters',
+  },
+  {
     bggid: 146791,
     name: 'Shadows of Brimstone: City of the Ancients',
     code: 'shadows-of-brimstone-city-of-the-ancients',
