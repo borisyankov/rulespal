@@ -4887,6 +4887,12 @@ const assets: Game[] = [
     shortName: 'Reign of Cthulhu',
   },
   {
+    bggid: 234671,
+    name: 'Pandemic: Rising Tide',
+    code: 'pandemic-rising-tide',
+    shortName: 'Rising Tide',
+  },
+  {
     bggid: 150658,
     name: 'Pandemic: The Cure',
     code: 'pandemic-the-cure',
