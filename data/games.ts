@@ -6916,6 +6916,11 @@ const assets: Game[] = [
     code: 'toy-battle',
   },
   {
+    bggid: 148319,
+    name: 'Tragedy Looper',
+    code: 'tragedy-looper',
+  },
+  {
     bggid: 352454,
     name: 'Trailblazers',
     code: 'trailblazers',
