@@ -5717,6 +5717,11 @@ const assets: Game[] = [
     shortName: 'Sobek',
   },
   {
+    bggid: 287732,
+    name: 'Solar Draft',
+    code: 'solar-draft',
+  },
+  {
     bggid: 170199,
     name: 'Solarius Mission',
     code: 'solarius-mission',
