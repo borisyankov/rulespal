@@ -4810,6 +4810,11 @@ const assets: Game[] = [
     code: 'othello',
   },
   {
+    bggid: 191051,
+    name: 'Outlive',
+    code: 'outlive',
+  },
+  {
     bggid: 319910,
     name: 'Pagan: Fate of Roanoke',
     code: 'pagan-fate-of-roanoke',
