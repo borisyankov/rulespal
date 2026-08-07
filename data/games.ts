@@ -3476,6 +3476,12 @@ const assets: Game[] = [
     code: 'java',
   },
   {
+    bggid: 297129,
+    name: 'Jekyll vs. Hyde',
+    code: 'jekyll-vs-hyde',
+    alternativeNames: ['Jekyll & Hyde', 'Jekyll vs Hyde'],
+  },
+  {
     bggid: 2452,
     name: 'Jenga',
     code: 'jenga',
