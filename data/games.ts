@@ -478,6 +478,11 @@ const assets: Game[] = [
     code: 'arcadia-quest',
   },
   {
+    bggid: 179803,
+    name: 'Arcadia Quest: Inferno',
+    code: 'arcadia-quest-inferno',
+  },
+  {
     bggid: 105551,
     name: 'Archipelago',
     code: 'archipelago',
