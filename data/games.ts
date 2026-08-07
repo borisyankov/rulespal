@@ -2242,6 +2242,11 @@ const assets: Game[] = [
     code: 'earth',
   },
   {
+    bggid: 73171,
+    name: 'Earth Reborn',
+    code: 'earth-reborn',
+  },
+  {
     bggid: 342900,
     name: 'Earthborne Rangers',
     code: 'earthborne-rangers',
