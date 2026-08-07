@@ -7497,6 +7497,12 @@ const assets: Game[] = [
     code: 'unlock-heroic-adventures',
   },
   {
+    bggid: 239307,
+    name: 'Unlock!: Secret Adventures',
+    code: 'unlock-secret-adventures',
+    alternativeNames: ['Unlock! Secret Adventures'],
+  },
+  {
     bggid: 279613,
     name: 'Unlock!: Timeless Adventures',
     code: 'unlock-timeless-adventures',
