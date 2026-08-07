@@ -3162,6 +3162,13 @@ const assets: Game[] = [
     code: 'hero-realms',
   },
   {
+    bggid: 198830,
+    name: 'Heroes of Land, Air & Sea',
+    code: 'heroes-of-land-air-and-sea',
+    alternativeNames: ['Heroes of Land, Air and Sea'],
+    extraSources: ['order-and-chaos', 'pestilence'],
+  },
+  {
     bggid: 699,
     name: 'HeroQuest',
     code: 'heroquest',
