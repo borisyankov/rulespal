@@ -3923,6 +3923,13 @@ const assets: Game[] = [
     code: 'legacy-of-yu',
   },
   {
+    bggid: 52461,
+    name: 'Legacy: The Testament of Duke de Crecy',
+    code: 'legacy-the-testament-of-duke-de-crecy',
+    shortName: 'Legacy',
+    alternativeNames: ['Legacy: The Testament of Duke de Crécy'],
+  },
+  {
     bggid: 184151,
     name: 'Legend of the Five Rings: The Card Game',
     shortName: 'Legend of the Five Rings',
