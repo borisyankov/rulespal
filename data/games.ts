@@ -6093,6 +6093,12 @@ const assets: Game[] = [
     alternativeNames: ['Odlotowy wyścig'],
   },
   {
+    bggid: 329845,
+    name: 'Stella: Dixit Universe',
+    code: 'stella-dixit-universe',
+    shortName: 'Stella',
+  },
+  {
     bggid: 161614,
     name: 'Stockpile',
     code: 'stockpile',
