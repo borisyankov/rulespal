@@ -5279,6 +5279,11 @@ const assets: Game[] = [
     shortName: 'Robinson Crusoe',
   },
   {
+    bggid: 216201,
+    name: 'Robo Rally',
+    code: 'robo-rally',
+  },
+  {
     bggid: 18,
     name: 'RoboRally',
     code: 'roborally',
