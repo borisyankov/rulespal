@@ -4245,6 +4245,12 @@ const assets: Game[] = [
     alternativeNames: ['Middara', 'Middara: Unintentional Malum'],
   },
   {
+    bggid: 31563,
+    name: 'Middle-Earth Quest',
+    code: 'middle-earth-quest',
+    alternativeNames: ['Middle-earth Quest'],
+  },
+  {
     bggid: 346501,
     name: 'Mille Fiori',
     code: 'mille-fiori',
