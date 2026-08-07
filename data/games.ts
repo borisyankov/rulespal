@@ -8436,6 +8436,12 @@ const assets: Game[] = [
     code: 'witchcraft',
   },
   {
+    bggid: 34084,
+    name: "Witch's Brew",
+    code: 'witchs-brew',
+    alternativeNames: ['Wie verhext!', 'Bibidi Bobidi Brew', 'Malédiction'],
+  },
+  {
     bggid: 318560,
     name: 'Witchstone',
     code: 'witchstone',
