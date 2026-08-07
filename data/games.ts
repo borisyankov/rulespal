@@ -6162,6 +6162,11 @@ const assets: Game[] = [
     code: 'sprawlopolis',
   },
   {
+    bggid: 137269,
+    name: 'Spyrium',
+    code: 'spyrium',
+  },
+  {
     bggid: 147020,
     name: 'Star Realms',
     code: 'star-realms',
