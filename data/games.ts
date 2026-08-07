@@ -7604,6 +7604,11 @@ const assets: Game[] = [
     code: 'war-of-the-ring-the-card-game',
   },
   {
+    bggid: 47185,
+    name: 'Warhammer: Invasion',
+    code: 'warhammer-invasion',
+  },
+  {
     bggid: 181521,
     name: 'Warhammer Quest: The Adventure Card Game',
     shortName: 'Warhammer Quest',
