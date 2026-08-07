@@ -7052,6 +7052,11 @@ const assets: Game[] = [
     code: 'the-gallerist',
   },
   {
+    bggid: 173090,
+    name: 'The Game',
+    code: 'the-game',
+  },
+  {
     bggid: 2921,
     name: 'The Game of Life',
     code: 'the-game-of-life',
