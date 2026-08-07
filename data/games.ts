@@ -1487,6 +1487,12 @@ const assets: Game[] = [
     alternativeNames: ['Clever hoch Drei', 'Très futé à la puissance trois', 'Clever tot de 3e macht'],
   },
   {
+    bggid: 272739,
+    name: 'Clinic: Deluxe Edition',
+    shortName: 'Clinic',
+    code: 'clinic-deluxe-edition',
+  },
+  {
     bggid: 316858,
     name: 'CloudAge',
     code: 'cloudage',
