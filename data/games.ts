@@ -2287,6 +2287,11 @@ const assets: Game[] = [
     alternativeNames: ['Noch mal!'],
   },
   {
+    bggid: 33160,
+    name: 'Endeavor',
+    code: 'endeavor',
+  },
+  {
     bggid: 233398,
     name: 'Endeavor: Age of Sail',
     code: 'endeavor-age-of-sail',
