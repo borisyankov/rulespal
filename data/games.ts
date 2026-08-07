@@ -2610,6 +2610,11 @@ const assets: Game[] = [
     shortName: 'Fateforge',
   },
   {
+    bggid: 35497,
+    name: 'Fauna',
+    code: 'fauna',
+  },
+  {
     bggid: 345868,
     name: 'Federation',
     code: 'federation',
