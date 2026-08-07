@@ -1435,6 +1435,12 @@ const assets: Game[] = [
     code: 'chromino',
   },
   {
+    bggid: 347137,
+    name: 'Chronicles of Avel',
+    code: 'chronicles-of-avel',
+    extraSources: ['almanac'],
+  },
+  {
     bggid: 239188,
     name: 'Chronicles of Crime',
     code: 'chronicles-of-crime',
