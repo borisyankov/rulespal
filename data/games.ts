@@ -4838,6 +4838,11 @@ const assets: Game[] = [
     alternativeNames: ['ノコスダイス'],
   },
   {
+    bggid: 274124,
+    name: 'Northgard: Uncharted Lands',
+    code: 'northgard-uncharted-lands',
+  },
+  {
     bggid: 194879,
     name: 'Not Alone',
     code: 'not-alone',
