@@ -2369,6 +2369,12 @@ const assets: Game[] = [
     code: 'egizia',
   },
   {
+    bggid: 142326,
+    name: 'Eight-Minute Empire: Legends',
+    code: 'eight-minute-empire-legends',
+    alternativeNames: ['8 Minute Empire: Legends', '8-Minute Empire: Legends'],
+  },
+  {
     bggid: 9,
     name: 'El Caballero',
     code: 'el-caballero',
