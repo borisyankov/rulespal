@@ -14,6 +14,7 @@
     "tops": "npx tsx scripts/tops.ts",
     "thumbs": "npx tsx scripts/thumbs.ts",
     "embeddings": "npx tsx scripts/embeddings.ts",
+    "ship": "npx tsx scripts/ship-batch.ts",
     "eval:search": "npx tsx evals/rules-search/run.ts"
   },
   "dependencies": {
