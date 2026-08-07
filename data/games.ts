@@ -663,6 +663,11 @@ const assets: Game[] = [
     code: 'backgammon',
   },
   {
+    bggid: 340677,
+    name: 'Bad Company',
+    code: 'bad-company',
+  },
+  {
     bggid: 163,
     name: 'Balderdash',
     code: 'balderdash',
