@@ -8405,6 +8405,11 @@ const assets: Game[] = [
     code: 'wildlands',
   },
   {
+    bggid: 298371,
+    name: 'Wild Space',
+    code: 'wild-space',
+  },
+  {
     bggid: 403441,
     name: 'Windmill Valley',
     code: 'windmill-valley',
