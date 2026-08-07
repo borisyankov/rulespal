@@ -1779,6 +1779,11 @@ const assets: Game[] = [
     code: 'cosmic-encounter',
   },
   {
+    bggid: 204027,
+    name: 'Cottage Garden',
+    code: 'cottage-garden',
+  },
+  {
     bggid: 131357,
     name: 'Coup',
     code: 'coup',
