@@ -3522,6 +3522,12 @@ const assets: Game[] = [
     code: 'kingdomino',
   },
   {
+    bggid: 281960,
+    name: 'Kingdomino Duel',
+    code: 'kingdomino-duel',
+    alternativeNames: ['Kingdomino: Duel'],
+  },
+  {
     bggid: 119,
     name: 'Kingdoms',
     code: 'kingdoms',
