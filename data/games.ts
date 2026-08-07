@@ -4520,6 +4520,11 @@ const assets: Game[] = [
     code: 'mini-rogue',
   },
   {
+    bggid: 200077,
+    name: 'Mint Works',
+    code: 'mint-works',
+  },
+  {
     bggid: 176920,
     name: 'Mission: Red Planet',
     code: 'mission-red-planet',
