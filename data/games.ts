@@ -163,6 +163,13 @@ const assets: Game[] = [
     code: 'abalone',
   },
   {
+    bggid: 239472,
+    name: 'Abomination: The Heir of Frankenstein',
+    code: 'abomination',
+    shortName: 'Abomination',
+    extraSources: ['solo'],
+  },
+  {
     bggid: 172818,
     name: 'Above and Below',
     code: 'above-and-below',
