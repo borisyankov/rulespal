@@ -5497,6 +5497,13 @@ const assets: Game[] = [
     code: 'saint-petersburg',
   },
   {
+    bggid: 156943,
+    name: 'Saint Petersburg (Second Edition)',
+    code: 'saint-petersburg-second-edition',
+    shortName: 'Saint Petersburg 2E',
+    alternativeNames: ['Sankt Petersburg', 'Saint-Petersbourg', 'St. Petersburg', 'Saint Petersburg 2nd Edition'],
+  },
+  {
     bggid: 175549,
     name: 'Salem 1692',
     code: 'salem-1692',
