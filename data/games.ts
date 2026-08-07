@@ -803,6 +803,11 @@ const assets: Game[] = [
     code: 'black-rose-wars-rebirth',
   },
   {
+    bggid: 231218,
+    name: 'Black Sonata',
+    code: 'black-sonata',
+  },
+  {
     bggid: 262215,
     name: 'Blackout: Hong Kong',
     code: 'blackout-hong-kong',
