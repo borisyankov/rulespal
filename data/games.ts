@@ -6963,6 +6963,13 @@ const assets: Game[] = [
     code: 'taverns-of-tiefenthal',
   },
   {
+    bggid: 295293,
+    name: 'The Thing: The Boardgame',
+    code: 'the-thing-the-boardgame',
+    shortName: 'The Thing',
+    alternativeNames: ['The Thing – The Boardgame'],
+  },
+  {
     bggid: 385529,
     name: 'The Vale of Eternity',
     code: 'the-vale-of-eternity',
