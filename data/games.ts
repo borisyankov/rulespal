@@ -7215,6 +7215,11 @@ const assets: Game[] = [
     code: 'the-princes-of-florence',
   },
   {
+    bggid: 181796,
+    name: 'The Prodigals Club',
+    code: 'the-prodigals-club',
+  },
+  {
     bggid: 181687,
     name: 'The Pursuit of Happiness',
     code: 'the-pursuit-of-happiness',
