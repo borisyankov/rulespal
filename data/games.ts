@@ -4221,6 +4221,12 @@ const assets: Game[] = [
     code: 'magical-athlete',
   },
   {
+    bggid: 230080,
+    name: 'Majesty: For the Realm',
+    code: 'majesty-for-the-realm',
+    alternativeNames: ['Majesty'],
+  },
+  {
     bggid: 5086,
     name: 'Electronic Mall Madness',
     code: 'mall-madness',
