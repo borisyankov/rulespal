@@ -6927,6 +6927,14 @@ const assets: Game[] = [
     code: 'thunderstone',
   },
   {
+    bggid: 116998,
+    name: 'Thunderstone Advance: Towers of Ruin',
+    code: 'thunderstone-advance-towers-of-ruin',
+    shortName: 'Thunderstone Advance',
+    alternativeNames: ['Towers of Ruin', 'Thunderstone Advance'],
+    extraSources: ['learn-to-play'],
+  },
+  {
     bggid: 215341,
     name: 'Thunderstone Quest',
     code: 'thunderstone-quest',
