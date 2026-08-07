@@ -7507,6 +7507,11 @@ const assets: Game[] = [
     code: 'welcome-to-the-moon',
   },
   {
+    bggid: 229265,
+    name: 'Wendake',
+    code: 'wendake',
+  },
+  {
     bggid: 219215,
     name: 'Werewords',
     code: 'werewords',
