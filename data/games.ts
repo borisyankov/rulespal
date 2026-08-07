@@ -3973,6 +3973,12 @@ const assets: Game[] = [
     alternativeNames: ['Luthier: The Art of the Instrument'],
   },
   {
+    bggid: 245643,
+    name: 'Luxor',
+    code: 'luxor',
+    alternativeNames: ['Luxor: Forgotten Treasures'],
+  },
+  {
     bggid: 217083,
     name: 'LYNGK',
     code: 'lyngk',
