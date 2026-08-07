@@ -704,6 +704,11 @@ const assets: Game[] = [
     code: 'battle-line',
   },
   {
+    bggid: 234477,
+    name: 'Battle for Rokugan',
+    code: 'battle-for-rokugan',
+  },
+  {
     bggid: 123123,
     name: 'BattleCON: Devastation of Indines',
     code: 'battlecon-devastation-of-indines',
