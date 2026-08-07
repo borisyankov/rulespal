@@ -7298,6 +7298,11 @@ const assets: Game[] = [
     code: 'union-pacific',
   },
   {
+    bggid: 294612,
+    name: 'Unlock!: Epic Adventures',
+    code: 'unlock-epic-adventures',
+  },
+  {
     bggid: 213460,
     name: 'Unlock!: Escape Adventures',
     code: 'unlock-escape-adventures',
