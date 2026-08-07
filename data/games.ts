@@ -7483,6 +7483,12 @@ const assets: Game[] = [
     extraSources: ['learn-to-play'],
   },
   {
+    bggid: 85897,
+    name: 'Thunderstone: Dragonspire',
+    code: 'thunderstone-dragonspire',
+    alternativeNames: ['Thunderstone: Drachenturm', 'Thunderstone: Le pic du dragon'],
+  },
+  {
     bggid: 215341,
     name: 'Thunderstone Quest',
     code: 'thunderstone-quest',
