@@ -7832,6 +7832,12 @@ const assets: Game[] = [
     alternativeNames: ['Unlock! Mystery Adventures'],
   },
   {
+    bggid: 302425,
+    name: 'Unlock!: Mythic Adventures',
+    code: 'unlock-mythic-adventures',
+    alternativeNames: ['Unlock! Mythic Adventures'],
+  },
+  {
     bggid: 239307,
     name: 'Unlock!: Secret Adventures',
     code: 'unlock-secret-adventures',
