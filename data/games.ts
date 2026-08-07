@@ -5167,6 +5167,11 @@ const assets: Game[] = [
     code: 'ra-the-dice-game',
   },
   {
+    bggid: 254386,
+    name: 'Raccoon Tycoon',
+    code: 'raccoon-tycoon',
+  },
+  {
     bggid: 28143,
     name: 'Race for the Galaxy',
     code: 'race-for-the-galaxy',
