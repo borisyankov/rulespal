@@ -1496,6 +1496,11 @@ const assets: Game[] = [
     alternativeNames: ['Circadians: First Light 2nd Edition'],
   },
   {
+    bggid: 213266,
+    name: 'Circle the Wagons',
+    code: 'circle-the-wagons',
+  },
+  {
     bggid: 205398,
     name: 'Citadels',
     code: 'citadels',
