@@ -2276,6 +2276,11 @@ const assets: Game[] = [
     code: 'dragon-castle',
   },
   {
+    bggid: 194880,
+    name: 'Dream Home',
+    code: 'dream-home',
+  },
+  {
     bggid: 447243,
     name: 'Duel for Cardia',
     code: 'duel-for-cardia',
