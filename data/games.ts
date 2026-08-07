@@ -7390,6 +7390,13 @@ const assets: Game[] = [
     code: 'unmatched-cobble-fog',
   },
   {
+    bggid: 354544,
+    name: 'Unmatched: Houdini vs. The Genie',
+    code: 'unmatched-houdini-vs-the-genie',
+    shortName: 'Houdini vs. The Genie',
+    alternativeNames: ['Unmatched: Houdini vs. Le Génie', 'Unmatched: Houdini vs. Le Genie'],
+  },
+  {
     bggid: 284777,
     name: 'Unmatched: Jurassic Park – InGen vs Raptors',
     code: 'unmatched-jurassic-park-ingen-vs-raptors',
