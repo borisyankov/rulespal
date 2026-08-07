@@ -6813,6 +6813,12 @@ const assets: Game[] = [
     shortName: 'Ares Expedition',
   },
   {
+    bggid: 97903,
+    name: 'Terror in Meeple City',
+    code: 'terror-in-meeple-city',
+    alternativeNames: ['Rampage'],
+  },
+  {
     bggid: 371433,
     name: 'Terrorscape',
     code: 'terrorscape',
