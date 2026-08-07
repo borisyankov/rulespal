@@ -1986,6 +1986,12 @@ const assets: Game[] = [
     code: 'dead-mans-draw',
   },
   {
+    bggid: 141423,
+    name: 'Dead Men Tell No Tales',
+    code: 'dead-men-tell-no-tales',
+    alternativeNames: ['Le Trésor de Davy Jones'],
+  },
+  {
     bggid: 150376,
     name: 'Dead of Winter: A Crossroads Game',
     code: 'dead-of-winter',
