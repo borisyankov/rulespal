@@ -4062,6 +4062,12 @@ const assets: Game[] = [
     alternativeNames: ['Lowenherz', 'Lionheart'],
   },
   {
+    bggid: 242804,
+    name: 'Lowlands',
+    code: 'lowlands',
+    alternativeNames: ['Das tiefe Land', 'Les basses terres', 'Tierras Bajas'],
+  },
+  {
     bggid: 118247,
     name: 'Lucky Numbers',
     code: 'lucky-numbers',
