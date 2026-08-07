@@ -3958,6 +3958,11 @@ const assets: Game[] = [
     code: 'lords-of-waterdeep',
   },
   {
+    bggid: 156566,
+    name: 'Lords of Xidit',
+    code: 'lords-of-xidit',
+  },
+  {
     bggid: 203993,
     name: 'Lorenzo il Magnifico',
     code: 'lorenzo-il-magnifico',
