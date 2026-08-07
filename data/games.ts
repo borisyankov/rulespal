@@ -6764,6 +6764,11 @@ const assets: Game[] = [
     code: 'thunder-road-vendetta',
   },
   {
+    bggid: 53953,
+    name: 'Thunderstone',
+    code: 'thunderstone',
+  },
+  {
     bggid: 215341,
     name: 'Thunderstone Quest',
     code: 'thunderstone-quest',
