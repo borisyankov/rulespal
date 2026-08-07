@@ -2367,6 +2367,11 @@ const assets: Game[] = [
     code: 'exploding-kittens',
   },
   {
+    bggid: 176371,
+    name: 'Explorers of the North Sea',
+    code: 'explorers-of-the-north-sea',
+  },
+  {
     bggid: 346205,
     name: 'Explorers of the Woodlands',
     code: 'explorers-of-the-woodlands',
