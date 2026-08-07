@@ -6642,6 +6642,11 @@ const assets: Game[] = [
     code: 'sunrise-lane',
   },
   {
+    bggid: 194517,
+    name: 'Super Fantasy Brawl',
+    code: 'super-fantasy-brawl',
+  },
+  {
     bggid: 341530,
     name: 'Super Mega Lucky Box',
     code: 'super-mega-lucky-box',
