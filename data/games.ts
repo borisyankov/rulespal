@@ -4564,6 +4564,11 @@ const assets: Game[] = [
     alternativeNames: ['ノコスダイス'],
   },
   {
+    bggid: 194879,
+    name: 'Not Alone',
+    code: 'not-alone',
+  },
+  {
     bggid: 25554,
     name: 'Notre Dame',
     code: 'notre-dame',
