@@ -3766,6 +3766,11 @@ const assets: Game[] = [
     code: 'kingsburg',
   },
   {
+    bggid: 223953,
+    name: 'Kitchen Rush',
+    code: 'kitchen-rush',
+  },
+  {
     bggid: 348096,
     name: 'Kites',
     code: 'kites',
