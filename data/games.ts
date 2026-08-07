@@ -8145,6 +8145,15 @@ const assets: Game[] = [
     code: 'woodcraft',
   },
   {
+    bggid: 342848,
+    name: 'World of Warcraft: Wrath of the Lich King',
+    code: 'world-of-warcraft-wrath-of-the-lich-king',
+    shortName: 'WoW: Wrath of the Lich King',
+    alternativeNames: [
+      'World of Warcraft: Wrath of the Lich King – A Pandemic System Board Game',
+    ],
+  },
+  {
     bggid: 403150,
     name: 'World Order',
     code: 'world-order',
