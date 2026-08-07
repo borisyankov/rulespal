@@ -180,6 +180,11 @@ const assets: Game[] = [
     alternativeNames: ['Hoity Toity'],
   },
   {
+    bggid: 202408,
+    name: 'Adrenaline',
+    code: 'adrenaline',
+  },
+  {
     bggid: 271262,
     name: 'Advanced Squad Leader: Starter Kit #4 – Pacific Theater of Operations',
     code: 'advanced-squad-leader-starter-kit-4',
@@ -3093,6 +3098,12 @@ const assets: Game[] = [
     bggid: 284742,
     name: 'Honey Buzz',
     code: 'honey-buzz',
+  },
+  {
+    bggid: 207336,
+    name: 'Honshū',
+    code: 'honshu',
+    alternativeNames: ['Honshu'],
   },
   {
     bggid: 176524,
