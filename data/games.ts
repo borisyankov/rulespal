@@ -1237,6 +1237,11 @@ const assets: Game[] = [
     code: 'caylus',
   },
   {
+    bggid: 284818,
+    name: 'Caylus 1303',
+    code: 'caylus-1303',
+  },
+  {
     bggid: 333372,
     name: 'Cellulose: A Plant Cell Biology Game',
     code: 'cellulose',
