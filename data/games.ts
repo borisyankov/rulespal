@@ -8022,6 +8022,11 @@ const assets: Game[] = [
     code: 'versailles-1919',
   },
   {
+    bggid: 191231,
+    name: 'Via Nebula',
+    code: 'via-nebula',
+  },
+  {
     bggid: 27173,
     name: 'Vikings',
     code: 'vikings',
