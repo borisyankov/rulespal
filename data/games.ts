@@ -3201,6 +3201,11 @@ const assets: Game[] = [
     code: 'hate',
   },
   {
+    bggid: 106217,
+    name: 'Hawaii',
+    code: 'hawaii',
+  },
+  {
     bggid: 366013,
     name: 'Heat: Pedal to the Metal',
     code: 'heat',
