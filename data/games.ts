@@ -5252,6 +5252,17 @@ const assets: Game[] = [
     alternativeNames: ['Risiko Evolution', 'Risk Revolution'],
   },
   {
+    bggid: 66056,
+    name: 'Rivals for Catan',
+    code: 'rivals-for-catan',
+    alternativeNames: [
+      'The Rivals for Catan',
+      'Catan Card Game',
+      'Die Fürsten von Catan',
+      'Catan: Das Duell',
+    ],
+  },
+  {
     bggid: 321108,
     name: 'Riverside',
     code: 'riverside',
