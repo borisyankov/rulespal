@@ -2423,6 +2423,17 @@ const assets: Game[] = [
     alternativeNames: ['EXIT: Das Spiel – Die Grabkammer des Pharao'],
   },
   {
+    bggid: 203417,
+    name: 'EXIT: The Game – The Secret Lab',
+    code: 'exit-the-secret-lab',
+    shortName: 'EXIT: The Secret Lab',
+    alternativeNames: [
+      'EXIT: The Game - The Secret Lab',
+      'EXIT: Das Spiel – Das geheime Labor',
+      'EXIT: Das Spiel - Das geheime Labor',
+    ],
+  },
+  {
     bggid: 379078,
     name: 'Expeditions',
     code: 'expeditions',
