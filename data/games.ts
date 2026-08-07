@@ -5997,6 +5997,17 @@ const assets: Game[] = [
     code: 'skull-king',
   },
   {
+    bggid: 303553,
+    name: 'Skulls of Sedlec',
+    code: 'skulls-of-sedlec',
+    alternativeNames: [
+      'Das Beinhaus von Sedlec',
+      'Calaveras de Sedlec',
+      'La Crypte de Sedlec',
+      'Kostnice Sedlec',
+    ],
+  },
+  {
     bggid: 373106,
     name: 'Sky Team',
     code: 'sky-team',
