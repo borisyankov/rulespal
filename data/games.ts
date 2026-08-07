@@ -1883,6 +1883,11 @@ const assets: Game[] = [
     alternativeNames: ['D-Day Playa de Omaha', 'DDOB'],
   },
   {
+    bggid: 176165,
+    name: 'Dale of Merchants',
+    code: 'dale-of-merchants',
+  },
+  {
     bggid: 197831,
     name: 'Dark Souls: The Board Game',
     code: 'dark-souls',
