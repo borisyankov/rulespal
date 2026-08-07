@@ -5953,6 +5953,11 @@ const assets: Game[] = [
     code: 'sequence',
   },
   {
+    bggid: 228855,
+    name: 'Set a Watch',
+    code: 'set-a-watch',
+  },
+  {
     bggid: 307386,
     name: 'Set a Watch: Swords of the Coin',
     code: 'set-a-watch-swords-of-the-coin',
