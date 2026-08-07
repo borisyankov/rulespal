@@ -4709,6 +4709,11 @@ const assets: Game[] = [
     code: 'paperback',
   },
   {
+    bggid: 56692,
+    name: 'Parade',
+    code: 'parade',
+  },
+  {
     bggid: 2136,
     name: 'Parcheesi',
     code: 'parcheesi',
