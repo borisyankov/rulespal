@@ -2560,6 +2560,11 @@ const assets: Game[] = [
     code: 'fluxx',
   },
   {
+    bggid: 175324,
+    name: 'Fog of Love',
+    code: 'fog-of-love',
+  },
+  {
     bggid: 175914,
     name: 'Food Chain Magnate',
     code: 'food-chain-magnate',
