@@ -3721,6 +3721,12 @@ const assets: Game[] = [
     code: 'las-vegas-royale',
   },
   {
+    bggid: 285984,
+    name: 'Last Bastion',
+    code: 'last-bastion',
+    extraSources: ['power-description'],
+  },
+  {
     bggid: 97842,
     name: 'Last Will',
     code: 'last-will',
