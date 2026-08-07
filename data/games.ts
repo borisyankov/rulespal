@@ -4089,6 +4089,11 @@ const assets: Game[] = [
     code: 'long-shot-the-dice-game',
   },
   {
+    bggid: 136991,
+    name: 'Loony Quest',
+    code: 'loony-quest',
+  },
+  {
     bggid: 222509,
     name: 'Lords of Hellas',
     code: 'lords-of-hellas',
