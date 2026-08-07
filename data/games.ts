@@ -7486,6 +7486,11 @@ const assets: Game[] = [
     code: 'trellis',
   },
   {
+    bggid: 362986,
+    name: 'Tribes of the Wind',
+    code: 'tribes-of-the-wind',
+  },
+  {
     bggid: 163068,
     name: 'Trickerion: Legends of Illusion',
     code: 'trickerion',
