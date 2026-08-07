@@ -93,6 +93,11 @@ const assets: Game[] = [
     code: '7-wonders-duel',
   },
   {
+    bggid: 204516,
+    name: '878 Vikings: Invasions of England',
+    code: '878-vikings-invasions-of-england',
+  },
+  {
     bggid: 127518,
     name: 'A Distant Plain',
     code: 'a-distant-plain',
