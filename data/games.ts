@@ -1939,6 +1939,11 @@ const assets: Game[] = [
     code: 'dice-forge',
   },
   {
+    bggid: 218121,
+    name: 'Dice Hospital',
+    code: 'dice-hospital',
+  },
+  {
     bggid: 216734,
     name: 'Dice Throne: Season One',
     code: 'dice-throne-season-one',
