@@ -808,6 +808,11 @@ const assets: Game[] = [
     code: 'bitoku',
   },
   {
+    bggid: 230244,
+    name: 'Black Angel',
+    code: 'black-angel',
+  },
+  {
     bggid: 156858,
     name: 'Black Orchestra',
     code: 'black-orchestra',
