@@ -6679,6 +6679,11 @@ const assets: Game[] = [
     code: 'the-princes-of-florence',
   },
   {
+    bggid: 181687,
+    name: 'The Pursuit of Happiness',
+    code: 'the-pursuit-of-happiness',
+  },
+  {
     bggid: 244521,
     name: 'The Quacks of Quedlinburg',
     code: 'quacks-of-quedlinburg',
