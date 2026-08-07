@@ -7399,6 +7399,11 @@ const assets: Game[] = [
     code: 'underwater-cities',
   },
   {
+    bggid: 179172,
+    name: 'Unfair',
+    code: 'unfair',
+  },
+  {
     bggid: 340466,
     name: 'Unfathomable',
     code: 'unfathomable',
