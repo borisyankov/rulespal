@@ -5719,6 +5719,11 @@ const assets: Game[] = [
     code: 'small-world',
   },
   {
+    bggid: 309630,
+    name: 'Small World of Warcraft',
+    code: 'small-world-of-warcraft',
+  },
+  {
     bggid: 97786,
     name: 'Small World Underground',
     code: 'small-world-underground',
