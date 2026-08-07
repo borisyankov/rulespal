@@ -2718,6 +2718,13 @@ const assets: Game[] = [
     code: 'fleet-the-dice-game',
   },
   {
+    bggid: 169124,
+    name: "Flick 'em Up!",
+    code: 'flick-em-up',
+    alternativeNames: ['Flick em Up', "Flick'em Up!"],
+    extraSources: ['scenarios'],
+  },
+  {
     bggid: 420087,
     name: 'Flip 7',
     code: 'flip-7',
