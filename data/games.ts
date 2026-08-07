@@ -6801,6 +6801,17 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 22245,
+    name: 'Times Square',
+    code: 'times-square',
+    alternativeNames: [
+      'Royal Visit',
+      'Auf der Reeperbahn nachts um halb zwei',
+      'Visite Royale',
+      'King & Jester',
+    ],
+  },
+  {
     bggid: 36553,
     name: "Time's Up! Title Recall!",
     code: 'times-up-title-recall',
