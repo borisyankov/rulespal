@@ -8125,6 +8125,13 @@ const assets: Game[] = [
     code: 'war-of-the-ring-the-card-game',
   },
   {
+    bggid: 156776,
+    name: 'Warhammer 40,000: Conquest',
+    code: 'warhammer-40000-conquest',
+    alternativeNames: ['Warhammer 40000: Conquest', 'Warhammer 40K: Conquest'],
+    extraSources: ['rules-reference'],
+  },
+  {
     bggid: 47185,
     name: 'Warhammer: Invasion',
     code: 'warhammer-invasion',
