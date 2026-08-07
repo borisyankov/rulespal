@@ -5757,6 +5757,12 @@ const assets: Game[] = [
     code: 'riftforce',
   },
   {
+    bggid: 137297,
+    name: 'Rise of Augustus',
+    code: 'rise-of-augustus',
+    alternativeNames: ['Augustus'],
+  },
+  {
     bggid: 205896,
     name: 'Rising Sun',
     code: 'rising-sun',
