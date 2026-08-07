@@ -8414,6 +8414,12 @@ const assets: Game[] = [
     code: 'witchstone',
   },
   {
+    bggid: 164265,
+    name: 'Witness',
+    code: 'witness',
+    alternativeNames: ['Blake & Mortimer: Witness'],
+  },
+  {
     bggid: 20100,
     name: 'Wits & Wagers',
     code: 'wits-and-wagers',
