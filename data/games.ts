@@ -4876,6 +4876,12 @@ const assets: Game[] = [
     code: 'orapa-mine',
   },
   {
+    bggid: 287084,
+    name: 'Oriflamme',
+    code: 'oriflamme',
+    extraSources: ['two-player-rules'],
+  },
+  {
     bggid: 245487,
     name: 'Orchard: A 9 card solitaire game',
     code: 'orchard',
