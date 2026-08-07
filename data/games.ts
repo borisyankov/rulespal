@@ -2752,6 +2752,11 @@ const assets: Game[] = [
     extraSources: ['scenarios'],
   },
   {
+    bggid: 281194,
+    name: 'Flick of Faith',
+    code: 'flick-of-faith',
+  },
+  {
     bggid: 420087,
     name: 'Flip 7',
     code: 'flip-7',
