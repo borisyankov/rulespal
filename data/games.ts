@@ -1077,6 +1077,16 @@ const assets: Game[] = [
     alternativeNames: ['Cabo'],
   },
   {
+    bggid: 155362,
+    name: "Ca$h 'n Guns: Second Edition",
+    code: 'cash-n-guns-second-edition',
+    shortName: "Ca$h 'n Guns",
+    alternativeNames: [
+      'Cash n Guns Second Edition',
+      "Cash 'n Guns: Second Edition",
+    ],
+  },
+  {
     bggid: 171499,
     name: 'Cacao',
     code: 'cacao',
