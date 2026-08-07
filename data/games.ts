@@ -3525,6 +3525,11 @@ const assets: Game[] = [
     code: 'java',
   },
   {
+    bggid: 272738,
+    name: 'Jaws',
+    code: 'jaws',
+  },
+  {
     bggid: 297129,
     name: 'Jekyll vs. Hyde',
     code: 'jekyll-vs-hyde',
