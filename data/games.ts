@@ -1744,6 +1744,11 @@ const assets: Game[] = [
     code: 'cross-clues',
   },
   {
+    bggid: 256570,
+    name: 'Crown of Emara',
+    code: 'crown-of-emara',
+  },
+  {
     bggid: 170624,
     name: 'Crusaders: Thy Will Be Done',
     code: 'crusaders-thy-will-be-done',
