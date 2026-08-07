@@ -5049,6 +5049,12 @@ const assets: Game[] = [
     shortName: 'The Cure',
   },
   {
+    bggid: 217861,
+    name: 'Paper Tales',
+    code: 'paper-tales',
+    extraSources: ['beyond-the-gates'],
+  },
+  {
     bggid: 141572,
     name: 'Paperback',
     code: 'paperback',
