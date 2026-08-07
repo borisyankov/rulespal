@@ -6725,6 +6725,12 @@ const assets: Game[] = [
     shortName: 'Tash-Kalar',
   },
   {
+    bggid: 306481,
+    name: 'Tawantinsuyu: The Inca Empire',
+    code: 'tawantinsuyu',
+    shortName: 'Tawantinsuyu',
+  },
+  {
     bggid: 297030,
     name: 'Tekhenu: Obelisk of the Sun',
     code: 'tekhenu',
