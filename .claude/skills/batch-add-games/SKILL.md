@@ -41,6 +41,8 @@ Spawn it in the background with a prompt along these lines:
 >
 > **Commit directly to `main`. Never create, switch to, or check out a branch, and never use a worktree.** If `git rev-parse --abbrev-ref HEAD` isn't `main`, stop and report that instead of switching. **Assume another session is running this same batch skill in this same checkout:** re-grep each candidate right before delegating it, re-read `data/games.ts` right before each insert, stage only your game's explicit paths, leave untracked files you didn't create alone, and on a rejected push `git pull --rebase` and retry (never force-push). See the "Branch discipline" and "Working alongside other agents" sections.
 >
+> **If you hit a usage limit, that is a pause, not an ending** — commit and push the games that are finished, wait for the stated reset, then resume this same batch from disk. Don't return a half-batch as if it were complete, and don't drop the remaining games. See "Hitting a usage limit" in the skill.
+>
 > **Report back in under 250 words**: the added games with commit hashes, the skipped ones with a one-line reason each, whether the push succeeded, and any new technique or gotcha worth writing to memory. No per-game detail beyond that. Your report is the ONLY thing that survives this batch — anything you leave out is lost, so put durable findings in it and nothing else.
 >
 > **Do not return until that report is written.** Returning early — with a one-line status, or because a worker is still going — permanently destroys everything your workers learned. If a game is unfinished, still write the full report and say which game is outstanding and where its files are.
@@ -94,6 +96,28 @@ Take it as given that **another session is running this same skill, right now, i
 **Reporting (Step 5/6)**
 - Count the catalog from disk at the end (`grep -c "bggid:" data/games.ts`) rather than adding 10 to the number you saw at the start — the delta includes another session's work, so don't claim it as yours.
 - When you update the missing-list row counts in memory, note if foreign commits you rebased onto also cleared rows.
+
+## Hitting a usage limit — always wait for the reset, then resume
+
+**A usage limit is a pause, never an ending.** When the session, the orchestrator, or a worker stops because the plan's usage limit is reached, the correct response is always the same: wait for the stated reset time, then pick the batch back up where it stopped. Do not treat it as a batch failure, do not report the run as finished, do not quietly drop the remaining games, and never switch to a smaller model to keep going.
+
+Recognise it by the error naming a limit and a reset time ("usage limit reached", "resets at <time>") — that is different from a 529/stream stall, which is transient and retried immediately (see "When a subagent dies").
+
+**While waiting**
+
+- **Land what is already finished first.** Integrate and commit every game whose rulebook and `_src` image are on disk, and push them. Work parked in a commit survives the wait; work parked in a context does not.
+- **Write down where the batch stopped** — which games are done, which are outstanding, and where their partial files are. Put it in the report or the memory file. The reset may outlive the context.
+- **Never clean up while waiting.** Partial rulebooks and `_src` images are the resume point. No `git clean`, `stash`, `reset --hard`, or deleting "abandoned" files — see "Working alongside other agents".
+
+**Resuming**
+
+- **Re-derive state from disk**, exactly as a fresh batch does (Step 1): `grep -c "bggid:" data/games.ts`, `git log --oneline`, `git status --short`. Another session may have added some of your outstanding games while you were paused — re-grep each one before restarting it.
+- **Finish the interrupted batch before starting a new one.** A batch cut in half by a limit is still that batch; resuming it does not count as chaining (Step 6).
+- A worker killed by the limit keeps its downloaded PDF and column bounds. After the reset, try `SendMessage` with its raw agent id before re-spawning cold.
+
+**Under `/loop`:** a limit does not end the loop. Schedule the next wakeup past the reset time rather than stopping — `ScheduleWakeup` clamps to an hour, so for a longer reset chain hourly wakeups that check whether the limit has cleared and return immediately if it hasn't. Say in the reason line that you are waiting on a limit reset.
+
+**Interactively:** tell the user the reset time in one line and that the batch will resume then. Don't ask whether to continue — resuming is the default. Only stop if the user says to.
 
 ## The split: parallel content, serialized integration
 
@@ -224,6 +248,7 @@ The batch is over the moment the orchestrator's report lands. Everything worth k
 
 - **Default to the Step 0 orchestrator.** The main thread spawns one agent and relays one short report; it does not read `data/games.ts`, run npm scripts, or look at thumbnails. Run the batch in the main thread only for the three exceptions listed in Step 0.
 - **One batch = 10 games = one context that dies at the end.** Never reuse an orchestrator, never let one exceed 10 games, never chain two batches in a single context. See Step 6.
+- **A usage limit is a pause, not an ending.** Always commit and push what's finished, wait for the stated reset, then resume the same batch from disk. Never report a limit-interrupted batch as complete, never drop the remaining games, never downgrade the model to push through, and never delete partial work while waiting. See "Hitting a usage limit".
 - **A fresh batch starts from disk.** Catalog count, recent commits, guardrails and the skip list all come from `data/games.ts`, `git log` and the memory files — never from what someone said earlier in the conversation.
 - **Never fabricate rules.** Inherited from add-game — a game with no obtainable real rulebook is skipped, not invented. This is the whole point of the app. **But a skip must be earned:** see add-game's "Before you declare a game unobtainable" checklist. Sourcing is expected to take real effort across many routes, **1jour-1jeu / `cdn.1j1ju.com` must always be one of them**, and "the publisher never released a PDF" is not by itself a valid skip reason — a complete third-party rules document is usable if you disclose it. Require workers to name the routes they tried in any skip report.
 - **Always on `main`.** Never create, switch to, or check out a branch; never use a worktree; never open a PR. If HEAD isn't `main` at the start of a batch, stop and ask the user instead of switching. See "Branch discipline".

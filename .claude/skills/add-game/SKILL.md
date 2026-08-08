@@ -197,6 +197,15 @@ Assume at any moment that **another session, another orchestrator, or a stray su
 - **A failed commit is usually a lock, not an error.** `index.lock` exists means another agent is mid-commit — wait a few seconds and retry rather than removing the lock file.
 - **Push rejections are expected.** `git pull --rebase`, then push again. If the rebase conflicts in `data/games.ts`, the resolution is always "keep both entries, in alphabetical order" — never take one side wholesale, which silently deletes a game someone else just added. **Never `git push --force`** on `main`.
 
+## If you hit a usage limit
+
+**Wait for the reset and resume — a limit is a pause, never an ending.** Don't abandon the game, don't report it as skipped or unobtainable, and don't switch to a smaller model to push through.
+
+- **Commit whatever is already complete** before the wait. A rulebook parked in a commit survives; one parked in a context doesn't.
+- **Leave partial work alone.** The downloaded PDF, the half-written markdown and the `_src` image are the resume point — no cleanup while waiting.
+- **Note where you stopped** (which step, which files exist) so the resume doesn't redo the sourcing.
+- **On resume, re-check `data/games.ts`** — another session may have added the game while you were paused, in which case drop yours (see "Working alongside other agents").
+
 ## Verification checklist
 
 - [ ] `data/rulebooks/<code>-rulebook.md` exists; starts with `# <Name> Rulebook`; intro under `## Table of Contents`.
