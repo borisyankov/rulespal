@@ -5202,6 +5202,12 @@ const assets: Game[] = [
     shortName: 'The Cure',
   },
   {
+    bggid: 291962,
+    name: 'Paper Dungeons: A Dungeon Scrawler Game',
+    code: 'paper-dungeons',
+    shortName: 'Paper Dungeons',
+  },
+  {
     bggid: 217861,
     name: 'Paper Tales',
     code: 'paper-tales',
