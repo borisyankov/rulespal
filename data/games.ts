@@ -8130,6 +8130,12 @@ const assets: Game[] = [
     alternativeNames: ['Unlock! Escape Adventures', 'Unlock!: Szabadulós kalandok'],
   },
   {
+    bggid: 254226,
+    name: 'Unlock!: Exotic Adventures',
+    code: 'unlock-exotic-adventures',
+    alternativeNames: ['Unlock! Exotic Adventures', 'Unlock! 4: Exotic Adventures'],
+  },
+  {
     bggid: 266121,
     name: 'Unlock!: Heroic Adventures',
     code: 'unlock-heroic-adventures',
