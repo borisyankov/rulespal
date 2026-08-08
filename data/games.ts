@@ -7528,6 +7528,12 @@ const assets: Game[] = [
     code: 'the-vale-of-eternity',
   },
   {
+    bggid: 25821,
+    name: "The Werewolves of Miller's Hollow",
+    code: 'the-werewolves-of-millers-hollow',
+    alternativeNames: ['Les Loups-Garous de Thiercelieux', 'The Werewolves of Millers Hollow'],
+  },
+  {
     bggid: 371942,
     name: 'The White Castle',
     code: 'the-white-castle',
