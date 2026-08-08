@@ -4999,6 +4999,11 @@ const assets: Game[] = [
     code: 'night-at-the-zoo',
   },
   {
+    bggid: 50768,
+    name: 'Ninjato',
+    code: 'ninjato',
+  },
+  {
     bggid: 154809,
     name: 'Nippon',
     code: 'nippon',
