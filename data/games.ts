@@ -6296,6 +6296,13 @@ const assets: Game[] = [
     code: 'sheriff-of-nottingham',
   },
   {
+    bggid: 223931,
+    name: "Sherlock Holmes Consulting Detective: Carlton House & Queen's Park",
+    code: 'sherlock-holmes-carlton-house',
+    shortName: 'Sherlock Holmes: Carlton House',
+    alternativeNames: ["Carlton House & Queen's Park"],
+  },
+  {
     bggid: 2511,
     name: 'Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases',
     code: 'sherlock-holmes-consulting-detective',
