@@ -5550,6 +5550,11 @@ const assets: Game[] = [
     alternativeNames: ['Quantum: Revised Edition'],
   },
   {
+    bggid: 159473,
+    name: 'Quartermaster General',
+    code: 'quartermaster-general',
+  },
+  {
     bggid: 232043,
     name: 'Queendomino',
     code: 'queendomino',
