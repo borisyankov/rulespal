@@ -757,6 +757,11 @@ const assets: Game[] = [
     alternativeNames: ['BattleLore', 'BattleLore Second Edition'],
   },
   {
+    bggid: 67492,
+    name: 'Battles of Westeros',
+    code: 'battles-of-westeros',
+  },
+  {
     bggid: 2425,
     name: 'Battleship',
     code: 'battleship',
