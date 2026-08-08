@@ -4009,6 +4009,11 @@ const assets: Game[] = [
     alternativeNames: ['Kutna Hora', 'Kutna Hora: The City of Silver'],
   },
   {
+    bggid: 151771,
+    name: 'La Cosa Nostra',
+    code: 'la-cosa-nostra',
+  },
+  {
     bggid: 146886,
     name: 'La Granja',
     code: 'la-granja',
