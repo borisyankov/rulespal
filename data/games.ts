@@ -7293,6 +7293,11 @@ const assets: Game[] = [
     alternativeNames: ['The Hobbit: There & Back Again'],
   },
   {
+    bggid: 339906,
+    name: 'The Hunger',
+    code: 'the-hunger',
+  },
+  {
     bggid: 113873,
     name: 'The Hunters: German U-Boats at War, 1939-43',
     code: 'the-hunters',
