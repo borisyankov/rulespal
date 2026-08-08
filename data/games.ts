@@ -4868,6 +4868,11 @@ const assets: Game[] = [
     code: 'namiji',
   },
   {
+    bggid: 249746,
+    name: 'Nanty Narking',
+    code: 'nanty-narking',
+  },
+  {
     bggid: 126042,
     name: 'Nations',
     code: 'nations',
