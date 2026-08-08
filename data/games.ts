@@ -4993,6 +4993,12 @@ const assets: Game[] = [
     code: 'ohanami',
   },
   {
+    bggid: 293835,
+    name: 'Oltréé',
+    code: 'oltree',
+    alternativeNames: ['Oltree', 'Oltre'],
+  },
+  {
     bggid: 184267,
     name: 'On Mars',
     code: 'on-mars',
