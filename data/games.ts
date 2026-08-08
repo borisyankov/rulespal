@@ -5740,6 +5740,11 @@ const assets: Game[] = [
     extraSources: ['solo'],
   },
   {
+    bggid: 42452,
+    name: 'Rattus',
+    code: 'rattus',
+  },
+  {
     bggid: 399941,
     name: 'River of Gold',
     code: 'river-of-gold',
