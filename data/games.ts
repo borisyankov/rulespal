@@ -4532,6 +4532,12 @@ const assets: Game[] = [
     code: 'medieval-academy',
   },
   {
+    bggid: 167270,
+    name: 'Medina (Second Edition)',
+    code: 'medina',
+    alternativeNames: ['Medina'],
+  },
+  {
     bggid: 193214,
     name: 'Meeple Circus',
     code: 'meeple-circus',
