@@ -1244,6 +1244,12 @@ const assets: Game[] = [
     alternativeNames: ['Carcassonne: Hunters & Gatherers', 'Carcassonne: Jäger und Sammler'],
   },
   {
+    bggid: 147303,
+    name: 'Carcassonne: South Seas',
+    code: 'carcassonne-south-seas',
+    alternativeNames: ['Carcassonne: Südsee', 'Carcassonne: Mers du Sud'],
+  },
+  {
     bggid: 7717,
     name: 'Carcassonne: The Castle',
     code: 'carcassonne-the-castle',
