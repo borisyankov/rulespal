@@ -136,6 +136,12 @@ const assets: Game[] = [
     code: 'a-game-of-thrones-board-game',
   },
   {
+    bggid: 39953,
+    name: 'A Game of Thrones: The Card Game',
+    code: 'a-game-of-thrones-the-card-game',
+    alternativeNames: ['A Game of Thrones LCG'],
+  },
+  {
     bggid: 169255,
     name: 'A Game of Thrones: The Card Game (Second Edition)',
     shortName: 'A Game of Thrones (2E)',
