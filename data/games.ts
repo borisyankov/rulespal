@@ -2114,6 +2114,11 @@ const assets: Game[] = [
     code: 'decrypto',
   },
   {
+    bggid: 202077,
+    name: 'Deep Madness',
+    code: 'deep-madness',
+  },
+  {
     bggid: 169654,
     name: 'Deep Sea Adventure',
     code: 'deep-sea-adventure',
