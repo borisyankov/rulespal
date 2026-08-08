@@ -7936,6 +7936,13 @@ const assets: Game[] = [
     code: 'trajan',
   },
   {
+    bggid: 288513,
+    name: 'Tranquility',
+    code: 'tranquility',
+    alternativeNames: ['Tranquillity'],
+    extraSources: ['variants'],
+  },
+  {
     bggid: 904,
     name: 'Traumfabrik',
     code: 'traumfabrik',
