@@ -7641,6 +7641,13 @@ const assets: Game[] = [
     code: 'ticket-to-ride-europe',
   },
   {
+    bggid: 225244,
+    name: 'Ticket to Ride: Germany',
+    code: 'ticket-to-ride-germany',
+    shortName: 'Germany',
+    alternativeNames: ['Les Aventuriers du Rail: Allemagne'],
+  },
+  {
     bggid: 366488,
     name: 'Ticket to Ride: Ghost Train',
     code: 'ticket-to-ride-ghost-train',
