@@ -765,7 +765,9 @@ Playtesting: Kai Li, Byron Leavitt, Madelaine Dumas, Andrew Izquierdo, Craig Mil
 
 © 2019 Diemension Games, Inc. All rights reserved. No part of this product may be reproduced without specific permission. Deep Madness and Diemension Games are trademarks of Diemension Games, Inc. Actual components may vary from those shown. Made in China. THIS PRODUCT IS NOT A TOY. NOT INTENDED FOR USE BY PERSONS 13 YEARS OF AGE OR YOUNGER.
 
-# Storybook
+## Storybook
+
+The storybook contains the eight chapters of Deep Madness. Choose one chapter to play and follow its setup instructions and special rules.
 
 ## Chapter 1: Crawling Asphyxia
 
