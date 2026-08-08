@@ -8269,6 +8269,11 @@ const assets: Game[] = [
     extraSources: ['advanced'],
   },
   {
+    bggid: 187377,
+    name: 'Vikings Gone Wild',
+    code: 'vikings-gone-wild',
+  },
+  {
     bggid: 104006,
     name: 'Village',
     code: 'village',
