@@ -8291,6 +8291,11 @@ const assets: Game[] = [
     alternativeNames: ['Nezastavitelní', 'Непобедимые'],
   },
   {
+    bggid: 361241,
+    name: 'Vaalbara',
+    code: 'vaalbara',
+  },
+  {
     bggid: 2536,
     name: 'Vabanque',
     code: 'vabanque',
