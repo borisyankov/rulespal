@@ -3412,6 +3412,13 @@ const assets: Game[] = [
     alternativeNames: ['Top Secret Spies', 'Under Cover', 'CIA'],
   },
   {
+    bggid: 243759,
+    name: 'Hellboy: The Board Game',
+    code: 'hellboy',
+    shortName: 'Hellboy',
+    extraSources: ['tutorial'],
+  },
+  {
     bggid: 17392,
     name: 'Here I Stand',
     code: 'here-i-stand',
