@@ -1874,6 +1874,11 @@ const assets: Game[] = [
     code: 'cribbage',
   },
   {
+    bggid: 128721,
+    name: 'Crisis',
+    code: 'crisis',
+  },
+  {
     bggid: 393429,
     name: 'Critter Kitchen',
     code: 'critter-kitchen',
