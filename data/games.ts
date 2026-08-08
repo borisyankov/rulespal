@@ -8318,6 +8318,11 @@ const assets: Game[] = [
     code: 'via-nebula',
   },
   {
+    bggid: 157526,
+    name: 'Viceroy',
+    code: 'viceroy',
+  },
+  {
     bggid: 27173,
     name: 'Vikings',
     code: 'vikings',
