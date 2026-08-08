@@ -7943,6 +7943,12 @@ const assets: Game[] = [
     extraSources: ['variants'],
   },
   {
+    bggid: 257527,
+    name: 'Trapwords',
+    code: 'trapwords',
+    extraSources: ['overview'],
+  },
+  {
     bggid: 904,
     name: 'Traumfabrik',
     code: 'traumfabrik',
