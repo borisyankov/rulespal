@@ -2371,6 +2371,11 @@ const assets: Game[] = [
     code: 'dune-war-for-arrakis',
   },
   {
+    bggid: 102548,
+    name: 'Dungeon Fighter',
+    code: 'dungeon-fighter',
+  },
+  {
     bggid: 45315,
     name: 'Dungeon Lords',
     code: 'dungeon-lords',
