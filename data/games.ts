@@ -8475,6 +8475,12 @@ const assets: Game[] = [
     code: 'watergate',
   },
   {
+    bggid: 182694,
+    name: 'Watson & Holmes',
+    code: 'watson-holmes',
+    alternativeNames: ['Watson and Holmes', 'Watson & Holmes: From the Diaries of 221B'],
+  },
+  {
     bggid: 262543,
     name: 'Wavelength',
     code: 'wavelength',
