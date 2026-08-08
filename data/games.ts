@@ -6117,6 +6117,11 @@ const assets: Game[] = [
     code: 'santiago',
   },
   {
+    bggid: 104347,
+    name: 'Santiago de Cuba',
+    code: 'santiago-de-cuba',
+  },
+  {
     bggid: 194655,
     name: 'Santorini',
     code: 'santorini',
