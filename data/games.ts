@@ -4149,6 +4149,12 @@ const assets: Game[] = [
     code: 'living-planet',
   },
   {
+    bggid: 330038,
+    name: 'Llamaland',
+    code: 'llamaland',
+    extraSources: ['solo'],
+  },
+  {
     bggid: 240855,
     name: 'Lockup: A Roll Player Tale',
     code: 'lockup',
