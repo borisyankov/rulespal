@@ -7038,6 +7038,11 @@ const assets: Game[] = [
     ],
   },
   {
+    bggid: 335609,
+    name: 'TEN',
+    code: 'ten',
+  },
+  {
     bggid: 229853,
     name: 'Teotihuacan: City of Gods',
     code: 'teotihuacan',
