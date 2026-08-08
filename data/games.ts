@@ -2035,6 +2035,12 @@ const assets: Game[] = [
     code: 'dale-of-merchants',
   },
   {
+    bggid: 191597,
+    name: 'Dale of Merchants 2',
+    code: 'dale-of-merchants-2',
+    alternativeNames: ['Tal der Kaufleute 2', 'La Vallée des Marchands 2'],
+  },
+  {
     bggid: 197831,
     name: 'Dark Souls: The Board Game',
     code: 'dark-souls',
