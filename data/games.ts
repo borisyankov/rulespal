@@ -5812,6 +5812,11 @@ const assets: Game[] = [
     code: 'relic-runners',
   },
   {
+    bggid: 300001,
+    name: 'Renature',
+    code: 'renature',
+  },
+  {
     bggid: 111,
     name: 'Rheinländer',
     code: 'rheinlander',
