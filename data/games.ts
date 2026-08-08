@@ -1258,6 +1258,11 @@ const assets: Game[] = [
     code: 'carnegie',
   },
   {
+    bggid: 231484,
+    name: 'Carnival of Monsters',
+    code: 'carnival-of-monsters',
+  },
+  {
     bggid: 245934,
     name: 'Carpe Diem',
     code: 'carpe-diem',
