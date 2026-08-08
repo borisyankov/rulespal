@@ -1256,6 +1256,12 @@ const assets: Game[] = [
     alternativeNames: ['Carcassonne: Die Burg', 'Carcassonne: De Burcht'],
   },
   {
+    bggid: 131014,
+    name: 'Carcassonne: Winter Edition',
+    code: 'carcassonne-winter-edition',
+    alternativeNames: ['Carcassonne Winter Edition'],
+  },
+  {
     bggid: 50381,
     name: 'Cards Against Humanity',
     code: 'cards-against-humanity',
