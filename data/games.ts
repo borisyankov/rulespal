@@ -1363,6 +1363,12 @@ const assets: Game[] = [
     code: 'caylus-1303',
   },
   {
+    bggid: 27364,
+    name: 'Caylus Magna Carta',
+    code: 'caylus-magna-carta',
+    extraSources: ['beginner-rules'],
+  },
+  {
     bggid: 333372,
     name: 'Cellulose: A Plant Cell Biology Game',
     code: 'cellulose',
