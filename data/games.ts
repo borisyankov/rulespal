@@ -14,6 +14,13 @@ const assets: Game[] = [
     alternativeNames: ['1775 Rebellion'],
   },
   {
+    bggid: 94246,
+    name: '1812: The Invasion of Canada',
+    shortName: '1812',
+    code: '1812-the-invasion-of-canada',
+    alternativeNames: ['1812 The Invasion of Canada', '1812'],
+  },
+  {
     bggid: 421,
     name: '1830: Railways & Robber Barons',
     shortName: '1830',
