@@ -6849,6 +6849,11 @@ const assets: Game[] = [
     code: 'stone-age',
   },
   {
+    bggid: 323156,
+    name: 'Stroganov',
+    code: 'stroganov',
+  },
+  {
     bggid: 9625,
     name: 'Struggle of Empires',
     code: 'struggle-of-empires',
