@@ -7636,6 +7636,12 @@ const assets: Game[] = [
     code: 'thunder-road-vendetta',
   },
   {
+    bggid: 160610,
+    name: 'Thunderbirds',
+    code: 'thunderbirds',
+    alternativeNames: ['Thunderbirds Co-operative Board Game'],
+  },
+  {
     bggid: 53953,
     name: 'Thunderstone',
     code: 'thunderstone',
