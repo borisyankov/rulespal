@@ -1583,6 +1583,12 @@ const assets: Game[] = [
     code: 'claustrophobia',
   },
   {
+    bggid: 257518,
+    name: 'Claustrophobia 1643',
+    code: 'claustrophobia-1643',
+    extraSources: ['scenarios'],
+  },
+  {
     bggid: 22141,
     name: 'Cleopatra and the Society of Architects',
     code: 'cleopatra',
