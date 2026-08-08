@@ -2743,6 +2743,12 @@ const assets: Game[] = [
     code: 'fauna',
   },
   {
+    bggid: 7805,
+    name: 'Fearsome Floors',
+    code: 'fearsome-floors',
+    alternativeNames: ['Finstere Flure'],
+  },
+  {
     bggid: 345868,
     name: 'Federation',
     code: 'federation',
