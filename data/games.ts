@@ -3544,6 +3544,11 @@ const assets: Game[] = [
     alternativeNames: ['Horrified: Universal Monsters'],
   },
   {
+    bggid: 134253,
+    name: 'Hostage Negotiator',
+    code: 'hostage-negotiator',
+  },
+  {
     bggid: 446497,
     name: 'Hot Streak',
     code: 'hot-streak',
